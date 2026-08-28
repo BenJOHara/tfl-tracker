@@ -1,31 +1,47 @@
 <!doctype html>
-<html lang="en-GB">
+<html lang="en-GB">">
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta name="theme-color" content="#080b09">
+    <meta name="theme-color" content="#f4f5f7">
     <title>TfL Incident Tracker</title>
-    <link rel="stylesheet" href="./style.css?v=tui-2">
+    <link rel="stylesheet" href="./style.css?v=themes-1">
 </head>
-<body>
+<body data-theme="clean">
+    <nav class="theme-tabs" aria-label="Choose visual style">
+        <div class="theme-tabs-inner">
+            <span class="theme-label">STYLE</span>
+            <button type="button" data-theme-choice="clean">01 Clean</button>
+            <button type="button" data-theme-choice="tfl">02 TfL</button>
+            <button type="button" data-theme-choice="terminal">03 TUI</button>
+            <button type="button" data-theme-choice="light">04 Light</button>
+            <button type="button" data-theme-choice="swiss">05 Swiss</button>
+            <button type="button" data-theme-choice="brutal">06 Brutal</button>
+            <button type="button" data-theme-choice="paper">07 Paper</button>
+            <button type="button" data-theme-choice="midnight">08 Midnight</button>
+            <button type="button" data-theme-choice="crt">09 CRT</button>
+            <button type="button" data-theme-choice="ops">10 Ops</button>
+        </div>
+    </nav>
+
     <main>
         <header>
             <div>
-                <div class="prompt"><span class="host">ben@london</span>:<span class="path">~</span>$ tfl-status --watch</div>
-                <h1>TFL INCIDENT TRACKER</h1>
-                <p>live disruption age // historical duration // remaining-time estimate</p>
+                <div class="eyebrow">LONDON TRANSPORT STATUS</div>
+                <h1>TfL Incident Tracker</h1>
+                <p>Live disruption age, historical duration and remaining-time estimates.</p>
             </div>
-            <div id="poll-status" class="status">[ loading ]</div>
+            <div id="poll-status" class="status">Loading</div>
         </header>
 
         <section>
-            <div class="section-title"><h2>┌─ SYSTEM ─────────────────────────────────────────────────────────────</h2></div>
+            <div class="section-title"><h2>System</h2></div>
             <div id="summary" class="summary"></div>
         </section>
 
         <section>
             <div class="section-title">
-                <h2>┌─ ACTIVE DISRUPTIONS ───────────────────────────────────────────────</h2>
+                <h2>Active disruptions</h2>
                 <span id="updated"></span>
             </div>
             <div id="active" class="active-list"></div>
@@ -33,19 +49,19 @@
 
         <section>
             <div class="section-title">
-                <h2>┌─ INCIDENT HISTORY ─────────────────────────────────────────────────</h2>
-                <label class="history-control">rows=<select id="history-limit" aria-label="History size"><option value="25">25</option><option value="100" selected>100</option><option value="250">250</option></select></label>
+                <h2>Incident history</h2>
+                <label class="history-control">Rows <select id="history-limit" aria-label="History size"><option value="25">25</option><option value="100" selected>100</option><option value="250">250</option></select></label>
             </div>
             <div class="table-wrap">
                 <table>
-                    <thead><tr><th>LINE</th><th>CAUSE</th><th>STATUS</th><th>DURATION</th><th>RESOLVED</th><th>MESSAGE</th></tr></thead>
+                    <thead><tr><th>Line</th><th>Cause</th><th>Status</th><th>Duration</th><th>Resolved</th><th>Message</th></tr></thead>
                     <tbody id="history"></tbody>
                 </table>
             </div>
         </section>
 
-        <footer>└─ data: Transport for London // unofficial project</footer>
+        <footer>Data provided by Transport for London · Unofficial project</footer>
     </main>
-    <script src="./app.js?v=tui-2" defer></script>
+    <script src="./app.js?v=themes-1" defer></script>
 </body>
 </html>
