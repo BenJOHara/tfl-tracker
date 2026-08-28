@@ -10,23 +10,23 @@
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "circle:text:3ccf3abdbfc1995f": {
-      "category": "signal failure",
-      "first_seen": "2026-08-28T16:43:13Z",
-      "issue_key": "circle:text:3ccf3abdbfc1995f",
+    "circle:text:bf9bb7504db7ea4d": {
+      "category": "other",
+      "first_seen": "2026-08-28T18:10:55Z",
+      "issue_key": "circle:text:bf9bb7504db7ea4d",
       "line_id": "circle",
       "line_name": "Circle",
-      "reason": "Circle Line: Severe delays due to an earlier signal failure at South Kensington. Tickets will be accepted on London Buses.",
-      "severity": "Severe Delays",
+      "reason": "Circle Line: Minor delays due to train cancellations",
+      "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "district:text:49131617ae9d8e02": {
-      "category": "signal failure",
-      "first_seen": "2026-08-28T16:43:13Z",
-      "issue_key": "district:text:49131617ae9d8e02",
+    "district:text:fbd95da372bc7301": {
+      "category": "points failure",
+      "first_seen": "2026-08-28T18:10:55Z",
+      "issue_key": "district:text:fbd95da372bc7301",
       "line_id": "district",
       "line_name": "District",
-      "reason": "District Line: Minor delays between Earl's Court and Richmond/Wimbledon and between Earl's Court and Barking eastbound only due to an earlier signal failure at South Kensington. GOOD SERVICE on the rest of the line.",
+      "reason": "District Line: Minor delays between Tower Hill and Barking eastbound only due to an earlier points failure at South Kensington. GOOD SERVICE on the rest of the line.",
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
@@ -38,6 +38,16 @@
       "line_name": "Hammersmith & City",
       "reason": "Hammersmith and City Line: Minor delays due to train cancellations.",
       "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "jubilee:text:54e5b0dc231b08eb": {
+      "category": "other",
+      "first_seen": "2026-08-28T18:10:55Z",
+      "issue_key": "jubilee:text:54e5b0dc231b08eb",
+      "line_id": "jubilee",
+      "line_name": "Jubilee",
+      "reason": "JUBILEE LINE: Suspended between Wembley Park and Willesden Green while we respond to a fire at Neasden.",
+      "severity": "Part Suspended",
       "source_created": "0001-01-01T00:00:00"
     },
     "jubilee:text:a42c433caaf2fd24": {
@@ -57,6 +67,16 @@
       "line_id": "metropolitan",
       "line_name": "Metropolitan",
       "reason": "Metropolitan Line: No service between Harrow-on-the-Hill and Aldgate while we respond to a fire at Neasden. SEVERE DELAYS on the rest of the line. Chiltern railway services are running between Amersham and Aylesbury. Tickets will be accepted on London Buses, Lioness Line, London Northwestern Railway and Thameslink services.",
+      "severity": "Part Suspended",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "metropolitan:text:bbd44206697d4636": {
+      "category": "other",
+      "first_seen": "2026-08-28T18:10:55Z",
+      "issue_key": "metropolitan:text:bbd44206697d4636",
+      "line_id": "metropolitan",
+      "line_name": "Metropolitan",
+      "reason": "METROPOLITAN LINE: Suspended between Harrow-on-the-Hill and Aldgate while we respond to a fire at Neasden.",
       "severity": "Part Suspended",
       "source_created": "0001-01-01T00:00:00"
     },
@@ -94,6 +114,30 @@
   "history": [
     {
       "category": "signal failure",
+      "duration_seconds": 5262,
+      "first_seen": "2026-08-28T16:43:13Z",
+      "issue_key": "circle:text:3ccf3abdbfc1995f",
+      "line_id": "circle",
+      "line_name": "Circle",
+      "reason": "Circle Line: Severe delays due to an earlier signal failure at South Kensington. Tickets will be accepted on London Buses.",
+      "resolved_at": "2026-08-28T18:10:55Z",
+      "severity": "Severe Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "signal failure",
+      "duration_seconds": 5262,
+      "first_seen": "2026-08-28T16:43:13Z",
+      "issue_key": "district:text:49131617ae9d8e02",
+      "line_id": "district",
+      "line_name": "District",
+      "reason": "District Line: Minor delays between Earl's Court and Richmond/Wimbledon and between Earl's Court and Barking eastbound only due to an earlier signal failure at South Kensington. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-08-28T18:10:55Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "signal failure",
       "duration_seconds": 717,
       "first_seen": "2026-08-28T16:31:16Z",
       "issue_key": "circle:text:1bd58b2989ef990e",
@@ -117,6 +161,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-08-28T16:43:13Z",
+  "updated_at": "2026-08-28T18:10:55Z",
   "version": 1
 }
