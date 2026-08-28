@@ -1,0 +1,49 @@
+.line-link {
+    appearance: none;
+    border: 0;
+    padding: 0;
+    background: transparent;
+    color: inherit;
+    font: inherit;
+    font-weight: inherit;
+    text-align: left;
+    cursor: pointer;
+}
+
+.line-link:hover,
+.line-link:focus-visible {
+    text-decoration: underline;
+}
+
+.line-filter-clear {
+    margin-left: auto;
+    border: 0;
+    padding: 0;
+    background: transparent;
+    color: var(--accent-2);
+    font: inherit;
+    font-size: 0.73rem;
+    cursor: pointer;
+    white-space: nowrap;
+}
+
+.line-filter-clear:hover,
+.line-filter-clear:focus-visible {
+    text-decoration: underline;
+}
+
+body[data-theme="bare"] .line-link {
+    text-decoration: underline;
+    text-decoration-color: color-mix(in srgb, var(--line-colour, #777) 55%, transparent);
+    text-underline-offset: 2px;
+}
+
+body[data-theme="bare"] .line-link:hover,
+body[data-theme="bare"] .line-link:focus-visible {
+    text-decoration-color: var(--line-colour, #111);
+}
+
+body[data-theme="bare"] .line-filter-clear {
+    color: #333333;
+    font-size: 11px;
+}
