@@ -10,23 +10,23 @@
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "circle:text:1bd58b2989ef990e": {
+    "circle:text:3ccf3abdbfc1995f": {
       "category": "signal failure",
-      "first_seen": "2026-08-28T16:31:16Z",
-      "issue_key": "circle:text:1bd58b2989ef990e",
+      "first_seen": "2026-08-28T16:43:13Z",
+      "issue_key": "circle:text:3ccf3abdbfc1995f",
       "line_id": "circle",
       "line_name": "Circle",
-      "reason": "Circle Line: No service anticlockwise and MINOR DELAYS clockwise due to an earlier signal failure at South Kensington.",
-      "severity": "Part Suspended",
+      "reason": "Circle Line: Severe delays due to an earlier signal failure at South Kensington. Tickets will be accepted on London Buses.",
+      "severity": "Severe Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "district:text:fc68d8fe2dd5faa0": {
+    "district:text:49131617ae9d8e02": {
       "category": "signal failure",
-      "first_seen": "2026-08-28T16:31:16Z",
-      "issue_key": "district:text:fc68d8fe2dd5faa0",
+      "first_seen": "2026-08-28T16:43:13Z",
+      "issue_key": "district:text:49131617ae9d8e02",
       "line_id": "district",
       "line_name": "District",
-      "reason": "District Line: Minor delays between Barking and Ealing Broadway/Richmond/ Wimbledon and between Edgware Road and Wimbledon due to an earlier signal failure at South Kensington. GOOD SERVICE on the rest of the line.",
+      "reason": "District Line: Minor delays between Earl's Court and Richmond/Wimbledon and between Earl's Court and Barking eastbound only due to an earlier signal failure at South Kensington. GOOD SERVICE on the rest of the line.",
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
@@ -91,7 +91,32 @@
       "source_created": "0001-01-01T00:00:00"
     }
   },
-  "history": [],
-  "updated_at": "2026-08-28T16:31:16Z",
+  "history": [
+    {
+      "category": "signal failure",
+      "duration_seconds": 717,
+      "first_seen": "2026-08-28T16:31:16Z",
+      "issue_key": "circle:text:1bd58b2989ef990e",
+      "line_id": "circle",
+      "line_name": "Circle",
+      "reason": "Circle Line: No service anticlockwise and MINOR DELAYS clockwise due to an earlier signal failure at South Kensington.",
+      "resolved_at": "2026-08-28T16:43:13Z",
+      "severity": "Part Suspended",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "signal failure",
+      "duration_seconds": 717,
+      "first_seen": "2026-08-28T16:31:16Z",
+      "issue_key": "district:text:fc68d8fe2dd5faa0",
+      "line_id": "district",
+      "line_name": "District",
+      "reason": "District Line: Minor delays between Barking and Ealing Broadway/Richmond/ Wimbledon and between Edgware Road and Wimbledon due to an earlier signal failure at South Kensington. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-08-28T16:43:13Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    }
+  ],
+  "updated_at": "2026-08-28T16:43:13Z",
   "version": 1
 }
