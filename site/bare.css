@@ -1,0 +1,280 @@
+body[data-theme="bare"] {
+    --bg: #fafafa;
+    --panel: transparent;
+    --panel-alt: transparent;
+    --text: #111111;
+    --muted: #666666;
+    --accent: #111111;
+    --accent-2: #111111;
+    --danger: #b00020;
+    --border: #d8d8d8;
+    --tab-bg: #fafafa;
+    --shadow: none;
+    --radius: 0;
+    --font: Arial, Helvetica, sans-serif;
+    --heading-font: var(--font);
+    background: var(--bg);
+    font-size: 13px;
+}
+
+body[data-theme="bare"] .theme-tabs {
+    position: static;
+    border: 0;
+    border-bottom: 1px solid #cccccc;
+    background: #fafafa;
+    backdrop-filter: none;
+}
+
+body[data-theme="bare"] .theme-tabs-inner {
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+
+body[data-theme="bare"] .theme-label,
+body[data-theme="bare"] .theme-tabs button {
+    min-height: 28px;
+    border: 0;
+    background: transparent;
+    color: #777777;
+    font-size: 11px;
+}
+
+body[data-theme="bare"] .theme-label {
+    padding-right: 8px;
+    letter-spacing: 0;
+}
+
+body[data-theme="bare"] .theme-tabs button {
+    padding: 0 7px;
+}
+
+body[data-theme="bare"] .theme-tabs button:hover,
+body[data-theme="bare"] .theme-tabs button.selected {
+    background: transparent;
+    color: #111111;
+    text-decoration: underline;
+    font-weight: 400;
+}
+
+body[data-theme="bare"] main {
+    width: min(920px, calc(100% - 28px));
+    padding: 24px 0 40px;
+}
+
+body[data-theme="bare"] header {
+    align-items: flex-start;
+    padding-bottom: 16px;
+    border-bottom: 1px solid #111111;
+}
+
+body[data-theme="bare"] .eyebrow {
+    display: none;
+}
+
+body[data-theme="bare"] h1 {
+    font-size: 22px;
+    font-weight: 600;
+    letter-spacing: 0;
+}
+
+body[data-theme="bare"] p {
+    margin-top: 4px;
+    font-size: 12px;
+}
+
+body[data-theme="bare"] section {
+    margin-top: 24px;
+}
+
+body[data-theme="bare"] .section-title {
+    margin-bottom: 8px;
+}
+
+body[data-theme="bare"] h2 {
+    font-size: 13px;
+    font-weight: 600;
+}
+
+body[data-theme="bare"] .status,
+body[data-theme="bare"] #updated,
+body[data-theme="bare"] .history-control {
+    font-size: 11px;
+}
+
+body[data-theme="bare"] .summary {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0;
+    border-top: 1px solid #d8d8d8;
+    border-bottom: 1px solid #d8d8d8;
+}
+
+body[data-theme="bare"] .metric {
+    min-width: 150px;
+    flex: 1;
+    padding: 8px 12px 8px 0;
+    border: 0;
+    background: transparent;
+    box-shadow: none;
+}
+
+body[data-theme="bare"] .metric-label {
+    font-size: 10px;
+    font-weight: 400;
+    letter-spacing: 0;
+    text-transform: none;
+}
+
+body[data-theme="bare"] .metric-value {
+    margin-top: 1px;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+body[data-theme="bare"] .active-list {
+    display: block;
+}
+
+body[data-theme="bare"] .incident-block {
+    padding: 12px 0;
+    border: 0;
+    border-top: 1px solid #d8d8d8;
+    background: transparent;
+    box-shadow: none;
+}
+
+body[data-theme="bare"] .incident-block:last-child {
+    border-bottom: 1px solid #d8d8d8;
+}
+
+body[data-theme="bare"] .incident-head {
+    align-items: baseline;
+}
+
+body[data-theme="bare"] .incident-line {
+    font-size: 13px;
+    font-weight: 600;
+}
+
+body[data-theme="bare"] .incident-cause {
+    font-size: 11px;
+}
+
+body[data-theme="bare"] .incident-status {
+    padding: 0;
+    border: 0;
+    border-radius: 0;
+    color: var(--danger);
+    font-size: 11px;
+    font-weight: 400;
+}
+
+body[data-theme="bare"] .incident-age {
+    margin-top: 8px;
+}
+
+body[data-theme="bare"] .age-value {
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 0;
+}
+
+body[data-theme="bare"] .age-label {
+    font-size: 11px;
+}
+
+body[data-theme="bare"] .incident-message {
+    margin-top: 7px;
+    color: #333333;
+    font-size: 12px;
+    line-height: 1.45;
+}
+
+body[data-theme="bare"] .prediction {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4px 14px;
+    margin-top: 8px;
+    padding-top: 8px;
+    border-top: 1px dotted #cccccc;
+    font-size: 11px;
+}
+
+body[data-theme="bare"] .prediction-range {
+    color: #111111;
+    font-weight: 600;
+}
+
+body[data-theme="bare"] .prediction-sample {
+    font-size: 10px;
+}
+
+body[data-theme="bare"] .empty-state {
+    padding: 10px 0;
+    border: 0;
+    border-top: 1px solid #d8d8d8;
+    border-bottom: 1px solid #d8d8d8;
+    background: transparent;
+    box-shadow: none;
+}
+
+body[data-theme="bare"] select {
+    padding: 1px 2px;
+    border: 0;
+    border-bottom: 1px solid #999999;
+    border-radius: 0;
+    background: transparent;
+}
+
+body[data-theme="bare"] .table-wrap {
+    border: 0;
+    border-top: 1px solid #111111;
+    border-radius: 0;
+    background: transparent;
+    box-shadow: none;
+}
+
+body[data-theme="bare"] table {
+    font-size: 11px;
+}
+
+body[data-theme="bare"] th,
+body[data-theme="bare"] td {
+    padding: 6px 8px 6px 0;
+    border-bottom: 1px solid #e2e2e2;
+}
+
+body[data-theme="bare"] th {
+    background: transparent;
+    color: #555555;
+    font-size: 10px;
+    font-weight: 600;
+    letter-spacing: 0;
+    text-transform: none;
+}
+
+body[data-theme="bare"] tbody tr:hover {
+    background: transparent;
+}
+
+body[data-theme="bare"] footer {
+    margin-top: 14px;
+    padding-top: 8px;
+    border-top: 1px solid #d8d8d8;
+    font-size: 10px;
+}
+
+@media (max-width: 700px) {
+    body[data-theme="bare"] main {
+        width: calc(100% - 18px);
+    }
+
+    body[data-theme="bare"] .summary {
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
+    body[data-theme="bare"] .metric {
+        min-width: 0;
+    }
+}
