@@ -6,6 +6,17 @@ const updatedElement = document.querySelector("#updated");
 const historyLimitElement = document.querySelector("#history-limit");
 const themeButtons = [...document.querySelectorAll("[data-theme-choice]")];
 const themeColourElement = document.querySelector('meta[name="theme-color"]');
+const systemHeadingElement = summaryElement.closest("section").querySelector("h2");
+const activeHeadingElement = activeElement.closest("section").querySelector("h2");
+const historyHeadingElement = historyElement.closest("section").querySelector("h2");
+const historyControlElement = document.querySelector(".history-control");
+
+const lineFilterClearElement = document.createElement("button");
+lineFilterClearElement.type = "button";
+lineFilterClearElement.className = "line-filter-clear";
+lineFilterClearElement.textContent = "Show all lines";
+lineFilterClearElement.hidden = true;
+historyControlElement.parentElement.insertBefore(lineFilterClearElement, historyControlElement);
 
 const themeColours = {
     clean: "#f4f5f7",
@@ -53,6 +64,8 @@ const lineColours = {
 };
 
 let state = null;
+let selectedLineKey = null;
+let selectedLineName = null;
 
 function setTheme(theme) {
     const validTheme = themeButtons.some(button => button.dataset.themeChoice === theme) ? theme : "clean";
@@ -86,6 +99,10 @@ function escapeHtml(value) {
         "'": "&#39;",
         '"': "&quot;"
     })[character]);
+}
+
+function incidentLineKey(incident) {
+    return String(incident.line_id || incident.line_name || "").trim().toLowerCase();
 }
 
 function lineColour(incident) {
@@ -165,12 +182,34 @@ function predictionHtml(prediction) {
         </div>`;
 }
 
+function lineLinkHtml(incident) {
+    return `<button type="button" class="line-link" data-line-filter="${escapeHtml(incidentLineKey(incident))}" data-line-name="${escapeHtml(incident.line_name)}">${escapeHtml(incident.line_name)}</button>`;
+}
+
+function updateLineViewLabels() {
+    if (selectedLineKey) {
+        systemHeadingElement.textContent = `${selectedLineName} statistics`;
+        activeHeadingElement.textContent = `${selectedLineName} — current`;
+        historyHeadingElement.textContent = `${selectedLineName} history`;
+        lineFilterClearElement.hidden = false;
+    } else {
+        systemHeadingElement.textContent = "System";
+        activeHeadingElement.textContent = "Active disruptions";
+        historyHeadingElement.textContent = "Incident history";
+        lineFilterClearElement.hidden = true;
+    }
+}
+
 function render() {
     if (!state) return;
 
-    const active = Object.values(state.active || {});
-    const history = state.history || [];
+    const allActive = Object.values(state.active || {});
+    const allHistory = state.history || [];
+    const active = selectedLineKey ? allActive.filter(item => incidentLineKey(item) === selectedLineKey) : allActive;
+    const history = selectedLineKey ? allHistory.filter(item => incidentLineKey(item) === selectedLineKey) : allHistory;
     const completedDurations = history.map(item => item.duration_seconds).filter(Number.isFinite);
+
+    updateLineViewLabels();
 
     const metrics = [
         ["Active", active.length],
@@ -183,12 +222,12 @@ function render() {
     `).join("");
 
     activeElement.innerHTML = active.length ? active.map(incident => {
-        const prediction = predictionFor(incident, history);
+        const prediction = predictionFor(incident, allHistory);
         return `
             <article class="incident-block" style="--line-colour:${lineColour(incident)}">
                 <div class="incident-head">
                     <div>
-                        <div class="incident-line">${escapeHtml(incident.line_name)}</div>
+                        <div class="incident-line">${lineLinkHtml(incident)}</div>
                         <div class="incident-cause">${escapeHtml(incident.category || "Unknown cause")}</div>
                     </div>
                     <span class="incident-status">${escapeHtml(incident.severity)}</span>
@@ -200,21 +239,40 @@ function render() {
                 <div class="incident-message">${escapeHtml(incident.reason)}</div>
                 ${predictionHtml(prediction)}
             </article>`;
-    }).join("") : `<div class="empty-state">No active disruptions are currently recorded.</div>`;
+    }).join("") : `<div class="empty-state">${selectedLineKey ? `No active ${escapeHtml(selectedLineName)} disruptions are currently recorded.` : "No active disruptions are currently recorded."}</div>`;
 
     const limit = Number(historyLimitElement.value);
     historyElement.innerHTML = history.length ? history.slice(0, limit).map(incident => `
         <tr style="--line-colour:${lineColour(incident)}">
-            <td><strong>${escapeHtml(incident.line_name)}</strong></td>
+            <td><strong>${lineLinkHtml(incident)}</strong></td>
             <td>${escapeHtml(incident.category)}</td>
             <td>${escapeHtml(incident.severity)}</td>
             <td>${duration(incident.duration_seconds)}</td>
             <td>${dateTime(incident.resolved_at)}</td>
             <td class="message-cell">${escapeHtml(incident.reason)}</td>
-        </tr>`).join("") : `<tr><td colspan="6" class="muted">No completed incidents yet.</td></tr>`;
+        </tr>`).join("") : `<tr><td colspan="6" class="muted">${selectedLineKey ? `No completed ${escapeHtml(selectedLineName)} incidents yet.` : "No completed incidents yet."}</td></tr>`;
 
     updatedElement.textContent = state.updated_at ? `Updated ${dateTime(state.updated_at)}` : "No incidents recorded yet";
     pollStatusElement.textContent = "TfL check ~5 min";
+}
+
+function selectLine(lineKey, lineName) {
+    selectedLineKey = lineKey;
+    selectedLineName = lineName;
+    render();
+    historyElement.closest("section").scrollIntoView({behavior: "smooth", block: "start"});
+}
+
+function clearLineFilter() {
+    selectedLineKey = null;
+    selectedLineName = null;
+    render();
+}
+
+function handleLineClick(event) {
+    const button = event.target.closest("[data-line-filter]");
+    if (!button) return;
+    selectLine(button.dataset.lineFilter, button.dataset.lineName);
 }
 
 async function refresh() {
@@ -233,6 +291,9 @@ async function refresh() {
 themeButtons.forEach(button => {
     button.addEventListener("click", () => setTheme(button.dataset.themeChoice));
 });
+activeElement.addEventListener("click", handleLineClick);
+historyElement.addEventListener("click", handleLineClick);
+lineFilterClearElement.addEventListener("click", clearLineFilter);
 historyLimitElement.addEventListener("change", render);
 
 setTheme(initialTheme());
