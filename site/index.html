@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="theme-color" content="#f5f7fa">
+    <title>TfL Incident Tracker</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <main>
+        <header>
+            <div>
+                <h1>TfL Incident Tracker</h1>
+                <p>Disruption age, history and empirical resolution estimates.</p>
+            </div>
+            <div id="poll-status" class="status">Loading…</div>
+        </header>
+
+        <section id="summary" class="summary"></section>
+
+        <section>
+            <div class="section-title">
+                <h2>Active disruptions</h2>
+                <span id="updated"></span>
+            </div>
+            <div id="active" class="cards"></div>
+        </section>
+
+        <section>
+            <div class="section-title">
+                <h2>Recent resolved incidents</h2>
+                <select id="history-limit" aria-label="History size">
+                    <option value="25">25</option>
+                    <option value="100" selected>100</option>
+                    <option value="250">250</option>
+                </select>
+            </div>
+            <div class="table-wrap">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Line</th>
+                            <th>Cause</th>
+                            <th>Severity</th>
+                            <th>Duration</th>
+                            <th>Resolved</th>
+                            <th>Message</th>
+                        </tr>
+                    </thead>
+                    <tbody id="history"></tbody>
+                </table>
+            </div>
+        </section>
+
+        <footer>Data provided by Transport for London. This is not an official TfL application.</footer>
+    </main>
+    <script src="./app.js" defer></script>
+</body>
+</html>
