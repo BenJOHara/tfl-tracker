@@ -5,6 +5,23 @@ const pollStatusElement = document.querySelector("#poll-status");
 const updatedElement = document.querySelector("#updated");
 const historyLimitElement = document.querySelector("#history-limit");
 
+const TFL_STATUS_URL = "https://api.tfl.gov.uk/Line/Mode/tube,overground,dlr,elizabeth-line,tram/Status";
+const GOOD_SEVERITIES = new Set(["good service", "special service"]);
+const CATEGORY_RULES = [
+    ["signal failure", ["signal failure", "signalling failure", "signal fault", "signalling fault"]],
+    ["points failure", ["points failure", "points fault", "faulty points"]],
+    ["train fault", ["faulty train", "train fault", "defective train"]],
+    ["track fault", ["track fault", "track failure"]],
+    ["power failure", ["power failure", "power supply", "loss of power"]],
+    ["person on track", ["person on the track", "person on track", "trespasser"]],
+    ["passenger incident", ["passenger incident", "customer incident", "ill passenger"]],
+    ["police incident", ["police incident", "police investigation"]],
+    ["fire alert", ["fire alert", "fire alarm"]],
+    ["staff shortage", ["staff shortage", "shortage of staff", "staff availability"]],
+    ["planned engineering", ["engineering work", "planned closure", "planned works"]],
+    ["weather", ["adverse weather", "weather conditions", "flooding", "high winds"]]
+];
+
 const lineColours = {
     "bakerloo": "#B36305",
     "central": "#E32017",
@@ -35,6 +52,8 @@ const lineColours = {
 };
 
 let state = null;
+let liveActive = null;
+let liveUpdatedAt = null;
 const expandedLines = new Set();
 
 function escapeHtml(value) {
@@ -45,6 +64,65 @@ function escapeHtml(value) {
         "'": "&#39;",
         '"': "&quot;"
     })[character]);
+}
+
+function cleanText(value) {
+    return String(value ?? "").trim().replace(/\s+/g, " ");
+}
+
+function classifyReason(reason) {
+    const lowered = reason.toLowerCase();
+    for (const [category, phrases] of CATEGORY_RULES) {
+        if (phrases.some(phrase => lowered.includes(phrase))) return category;
+    }
+    return "other";
+}
+
+function sourceFirstSeen(value) {
+    if (!value) return null;
+    const timestamp = new Date(value);
+    if (Number.isNaN(timestamp.getTime()) || timestamp.getTime() > Date.now()) return null;
+    return timestamp.toISOString();
+}
+
+function extractLiveIncidents(lines) {
+    const persisted = Object.values(state?.active || {});
+    const incidents = [];
+
+    for (const line of lines) {
+        const lineId = cleanText(line.id);
+        const lineName = cleanText(line.name) || lineId;
+
+        for (const status of line.lineStatuses || []) {
+            const severity = cleanText(status.statusSeverityDescription) || "Unknown";
+            let reason = cleanText(status.reason);
+            if (GOOD_SEVERITIES.has(severity.toLowerCase()) && !reason) continue;
+            if (!reason) reason = severity;
+
+            const disruption = status.disruption || {};
+            const sourceCreated = cleanText(status.created) || cleanText(disruption.created) || null;
+            const statusId = status.id;
+            const issueKey = statusId !== undefined && statusId !== null && statusId !== "" && statusId !== 0 && statusId !== "0"
+                ? `${lineId}:status:${statusId}`
+                : null;
+            const saved = (issueKey && state?.active?.[issueKey]) || persisted.find(item =>
+                item.line_id === lineId && item.reason === reason
+            );
+
+            incidents.push({
+                issue_key: issueKey || `${lineId}:live:${reason}`,
+                line_id: lineId,
+                line_name: lineName,
+                severity,
+                reason,
+                category: classifyReason(reason),
+                source_created: sourceCreated,
+                first_seen: saved?.first_seen || sourceFirstSeen(sourceCreated) || new Date().toISOString()
+            });
+        }
+    }
+
+    return incidents;
 }
 
 function incidentLineKey(incident) {
@@ -169,7 +247,7 @@ function lineHistoryHtml(incident, history) {
 function render() {
     if (!state) return;
 
-    const active = Object.values(state.active || {});
+    const active = liveActive ?? Object.values(state.active || {});
     const history = state.history || [];
     const completedDurations = history.map(item => item.duration_seconds).filter(Number.isFinite);
 
@@ -219,8 +297,13 @@ function render() {
             <td class="message-cell">${escapeHtml(incident.reason)}</td>
         </tr>`).join("") : `<tr><td colspan="6" class="muted">No completed incidents yet.</td></tr>`;
 
-    updatedElement.textContent = state.updated_at ? `Updated ${dateTime(state.updated_at)}` : "No incidents recorded yet";
-    pollStatusElement.textContent = "TfL check ~5 min";
+    if (liveUpdatedAt) {
+        updatedElement.textContent = `Live ${dateTime(liveUpdatedAt)} · history ${dateTime(state.updated_at)}`;
+        pollStatusElement.textContent = "TfL live · history via GitHub";
+    } else {
+        updatedElement.textContent = state.updated_at ? `Saved ${dateTime(state.updated_at)}` : "No incidents recorded yet";
+        pollStatusElement.textContent = "Saved TfL data";
+    }
 }
 
 function handleLineExpand(event) {
@@ -236,7 +319,7 @@ function handleLineExpand(event) {
     render();
 }
 
-async function refresh() {
+async function refreshState() {
     try {
         const response = await fetch(`./data/state.json?cache=${Date.now()}`, {cache: "no-store"});
         if (!response.ok) throw new Error(`HTTP ${response.status}`);
@@ -244,9 +327,37 @@ async function refresh() {
         pollStatusElement.classList.remove("error");
         render();
     } catch (error) {
-        pollStatusElement.textContent = `Data error: ${error.message}`;
+        if (!state) {
+            state = {active: {}, history: [], updated_at: null};
+        }
+        pollStatusElement.textContent = `History error: ${error.message}`;
         pollStatusElement.classList.add("error");
+        render();
     }
+}
+
+async function refreshLive() {
+    try {
+        const response = await fetch(`${TFL_STATUS_URL}?cache=${Date.now()}`, {cache: "no-store"});
+        if (!response.ok) throw new Error(`HTTP ${response.status}`);
+        const lines = await response.json();
+        if (!Array.isArray(lines)) throw new Error("Unexpected TfL response");
+        liveActive = extractLiveIncidents(lines);
+        liveUpdatedAt = new Date().toISOString();
+        pollStatusElement.classList.remove("error");
+        render();
+    } catch (error) {
+        liveActive = null;
+        liveUpdatedAt = null;
+        pollStatusElement.textContent = `Live TfL unavailable · using saved data`;
+        pollStatusElement.classList.add("error");
+        render();
+    }
+}
+
+async function refresh() {
+    await refreshState();
+    await refreshLive();
 }
 
 activeElement.addEventListener("click", handleLineExpand);
@@ -254,4 +365,5 @@ historyLimitElement.addEventListener("change", render);
 
 refresh();
 setInterval(render, 15000);
-setInterval(refresh, 300000);
+setInterval(refreshState, 300000);
+setInterval(refreshLive, 60000);
