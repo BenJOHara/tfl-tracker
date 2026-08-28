@@ -9,23 +9,31 @@ let state = null;
 
 function escapeHtml(value) {
     return String(value ?? "").replace(/[&<>'"]/g, character => ({
-        "&": "&amp;", "<": "&lt;", ">": "&gt;", "'": "&#39;", '"': "&quot;"
+        "&": "&amp;",
+        "<": "&lt;",
+        ">": "&gt;",
+        "'": "&#39;",
+        '"': "&quot;"
     })[character]);
 }
 
 function duration(seconds) {
-    if (seconds == null) return "—";
+    if (seconds == null) return "--";
     const minutes = Math.max(0, Math.round(seconds / 60));
-    if (minutes < 60) return `${minutes} min`;
+    if (minutes < 60) return `${minutes}m`;
     const hours = Math.floor(minutes / 60);
     const remainder = minutes % 60;
-    return remainder ? `${hours}h ${remainder}m` : `${hours}h`;
+    return remainder ? `${hours}h${String(remainder).padStart(2, "0")}m` : `${hours}h`;
 }
 
 function dateTime(value) {
-    if (!value) return "—";
+    if (!value) return "--";
     return new Intl.DateTimeFormat("en-GB", {
-        day: "2-digit", month: "short", hour: "2-digit", minute: "2-digit", hour12: false
+        day: "2-digit",
+        month: "short",
+        hour: "2-digit",
+        minute: "2-digit",
+        hour12: false
     }).format(new Date(value));
 }
 
@@ -68,60 +76,61 @@ function predictionFor(incident, history) {
     return null;
 }
 
-function predictionHtml(prediction) {
+function predictionRows(prediction) {
     if (!prediction) {
-        return `<div class="prediction"><div class="pred-detail">Not enough comparable completed incidents yet.</div></div>`;
+        return `<div class="term-row"><span class="term-key">eta</span><span class="term-muted">insufficient historical sample</span></div>`;
     }
     return `
-        <div class="prediction">
-            <div class="pred-main">Likely another ${duration(prediction.p20)}–${duration(prediction.p80)}</div>
-            <div class="pred-detail">Median remaining: ${duration(prediction.median)}</div>
-            <div class="sample">${prediction.sampleSize} comparable incidents · ${escapeHtml(prediction.basis)}</div>
-        </div>`;
+        <div class="term-row"><span class="term-key">eta</span><span class="term-good">${duration(prediction.p20)} .. ${duration(prediction.p80)}</span></div>
+        <div class="term-row"><span class="term-key">median</span><span>${duration(prediction.median)} remaining</span></div>
+        <div class="term-row"><span class="term-key">sample</span><span class="term-muted">n=${prediction.sampleSize} (${escapeHtml(prediction.basis)})</span></div>`;
 }
 
 function render() {
     if (!state) return;
+
     const active = Object.values(state.active || {});
     const history = state.history || [];
     const completedDurations = history.map(item => item.duration_seconds).filter(Number.isFinite);
 
-    summaryElement.innerHTML = [
-        ["Active", active.length],
-        ["Recorded", active.length + history.length],
-        ["Median duration", duration(percentile(completedDurations, 0.5))],
-        ["90th percentile", duration(percentile(completedDurations, 0.9))]
-    ].map(([label, value]) => `
-        <div class="metric"><span class="metric-label">${label}</span><span class="metric-value">${value ?? "—"}</span></div>
+    const metrics = [
+        ["active", active.length],
+        ["recorded", active.length + history.length],
+        ["median", duration(percentile(completedDurations, 0.5))],
+        ["p90", duration(percentile(completedDurations, 0.9))]
+    ];
+    summaryElement.innerHTML = metrics.map(([label, value]) => `
+        <span class="sys-pair"><span class="sys-key">${label}=</span><span class="sys-value">${value ?? "--"}</span></span>
     `).join("");
 
-    activeElement.innerHTML = active.length ? active.map(incident => `
-        <article class="card">
-            <div class="card-top">
-                <span class="line">${escapeHtml(incident.line_name)}</span>
-                <span class="badge">${escapeHtml(incident.severity)}</span>
-            </div>
-            <div class="reason">${escapeHtml(incident.reason)}</div>
-            <div class="age">${duration(elapsedSeconds(incident))}</div>
-            <div class="age-label">active since ${dateTime(incident.first_seen)}</div>
-            ${predictionHtml(predictionFor(incident, history))}
-        </article>
-    `).join("") : `<div class="no-data">No active disruptions are currently recorded.</div>`;
+    activeElement.innerHTML = active.length ? active.map(incident => {
+        const prediction = predictionFor(incident, history);
+        return `
+            <article class="incident-block">
+                <div class="incident-head">
+                    <span class="incident-line">${escapeHtml(incident.line_name)}</span>
+                    <span class="incident-status">[ ${escapeHtml(incident.severity).toUpperCase()} ]</span>
+                </div>
+                <div class="term-row"><span class="term-key">up</span><span class="term-warn">${duration(elapsedSeconds(incident))}</span><span class="term-muted">since ${dateTime(incident.first_seen)}</span></div>
+                <div class="term-row"><span class="term-key">cause</span><span>${escapeHtml(incident.category || "unknown")}</span></div>
+                <div class="term-row"><span class="term-key">msg</span><span>${escapeHtml(incident.reason)}</span></div>
+                ${predictionRows(prediction)}
+            </article>`;
+    }).join("") : `<div class="terminal-ok">[ OK ] no active disruptions recorded</div>`;
 
     const limit = Number(historyLimitElement.value);
     historyElement.innerHTML = history.length ? history.slice(0, limit).map(incident => `
         <tr>
-            <td><strong>${escapeHtml(incident.line_name)}</strong></td>
+            <td>${escapeHtml(incident.line_name)}</td>
             <td>${escapeHtml(incident.category)}</td>
             <td>${escapeHtml(incident.severity)}</td>
             <td>${duration(incident.duration_seconds)}</td>
             <td>${dateTime(incident.resolved_at)}</td>
             <td class="message-cell">${escapeHtml(incident.reason)}</td>
-        </tr>
-    `).join("") : `<tr><td colspan="6">No completed incidents yet.</td></tr>`;
+        </tr>`).join("") : `<tr><td colspan="6" class="term-muted">-- no completed incidents --</td></tr>`;
 
-    updatedElement.textContent = state.updated_at ? `Incident data changed ${dateTime(state.updated_at)}` : "No incidents recorded yet";
-    pollStatusElement.textContent = "TfL checked by GitHub Actions every ~5 min";
+    updatedElement.textContent = state.updated_at ? `state=${dateTime(state.updated_at)}` : "state=empty";
+    pollStatusElement.textContent = "[ POLL ~5m ]";
 }
 
 async function refresh() {
@@ -131,7 +140,7 @@ async function refresh() {
         state = await response.json();
         render();
     } catch (error) {
-        pollStatusElement.textContent = `Dashboard error: ${error.message}`;
+        pollStatusElement.textContent = `[ ERROR ${error.message} ]`;
         pollStatusElement.classList.add("error");
     }
 }
