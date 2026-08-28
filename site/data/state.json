@@ -109,6 +109,16 @@
       "reason": "Victoria Line: Minor delays due to train cancellations.",
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
+    },
+    "waterloo-city:text:276b7a08dffa521c": {
+      "category": "train fault",
+      "first_seen": "2026-08-28T18:12:05Z",
+      "issue_key": "waterloo-city:text:276b7a08dffa521c",
+      "line_id": "waterloo-city",
+      "line_name": "Waterloo & City",
+      "reason": "Waterloo and City Line: Minor delays while we fix a faulty train.",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
     }
   },
   "history": [
@@ -161,6 +171,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-08-28T18:10:55Z",
+  "updated_at": "2026-08-28T18:12:05Z",
   "version": 1
 }
