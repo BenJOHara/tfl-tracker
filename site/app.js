@@ -4,8 +4,47 @@ const summaryElement = document.querySelector("#summary");
 const pollStatusElement = document.querySelector("#poll-status");
 const updatedElement = document.querySelector("#updated");
 const historyLimitElement = document.querySelector("#history-limit");
+const themeButtons = [...document.querySelectorAll("[data-theme-choice]")];
+const themeColourElement = document.querySelector('meta[name="theme-color"]');
+
+const themeColours = {
+    clean: "#f4f5f7",
+    tfl: "#071f3d",
+    terminal: "#080b09",
+    light: "#ffffff",
+    swiss: "#f2f0e9",
+    brutal: "#f4ff00",
+    paper: "#eee8d9",
+    midnight: "#090d18",
+    crt: "#020a04",
+    ops: "#111418"
+};
 
 let state = null;
+
+function setTheme(theme) {
+    const validTheme = themeButtons.some(button => button.dataset.themeChoice === theme) ? theme : "clean";
+    document.body.dataset.theme = validTheme;
+    themeButtons.forEach(button => {
+        const selected = button.dataset.themeChoice === validTheme;
+        button.classList.toggle("selected", selected);
+        button.setAttribute("aria-pressed", String(selected));
+    });
+    if (themeColourElement) themeColourElement.content = themeColours[validTheme] || themeColours.clean;
+    try {
+        localStorage.setItem("tfl-theme", validTheme);
+    } catch (_) {
+        // Theme persistence is optional.
+    }
+}
+
+function initialTheme() {
+    try {
+        return localStorage.getItem("tfl-theme") || "clean";
+    } catch (_) {
+        return "clean";
+    }
+}
 
 function escapeHtml(value) {
     return String(value ?? "").replace(/[&<>'"]/g, character => ({
@@ -18,16 +57,16 @@ function escapeHtml(value) {
 }
 
 function duration(seconds) {
-    if (seconds == null) return "--";
+    if (seconds == null) return "—";
     const minutes = Math.max(0, Math.round(seconds / 60));
-    if (minutes < 60) return `${minutes}m`;
+    if (minutes < 60) return `${minutes} min`;
     const hours = Math.floor(minutes / 60);
     const remainder = minutes % 60;
-    return remainder ? `${hours}h${String(remainder).padStart(2, "0")}m` : `${hours}h`;
+    return remainder ? `${hours}h ${remainder}m` : `${hours}h`;
 }
 
 function dateTime(value) {
-    if (!value) return "--";
+    if (!value) return "—";
     return new Intl.DateTimeFormat("en-GB", {
         day: "2-digit",
         month: "short",
@@ -76,14 +115,16 @@ function predictionFor(incident, history) {
     return null;
 }
 
-function predictionRows(prediction) {
+function predictionHtml(prediction) {
     if (!prediction) {
-        return `<div class="term-row"><span class="term-key">eta</span><span class="term-muted">insufficient historical sample</span></div>`;
+        return `<div class="prediction unavailable">Not enough comparable completed incidents yet.</div>`;
     }
     return `
-        <div class="term-row"><span class="term-key">eta</span><span class="term-good">${duration(prediction.p20)} .. ${duration(prediction.p80)}</span></div>
-        <div class="term-row"><span class="term-key">median</span><span>${duration(prediction.median)} remaining</span></div>
-        <div class="term-row"><span class="term-key">sample</span><span class="term-muted">n=${prediction.sampleSize} (${escapeHtml(prediction.basis)})</span></div>`;
+        <div class="prediction">
+            <span class="prediction-range">Likely another ${duration(prediction.p20)}–${duration(prediction.p80)}</span>
+            <span class="prediction-median">Median ${duration(prediction.median)}</span>
+            <span class="prediction-sample">n=${prediction.sampleSize} · ${escapeHtml(prediction.basis)}</span>
+        </div>`;
 }
 
 function render() {
@@ -94,13 +135,13 @@ function render() {
     const completedDurations = history.map(item => item.duration_seconds).filter(Number.isFinite);
 
     const metrics = [
-        ["active", active.length],
-        ["recorded", active.length + history.length],
-        ["median", duration(percentile(completedDurations, 0.5))],
-        ["p90", duration(percentile(completedDurations, 0.9))]
+        ["Active", active.length],
+        ["Recorded", active.length + history.length],
+        ["Median duration", duration(percentile(completedDurations, 0.5))],
+        ["90th percentile", duration(percentile(completedDurations, 0.9))]
     ];
     summaryElement.innerHTML = metrics.map(([label, value]) => `
-        <span class="sys-pair"><span class="sys-key">${label}=</span><span class="sys-value">${value ?? "--"}</span></span>
+        <div class="metric"><span class="metric-label">${label}</span><span class="metric-value">${value ?? "—"}</span></div>
     `).join("");
 
     activeElement.innerHTML = active.length ? active.map(incident => {
@@ -108,29 +149,34 @@ function render() {
         return `
             <article class="incident-block">
                 <div class="incident-head">
-                    <span class="incident-line">${escapeHtml(incident.line_name)}</span>
-                    <span class="incident-status">[ ${escapeHtml(incident.severity).toUpperCase()} ]</span>
+                    <div>
+                        <div class="incident-line">${escapeHtml(incident.line_name)}</div>
+                        <div class="incident-cause">${escapeHtml(incident.category || "Unknown cause")}</div>
+                    </div>
+                    <span class="incident-status">${escapeHtml(incident.severity)}</span>
                 </div>
-                <div class="term-row"><span class="term-key">up</span><span class="term-warn">${duration(elapsedSeconds(incident))}</span><span class="term-muted">since ${dateTime(incident.first_seen)}</span></div>
-                <div class="term-row"><span class="term-key">cause</span><span>${escapeHtml(incident.category || "unknown")}</span></div>
-                <div class="term-row"><span class="term-key">msg</span><span>${escapeHtml(incident.reason)}</span></div>
-                ${predictionRows(prediction)}
+                <div class="incident-age">
+                    <span class="age-value">${duration(elapsedSeconds(incident))}</span>
+                    <span class="age-label">active · since ${dateTime(incident.first_seen)}</span>
+                </div>
+                <div class="incident-message">${escapeHtml(incident.reason)}</div>
+                ${predictionHtml(prediction)}
             </article>`;
-    }).join("") : `<div class="terminal-ok">[ OK ] no active disruptions recorded</div>`;
+    }).join("") : `<div class="empty-state">No active disruptions are currently recorded.</div>`;
 
     const limit = Number(historyLimitElement.value);
     historyElement.innerHTML = history.length ? history.slice(0, limit).map(incident => `
         <tr>
-            <td>${escapeHtml(incident.line_name)}</td>
+            <td><strong>${escapeHtml(incident.line_name)}</strong></td>
             <td>${escapeHtml(incident.category)}</td>
             <td>${escapeHtml(incident.severity)}</td>
             <td>${duration(incident.duration_seconds)}</td>
             <td>${dateTime(incident.resolved_at)}</td>
             <td class="message-cell">${escapeHtml(incident.reason)}</td>
-        </tr>`).join("") : `<tr><td colspan="6" class="term-muted">-- no completed incidents --</td></tr>`;
+        </tr>`).join("") : `<tr><td colspan="6" class="muted">No completed incidents yet.</td></tr>`;
 
-    updatedElement.textContent = state.updated_at ? `state=${dateTime(state.updated_at)}` : "state=empty";
-    pollStatusElement.textContent = "[ POLL ~5m ]";
+    updatedElement.textContent = state.updated_at ? `Updated ${dateTime(state.updated_at)}` : "No incidents recorded yet";
+    pollStatusElement.textContent = "TfL check ~5 min";
 }
 
 async function refresh() {
@@ -138,14 +184,20 @@ async function refresh() {
         const response = await fetch(`./data/state.json?cache=${Date.now()}`, {cache: "no-store"});
         if (!response.ok) throw new Error(`HTTP ${response.status}`);
         state = await response.json();
+        pollStatusElement.classList.remove("error");
         render();
     } catch (error) {
-        pollStatusElement.textContent = `[ ERROR ${error.message} ]`;
+        pollStatusElement.textContent = `Data error: ${error.message}`;
         pollStatusElement.classList.add("error");
     }
 }
 
+themeButtons.forEach(button => {
+    button.addEventListener("click", () => setTheme(button.dataset.themeChoice));
+});
 historyLimitElement.addEventListener("change", render);
+
+setTheme(initialTheme());
 refresh();
 setInterval(render, 15000);
 setInterval(refresh, 300000);
