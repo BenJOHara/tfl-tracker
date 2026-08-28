@@ -136,9 +136,10 @@ body[data-theme="bare"] .active-list {
 }
 
 body[data-theme="bare"] .incident-block {
-    padding: 12px 0;
+    padding: 12px 0 12px 10px;
     border: 0;
     border-top: 1px solid #d8d8d8;
+    border-left: 4px solid var(--line-colour, #777777);
     background: transparent;
     box-shadow: none;
 }
@@ -255,6 +256,16 @@ body[data-theme="bare"] th {
 
 body[data-theme="bare"] tbody tr:hover {
     background: transparent;
+}
+
+body[data-theme="bare"] #history td:first-child strong::before {
+    display: inline-block;
+    width: 4px;
+    height: 12px;
+    margin-right: 6px;
+    background: var(--line-colour, #777777);
+    content: "";
+    vertical-align: -2px;
 }
 
 body[data-theme="bare"] footer {
