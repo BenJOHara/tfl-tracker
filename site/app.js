@@ -17,7 +17,39 @@ const themeColours = {
     paper: "#eee8d9",
     midnight: "#090d18",
     crt: "#020a04",
-    ops: "#111418"
+    ops: "#111418",
+    win96: "#008080",
+    signal: "#071014",
+    bare: "#fafafa"
+};
+
+const lineColours = {
+    "bakerloo": "#B36305",
+    "central": "#E32017",
+    "circle": "#FFD300",
+    "district": "#00782A",
+    "hammersmith-city": "#F3A9BB",
+    "hammersmith & city": "#F3A9BB",
+    "jubilee": "#A0A5A9",
+    "metropolitan": "#9B0056",
+    "northern": "#000000",
+    "piccadilly": "#003688",
+    "victoria": "#0098D4",
+    "waterloo-city": "#95CDBA",
+    "waterloo & city": "#95CDBA",
+    "elizabeth": "#6950A1",
+    "elizabeth line": "#6950A1",
+    "dlr": "#00A4A7",
+    "tram": "#84B817",
+    "london-overground": "#EE7C0E",
+    "london overground": "#EE7C0E",
+    "overground": "#EE7C0E",
+    "lioness": "#EE7C0E",
+    "mildmay": "#EE7C0E",
+    "windrush": "#EE7C0E",
+    "weaver": "#EE7C0E",
+    "suffragette": "#EE7C0E",
+    "liberty": "#EE7C0E"
 };
 
 let state = null;
@@ -54,6 +86,12 @@ function escapeHtml(value) {
         "'": "&#39;",
         '"': "&quot;"
     })[character]);
+}
+
+function lineColour(incident) {
+    const lineId = String(incident.line_id || "").toLowerCase();
+    const lineName = String(incident.line_name || "").toLowerCase();
+    return lineColours[lineId] || lineColours[lineName] || "#777777";
 }
 
 function duration(seconds) {
@@ -147,7 +185,7 @@ function render() {
     activeElement.innerHTML = active.length ? active.map(incident => {
         const prediction = predictionFor(incident, history);
         return `
-            <article class="incident-block">
+            <article class="incident-block" style="--line-colour:${lineColour(incident)}">
                 <div class="incident-head">
                     <div>
                         <div class="incident-line">${escapeHtml(incident.line_name)}</div>
@@ -166,7 +204,7 @@ function render() {
 
     const limit = Number(historyLimitElement.value);
     historyElement.innerHTML = history.length ? history.slice(0, limit).map(incident => `
-        <tr>
+        <tr style="--line-colour:${lineColour(incident)}">
             <td><strong>${escapeHtml(incident.line_name)}</strong></td>
             <td>${escapeHtml(incident.category)}</td>
             <td>${escapeHtml(incident.severity)}</td>
