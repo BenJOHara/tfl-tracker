@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="theme-color" content="#f4f5f7">
     <title>TfL Incident Tracker</title>
-    <link rel="stylesheet" href="./style.css?v=themes-1">
+    <link rel="stylesheet" href="./style.css?v=themes-2">
 </head>
 <body data-theme="clean">
     <nav class="theme-tabs" aria-label="Choose visual style">
@@ -23,6 +23,50 @@
             <button type="button" data-theme-choice="ops">10 Ops</button>
         </div>
     </nav>
+
+    <script>
+        (() => {
+            const colours = {
+                clean: "#f4f5f7",
+                tfl: "#071f3d",
+                terminal: "#080b09",
+                light: "#ffffff",
+                swiss: "#f2f0e9",
+                brutal: "#f4ff00",
+                paper: "#eee8d9",
+                midnight: "#090d18",
+                crt: "#020a04",
+                ops: "#111418"
+            };
+
+            function applyTheme(theme) {
+                if (!Object.hasOwn(colours, theme)) theme = "clean";
+                document.body.dataset.theme = theme;
+                document.querySelectorAll("[data-theme-choice]").forEach(button => {
+                    const selected = button.dataset.themeChoice === theme;
+                    button.classList.toggle("selected", selected);
+                    button.setAttribute("aria-pressed", String(selected));
+                });
+                const themeColour = document.querySelector('meta[name="theme-color"]');
+                if (themeColour) themeColour.content = colours[theme];
+                try {
+                    localStorage.setItem("tfl-theme", theme);
+                } catch (_) {}
+            }
+
+            let initial = "clean";
+            try {
+                initial = localStorage.getItem("tfl-theme") || "clean";
+            } catch (_) {}
+            applyTheme(initial);
+
+            document.querySelector(".theme-tabs").addEventListener("click", event => {
+                const button = event.target.closest("[data-theme-choice]");
+                if (!button) return;
+                applyTheme(button.dataset.themeChoice);
+            });
+        })();
+    </script>
 
     <main>
         <header>
@@ -62,6 +106,6 @@
 
         <footer>Data provided by Transport for London · Unofficial project</footer>
     </main>
-    <script src="./app.js?v=themes-1" defer></script>
+    <script src="./app.js?v=themes-2" defer></script>
 </body>
 </html>
