@@ -1,6 +1,97 @@
 {
-  "active": {},
+  "active": {
+    "central:text:4ae12ddf45b900ca": {
+      "category": "other",
+      "first_seen": "2026-08-28T16:31:16Z",
+      "issue_key": "central:text:4ae12ddf45b900ca",
+      "line_id": "central",
+      "line_name": "Central",
+      "reason": "Central Line: Severe delays between White City and Ealing Broadway/West Ruislip and between Leytonstone and Epping/Hainault via Newbury Park due to train cancellations. MINOR DELAYS on the rest of the line. Tickets are being accepted on London Buses, Elizabeth line and Chiltern Railway services.",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "circle:text:1bd58b2989ef990e": {
+      "category": "signal failure",
+      "first_seen": "2026-08-28T16:31:16Z",
+      "issue_key": "circle:text:1bd58b2989ef990e",
+      "line_id": "circle",
+      "line_name": "Circle",
+      "reason": "Circle Line: No service anticlockwise and MINOR DELAYS clockwise due to an earlier signal failure at South Kensington.",
+      "severity": "Part Suspended",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "district:text:fc68d8fe2dd5faa0": {
+      "category": "signal failure",
+      "first_seen": "2026-08-28T16:31:16Z",
+      "issue_key": "district:text:fc68d8fe2dd5faa0",
+      "line_id": "district",
+      "line_name": "District",
+      "reason": "District Line: Minor delays between Barking and Ealing Broadway/Richmond/ Wimbledon and between Edgware Road and Wimbledon due to an earlier signal failure at South Kensington. GOOD SERVICE on the rest of the line.",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "hammersmith-city:text:004129bf5e441754": {
+      "category": "other",
+      "first_seen": "2026-08-28T16:31:16Z",
+      "issue_key": "hammersmith-city:text:004129bf5e441754",
+      "line_id": "hammersmith-city",
+      "line_name": "Hammersmith & City",
+      "reason": "Hammersmith and City Line: Minor delays due to train cancellations.",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "jubilee:text:a42c433caaf2fd24": {
+      "category": "other",
+      "first_seen": "2026-08-28T16:31:16Z",
+      "issue_key": "jubilee:text:a42c433caaf2fd24",
+      "line_id": "jubilee",
+      "line_name": "Jubilee",
+      "reason": "Jubilee Line: No service between Wembley Park and Willesden Green, SEVERE DELAYS on the rest of the line while we respond to a fire at Neasden. Tickets will be accepted on London Buses, DLR, Elizabeth line, Mildmay line, c2c and Thameslink services.",
+      "severity": "Part Suspended",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "metropolitan:text:800e94b21382fa99": {
+      "category": "other",
+      "first_seen": "2026-08-28T16:31:16Z",
+      "issue_key": "metropolitan:text:800e94b21382fa99",
+      "line_id": "metropolitan",
+      "line_name": "Metropolitan",
+      "reason": "Metropolitan Line: No service between Harrow-on-the-Hill and Aldgate while we respond to a fire at Neasden. SEVERE DELAYS on the rest of the line. Chiltern railway services are running between Amersham and Aylesbury. Tickets will be accepted on London Buses, Lioness Line, London Northwestern Railway and Thameslink services.",
+      "severity": "Part Suspended",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "tram:text:015c08154e807811": {
+      "category": "other",
+      "first_seen": "2026-08-28T16:31:16Z",
+      "issue_key": "tram:text:015c08154e807811",
+      "line_id": "tram",
+      "line_name": "Tram",
+      "reason": "LONDON TRAMS: From Thursday 6 until Sunday 30 August, no service between Reeves Corner and East Croydon. Additional works apply on Sunday 16 and Thursday 20 August.",
+      "severity": "Part Closure",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "tram:text:b95c3f4768a61942": {
+      "category": "other",
+      "first_seen": "2026-08-28T16:31:16Z",
+      "issue_key": "tram:text:b95c3f4768a61942",
+      "line_id": "tram",
+      "line_name": "Tram",
+      "reason": "LONDON TRAMS: From Thursday 6 until Sunday 30 August, no service between Reeves Corner and East Croydon.",
+      "severity": "Part Closure",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "victoria:text:02e0850cdf11ef25": {
+      "category": "other",
+      "first_seen": "2026-08-28T16:31:16Z",
+      "issue_key": "victoria:text:02e0850cdf11ef25",
+      "line_id": "victoria",
+      "line_name": "Victoria",
+      "reason": "Victoria Line: Minor delays due to train cancellations.",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    }
+  },
   "history": [],
-  "updated_at": null,
+  "updated_at": "2026-08-28T16:31:16Z",
   "version": 1
 }
