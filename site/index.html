@@ -3,62 +3,49 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta name="theme-color" content="#0b0f0d">
+    <meta name="theme-color" content="#080b09">
     <title>TfL Incident Tracker</title>
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./style.css?v=tui-2">
 </head>
 <body>
     <main>
         <header>
             <div>
-                <div class="prompt">ben@london:~$ tfl-status --watch</div>
+                <div class="prompt"><span class="host">ben@london</span>:<span class="path">~</span>$ tfl-status --watch</div>
                 <h1>TFL INCIDENT TRACKER</h1>
-                <p>disruption age / history / empirical resolution estimates</p>
+                <p>live disruption age // historical duration // remaining-time estimate</p>
             </div>
             <div id="poll-status" class="status">[ loading ]</div>
         </header>
 
-        <section id="summary" class="summary"></section>
-
         <section>
-            <div class="section-title">
-                <h2>[ ACTIVE DISRUPTIONS ]</h2>
-                <span id="updated"></span>
-            </div>
-            <div id="active" class="cards"></div>
+            <div class="section-title"><h2>┌─ SYSTEM ─────────────────────────────────────────────────────────────</h2></div>
+            <div id="summary" class="summary"></div>
         </section>
 
         <section>
             <div class="section-title">
-                <h2>[ INCIDENT HISTORY ]</h2>
-                <label class="history-control">
-                    rows:
-                    <select id="history-limit" aria-label="History size">
-                        <option value="25">25</option>
-                        <option value="100" selected>100</option>
-                        <option value="250">250</option>
-                    </select>
-                </label>
+                <h2>┌─ ACTIVE DISRUPTIONS ───────────────────────────────────────────────</h2>
+                <span id="updated"></span>
+            </div>
+            <div id="active" class="active-list"></div>
+        </section>
+
+        <section>
+            <div class="section-title">
+                <h2>┌─ INCIDENT HISTORY ─────────────────────────────────────────────────</h2>
+                <label class="history-control">rows=<select id="history-limit" aria-label="History size"><option value="25">25</option><option value="100" selected>100</option><option value="250">250</option></select></label>
             </div>
             <div class="table-wrap">
                 <table>
-                    <thead>
-                        <tr>
-                            <th>LINE</th>
-                            <th>CAUSE</th>
-                            <th>STATUS</th>
-                            <th>DURATION</th>
-                            <th>RESOLVED</th>
-                            <th>MESSAGE</th>
-                        </tr>
-                    </thead>
+                    <thead><tr><th>LINE</th><th>CAUSE</th><th>STATUS</th><th>DURATION</th><th>RESOLVED</th><th>MESSAGE</th></tr></thead>
                     <tbody id="history"></tbody>
                 </table>
             </div>
         </section>
 
-        <footer>-- data: Transport for London // unofficial project --</footer>
+        <footer>└─ data: Transport for London // unofficial project</footer>
     </main>
-    <script src="./app.js" defer></script>
+    <script src="./app.js?v=tui-2" defer></script>
 </body>
 </html>
