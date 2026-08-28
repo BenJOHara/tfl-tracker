@@ -1,0 +1,336 @@
+/* 11 — Windows 95/98-era desktop UI */
+body[data-theme="win96"] {
+    --bg: #008080;
+    --panel: #c0c0c0;
+    --panel-alt: #d4d0c8;
+    --text: #000000;
+    --muted: #424242;
+    --accent: #000080;
+    --accent-2: #000080;
+    --danger: #800000;
+    --border: #808080;
+    --tab-bg: #c0c0c0;
+    --shadow: none;
+    --radius: 0;
+    --font: "MS Sans Serif", Tahoma, Geneva, Arial, sans-serif;
+    --heading-font: "MS Sans Serif", Tahoma, Geneva, Arial, sans-serif;
+    font-size: 12px;
+    background: #008080;
+}
+
+body[data-theme="win96"] .theme-tabs {
+    border: 0;
+    border-bottom: 2px solid #000000;
+    background: #c0c0c0;
+    backdrop-filter: none;
+}
+
+body[data-theme="win96"] .theme-label,
+body[data-theme="win96"] .theme-tabs button {
+    min-height: 28px;
+    border: 2px solid;
+    border-color: #ffffff #404040 #404040 #ffffff;
+    background: #c0c0c0;
+    color: #000000;
+    font-size: 11px;
+}
+
+body[data-theme="win96"] .theme-label {
+    border-left: 0;
+    padding: 0 8px;
+    letter-spacing: 0;
+}
+
+body[data-theme="win96"] .theme-tabs button {
+    margin: 2px 1px;
+    padding: 0 9px;
+}
+
+body[data-theme="win96"] .theme-tabs button:hover {
+    background: #c0c0c0;
+    color: #000000;
+}
+
+body[data-theme="win96"] .theme-tabs button:active,
+body[data-theme="win96"] .theme-tabs button.selected {
+    border-color: #404040 #ffffff #ffffff #404040;
+    background: #d4d0c8;
+    color: #000000;
+    font-weight: 700;
+}
+
+body[data-theme="win96"] main {
+    width: min(1080px, calc(100% - 24px));
+    margin-top: 18px;
+    padding: 0 3px 3px;
+    border: 2px solid;
+    border-color: #ffffff #000000 #000000 #ffffff;
+    background: #c0c0c0;
+    box-shadow: 1px 1px 0 #808080;
+}
+
+body[data-theme="win96"] header {
+    position: relative;
+    align-items: center;
+    margin: 2px 0 8px;
+    padding: 4px 5px;
+    background: #000080;
+    color: #ffffff;
+}
+
+body[data-theme="win96"] header::after {
+    content: "_  □  ×";
+    flex: 0 0 auto;
+    padding: 1px 4px;
+    border: 1px solid;
+    border-color: #ffffff #404040 #404040 #ffffff;
+    background: #c0c0c0;
+    color: #000000;
+    font-family: Arial, sans-serif;
+    font-size: 11px;
+    line-height: 16px;
+    word-spacing: 5px;
+}
+
+body[data-theme="win96"] header > div:first-child {
+    min-width: 0;
+}
+
+body[data-theme="win96"] .eyebrow,
+body[data-theme="win96"] header p,
+body[data-theme="win96"] header .status {
+    display: none;
+}
+
+body[data-theme="win96"] h1 {
+    overflow: hidden;
+    color: #ffffff;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 0;
+    line-height: 18px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+body[data-theme="win96"] section {
+    margin: 8px 5px 12px;
+    padding: 0 6px 7px;
+    border: 2px groove #ffffff;
+}
+
+body[data-theme="win96"] .section-title {
+    align-items: center;
+    margin: -1px -1px 6px;
+    padding: 2px 4px;
+    background: #000080;
+    color: #ffffff;
+}
+
+body[data-theme="win96"] h2 {
+    color: #ffffff;
+    font-size: 11px;
+    font-weight: 700;
+}
+
+body[data-theme="win96"] #updated,
+body[data-theme="win96"] .history-control {
+    color: #ffffff;
+    font-size: 10px;
+}
+
+body[data-theme="win96"] .summary {
+    gap: 4px;
+}
+
+body[data-theme="win96"] .metric,
+body[data-theme="win96"] .incident-block,
+body[data-theme="win96"] .empty-state {
+    border: 2px solid;
+    border-color: #ffffff #404040 #404040 #ffffff;
+    border-radius: 0;
+    background: #c0c0c0;
+    box-shadow: none;
+}
+
+body[data-theme="win96"] .metric {
+    padding: 7px 8px;
+}
+
+body[data-theme="win96"] .metric-label {
+    color: #000000;
+    font-size: 10px;
+    font-weight: 400;
+    letter-spacing: 0;
+    text-transform: none;
+}
+
+body[data-theme="win96"] .metric-value {
+    margin-top: 3px;
+    padding: 2px 4px;
+    border: 2px solid;
+    border-color: #404040 #ffffff #ffffff #404040;
+    background: #ffffff;
+    color: #000000;
+    font-family: "Courier New", monospace;
+    font-size: 13px;
+    font-weight: 700;
+}
+
+body[data-theme="win96"] .active-list {
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 5px;
+}
+
+body[data-theme="win96"] .incident-block {
+    padding: 7px;
+}
+
+body[data-theme="win96"] .incident-head {
+    align-items: center;
+    margin: -4px -4px 7px;
+    padding: 3px 4px;
+    background: #000080;
+    color: #ffffff;
+}
+
+body[data-theme="win96"] .incident-line {
+    color: #ffffff;
+    font-size: 11px;
+    font-weight: 700;
+}
+
+body[data-theme="win96"] .incident-cause {
+    color: #dcdcdc;
+    font-size: 10px;
+}
+
+body[data-theme="win96"] .incident-status {
+    border: 1px solid #ffffff;
+    border-radius: 0;
+    padding: 1px 4px;
+    color: #ffffff;
+    font-size: 10px;
+}
+
+body[data-theme="win96"] .incident-age {
+    margin-top: 5px;
+}
+
+body[data-theme="win96"] .age-value {
+    color: #000080;
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 0;
+}
+
+body[data-theme="win96"] .age-label,
+body[data-theme="win96"] .incident-message,
+body[data-theme="win96"] .prediction,
+body[data-theme="win96"] .prediction-median,
+body[data-theme="win96"] .prediction-sample,
+body[data-theme="win96"] .prediction.unavailable {
+    color: #000000;
+}
+
+body[data-theme="win96"] .incident-message {
+    margin-top: 7px;
+    padding: 5px;
+    border: 2px solid;
+    border-color: #404040 #ffffff #ffffff #404040;
+    background: #ffffff;
+    font-size: 11px;
+}
+
+body[data-theme="win96"] .prediction {
+    margin-top: 7px;
+    padding: 5px;
+    border: 2px solid;
+    border-color: #404040 #ffffff #ffffff #404040;
+    background: #ffffff;
+}
+
+body[data-theme="win96"] .prediction-range {
+    color: #000080;
+    font-weight: 700;
+}
+
+body[data-theme="win96"] select {
+    border: 2px solid;
+    border-color: #404040 #ffffff #ffffff #404040;
+    border-radius: 0;
+    background: #ffffff;
+    color: #000000;
+    font-size: 11px;
+}
+
+body[data-theme="win96"] .table-wrap {
+    border: 2px solid;
+    border-color: #404040 #ffffff #ffffff #404040;
+    border-radius: 0;
+    background: #ffffff;
+    box-shadow: none;
+}
+
+body[data-theme="win96"] table {
+    font-size: 11px;
+}
+
+body[data-theme="win96"] th {
+    border-right: 1px solid #808080;
+    border-bottom: 2px solid;
+    border-bottom-color: #404040;
+    background: #c0c0c0;
+    color: #000000;
+    font-size: 10px;
+    letter-spacing: 0;
+    text-transform: none;
+}
+
+body[data-theme="win96"] td {
+    border-bottom: 1px solid #c0c0c0;
+    color: #000000;
+}
+
+body[data-theme="win96"] tbody tr:hover {
+    background: #000080;
+    color: #ffffff;
+}
+
+body[data-theme="win96"] tbody tr:hover td,
+body[data-theme="win96"] tbody tr:hover .message-cell {
+    color: #ffffff;
+}
+
+body[data-theme="win96"] .message-cell {
+    color: #424242;
+}
+
+body[data-theme="win96"] footer {
+    margin: 6px 5px 2px;
+    padding: 3px 5px;
+    border: 2px solid;
+    border-color: #404040 #ffffff #ffffff #404040;
+    background: #c0c0c0;
+    color: #000000;
+    font-size: 10px;
+}
+
+@media (max-width: 700px) {
+    body[data-theme="win96"] main {
+        width: calc(100% - 10px);
+        margin-top: 6px;
+    }
+
+    body[data-theme="win96"] header {
+        flex-direction: row;
+    }
+
+    body[data-theme="win96"] .summary {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
+    body[data-theme="win96"] .active-list {
+        grid-template-columns: 1fr;
+    }
+}
