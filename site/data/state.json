@@ -1,13 +1,13 @@
 {
   "active": {
-    "circle:text:bf9bb7504db7ea4d": {
+    "central:text:c3e757f847c9162b": {
       "category": "other",
-      "first_seen": "2026-08-29T03:58:11Z",
-      "issue_key": "circle:text:bf9bb7504db7ea4d",
-      "line_id": "circle",
-      "line_name": "Circle",
-      "reason": "Circle Line: Minor delays due to train cancellations.",
-      "severity": "Minor Delays",
+      "first_seen": "2026-08-29T15:17:50Z",
+      "issue_key": "central:text:c3e757f847c9162b",
+      "line_id": "central",
+      "line_name": "Central",
+      "reason": "Central Line: No service between Liverpool Street and Leytonstone Eastbound only and SEVERE DELAYS Westbound only while emergency services deal with a casualty on the track. GOOD SERVICE on the rest of the line.",
+      "severity": "Part Suspended",
       "source_created": "0001-01-01T00:00:00"
     },
     "district:text:9c09d477e2a85811": {
@@ -20,13 +20,23 @@
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
+    "hammersmith-city:text:004129bf5e441754": {
+      "category": "other",
+      "first_seen": "2026-08-29T15:17:50Z",
+      "issue_key": "hammersmith-city:text:004129bf5e441754",
+      "line_id": "hammersmith-city",
+      "line_name": "Hammersmith & City",
+      "reason": "Hammersmith and City Line: Minor delays due to train cancellations.",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
     "jubilee:text:8906584587b41c0e": {
       "category": "other",
       "first_seen": "2026-08-28T22:50:00Z",
       "issue_key": "jubilee:text:8906584587b41c0e",
       "line_id": "jubilee",
       "line_name": "Jubilee",
-      "reason": "Jubilee Line: No service between Wembley Park and Willesden Green and SEVERE DELAYS on the rest of the line while emergency services respond to a large fire near the railway at Neasden. Tickets will be accepted on London Buses, DLR, Elizabeth line, Mildmay line, C2C and Thameslink services. Service is not expected to resume fully until 18:00 today at the earliest. Please check before you travel.",
+      "reason": "Jubilee Line: No service between Wembley Park and Willesden Green and SEVERE DELAYS on the rest of the line while emergency services respond to a large fire near the railway at Neasden. Tickets will be accepted on London Buses, DLR, Elizabeth line, Mildmay line, C2C and Thameslink services. For customers travelling to Wembley Arena, use the Bakerloo line or Lioness line to Wembley Central station. Please check before you travel.",
       "severity": "Part Suspended",
       "source_created": "0001-01-01T00:00:00"
     },
@@ -46,7 +56,7 @@
       "issue_key": "metropolitan:text:15b9dff8ff3531a8",
       "line_id": "metropolitan",
       "line_name": "Metropolitan",
-      "reason": "Metropolitan Line: No service between Harrow-on-the-Hill and Aldgate and SEVERE DELAYS on the rest of the line while emergency services respond to a large fire near the railway at Neasden. Tickets will be accepted on London Buses, Lioness line, London Northwestern and Thameslink services. Service is not expected to resume fully until 18:00 today at the earliest. Please check before you travel.",
+      "reason": "Metropolitan Line: No service between Harrow-on-the-Hill and Aldgate and SEVERE DELAYS on the rest of the line while emergency services respond to a large fire near the railway at Neasden. Tickets will be accepted on London Buses, Lioness line, London Northwestern and Thameslink services. For customers travelling to Wembley Arena, use the Bakerloo line or Lioness line to Wembley Central station. Please check before you travel.",
       "severity": "Part Suspended",
       "source_created": "0001-01-01T00:00:00"
     },
@@ -68,6 +78,26 @@
       "line_name": "Northern",
       "reason": "NORTHERN LINE: Saturday 29 August, from 0330 (including Night Tube), and all day Sunday 30 and Bank Holiday Monday 31 August, no service between Archway and High Barnet / Mill Hill East. Replacement bus service NL3 operates between Archway and High Barnet via Highgate, East Finchley, Finchley Central, West Finchley (Ballards Lane), Woodside Park (North Finchley High Road), and Totteridge & Whetstone (Whetstone High Road). Use London Buses route 382 between Finchley Central and Mill Hill East and Night Bus N20 between Archway and High Barnet during Night Tube hours.",
       "severity": "Part Closure",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "northern:text:ce13077f3744613d": {
+      "category": "signal failure",
+      "first_seen": "2026-08-29T15:17:50Z",
+      "issue_key": "northern:text:ce13077f3744613d",
+      "line_id": "northern",
+      "line_name": "Northern",
+      "reason": "Northern Line: No service between Colindale and Edgware while we fix a signal failure at Edgware. NO SERVICE between Archway and High Barnet / Mill Hill East due to planned engineering work. GOOD SERVICE on the rest of the line.",
+      "severity": "Part Suspended",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "piccadilly:text:e696a61b40d57106": {
+      "category": "passenger incident",
+      "first_seen": "2026-08-29T15:17:50Z",
+      "issue_key": "piccadilly:text:e696a61b40d57106",
+      "line_id": "piccadilly",
+      "line_name": "Piccadilly",
+      "reason": "Piccadilly Line: Minor delays between Acton Town and Heathrow terminals due to an earlier customer incident at Turnpike Lane. GOOD SERVICE on the rest of the line.",
+      "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
     "tram:text:015c08154e807811": {
@@ -122,6 +152,18 @@
     }
   },
   "history": [
+    {
+      "category": "other",
+      "duration_seconds": 40779,
+      "first_seen": "2026-08-29T03:58:11Z",
+      "issue_key": "circle:text:bf9bb7504db7ea4d",
+      "line_id": "circle",
+      "line_name": "Circle",
+      "reason": "Circle Line: Minor delays due to train cancellations.",
+      "resolved_at": "2026-08-29T15:17:50Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
     {
       "category": "other",
       "duration_seconds": 42475,
@@ -351,6 +393,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-08-29T10:37:55Z",
+  "updated_at": "2026-08-29T15:17:50Z",
   "version": 1
 }
