@@ -30,34 +30,44 @@
       "severity": "Severe Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "jubilee:text:8906584587b41c0e": {
+    "jubilee:text:4d7f48f70c78011f": {
       "category": "other",
-      "first_seen": "2026-08-28T22:50:00Z",
-      "issue_key": "jubilee:text:8906584587b41c0e",
+      "first_seen": "2026-08-29T21:10:51Z",
+      "issue_key": "jubilee:text:4d7f48f70c78011f",
       "line_id": "jubilee",
       "line_name": "Jubilee",
-      "reason": "Jubilee Line: No service between Wembley Park and Willesden Green and SEVERE DELAYS on the rest of the line while emergency services respond to a large fire near the railway at Neasden. Tickets will be accepted on London Buses, DLR, Elizabeth line, Mildmay line, C2C and Thameslink services. For customers travelling to Wembley Arena, use the Bakerloo line or Lioness line to Wembley Central station. Please check before you travel.",
+      "reason": "Metropolitan and Jubilee lines: emergency services continue to deal with a large fire in a recycling plant near the railway at Neasden. Until this is made safe, Metropolitan line and Jubilee line services will not run through the area. We do not expect services to resume fully until lunch time on Sunday 30 August 2026 at the earliest. Please check before you travel.",
       "severity": "Part Suspended",
       "source_created": "0001-01-01T00:00:00"
     },
-    "metropolitan:text:15b9dff8ff3531a8": {
+    "jubilee:text:970425f24225d17d": {
       "category": "other",
-      "first_seen": "2026-08-29T10:37:55Z",
-      "issue_key": "metropolitan:text:15b9dff8ff3531a8",
+      "first_seen": "2026-08-29T21:10:51Z",
+      "issue_key": "jubilee:text:970425f24225d17d",
+      "line_id": "jubilee",
+      "line_name": "Jubilee",
+      "reason": "Jubilee Line: No service between Wembley Park and Willesden Green for the rest of the day and SEVERE DELAYS on the rest of the line while emergency services respond to a large fire near the railway at Neasden. Tickets will be accepted on London Buses, DLR, Elizabeth line, Mildmay line, C2C and Thameslink services. If you're travelling to/from Wembley Arena, use the Bakerloo line or Lioness line to Wembley Central station.",
+      "severity": "Part Suspended",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "metropolitan:text:4d7f48f70c78011f": {
+      "category": "other",
+      "first_seen": "2026-08-29T21:10:51Z",
+      "issue_key": "metropolitan:text:4d7f48f70c78011f",
       "line_id": "metropolitan",
       "line_name": "Metropolitan",
-      "reason": "Metropolitan Line: No service between Harrow-on-the-Hill and Aldgate and SEVERE DELAYS on the rest of the line while emergency services respond to a large fire near the railway at Neasden. Tickets will be accepted on London Buses, Lioness line, London Northwestern and Thameslink services. For customers travelling to Wembley Arena, use the Bakerloo line or Lioness line to Wembley Central station. Please check before you travel.",
+      "reason": "Metropolitan and Jubilee lines: emergency services continue to deal with a large fire in a recycling plant near the railway at Neasden. Until this is made safe, Metropolitan line and Jubilee line services will not run through the area. We do not expect services to resume fully until lunch time on Sunday 30 August 2026 at the earliest. Please check before you travel.",
       "severity": "Part Suspended",
       "source_created": "0001-01-01T00:00:00"
     },
-    "northern:text:a932043bacfdbd6d": {
-      "category": "signal failure",
-      "first_seen": "2026-08-29T18:39:18Z",
-      "issue_key": "northern:text:a932043bacfdbd6d",
-      "line_id": "northern",
-      "line_name": "Northern",
-      "reason": "Northern Line: NO SERVICE between Archway and High Barnet / Mill Hill East due to planned engineering work. MINOR DELAYS between Camden Town and Edgware due to an earlier signal failure at Edgware. GOOD SERVICE on the rest of the line.",
-      "severity": "Minor Delays",
+    "metropolitan:text:d35f1f2f0181e47d": {
+      "category": "other",
+      "first_seen": "2026-08-29T21:10:51Z",
+      "issue_key": "metropolitan:text:d35f1f2f0181e47d",
+      "line_id": "metropolitan",
+      "line_name": "Metropolitan",
+      "reason": "Metropolitan Line: No service between Harrow-on-the-Hill and Aldgate for the rest of the day and SEVERE DELAYS on the rest of the line while emergency services respond to a large fire near the railway at Neasden. Tickets will be accepted on London Buses, Lioness line, London Northwestern and Thameslink services. If you're travelling to/from Wembley Arena, use the Bakerloo line or Lioness line to Wembley Central station.",
+      "severity": "Part Suspended",
       "source_created": "0001-01-01T00:00:00"
     },
     "northern:text:af390b790dabf4d3": {
@@ -132,6 +142,42 @@
     }
   },
   "history": [
+    {
+      "category": "other",
+      "duration_seconds": 80451,
+      "first_seen": "2026-08-28T22:50:00Z",
+      "issue_key": "jubilee:text:8906584587b41c0e",
+      "line_id": "jubilee",
+      "line_name": "Jubilee",
+      "reason": "Jubilee Line: No service between Wembley Park and Willesden Green and SEVERE DELAYS on the rest of the line while emergency services respond to a large fire near the railway at Neasden. Tickets will be accepted on London Buses, DLR, Elizabeth line, Mildmay line, C2C and Thameslink services. For customers travelling to Wembley Arena, use the Bakerloo line or Lioness line to Wembley Central station. Please check before you travel.",
+      "resolved_at": "2026-08-29T21:10:51Z",
+      "severity": "Part Suspended",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "other",
+      "duration_seconds": 37976,
+      "first_seen": "2026-08-29T10:37:55Z",
+      "issue_key": "metropolitan:text:15b9dff8ff3531a8",
+      "line_id": "metropolitan",
+      "line_name": "Metropolitan",
+      "reason": "Metropolitan Line: No service between Harrow-on-the-Hill and Aldgate and SEVERE DELAYS on the rest of the line while emergency services respond to a large fire near the railway at Neasden. Tickets will be accepted on London Buses, Lioness line, London Northwestern and Thameslink services. For customers travelling to Wembley Arena, use the Bakerloo line or Lioness line to Wembley Central station. Please check before you travel.",
+      "resolved_at": "2026-08-29T21:10:51Z",
+      "severity": "Part Suspended",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "signal failure",
+      "duration_seconds": 9093,
+      "first_seen": "2026-08-29T18:39:18Z",
+      "issue_key": "northern:text:a932043bacfdbd6d",
+      "line_id": "northern",
+      "line_name": "Northern",
+      "reason": "Northern Line: NO SERVICE between Archway and High Barnet / Mill Hill East due to planned engineering work. MINOR DELAYS between Camden Town and Edgware due to an earlier signal failure at Edgware. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-08-29T21:10:51Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
     {
       "category": "passenger incident",
       "duration_seconds": 395,
@@ -457,6 +503,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-08-29T18:45:53Z",
+  "updated_at": "2026-08-29T21:10:51Z",
   "version": 1
 }
