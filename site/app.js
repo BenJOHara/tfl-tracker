@@ -6,6 +6,7 @@ const updatedElement = document.querySelector("#updated");
 const historyLimitElement = document.querySelector("#history-limit");
 
 const TFL_STATUS_URL = "https://api.tfl.gov.uk/Line/Mode/tube,overground,dlr,elizabeth-line,tram/Status";
+const LIVE_FIRST_SEEN_KEY = "tfl-live-first-seen-v2";
 const GOOD_SEVERITIES = new Set(["good service", "special service"]);
 const CATEGORY_RULES = [
     ["signal failure", ["signal failure", "signalling failure", "signal fault", "signalling fault"]],
@@ -54,7 +55,9 @@ const lineColours = {
 let state = null;
 let liveActive = null;
 let liveUpdatedAt = null;
+let liveError = null;
 const expandedLines = new Set();
+let liveFirstSeen = loadLiveFirstSeen();
 
 function escapeHtml(value) {
     return String(value ?? "").replace(/[&<>'"]/g, character => ({
@@ -70,6 +73,18 @@ function cleanText(value) {
     return String(value ?? "").trim().replace(/\s+/g, " ");
 }
 
+function normaliseReason(reason) {
+    return cleanText(reason)
+        .toLowerCase()
+        .replace(/\b(?:due to|because of|caused by)\b/g, " ")
+        .replace(/\b(?:minor|severe) delays?\b/g, " ")
+        .replace(/\bpart suspended\b|\bsuspended\b/g, " ")
+        .replace(/\d+/g, "#")
+        .replace(/[^a-z0-9#]+/g, " ")
+        .trim()
+        .slice(0, 220);
+}
+
 function classifyReason(reason) {
     const lowered = reason.toLowerCase();
     for (const [category, phrases] of CATEGORY_RULES) {
@@ -78,16 +93,56 @@ function classifyReason(reason) {
     return "other";
 }
 
+function loadLiveFirstSeen() {
+    try {
+        const value = JSON.parse(sessionStorage.getItem(LIVE_FIRST_SEEN_KEY) || "{}");
+        return value && typeof value === "object" ? value : {};
+    } catch (_) {
+        return {};
+    }
+}
+
+function saveLiveFirstSeen(activeKeys) {
+    const next = {};
+    for (const key of activeKeys) {
+        if (liveFirstSeen[key]) next[key] = liveFirstSeen[key];
+    }
+    liveFirstSeen = next;
+    try {
+        sessionStorage.setItem(LIVE_FIRST_SEEN_KEY, JSON.stringify(liveFirstSeen));
+    } catch (_) {
+        // Session persistence is optional.
+    }
+}
+
 function sourceFirstSeen(value) {
     if (!value) return null;
     const timestamp = new Date(value);
-    if (Number.isNaN(timestamp.getTime()) || timestamp.getTime() > Date.now()) return null;
+    const earliestUsefulDate = Date.UTC(2010, 0, 1);
+    if (
+        Number.isNaN(timestamp.getTime()) ||
+        timestamp.getTime() < earliestUsefulDate ||
+        timestamp.getTime() > Date.now()
+    ) {
+        return null;
+    }
     return timestamp.toISOString();
+}
+
+function liveIssueKey(lineId, status, reason) {
+    const statusId = status.id;
+    if (statusId !== undefined && statusId !== null && statusId !== "" && statusId !== 0 && statusId !== "0") {
+        return `${lineId}:status:${statusId}`;
+    }
+    return `${lineId}:text:${normaliseReason(reason)}`;
 }
 
 function extractLiveIncidents(lines) {
     const persisted = Object.values(state?.active || {});
+    const previous = new Map((liveActive || []).map(item => [item.issue_key, item]));
     const incidents = [];
+    const activeKeys = new Set();
+    const now = new Date().toISOString();
 
     for (const line of lines) {
         const lineId = cleanText(line.id);
@@ -101,27 +156,34 @@ function extractLiveIncidents(lines) {
 
             const disruption = status.disruption || {};
             const sourceCreated = cleanText(status.created) || cleanText(disruption.created) || null;
-            const statusId = status.id;
-            const issueKey = statusId !== undefined && statusId !== null && statusId !== "" && statusId !== 0 && statusId !== "0"
-                ? `${lineId}:status:${statusId}`
-                : null;
-            const saved = (issueKey && state?.active?.[issueKey]) || persisted.find(item =>
+            const issueKey = liveIssueKey(lineId, status, reason);
+            const saved = state?.active?.[issueKey] || persisted.find(item =>
                 item.line_id === lineId && item.reason === reason
             );
+            const previousIncident = previous.get(issueKey);
 
+            const firstSeen = saved?.first_seen ||
+                previousIncident?.first_seen ||
+                liveFirstSeen[issueKey] ||
+                sourceFirstSeen(sourceCreated) ||
+                now;
+
+            liveFirstSeen[issueKey] = firstSeen;
+            activeKeys.add(issueKey);
             incidents.push({
-                issue_key: issueKey || `${lineId}:live:${reason}`,
+                issue_key: issueKey,
                 line_id: lineId,
                 line_name: lineName,
                 severity,
                 reason,
                 category: classifyReason(reason),
                 source_created: sourceCreated,
-                first_seen: saved?.first_seen || sourceFirstSeen(sourceCreated) || new Date().toISOString()
+                first_seen: firstSeen
             });
         }
     }
 
+    saveLiveFirstSeen(activeKeys);
     return incidents;
 }
 
@@ -144,6 +206,16 @@ function duration(seconds) {
     return remainder ? `${hours}h ${remainder}m` : `${hours}h`;
 }
 
+function compactAge(value) {
+    if (!value) return "unknown";
+    const seconds = Math.max(0, (Date.now() - new Date(value).getTime()) / 1000);
+    if (seconds < 90) return "<2m";
+    if (seconds < 3600) return `${Math.round(seconds / 60)}m`;
+    const hours = seconds / 3600;
+    if (hours < 24) return `${hours.toFixed(hours < 10 ? 1 : 0)}h`;
+    return `${Math.round(hours / 24)}d`;
+}
+
 function dateTime(value) {
     if (!value) return "—";
     return new Intl.DateTimeFormat("en-GB", {
@@ -151,6 +223,16 @@ function dateTime(value) {
         month: "short",
         hour: "2-digit",
         minute: "2-digit",
+        hour12: false
+    }).format(new Date(value));
+}
+
+function timeOnly(value) {
+    if (!value) return "—";
+    return new Intl.DateTimeFormat("en-GB", {
+        hour: "2-digit",
+        minute: "2-digit",
+        second: "2-digit",
         hour12: false
     }).format(new Date(value));
 }
@@ -166,7 +248,9 @@ function percentile(values, fraction) {
 }
 
 function elapsedSeconds(incident) {
-    return Math.max(0, (Date.now() - new Date(incident.first_seen).getTime()) / 1000);
+    const firstSeen = new Date(incident.first_seen).getTime();
+    if (Number.isNaN(firstSeen)) return 0;
+    return Math.max(0, (Date.now() - firstSeen) / 1000);
 }
 
 function predictionFor(incident, history) {
@@ -297,12 +381,20 @@ function render() {
             <td class="message-cell">${escapeHtml(incident.reason)}</td>
         </tr>`).join("") : `<tr><td colspan="6" class="muted">No completed incidents yet.</td></tr>`;
 
+    const historyAge = compactAge(state.updated_at);
     if (liveUpdatedAt) {
-        updatedElement.textContent = `Live ${dateTime(liveUpdatedAt)} · history ${dateTime(state.updated_at)}`;
-        pollStatusElement.textContent = "TfL live · history via GitHub";
+        updatedElement.textContent = `Live checked ${timeOnly(liveUpdatedAt)} · history ${historyAge} old`;
+        pollStatusElement.textContent = historyAge === "<2m"
+            ? "TfL live · history current"
+            : `TfL live · history stale ${historyAge}`;
+        pollStatusElement.classList.toggle("error", historyAge !== "<2m" && historyAge !== "unknown");
+    } else if (liveError) {
+        updatedElement.textContent = state.updated_at ? `Saved history ${historyAge} old` : "No saved incidents";
+        pollStatusElement.textContent = `Live TfL failed · saved data only`;
+        pollStatusElement.classList.add("error");
     } else {
-        updatedElement.textContent = state.updated_at ? `Saved ${dateTime(state.updated_at)}` : "No incidents recorded yet";
-        pollStatusElement.textContent = "Saved TfL data";
+        updatedElement.textContent = state.updated_at ? `Saved history ${historyAge} old` : "No incidents recorded yet";
+        pollStatusElement.textContent = "Loading live TfL";
     }
 }
 
@@ -324,33 +416,28 @@ async function refreshState() {
         const response = await fetch(`./data/state.json?cache=${Date.now()}`, {cache: "no-store"});
         if (!response.ok) throw new Error(`HTTP ${response.status}`);
         state = await response.json();
-        pollStatusElement.classList.remove("error");
         render();
     } catch (error) {
-        if (!state) {
-            state = {active: {}, history: [], updated_at: null};
-        }
-        pollStatusElement.textContent = `History error: ${error.message}`;
-        pollStatusElement.classList.add("error");
+        if (!state) state = {active: {}, history: [], updated_at: null};
         render();
     }
 }
 
 async function refreshLive() {
     try {
-        const response = await fetch(`${TFL_STATUS_URL}?cache=${Date.now()}`, {cache: "no-store"});
+        const separator = TFL_STATUS_URL.includes("?") ? "&" : "?";
+        const response = await fetch(`${TFL_STATUS_URL}${separator}cache=${Date.now()}`, {cache: "no-store"});
         if (!response.ok) throw new Error(`HTTP ${response.status}`);
         const lines = await response.json();
         if (!Array.isArray(lines)) throw new Error("Unexpected TfL response");
         liveActive = extractLiveIncidents(lines);
         liveUpdatedAt = new Date().toISOString();
-        pollStatusElement.classList.remove("error");
+        liveError = null;
         render();
     } catch (error) {
+        liveError = error;
         liveActive = null;
         liveUpdatedAt = null;
-        pollStatusElement.textContent = `Live TfL unavailable · using saved data`;
-        pollStatusElement.classList.add("error");
         render();
     }
 }
