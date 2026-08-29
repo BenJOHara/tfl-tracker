@@ -1,12 +1,12 @@
 {
   "active": {
-    "central:text:4b5042e7fba08a34": {
+    "central:text:ce00c64e9345da2b": {
       "category": "passenger incident",
-      "first_seen": "2026-08-29T18:39:18Z",
-      "issue_key": "central:text:4b5042e7fba08a34",
+      "first_seen": "2026-08-29T18:45:53Z",
+      "issue_key": "central:text:ce00c64e9345da2b",
       "line_id": "central",
       "line_name": "Central",
-      "reason": "Central Line: Severe delays due to an earlier customer incident. Please take first train and change accordingly. Tickets are being accepted on London Buses, Liberty line, Elizabeth line, Chiltern Railways, Great Western Railway and Greater Anglia.",
+      "reason": "Central Line: Severe delays due to an earlier customer incident. Tickets are being accepted on London Buses, Liberty line, Elizabeth line, Chiltern Railways, Great Western Railway and Greater Anglia.",
       "severity": "Severe Delays",
       "source_created": "0001-01-01T00:00:00"
     },
@@ -132,6 +132,18 @@
     }
   },
   "history": [
+    {
+      "category": "passenger incident",
+      "duration_seconds": 395,
+      "first_seen": "2026-08-29T18:39:18Z",
+      "issue_key": "central:text:4b5042e7fba08a34",
+      "line_id": "central",
+      "line_name": "Central",
+      "reason": "Central Line: Severe delays due to an earlier customer incident. Please take first train and change accordingly. Tickets are being accepted on London Buses, Liberty line, Elizabeth line, Chiltern Railways, Great Western Railway and Greater Anglia.",
+      "resolved_at": "2026-08-29T18:45:53Z",
+      "severity": "Severe Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
     {
       "category": "other",
       "duration_seconds": 11958,
@@ -445,6 +457,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-08-29T18:39:18Z",
+  "updated_at": "2026-08-29T18:45:53Z",
   "version": 1
 }
