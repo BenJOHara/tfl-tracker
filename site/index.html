@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="./signal.css?v=signal-1">
     <link rel="stylesheet" href="./bare.css?v=bare-2">
     <link rel="stylesheet" href="./interactions.css?v=inline-history-2">
+    <link rel="stylesheet" href="./responses.css?v=responses-1">
 </head>
 <body data-theme="clean">
     <nav class="theme-tabs" aria-label="Choose visual style">
@@ -88,12 +89,17 @@
             <div id="poll-status" class="status">Loading</div>
         </header>
 
-        <section>
+        <nav id="view-tabs" class="view-tabs" aria-label="Tracker view">
+            <button type="button" data-view-choice="dashboard" class="selected" aria-pressed="true">Dashboard</button>
+            <button type="button" data-view-choice="responses" aria-pressed="false">Responses</button>
+        </nav>
+
+        <section class="dashboard-section">
             <div class="section-title"><h2>System</h2></div>
             <div id="summary" class="summary"></div>
         </section>
 
-        <section>
+        <section class="dashboard-section">
             <div class="section-title">
                 <h2>Active disruptions</h2>
                 <span id="updated"></span>
@@ -101,7 +107,7 @@
             <div id="active" class="active-list"></div>
         </section>
 
-        <section>
+        <section class="dashboard-section">
             <div class="section-title">
                 <h2>Incident history</h2>
                 <label class="history-control">Rows <select id="history-limit" aria-label="History size"><option value="25">25</option><option value="100" selected>100</option><option value="250">250</option></select></label>
@@ -114,8 +120,25 @@
             </div>
         </section>
 
+        <section id="responses-view" hidden>
+            <div class="responses-head">
+                <div>
+                    <h2>Responses</h2>
+                    <p class="responses-subtitle">Actual fetches made by this page. TfL live status is requested every 60 seconds; saved history every 5 minutes.</p>
+                </div>
+                <div class="responses-actions">
+                    <span id="response-count">0 responses since page opened</span>
+                    <button id="clear-responses" type="button">Clear</button>
+                </div>
+            </div>
+            <div id="response-list" class="response-list">
+                <div class="response-empty">Waiting for the first fetch…</div>
+            </div>
+        </section>
+
         <footer>Data provided by Transport for London · Unofficial project</footer>
     </main>
+    <script src="./responses.js?v=responses-1" defer></script>
     <script src="./app.js?v=live-fallback-2" defer></script>
 </body>
 </html>
