@@ -6,7 +6,17 @@
       "issue_key": "circle:text:bf9bb7504db7ea4d",
       "line_id": "circle",
       "line_name": "Circle",
-      "reason": "Circle Line: Minor delays due to train cancellations",
+      "reason": "Circle Line: Minor delays due to train cancellations.",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "district:text:9c09d477e2a85811": {
+      "category": "other",
+      "first_seen": "2026-08-29T10:37:55Z",
+      "issue_key": "district:text:9c09d477e2a85811",
+      "line_id": "district",
+      "line_name": "District",
+      "reason": "District Line: Minor delays due to train cancellations.",
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
@@ -16,7 +26,7 @@
       "issue_key": "jubilee:text:8906584587b41c0e",
       "line_id": "jubilee",
       "line_name": "Jubilee",
-      "reason": "Jubilee Line: No service between Wembley Park and Willesden Green and SEVERE DELAYS on the rest of the line while emergency services respond to a large fire near the railway at Neasden. Tickets will be accepted on London Buses, DLR, Elizabeth line, Mildmay line, C2C and Thameslink services. Service is not expected to resume fully until early afternoon on Saturday, 29 August. Please check before you travel.",
+      "reason": "Jubilee Line: No service between Wembley Park and Willesden Green and SEVERE DELAYS on the rest of the line while emergency services respond to a large fire near the railway at Neasden. Tickets will be accepted on London Buses, DLR, Elizabeth line, Mildmay line, C2C and Thameslink services. Service is not expected to resume fully until 18:00 today at the earliest. Please check before you travel.",
       "severity": "Part Suspended",
       "source_created": "0001-01-01T00:00:00"
     },
@@ -26,27 +36,27 @@
       "issue_key": "jubilee:text:a75de1ea4b124a89",
       "line_id": "jubilee",
       "line_name": "Jubilee",
-      "reason": "The emergency services are responding to a large fire near the railway at Neasden. Until it is made safe, Jubilee and Metropolitan line services are unable to run through the area. Services will be curtailed as follows until early afternoon on Saturday 29 August 2026. Please check before you travel. METROPOLITAN LINE: No service between Harrow-on-the-Hill and Aldgate and SEVERE DELAYS on the rest of the line. JUBILEE LINE: No service between Wembley Park and Willesden Green and severe delays on the rest of the line.",
+      "reason": "The emergency services are responding to a large fire near the railway at Neasden. Until it is made safe, Jubilee and Metropolitan line services are unable to run through the area. Services will be curtailed as follows until early afternoon on Saturday 29 August 2026. Please check before you travel. JUBILEE LINE: No service between Wembley Park and Willesden Green and SEVERE DELAYS on the rest of the line. METROPOLITAN LINE: No service between Harrow-on-the-Hill and Aldgate and SEVERE DELAYS on the rest of the line.",
       "severity": "Part Suspended",
       "source_created": "0001-01-01T00:00:00"
     },
-    "metropolitan:text:a75de1ea4b124a89": {
+    "metropolitan:text:15b9dff8ff3531a8": {
       "category": "other",
-      "first_seen": "2026-08-28T22:50:00Z",
-      "issue_key": "metropolitan:text:a75de1ea4b124a89",
+      "first_seen": "2026-08-29T10:37:55Z",
+      "issue_key": "metropolitan:text:15b9dff8ff3531a8",
       "line_id": "metropolitan",
       "line_name": "Metropolitan",
-      "reason": "The emergency services are responding to a large fire near the railway at Neasden. Until it is made safe, Jubilee and Metropolitan line services are unable to run through the area. Services will be curtailed as follows until early afternoon on Saturday 29 August 2026. Please check before you travel. METROPOLITAN LINE: No service between Harrow-on-the-Hill and Aldgate and SEVERE DELAYS on the rest of the line. JUBILEE LINE: No service between Wembley Park and Willesden Green and severe delays on the rest of the line.",
+      "reason": "Metropolitan Line: No service between Harrow-on-the-Hill and Aldgate and SEVERE DELAYS on the rest of the line while emergency services respond to a large fire near the railway at Neasden. Tickets will be accepted on London Buses, Lioness line, London Northwestern and Thameslink services. Service is not expected to resume fully until 18:00 today at the earliest. Please check before you travel.",
       "severity": "Part Suspended",
       "source_created": "0001-01-01T00:00:00"
     },
-    "metropolitan:text:cc54ccf02a045718": {
+    "metropolitan:text:a420ad13b1926914": {
       "category": "other",
-      "first_seen": "2026-08-29T03:58:11Z",
-      "issue_key": "metropolitan:text:cc54ccf02a045718",
+      "first_seen": "2026-08-29T10:37:55Z",
+      "issue_key": "metropolitan:text:a420ad13b1926914",
       "line_id": "metropolitan",
       "line_name": "Metropolitan",
-      "reason": "Metropolitan Line: No service between Harrow-on-the-Hill and Aldgate and between Moor Park and Watford and SEVERE DELAYS on the rest of the line while emergency services respond to a large fire near the railway at Neasden. Tickets will be accepted on London Buses, DLR, Elizabeth line, Mildmay line, C2C and Thameslink services. Service is not expected to resume fully until early afternoon today, Saturday 29 August. Please check before you travel.",
+      "reason": "The emergency services are responding to a large fire near the railway at Neasden. Until it is made safe, Jubilee and Metropolitan line services are unable to run through the area. Service is not expected to resume fully until 18:00 today at the earliest. Please check before you travel. Please check before you travel. METROPOLITAN LINE: No service between Harrow-on-the-Hill and Aldgate and SEVERE DELAYS on the rest of the line. JUBILEE LINE: No service between Wembley Park and Willesden Green and severe delays on the rest of the line.",
       "severity": "Part Suspended",
       "source_created": "0001-01-01T00:00:00"
     },
@@ -70,16 +80,6 @@
       "severity": "Part Closure",
       "source_created": "0001-01-01T00:00:00"
     },
-    "tram:text:1cf994c5cfc450b3": {
-      "category": "other",
-      "first_seen": "2026-08-28T22:50:00Z",
-      "issue_key": "tram:text:1cf994c5cfc450b3",
-      "line_id": "tram",
-      "line_name": "Tram",
-      "reason": "LONDON TRAMS: From Thursday 6 until Sunday 30 August, no service between Arena and Elmers End at certain times. On Mondays to Fridays, no service before 0700 and after 1930, on Saturdays, no service before 0800 and after 1845, and on Sundays, no service for the whole day.",
-      "severity": "Part Closure",
-      "source_created": "0001-01-01T00:00:00"
-    },
     "tram:text:b95c3f4768a61942": {
       "category": "other",
       "first_seen": "2026-08-28T16:31:16Z",
@@ -88,6 +88,16 @@
       "line_name": "Tram",
       "reason": "LONDON TRAMS: From Thursday 6 until Sunday 30 August, no service between Reeves Corner and East Croydon.",
       "severity": "Part Closure",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "victoria:text:02e0850cdf11ef25": {
+      "category": "other",
+      "first_seen": "2026-08-29T10:37:55Z",
+      "issue_key": "victoria:text:02e0850cdf11ef25",
+      "line_id": "victoria",
+      "line_name": "Victoria",
+      "reason": "Victoria Line: Minor delays due to train cancellations.",
+      "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
     "waterloo-city:text:02da0890c7cbf303": {
@@ -112,6 +122,42 @@
     }
   },
   "history": [
+    {
+      "category": "other",
+      "duration_seconds": 42475,
+      "first_seen": "2026-08-28T22:50:00Z",
+      "issue_key": "metropolitan:text:a75de1ea4b124a89",
+      "line_id": "metropolitan",
+      "line_name": "Metropolitan",
+      "reason": "The emergency services are responding to a large fire near the railway at Neasden. Until it is made safe, Jubilee and Metropolitan line services are unable to run through the area. Services will be curtailed as follows until early afternoon on Saturday 29 August 2026. Please check before you travel. METROPOLITAN LINE: No service between Harrow-on-the-Hill and Aldgate and SEVERE DELAYS on the rest of the line. JUBILEE LINE: No service between Wembley Park and Willesden Green and severe delays on the rest of the line.",
+      "resolved_at": "2026-08-29T10:37:55Z",
+      "severity": "Part Suspended",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "other",
+      "duration_seconds": 23984,
+      "first_seen": "2026-08-29T03:58:11Z",
+      "issue_key": "metropolitan:text:cc54ccf02a045718",
+      "line_id": "metropolitan",
+      "line_name": "Metropolitan",
+      "reason": "Metropolitan Line: No service between Harrow-on-the-Hill and Aldgate and between Moor Park and Watford and SEVERE DELAYS on the rest of the line while emergency services respond to a large fire near the railway at Neasden. Tickets will be accepted on London Buses, DLR, Elizabeth line, Mildmay line, C2C and Thameslink services. Service is not expected to resume fully until early afternoon today, Saturday 29 August. Please check before you travel.",
+      "resolved_at": "2026-08-29T10:37:55Z",
+      "severity": "Part Suspended",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "other",
+      "duration_seconds": 42475,
+      "first_seen": "2026-08-28T22:50:00Z",
+      "issue_key": "tram:text:1cf994c5cfc450b3",
+      "line_id": "tram",
+      "line_name": "Tram",
+      "reason": "LONDON TRAMS: From Thursday 6 until Sunday 30 August, no service between Arena and Elmers End at certain times. On Mondays to Fridays, no service before 0700 and after 1930, on Saturdays, no service before 0800 and after 1845, and on Sundays, no service for the whole day.",
+      "resolved_at": "2026-08-29T10:37:55Z",
+      "severity": "Part Closure",
+      "source_created": "0001-01-01T00:00:00"
+    },
     {
       "category": "other",
       "duration_seconds": 18491,
@@ -305,6 +351,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-08-29T03:58:11Z",
+  "updated_at": "2026-08-29T10:37:55Z",
   "version": 1
 }
