@@ -1,13 +1,13 @@
 {
   "active": {
-    "central:text:c3e757f847c9162b": {
+    "central:text:476b260af10335c1": {
       "category": "other",
-      "first_seen": "2026-08-29T15:17:50Z",
-      "issue_key": "central:text:c3e757f847c9162b",
+      "first_seen": "2026-08-29T15:20:00Z",
+      "issue_key": "central:text:476b260af10335c1",
       "line_id": "central",
       "line_name": "Central",
-      "reason": "Central Line: No service between Liverpool Street and Leytonstone Eastbound only and SEVERE DELAYS Westbound only while emergency services deal with a casualty on the track. GOOD SERVICE on the rest of the line.",
-      "severity": "Part Suspended",
+      "reason": "Central Line: No service between Liverpool Street and Leytonstone Eastbound only and SEVERE DELAYS on the rest of the line while emergency services deal with a casualty on the track.",
+      "severity": "Severe Delays",
       "source_created": "0001-01-01T00:00:00"
     },
     "district:text:9c09d477e2a85811": {
@@ -152,6 +152,18 @@
     }
   },
   "history": [
+    {
+      "category": "other",
+      "duration_seconds": 130,
+      "first_seen": "2026-08-29T15:17:50Z",
+      "issue_key": "central:text:c3e757f847c9162b",
+      "line_id": "central",
+      "line_name": "Central",
+      "reason": "Central Line: No service between Liverpool Street and Leytonstone Eastbound only and SEVERE DELAYS Westbound only while emergency services deal with a casualty on the track. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-08-29T15:20:00Z",
+      "severity": "Part Suspended",
+      "source_created": "0001-01-01T00:00:00"
+    },
     {
       "category": "other",
       "duration_seconds": 40779,
@@ -393,6 +405,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-08-29T15:17:50Z",
+  "updated_at": "2026-08-29T15:20:00Z",
   "version": 1
 }
