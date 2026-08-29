@@ -1,12 +1,12 @@
 {
   "active": {
-    "central:text:6d0af7c9d44f714a": {
+    "circle:text:bf9bb7504db7ea4d": {
       "category": "other",
-      "first_seen": "2026-08-28T22:50:00Z",
-      "issue_key": "central:text:6d0af7c9d44f714a",
-      "line_id": "central",
-      "line_name": "Central",
-      "reason": "Central Line: Minor delays due to train cancellations.",
+      "first_seen": "2026-08-29T03:58:11Z",
+      "issue_key": "circle:text:bf9bb7504db7ea4d",
+      "line_id": "circle",
+      "line_name": "Circle",
+      "reason": "Circle Line: Minor delays due to train cancellations",
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
@@ -30,16 +30,6 @@
       "severity": "Part Suspended",
       "source_created": "0001-01-01T00:00:00"
     },
-    "metropolitan:text:0088c715e6ac678c": {
-      "category": "other",
-      "first_seen": "2026-08-28T22:50:00Z",
-      "issue_key": "metropolitan:text:0088c715e6ac678c",
-      "line_id": "metropolitan",
-      "line_name": "Metropolitan",
-      "reason": "Metropolitan Line: No service between Harrow-on-the-Hill and Aldgate and SEVERE DELAYS on the rest of the line while emergency services respond to a large fire near the railway at Neasden. Tickets will be accepted on London Buses, DLR, Elizabeth line, Mildmay line, C2C and Thameslink services. Service is not expected to resume fully until early afternoon on Saturday, 29 August. Please check before you travel.",
-      "severity": "Part Suspended",
-      "source_created": "0001-01-01T00:00:00"
-    },
     "metropolitan:text:a75de1ea4b124a89": {
       "category": "other",
       "first_seen": "2026-08-28T22:50:00Z",
@@ -48,6 +38,26 @@
       "line_name": "Metropolitan",
       "reason": "The emergency services are responding to a large fire near the railway at Neasden. Until it is made safe, Jubilee and Metropolitan line services are unable to run through the area. Services will be curtailed as follows until early afternoon on Saturday 29 August 2026. Please check before you travel. METROPOLITAN LINE: No service between Harrow-on-the-Hill and Aldgate and SEVERE DELAYS on the rest of the line. JUBILEE LINE: No service between Wembley Park and Willesden Green and severe delays on the rest of the line.",
       "severity": "Part Suspended",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "metropolitan:text:cc54ccf02a045718": {
+      "category": "other",
+      "first_seen": "2026-08-29T03:58:11Z",
+      "issue_key": "metropolitan:text:cc54ccf02a045718",
+      "line_id": "metropolitan",
+      "line_name": "Metropolitan",
+      "reason": "Metropolitan Line: No service between Harrow-on-the-Hill and Aldgate and between Moor Park and Watford and SEVERE DELAYS on the rest of the line while emergency services respond to a large fire near the railway at Neasden. Tickets will be accepted on London Buses, DLR, Elizabeth line, Mildmay line, C2C and Thameslink services. Service is not expected to resume fully until early afternoon today, Saturday 29 August. Please check before you travel.",
+      "severity": "Part Suspended",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "northern:text:af390b790dabf4d3": {
+      "category": "other",
+      "first_seen": "2026-08-29T03:58:11Z",
+      "issue_key": "northern:text:af390b790dabf4d3",
+      "line_id": "northern",
+      "line_name": "Northern",
+      "reason": "NORTHERN LINE: Saturday 29 August, from 0330 (including Night Tube), and all day Sunday 30 and Bank Holiday Monday 31 August, no service between Archway and High Barnet / Mill Hill East. Replacement bus service NL3 operates between Archway and High Barnet via Highgate, East Finchley, Finchley Central, West Finchley (Ballards Lane), Woodside Park (North Finchley High Road), and Totteridge & Whetstone (Whetstone High Road). Use London Buses route 382 between Finchley Central and Mill Hill East and Night Bus N20 between Archway and High Barnet during Night Tube hours.",
+      "severity": "Part Closure",
       "source_created": "0001-01-01T00:00:00"
     },
     "tram:text:015c08154e807811": {
@@ -79,9 +89,53 @@
       "reason": "LONDON TRAMS: From Thursday 6 until Sunday 30 August, no service between Reeves Corner and East Croydon.",
       "severity": "Part Closure",
       "source_created": "0001-01-01T00:00:00"
+    },
+    "waterloo-city:text:02da0890c7cbf303": {
+      "category": "other",
+      "first_seen": "2026-08-29T03:58:11Z",
+      "issue_key": "waterloo-city:text:02da0890c7cbf303",
+      "line_id": "waterloo-city",
+      "line_name": "Waterloo & City",
+      "reason": "Waterloo & City line: service operates 06:00 until 00:30, Monday to Friday only. There is no service on Saturdays, Sundays and on bank/public holidays.",
+      "severity": "Planned Closure",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "windrush:text:bb44a7c6ae6dc16b": {
+      "category": "other",
+      "first_seen": "2026-08-29T03:58:11Z",
+      "issue_key": "windrush:text:bb44a7c6ae6dc16b",
+      "line_id": "windrush",
+      "line_name": "Windrush",
+      "reason": "WINDRUSH LINE: Saturday 29, Sunday 30 and Monday 31 August, no service between Surrey Quays and Clapham Junction / Battersea Park. Replacement bus service M operates between Canada Water and Clapham Junction via Surrey Quays, Queens Road Peckham, Peckham Rye, Denmark Hill, Clapham High Street and Wandsworth Road. There will also be no SOUTHERN services at Queens Road Peckham and Peckham Rye, with an additional replacement bus service between London Bridge and Tulse Hill. SOUTHEASTERN and THAMESLINK trains continue to serve Peckham Rye and Denmark Hill.",
+      "severity": "Part Closure",
+      "source_created": "0001-01-01T00:00:00"
     }
   },
   "history": [
+    {
+      "category": "other",
+      "duration_seconds": 18491,
+      "first_seen": "2026-08-28T22:50:00Z",
+      "issue_key": "central:text:6d0af7c9d44f714a",
+      "line_id": "central",
+      "line_name": "Central",
+      "reason": "Central Line: Minor delays due to train cancellations.",
+      "resolved_at": "2026-08-29T03:58:11Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "other",
+      "duration_seconds": 18491,
+      "first_seen": "2026-08-28T22:50:00Z",
+      "issue_key": "metropolitan:text:0088c715e6ac678c",
+      "line_id": "metropolitan",
+      "line_name": "Metropolitan",
+      "reason": "Metropolitan Line: No service between Harrow-on-the-Hill and Aldgate and SEVERE DELAYS on the rest of the line while emergency services respond to a large fire near the railway at Neasden. Tickets will be accepted on London Buses, DLR, Elizabeth line, Mildmay line, C2C and Thameslink services. Service is not expected to resume fully until early afternoon on Saturday, 29 August. Please check before you travel.",
+      "resolved_at": "2026-08-29T03:58:11Z",
+      "severity": "Part Suspended",
+      "source_created": "0001-01-01T00:00:00"
+    },
     {
       "category": "other",
       "duration_seconds": 22724,
@@ -251,6 +305,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-08-28T22:50:00Z",
+  "updated_at": "2026-08-29T03:58:11Z",
   "version": 1
 }
