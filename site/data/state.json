@@ -1,12 +1,12 @@
 {
   "active": {
-    "central:text:476b260af10335c1": {
-      "category": "other",
-      "first_seen": "2026-08-29T15:20:00Z",
-      "issue_key": "central:text:476b260af10335c1",
+    "central:text:4b5042e7fba08a34": {
+      "category": "passenger incident",
+      "first_seen": "2026-08-29T18:39:18Z",
+      "issue_key": "central:text:4b5042e7fba08a34",
       "line_id": "central",
       "line_name": "Central",
-      "reason": "Central Line: No service between Liverpool Street and Leytonstone Eastbound only and SEVERE DELAYS on the rest of the line while emergency services deal with a casualty on the track.",
+      "reason": "Central Line: Severe delays due to an earlier customer incident. Please take first train and change accordingly. Tickets are being accepted on London Buses, Liberty line, Elizabeth line, Chiltern Railways, Great Western Railway and Greater Anglia.",
       "severity": "Severe Delays",
       "source_created": "0001-01-01T00:00:00"
     },
@@ -26,8 +26,8 @@
       "issue_key": "hammersmith-city:text:004129bf5e441754",
       "line_id": "hammersmith-city",
       "line_name": "Hammersmith & City",
-      "reason": "Hammersmith and City Line: Minor delays due to train cancellations.",
-      "severity": "Minor Delays",
+      "reason": "Hammersmith and City Line: Severe delays due to train cancellations.",
+      "severity": "Severe Delays",
       "source_created": "0001-01-01T00:00:00"
     },
     "jubilee:text:8906584587b41c0e": {
@@ -37,16 +37,6 @@
       "line_id": "jubilee",
       "line_name": "Jubilee",
       "reason": "Jubilee Line: No service between Wembley Park and Willesden Green and SEVERE DELAYS on the rest of the line while emergency services respond to a large fire near the railway at Neasden. Tickets will be accepted on London Buses, DLR, Elizabeth line, Mildmay line, C2C and Thameslink services. For customers travelling to Wembley Arena, use the Bakerloo line or Lioness line to Wembley Central station. Please check before you travel.",
-      "severity": "Part Suspended",
-      "source_created": "0001-01-01T00:00:00"
-    },
-    "jubilee:text:a75de1ea4b124a89": {
-      "category": "other",
-      "first_seen": "2026-08-28T22:50:00Z",
-      "issue_key": "jubilee:text:a75de1ea4b124a89",
-      "line_id": "jubilee",
-      "line_name": "Jubilee",
-      "reason": "The emergency services are responding to a large fire near the railway at Neasden. Until it is made safe, Jubilee and Metropolitan line services are unable to run through the area. Services will be curtailed as follows until early afternoon on Saturday 29 August 2026. Please check before you travel. JUBILEE LINE: No service between Wembley Park and Willesden Green and SEVERE DELAYS on the rest of the line. METROPOLITAN LINE: No service between Harrow-on-the-Hill and Aldgate and SEVERE DELAYS on the rest of the line.",
       "severity": "Part Suspended",
       "source_created": "0001-01-01T00:00:00"
     },
@@ -60,14 +50,14 @@
       "severity": "Part Suspended",
       "source_created": "0001-01-01T00:00:00"
     },
-    "metropolitan:text:a420ad13b1926914": {
-      "category": "other",
-      "first_seen": "2026-08-29T10:37:55Z",
-      "issue_key": "metropolitan:text:a420ad13b1926914",
-      "line_id": "metropolitan",
-      "line_name": "Metropolitan",
-      "reason": "The emergency services are responding to a large fire near the railway at Neasden. Until it is made safe, Jubilee and Metropolitan line services are unable to run through the area. Service is not expected to resume fully until 18:00 today at the earliest. Please check before you travel. Please check before you travel. METROPOLITAN LINE: No service between Harrow-on-the-Hill and Aldgate and SEVERE DELAYS on the rest of the line. JUBILEE LINE: No service between Wembley Park and Willesden Green and severe delays on the rest of the line.",
-      "severity": "Part Suspended",
+    "northern:text:a932043bacfdbd6d": {
+      "category": "signal failure",
+      "first_seen": "2026-08-29T18:39:18Z",
+      "issue_key": "northern:text:a932043bacfdbd6d",
+      "line_id": "northern",
+      "line_name": "Northern",
+      "reason": "Northern Line: NO SERVICE between Archway and High Barnet / Mill Hill East due to planned engineering work. MINOR DELAYS between Camden Town and Edgware due to an earlier signal failure at Edgware. GOOD SERVICE on the rest of the line.",
+      "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
     "northern:text:af390b790dabf4d3": {
@@ -80,26 +70,6 @@
       "severity": "Part Closure",
       "source_created": "0001-01-01T00:00:00"
     },
-    "northern:text:ce13077f3744613d": {
-      "category": "signal failure",
-      "first_seen": "2026-08-29T15:17:50Z",
-      "issue_key": "northern:text:ce13077f3744613d",
-      "line_id": "northern",
-      "line_name": "Northern",
-      "reason": "Northern Line: No service between Colindale and Edgware while we fix a signal failure at Edgware. NO SERVICE between Archway and High Barnet / Mill Hill East due to planned engineering work. GOOD SERVICE on the rest of the line.",
-      "severity": "Part Suspended",
-      "source_created": "0001-01-01T00:00:00"
-    },
-    "piccadilly:text:e696a61b40d57106": {
-      "category": "passenger incident",
-      "first_seen": "2026-08-29T15:17:50Z",
-      "issue_key": "piccadilly:text:e696a61b40d57106",
-      "line_id": "piccadilly",
-      "line_name": "Piccadilly",
-      "reason": "Piccadilly Line: Minor delays between Acton Town and Heathrow terminals due to an earlier customer incident at Turnpike Lane. GOOD SERVICE on the rest of the line.",
-      "severity": "Minor Delays",
-      "source_created": "0001-01-01T00:00:00"
-    },
     "tram:text:015c08154e807811": {
       "category": "other",
       "first_seen": "2026-08-28T16:31:16Z",
@@ -107,6 +77,16 @@
       "line_id": "tram",
       "line_name": "Tram",
       "reason": "LONDON TRAMS: From Thursday 6 until Sunday 30 August, no service between Reeves Corner and East Croydon. Additional works apply on Sunday 16 and Thursday 20 August.",
+      "severity": "Part Closure",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "tram:text:1cf994c5cfc450b3": {
+      "category": "other",
+      "first_seen": "2026-08-29T18:39:18Z",
+      "issue_key": "tram:text:1cf994c5cfc450b3",
+      "line_id": "tram",
+      "line_name": "Tram",
+      "reason": "LONDON TRAMS: From Thursday 6 until Sunday 30 August, no service between Arena and Elmers End at certain times. On Mondays to Fridays, no service before 0700 and after 1930, on Saturdays, no service before 0800 and after 1845, and on Sundays, no service for the whole day.",
       "severity": "Part Closure",
       "source_created": "0001-01-01T00:00:00"
     },
@@ -152,6 +132,66 @@
     }
   },
   "history": [
+    {
+      "category": "other",
+      "duration_seconds": 11958,
+      "first_seen": "2026-08-29T15:20:00Z",
+      "issue_key": "central:text:476b260af10335c1",
+      "line_id": "central",
+      "line_name": "Central",
+      "reason": "Central Line: No service between Liverpool Street and Leytonstone Eastbound only and SEVERE DELAYS on the rest of the line while emergency services deal with a casualty on the track.",
+      "resolved_at": "2026-08-29T18:39:18Z",
+      "severity": "Severe Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "other",
+      "duration_seconds": 71358,
+      "first_seen": "2026-08-28T22:50:00Z",
+      "issue_key": "jubilee:text:a75de1ea4b124a89",
+      "line_id": "jubilee",
+      "line_name": "Jubilee",
+      "reason": "The emergency services are responding to a large fire near the railway at Neasden. Until it is made safe, Jubilee and Metropolitan line services are unable to run through the area. Services will be curtailed as follows until early afternoon on Saturday 29 August 2026. Please check before you travel. JUBILEE LINE: No service between Wembley Park and Willesden Green and SEVERE DELAYS on the rest of the line. METROPOLITAN LINE: No service between Harrow-on-the-Hill and Aldgate and SEVERE DELAYS on the rest of the line.",
+      "resolved_at": "2026-08-29T18:39:18Z",
+      "severity": "Part Suspended",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "other",
+      "duration_seconds": 28883,
+      "first_seen": "2026-08-29T10:37:55Z",
+      "issue_key": "metropolitan:text:a420ad13b1926914",
+      "line_id": "metropolitan",
+      "line_name": "Metropolitan",
+      "reason": "The emergency services are responding to a large fire near the railway at Neasden. Until it is made safe, Jubilee and Metropolitan line services are unable to run through the area. Service is not expected to resume fully until 18:00 today at the earliest. Please check before you travel. Please check before you travel. METROPOLITAN LINE: No service between Harrow-on-the-Hill and Aldgate and SEVERE DELAYS on the rest of the line. JUBILEE LINE: No service between Wembley Park and Willesden Green and severe delays on the rest of the line.",
+      "resolved_at": "2026-08-29T18:39:18Z",
+      "severity": "Part Suspended",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "signal failure",
+      "duration_seconds": 12088,
+      "first_seen": "2026-08-29T15:17:50Z",
+      "issue_key": "northern:text:ce13077f3744613d",
+      "line_id": "northern",
+      "line_name": "Northern",
+      "reason": "Northern Line: No service between Colindale and Edgware while we fix a signal failure at Edgware. NO SERVICE between Archway and High Barnet / Mill Hill East due to planned engineering work. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-08-29T18:39:18Z",
+      "severity": "Part Suspended",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "passenger incident",
+      "duration_seconds": 12088,
+      "first_seen": "2026-08-29T15:17:50Z",
+      "issue_key": "piccadilly:text:e696a61b40d57106",
+      "line_id": "piccadilly",
+      "line_name": "Piccadilly",
+      "reason": "Piccadilly Line: Minor delays between Acton Town and Heathrow terminals due to an earlier customer incident at Turnpike Lane. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-08-29T18:39:18Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
     {
       "category": "other",
       "duration_seconds": 130,
@@ -405,6 +445,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-08-29T15:20:00Z",
+  "updated_at": "2026-08-29T18:39:18Z",
   "version": 1
 }
