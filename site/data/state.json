@@ -1,13 +1,13 @@
 {
   "active": {
-    "central:text:ce00c64e9345da2b": {
+    "central:text:d1cd6c71a5807076": {
       "category": "passenger incident",
-      "first_seen": "2026-08-29T18:45:53Z",
-      "issue_key": "central:text:ce00c64e9345da2b",
+      "first_seen": "2026-08-29T23:15:54Z",
+      "issue_key": "central:text:d1cd6c71a5807076",
       "line_id": "central",
       "line_name": "Central",
-      "reason": "Central Line: Severe delays due to an earlier customer incident. Tickets are being accepted on London Buses, Liberty line, Elizabeth line, Chiltern Railways, Great Western Railway and Greater Anglia.",
-      "severity": "Severe Delays",
+      "reason": "Central Line: Minor delays due to an earlier customer incident.",
+      "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
     "district:text:9c09d477e2a85811": {
@@ -110,16 +110,6 @@
       "severity": "Part Closure",
       "source_created": "0001-01-01T00:00:00"
     },
-    "victoria:text:02e0850cdf11ef25": {
-      "category": "other",
-      "first_seen": "2026-08-29T10:37:55Z",
-      "issue_key": "victoria:text:02e0850cdf11ef25",
-      "line_id": "victoria",
-      "line_name": "Victoria",
-      "reason": "Victoria Line: Minor delays due to train cancellations.",
-      "severity": "Minor Delays",
-      "source_created": "0001-01-01T00:00:00"
-    },
     "waterloo-city:text:02da0890c7cbf303": {
       "category": "other",
       "first_seen": "2026-08-29T03:58:11Z",
@@ -142,6 +132,30 @@
     }
   },
   "history": [
+    {
+      "category": "passenger incident",
+      "duration_seconds": 16201,
+      "first_seen": "2026-08-29T18:45:53Z",
+      "issue_key": "central:text:ce00c64e9345da2b",
+      "line_id": "central",
+      "line_name": "Central",
+      "reason": "Central Line: Severe delays due to an earlier customer incident. Tickets are being accepted on London Buses, Liberty line, Elizabeth line, Chiltern Railways, Great Western Railway and Greater Anglia.",
+      "resolved_at": "2026-08-29T23:15:54Z",
+      "severity": "Severe Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "other",
+      "duration_seconds": 45479,
+      "first_seen": "2026-08-29T10:37:55Z",
+      "issue_key": "victoria:text:02e0850cdf11ef25",
+      "line_id": "victoria",
+      "line_name": "Victoria",
+      "reason": "Victoria Line: Minor delays due to train cancellations.",
+      "resolved_at": "2026-08-29T23:15:54Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
     {
       "category": "other",
       "duration_seconds": 80451,
@@ -503,6 +517,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-08-29T21:10:51Z",
+  "updated_at": "2026-08-29T23:15:54Z",
   "version": 1
 }
