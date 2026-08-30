@@ -1,5 +1,15 @@
 {
   "active": {
+    "bakerloo:text:975c88cf69561d0c": {
+      "category": "other",
+      "first_seen": "2026-08-30T01:19:26Z",
+      "issue_key": "bakerloo:text:975c88cf69561d0c",
+      "line_id": "bakerloo",
+      "line_name": "Bakerloo",
+      "reason": "Bakerloo Line: Service will resume later this morning.",
+      "severity": "Service Closed",
+      "source_created": "0001-01-01T00:00:00"
+    },
     "central:text:d1cd6c71a5807076": {
       "category": "passenger incident",
       "first_seen": "2026-08-29T23:15:54Z",
@@ -10,64 +20,114 @@
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "district:text:9c09d477e2a85811": {
+    "circle:text:a1099579f6415e8f": {
       "category": "other",
-      "first_seen": "2026-08-29T10:37:55Z",
-      "issue_key": "district:text:9c09d477e2a85811",
-      "line_id": "district",
-      "line_name": "District",
-      "reason": "District Line: Minor delays due to train cancellations.",
-      "severity": "Minor Delays",
+      "first_seen": "2026-08-30T01:19:26Z",
+      "issue_key": "circle:text:a1099579f6415e8f",
+      "line_id": "circle",
+      "line_name": "Circle",
+      "reason": "Circle Line: Service will resume later this morning.",
+      "severity": "Service Closed",
       "source_created": "0001-01-01T00:00:00"
     },
-    "hammersmith-city:text:004129bf5e441754": {
+    "district:text:468f4f04f34d8411": {
       "category": "other",
-      "first_seen": "2026-08-29T15:17:50Z",
-      "issue_key": "hammersmith-city:text:004129bf5e441754",
+      "first_seen": "2026-08-30T01:19:26Z",
+      "issue_key": "district:text:468f4f04f34d8411",
+      "line_id": "district",
+      "line_name": "District",
+      "reason": "District Line: Service will resume later this morning.",
+      "severity": "Service Closed",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "dlr:text:665033ae8c9c0e54": {
+      "category": "planned engineering",
+      "first_seen": "2026-08-30T01:19:26Z",
+      "issue_key": "dlr:text:665033ae8c9c0e54",
+      "line_id": "dlr",
+      "line_name": "DLR",
+      "reason": "Docklands Light Railway: Service will resume later this morning. There will be no service between Tower Gateway and Shadwell due to planned engineering work",
+      "severity": "Service Closed",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "elizabeth:text:85644759b2256fee": {
+      "category": "other",
+      "first_seen": "2026-08-30T01:19:26Z",
+      "issue_key": "elizabeth:text:85644759b2256fee",
+      "line_id": "elizabeth",
+      "line_name": "Elizabeth line",
+      "reason": "Service will resume later this morning.",
+      "severity": "Service Closed",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "hammersmith-city:text:b560078b35a5fd17": {
+      "category": "other",
+      "first_seen": "2026-08-30T01:19:26Z",
+      "issue_key": "hammersmith-city:text:b560078b35a5fd17",
       "line_id": "hammersmith-city",
       "line_name": "Hammersmith & City",
-      "reason": "Hammersmith and City Line: Severe delays due to train cancellations.",
+      "reason": "Hammersmith and City Line: Service will resume later this morning.",
+      "severity": "Service Closed",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "jubilee:text:189f7f3344c5025f": {
+      "category": "other",
+      "first_seen": "2026-08-30T01:19:26Z",
+      "issue_key": "jubilee:text:189f7f3344c5025f",
+      "line_id": "jubilee",
+      "line_name": "Jubilee",
+      "reason": "Jubilee Line: Severe delays while emergency services respond to a large fire near the railway at Neasden. Tickets will be accepted on London Buses, DLR, Elizabeth line, Mildmay line, C2C and Thameslink services.",
       "severity": "Severe Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "jubilee:text:4d7f48f70c78011f": {
+    "liberty:text:19134079f5c98ab7": {
       "category": "other",
-      "first_seen": "2026-08-29T21:10:51Z",
-      "issue_key": "jubilee:text:4d7f48f70c78011f",
-      "line_id": "jubilee",
-      "line_name": "Jubilee",
-      "reason": "Metropolitan and Jubilee lines: emergency services continue to deal with a large fire in a recycling plant near the railway at Neasden. Until this is made safe, Metropolitan line and Jubilee line services will not run through the area. We do not expect services to resume fully until lunch time on Sunday 30 August 2026 at the earliest. Please check before you travel.",
-      "severity": "Part Suspended",
+      "first_seen": "2026-08-30T01:19:26Z",
+      "issue_key": "liberty:text:19134079f5c98ab7",
+      "line_id": "liberty",
+      "line_name": "Liberty",
+      "reason": "Liberty Line: Service will resume later this morning.",
+      "severity": "Service Closed",
       "source_created": "0001-01-01T00:00:00"
     },
-    "jubilee:text:970425f24225d17d": {
+    "lioness:text:edb0d527df87ed16": {
       "category": "other",
-      "first_seen": "2026-08-29T21:10:51Z",
-      "issue_key": "jubilee:text:970425f24225d17d",
-      "line_id": "jubilee",
-      "line_name": "Jubilee",
-      "reason": "Jubilee Line: No service between Wembley Park and Willesden Green for the rest of the day and SEVERE DELAYS on the rest of the line while emergency services respond to a large fire near the railway at Neasden. Tickets will be accepted on London Buses, DLR, Elizabeth line, Mildmay line, C2C and Thameslink services. If you're travelling to/from Wembley Arena, use the Bakerloo line or Lioness line to Wembley Central station.",
-      "severity": "Part Suspended",
+      "first_seen": "2026-08-30T01:19:26Z",
+      "issue_key": "lioness:text:edb0d527df87ed16",
+      "line_id": "lioness",
+      "line_name": "Lioness",
+      "reason": "Lioness Line: Service will resume later this morning.",
+      "severity": "Service Closed",
       "source_created": "0001-01-01T00:00:00"
     },
-    "metropolitan:text:4d7f48f70c78011f": {
+    "metropolitan:text:75cfb15207b5fce3": {
       "category": "other",
-      "first_seen": "2026-08-29T21:10:51Z",
-      "issue_key": "metropolitan:text:4d7f48f70c78011f",
+      "first_seen": "2026-08-30T01:19:26Z",
+      "issue_key": "metropolitan:text:75cfb15207b5fce3",
       "line_id": "metropolitan",
       "line_name": "Metropolitan",
-      "reason": "Metropolitan and Jubilee lines: emergency services continue to deal with a large fire in a recycling plant near the railway at Neasden. Until this is made safe, Metropolitan line and Jubilee line services will not run through the area. We do not expect services to resume fully until lunch time on Sunday 30 August 2026 at the earliest. Please check before you travel.",
+      "reason": "Metropolitan Line: Service will resume later this morning. There will be no service between Harrow-on-the-Hill and Aldgate and SEVERE DELAYS on the rest of the line while emergency services respond to a large fire near the railway at Neasden",
+      "severity": "Service Closed",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "metropolitan:text:d65d3a70edd642e3": {
+      "category": "other",
+      "first_seen": "2026-08-30T01:19:26Z",
+      "issue_key": "metropolitan:text:d65d3a70edd642e3",
+      "line_id": "metropolitan",
+      "line_name": "Metropolitan",
+      "reason": "Metropolitan line: emergency services continue to deal with a large fire in a recycling plant near the railway at Neasden. Currently, the Metropolitan line service will not run through the area. We do not expect the Metropolitan line to resume fully until lunch time on Sunday 30 August 2026. Please check before you travel.",
       "severity": "Part Suspended",
       "source_created": "0001-01-01T00:00:00"
     },
-    "metropolitan:text:d35f1f2f0181e47d": {
+    "mildmay:text:43f3ca710bb3792b": {
       "category": "other",
-      "first_seen": "2026-08-29T21:10:51Z",
-      "issue_key": "metropolitan:text:d35f1f2f0181e47d",
-      "line_id": "metropolitan",
-      "line_name": "Metropolitan",
-      "reason": "Metropolitan Line: No service between Harrow-on-the-Hill and Aldgate for the rest of the day and SEVERE DELAYS on the rest of the line while emergency services respond to a large fire near the railway at Neasden. Tickets will be accepted on London Buses, Lioness line, London Northwestern and Thameslink services. If you're travelling to/from Wembley Arena, use the Bakerloo line or Lioness line to Wembley Central station.",
-      "severity": "Part Suspended",
+      "first_seen": "2026-08-30T01:19:26Z",
+      "issue_key": "mildmay:text:43f3ca710bb3792b",
+      "line_id": "mildmay",
+      "line_name": "Mildmay",
+      "reason": "Mildmay Line: Service will resume later this morning.",
+      "severity": "Service Closed",
       "source_created": "0001-01-01T00:00:00"
     },
     "northern:text:af390b790dabf4d3": {
@@ -80,44 +140,34 @@
       "severity": "Part Closure",
       "source_created": "0001-01-01T00:00:00"
     },
-    "tram:text:015c08154e807811": {
+    "suffragette:text:774000467a2b26d3": {
       "category": "other",
-      "first_seen": "2026-08-28T16:31:16Z",
-      "issue_key": "tram:text:015c08154e807811",
-      "line_id": "tram",
-      "line_name": "Tram",
-      "reason": "LONDON TRAMS: From Thursday 6 until Sunday 30 August, no service between Reeves Corner and East Croydon. Additional works apply on Sunday 16 and Thursday 20 August.",
-      "severity": "Part Closure",
+      "first_seen": "2026-08-30T01:19:26Z",
+      "issue_key": "suffragette:text:774000467a2b26d3",
+      "line_id": "suffragette",
+      "line_name": "Suffragette",
+      "reason": "Suffragette Line: Service will resume later this morning.",
+      "severity": "Service Closed",
       "source_created": "0001-01-01T00:00:00"
     },
-    "tram:text:1cf994c5cfc450b3": {
-      "category": "other",
-      "first_seen": "2026-08-29T18:39:18Z",
-      "issue_key": "tram:text:1cf994c5cfc450b3",
+    "tram:text:9a77794ca8175b09": {
+      "category": "planned engineering",
+      "first_seen": "2026-08-30T01:19:26Z",
+      "issue_key": "tram:text:9a77794ca8175b09",
       "line_id": "tram",
       "line_name": "Tram",
-      "reason": "LONDON TRAMS: From Thursday 6 until Sunday 30 August, no service between Arena and Elmers End at certain times. On Mondays to Fridays, no service before 0700 and after 1930, on Saturdays, no service before 0800 and after 1845, and on Sundays, no service for the whole day.",
-      "severity": "Part Closure",
+      "reason": "London Tramlink: Service will resume later this morning. There will be no service between Reeves Corner and East Croydon and between Elmers End and Arena due to planned engineering work",
+      "severity": "Service Closed",
       "source_created": "0001-01-01T00:00:00"
     },
-    "tram:text:b95c3f4768a61942": {
+    "weaver:text:f2dc8c00c6757e13": {
       "category": "other",
-      "first_seen": "2026-08-28T16:31:16Z",
-      "issue_key": "tram:text:b95c3f4768a61942",
-      "line_id": "tram",
-      "line_name": "Tram",
-      "reason": "LONDON TRAMS: From Thursday 6 until Sunday 30 August, no service between Reeves Corner and East Croydon.",
-      "severity": "Part Closure",
-      "source_created": "0001-01-01T00:00:00"
-    },
-    "waterloo-city:text:02da0890c7cbf303": {
-      "category": "other",
-      "first_seen": "2026-08-29T03:58:11Z",
-      "issue_key": "waterloo-city:text:02da0890c7cbf303",
-      "line_id": "waterloo-city",
-      "line_name": "Waterloo & City",
-      "reason": "Waterloo & City line: service operates 06:00 until 00:30, Monday to Friday only. There is no service on Saturdays, Sundays and on bank/public holidays.",
-      "severity": "Planned Closure",
+      "first_seen": "2026-08-30T01:19:26Z",
+      "issue_key": "weaver:text:f2dc8c00c6757e13",
+      "line_id": "weaver",
+      "line_name": "Weaver",
+      "reason": "Weaver Line: Service will resume later this morning.",
+      "severity": "Service Closed",
       "source_created": "0001-01-01T00:00:00"
     },
     "windrush:text:bb44a7c6ae6dc16b": {
@@ -132,6 +182,126 @@
     }
   },
   "history": [
+    {
+      "category": "other",
+      "duration_seconds": 52891,
+      "first_seen": "2026-08-29T10:37:55Z",
+      "issue_key": "district:text:9c09d477e2a85811",
+      "line_id": "district",
+      "line_name": "District",
+      "reason": "District Line: Minor delays due to train cancellations.",
+      "resolved_at": "2026-08-30T01:19:26Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "other",
+      "duration_seconds": 36096,
+      "first_seen": "2026-08-29T15:17:50Z",
+      "issue_key": "hammersmith-city:text:004129bf5e441754",
+      "line_id": "hammersmith-city",
+      "line_name": "Hammersmith & City",
+      "reason": "Hammersmith and City Line: Severe delays due to train cancellations.",
+      "resolved_at": "2026-08-30T01:19:26Z",
+      "severity": "Severe Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "other",
+      "duration_seconds": 14915,
+      "first_seen": "2026-08-29T21:10:51Z",
+      "issue_key": "jubilee:text:4d7f48f70c78011f",
+      "line_id": "jubilee",
+      "line_name": "Jubilee",
+      "reason": "Metropolitan and Jubilee lines: emergency services continue to deal with a large fire in a recycling plant near the railway at Neasden. Until this is made safe, Metropolitan line and Jubilee line services will not run through the area. We do not expect services to resume fully until lunch time on Sunday 30 August 2026 at the earliest. Please check before you travel.",
+      "resolved_at": "2026-08-30T01:19:26Z",
+      "severity": "Part Suspended",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "other",
+      "duration_seconds": 14915,
+      "first_seen": "2026-08-29T21:10:51Z",
+      "issue_key": "jubilee:text:970425f24225d17d",
+      "line_id": "jubilee",
+      "line_name": "Jubilee",
+      "reason": "Jubilee Line: No service between Wembley Park and Willesden Green for the rest of the day and SEVERE DELAYS on the rest of the line while emergency services respond to a large fire near the railway at Neasden. Tickets will be accepted on London Buses, DLR, Elizabeth line, Mildmay line, C2C and Thameslink services. If you're travelling to/from Wembley Arena, use the Bakerloo line or Lioness line to Wembley Central station.",
+      "resolved_at": "2026-08-30T01:19:26Z",
+      "severity": "Part Suspended",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "other",
+      "duration_seconds": 14915,
+      "first_seen": "2026-08-29T21:10:51Z",
+      "issue_key": "metropolitan:text:4d7f48f70c78011f",
+      "line_id": "metropolitan",
+      "line_name": "Metropolitan",
+      "reason": "Metropolitan and Jubilee lines: emergency services continue to deal with a large fire in a recycling plant near the railway at Neasden. Until this is made safe, Metropolitan line and Jubilee line services will not run through the area. We do not expect services to resume fully until lunch time on Sunday 30 August 2026 at the earliest. Please check before you travel.",
+      "resolved_at": "2026-08-30T01:19:26Z",
+      "severity": "Part Suspended",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "other",
+      "duration_seconds": 14915,
+      "first_seen": "2026-08-29T21:10:51Z",
+      "issue_key": "metropolitan:text:d35f1f2f0181e47d",
+      "line_id": "metropolitan",
+      "line_name": "Metropolitan",
+      "reason": "Metropolitan Line: No service between Harrow-on-the-Hill and Aldgate for the rest of the day and SEVERE DELAYS on the rest of the line while emergency services respond to a large fire near the railway at Neasden. Tickets will be accepted on London Buses, Lioness line, London Northwestern and Thameslink services. If you're travelling to/from Wembley Arena, use the Bakerloo line or Lioness line to Wembley Central station.",
+      "resolved_at": "2026-08-30T01:19:26Z",
+      "severity": "Part Suspended",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "other",
+      "duration_seconds": 118090,
+      "first_seen": "2026-08-28T16:31:16Z",
+      "issue_key": "tram:text:015c08154e807811",
+      "line_id": "tram",
+      "line_name": "Tram",
+      "reason": "LONDON TRAMS: From Thursday 6 until Sunday 30 August, no service between Reeves Corner and East Croydon. Additional works apply on Sunday 16 and Thursday 20 August.",
+      "resolved_at": "2026-08-30T01:19:26Z",
+      "severity": "Part Closure",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "other",
+      "duration_seconds": 24008,
+      "first_seen": "2026-08-29T18:39:18Z",
+      "issue_key": "tram:text:1cf994c5cfc450b3",
+      "line_id": "tram",
+      "line_name": "Tram",
+      "reason": "LONDON TRAMS: From Thursday 6 until Sunday 30 August, no service between Arena and Elmers End at certain times. On Mondays to Fridays, no service before 0700 and after 1930, on Saturdays, no service before 0800 and after 1845, and on Sundays, no service for the whole day.",
+      "resolved_at": "2026-08-30T01:19:26Z",
+      "severity": "Part Closure",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "other",
+      "duration_seconds": 118090,
+      "first_seen": "2026-08-28T16:31:16Z",
+      "issue_key": "tram:text:b95c3f4768a61942",
+      "line_id": "tram",
+      "line_name": "Tram",
+      "reason": "LONDON TRAMS: From Thursday 6 until Sunday 30 August, no service between Reeves Corner and East Croydon.",
+      "resolved_at": "2026-08-30T01:19:26Z",
+      "severity": "Part Closure",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "other",
+      "duration_seconds": 76875,
+      "first_seen": "2026-08-29T03:58:11Z",
+      "issue_key": "waterloo-city:text:02da0890c7cbf303",
+      "line_id": "waterloo-city",
+      "line_name": "Waterloo & City",
+      "reason": "Waterloo & City line: service operates 06:00 until 00:30, Monday to Friday only. There is no service on Saturdays, Sundays and on bank/public holidays.",
+      "resolved_at": "2026-08-30T01:19:26Z",
+      "severity": "Planned Closure",
+      "source_created": "0001-01-01T00:00:00"
+    },
     {
       "category": "passenger incident",
       "duration_seconds": 16201,
@@ -517,6 +687,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-08-29T23:15:54Z",
+  "updated_at": "2026-08-30T01:19:26Z",
   "version": 1
 }
