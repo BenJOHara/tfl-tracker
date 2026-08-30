@@ -50,13 +50,23 @@
       "severity": "Part Suspended",
       "source_created": "0001-01-01T00:00:00"
     },
-    "mildmay:text:58f730623815dd56": {
+    "mildmay:text:13cf6fa2098f6bca": {
       "category": "other",
-      "first_seen": "2026-08-30T16:48:24Z",
-      "issue_key": "mildmay:text:58f730623815dd56",
+      "first_seen": "2026-08-30T17:29:38Z",
+      "issue_key": "mildmay:text:13cf6fa2098f6bca",
       "line_id": "mildmay",
       "line_name": "Mildmay",
-      "reason": "Mildmay Line: Severe delays between Willesden Junction and Clapham Junction and, MINOR DELAYS on the rest of the line due to crowding during an event at Notting Hill.",
+      "reason": "Mildmay Line: Minor delays due to crowding during an event at Notting Hill.",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "northern:text:00b42b30e376e27a": {
+      "category": "planned engineering",
+      "first_seen": "2026-08-30T17:29:38Z",
+      "issue_key": "northern:text:00b42b30e376e27a",
+      "line_id": "northern",
+      "line_name": "Northern",
+      "reason": "Northern Line: Minor delays between Battersea Power Station and Camden Town via Charing Cross northbound only due to train cancellations. NO SERVICE between Archway and High Barnet / Mill Hill East due to planned engineering work. GOOD SERVICE on the rest of the line.",
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
@@ -132,6 +142,18 @@
     }
   },
   "history": [
+    {
+      "category": "other",
+      "duration_seconds": 2474,
+      "first_seen": "2026-08-30T16:48:24Z",
+      "issue_key": "mildmay:text:58f730623815dd56",
+      "line_id": "mildmay",
+      "line_name": "Mildmay",
+      "reason": "Mildmay Line: Severe delays between Willesden Junction and Clapham Junction and, MINOR DELAYS on the rest of the line due to crowding during an event at Notting Hill.",
+      "resolved_at": "2026-08-30T17:29:38Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
     {
       "category": "other",
       "duration_seconds": 16170,
@@ -913,6 +935,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-08-30T16:48:24Z",
+  "updated_at": "2026-08-30T17:29:38Z",
   "version": 1
 }
