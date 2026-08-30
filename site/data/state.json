@@ -100,6 +100,16 @@
       "severity": "Part Closure",
       "source_created": "0001-01-01T00:00:00"
     },
+    "victoria:text:a12fc3959936f977": {
+      "category": "other",
+      "first_seen": "2026-08-30T07:22:35Z",
+      "issue_key": "victoria:text:a12fc3959936f977",
+      "line_id": "victoria",
+      "line_name": "Victoria",
+      "reason": "Victoria Line: No service between Walthamstow Central and Highbury & Islington while emergency services deal with a casualty on the track. SEVERE DELAYS on the rest of the line. Tickets are being accepted on London Buses, London Overground, Great Northern, Thameslink, Southwestern Railway and South Eastern.",
+      "severity": "Part Suspended",
+      "source_created": "0001-01-01T00:00:00"
+    },
     "waterloo-city:text:02da0890c7cbf303": {
       "category": "other",
       "first_seen": "2026-08-30T06:48:29Z",
@@ -807,6 +817,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-08-30T06:48:29Z",
+  "updated_at": "2026-08-30T07:22:35Z",
   "version": 1
 }
