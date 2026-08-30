@@ -1,5 +1,15 @@
 {
   "active": {
+    "central:text:6d0af7c9d44f714a": {
+      "category": "other",
+      "first_seen": "2026-08-30T12:18:54Z",
+      "issue_key": "central:text:6d0af7c9d44f714a",
+      "line_id": "central",
+      "line_name": "Central",
+      "reason": "Central Line: Minor delays due to train cancellations.",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
     "circle:text:bf9bb7504db7ea4d": {
       "category": "other",
       "first_seen": "2026-08-30T06:48:29Z",
@@ -20,43 +30,23 @@
       "severity": "Part Closure",
       "source_created": "0001-01-01T00:00:00"
     },
-    "elizabeth:text:c94c14c6231fc13f": {
-      "category": "signal failure",
-      "first_seen": "2026-08-30T06:48:29Z",
-      "issue_key": "elizabeth:text:c94c14c6231fc13f",
-      "line_id": "elizabeth",
-      "line_name": "Elizabeth line",
-      "reason": "Severe delays between Hayes & Harlington and Heathrow Airport while we fix a signal failure at Heathrow Airport. Tickets are being accepted on London Underground. GOOD SERVICE on the rest of the line.",
-      "severity": "Severe Delays",
+    "hammersmith-city:text:004129bf5e441754": {
+      "category": "other",
+      "first_seen": "2026-08-30T12:18:54Z",
+      "issue_key": "hammersmith-city:text:004129bf5e441754",
+      "line_id": "hammersmith-city",
+      "line_name": "Hammersmith & City",
+      "reason": "Hammersmith and City Line: Minor delays due to train cancellations.",
+      "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "jubilee:text:4a9809ebc8a9013a": {
+    "metropolitan:text:63fd3d0f9c0c1a50": {
       "category": "other",
-      "first_seen": "2026-08-30T06:48:29Z",
-      "issue_key": "jubilee:text:4a9809ebc8a9013a",
-      "line_id": "jubilee",
-      "line_name": "Jubilee",
-      "reason": "Jubilee Line: Severe delays while emergency services respond to a large fire near the railway at Neasden. Neasden station is also closed. Tickets will be accepted on London Buses, DLR, Elizabeth line, Mildmay line, C2C and Thameslink services.",
-      "severity": "Severe Delays",
-      "source_created": "0001-01-01T00:00:00"
-    },
-    "metropolitan:text:15b9dff8ff3531a8": {
-      "category": "other",
-      "first_seen": "2026-08-30T06:48:29Z",
-      "issue_key": "metropolitan:text:15b9dff8ff3531a8",
+      "first_seen": "2026-08-30T12:18:54Z",
+      "issue_key": "metropolitan:text:63fd3d0f9c0c1a50",
       "line_id": "metropolitan",
       "line_name": "Metropolitan",
-      "reason": "Metropolitan Line: No service between Harrow-on-the-Hill and Aldgate and SEVERE DELAYS on the rest of the line while emergency services respond to a large fire near the railway at Neasden. Tickets will be accepted on London Buses, Lioness line, London Northwestern and Thameslink services. Service is not expected to resume fully until early afternoon.",
-      "severity": "Part Suspended",
-      "source_created": "0001-01-01T00:00:00"
-    },
-    "metropolitan:text:d65d3a70edd642e3": {
-      "category": "other",
-      "first_seen": "2026-08-30T01:19:26Z",
-      "issue_key": "metropolitan:text:d65d3a70edd642e3",
-      "line_id": "metropolitan",
-      "line_name": "Metropolitan",
-      "reason": "Metropolitan line: emergency services continue to deal with a large fire in a recycling plant near the railway at Neasden. Currently, the Metropolitan line service will not run through the area. We do not expect the Metropolitan line to resume fully until lunch time on Sunday 30 August 2026. Please check before you travel.",
+      "reason": "Metropolitan Line: No service between Baker Street and Aldgate and SEVERE DELAYS on the rest of the line while emergency services respond to a large fire near the railway at Neasden. Tickets will be accepted on London Buses, Lioness line, London Northwestern and Thameslink services. Service is not expected to resume fully until early afternoon.",
       "severity": "Part Suspended",
       "source_created": "0001-01-01T00:00:00"
     },
@@ -100,14 +90,14 @@
       "severity": "Part Closure",
       "source_created": "0001-01-01T00:00:00"
     },
-    "victoria:text:a12fc3959936f977": {
-      "category": "other",
-      "first_seen": "2026-08-30T07:22:35Z",
-      "issue_key": "victoria:text:a12fc3959936f977",
+    "victoria:text:cff6c1e249178852": {
+      "category": "passenger incident",
+      "first_seen": "2026-08-30T12:18:54Z",
+      "issue_key": "victoria:text:cff6c1e249178852",
       "line_id": "victoria",
       "line_name": "Victoria",
-      "reason": "Victoria Line: No service between Walthamstow Central and Highbury & Islington while emergency services deal with a casualty on the track. SEVERE DELAYS on the rest of the line. Tickets are being accepted on London Buses, London Overground, Great Northern, Thameslink, Southwestern Railway and South Eastern.",
-      "severity": "Part Suspended",
+      "reason": "Victoria Line: Minor delays due to an earlier customer incident.",
+      "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
     "waterloo-city:text:02da0890c7cbf303": {
@@ -132,6 +122,66 @@
     }
   },
   "history": [
+    {
+      "category": "signal failure",
+      "duration_seconds": 19825,
+      "first_seen": "2026-08-30T06:48:29Z",
+      "issue_key": "elizabeth:text:c94c14c6231fc13f",
+      "line_id": "elizabeth",
+      "line_name": "Elizabeth line",
+      "reason": "Severe delays between Hayes & Harlington and Heathrow Airport while we fix a signal failure at Heathrow Airport. Tickets are being accepted on London Underground. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-08-30T12:18:54Z",
+      "severity": "Severe Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "other",
+      "duration_seconds": 19825,
+      "first_seen": "2026-08-30T06:48:29Z",
+      "issue_key": "jubilee:text:4a9809ebc8a9013a",
+      "line_id": "jubilee",
+      "line_name": "Jubilee",
+      "reason": "Jubilee Line: Severe delays while emergency services respond to a large fire near the railway at Neasden. Neasden station is also closed. Tickets will be accepted on London Buses, DLR, Elizabeth line, Mildmay line, C2C and Thameslink services.",
+      "resolved_at": "2026-08-30T12:18:54Z",
+      "severity": "Severe Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "other",
+      "duration_seconds": 19825,
+      "first_seen": "2026-08-30T06:48:29Z",
+      "issue_key": "metropolitan:text:15b9dff8ff3531a8",
+      "line_id": "metropolitan",
+      "line_name": "Metropolitan",
+      "reason": "Metropolitan Line: No service between Harrow-on-the-Hill and Aldgate and SEVERE DELAYS on the rest of the line while emergency services respond to a large fire near the railway at Neasden. Tickets will be accepted on London Buses, Lioness line, London Northwestern and Thameslink services. Service is not expected to resume fully until early afternoon.",
+      "resolved_at": "2026-08-30T12:18:54Z",
+      "severity": "Part Suspended",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "other",
+      "duration_seconds": 39568,
+      "first_seen": "2026-08-30T01:19:26Z",
+      "issue_key": "metropolitan:text:d65d3a70edd642e3",
+      "line_id": "metropolitan",
+      "line_name": "Metropolitan",
+      "reason": "Metropolitan line: emergency services continue to deal with a large fire in a recycling plant near the railway at Neasden. Currently, the Metropolitan line service will not run through the area. We do not expect the Metropolitan line to resume fully until lunch time on Sunday 30 August 2026. Please check before you travel.",
+      "resolved_at": "2026-08-30T12:18:54Z",
+      "severity": "Part Suspended",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "other",
+      "duration_seconds": 17779,
+      "first_seen": "2026-08-30T07:22:35Z",
+      "issue_key": "victoria:text:a12fc3959936f977",
+      "line_id": "victoria",
+      "line_name": "Victoria",
+      "reason": "Victoria Line: No service between Walthamstow Central and Highbury & Islington while emergency services deal with a casualty on the track. SEVERE DELAYS on the rest of the line. Tickets are being accepted on London Buses, London Overground, Great Northern, Thameslink, Southwestern Railway and South Eastern.",
+      "resolved_at": "2026-08-30T12:18:54Z",
+      "severity": "Part Suspended",
+      "source_created": "0001-01-01T00:00:00"
+    },
     {
       "category": "other",
       "duration_seconds": 19743,
@@ -817,6 +867,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-08-30T07:22:35Z",
+  "updated_at": "2026-08-30T12:18:54Z",
   "version": 1
 }
