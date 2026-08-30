@@ -60,16 +60,6 @@
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "northern:text:00b42b30e376e27a": {
-      "category": "planned engineering",
-      "first_seen": "2026-08-30T17:29:38Z",
-      "issue_key": "northern:text:00b42b30e376e27a",
-      "line_id": "northern",
-      "line_name": "Northern",
-      "reason": "Northern Line: Minor delays between Battersea Power Station and Camden Town via Charing Cross northbound only due to train cancellations. NO SERVICE between Archway and High Barnet / Mill Hill East due to planned engineering work. GOOD SERVICE on the rest of the line.",
-      "severity": "Minor Delays",
-      "source_created": "0001-01-01T00:00:00"
-    },
     "northern:text:af390b790dabf4d3": {
       "category": "other",
       "first_seen": "2026-08-29T03:58:11Z",
@@ -142,6 +132,18 @@
     }
   },
   "history": [
+    {
+      "category": "planned engineering",
+      "duration_seconds": 422,
+      "first_seen": "2026-08-30T17:29:38Z",
+      "issue_key": "northern:text:00b42b30e376e27a",
+      "line_id": "northern",
+      "line_name": "Northern",
+      "reason": "Northern Line: Minor delays between Battersea Power Station and Camden Town via Charing Cross northbound only due to train cancellations. NO SERVICE between Archway and High Barnet / Mill Hill East due to planned engineering work. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-08-30T17:36:40Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
     {
       "category": "other",
       "duration_seconds": 2474,
@@ -935,6 +937,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-08-30T17:29:38Z",
+  "updated_at": "2026-08-30T17:36:40Z",
   "version": 1
 }
