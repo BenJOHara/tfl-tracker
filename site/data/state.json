@@ -100,16 +100,6 @@
       "severity": "Part Closure",
       "source_created": "0001-01-01T00:00:00"
     },
-    "victoria:text:02e0850cdf11ef25": {
-      "category": "other",
-      "first_seen": "2026-08-30T16:48:24Z",
-      "issue_key": "victoria:text:02e0850cdf11ef25",
-      "line_id": "victoria",
-      "line_name": "Victoria",
-      "reason": "Victoria Line: Minor delays due to train cancellations.",
-      "severity": "Minor Delays",
-      "source_created": "0001-01-01T00:00:00"
-    },
     "waterloo-city:text:02da0890c7cbf303": {
       "category": "other",
       "first_seen": "2026-08-30T06:48:29Z",
@@ -132,6 +122,18 @@
     }
   },
   "history": [
+    {
+      "category": "other",
+      "duration_seconds": 11579,
+      "first_seen": "2026-08-30T16:48:24Z",
+      "issue_key": "victoria:text:02e0850cdf11ef25",
+      "line_id": "victoria",
+      "line_name": "Victoria",
+      "reason": "Victoria Line: Minor delays due to train cancellations.",
+      "resolved_at": "2026-08-30T20:01:23Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
     {
       "category": "planned engineering",
       "duration_seconds": 422,
@@ -937,6 +939,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-08-30T19:59:10Z",
+  "updated_at": "2026-08-30T20:01:23Z",
   "version": 1
 }
