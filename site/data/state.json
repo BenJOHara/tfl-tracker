@@ -40,24 +40,24 @@
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "metropolitan:text:91284a60296e674d": {
+    "metropolitan:text:199f476909aa2f08": {
       "category": "other",
-      "first_seen": "2026-08-30T13:08:33Z",
-      "issue_key": "metropolitan:text:91284a60296e674d",
+      "first_seen": "2026-08-30T22:02:07Z",
+      "issue_key": "metropolitan:text:199f476909aa2f08",
       "line_id": "metropolitan",
       "line_name": "Metropolitan",
-      "reason": "Metropolitan Line: No service between Baker Street and Aldgate, and SEVERE DELAYS between Baker Street and Harrow-on-the- Hill while emergency services respond to a large fire near the railway at Neasden. Tickets will be accepted on London Buses, Lioness line, London Northwestern and Thameslink services. MINOR DELAYS on the rest of the line.",
+      "reason": "Metropolitan Line: No service between Baker Street and Aldgate, and SEVERE DELAYS between Baker Street and Harrow-on-the- Hill while emergency services respond to a large fire near the railway at Neasden. Please use the Jubilee line between Wembley Park and Baker Street. Tickets will be accepted on London Buses, Lioness line, London Northwestern and Thameslink services. MINOR DELAYS on the rest of the line.",
       "severity": "Part Suspended",
       "source_created": "0001-01-01T00:00:00"
     },
-    "mildmay:text:13cf6fa2098f6bca": {
+    "mildmay:text:8a28a5c11108c613": {
       "category": "other",
-      "first_seen": "2026-08-30T17:29:38Z",
-      "issue_key": "mildmay:text:13cf6fa2098f6bca",
+      "first_seen": "2026-08-30T22:02:07Z",
+      "issue_key": "mildmay:text:8a28a5c11108c613",
       "line_id": "mildmay",
       "line_name": "Mildmay",
-      "reason": "Mildmay Line: Minor delays due to crowding during an event at Notting Hill.",
-      "severity": "Minor Delays",
+      "reason": "Mildmay Line: Severe delays due to crowding during an event at Notting Hill. London Underground are accepting tickets via any reasonable route.",
+      "severity": "Severe Delays",
       "source_created": "0001-01-01T00:00:00"
     },
     "northern:text:af390b790dabf4d3": {
@@ -68,6 +68,16 @@
       "line_name": "Northern",
       "reason": "NORTHERN LINE: Saturday 29 August, from 0330 (including Night Tube), and all day Sunday 30 and Bank Holiday Monday 31 August, no service between Archway and High Barnet / Mill Hill East. Replacement bus service NL3 operates between Archway and High Barnet via Highgate, East Finchley, Finchley Central, West Finchley (Ballards Lane), Woodside Park (North Finchley High Road), and Totteridge & Whetstone (Whetstone High Road). Use London Buses route 382 between Finchley Central and Mill Hill East and Night Bus N20 between Archway and High Barnet during Night Tube hours.",
       "severity": "Part Closure",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "piccadilly:text:3c89bf07ce564870": {
+      "category": "other",
+      "first_seen": "2026-08-30T22:02:07Z",
+      "issue_key": "piccadilly:text:3c89bf07ce564870",
+      "line_id": "piccadilly",
+      "line_name": "Piccadilly",
+      "reason": "Piccadilly Line: Minor delays between Acton Town and Uxbridge eastbound only due to train cancellations. GOOD SERVICE on the rest of the line.",
+      "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
     "tram:text:015c08154e807811": {
@@ -122,6 +132,30 @@
     }
   },
   "history": [
+    {
+      "category": "other",
+      "duration_seconds": 32014,
+      "first_seen": "2026-08-30T13:08:33Z",
+      "issue_key": "metropolitan:text:91284a60296e674d",
+      "line_id": "metropolitan",
+      "line_name": "Metropolitan",
+      "reason": "Metropolitan Line: No service between Baker Street and Aldgate, and SEVERE DELAYS between Baker Street and Harrow-on-the- Hill while emergency services respond to a large fire near the railway at Neasden. Tickets will be accepted on London Buses, Lioness line, London Northwestern and Thameslink services. MINOR DELAYS on the rest of the line.",
+      "resolved_at": "2026-08-30T22:02:07Z",
+      "severity": "Part Suspended",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "other",
+      "duration_seconds": 16349,
+      "first_seen": "2026-08-30T17:29:38Z",
+      "issue_key": "mildmay:text:13cf6fa2098f6bca",
+      "line_id": "mildmay",
+      "line_name": "Mildmay",
+      "reason": "Mildmay Line: Minor delays due to crowding during an event at Notting Hill.",
+      "resolved_at": "2026-08-30T22:02:07Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
     {
       "category": "other",
       "duration_seconds": 11579,
@@ -939,6 +973,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-08-30T20:01:23Z",
+  "updated_at": "2026-08-30T22:02:07Z",
   "version": 1
 }
