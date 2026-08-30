@@ -36,17 +36,17 @@
       "issue_key": "hammersmith-city:text:004129bf5e441754",
       "line_id": "hammersmith-city",
       "line_name": "Hammersmith & City",
-      "reason": "Hammersmith and City Line: Minor delays due to train cancellations.",
-      "severity": "Minor Delays",
+      "reason": "Hammersmith and City Line: Severe delays due to train cancellations.",
+      "severity": "Severe Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "metropolitan:text:63fd3d0f9c0c1a50": {
+    "metropolitan:text:91284a60296e674d": {
       "category": "other",
-      "first_seen": "2026-08-30T12:18:54Z",
-      "issue_key": "metropolitan:text:63fd3d0f9c0c1a50",
+      "first_seen": "2026-08-30T13:08:33Z",
+      "issue_key": "metropolitan:text:91284a60296e674d",
       "line_id": "metropolitan",
       "line_name": "Metropolitan",
-      "reason": "Metropolitan Line: No service between Baker Street and Aldgate and SEVERE DELAYS on the rest of the line while emergency services respond to a large fire near the railway at Neasden. Tickets will be accepted on London Buses, Lioness line, London Northwestern and Thameslink services. Service is not expected to resume fully until early afternoon.",
+      "reason": "Metropolitan Line: No service between Baker Street and Aldgate, and SEVERE DELAYS between Baker Street and Harrow-on-the- Hill while emergency services respond to a large fire near the railway at Neasden. Tickets will be accepted on London Buses, Lioness line, London Northwestern and Thameslink services. MINOR DELAYS on the rest of the line. Service is not expected to resume fully until early afternoon.",
       "severity": "Part Suspended",
       "source_created": "0001-01-01T00:00:00"
     },
@@ -122,6 +122,18 @@
     }
   },
   "history": [
+    {
+      "category": "other",
+      "duration_seconds": 2979,
+      "first_seen": "2026-08-30T12:18:54Z",
+      "issue_key": "metropolitan:text:63fd3d0f9c0c1a50",
+      "line_id": "metropolitan",
+      "line_name": "Metropolitan",
+      "reason": "Metropolitan Line: No service between Baker Street and Aldgate and SEVERE DELAYS on the rest of the line while emergency services respond to a large fire near the railway at Neasden. Tickets will be accepted on London Buses, Lioness line, London Northwestern and Thameslink services. Service is not expected to resume fully until early afternoon.",
+      "resolved_at": "2026-08-30T13:08:33Z",
+      "severity": "Part Suspended",
+      "source_created": "0001-01-01T00:00:00"
+    },
     {
       "category": "signal failure",
       "duration_seconds": 19825,
@@ -867,6 +879,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-08-30T12:18:54Z",
+  "updated_at": "2026-08-30T13:08:33Z",
   "version": 1
 }
