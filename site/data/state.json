@@ -26,8 +26,8 @@
       "issue_key": "hammersmith-city:text:004129bf5e441754",
       "line_id": "hammersmith-city",
       "line_name": "Hammersmith & City",
-      "reason": "Hammersmith and City Line: Severe delays due to train cancellations.",
-      "severity": "Severe Delays",
+      "reason": "Hammersmith and City Line: Minor delays due to train cancellations.",
+      "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
     "jubilee:text:57925a2ef9e26722": {
@@ -937,6 +937,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-08-30T17:36:40Z",
+  "updated_at": "2026-08-30T19:59:10Z",
   "version": 1
 }
