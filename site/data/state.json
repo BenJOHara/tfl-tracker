@@ -1,5 +1,25 @@
 {
   "active": {
+    "bakerloo:text:3e766190600d5958": {
+      "category": "passenger incident",
+      "first_seen": "2026-08-31T13:35:29Z",
+      "issue_key": "bakerloo:text:3e766190600d5958",
+      "line_id": "bakerloo",
+      "line_name": "Bakerloo",
+      "reason": "Bakerloo Line: Severe delays due to an earlier customer incident. Tickets are being accepted on London Buses, Lioness Line and London Northwestern Railway services.",
+      "severity": "Severe Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "circle:text:4365683312491ca6": {
+      "category": "signal failure",
+      "first_seen": "2026-08-31T13:35:29Z",
+      "issue_key": "circle:text:4365683312491ca6",
+      "line_id": "circle",
+      "line_name": "Circle",
+      "reason": "Circle Line: Severe delays due to an earlier signal failure at Westbourne Park.",
+      "severity": "Severe Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
     "dlr:text:282bf8c0e12a1f12": {
       "category": "other",
       "first_seen": "2026-08-30T06:48:29Z",
@@ -8,6 +28,26 @@
       "line_name": "DLR",
       "reason": "DOCKLANDS LIGHT RAILWAY: Sunday 30 and Monday 31 August, no service between Shadwell and Tower Gateway.",
       "severity": "Part Closure",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "hammersmith-city:text:9d71bf45cc3bdb51": {
+      "category": "signal failure",
+      "first_seen": "2026-08-31T13:35:29Z",
+      "issue_key": "hammersmith-city:text:9d71bf45cc3bdb51",
+      "line_id": "hammersmith-city",
+      "line_name": "Hammersmith & City",
+      "reason": "Hammersmith and City Line: Severe delays due to an earlier signal failure at Westbourne Park. Tickets are being accepted on London Buses via any reasonable route.",
+      "severity": "Severe Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "metropolitan:text:f1efcb301333091a": {
+      "category": "other",
+      "first_seen": "2026-08-31T13:35:29Z",
+      "issue_key": "metropolitan:text:f1efcb301333091a",
+      "line_id": "metropolitan",
+      "line_name": "Metropolitan",
+      "reason": "Metropolitan Line: Severe delays between Harrow-on-the-Hill and Aldgate and MINOR DELAYS between Harrow-on-the-Hill and Uxbridge due to train cancellations. GOOD SERVICE on the rest of the line. Tickets are being accepted on London Buses and Thameslink via any reasonable route.",
+      "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
     "northern:text:af390b790dabf4d3": {
@@ -1255,6 +1295,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-08-31T06:43:45Z",
+  "updated_at": "2026-08-31T13:35:29Z",
   "version": 1
 }
