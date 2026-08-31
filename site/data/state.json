@@ -1,13 +1,43 @@
 {
   "active": {
-    "circle:text:bf9bb7504db7ea4d": {
+    "bakerloo:text:975c88cf69561d0c": {
       "category": "other",
-      "first_seen": "2026-08-30T06:48:29Z",
-      "issue_key": "circle:text:bf9bb7504db7ea4d",
+      "first_seen": "2026-08-31T00:28:41Z",
+      "issue_key": "bakerloo:text:975c88cf69561d0c",
+      "line_id": "bakerloo",
+      "line_name": "Bakerloo",
+      "reason": "Bakerloo Line: Service will resume later this morning.",
+      "severity": "Service Closed",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "central:text:8dadc0a1b9047d57": {
+      "category": "other",
+      "first_seen": "2026-08-31T00:28:41Z",
+      "issue_key": "central:text:8dadc0a1b9047d57",
+      "line_id": "central",
+      "line_name": "Central",
+      "reason": "Central Line: Service will resume later this morning.",
+      "severity": "Service Closed",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "circle:text:a1099579f6415e8f": {
+      "category": "other",
+      "first_seen": "2026-08-31T00:28:41Z",
+      "issue_key": "circle:text:a1099579f6415e8f",
       "line_id": "circle",
       "line_name": "Circle",
-      "reason": "Circle Line: Minor delays due to train cancellations.",
-      "severity": "Minor Delays",
+      "reason": "Circle Line: Service will resume later this morning.",
+      "severity": "Service Closed",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "district:text:468f4f04f34d8411": {
+      "category": "other",
+      "first_seen": "2026-08-31T00:28:41Z",
+      "issue_key": "district:text:468f4f04f34d8411",
+      "line_id": "district",
+      "line_name": "District",
+      "reason": "District Line: Service will resume later this morning.",
+      "severity": "Service Closed",
       "source_created": "0001-01-01T00:00:00"
     },
     "dlr:text:282bf8c0e12a1f12": {
@@ -20,44 +50,94 @@
       "severity": "Part Closure",
       "source_created": "0001-01-01T00:00:00"
     },
-    "hammersmith-city:text:004129bf5e441754": {
+    "dlr:text:665033ae8c9c0e54": {
+      "category": "planned engineering",
+      "first_seen": "2026-08-31T00:28:41Z",
+      "issue_key": "dlr:text:665033ae8c9c0e54",
+      "line_id": "dlr",
+      "line_name": "DLR",
+      "reason": "Docklands Light Railway: Service will resume later this morning. There will be no service between Tower Gateway and Shadwell due to planned engineering work.",
+      "severity": "Service Closed",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "elizabeth:text:85644759b2256fee": {
       "category": "other",
-      "first_seen": "2026-08-30T12:18:54Z",
-      "issue_key": "hammersmith-city:text:004129bf5e441754",
+      "first_seen": "2026-08-31T00:28:41Z",
+      "issue_key": "elizabeth:text:85644759b2256fee",
+      "line_id": "elizabeth",
+      "line_name": "Elizabeth line",
+      "reason": "Service will resume later this morning.",
+      "severity": "Service Closed",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "hammersmith-city:text:b560078b35a5fd17": {
+      "category": "other",
+      "first_seen": "2026-08-31T00:28:41Z",
+      "issue_key": "hammersmith-city:text:b560078b35a5fd17",
       "line_id": "hammersmith-city",
       "line_name": "Hammersmith & City",
-      "reason": "Hammersmith and City Line: Minor delays due to train cancellations.",
-      "severity": "Minor Delays",
+      "reason": "Hammersmith and City Line: Service will resume later this morning.",
+      "severity": "Service Closed",
       "source_created": "0001-01-01T00:00:00"
     },
-    "jubilee:text:57925a2ef9e26722": {
+    "jubilee:text:41cf503738f881df": {
       "category": "other",
-      "first_seen": "2026-08-30T16:48:24Z",
-      "issue_key": "jubilee:text:57925a2ef9e26722",
+      "first_seen": "2026-08-31T00:28:41Z",
+      "issue_key": "jubilee:text:41cf503738f881df",
       "line_id": "jubilee",
       "line_name": "Jubilee",
-      "reason": "Jubilee Line: Minor delays due to train cancellations.",
-      "severity": "Minor Delays",
+      "reason": "Jubilee Line: Service will resume later this morning.",
+      "severity": "Service Closed",
       "source_created": "0001-01-01T00:00:00"
     },
-    "metropolitan:text:199f476909aa2f08": {
+    "liberty:text:6c20012cf4b8c1dc": {
       "category": "other",
-      "first_seen": "2026-08-30T22:02:07Z",
-      "issue_key": "metropolitan:text:199f476909aa2f08",
+      "first_seen": "2026-08-31T00:28:41Z",
+      "issue_key": "liberty:text:6c20012cf4b8c1dc",
+      "line_id": "liberty",
+      "line_name": "Liberty",
+      "reason": "Liberty Line:",
+      "severity": "Service Closed",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "lioness:text:fd3b32d65e91b81d": {
+      "category": "other",
+      "first_seen": "2026-08-31T00:28:41Z",
+      "issue_key": "lioness:text:fd3b32d65e91b81d",
+      "line_id": "lioness",
+      "line_name": "Lioness",
+      "reason": "Lioness Line:",
+      "severity": "Service Closed",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "metropolitan:text:4b366f757f8f5a28": {
+      "category": "other",
+      "first_seen": "2026-08-31T00:28:41Z",
+      "issue_key": "metropolitan:text:4b366f757f8f5a28",
       "line_id": "metropolitan",
       "line_name": "Metropolitan",
-      "reason": "Metropolitan Line: No service between Baker Street and Aldgate, and SEVERE DELAYS between Baker Street and Harrow-on-the- Hill while emergency services respond to a large fire near the railway at Neasden. Please use the Jubilee line between Wembley Park and Baker Street. Tickets will be accepted on London Buses, Lioness line, London Northwestern and Thameslink services. MINOR DELAYS on the rest of the line.",
-      "severity": "Part Suspended",
+      "reason": "Metropolitan Line: Service will resume later this morning.",
+      "severity": "Service Closed",
       "source_created": "0001-01-01T00:00:00"
     },
-    "mildmay:text:8a28a5c11108c613": {
+    "mildmay:text:a6c98b9db986503c": {
       "category": "other",
-      "first_seen": "2026-08-30T22:02:07Z",
-      "issue_key": "mildmay:text:8a28a5c11108c613",
+      "first_seen": "2026-08-31T00:28:41Z",
+      "issue_key": "mildmay:text:a6c98b9db986503c",
       "line_id": "mildmay",
       "line_name": "Mildmay",
-      "reason": "Mildmay Line: Severe delays due to crowding during an event at Notting Hill. London Underground are accepting tickets via any reasonable route.",
-      "severity": "Severe Delays",
+      "reason": "Mildmay Line:",
+      "severity": "Service Closed",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "northern:text:72231583e57f6b95": {
+      "category": "planned engineering",
+      "first_seen": "2026-08-31T00:28:41Z",
+      "issue_key": "northern:text:72231583e57f6b95",
+      "line_id": "northern",
+      "line_name": "Northern",
+      "reason": "Northern Line: Service will resume later this morning. There will be no service between Archway and High Barnet / Mill Hill East due to planned engineering works.",
+      "severity": "Service Closed",
       "source_created": "0001-01-01T00:00:00"
     },
     "northern:text:af390b790dabf4d3": {
@@ -70,54 +150,64 @@
       "severity": "Part Closure",
       "source_created": "0001-01-01T00:00:00"
     },
-    "piccadilly:text:3c89bf07ce564870": {
+    "piccadilly:text:93605ef69b23c043": {
       "category": "other",
-      "first_seen": "2026-08-30T22:02:07Z",
-      "issue_key": "piccadilly:text:3c89bf07ce564870",
+      "first_seen": "2026-08-31T00:28:41Z",
+      "issue_key": "piccadilly:text:93605ef69b23c043",
       "line_id": "piccadilly",
       "line_name": "Piccadilly",
-      "reason": "Piccadilly Line: Minor delays between Acton Town and Uxbridge eastbound only due to train cancellations. GOOD SERVICE on the rest of the line.",
-      "severity": "Minor Delays",
+      "reason": "Piccadilly Line: Service will resume later this morning.",
+      "severity": "Service Closed",
       "source_created": "0001-01-01T00:00:00"
     },
-    "tram:text:015c08154e807811": {
+    "suffragette:text:0daadc7b1901fcce": {
       "category": "other",
-      "first_seen": "2026-08-30T06:48:29Z",
-      "issue_key": "tram:text:015c08154e807811",
+      "first_seen": "2026-08-31T00:28:41Z",
+      "issue_key": "suffragette:text:0daadc7b1901fcce",
+      "line_id": "suffragette",
+      "line_name": "Suffragette",
+      "reason": "Suffragette Line:",
+      "severity": "Service Closed",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "tram:text:ab9d7a64f14b787b": {
+      "category": "other",
+      "first_seen": "2026-08-31T00:28:41Z",
+      "issue_key": "tram:text:ab9d7a64f14b787b",
       "line_id": "tram",
       "line_name": "Tram",
-      "reason": "LONDON TRAMS: From Thursday 6 until Sunday 30 August, no service between Reeves Corner and East Croydon. Additional works apply on Sunday 16 and Thursday 20 August.",
-      "severity": "Part Closure",
+      "reason": "London Tramlink: Service will resume later this morning.",
+      "severity": "Service Closed",
       "source_created": "0001-01-01T00:00:00"
     },
-    "tram:text:1cf994c5cfc450b3": {
+    "victoria:text:a0235cf21943c30f": {
       "category": "other",
-      "first_seen": "2026-08-30T06:48:29Z",
-      "issue_key": "tram:text:1cf994c5cfc450b3",
-      "line_id": "tram",
-      "line_name": "Tram",
-      "reason": "LONDON TRAMS: From Thursday 6 until Sunday 30 August, no service between Arena and Elmers End at certain times. On Mondays to Fridays, no service before 0700 and after 1930, on Saturdays, no service before 0800 and after 1845, and on Sundays, no service for the whole day.",
-      "severity": "Part Closure",
+      "first_seen": "2026-08-31T00:28:41Z",
+      "issue_key": "victoria:text:a0235cf21943c30f",
+      "line_id": "victoria",
+      "line_name": "Victoria",
+      "reason": "Victoria Line: Service will resume later this morning.",
+      "severity": "Service Closed",
       "source_created": "0001-01-01T00:00:00"
     },
-    "tram:text:b95c3f4768a61942": {
+    "waterloo-city:text:98f468d5e9ef96d2": {
       "category": "other",
-      "first_seen": "2026-08-30T06:48:29Z",
-      "issue_key": "tram:text:b95c3f4768a61942",
-      "line_id": "tram",
-      "line_name": "Tram",
-      "reason": "LONDON TRAMS: From Thursday 6 until Sunday 30 August, no service between Reeves Corner and East Croydon.",
-      "severity": "Part Closure",
-      "source_created": "0001-01-01T00:00:00"
-    },
-    "waterloo-city:text:02da0890c7cbf303": {
-      "category": "other",
-      "first_seen": "2026-08-30T06:48:29Z",
-      "issue_key": "waterloo-city:text:02da0890c7cbf303",
+      "first_seen": "2026-08-31T00:28:41Z",
+      "issue_key": "waterloo-city:text:98f468d5e9ef96d2",
       "line_id": "waterloo-city",
       "line_name": "Waterloo & City",
-      "reason": "Waterloo & City line: service operates 06:00 until 00:30, Monday to Friday only. There is no service on Saturdays, Sundays and on bank/public holidays.",
-      "severity": "Planned Closure",
+      "reason": "Waterloo and City Line: Service will resume at 06:00 on Tuesday.",
+      "severity": "Service Closed",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "weaver:text:a6129a5c43ff74b9": {
+      "category": "other",
+      "first_seen": "2026-08-31T00:28:41Z",
+      "issue_key": "weaver:text:a6129a5c43ff74b9",
+      "line_id": "weaver",
+      "line_name": "Weaver",
+      "reason": "Weaver Line:",
+      "severity": "Service Closed",
       "source_created": "0001-01-01T00:00:00"
     },
     "windrush:text:bb44a7c6ae6dc16b": {
@@ -129,9 +219,139 @@
       "reason": "WINDRUSH LINE: Saturday 29, Sunday 30 and Monday 31 August, no service between Surrey Quays and Clapham Junction / Battersea Park. Replacement bus service M operates between Canada Water and Clapham Junction via Surrey Quays, Queens Road Peckham, Peckham Rye, Denmark Hill, Clapham High Street and Wandsworth Road. There will also be no SOUTHERN services at Queens Road Peckham and Peckham Rye, with an additional replacement bus service between London Bridge and Tulse Hill. SOUTHEASTERN and THAMESLINK trains continue to serve Peckham Rye and Denmark Hill.",
       "severity": "Part Closure",
       "source_created": "0001-01-01T00:00:00"
+    },
+    "windrush:text:f09370c767a4cd49": {
+      "category": "other",
+      "first_seen": "2026-08-31T00:28:41Z",
+      "issue_key": "windrush:text:f09370c767a4cd49",
+      "line_id": "windrush",
+      "line_name": "Windrush",
+      "reason": "Windrush Line:",
+      "severity": "Service Closed",
+      "source_created": "0001-01-01T00:00:00"
     }
   },
   "history": [
+    {
+      "category": "other",
+      "duration_seconds": 63612,
+      "first_seen": "2026-08-30T06:48:29Z",
+      "issue_key": "circle:text:bf9bb7504db7ea4d",
+      "line_id": "circle",
+      "line_name": "Circle",
+      "reason": "Circle Line: Minor delays due to train cancellations.",
+      "resolved_at": "2026-08-31T00:28:41Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "other",
+      "duration_seconds": 43787,
+      "first_seen": "2026-08-30T12:18:54Z",
+      "issue_key": "hammersmith-city:text:004129bf5e441754",
+      "line_id": "hammersmith-city",
+      "line_name": "Hammersmith & City",
+      "reason": "Hammersmith and City Line: Minor delays due to train cancellations.",
+      "resolved_at": "2026-08-31T00:28:41Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "other",
+      "duration_seconds": 27617,
+      "first_seen": "2026-08-30T16:48:24Z",
+      "issue_key": "jubilee:text:57925a2ef9e26722",
+      "line_id": "jubilee",
+      "line_name": "Jubilee",
+      "reason": "Jubilee Line: Minor delays due to train cancellations.",
+      "resolved_at": "2026-08-31T00:28:41Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "other",
+      "duration_seconds": 8794,
+      "first_seen": "2026-08-30T22:02:07Z",
+      "issue_key": "metropolitan:text:199f476909aa2f08",
+      "line_id": "metropolitan",
+      "line_name": "Metropolitan",
+      "reason": "Metropolitan Line: No service between Baker Street and Aldgate, and SEVERE DELAYS between Baker Street and Harrow-on-the- Hill while emergency services respond to a large fire near the railway at Neasden. Please use the Jubilee line between Wembley Park and Baker Street. Tickets will be accepted on London Buses, Lioness line, London Northwestern and Thameslink services. MINOR DELAYS on the rest of the line.",
+      "resolved_at": "2026-08-31T00:28:41Z",
+      "severity": "Part Suspended",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "other",
+      "duration_seconds": 8794,
+      "first_seen": "2026-08-30T22:02:07Z",
+      "issue_key": "mildmay:text:8a28a5c11108c613",
+      "line_id": "mildmay",
+      "line_name": "Mildmay",
+      "reason": "Mildmay Line: Severe delays due to crowding during an event at Notting Hill. London Underground are accepting tickets via any reasonable route.",
+      "resolved_at": "2026-08-31T00:28:41Z",
+      "severity": "Severe Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "other",
+      "duration_seconds": 8794,
+      "first_seen": "2026-08-30T22:02:07Z",
+      "issue_key": "piccadilly:text:3c89bf07ce564870",
+      "line_id": "piccadilly",
+      "line_name": "Piccadilly",
+      "reason": "Piccadilly Line: Minor delays between Acton Town and Uxbridge eastbound only due to train cancellations. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-08-31T00:28:41Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "other",
+      "duration_seconds": 63612,
+      "first_seen": "2026-08-30T06:48:29Z",
+      "issue_key": "tram:text:015c08154e807811",
+      "line_id": "tram",
+      "line_name": "Tram",
+      "reason": "LONDON TRAMS: From Thursday 6 until Sunday 30 August, no service between Reeves Corner and East Croydon. Additional works apply on Sunday 16 and Thursday 20 August.",
+      "resolved_at": "2026-08-31T00:28:41Z",
+      "severity": "Part Closure",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "other",
+      "duration_seconds": 63612,
+      "first_seen": "2026-08-30T06:48:29Z",
+      "issue_key": "tram:text:1cf994c5cfc450b3",
+      "line_id": "tram",
+      "line_name": "Tram",
+      "reason": "LONDON TRAMS: From Thursday 6 until Sunday 30 August, no service between Arena and Elmers End at certain times. On Mondays to Fridays, no service before 0700 and after 1930, on Saturdays, no service before 0800 and after 1845, and on Sundays, no service for the whole day.",
+      "resolved_at": "2026-08-31T00:28:41Z",
+      "severity": "Part Closure",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "other",
+      "duration_seconds": 63612,
+      "first_seen": "2026-08-30T06:48:29Z",
+      "issue_key": "tram:text:b95c3f4768a61942",
+      "line_id": "tram",
+      "line_name": "Tram",
+      "reason": "LONDON TRAMS: From Thursday 6 until Sunday 30 August, no service between Reeves Corner and East Croydon.",
+      "resolved_at": "2026-08-31T00:28:41Z",
+      "severity": "Part Closure",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "other",
+      "duration_seconds": 63612,
+      "first_seen": "2026-08-30T06:48:29Z",
+      "issue_key": "waterloo-city:text:02da0890c7cbf303",
+      "line_id": "waterloo-city",
+      "line_name": "Waterloo & City",
+      "reason": "Waterloo & City line: service operates 06:00 until 00:30, Monday to Friday only. There is no service on Saturdays, Sundays and on bank/public holidays.",
+      "resolved_at": "2026-08-31T00:28:41Z",
+      "severity": "Planned Closure",
+      "source_created": "0001-01-01T00:00:00"
+    },
     {
       "category": "other",
       "duration_seconds": 32014,
@@ -973,6 +1193,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-08-30T22:02:07Z",
+  "updated_at": "2026-08-31T00:28:41Z",
   "version": 1
 }
