@@ -1,15 +1,5 @@
 {
   "active": {
-    "bakerloo:text:e9521f3b0130e8a1": {
-      "category": "points failure",
-      "first_seen": "2026-08-31T06:03:03Z",
-      "issue_key": "bakerloo:text:e9521f3b0130e8a1",
-      "line_id": "bakerloo",
-      "line_name": "Bakerloo",
-      "reason": "Bakerloo Line: Severe delays due to an earlier points failure at Lambeth North. Tickets are being accepted on London Buses, Lioness line and the London Northwestern Railway.",
-      "severity": "Severe Delays",
-      "source_created": "0001-01-01T00:00:00"
-    },
     "dlr:text:282bf8c0e12a1f12": {
       "category": "other",
       "first_seen": "2026-08-30T06:48:29Z",
@@ -52,6 +42,18 @@
     }
   },
   "history": [
+    {
+      "category": "points failure",
+      "duration_seconds": 2442,
+      "first_seen": "2026-08-31T06:03:03Z",
+      "issue_key": "bakerloo:text:e9521f3b0130e8a1",
+      "line_id": "bakerloo",
+      "line_name": "Bakerloo",
+      "reason": "Bakerloo Line: Severe delays due to an earlier points failure at Lambeth North. Tickets are being accepted on London Buses, Lioness line and the London Northwestern Railway.",
+      "resolved_at": "2026-08-31T06:43:45Z",
+      "severity": "Severe Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
     {
       "category": "other",
       "duration_seconds": 20062,
@@ -1253,6 +1255,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-08-31T06:03:03Z",
+  "updated_at": "2026-08-31T06:43:45Z",
   "version": 1
 }
