@@ -10,14 +10,24 @@
       "severity": "Severe Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "circle:text:4365683312491ca6": {
+    "circle:text:8f2506267986c513": {
       "category": "signal failure",
-      "first_seen": "2026-08-31T13:35:29Z",
-      "issue_key": "circle:text:4365683312491ca6",
+      "first_seen": "2026-08-31T14:27:09Z",
+      "issue_key": "circle:text:8f2506267986c513",
       "line_id": "circle",
       "line_name": "Circle",
-      "reason": "Circle Line: Severe delays due to an earlier signal failure at Westbourne Park.",
-      "severity": "Severe Delays",
+      "reason": "Circle Line: No service between Hammersmith and Edgware Road while we fix a signal failure at Westbourne Park. SEVERE DELAYS on the rest of the line. Tickets are being accepted on London Buses. Customers for Notting Hill Carnival are advised to take a Circle line train anticlockwise to Paddington and then walk to complete their journey.",
+      "severity": "Part Suspended",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "district:text:cef26b34ab78c16e": {
+      "category": "signal failure",
+      "first_seen": "2026-08-31T14:27:09Z",
+      "issue_key": "district:text:cef26b34ab78c16e",
+      "line_id": "district",
+      "line_name": "District",
+      "reason": "District Line: Minor delays between High Street Kensington and Edgware Road while we fix a signal failure at Westbourne Park. GOOD SERVICE on the rest of the line.",
+      "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
     "dlr:text:282bf8c0e12a1f12": {
@@ -30,23 +40,23 @@
       "severity": "Part Closure",
       "source_created": "0001-01-01T00:00:00"
     },
-    "hammersmith-city:text:9d71bf45cc3bdb51": {
+    "hammersmith-city:text:76bbd128e5c01a2a": {
       "category": "signal failure",
-      "first_seen": "2026-08-31T13:35:29Z",
-      "issue_key": "hammersmith-city:text:9d71bf45cc3bdb51",
+      "first_seen": "2026-08-31T14:27:09Z",
+      "issue_key": "hammersmith-city:text:76bbd128e5c01a2a",
       "line_id": "hammersmith-city",
       "line_name": "Hammersmith & City",
-      "reason": "Hammersmith and City Line: Severe delays due to an earlier signal failure at Westbourne Park. Tickets are being accepted on London Buses via any reasonable route.",
-      "severity": "Severe Delays",
+      "reason": "Hammersmith and City Line: No service between Hammersmith and Edgware Road while we fix a signal failure at Westbourne Park. SEVERE DELAYS on the rest of the line. Tickets are being accepted on London Buses. Customers for Notting Hill Carnival are advised to take a Circle line train anticlockwise to Paddington and then walk to complete their journey.",
+      "severity": "Part Suspended",
       "source_created": "0001-01-01T00:00:00"
     },
-    "metropolitan:text:f1efcb301333091a": {
+    "metropolitan:text:305dd461877c7bb7": {
       "category": "other",
-      "first_seen": "2026-08-31T13:35:29Z",
-      "issue_key": "metropolitan:text:f1efcb301333091a",
+      "first_seen": "2026-08-31T14:27:09Z",
+      "issue_key": "metropolitan:text:305dd461877c7bb7",
       "line_id": "metropolitan",
       "line_name": "Metropolitan",
-      "reason": "Metropolitan Line: Severe delays between Harrow-on-the-Hill and Aldgate and MINOR DELAYS between Harrow-on-the-Hill and Uxbridge due to train cancellations. GOOD SERVICE on the rest of the line. Tickets are being accepted on London Buses and Thameslink via any reasonable route.",
+      "reason": "Metropolitan Line: Minor delays due to train cancellations.",
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
@@ -82,6 +92,42 @@
     }
   },
   "history": [
+    {
+      "category": "signal failure",
+      "duration_seconds": 3100,
+      "first_seen": "2026-08-31T13:35:29Z",
+      "issue_key": "circle:text:4365683312491ca6",
+      "line_id": "circle",
+      "line_name": "Circle",
+      "reason": "Circle Line: Severe delays due to an earlier signal failure at Westbourne Park.",
+      "resolved_at": "2026-08-31T14:27:09Z",
+      "severity": "Severe Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "signal failure",
+      "duration_seconds": 3100,
+      "first_seen": "2026-08-31T13:35:29Z",
+      "issue_key": "hammersmith-city:text:9d71bf45cc3bdb51",
+      "line_id": "hammersmith-city",
+      "line_name": "Hammersmith & City",
+      "reason": "Hammersmith and City Line: Severe delays due to an earlier signal failure at Westbourne Park. Tickets are being accepted on London Buses via any reasonable route.",
+      "resolved_at": "2026-08-31T14:27:09Z",
+      "severity": "Severe Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "other",
+      "duration_seconds": 3100,
+      "first_seen": "2026-08-31T13:35:29Z",
+      "issue_key": "metropolitan:text:f1efcb301333091a",
+      "line_id": "metropolitan",
+      "line_name": "Metropolitan",
+      "reason": "Metropolitan Line: Severe delays between Harrow-on-the-Hill and Aldgate and MINOR DELAYS between Harrow-on-the-Hill and Uxbridge due to train cancellations. GOOD SERVICE on the rest of the line. Tickets are being accepted on London Buses and Thameslink via any reasonable route.",
+      "resolved_at": "2026-08-31T14:27:09Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
     {
       "category": "points failure",
       "duration_seconds": 2442,
@@ -1295,6 +1341,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-08-31T13:35:29Z",
+  "updated_at": "2026-08-31T14:27:09Z",
   "version": 1
 }
