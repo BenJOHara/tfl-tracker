@@ -16,8 +16,8 @@
       "issue_key": "circle:text:bf9bb7504db7ea4d",
       "line_id": "circle",
       "line_name": "Circle",
-      "reason": "Circle Line: Severe delays due to train cancellations.",
-      "severity": "Severe Delays",
+      "reason": "Circle Line: Minor delays due to train cancellations.",
+      "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
     "dlr:text:282bf8c0e12a1f12": {
@@ -1393,6 +1393,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-08-31T19:37:09Z",
+  "updated_at": "2026-08-31T20:16:13Z",
   "version": 1
 }
