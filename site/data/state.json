@@ -50,16 +50,6 @@
       "severity": "Part Closure",
       "source_created": "0001-01-01T00:00:00"
     },
-    "piccadilly:text:3c89bf07ce564870": {
-      "category": "other",
-      "first_seen": "2026-08-31T23:20:18Z",
-      "issue_key": "piccadilly:text:3c89bf07ce564870",
-      "line_id": "piccadilly",
-      "line_name": "Piccadilly",
-      "reason": "Piccadilly Line: Minor delays between Acton Town and Uxbridge eastbound only due to train cancellations. GOOD SERVICE on the rest of the line.",
-      "severity": "Minor Delays",
-      "source_created": "0001-01-01T00:00:00"
-    },
     "weaver:text:db0cac71fc451831": {
       "category": "other",
       "first_seen": "2026-08-31T23:20:18Z",
@@ -82,6 +72,18 @@
     }
   },
   "history": [
+    {
+      "category": "other",
+      "duration_seconds": 2038,
+      "first_seen": "2026-08-31T23:20:18Z",
+      "issue_key": "piccadilly:text:3c89bf07ce564870",
+      "line_id": "piccadilly",
+      "line_name": "Piccadilly",
+      "reason": "Piccadilly Line: Minor delays between Acton Town and Uxbridge eastbound only due to train cancellations. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-08-31T23:54:16Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
     {
       "category": "other",
       "duration_seconds": 13389,
@@ -1427,6 +1429,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-08-31T23:20:18Z",
+  "updated_at": "2026-08-31T23:54:16Z",
   "version": 1
 }
