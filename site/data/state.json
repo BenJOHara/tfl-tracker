@@ -10,14 +10,14 @@
       "severity": "Severe Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "circle:text:8f2506267986c513": {
+    "circle:text:2c2fbc0100810379": {
       "category": "signal failure",
-      "first_seen": "2026-08-31T14:27:09Z",
-      "issue_key": "circle:text:8f2506267986c513",
+      "first_seen": "2026-08-31T15:02:17Z",
+      "issue_key": "circle:text:2c2fbc0100810379",
       "line_id": "circle",
       "line_name": "Circle",
-      "reason": "Circle Line: No service between Hammersmith and Edgware Road while we fix a signal failure at Westbourne Park. SEVERE DELAYS on the rest of the line. Tickets are being accepted on London Buses. Customers for Notting Hill Carnival are advised to take a Circle line train anticlockwise to Paddington and then walk to complete their journey.",
-      "severity": "Part Suspended",
+      "reason": "Circle Line: Severe delays due to an earlier signal failure at Westbourne Park. Tickets are being accepted on London Buses.",
+      "severity": "Severe Delays",
       "source_created": "0001-01-01T00:00:00"
     },
     "district:text:cef26b34ab78c16e": {
@@ -92,6 +92,18 @@
     }
   },
   "history": [
+    {
+      "category": "signal failure",
+      "duration_seconds": 2108,
+      "first_seen": "2026-08-31T14:27:09Z",
+      "issue_key": "circle:text:8f2506267986c513",
+      "line_id": "circle",
+      "line_name": "Circle",
+      "reason": "Circle Line: No service between Hammersmith and Edgware Road while we fix a signal failure at Westbourne Park. SEVERE DELAYS on the rest of the line. Tickets are being accepted on London Buses. Customers for Notting Hill Carnival are advised to take a Circle line train anticlockwise to Paddington and then walk to complete their journey.",
+      "resolved_at": "2026-08-31T15:02:17Z",
+      "severity": "Part Suspended",
+      "source_created": "0001-01-01T00:00:00"
+    },
     {
       "category": "signal failure",
       "duration_seconds": 3100,
@@ -1341,6 +1353,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-08-31T14:27:09Z",
+  "updated_at": "2026-08-31T15:02:17Z",
   "version": 1
 }
