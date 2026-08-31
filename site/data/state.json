@@ -30,6 +30,16 @@
       "severity": "Part Closure",
       "source_created": "0001-01-01T00:00:00"
     },
+    "hammersmith-city:text:004129bf5e441754": {
+      "category": "other",
+      "first_seen": "2026-08-31T20:47:21Z",
+      "issue_key": "hammersmith-city:text:004129bf5e441754",
+      "line_id": "hammersmith-city",
+      "line_name": "Hammersmith & City",
+      "reason": "Hammersmith and City Line: Minor delays due to train cancellations.",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
     "metropolitan:text:a8f510bb7f37cd6d": {
       "category": "other",
       "first_seen": "2026-08-31T19:37:09Z",
@@ -1393,6 +1403,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-08-31T20:16:13Z",
+  "updated_at": "2026-08-31T20:47:21Z",
   "version": 1
 }
