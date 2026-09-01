@@ -1,25 +1,5 @@
 {
   "active": {
-    "central:text:23c62521d4237097": {
-      "category": "other",
-      "first_seen": "2026-09-01T06:48:59Z",
-      "issue_key": "central:text:23c62521d4237097",
-      "line_id": "central",
-      "line_name": "Central",
-      "reason": "Central Line: Minor delays between North Acton and Ealing Broadway / West Ruislip, and between Leytonstone and Epping / Hainault (via Newbury Park) due to train cancellations. GOOD SERVICE on the rest of the line.",
-      "severity": "Minor Delays",
-      "source_created": "0001-01-01T00:00:00"
-    },
-    "circle:text:2f3a0f637cbed9ea": {
-      "category": "other",
-      "first_seen": "2026-09-01T09:14:12Z",
-      "issue_key": "circle:text:2f3a0f637cbed9ea",
-      "line_id": "circle",
-      "line_name": "Circle",
-      "reason": "Circle Line: Minor delays clockwise only due to train cancellations. GOOD SERVICE anticlockwise.",
-      "severity": "Minor Delays",
-      "source_created": "0001-01-01T00:00:00"
-    },
     "hammersmith-city:text:004129bf5e441754": {
       "category": "other",
       "first_seen": "2026-09-01T09:14:12Z",
@@ -42,6 +22,30 @@
     }
   },
   "history": [
+    {
+      "category": "other",
+      "duration_seconds": 12404,
+      "first_seen": "2026-09-01T06:48:59Z",
+      "issue_key": "central:text:23c62521d4237097",
+      "line_id": "central",
+      "line_name": "Central",
+      "reason": "Central Line: Minor delays between North Acton and Ealing Broadway / West Ruislip, and between Leytonstone and Epping / Hainault (via Newbury Park) due to train cancellations. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-09-01T10:15:43Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "other",
+      "duration_seconds": 3691,
+      "first_seen": "2026-09-01T09:14:12Z",
+      "issue_key": "circle:text:2f3a0f637cbed9ea",
+      "line_id": "circle",
+      "line_name": "Circle",
+      "reason": "Circle Line: Minor delays clockwise only due to train cancellations. GOOD SERVICE anticlockwise.",
+      "resolved_at": "2026-09-01T10:15:43Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
     {
       "category": "other",
       "duration_seconds": 8713,
@@ -1771,6 +1775,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-09-01T09:14:12Z",
+  "updated_at": "2026-09-01T10:15:43Z",
   "version": 1
 }
