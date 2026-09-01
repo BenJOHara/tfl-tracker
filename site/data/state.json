@@ -30,24 +30,44 @@
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "metropolitan:text:0d35666e6b8f224b": {
-      "category": "signal failure",
-      "first_seen": "2026-09-01T14:10:24Z",
-      "issue_key": "metropolitan:text:0d35666e6b8f224b",
+    "metropolitan:text:b023496cf8118971": {
+      "category": "train fault",
+      "first_seen": "2026-09-01T16:33:00Z",
+      "issue_key": "metropolitan:text:b023496cf8118971",
       "line_id": "metropolitan",
       "line_name": "Metropolitan",
-      "reason": "Metropolitan Line: Minor delays between Harrow-on-the-Hill and Watford while we fix a signal failure at North Harrow. GOOD SERVICE on the rest of the line.",
+      "reason": "Metropolitan Line: Severe delays between Harrow-on-the-Hill and Uxbridge due to an earlier faulty train at Rayners Lane. GOOD SERVICE on the rest of the line.",
+      "severity": "Severe Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "mildmay:text:23494e6c48d09c06": {
+      "category": "person on track",
+      "first_seen": "2026-09-01T16:33:00Z",
+      "issue_key": "mildmay:text:23494e6c48d09c06",
+      "line_id": "mildmay",
+      "line_name": "Mildmay",
+      "reason": "Mildmay Line: Minor delays between Clapham Junction and Willesden Junction due to an earlier trespasser on the track at West Brompton. GOOD SERVICE on the rest of the line.",
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "tram:text:568683dcbc74f522": {
+    "piccadilly:text:41fec4a7b67753fa": {
+      "category": "train fault",
+      "first_seen": "2026-09-01T16:33:00Z",
+      "issue_key": "piccadilly:text:41fec4a7b67753fa",
+      "line_id": "piccadilly",
+      "line_name": "Piccadilly",
+      "reason": "Piccadilly Line: Severe delays between Rayners Lane and Uxbridge due to a faulty train Rayners Lane. GOOD SERVICE on the rest of the line.",
+      "severity": "Severe Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "tram:text:c0e6b2d2159ce8ac": {
       "category": "other",
-      "first_seen": "2026-09-01T14:58:32Z",
-      "issue_key": "tram:text:568683dcbc74f522",
+      "first_seen": "2026-09-01T16:33:00Z",
+      "issue_key": "tram:text:c0e6b2d2159ce8ac",
       "line_id": "tram",
       "line_name": "Tram",
-      "reason": "London Tramlink: No service between Avenue Road and Harrington Road due to a vehicle hitting a bridge at Birkbeck. MINOR DELAYS on all other tram routes.",
-      "severity": "Part Suspended",
+      "reason": "London Tramlink: Minor delays due to a vehicle hitting a bridge at Birkbeck.",
+      "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
     "victoria:text:02e0850cdf11ef25": {
@@ -72,6 +92,30 @@
     }
   },
   "history": [
+    {
+      "category": "signal failure",
+      "duration_seconds": 8556,
+      "first_seen": "2026-09-01T14:10:24Z",
+      "issue_key": "metropolitan:text:0d35666e6b8f224b",
+      "line_id": "metropolitan",
+      "line_name": "Metropolitan",
+      "reason": "Metropolitan Line: Minor delays between Harrow-on-the-Hill and Watford while we fix a signal failure at North Harrow. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-09-01T16:33:00Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "other",
+      "duration_seconds": 5668,
+      "first_seen": "2026-09-01T14:58:32Z",
+      "issue_key": "tram:text:568683dcbc74f522",
+      "line_id": "tram",
+      "line_name": "Tram",
+      "reason": "London Tramlink: No service between Avenue Road and Harrington Road due to a vehicle hitting a bridge at Birkbeck. MINOR DELAYS on all other tram routes.",
+      "resolved_at": "2026-09-01T16:33:00Z",
+      "severity": "Part Suspended",
+      "source_created": "0001-01-01T00:00:00"
+    },
     {
       "category": "other",
       "duration_seconds": 2888,
@@ -1909,6 +1953,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-09-01T14:58:32Z",
+  "updated_at": "2026-09-01T16:33:00Z",
   "version": 1
 }
