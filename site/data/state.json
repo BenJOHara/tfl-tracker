@@ -40,14 +40,14 @@
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "tram:text:130cb491c8e615b4": {
+    "tram:text:568683dcbc74f522": {
       "category": "other",
-      "first_seen": "2026-09-01T14:10:24Z",
-      "issue_key": "tram:text:130cb491c8e615b4",
+      "first_seen": "2026-09-01T14:58:32Z",
+      "issue_key": "tram:text:568683dcbc74f522",
       "line_id": "tram",
       "line_name": "Tram",
-      "reason": "London Tramlink: Minor delays due to earlier faulty tram at Waddon Marsh.",
-      "severity": "Minor Delays",
+      "reason": "London Tramlink: No service between Avenue Road and Harrington Road due to a vehicle hitting a bridge at Birkbeck. MINOR DELAYS on all other tram routes.",
+      "severity": "Part Suspended",
       "source_created": "0001-01-01T00:00:00"
     },
     "victoria:text:02e0850cdf11ef25": {
@@ -72,6 +72,18 @@
     }
   },
   "history": [
+    {
+      "category": "other",
+      "duration_seconds": 2888,
+      "first_seen": "2026-09-01T14:10:24Z",
+      "issue_key": "tram:text:130cb491c8e615b4",
+      "line_id": "tram",
+      "line_name": "Tram",
+      "reason": "London Tramlink: Minor delays due to earlier faulty tram at Waddon Marsh.",
+      "resolved_at": "2026-09-01T14:58:32Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
     {
       "category": "signal failure",
       "duration_seconds": 7396,
@@ -1897,6 +1909,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-09-01T14:10:24Z",
+  "updated_at": "2026-09-01T14:58:32Z",
   "version": 1
 }
