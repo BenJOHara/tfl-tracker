@@ -10,66 +10,6 @@
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "circle:text:af8810120d5244fc": {
-      "category": "signal failure",
-      "first_seen": "2026-09-01T14:10:24Z",
-      "issue_key": "circle:text:af8810120d5244fc",
-      "line_id": "circle",
-      "line_name": "Circle",
-      "reason": "Circle Line: Minor delays due to an earlier signal failure at Royal Oak.",
-      "severity": "Minor Delays",
-      "source_created": "0001-01-01T00:00:00"
-    },
-    "hammersmith-city:text:9b141a6eca66932d": {
-      "category": "signal failure",
-      "first_seen": "2026-09-01T14:10:24Z",
-      "issue_key": "hammersmith-city:text:9b141a6eca66932d",
-      "line_id": "hammersmith-city",
-      "line_name": "Hammersmith & City",
-      "reason": "Hammersmith and City Line: Minor delays due to an earlier signal failure at Royal Oak.",
-      "severity": "Minor Delays",
-      "source_created": "0001-01-01T00:00:00"
-    },
-    "metropolitan:text:b023496cf8118971": {
-      "category": "train fault",
-      "first_seen": "2026-09-01T16:33:00Z",
-      "issue_key": "metropolitan:text:b023496cf8118971",
-      "line_id": "metropolitan",
-      "line_name": "Metropolitan",
-      "reason": "Metropolitan Line: Severe delays between Harrow-on-the-Hill and Uxbridge due to an earlier faulty train at Rayners Lane. GOOD SERVICE on the rest of the line.",
-      "severity": "Severe Delays",
-      "source_created": "0001-01-01T00:00:00"
-    },
-    "mildmay:text:23494e6c48d09c06": {
-      "category": "person on track",
-      "first_seen": "2026-09-01T16:33:00Z",
-      "issue_key": "mildmay:text:23494e6c48d09c06",
-      "line_id": "mildmay",
-      "line_name": "Mildmay",
-      "reason": "Mildmay Line: Minor delays between Clapham Junction and Willesden Junction due to an earlier trespasser on the track at West Brompton. GOOD SERVICE on the rest of the line.",
-      "severity": "Minor Delays",
-      "source_created": "0001-01-01T00:00:00"
-    },
-    "piccadilly:text:41fec4a7b67753fa": {
-      "category": "train fault",
-      "first_seen": "2026-09-01T16:33:00Z",
-      "issue_key": "piccadilly:text:41fec4a7b67753fa",
-      "line_id": "piccadilly",
-      "line_name": "Piccadilly",
-      "reason": "Piccadilly Line: Severe delays between Rayners Lane and Uxbridge due to a faulty train Rayners Lane. GOOD SERVICE on the rest of the line.",
-      "severity": "Severe Delays",
-      "source_created": "0001-01-01T00:00:00"
-    },
-    "tram:text:c0e6b2d2159ce8ac": {
-      "category": "other",
-      "first_seen": "2026-09-01T16:33:00Z",
-      "issue_key": "tram:text:c0e6b2d2159ce8ac",
-      "line_id": "tram",
-      "line_name": "Tram",
-      "reason": "London Tramlink: Minor delays due to a vehicle hitting a bridge at Birkbeck.",
-      "severity": "Minor Delays",
-      "source_created": "0001-01-01T00:00:00"
-    },
     "victoria:text:02e0850cdf11ef25": {
       "category": "other",
       "first_seen": "2026-09-01T14:10:24Z",
@@ -79,19 +19,93 @@
       "reason": "Victoria Line: Minor delays due to train cancellations.",
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
+    }
+  },
+  "history": [
+    {
+      "category": "signal failure",
+      "duration_seconds": 13132,
+      "first_seen": "2026-09-01T14:10:24Z",
+      "issue_key": "circle:text:af8810120d5244fc",
+      "line_id": "circle",
+      "line_name": "Circle",
+      "reason": "Circle Line: Minor delays due to an earlier signal failure at Royal Oak.",
+      "resolved_at": "2026-09-01T17:49:16Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
     },
-    "windrush:text:2b29017cebf8605f": {
+    {
+      "category": "signal failure",
+      "duration_seconds": 13132,
+      "first_seen": "2026-09-01T14:10:24Z",
+      "issue_key": "hammersmith-city:text:9b141a6eca66932d",
+      "line_id": "hammersmith-city",
+      "line_name": "Hammersmith & City",
+      "reason": "Hammersmith and City Line: Minor delays due to an earlier signal failure at Royal Oak.",
+      "resolved_at": "2026-09-01T17:49:16Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "train fault",
+      "duration_seconds": 4576,
+      "first_seen": "2026-09-01T16:33:00Z",
+      "issue_key": "metropolitan:text:b023496cf8118971",
+      "line_id": "metropolitan",
+      "line_name": "Metropolitan",
+      "reason": "Metropolitan Line: Severe delays between Harrow-on-the-Hill and Uxbridge due to an earlier faulty train at Rayners Lane. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-09-01T17:49:16Z",
+      "severity": "Severe Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "person on track",
+      "duration_seconds": 4576,
+      "first_seen": "2026-09-01T16:33:00Z",
+      "issue_key": "mildmay:text:23494e6c48d09c06",
+      "line_id": "mildmay",
+      "line_name": "Mildmay",
+      "reason": "Mildmay Line: Minor delays between Clapham Junction and Willesden Junction due to an earlier trespasser on the track at West Brompton. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-09-01T17:49:16Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "train fault",
+      "duration_seconds": 4576,
+      "first_seen": "2026-09-01T16:33:00Z",
+      "issue_key": "piccadilly:text:41fec4a7b67753fa",
+      "line_id": "piccadilly",
+      "line_name": "Piccadilly",
+      "reason": "Piccadilly Line: Severe delays between Rayners Lane and Uxbridge due to a faulty train Rayners Lane. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-09-01T17:49:16Z",
+      "severity": "Severe Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
       "category": "other",
+      "duration_seconds": 4576,
+      "first_seen": "2026-09-01T16:33:00Z",
+      "issue_key": "tram:text:c0e6b2d2159ce8ac",
+      "line_id": "tram",
+      "line_name": "Tram",
+      "reason": "London Tramlink: Minor delays due to a vehicle hitting a bridge at Birkbeck.",
+      "resolved_at": "2026-09-01T17:49:16Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "other",
+      "duration_seconds": 39617,
       "first_seen": "2026-09-01T06:48:59Z",
       "issue_key": "windrush:text:2b29017cebf8605f",
       "line_id": "windrush",
       "line_name": "Windrush",
       "reason": "Windrush Line: Minor delays due to train cancellations.",
+      "resolved_at": "2026-09-01T17:49:16Z",
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
-    }
-  },
-  "history": [
+    },
     {
       "category": "signal failure",
       "duration_seconds": 8556,
@@ -1953,6 +1967,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-09-01T16:33:00Z",
+  "updated_at": "2026-09-01T17:49:16Z",
   "version": 1
 }
