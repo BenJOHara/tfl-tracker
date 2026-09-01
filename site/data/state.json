@@ -10,16 +10,6 @@
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "elizabeth:text:8c617af5f046f0da": {
-      "category": "power failure",
-      "first_seen": "2026-09-01T20:39:42Z",
-      "issue_key": "elizabeth:text:8c617af5f046f0da",
-      "line_id": "elizabeth",
-      "line_name": "Elizabeth line",
-      "reason": "Severe delays between Paddington and Heathrow Terminals / Reading due to an earlier power supply failure at Paddington. GOOD SERVICE on the rest of the line.",
-      "severity": "Severe Delays",
-      "source_created": "0001-01-01T00:00:00"
-    },
     "weaver:text:db0cac71fc451831": {
       "category": "other",
       "first_seen": "2026-09-01T21:58:27Z",
@@ -32,6 +22,18 @@
     }
   },
   "history": [
+    {
+      "category": "power failure",
+      "duration_seconds": 7822,
+      "first_seen": "2026-09-01T20:39:42Z",
+      "issue_key": "elizabeth:text:8c617af5f046f0da",
+      "line_id": "elizabeth",
+      "line_name": "Elizabeth line",
+      "reason": "Severe delays between Paddington and Heathrow Terminals / Reading due to an earlier power supply failure at Paddington. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-09-01T22:50:04Z",
+      "severity": "Severe Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
     {
       "category": "other",
       "duration_seconds": 15252,
@@ -1989,6 +1991,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-09-01T21:58:27Z",
+  "updated_at": "2026-09-01T22:50:04Z",
   "version": 1
 }
