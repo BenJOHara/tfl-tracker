@@ -1,17 +1,49 @@
 {
   "active": {
-    "waterloo-city:text:98f468d5e9ef96d2": {
+    "circle:text:bf9bb7504db7ea4d": {
       "category": "other",
+      "first_seen": "2026-09-01T05:20:22Z",
+      "issue_key": "circle:text:bf9bb7504db7ea4d",
+      "line_id": "circle",
+      "line_name": "Circle",
+      "reason": "Circle Line: Minor delays due to train cancellations.",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "metropolitan:text:3b4f13918109e035": {
+      "category": "other",
+      "first_seen": "2026-09-01T05:20:22Z",
+      "issue_key": "metropolitan:text:3b4f13918109e035",
+      "line_id": "metropolitan",
+      "line_name": "Metropolitan",
+      "reason": "Metropolitan Line: Minor delays between Uxbridge and Harrow-on-the-Hill due to train cancellations. GOOD SERVCIE on the rest of the line.",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "piccadilly:text:3355a30b4dc061a3": {
+      "category": "other",
+      "first_seen": "2026-09-01T05:20:22Z",
+      "issue_key": "piccadilly:text:3355a30b4dc061a3",
+      "line_id": "piccadilly",
+      "line_name": "Piccadilly",
+      "reason": "Piccadilly Line: Minor delays between Acton Town and Heathrow Terminals due to train cancellations. GOOD SERVICE on the rest of the line.",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    }
+  },
+  "history": [
+    {
+      "category": "other",
+      "duration_seconds": 12492,
       "first_seen": "2026-09-01T01:52:10Z",
       "issue_key": "waterloo-city:text:98f468d5e9ef96d2",
       "line_id": "waterloo-city",
       "line_name": "Waterloo & City",
       "reason": "Waterloo and City Line: Service will resume at 06:00 on Tuesday.",
+      "resolved_at": "2026-09-01T05:20:22Z",
       "severity": "Service Closed",
       "source_created": "0001-01-01T00:00:00"
-    }
-  },
-  "history": [
+    },
     {
       "category": "other",
       "duration_seconds": 7433,
@@ -1681,6 +1713,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-09-01T03:56:03Z",
+  "updated_at": "2026-09-01T05:20:22Z",
   "version": 1
 }
