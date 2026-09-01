@@ -1,13 +1,53 @@
 {
   "active": {
-    "hammersmith-city:text:004129bf5e441754": {
-      "category": "other",
-      "first_seen": "2026-09-01T09:14:12Z",
-      "issue_key": "hammersmith-city:text:004129bf5e441754",
+    "central:text:a0d7bb1c80586640": {
+      "category": "signal failure",
+      "first_seen": "2026-09-01T12:07:08Z",
+      "issue_key": "central:text:a0d7bb1c80586640",
+      "line_id": "central",
+      "line_name": "Central",
+      "reason": "Central Line: Minor delays between Leytonstone and Epping while we fix a signal failure at Woodford. GOOD SERVICE on the rest of the line.",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "circle:text:4f68b7bf3d01d3a0": {
+      "category": "signal failure",
+      "first_seen": "2026-09-01T12:07:08Z",
+      "issue_key": "circle:text:4f68b7bf3d01d3a0",
+      "line_id": "circle",
+      "line_name": "Circle",
+      "reason": "Circle Line: No service between Edgware Road and Hammersmith and SEVERE DELAYS on the rest of the line while we fix a signal failure at Royal Oak. London Buses are accepting tickets via any reasonable route.",
+      "severity": "Part Suspended",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "district:text:d83b521ccf36c29d": {
+      "category": "points failure",
+      "first_seen": "2026-09-01T12:07:08Z",
+      "issue_key": "district:text:d83b521ccf36c29d",
+      "line_id": "district",
+      "line_name": "District",
+      "reason": "District Line: Minor delays between High Street Kensington and Edgware Road due to an earlier points failure at Edgware Road. GOOD SERVICE on the rest of the line.",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "hammersmith-city:text:fd9be8d4fa478b8b": {
+      "category": "signal failure",
+      "first_seen": "2026-09-01T12:07:08Z",
+      "issue_key": "hammersmith-city:text:fd9be8d4fa478b8b",
       "line_id": "hammersmith-city",
       "line_name": "Hammersmith & City",
-      "reason": "Hammersmith and City Line: Minor delays due to train cancellations.",
-      "severity": "Minor Delays",
+      "reason": "Hammersmith and City Line: No service between Edgware Road and Hammersmith and SEVERE DELAYS on the rest of the line while we fix a signal failure at Royal Oak. London Buses, DLR, Elizabeth line and c2c services are accepting tickets via any reasonable route.",
+      "severity": "Part Suspended",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "metropolitan:text:e4afb266e29f314a": {
+      "category": "signal failure",
+      "first_seen": "2026-09-01T12:07:08Z",
+      "issue_key": "metropolitan:text:e4afb266e29f314a",
+      "line_id": "metropolitan",
+      "line_name": "Metropolitan",
+      "reason": "Metropolitan Line: Severe delays Baker Street to Aldgate and MINOR DELAYS between Harrow-on-the-Hill and Baker Street while we fix a signal failure at Royal Oak. GOOD service on the rest of the line. London Buses are accepting tickets via any reasonable route.",
+      "severity": "Severe Delays",
       "source_created": "0001-01-01T00:00:00"
     },
     "windrush:text:2b29017cebf8605f": {
@@ -22,6 +62,18 @@
     }
   },
   "history": [
+    {
+      "category": "other",
+      "duration_seconds": 10376,
+      "first_seen": "2026-09-01T09:14:12Z",
+      "issue_key": "hammersmith-city:text:004129bf5e441754",
+      "line_id": "hammersmith-city",
+      "line_name": "Hammersmith & City",
+      "reason": "Hammersmith and City Line: Minor delays due to train cancellations.",
+      "resolved_at": "2026-09-01T12:07:08Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
     {
       "category": "other",
       "duration_seconds": 12404,
@@ -1775,6 +1827,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-09-01T10:15:43Z",
+  "updated_at": "2026-09-01T12:07:08Z",
   "version": 1
 }
