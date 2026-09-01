@@ -10,13 +10,23 @@
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "district:text:054aeced9f6ae14a": {
+    "circle:text:2f3a0f637cbed9ea": {
       "category": "other",
-      "first_seen": "2026-09-01T06:48:59Z",
-      "issue_key": "district:text:054aeced9f6ae14a",
-      "line_id": "district",
-      "line_name": "District",
-      "reason": "District Line: Minor delays between Ealing Broadway / Richmond and Tower Hill Eastbound only While we deal with a signalling problem at Stamford Brook. MINOR DELAYS between Edgware Road and High Street Kensington due to train cancellations. GOOD SERVICE on the rest of the line.",
+      "first_seen": "2026-09-01T09:14:12Z",
+      "issue_key": "circle:text:2f3a0f637cbed9ea",
+      "line_id": "circle",
+      "line_name": "Circle",
+      "reason": "Circle Line: Minor delays clockwise only due to train cancellations. GOOD SERVICE anticlockwise.",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "hammersmith-city:text:004129bf5e441754": {
+      "category": "other",
+      "first_seen": "2026-09-01T09:14:12Z",
+      "issue_key": "hammersmith-city:text:004129bf5e441754",
+      "line_id": "hammersmith-city",
+      "line_name": "Hammersmith & City",
+      "reason": "Hammersmith and City Line: Minor delays due to train cancellations.",
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
@@ -32,6 +42,18 @@
     }
   },
   "history": [
+    {
+      "category": "other",
+      "duration_seconds": 8713,
+      "first_seen": "2026-09-01T06:48:59Z",
+      "issue_key": "district:text:054aeced9f6ae14a",
+      "line_id": "district",
+      "line_name": "District",
+      "reason": "District Line: Minor delays between Ealing Broadway / Richmond and Tower Hill Eastbound only While we deal with a signalling problem at Stamford Brook. MINOR DELAYS between Edgware Road and High Street Kensington due to train cancellations. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-09-01T09:14:12Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
     {
       "category": "other",
       "duration_seconds": 5317,
@@ -1749,6 +1771,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-09-01T06:48:59Z",
+  "updated_at": "2026-09-01T09:14:12Z",
   "version": 1
 }
