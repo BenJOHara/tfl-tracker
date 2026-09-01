@@ -9,19 +9,21 @@
       "reason": "Central Line: Minor delays due to train cancellations.",
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
-    },
-    "victoria:text:02e0850cdf11ef25": {
+    }
+  },
+  "history": [
+    {
       "category": "other",
+      "duration_seconds": 15252,
       "first_seen": "2026-09-01T14:10:24Z",
       "issue_key": "victoria:text:02e0850cdf11ef25",
       "line_id": "victoria",
       "line_name": "Victoria",
       "reason": "Victoria Line: Minor delays due to train cancellations.",
+      "resolved_at": "2026-09-01T18:24:36Z",
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
-    }
-  },
-  "history": [
+    },
     {
       "category": "signal failure",
       "duration_seconds": 13132,
@@ -1967,6 +1969,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-09-01T17:49:16Z",
+  "updated_at": "2026-09-01T18:24:36Z",
   "version": 1
 }
