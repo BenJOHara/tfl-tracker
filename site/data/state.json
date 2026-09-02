@@ -1,5 +1,15 @@
 {
   "active": {
+    "central:text:23c62521d4237097": {
+      "category": "other",
+      "first_seen": "2026-09-02T08:51:27Z",
+      "issue_key": "central:text:23c62521d4237097",
+      "line_id": "central",
+      "line_name": "Central",
+      "reason": "Central Line: Minor delays between North Acton and Ealing Broadway / West Ruislip, and between Leytonstone and Epping / Hainault (via Newbury Park) due to train cancellations. GOOD SERVICE on the rest of the line.",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
     "hammersmith-city:text:004129bf5e441754": {
       "category": "other",
       "first_seen": "2026-09-02T05:29:43Z",
@@ -9,39 +19,45 @@
       "reason": "Hammersmith and City Line: Minor delays due to train cancellations.",
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
-    },
-    "metropolitan:text:cba79bf166f4a73d": {
+    }
+  },
+  "history": [
+    {
       "category": "other",
+      "duration_seconds": 12104,
       "first_seen": "2026-09-02T05:29:43Z",
       "issue_key": "metropolitan:text:cba79bf166f4a73d",
       "line_id": "metropolitan",
       "line_name": "Metropolitan",
       "reason": "Metropolitan Line: Minor delays between Moor Park and Chesham due to train cancellations, the next southbound train will be at 07:03. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-09-02T08:51:27Z",
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "suffragette:text:52775d7777804880": {
+    {
       "category": "other",
+      "duration_seconds": 12104,
       "first_seen": "2026-09-02T05:29:43Z",
       "issue_key": "suffragette:text:52775d7777804880",
       "line_id": "suffragette",
       "line_name": "Suffragette",
       "reason": "Suffragette Line: No service between Gospel Oak and Upper Holloway while we fix faulty station equipment at Gospel Oak. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-09-02T08:51:27Z",
       "severity": "Part Suspended",
       "source_created": "0001-01-01T00:00:00"
     },
-    "windrush:text:91ae8f824ea06d38": {
+    {
       "category": "planned engineering",
+      "duration_seconds": 16197,
       "first_seen": "2026-09-02T04:21:30Z",
       "issue_key": "windrush:text:91ae8f824ea06d38",
       "line_id": "windrush",
       "line_name": "Windrush",
       "reason": "Windrush Line: No service between Surrey Quays and Clapham Junction due to a late finish of engineering work. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-09-02T08:51:27Z",
       "severity": "Part Suspended",
       "source_created": "0001-01-01T00:00:00"
-    }
-  },
-  "history": [
+    },
     {
       "category": "other",
       "duration_seconds": 1844,
@@ -2335,6 +2351,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-09-02T06:00:27Z",
+  "updated_at": "2026-09-02T08:51:27Z",
   "version": 1
 }
