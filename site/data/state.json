@@ -1,5 +1,35 @@
 {
   "active": {
+    "district:text:48e6e92d06e9364e": {
+      "category": "other",
+      "first_seen": "2026-09-02T05:29:43Z",
+      "issue_key": "district:text:48e6e92d06e9364e",
+      "line_id": "district",
+      "line_name": "District",
+      "reason": "District Line: Minor delays between Whitechapel and Upminster eastbound only due to train cancellations. GOOD SERVICE on the rest of the line.",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "hammersmith-city:text:004129bf5e441754": {
+      "category": "other",
+      "first_seen": "2026-09-02T05:29:43Z",
+      "issue_key": "hammersmith-city:text:004129bf5e441754",
+      "line_id": "hammersmith-city",
+      "line_name": "Hammersmith & City",
+      "reason": "Hammersmith and City Line: Minor delays due to train cancellations.",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "metropolitan:text:cba79bf166f4a73d": {
+      "category": "other",
+      "first_seen": "2026-09-02T05:29:43Z",
+      "issue_key": "metropolitan:text:cba79bf166f4a73d",
+      "line_id": "metropolitan",
+      "line_name": "Metropolitan",
+      "reason": "Metropolitan Line: Minor delays between Moor Park and Chesham due to train cancellations, the next southbound train will be at 07:03. GOOD SERVICE on the rest of the line.",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
     "piccadilly:text:ad2fcb92549caea8": {
       "category": "other",
       "first_seen": "2026-09-02T04:21:30Z",
@@ -10,14 +40,14 @@
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "waterloo-city:text:0faebd0ea99ebd1b": {
+    "suffragette:text:52775d7777804880": {
       "category": "other",
-      "first_seen": "2026-09-02T00:03:18Z",
-      "issue_key": "waterloo-city:text:0faebd0ea99ebd1b",
-      "line_id": "waterloo-city",
-      "line_name": "Waterloo & City",
-      "reason": "Waterloo and City Line: Service will resume at 06:00.",
-      "severity": "Service Closed",
+      "first_seen": "2026-09-02T05:29:43Z",
+      "issue_key": "suffragette:text:52775d7777804880",
+      "line_id": "suffragette",
+      "line_name": "Suffragette",
+      "reason": "Suffragette Line: No service between Gospel Oak and Upper Holloway while we fix faulty station equipment at Gospel Oak. GOOD SERVICE on the rest of the line.",
+      "severity": "Part Suspended",
       "source_created": "0001-01-01T00:00:00"
     },
     "windrush:text:91ae8f824ea06d38": {
@@ -32,6 +62,18 @@
     }
   },
   "history": [
+    {
+      "category": "other",
+      "duration_seconds": 19585,
+      "first_seen": "2026-09-02T00:03:18Z",
+      "issue_key": "waterloo-city:text:0faebd0ea99ebd1b",
+      "line_id": "waterloo-city",
+      "line_name": "Waterloo & City",
+      "reason": "Waterloo and City Line: Service will resume at 06:00.",
+      "resolved_at": "2026-09-02T05:29:43Z",
+      "severity": "Service Closed",
+      "source_created": "0001-01-01T00:00:00"
+    },
     {
       "category": "other",
       "duration_seconds": 12605,
@@ -2289,6 +2331,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-09-02T04:21:30Z",
+  "updated_at": "2026-09-02T05:29:43Z",
   "version": 1
 }
