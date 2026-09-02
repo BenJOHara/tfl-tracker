@@ -1,5 +1,15 @@
 {
   "active": {
+    "jubilee:text:e46c6456efab9c21": {
+      "category": "other",
+      "first_seen": "2026-09-02T21:22:32Z",
+      "issue_key": "jubilee:text:e46c6456efab9c21",
+      "line_id": "jubilee",
+      "line_name": "Jubilee",
+      "reason": "Jubilee Line: Severe delays while we fix faulty platform edge doors at Southwark. Tickets are being accepted on London Buses, Mildmay line, DLR and Elizabeth line.",
+      "severity": "Severe Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
     "northern:text:3ce34d5602c66b1f": {
       "category": "points failure",
       "first_seen": "2026-09-02T19:44:27Z",
@@ -10,28 +20,52 @@
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "victoria:text:61bfe92cfccc4ea3": {
+    "victoria:text:2d3274d426e2bf2a": {
       "category": "signal failure",
-      "first_seen": "2026-09-02T19:44:27Z",
-      "issue_key": "victoria:text:61bfe92cfccc4ea3",
+      "first_seen": "2026-09-02T21:22:32Z",
+      "issue_key": "victoria:text:2d3274d426e2bf2a",
       "line_id": "victoria",
       "line_name": "Victoria",
-      "reason": "Victoria Line: Minor delays due to an earlier signal failure at Highbury & Islington.",
-      "severity": "Minor Delays",
+      "reason": "Victoria Line: Severe delays due to an earlier signal failure at Highbury & Islington. London Buses, Suffragette line. Great Northern, Thameslink, Greater Anglia and Weaver line are accepting valid tickets via any reasonable route.",
+      "severity": "Severe Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "windrush:text:e08b79c39bea0f6b": {
+    "windrush:text:84780b7823be6394": {
       "category": "points failure",
-      "first_seen": "2026-09-02T19:44:27Z",
-      "issue_key": "windrush:text:e08b79c39bea0f6b",
+      "first_seen": "2026-09-02T21:22:32Z",
+      "issue_key": "windrush:text:84780b7823be6394",
       "line_id": "windrush",
       "line_name": "Windrush",
-      "reason": "Windrush Line: No service between Clapham Junction and Surrey Quays and between Highbury & Islington and Dalston Junction due to a points failure at Peckham Rye. SEVERE DELAYS on the rest of the line due to a trespasser at Sydenham. London Underground accepting tickets via any reasonable routes.",
+      "reason": "Windrush Line: No service between Clapham Junction and Surrey Quays due to a points failure at Peckham Rye. GOOD SERVICE on the rest of the line. London Underground accepting tickets via any reasonable routes.",
       "severity": "Part Suspended",
       "source_created": "0001-01-01T00:00:00"
     }
   },
   "history": [
+    {
+      "category": "signal failure",
+      "duration_seconds": 5885,
+      "first_seen": "2026-09-02T19:44:27Z",
+      "issue_key": "victoria:text:61bfe92cfccc4ea3",
+      "line_id": "victoria",
+      "line_name": "Victoria",
+      "reason": "Victoria Line: Minor delays due to an earlier signal failure at Highbury & Islington.",
+      "resolved_at": "2026-09-02T21:22:32Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "points failure",
+      "duration_seconds": 5885,
+      "first_seen": "2026-09-02T19:44:27Z",
+      "issue_key": "windrush:text:e08b79c39bea0f6b",
+      "line_id": "windrush",
+      "line_name": "Windrush",
+      "reason": "Windrush Line: No service between Clapham Junction and Surrey Quays and between Highbury & Islington and Dalston Junction due to a points failure at Peckham Rye. SEVERE DELAYS on the rest of the line due to a trespasser at Sydenham. London Underground accepting tickets via any reasonable routes.",
+      "resolved_at": "2026-09-02T21:22:32Z",
+      "severity": "Part Suspended",
+      "source_created": "0001-01-01T00:00:00"
+    },
     {
       "category": "other",
       "duration_seconds": 12577,
@@ -2505,6 +2539,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-09-02T20:36:53Z",
+  "updated_at": "2026-09-02T21:22:32Z",
   "version": 1
 }
