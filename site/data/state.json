@@ -1,23 +1,23 @@
 {
   "active": {
-    "district:text:04f257735a5c3934": {
+    "central:text:6d0af7c9d44f714a": {
       "category": "other",
-      "first_seen": "2026-09-02T15:08:50Z",
-      "issue_key": "district:text:04f257735a5c3934",
-      "line_id": "district",
-      "line_name": "District",
-      "reason": "District Line: Minor delays between Turnham Green and Ealing Broadway while we deal with a signalling problem at Chiswick Park. GOOD SERVICE on the rest of the line.",
+      "first_seen": "2026-09-02T17:07:16Z",
+      "issue_key": "central:text:6d0af7c9d44f714a",
+      "line_id": "central",
+      "line_name": "Central",
+      "reason": "Central Line: Minor delays due to train cancellations.",
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "northern:text:b24fcb5fe30225ad": {
+    "northern:text:87a8c3a0bfd221fa": {
       "category": "points failure",
-      "first_seen": "2026-09-02T15:08:50Z",
-      "issue_key": "northern:text:b24fcb5fe30225ad",
+      "first_seen": "2026-09-02T17:07:16Z",
+      "issue_key": "northern:text:87a8c3a0bfd221fa",
       "line_id": "northern",
       "line_name": "Northern",
-      "reason": "Northern Line: No service between Battersea Power Station and Camden Town via Charing Cross northbound only and between Kennington and Camden Town via Bank northbound only while we fix a points failure at Camden Town. Tickets being accepted on London Buses. SEVERE DELAYS on the rest of the line.",
-      "severity": "Part Suspended",
+      "reason": "Northern Line: Severe delays due to an earlier points failure at Camden Town. Ticket being accepted on London Buses, Southeastern, South Western and Thameslink railway services.",
+      "severity": "Severe Delays",
       "source_created": "0001-01-01T00:00:00"
     },
     "victoria:text:c1e8c936af04af12": {
@@ -29,9 +29,43 @@
       "reason": "Victoria Line: Severe delays while we fix a signal failure at Highbury & Islington. Tickets are being accepted on the Weaver Line, Suffragette line and Southeastern.",
       "severity": "Severe Delays",
       "source_created": "0001-01-01T00:00:00"
+    },
+    "windrush:text:4fc5851cfffbf87d": {
+      "category": "points failure",
+      "first_seen": "2026-09-02T17:07:16Z",
+      "issue_key": "windrush:text:4fc5851cfffbf87d",
+      "line_id": "windrush",
+      "line_name": "Windrush",
+      "reason": "Windrush Line: No service between Clapham Junction and Surrey Quays due to a points failure at Peckham Rye. SEVERE DELAYS on the rest of the line due to a trespasser at Sydenham. London Underground accepting tickets via any reasonable routes.",
+      "severity": "Part Suspended",
+      "source_created": "0001-01-01T00:00:00"
     }
   },
   "history": [
+    {
+      "category": "other",
+      "duration_seconds": 7106,
+      "first_seen": "2026-09-02T15:08:50Z",
+      "issue_key": "district:text:04f257735a5c3934",
+      "line_id": "district",
+      "line_name": "District",
+      "reason": "District Line: Minor delays between Turnham Green and Ealing Broadway while we deal with a signalling problem at Chiswick Park. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-09-02T17:07:16Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "points failure",
+      "duration_seconds": 7106,
+      "first_seen": "2026-09-02T15:08:50Z",
+      "issue_key": "northern:text:b24fcb5fe30225ad",
+      "line_id": "northern",
+      "line_name": "Northern",
+      "reason": "Northern Line: No service between Battersea Power Station and Camden Town via Charing Cross northbound only and between Kennington and Camden Town via Bank northbound only while we fix a points failure at Camden Town. Tickets being accepted on London Buses. SEVERE DELAYS on the rest of the line.",
+      "resolved_at": "2026-09-02T17:07:16Z",
+      "severity": "Part Suspended",
+      "source_created": "0001-01-01T00:00:00"
+    },
     {
       "category": "other",
       "duration_seconds": 3627,
@@ -2433,6 +2467,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-09-02T15:08:50Z",
+  "updated_at": "2026-09-02T17:07:16Z",
   "version": 1
 }
