@@ -1,12 +1,22 @@
 {
   "active": {
-    "central:text:23c62521d4237097": {
-      "category": "other",
-      "first_seen": "2026-09-02T08:51:27Z",
-      "issue_key": "central:text:23c62521d4237097",
+    "central:text:9dafd472b0a751c5": {
+      "category": "track fault",
+      "first_seen": "2026-09-02T09:51:03Z",
+      "issue_key": "central:text:9dafd472b0a751c5",
       "line_id": "central",
       "line_name": "Central",
-      "reason": "Central Line: Minor delays between North Acton and Ealing Broadway / West Ruislip, and between Leytonstone and Epping / Hainault (via Newbury Park) due to train cancellations. GOOD SERVICE on the rest of the line.",
+      "reason": "Central Line: Minor delays between Epping and Debden while we fix a track fault at Theydon Bois. GOOD SERVICE on the rest of the line.",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "district:text:d3da8f22c05ee85b": {
+      "category": "signal failure",
+      "first_seen": "2026-09-02T09:51:03Z",
+      "issue_key": "district:text:d3da8f22c05ee85b",
+      "line_id": "district",
+      "line_name": "District",
+      "reason": "District Line: Minor delays between Earl's Court and Wimbledon while we fix a signal failure at Wimbledon Park. GOOD SERVICE on the rest of the line.",
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
@@ -22,6 +32,18 @@
     }
   },
   "history": [
+    {
+      "category": "other",
+      "duration_seconds": 3576,
+      "first_seen": "2026-09-02T08:51:27Z",
+      "issue_key": "central:text:23c62521d4237097",
+      "line_id": "central",
+      "line_name": "Central",
+      "reason": "Central Line: Minor delays between North Acton and Ealing Broadway / West Ruislip, and between Leytonstone and Epping / Hainault (via Newbury Park) due to train cancellations. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-09-02T09:51:03Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
     {
       "category": "other",
       "duration_seconds": 12104,
@@ -2351,6 +2373,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-09-02T08:51:27Z",
+  "updated_at": "2026-09-02T09:51:03Z",
   "version": 1
 }
