@@ -10,6 +10,46 @@
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
+    "circle:text:005b08b6512e6425": {
+      "category": "signal failure",
+      "first_seen": "2026-09-02T00:03:18Z",
+      "issue_key": "circle:text:005b08b6512e6425",
+      "line_id": "circle",
+      "line_name": "Circle",
+      "reason": "Circle Line: Minor delays between Baker Street and Hammersmith while we fix a signal failure at Baker Street. GOOD SERVICE on the rest of the line.",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "hammersmith-city:text:bad2335c2cd8f684": {
+      "category": "signal failure",
+      "first_seen": "2026-09-02T00:03:18Z",
+      "issue_key": "hammersmith-city:text:bad2335c2cd8f684",
+      "line_id": "hammersmith-city",
+      "line_name": "Hammersmith & City",
+      "reason": "Hammersmith and City Line: Minor delays between Baker Street and Hammersmith while we fix a signal failure at Baker Street. GOOD SERVICE on the rest of the line.",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "metropolitan:text:1a39077e9d0e6c77": {
+      "category": "signal failure",
+      "first_seen": "2026-09-02T00:03:18Z",
+      "issue_key": "metropolitan:text:1a39077e9d0e6c77",
+      "line_id": "metropolitan",
+      "line_name": "Metropolitan",
+      "reason": "Metropolitan Line: No service between Baker Street and Harrow-on-the-Hill while we fix a signal failure at Baker Street. GOOD SERVICE on the rest of the line.",
+      "severity": "Part Suspended",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "waterloo-city:text:0faebd0ea99ebd1b": {
+      "category": "other",
+      "first_seen": "2026-09-02T00:03:18Z",
+      "issue_key": "waterloo-city:text:0faebd0ea99ebd1b",
+      "line_id": "waterloo-city",
+      "line_name": "Waterloo & City",
+      "reason": "Waterloo and City Line: Service will resume at 06:00.",
+      "severity": "Service Closed",
+      "source_created": "0001-01-01T00:00:00"
+    },
     "weaver:text:db0cac71fc451831": {
       "category": "other",
       "first_seen": "2026-09-01T21:58:27Z",
@@ -1991,6 +2031,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-09-01T22:50:04Z",
+  "updated_at": "2026-09-02T00:03:18Z",
   "version": 1
 }
