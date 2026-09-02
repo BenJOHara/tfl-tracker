@@ -1,5 +1,26 @@
 {
-  "active": {},
+  "active": {
+    "circle:text:6d2644a455095973": {
+      "category": "other",
+      "first_seen": "2026-09-02T14:08:23Z",
+      "issue_key": "circle:text:6d2644a455095973",
+      "line_id": "circle",
+      "line_name": "Circle",
+      "reason": "Circle Line: Minor delays due to an earlier power fault at Earl's Court.",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "victoria:text:c1e8c936af04af12": {
+      "category": "signal failure",
+      "first_seen": "2026-09-02T14:08:23Z",
+      "issue_key": "victoria:text:c1e8c936af04af12",
+      "line_id": "victoria",
+      "line_name": "Victoria",
+      "reason": "Victoria Line: Severe delays while we fix a signal failure at Highbury & Islington. Tickets are being accepted on the Weaver Line, Suffragette line and Southeastern.",
+      "severity": "Severe Delays",
+      "source_created": "0001-01-01T00:00:00"
+    }
+  },
   "history": [
     {
       "category": "track fault",
@@ -2390,6 +2411,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-09-02T12:59:47Z",
+  "updated_at": "2026-09-02T14:08:23Z",
   "version": 1
 }
