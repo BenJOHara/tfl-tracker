@@ -1,15 +1,5 @@
 {
   "active": {
-    "district:text:48e6e92d06e9364e": {
-      "category": "other",
-      "first_seen": "2026-09-02T05:29:43Z",
-      "issue_key": "district:text:48e6e92d06e9364e",
-      "line_id": "district",
-      "line_name": "District",
-      "reason": "District Line: Minor delays between Whitechapel and Upminster eastbound only due to train cancellations. GOOD SERVICE on the rest of the line.",
-      "severity": "Minor Delays",
-      "source_created": "0001-01-01T00:00:00"
-    },
     "hammersmith-city:text:004129bf5e441754": {
       "category": "other",
       "first_seen": "2026-09-02T05:29:43Z",
@@ -27,16 +17,6 @@
       "line_id": "metropolitan",
       "line_name": "Metropolitan",
       "reason": "Metropolitan Line: Minor delays between Moor Park and Chesham due to train cancellations, the next southbound train will be at 07:03. GOOD SERVICE on the rest of the line.",
-      "severity": "Minor Delays",
-      "source_created": "0001-01-01T00:00:00"
-    },
-    "piccadilly:text:ad2fcb92549caea8": {
-      "category": "other",
-      "first_seen": "2026-09-02T04:21:30Z",
-      "issue_key": "piccadilly:text:ad2fcb92549caea8",
-      "line_id": "piccadilly",
-      "line_name": "Piccadilly",
-      "reason": "Piccadilly Line: Minor delays between Acton Town and Heathrow due to train cancellations. GOOD SERVICE on the rest of the line.",
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
@@ -62,6 +42,30 @@
     }
   },
   "history": [
+    {
+      "category": "other",
+      "duration_seconds": 1844,
+      "first_seen": "2026-09-02T05:29:43Z",
+      "issue_key": "district:text:48e6e92d06e9364e",
+      "line_id": "district",
+      "line_name": "District",
+      "reason": "District Line: Minor delays between Whitechapel and Upminster eastbound only due to train cancellations. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-09-02T06:00:27Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "other",
+      "duration_seconds": 5937,
+      "first_seen": "2026-09-02T04:21:30Z",
+      "issue_key": "piccadilly:text:ad2fcb92549caea8",
+      "line_id": "piccadilly",
+      "line_name": "Piccadilly",
+      "reason": "Piccadilly Line: Minor delays between Acton Town and Heathrow due to train cancellations. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-09-02T06:00:27Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
     {
       "category": "other",
       "duration_seconds": 19585,
@@ -2331,6 +2335,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-09-02T05:29:43Z",
+  "updated_at": "2026-09-02T06:00:27Z",
   "version": 1
 }
