@@ -1,13 +1,23 @@
 {
   "active": {
-    "jubilee:text:5637a8663552a8e6": {
+    "jubilee:text:98b6af2fed64753e": {
       "category": "other",
-      "first_seen": "2026-09-02T22:50:53Z",
-      "issue_key": "jubilee:text:5637a8663552a8e6",
+      "first_seen": "2026-09-02T23:32:04Z",
+      "issue_key": "jubilee:text:98b6af2fed64753e",
       "line_id": "jubilee",
       "line_name": "Jubilee",
-      "reason": "Jubilee Line: No service between Stanmore and Wembley Park due to faulty platform edge doors at Southwark. SEVERE DELAYS on the rest of the line.Tickets are being accepted on London Buses, Mildmay line, DLR, C2C, Southeastern, Thameslink and Elizabeth line.",
-      "severity": "Part Suspended",
+      "reason": "Jubilee Line: Severe delays due to faulty platform edge doors at Southwark. Tickets are being accepted on London Buses, Mildmay line, DLR, C2C, Southeastern, Thameslink and Elizabeth line.",
+      "severity": "Severe Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "metropolitan:text:eb2a486117a10594": {
+      "category": "passenger incident",
+      "first_seen": "2026-09-02T23:32:04Z",
+      "issue_key": "metropolitan:text:eb2a486117a10594",
+      "line_id": "metropolitan",
+      "line_name": "Metropolitan",
+      "reason": "Metropolitan Line: Minor delays between Harrow-on-the-Hill and Uxbridge while we deal with a customer incident at Rayners lane. GOOD SERVICE on the rest of the line.",
+      "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
     "northern:text:3ce34d5602c66b1f": {
@@ -39,19 +49,33 @@
       "reason": "WEAVER LINE: Monday 31 August, Tuesday 1, Wednesday 2 and Thursday 3 September, after 2245 each evening, no service between Hackney Downs and Enfield Town / Cheshunt. Last through trains operate at 2243 from Liverpool Street to Cheshunt, 2250 from Enfield Town to Liverpool Street, 2258 from Liverpool Street to Enfield Town and 2259 from Cheshunt to Liverpool Street. Use Clapton for Rectory Road and Stoke Newington, and local London Buses services for Stamford Hill. Replacement buses operate. The limited number of southbound GREATER ANGLIA and STANSTED EXPRESS trains after midnight which usually call at Seven Sisters are diverted via Tottenham Hale instead",
       "severity": "Part Closure",
       "source_created": "0001-01-01T00:00:00"
+    }
+  },
+  "history": [
+    {
+      "category": "other",
+      "duration_seconds": 2471,
+      "first_seen": "2026-09-02T22:50:53Z",
+      "issue_key": "jubilee:text:5637a8663552a8e6",
+      "line_id": "jubilee",
+      "line_name": "Jubilee",
+      "reason": "Jubilee Line: No service between Stanmore and Wembley Park due to faulty platform edge doors at Southwark. SEVERE DELAYS on the rest of the line.Tickets are being accepted on London Buses, Mildmay line, DLR, C2C, Southeastern, Thameslink and Elizabeth line.",
+      "resolved_at": "2026-09-02T23:32:04Z",
+      "severity": "Part Suspended",
+      "source_created": "0001-01-01T00:00:00"
     },
-    "windrush:text:84780b7823be6394": {
+    {
       "category": "points failure",
+      "duration_seconds": 7772,
       "first_seen": "2026-09-02T21:22:32Z",
       "issue_key": "windrush:text:84780b7823be6394",
       "line_id": "windrush",
       "line_name": "Windrush",
       "reason": "Windrush Line: No service between Clapham Junction and Surrey Quays due to a points failure at Peckham Rye. GOOD SERVICE on the rest of the line. London Underground accepting tickets via any reasonable routes.",
+      "resolved_at": "2026-09-02T23:32:04Z",
       "severity": "Part Suspended",
       "source_created": "0001-01-01T00:00:00"
-    }
-  },
-  "history": [
+    },
     {
       "category": "other",
       "duration_seconds": 2972,
@@ -2585,6 +2609,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-09-02T22:50:53Z",
+  "updated_at": "2026-09-02T23:32:04Z",
   "version": 1
 }
