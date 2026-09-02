@@ -1,13 +1,13 @@
 {
   "active": {
-    "jubilee:text:95d42d84192374c1": {
+    "jubilee:text:5637a8663552a8e6": {
       "category": "other",
-      "first_seen": "2026-09-02T22:01:21Z",
-      "issue_key": "jubilee:text:95d42d84192374c1",
+      "first_seen": "2026-09-02T22:50:53Z",
+      "issue_key": "jubilee:text:5637a8663552a8e6",
       "line_id": "jubilee",
       "line_name": "Jubilee",
-      "reason": "Jubilee Line: No service due to faulty platform edge doors at Southwark. Tickets are being accepted on London Buses, Mildmay line, DLR, C2C, Southeastern, Thameslink and Elizabeth line.",
-      "severity": "Suspended",
+      "reason": "Jubilee Line: No service between Stanmore and Wembley Park due to faulty platform edge doors at Southwark. SEVERE DELAYS on the rest of the line.Tickets are being accepted on London Buses, Mildmay line, DLR, C2C, Southeastern, Thameslink and Elizabeth line.",
+      "severity": "Part Suspended",
       "source_created": "0001-01-01T00:00:00"
     },
     "northern:text:3ce34d5602c66b1f": {
@@ -52,6 +52,18 @@
     }
   },
   "history": [
+    {
+      "category": "other",
+      "duration_seconds": 2972,
+      "first_seen": "2026-09-02T22:01:21Z",
+      "issue_key": "jubilee:text:95d42d84192374c1",
+      "line_id": "jubilee",
+      "line_name": "Jubilee",
+      "reason": "Jubilee Line: No service due to faulty platform edge doors at Southwark. Tickets are being accepted on London Buses, Mildmay line, DLR, C2C, Southeastern, Thameslink and Elizabeth line.",
+      "resolved_at": "2026-09-02T22:50:53Z",
+      "severity": "Suspended",
+      "source_created": "0001-01-01T00:00:00"
+    },
     {
       "category": "other",
       "duration_seconds": 2329,
@@ -2573,6 +2585,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-09-02T22:01:21Z",
+  "updated_at": "2026-09-02T22:50:53Z",
   "version": 1
 }
