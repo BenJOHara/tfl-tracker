@@ -1,32 +1,12 @@
 {
   "active": {
-    "central:text:6d0af7c9d44f714a": {
-      "category": "other",
-      "first_seen": "2026-09-03T06:27:21Z",
-      "issue_key": "central:text:6d0af7c9d44f714a",
-      "line_id": "central",
-      "line_name": "Central",
-      "reason": "Central Line: Minor delays due to train cancellations.",
-      "severity": "Minor Delays",
-      "source_created": "0001-01-01T00:00:00"
-    },
-    "district:text:0523ff7d8b50f39d": {
+    "district:text:c7de46cb126461f0": {
       "category": "train fault",
-      "first_seen": "2026-09-03T10:05:51Z",
-      "issue_key": "district:text:0523ff7d8b50f39d",
+      "first_seen": "2026-09-03T11:40:32Z",
+      "issue_key": "district:text:c7de46cb126461f0",
       "line_id": "district",
       "line_name": "District",
-      "reason": "District Line: Minor delays between Upminster and Barking while we fix a faulty train at Hornchurch. GGOD SERVICE on the rest of the line.",
-      "severity": "Minor Delays",
-      "source_created": "0001-01-01T00:00:00"
-    },
-    "elizabeth:text:39de36437115bdb2": {
-      "category": "signal failure",
-      "first_seen": "2026-09-03T09:00:33Z",
-      "issue_key": "elizabeth:text:39de36437115bdb2",
-      "line_id": "elizabeth",
-      "line_name": "Elizabeth line",
-      "reason": "Minor delays due to an earlier signal failure at Maryland.",
+      "reason": "District Line: Minor delays between Earl's Court and Ealing Broadway due to an earlier faulty train at Hornchurch. GOOD SERVICE on the rest of the line.",
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
@@ -40,18 +20,66 @@
       "severity": "Severe Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "northern:text:3ce34d5602c66b1f": {
-      "category": "points failure",
-      "first_seen": "2026-09-03T09:00:33Z",
-      "issue_key": "northern:text:3ce34d5602c66b1f",
-      "line_id": "northern",
-      "line_name": "Northern",
-      "reason": "Northern Line: Minor delays due to an earlier points failure at Camden Town.",
+    "victoria:text:02e0850cdf11ef25": {
+      "category": "other",
+      "first_seen": "2026-09-03T11:40:32Z",
+      "issue_key": "victoria:text:02e0850cdf11ef25",
+      "line_id": "victoria",
+      "line_name": "Victoria",
+      "reason": "Victoria Line: Minor delays due to train cancellations.",
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     }
   },
   "history": [
+    {
+      "category": "other",
+      "duration_seconds": 18791,
+      "first_seen": "2026-09-03T06:27:21Z",
+      "issue_key": "central:text:6d0af7c9d44f714a",
+      "line_id": "central",
+      "line_name": "Central",
+      "reason": "Central Line: Minor delays due to train cancellations.",
+      "resolved_at": "2026-09-03T11:40:32Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "train fault",
+      "duration_seconds": 5681,
+      "first_seen": "2026-09-03T10:05:51Z",
+      "issue_key": "district:text:0523ff7d8b50f39d",
+      "line_id": "district",
+      "line_name": "District",
+      "reason": "District Line: Minor delays between Upminster and Barking while we fix a faulty train at Hornchurch. GGOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-09-03T11:40:32Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "signal failure",
+      "duration_seconds": 9599,
+      "first_seen": "2026-09-03T09:00:33Z",
+      "issue_key": "elizabeth:text:39de36437115bdb2",
+      "line_id": "elizabeth",
+      "line_name": "Elizabeth line",
+      "reason": "Minor delays due to an earlier signal failure at Maryland.",
+      "resolved_at": "2026-09-03T11:40:32Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "points failure",
+      "duration_seconds": 9599,
+      "first_seen": "2026-09-03T09:00:33Z",
+      "issue_key": "northern:text:3ce34d5602c66b1f",
+      "line_id": "northern",
+      "line_name": "Northern",
+      "reason": "Northern Line: Minor delays due to an earlier points failure at Camden Town.",
+      "resolved_at": "2026-09-03T11:40:32Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
     {
       "category": "other",
       "duration_seconds": 3918,
@@ -2981,6 +3009,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-09-03T10:05:51Z",
+  "updated_at": "2026-09-03T11:40:32Z",
   "version": 1
 }
