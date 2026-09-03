@@ -10,13 +10,13 @@
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "elizabeth:text:db3c65dd7f8e9ebd": {
+    "elizabeth:text:7712063257bce2e8": {
       "category": "other",
-      "first_seen": "2026-09-03T14:35:02Z",
-      "issue_key": "elizabeth:text:db3c65dd7f8e9ebd",
+      "first_seen": "2026-09-03T15:14:52Z",
+      "issue_key": "elizabeth:text:7712063257bce2e8",
       "line_id": "elizabeth",
       "line_name": "Elizabeth line",
-      "reason": "Severe delays between Hayes & Harlington and Heathrow Terminal 5 while we fix a signal system failure at Heathrow Terminal 5. Tickets are being accepted on London Underground. GOOD SERVICE on the rest of the line.",
+      "reason": "Severe delays between Hayes & Harlington and Heathrow Terminal 5 while we fix a signal system failure at Heathrow Terminal 5. Tickets are being accepted on London Underground and London Buses. Customers should travel to Heathrow Terminals 2 & 3 and use the Piccadilly Line interchange to Terminal 5. GOOD SERVICE on the rest of the line.",
       "severity": "Severe Delays",
       "source_created": "0001-01-01T00:00:00"
     },
@@ -32,6 +32,18 @@
     }
   },
   "history": [
+    {
+      "category": "other",
+      "duration_seconds": 2390,
+      "first_seen": "2026-09-03T14:35:02Z",
+      "issue_key": "elizabeth:text:db3c65dd7f8e9ebd",
+      "line_id": "elizabeth",
+      "line_name": "Elizabeth line",
+      "reason": "Severe delays between Hayes & Harlington and Heathrow Terminal 5 while we fix a signal system failure at Heathrow Terminal 5. Tickets are being accepted on London Underground. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-09-03T15:14:52Z",
+      "severity": "Severe Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
     {
       "category": "train fault",
       "duration_seconds": 6635,
@@ -3033,6 +3045,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-09-03T14:35:02Z",
+  "updated_at": "2026-09-03T15:14:52Z",
   "version": 1
 }
