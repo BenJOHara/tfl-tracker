@@ -10,14 +10,24 @@
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "elizabeth:text:f1976d101970b8b6": {
+    "elizabeth:text:94acc0b2bc23a0ba": {
       "category": "other",
-      "first_seen": "2026-09-03T17:10:02Z",
-      "issue_key": "elizabeth:text:f1976d101970b8b6",
+      "first_seen": "2026-09-03T23:17:04Z",
+      "issue_key": "elizabeth:text:94acc0b2bc23a0ba",
       "line_id": "elizabeth",
       "line_name": "Elizabeth line",
-      "reason": "Severe delays between Hayes & Harlington and Heathrow Terminal 5 while we fix a signal system failure at Heathrow Terminal 5. Tickets are being accepted on London Underground and London Buses. Customers are advised to use the Piccadilly line or Heathrow Express to travel to Heathrow Terminal 5. GOOD SERVICE on the rest of the line.",
+      "reason": "Severe delays between Hayes & Harlington and Heathrow Terminals while we fix a signal system failure at Heathrow Terminal 5. Tickets are being accepted on London Underground and London Buses. Customers are advised to use the Piccadilly line or Heathrow Express to travel to Heathrow Terminal 4/5. GOOD SERVICE on the rest of the line.",
       "severity": "Severe Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "northern:text:e92738fa4f16fd0c": {
+      "category": "points failure",
+      "first_seen": "2026-09-03T23:17:04Z",
+      "issue_key": "northern:text:e92738fa4f16fd0c",
+      "line_id": "northern",
+      "line_name": "Northern",
+      "reason": "Northern Line: No service between Edgware and Camden Town southbound only, and SEVERE DELAYS between Camden Town and Edgware northbound only. MINOR DELAYS between Kennington and Camden Town via Bank/Charing Cross while we fix a points failure at Hampstead. GOOD SERVICE on the rest of the line. London Buses are accepting valid tickets via any reasonable route.",
+      "severity": "Part Suspended",
       "source_created": "0001-01-01T00:00:00"
     },
     "weaver:text:db0cac71fc451831": {
@@ -32,6 +42,18 @@
     }
   },
   "history": [
+    {
+      "category": "other",
+      "duration_seconds": 22022,
+      "first_seen": "2026-09-03T17:10:02Z",
+      "issue_key": "elizabeth:text:f1976d101970b8b6",
+      "line_id": "elizabeth",
+      "line_name": "Elizabeth line",
+      "reason": "Severe delays between Hayes & Harlington and Heathrow Terminal 5 while we fix a signal system failure at Heathrow Terminal 5. Tickets are being accepted on London Underground and London Buses. Customers are advised to use the Piccadilly line or Heathrow Express to travel to Heathrow Terminal 5. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-09-03T23:17:04Z",
+      "severity": "Severe Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
     {
       "category": "signal failure",
       "duration_seconds": 3676,
@@ -3093,6 +3115,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-09-03T21:55:25Z",
+  "updated_at": "2026-09-03T23:17:04Z",
   "version": 1
 }
