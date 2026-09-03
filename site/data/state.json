@@ -1,15 +1,5 @@
 {
   "active": {
-    "jubilee:text:98b6af2fed64753e": {
-      "category": "other",
-      "first_seen": "2026-09-02T23:32:04Z",
-      "issue_key": "jubilee:text:98b6af2fed64753e",
-      "line_id": "jubilee",
-      "line_name": "Jubilee",
-      "reason": "Jubilee Line: Severe delays due to faulty platform edge doors at Southwark. Tickets are being accepted on London Buses, Mildmay line, DLR, C2C, Southeastern, Thameslink and Elizabeth line.",
-      "severity": "Severe Delays",
-      "source_created": "0001-01-01T00:00:00"
-    },
     "metropolitan:text:eb2a486117a10594": {
       "category": "passenger incident",
       "first_seen": "2026-09-02T23:32:04Z",
@@ -40,6 +30,16 @@
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
+    "waterloo-city:text:0faebd0ea99ebd1b": {
+      "category": "other",
+      "first_seen": "2026-09-03T00:07:16Z",
+      "issue_key": "waterloo-city:text:0faebd0ea99ebd1b",
+      "line_id": "waterloo-city",
+      "line_name": "Waterloo & City",
+      "reason": "Waterloo and City Line: Service will resume at 06:00.",
+      "severity": "Service Closed",
+      "source_created": "0001-01-01T00:00:00"
+    },
     "weaver:text:db0cac71fc451831": {
       "category": "other",
       "first_seen": "2026-09-02T22:01:21Z",
@@ -52,6 +52,18 @@
     }
   },
   "history": [
+    {
+      "category": "other",
+      "duration_seconds": 2112,
+      "first_seen": "2026-09-02T23:32:04Z",
+      "issue_key": "jubilee:text:98b6af2fed64753e",
+      "line_id": "jubilee",
+      "line_name": "Jubilee",
+      "reason": "Jubilee Line: Severe delays due to faulty platform edge doors at Southwark. Tickets are being accepted on London Buses, Mildmay line, DLR, C2C, Southeastern, Thameslink and Elizabeth line.",
+      "resolved_at": "2026-09-03T00:07:16Z",
+      "severity": "Severe Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
     {
       "category": "other",
       "duration_seconds": 2471,
@@ -2609,6 +2621,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-09-02T23:32:04Z",
+  "updated_at": "2026-09-03T00:07:16Z",
   "version": 1
 }
