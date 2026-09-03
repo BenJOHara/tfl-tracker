@@ -1,25 +1,5 @@
 {
   "active": {
-    "district:text:c7de46cb126461f0": {
-      "category": "train fault",
-      "first_seen": "2026-09-03T11:40:32Z",
-      "issue_key": "district:text:c7de46cb126461f0",
-      "line_id": "district",
-      "line_name": "District",
-      "reason": "District Line: Minor delays between Earl's Court and Ealing Broadway due to an earlier faulty train at Hornchurch. GOOD SERVICE on the rest of the line.",
-      "severity": "Minor Delays",
-      "source_created": "0001-01-01T00:00:00"
-    },
-    "jubilee:text:7b7cfde25a0cc8e1": {
-      "category": "planned engineering",
-      "first_seen": "2026-09-03T09:00:33Z",
-      "issue_key": "jubilee:text:7b7cfde25a0cc8e1",
-      "line_id": "jubilee",
-      "line_name": "Jubilee",
-      "reason": "Jubilee Line: Severe delays following a late finish of engineering work. Tickets are being accepted on London Buses, Mildmay line, DLR, Elizabeth line, C2C, Southeastern Railway and Thameslink.",
-      "severity": "Severe Delays",
-      "source_created": "0001-01-01T00:00:00"
-    },
     "victoria:text:02e0850cdf11ef25": {
       "category": "other",
       "first_seen": "2026-09-03T11:40:32Z",
@@ -32,6 +12,30 @@
     }
   },
   "history": [
+    {
+      "category": "train fault",
+      "duration_seconds": 6635,
+      "first_seen": "2026-09-03T11:40:32Z",
+      "issue_key": "district:text:c7de46cb126461f0",
+      "line_id": "district",
+      "line_name": "District",
+      "reason": "District Line: Minor delays between Earl's Court and Ealing Broadway due to an earlier faulty train at Hornchurch. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-09-03T13:31:07Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "planned engineering",
+      "duration_seconds": 16234,
+      "first_seen": "2026-09-03T09:00:33Z",
+      "issue_key": "jubilee:text:7b7cfde25a0cc8e1",
+      "line_id": "jubilee",
+      "line_name": "Jubilee",
+      "reason": "Jubilee Line: Severe delays following a late finish of engineering work. Tickets are being accepted on London Buses, Mildmay line, DLR, Elizabeth line, C2C, Southeastern Railway and Thameslink.",
+      "resolved_at": "2026-09-03T13:31:07Z",
+      "severity": "Severe Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
     {
       "category": "other",
       "duration_seconds": 18791,
@@ -3009,6 +3013,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-09-03T11:40:32Z",
+  "updated_at": "2026-09-03T13:31:07Z",
   "version": 1
 }
