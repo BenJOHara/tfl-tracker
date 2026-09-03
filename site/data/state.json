@@ -10,28 +10,42 @@
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "elizabeth:text:7712063257bce2e8": {
+    "elizabeth:text:f1976d101970b8b6": {
       "category": "other",
+      "first_seen": "2026-09-03T17:10:02Z",
+      "issue_key": "elizabeth:text:f1976d101970b8b6",
+      "line_id": "elizabeth",
+      "line_name": "Elizabeth line",
+      "reason": "Severe delays between Hayes & Harlington and Heathrow Terminal 5 while we fix a signal system failure at Heathrow Terminal 5. Tickets are being accepted on London Underground and London Buses. Customers are advised to use the Piccadilly line or Heathrow Express to travel to Heathrow Terminal 5. GOOD SERVICE on the rest of the line.",
+      "severity": "Severe Delays",
+      "source_created": "0001-01-01T00:00:00"
+    }
+  },
+  "history": [
+    {
+      "category": "other",
+      "duration_seconds": 6910,
       "first_seen": "2026-09-03T15:14:52Z",
       "issue_key": "elizabeth:text:7712063257bce2e8",
       "line_id": "elizabeth",
       "line_name": "Elizabeth line",
       "reason": "Severe delays between Hayes & Harlington and Heathrow Terminal 5 while we fix a signal system failure at Heathrow Terminal 5. Tickets are being accepted on London Underground and London Buses. Customers should travel to Heathrow Terminals 2 & 3 and use the Piccadilly Line interchange to Terminal 5. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-09-03T17:10:02Z",
       "severity": "Severe Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "victoria:text:02e0850cdf11ef25": {
+    {
       "category": "other",
+      "duration_seconds": 19770,
       "first_seen": "2026-09-03T11:40:32Z",
       "issue_key": "victoria:text:02e0850cdf11ef25",
       "line_id": "victoria",
       "line_name": "Victoria",
       "reason": "Victoria Line: Minor delays due to train cancellations.",
+      "resolved_at": "2026-09-03T17:10:02Z",
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
-    }
-  },
-  "history": [
+    },
     {
       "category": "other",
       "duration_seconds": 2390,
@@ -3045,6 +3059,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-09-03T15:14:52Z",
+  "updated_at": "2026-09-03T17:10:02Z",
   "version": 1
 }
