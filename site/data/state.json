@@ -10,13 +10,13 @@
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "circle:text:bf9bb7504db7ea4d": {
-      "category": "other",
-      "first_seen": "2026-09-03T09:00:33Z",
-      "issue_key": "circle:text:bf9bb7504db7ea4d",
-      "line_id": "circle",
-      "line_name": "Circle",
-      "reason": "Circle Line: Minor delays due to train cancellations.",
+    "district:text:0523ff7d8b50f39d": {
+      "category": "train fault",
+      "first_seen": "2026-09-03T10:05:51Z",
+      "issue_key": "district:text:0523ff7d8b50f39d",
+      "line_id": "district",
+      "line_name": "District",
+      "reason": "District Line: Minor delays between Upminster and Barking while we fix a faulty train at Hornchurch. GGOD SERVICE on the rest of the line.",
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
@@ -49,19 +49,33 @@
       "reason": "Northern Line: Minor delays due to an earlier points failure at Camden Town.",
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
-    },
-    "tram:text:47d4f6ac1a07106f": {
+    }
+  },
+  "history": [
+    {
       "category": "other",
+      "duration_seconds": 3918,
+      "first_seen": "2026-09-03T09:00:33Z",
+      "issue_key": "circle:text:bf9bb7504db7ea4d",
+      "line_id": "circle",
+      "line_name": "Circle",
+      "reason": "Circle Line: Minor delays due to train cancellations.",
+      "resolved_at": "2026-09-03T10:05:51Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "other",
+      "duration_seconds": 3918,
       "first_seen": "2026-09-03T09:00:33Z",
       "issue_key": "tram:text:47d4f6ac1a07106f",
       "line_id": "tram",
       "line_name": "Tram",
       "reason": "London Tramlink: Minor delays due to an earlier faulty tram at Reeves Corner.",
+      "resolved_at": "2026-09-03T10:05:51Z",
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
-    }
-  },
-  "history": [
+    },
     {
       "category": "other",
       "duration_seconds": 9192,
@@ -2967,6 +2981,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-09-03T09:00:33Z",
+  "updated_at": "2026-09-03T10:05:51Z",
   "version": 1
 }
