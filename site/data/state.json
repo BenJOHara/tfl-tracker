@@ -1,5 +1,25 @@
 {
   "active": {
+    "central:text:6d0af7c9d44f714a": {
+      "category": "other",
+      "first_seen": "2026-09-03T06:27:21Z",
+      "issue_key": "central:text:6d0af7c9d44f714a",
+      "line_id": "central",
+      "line_name": "Central",
+      "reason": "Central Line: Minor delays due to train cancellations.",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "hammersmith-city:text:004129bf5e441754": {
+      "category": "other",
+      "first_seen": "2026-09-03T06:27:21Z",
+      "issue_key": "hammersmith-city:text:004129bf5e441754",
+      "line_id": "hammersmith-city",
+      "line_name": "Hammersmith & City",
+      "reason": "Hammersmith and City Line: Minor delays due to train cancellations.",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
     "jubilee:text:00e4bb72bac77aca": {
       "category": "planned engineering",
       "first_seen": "2026-09-03T05:34:47Z",
@@ -7,6 +27,16 @@
       "line_id": "jubilee",
       "line_name": "Jubilee",
       "reason": "Jubilee Line: No service between Stratford and North Greenwich and SEVERE DELAYS on the rest of the line due to a late finish of engineering work. Tickets are being accepted on London Buses, Mildmay line, DLR, Elizabeth line, C2C, Southeastern Railway and Thameslink.",
+      "severity": "Part Suspended",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "tram:text:005b9871e0e3ae77": {
+      "category": "other",
+      "first_seen": "2026-09-03T06:27:21Z",
+      "issue_key": "tram:text:005b9871e0e3ae77",
+      "line_id": "tram",
+      "line_name": "Tram",
+      "reason": "London Tramlink: No service between Wandle Park and Reeves Corner while we fix a faulty tram at Reeves Corner. GOOD SERVICE on the rest of the line.",
       "severity": "Part Suspended",
       "source_created": "0001-01-01T00:00:00"
     }
@@ -2881,6 +2911,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-09-03T05:34:47Z",
+  "updated_at": "2026-09-03T06:27:21Z",
   "version": 1
 }
