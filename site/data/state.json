@@ -1,27 +1,41 @@
 {
   "active": {
-    "jubilee:text:8526574521e899a5": {
+    "jubilee:text:00e4bb72bac77aca": {
       "category": "planned engineering",
+      "first_seen": "2026-09-03T05:34:47Z",
+      "issue_key": "jubilee:text:00e4bb72bac77aca",
+      "line_id": "jubilee",
+      "line_name": "Jubilee",
+      "reason": "Jubilee Line: No service between Stratford and North Greenwich and SEVERE DELAYS on the rest of the line due to a late finish of engineering work. Tickets are being accepted on London Buses, Mildmay line, DLR, Elizabeth line, C2C, Southeastern Railway and Thameslink.",
+      "severity": "Part Suspended",
+      "source_created": "0001-01-01T00:00:00"
+    }
+  },
+  "history": [
+    {
+      "category": "planned engineering",
+      "duration_seconds": 4734,
       "first_seen": "2026-09-03T04:15:53Z",
       "issue_key": "jubilee:text:8526574521e899a5",
       "line_id": "jubilee",
       "line_name": "Jubilee",
       "reason": "Jubilee Line: No service between Stratford and Wembley Park westbound / northbound only due to a late finish of engineering work. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-09-03T05:34:47Z",
       "severity": "Part Suspended",
       "source_created": "0001-01-01T00:00:00"
     },
-    "waterloo-city:text:0faebd0ea99ebd1b": {
+    {
       "category": "other",
+      "duration_seconds": 19651,
       "first_seen": "2026-09-03T00:07:16Z",
       "issue_key": "waterloo-city:text:0faebd0ea99ebd1b",
       "line_id": "waterloo-city",
       "line_name": "Waterloo & City",
       "reason": "Waterloo and City Line: Service will resume at 06:00.",
+      "resolved_at": "2026-09-03T05:34:47Z",
       "severity": "Service Closed",
       "source_created": "0001-01-01T00:00:00"
-    }
-  },
-  "history": [
+    },
     {
       "category": "other",
       "duration_seconds": 11834,
@@ -2867,6 +2881,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-09-03T04:15:53Z",
+  "updated_at": "2026-09-03T05:34:47Z",
   "version": 1
 }
