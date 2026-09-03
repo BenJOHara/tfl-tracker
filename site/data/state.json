@@ -10,38 +10,94 @@
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "hammersmith-city:text:004129bf5e441754": {
+    "circle:text:bf9bb7504db7ea4d": {
       "category": "other",
+      "first_seen": "2026-09-03T09:00:33Z",
+      "issue_key": "circle:text:bf9bb7504db7ea4d",
+      "line_id": "circle",
+      "line_name": "Circle",
+      "reason": "Circle Line: Minor delays due to train cancellations.",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "elizabeth:text:39de36437115bdb2": {
+      "category": "signal failure",
+      "first_seen": "2026-09-03T09:00:33Z",
+      "issue_key": "elizabeth:text:39de36437115bdb2",
+      "line_id": "elizabeth",
+      "line_name": "Elizabeth line",
+      "reason": "Minor delays due to an earlier signal failure at Maryland.",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "jubilee:text:7b7cfde25a0cc8e1": {
+      "category": "planned engineering",
+      "first_seen": "2026-09-03T09:00:33Z",
+      "issue_key": "jubilee:text:7b7cfde25a0cc8e1",
+      "line_id": "jubilee",
+      "line_name": "Jubilee",
+      "reason": "Jubilee Line: Severe delays following a late finish of engineering work. Tickets are being accepted on London Buses, Mildmay line, DLR, Elizabeth line, C2C, Southeastern Railway and Thameslink.",
+      "severity": "Severe Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "northern:text:3ce34d5602c66b1f": {
+      "category": "points failure",
+      "first_seen": "2026-09-03T09:00:33Z",
+      "issue_key": "northern:text:3ce34d5602c66b1f",
+      "line_id": "northern",
+      "line_name": "Northern",
+      "reason": "Northern Line: Minor delays due to an earlier points failure at Camden Town.",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "tram:text:47d4f6ac1a07106f": {
+      "category": "other",
+      "first_seen": "2026-09-03T09:00:33Z",
+      "issue_key": "tram:text:47d4f6ac1a07106f",
+      "line_id": "tram",
+      "line_name": "Tram",
+      "reason": "London Tramlink: Minor delays due to an earlier faulty tram at Reeves Corner.",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    }
+  },
+  "history": [
+    {
+      "category": "other",
+      "duration_seconds": 9192,
       "first_seen": "2026-09-03T06:27:21Z",
       "issue_key": "hammersmith-city:text:004129bf5e441754",
       "line_id": "hammersmith-city",
       "line_name": "Hammersmith & City",
       "reason": "Hammersmith and City Line: Minor delays due to train cancellations.",
+      "resolved_at": "2026-09-03T09:00:33Z",
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "jubilee:text:00e4bb72bac77aca": {
+    {
       "category": "planned engineering",
+      "duration_seconds": 12346,
       "first_seen": "2026-09-03T05:34:47Z",
       "issue_key": "jubilee:text:00e4bb72bac77aca",
       "line_id": "jubilee",
       "line_name": "Jubilee",
       "reason": "Jubilee Line: No service between Stratford and North Greenwich and SEVERE DELAYS on the rest of the line due to a late finish of engineering work. Tickets are being accepted on London Buses, Mildmay line, DLR, Elizabeth line, C2C, Southeastern Railway and Thameslink.",
+      "resolved_at": "2026-09-03T09:00:33Z",
       "severity": "Part Suspended",
       "source_created": "0001-01-01T00:00:00"
     },
-    "tram:text:005b9871e0e3ae77": {
+    {
       "category": "other",
+      "duration_seconds": 9192,
       "first_seen": "2026-09-03T06:27:21Z",
       "issue_key": "tram:text:005b9871e0e3ae77",
       "line_id": "tram",
       "line_name": "Tram",
       "reason": "London Tramlink: No service between Wandle Park and Reeves Corner while we fix a faulty tram at Reeves Corner. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-09-03T09:00:33Z",
       "severity": "Part Suspended",
       "source_created": "0001-01-01T00:00:00"
-    }
-  },
-  "history": [
+    },
     {
       "category": "planned engineering",
       "duration_seconds": 4734,
@@ -2911,6 +2967,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-09-03T06:27:21Z",
+  "updated_at": "2026-09-03T09:00:33Z",
   "version": 1
 }
