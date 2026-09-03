@@ -19,6 +19,16 @@
       "reason": "Severe delays between Hayes & Harlington and Heathrow Terminal 5 while we fix a signal system failure at Heathrow Terminal 5. Tickets are being accepted on London Underground and London Buses. Customers are advised to use the Piccadilly line or Heathrow Express to travel to Heathrow Terminal 5. GOOD SERVICE on the rest of the line.",
       "severity": "Severe Delays",
       "source_created": "0001-01-01T00:00:00"
+    },
+    "weaver:text:db0cac71fc451831": {
+      "category": "other",
+      "first_seen": "2026-09-03T21:55:25Z",
+      "issue_key": "weaver:text:db0cac71fc451831",
+      "line_id": "weaver",
+      "line_name": "Weaver",
+      "reason": "WEAVER LINE: Monday 31 August, Tuesday 1, Wednesday 2 and Thursday 3 September, after 2245 each evening, no service between Hackney Downs and Enfield Town / Cheshunt. Last through trains operate at 2243 from Liverpool Street to Cheshunt, 2250 from Enfield Town to Liverpool Street, 2258 from Liverpool Street to Enfield Town and 2259 from Cheshunt to Liverpool Street. Use Clapton for Rectory Road and Stoke Newington, and local London Buses services for Stamford Hill. Replacement buses operate. The limited number of southbound GREATER ANGLIA and STANSTED EXPRESS trains after midnight which usually call at Seven Sisters are diverted via Tottenham Hale instead",
+      "severity": "Part Closure",
+      "source_created": "0001-01-01T00:00:00"
     }
   },
   "history": [
@@ -3083,6 +3093,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-09-03T19:47:27Z",
+  "updated_at": "2026-09-03T21:55:25Z",
   "version": 1
 }
