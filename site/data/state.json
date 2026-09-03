@@ -1,12 +1,12 @@
 {
   "active": {
-    "central:text:9f40e98f3ffeb07c": {
-      "category": "signal failure",
-      "first_seen": "2026-09-03T18:46:11Z",
-      "issue_key": "central:text:9f40e98f3ffeb07c",
+    "central:text:6d0af7c9d44f714a": {
+      "category": "other",
+      "first_seen": "2026-09-03T19:47:27Z",
+      "issue_key": "central:text:6d0af7c9d44f714a",
       "line_id": "central",
       "line_name": "Central",
-      "reason": "Central Line: Severe delays between North Acton and Ealing Broadway and MINOR DELAYS on the rest of the line due to an earlier signal failure at North Acton.",
+      "reason": "Central Line: Minor delays due to train cancellations.",
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
@@ -22,6 +22,18 @@
     }
   },
   "history": [
+    {
+      "category": "signal failure",
+      "duration_seconds": 3676,
+      "first_seen": "2026-09-03T18:46:11Z",
+      "issue_key": "central:text:9f40e98f3ffeb07c",
+      "line_id": "central",
+      "line_name": "Central",
+      "reason": "Central Line: Severe delays between North Acton and Ealing Broadway and MINOR DELAYS on the rest of the line due to an earlier signal failure at North Acton.",
+      "resolved_at": "2026-09-03T19:47:27Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
     {
       "category": "other",
       "duration_seconds": 15069,
@@ -3071,6 +3083,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-09-03T18:46:11Z",
+  "updated_at": "2026-09-03T19:47:27Z",
   "version": 1
 }
