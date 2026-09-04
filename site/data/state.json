@@ -1,13 +1,13 @@
 {
   "active": {
-    "jubilee:text:f8dd0a37117b8f72": {
+    "jubilee:text:8554ea612de120a7": {
       "category": "signal failure",
-      "first_seen": "2026-09-04T21:56:31Z",
-      "issue_key": "jubilee:text:f8dd0a37117b8f72",
+      "first_seen": "2026-09-04T23:00:22Z",
+      "issue_key": "jubilee:text:8554ea612de120a7",
       "line_id": "jubilee",
       "line_name": "Jubilee",
-      "reason": "Jubilee Line: No service between Waterloo and Finchley Road while we fix a signal failure at Bond Street. SEVERE DELAYS on the rest of the line. Tickets are being accepted on London Buses, Elizabeth Line, C2C, DLR, Thameslink and Mildmay Line.",
-      "severity": "Part Suspended",
+      "reason": "Jubilee Line: Severe delays due to a earlier signal failure at Bond Street. Tickets are being accepted on London Buses, Elizabeth Line, C2C, DLR, Thameslink and Mildmay Line.",
+      "severity": "Severe Delays",
       "source_created": "0001-01-01T00:00:00"
     },
     "mildmay:text:f9116633bedbc542": {
@@ -32,6 +32,18 @@
     }
   },
   "history": [
+    {
+      "category": "signal failure",
+      "duration_seconds": 3831,
+      "first_seen": "2026-09-04T21:56:31Z",
+      "issue_key": "jubilee:text:f8dd0a37117b8f72",
+      "line_id": "jubilee",
+      "line_name": "Jubilee",
+      "reason": "Jubilee Line: No service between Waterloo and Finchley Road while we fix a signal failure at Bond Street. SEVERE DELAYS on the rest of the line. Tickets are being accepted on London Buses, Elizabeth Line, C2C, DLR, Thameslink and Mildmay Line.",
+      "resolved_at": "2026-09-04T23:00:22Z",
+      "severity": "Part Suspended",
+      "source_created": "0001-01-01T00:00:00"
+    },
     {
       "category": "other",
       "duration_seconds": 7567,
@@ -3585,6 +3597,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-09-04T22:28:28Z",
+  "updated_at": "2026-09-04T23:00:22Z",
   "version": 1
 }
