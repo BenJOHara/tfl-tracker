@@ -1,37 +1,63 @@
 {
   "active": {
-    "bakerloo:text:441236c7b38e407e": {
+    "central:text:abd5fea172f8bce7": {
+      "category": "train fault",
+      "first_seen": "2026-09-04T14:34:20Z",
+      "issue_key": "central:text:abd5fea172f8bce7",
+      "line_id": "central",
+      "line_name": "Central",
+      "reason": "Central Line: Severe delays between Hainault and Woodford via Grange Hill due to an earlier defective train at Grange Hill. GOOD SERVICE on the rest of the line.",
+      "severity": "Severe Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "hammersmith-city:text:004129bf5e441754": {
       "category": "other",
+      "first_seen": "2026-09-04T14:34:20Z",
+      "issue_key": "hammersmith-city:text:004129bf5e441754",
+      "line_id": "hammersmith-city",
+      "line_name": "Hammersmith & City",
+      "reason": "Hammersmith and City Line: Minor delays due to train cancellations.",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    }
+  },
+  "history": [
+    {
+      "category": "other",
+      "duration_seconds": 13694,
       "first_seen": "2026-09-04T10:46:06Z",
       "issue_key": "bakerloo:text:441236c7b38e407e",
       "line_id": "bakerloo",
       "line_name": "Bakerloo",
       "reason": "Bakerloo Line: Minor delays due to train cancellations.",
+      "resolved_at": "2026-09-04T14:34:20Z",
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "central:text:9a051364047fc6ea": {
+    {
       "category": "train fault",
+      "duration_seconds": 12258,
       "first_seen": "2026-09-04T11:10:02Z",
       "issue_key": "central:text:9a051364047fc6ea",
       "line_id": "central",
       "line_name": "Central",
       "reason": "Central Line: Minor delays between White City and West Ruislip / Liverpool Street eastbound only due to an earlier faulty train at Shepherd's Bush. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-09-04T14:34:20Z",
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "elizabeth:text:eff2a9486958303b": {
+    {
       "category": "other",
+      "duration_seconds": 12258,
       "first_seen": "2026-09-04T11:10:02Z",
       "issue_key": "elizabeth:text:eff2a9486958303b",
       "line_id": "elizabeth",
       "line_name": "Elizabeth line",
       "reason": "Severe delays between Paddington and Heathrow Terminals / Reading while we remove an obstruction from the overhead power lines at West Ealing. London Underground are accepting tickets via any reasonable route. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-09-04T14:34:20Z",
       "severity": "Severe Delays",
       "source_created": "0001-01-01T00:00:00"
-    }
-  },
-  "history": [
+    },
     {
       "category": "train fault",
       "duration_seconds": 1436,
@@ -3453,6 +3479,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-09-04T11:10:02Z",
+  "updated_at": "2026-09-04T14:34:20Z",
   "version": 1
 }
