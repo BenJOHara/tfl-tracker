@@ -9,6 +9,26 @@
       "reason": "Hammersmith and City Line: Minor delays due to train cancellations.",
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
+    },
+    "piccadilly:text:0236fa4abdc68ad6": {
+      "category": "other",
+      "first_seen": "2026-09-04T17:49:26Z",
+      "issue_key": "piccadilly:text:0236fa4abdc68ad6",
+      "line_id": "piccadilly",
+      "line_name": "Piccadilly",
+      "reason": "Piccadilly Line: Minor delays between Acton Town and Heathrow Airport/Uxbridge due to train cancellations. GOOD SERVICE on the rest of the line.",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "victoria:text:02e0850cdf11ef25": {
+      "category": "other",
+      "first_seen": "2026-09-04T17:49:26Z",
+      "issue_key": "victoria:text:02e0850cdf11ef25",
+      "line_id": "victoria",
+      "line_name": "Victoria",
+      "reason": "Victoria Line: Minor delays due to train cancellations.",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
     }
   },
   "history": [
@@ -3481,6 +3501,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-09-04T15:00:23Z",
+  "updated_at": "2026-09-04T17:49:26Z",
   "version": 1
 }
