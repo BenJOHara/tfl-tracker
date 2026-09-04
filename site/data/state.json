@@ -10,14 +10,14 @@
       "severity": "Severe Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "mildmay:text:f9116633bedbc542": {
-      "category": "person on track",
-      "first_seen": "2026-09-04T21:56:31Z",
-      "issue_key": "mildmay:text:f9116633bedbc542",
-      "line_id": "mildmay",
-      "line_name": "Mildmay",
-      "reason": "Mildmay Line: Severe delays due to an earlier trespasser on the track at Gospel Oak. London Underground are accepting valid tickets via any reasonable route.",
-      "severity": "Severe Delays",
+    "piccadilly:text:b21650bab32077c8": {
+      "category": "signal failure",
+      "first_seen": "2026-09-04T23:35:21Z",
+      "issue_key": "piccadilly:text:b21650bab32077c8",
+      "line_id": "piccadilly",
+      "line_name": "Piccadilly",
+      "reason": "Piccadilly Line: Minor delays between King's Cross and Cockfosters while we fix a signal failure at Holborn. GOOD SERVICE on the rest of the line.",
+      "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
     "victoria:text:02e0850cdf11ef25": {
@@ -29,9 +29,31 @@
       "reason": "Victoria Line: Minor delays due to train cancellations.",
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
+    },
+    "waterloo-city:text:1bbcac27f282d0db": {
+      "category": "other",
+      "first_seen": "2026-09-04T23:35:21Z",
+      "issue_key": "waterloo-city:text:1bbcac27f282d0db",
+      "line_id": "waterloo-city",
+      "line_name": "Waterloo & City",
+      "reason": "Waterloo and City Line: Service will resume at 06:00 on Monday.",
+      "severity": "Service Closed",
+      "source_created": "0001-01-01T00:00:00"
     }
   },
   "history": [
+    {
+      "category": "person on track",
+      "duration_seconds": 5930,
+      "first_seen": "2026-09-04T21:56:31Z",
+      "issue_key": "mildmay:text:f9116633bedbc542",
+      "line_id": "mildmay",
+      "line_name": "Mildmay",
+      "reason": "Mildmay Line: Severe delays due to an earlier trespasser on the track at Gospel Oak. London Underground are accepting valid tickets via any reasonable route.",
+      "resolved_at": "2026-09-04T23:35:21Z",
+      "severity": "Severe Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
     {
       "category": "signal failure",
       "duration_seconds": 3831,
@@ -3597,6 +3619,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-09-04T23:00:22Z",
+  "updated_at": "2026-09-04T23:35:21Z",
   "version": 1
 }
