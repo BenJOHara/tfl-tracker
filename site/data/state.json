@@ -10,23 +10,33 @@
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "jubilee:text:be80050b96425d86": {
+    "jubilee:text:f8dd0a37117b8f72": {
       "category": "signal failure",
-      "first_seen": "2026-09-04T20:52:18Z",
-      "issue_key": "jubilee:text:be80050b96425d86",
+      "first_seen": "2026-09-04T21:56:31Z",
+      "issue_key": "jubilee:text:f8dd0a37117b8f72",
       "line_id": "jubilee",
       "line_name": "Jubilee",
-      "reason": "Jubilee Line: Minor delays between Green Park and Stanmore while we fix a signal failure at Bond Street. GOOD SERVICE on the rest of the line.",
-      "severity": "Minor Delays",
+      "reason": "Jubilee Line: No service between Waterloo and Finchley Road while we fix a signal failure at Bond Street. SEVERE DELAYS on the rest of the line. Tickets are being accepted on London Buses, Elizabeth Line, C2C, DLR, Thameslink and Mildmay Line.",
+      "severity": "Part Suspended",
       "source_created": "0001-01-01T00:00:00"
     },
-    "piccadilly:text:3355a30b4dc061a3": {
+    "mildmay:text:f9116633bedbc542": {
+      "category": "person on track",
+      "first_seen": "2026-09-04T21:56:31Z",
+      "issue_key": "mildmay:text:f9116633bedbc542",
+      "line_id": "mildmay",
+      "line_name": "Mildmay",
+      "reason": "Mildmay Line: Severe delays due to an earlier trespasser on the track at Gospel Oak. London Underground are accepting valid tickets via any reasonable route.",
+      "severity": "Severe Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "piccadilly:text:3d776aaad49347db": {
       "category": "other",
-      "first_seen": "2026-09-04T19:55:59Z",
-      "issue_key": "piccadilly:text:3355a30b4dc061a3",
+      "first_seen": "2026-09-04T21:56:31Z",
+      "issue_key": "piccadilly:text:3d776aaad49347db",
       "line_id": "piccadilly",
       "line_name": "Piccadilly",
-      "reason": "Piccadilly Line: Minor delays between Acton Town and Heathrow Terminals due to train cancellations. GOOD SERVICE on the rest of the line.",
+      "reason": "Piccadilly Line: Minor delays between Acton Town and Uxbridge / Heathrow Terminals due to train cancellations. GOOD SERVICE on the rest of the line.",
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
@@ -39,9 +49,43 @@
       "reason": "Victoria Line: Minor delays due to train cancellations.",
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
+    },
+    "windrush:text:ef369c41e9dc9708": {
+      "category": "fire alert",
+      "first_seen": "2026-09-04T21:56:31Z",
+      "issue_key": "windrush:text:ef369c41e9dc9708",
+      "line_id": "windrush",
+      "line_name": "Windrush",
+      "reason": "Windrush Line: Severe delays between Surrey Quays and Clapham Junction while we respond to a fire alert at Wandsworth Road. GOOD SERVICE on the rest of the line.",
+      "severity": "Severe Delays",
+      "source_created": "0001-01-01T00:00:00"
     }
   },
   "history": [
+    {
+      "category": "signal failure",
+      "duration_seconds": 3853,
+      "first_seen": "2026-09-04T20:52:18Z",
+      "issue_key": "jubilee:text:be80050b96425d86",
+      "line_id": "jubilee",
+      "line_name": "Jubilee",
+      "reason": "Jubilee Line: Minor delays between Green Park and Stanmore while we fix a signal failure at Bond Street. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-09-04T21:56:31Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "other",
+      "duration_seconds": 7232,
+      "first_seen": "2026-09-04T19:55:59Z",
+      "issue_key": "piccadilly:text:3355a30b4dc061a3",
+      "line_id": "piccadilly",
+      "line_name": "Piccadilly",
+      "reason": "Piccadilly Line: Minor delays between Acton Town and Heathrow Terminals due to train cancellations. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-09-04T21:56:31Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
     {
       "category": "other",
       "duration_seconds": 19299,
@@ -3535,6 +3579,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-09-04T20:52:18Z",
+  "updated_at": "2026-09-04T21:56:31Z",
   "version": 1
 }
