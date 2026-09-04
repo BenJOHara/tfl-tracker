@@ -1,37 +1,73 @@
 {
   "active": {
-    "circle:text:bf9bb7504db7ea4d": {
+    "bakerloo:text:441236c7b38e407e": {
       "category": "other",
+      "first_seen": "2026-09-04T10:46:06Z",
+      "issue_key": "bakerloo:text:441236c7b38e407e",
+      "line_id": "bakerloo",
+      "line_name": "Bakerloo",
+      "reason": "Bakerloo Line: Minor delays due to train cancellations.",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "central:text:d2d1b7d6a1ccdbe2": {
+      "category": "train fault",
+      "first_seen": "2026-09-04T10:46:06Z",
+      "issue_key": "central:text:d2d1b7d6a1ccdbe2",
+      "line_id": "central",
+      "line_name": "Central",
+      "reason": "Central Line: Minor delays between Liverpool Street and Epping / Hainault via Newbury Park due to an earlier faulty train at Shepherd's Bush. GOOD SERVICE on the rest of the line.",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "elizabeth:text:4dd09a20d6c44cc0": {
+      "category": "other",
+      "first_seen": "2026-09-04T10:46:06Z",
+      "issue_key": "elizabeth:text:4dd09a20d6c44cc0",
+      "line_id": "elizabeth",
+      "line_name": "Elizabeth line",
+      "reason": "Severe delays between Paddington and Heathrow Terminals / Reading while we remove an obstruction from the overhead power lines at West Ealing. GOOD SERVICE on the rest of the line.",
+      "severity": "Severe Delays",
+      "source_created": "0001-01-01T00:00:00"
+    }
+  },
+  "history": [
+    {
+      "category": "other",
+      "duration_seconds": 17491,
       "first_seen": "2026-09-04T05:54:35Z",
       "issue_key": "circle:text:bf9bb7504db7ea4d",
       "line_id": "circle",
       "line_name": "Circle",
       "reason": "Circle Line: Minor delays due to train cancellations.",
+      "resolved_at": "2026-09-04T10:46:06Z",
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "hammersmith-city:text:004129bf5e441754": {
+    {
       "category": "other",
+      "duration_seconds": 17081,
       "first_seen": "2026-09-04T06:01:25Z",
       "issue_key": "hammersmith-city:text:004129bf5e441754",
       "line_id": "hammersmith-city",
       "line_name": "Hammersmith & City",
       "reason": "Hammersmith and City Line: Minor delays due to train cancellations.",
+      "resolved_at": "2026-09-04T10:46:06Z",
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "piccadilly:text:7a8ec23fd82425cd": {
+    {
       "category": "other",
+      "duration_seconds": 17491,
       "first_seen": "2026-09-04T05:54:35Z",
       "issue_key": "piccadilly:text:7a8ec23fd82425cd",
       "line_id": "piccadilly",
       "line_name": "Piccadilly",
       "reason": "Piccadilly Line: Minor delays between Acton Town and Uxbridge eastbound only due to train cancellations.",
+      "resolved_at": "2026-09-04T10:46:06Z",
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
-    }
-  },
-  "history": [
+    },
     {
       "category": "other",
       "duration_seconds": 17466,
@@ -3393,6 +3429,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-09-04T06:01:25Z",
+  "updated_at": "2026-09-04T10:46:06Z",
   "version": 1
 }
