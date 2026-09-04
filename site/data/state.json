@@ -1,15 +1,5 @@
 {
   "active": {
-    "central:text:abd5fea172f8bce7": {
-      "category": "train fault",
-      "first_seen": "2026-09-04T14:34:20Z",
-      "issue_key": "central:text:abd5fea172f8bce7",
-      "line_id": "central",
-      "line_name": "Central",
-      "reason": "Central Line: Severe delays between Hainault and Woodford via Grange Hill due to an earlier defective train at Grange Hill. GOOD SERVICE on the rest of the line.",
-      "severity": "Severe Delays",
-      "source_created": "0001-01-01T00:00:00"
-    },
     "hammersmith-city:text:004129bf5e441754": {
       "category": "other",
       "first_seen": "2026-09-04T14:34:20Z",
@@ -22,6 +12,18 @@
     }
   },
   "history": [
+    {
+      "category": "train fault",
+      "duration_seconds": 1563,
+      "first_seen": "2026-09-04T14:34:20Z",
+      "issue_key": "central:text:abd5fea172f8bce7",
+      "line_id": "central",
+      "line_name": "Central",
+      "reason": "Central Line: Severe delays between Hainault and Woodford via Grange Hill due to an earlier defective train at Grange Hill. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-09-04T15:00:23Z",
+      "severity": "Severe Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
     {
       "category": "other",
       "duration_seconds": 13694,
@@ -3479,6 +3481,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-09-04T14:34:20Z",
+  "updated_at": "2026-09-04T15:00:23Z",
   "version": 1
 }
