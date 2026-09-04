@@ -1,22 +1,12 @@
 {
   "active": {
-    "hammersmith-city:text:004129bf5e441754": {
+    "piccadilly:text:3355a30b4dc061a3": {
       "category": "other",
-      "first_seen": "2026-09-04T14:34:20Z",
-      "issue_key": "hammersmith-city:text:004129bf5e441754",
-      "line_id": "hammersmith-city",
-      "line_name": "Hammersmith & City",
-      "reason": "Hammersmith and City Line: Minor delays due to train cancellations.",
-      "severity": "Minor Delays",
-      "source_created": "0001-01-01T00:00:00"
-    },
-    "piccadilly:text:0236fa4abdc68ad6": {
-      "category": "other",
-      "first_seen": "2026-09-04T17:49:26Z",
-      "issue_key": "piccadilly:text:0236fa4abdc68ad6",
+      "first_seen": "2026-09-04T19:55:59Z",
+      "issue_key": "piccadilly:text:3355a30b4dc061a3",
       "line_id": "piccadilly",
       "line_name": "Piccadilly",
-      "reason": "Piccadilly Line: Minor delays between Acton Town and Heathrow Airport/Uxbridge due to train cancellations. GOOD SERVICE on the rest of the line.",
+      "reason": "Piccadilly Line: Minor delays between Acton Town and Heathrow Terminals due to train cancellations. GOOD SERVICE on the rest of the line.",
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
@@ -32,6 +22,30 @@
     }
   },
   "history": [
+    {
+      "category": "other",
+      "duration_seconds": 19299,
+      "first_seen": "2026-09-04T14:34:20Z",
+      "issue_key": "hammersmith-city:text:004129bf5e441754",
+      "line_id": "hammersmith-city",
+      "line_name": "Hammersmith & City",
+      "reason": "Hammersmith and City Line: Minor delays due to train cancellations.",
+      "resolved_at": "2026-09-04T19:55:59Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "other",
+      "duration_seconds": 7593,
+      "first_seen": "2026-09-04T17:49:26Z",
+      "issue_key": "piccadilly:text:0236fa4abdc68ad6",
+      "line_id": "piccadilly",
+      "line_name": "Piccadilly",
+      "reason": "Piccadilly Line: Minor delays between Acton Town and Heathrow Airport/Uxbridge due to train cancellations. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-09-04T19:55:59Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
     {
       "category": "train fault",
       "duration_seconds": 1563,
@@ -3501,6 +3515,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-09-04T17:49:26Z",
+  "updated_at": "2026-09-04T19:55:59Z",
   "version": 1
 }
