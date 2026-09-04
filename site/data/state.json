@@ -1,5 +1,15 @@
 {
   "active": {
+    "central:text:d5a7456d299f3b6b": {
+      "category": "other",
+      "first_seen": "2026-09-04T20:22:21Z",
+      "issue_key": "central:text:d5a7456d299f3b6b",
+      "line_id": "central",
+      "line_name": "Central",
+      "reason": "Central Line: Minor delays between White City and West Ruislip/Ealing Broadway, and MINOR DELAYS between Leytonstone and Epping/Hainault via Newbury Park due to train cancellations. GOOD SERVICE on the rest of the line.",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
     "piccadilly:text:3355a30b4dc061a3": {
       "category": "other",
       "first_seen": "2026-09-04T19:55:59Z",
@@ -3515,6 +3525,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-09-04T19:55:59Z",
+  "updated_at": "2026-09-04T20:22:21Z",
   "version": 1
 }
