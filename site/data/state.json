@@ -10,6 +10,16 @@
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
+    "jubilee:text:be80050b96425d86": {
+      "category": "signal failure",
+      "first_seen": "2026-09-04T20:52:18Z",
+      "issue_key": "jubilee:text:be80050b96425d86",
+      "line_id": "jubilee",
+      "line_name": "Jubilee",
+      "reason": "Jubilee Line: Minor delays between Green Park and Stanmore while we fix a signal failure at Bond Street. GOOD SERVICE on the rest of the line.",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
     "piccadilly:text:3355a30b4dc061a3": {
       "category": "other",
       "first_seen": "2026-09-04T19:55:59Z",
@@ -3525,6 +3535,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-09-04T20:22:21Z",
+  "updated_at": "2026-09-04T20:52:18Z",
   "version": 1
 }
