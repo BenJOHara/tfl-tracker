@@ -1,15 +1,5 @@
 {
   "active": {
-    "central:text:d5a7456d299f3b6b": {
-      "category": "other",
-      "first_seen": "2026-09-04T20:22:21Z",
-      "issue_key": "central:text:d5a7456d299f3b6b",
-      "line_id": "central",
-      "line_name": "Central",
-      "reason": "Central Line: Minor delays between White City and West Ruislip/Ealing Broadway, and MINOR DELAYS between Leytonstone and Epping/Hainault via Newbury Park due to train cancellations. GOOD SERVICE on the rest of the line.",
-      "severity": "Minor Delays",
-      "source_created": "0001-01-01T00:00:00"
-    },
     "jubilee:text:f8dd0a37117b8f72": {
       "category": "signal failure",
       "first_seen": "2026-09-04T21:56:31Z",
@@ -30,16 +20,6 @@
       "severity": "Severe Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "piccadilly:text:3d776aaad49347db": {
-      "category": "other",
-      "first_seen": "2026-09-04T21:56:31Z",
-      "issue_key": "piccadilly:text:3d776aaad49347db",
-      "line_id": "piccadilly",
-      "line_name": "Piccadilly",
-      "reason": "Piccadilly Line: Minor delays between Acton Town and Uxbridge / Heathrow Terminals due to train cancellations. GOOD SERVICE on the rest of the line.",
-      "severity": "Minor Delays",
-      "source_created": "0001-01-01T00:00:00"
-    },
     "victoria:text:02e0850cdf11ef25": {
       "category": "other",
       "first_seen": "2026-09-04T17:49:26Z",
@@ -49,19 +29,45 @@
       "reason": "Victoria Line: Minor delays due to train cancellations.",
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
+    }
+  },
+  "history": [
+    {
+      "category": "other",
+      "duration_seconds": 7567,
+      "first_seen": "2026-09-04T20:22:21Z",
+      "issue_key": "central:text:d5a7456d299f3b6b",
+      "line_id": "central",
+      "line_name": "Central",
+      "reason": "Central Line: Minor delays between White City and West Ruislip/Ealing Broadway, and MINOR DELAYS between Leytonstone and Epping/Hainault via Newbury Park due to train cancellations. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-09-04T22:28:28Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
     },
-    "windrush:text:ef369c41e9dc9708": {
+    {
+      "category": "other",
+      "duration_seconds": 1917,
+      "first_seen": "2026-09-04T21:56:31Z",
+      "issue_key": "piccadilly:text:3d776aaad49347db",
+      "line_id": "piccadilly",
+      "line_name": "Piccadilly",
+      "reason": "Piccadilly Line: Minor delays between Acton Town and Uxbridge / Heathrow Terminals due to train cancellations. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-09-04T22:28:28Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
       "category": "fire alert",
+      "duration_seconds": 1917,
       "first_seen": "2026-09-04T21:56:31Z",
       "issue_key": "windrush:text:ef369c41e9dc9708",
       "line_id": "windrush",
       "line_name": "Windrush",
       "reason": "Windrush Line: Severe delays between Surrey Quays and Clapham Junction while we respond to a fire alert at Wandsworth Road. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-09-04T22:28:28Z",
       "severity": "Severe Delays",
       "source_created": "0001-01-01T00:00:00"
-    }
-  },
-  "history": [
+    },
     {
       "category": "signal failure",
       "duration_seconds": 3853,
@@ -3579,6 +3585,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-09-04T21:56:31Z",
+  "updated_at": "2026-09-04T22:28:28Z",
   "version": 1
 }
