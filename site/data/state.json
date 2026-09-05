@@ -20,6 +20,16 @@
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
+    "circle:text:bf9bb7504db7ea4d": {
+      "category": "other",
+      "first_seen": "2026-09-05T21:31:46Z",
+      "issue_key": "circle:text:bf9bb7504db7ea4d",
+      "line_id": "circle",
+      "line_name": "Circle",
+      "reason": "Circle Line: Minor delays due to train cancellations.",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
     "district:text:48f7b035b7fc51a8": {
       "category": "other",
       "first_seen": "2026-09-05T04:49:38Z",
@@ -38,26 +48,6 @@
       "line_name": "Elizabeth line",
       "reason": "No service between Paddington and Heathrow Terminals / Reading due to a fire alert in the Paddington area. SEVERE DELAYS on the rest of the line. Avoid using the Elizabeth line. For trains to Heathrow Airport use the Piccadilly line. Tickets are being accepted by London Underground, London Buses, Thameslink, DLR, South Western Railway and Southeastern.",
       "severity": "Part Suspended",
-      "source_created": "0001-01-01T00:00:00"
-    },
-    "hammersmith-city:text:d12673b0dd406bc6": {
-      "category": "other",
-      "first_seen": "2026-09-05T20:29:04Z",
-      "issue_key": "hammersmith-city:text:d12673b0dd406bc6",
-      "line_id": "hammersmith-city",
-      "line_name": "Hammersmith & City",
-      "reason": "Hammersmith and City Line: Severe delays between Barking and Edgware Road westbound only due to trains cancellations. GOOD SERVICE on the rest of the line.",
-      "severity": "Severe Delays",
-      "source_created": "0001-01-01T00:00:00"
-    },
-    "metropolitan:text:a3d04cd760ea6a94": {
-      "category": "other",
-      "first_seen": "2026-09-05T20:29:04Z",
-      "issue_key": "metropolitan:text:a3d04cd760ea6a94",
-      "line_id": "metropolitan",
-      "line_name": "Metropolitan",
-      "reason": "Metropolitan Line: Minor delays between Moor Park and Chesham due to train cancellations. After the 21:00 departure from Chesham, the next southbound train will be at 22:00. GOOD SERVICE on the rest of the line.",
-      "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
     "piccadilly:text:1cd68741eba183cd": {
@@ -92,6 +82,30 @@
     }
   },
   "history": [
+    {
+      "category": "other",
+      "duration_seconds": 3762,
+      "first_seen": "2026-09-05T20:29:04Z",
+      "issue_key": "hammersmith-city:text:d12673b0dd406bc6",
+      "line_id": "hammersmith-city",
+      "line_name": "Hammersmith & City",
+      "reason": "Hammersmith and City Line: Severe delays between Barking and Edgware Road westbound only due to trains cancellations. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-09-05T21:31:46Z",
+      "severity": "Severe Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "other",
+      "duration_seconds": 3762,
+      "first_seen": "2026-09-05T20:29:04Z",
+      "issue_key": "metropolitan:text:a3d04cd760ea6a94",
+      "line_id": "metropolitan",
+      "line_name": "Metropolitan",
+      "reason": "Metropolitan Line: Minor delays between Moor Park and Chesham due to train cancellations. After the 21:00 departure from Chesham, the next southbound train will be at 22:00. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-09-05T21:31:46Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
     {
       "category": "other",
       "duration_seconds": 10853,
@@ -4125,6 +4139,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-09-05T20:29:04Z",
+  "updated_at": "2026-09-05T21:31:46Z",
   "version": 1
 }
