@@ -10,14 +10,14 @@
       "severity": "Severe Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "central:text:d1cd6c71a5807076": {
-      "category": "passenger incident",
-      "first_seen": "2026-09-05T15:27:17Z",
-      "issue_key": "central:text:d1cd6c71a5807076",
-      "line_id": "central",
-      "line_name": "Central",
-      "reason": "Central Line: Minor delays due to an earlier customer incident.",
-      "severity": "Minor Delays",
+    "circle:text:caeef4cde48f45fd": {
+      "category": "person on track",
+      "first_seen": "2026-09-05T15:59:27Z",
+      "issue_key": "circle:text:caeef4cde48f45fd",
+      "line_id": "circle",
+      "line_name": "Circle",
+      "reason": "Circle Line: Severe delays Clockwise only due to a trespasser on the track at Hammersmith. GOOD SERVICE Anticlockwise only.",
+      "severity": "Severe Delays",
       "source_created": "0001-01-01T00:00:00"
     },
     "district:text:48f7b035b7fc51a8": {
@@ -30,13 +30,23 @@
       "severity": "Part Closure",
       "source_created": "0001-01-01T00:00:00"
     },
-    "elizabeth:text:ae68179272203b1c": {
+    "district:text:c8046d4906c0d1d1": {
+      "category": "person on track",
+      "first_seen": "2026-09-05T15:59:27Z",
+      "issue_key": "district:text:c8046d4906c0d1d1",
+      "line_id": "district",
+      "line_name": "District",
+      "reason": "District Line: No service between Edgware Road and Wimbledon due to planned engineering works. NO SERVICE between Earl's Court and Ealing Broadway / Richmond while we deal with a trespasser at Hammersmith. GOOD SERVICE on the rest of the line.",
+      "severity": "Part Suspended",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "elizabeth:text:6026ce6161b76567": {
       "category": "fire alert",
-      "first_seen": "2026-09-05T15:27:17Z",
-      "issue_key": "elizabeth:text:ae68179272203b1c",
+      "first_seen": "2026-09-05T15:59:27Z",
+      "issue_key": "elizabeth:text:6026ce6161b76567",
       "line_id": "elizabeth",
       "line_name": "Elizabeth line",
-      "reason": "No service between Paddington and Heathrow Terminals / Reading due to a fire alert in the Paddington area. GOOD service on the rest of the line.",
+      "reason": "No service between Paddington and Heathrow Terminals / Reading and SEVERE DELAYS between Paddington and Abbey Wood due to a fire alert in the Paddington area. Tickets are being accepted by London Underground, London Buses, Thameslink, DLR, South Western Railway and Southeastern. GOOD service on the rest of the line.",
       "severity": "Part Suspended",
       "source_created": "0001-01-01T00:00:00"
     },
@@ -58,6 +68,16 @@
       "line_name": "Metropolitan",
       "reason": "Metropolitan Line: Minor delays between Harrow-on-the-Hill and Uxbridge due to train cancellations. GOOD SERVICE on the rest of the line.",
       "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "piccadilly:text:da8ee71547526215": {
+      "category": "person on track",
+      "first_seen": "2026-09-05T15:59:27Z",
+      "issue_key": "piccadilly:text:da8ee71547526215",
+      "line_id": "piccadilly",
+      "line_name": "Piccadilly",
+      "reason": "Piccadilly Line: No service between Acton Town and Hyde Park Corner while we deal with a trespasser at Hammersmith. SEVERE DELAYS on the rest of the line.",
+      "severity": "Part Suspended",
       "source_created": "0001-01-01T00:00:00"
     },
     "waterloo-city:text:02da0890c7cbf303": {
@@ -82,6 +102,30 @@
     }
   },
   "history": [
+    {
+      "category": "passenger incident",
+      "duration_seconds": 1930,
+      "first_seen": "2026-09-05T15:27:17Z",
+      "issue_key": "central:text:d1cd6c71a5807076",
+      "line_id": "central",
+      "line_name": "Central",
+      "reason": "Central Line: Minor delays due to an earlier customer incident.",
+      "resolved_at": "2026-09-05T15:59:27Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "fire alert",
+      "duration_seconds": 1930,
+      "first_seen": "2026-09-05T15:27:17Z",
+      "issue_key": "elizabeth:text:ae68179272203b1c",
+      "line_id": "elizabeth",
+      "line_name": "Elizabeth line",
+      "reason": "No service between Paddington and Heathrow Terminals / Reading due to a fire alert in the Paddington area. GOOD service on the rest of the line.",
+      "resolved_at": "2026-09-05T15:59:27Z",
+      "severity": "Part Suspended",
+      "source_created": "0001-01-01T00:00:00"
+    },
     {
       "category": "passenger incident",
       "duration_seconds": 8826,
@@ -3959,6 +4003,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-09-05T15:27:17Z",
+  "updated_at": "2026-09-05T15:59:27Z",
   "version": 1
 }
