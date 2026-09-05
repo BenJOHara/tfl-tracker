@@ -10,14 +10,14 @@
       "severity": "Severe Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "central:text:f7bc0c6b720f817d": {
+    "central:text:d1cd6c71a5807076": {
       "category": "passenger incident",
-      "first_seen": "2026-09-05T13:00:11Z",
-      "issue_key": "central:text:f7bc0c6b720f817d",
+      "first_seen": "2026-09-05T15:27:17Z",
+      "issue_key": "central:text:d1cd6c71a5807076",
       "line_id": "central",
       "line_name": "Central",
-      "reason": "Central Line: Severe delays due to an earlier customer incident. London Buses, Liberty Line, Elizabeth Line, Chiltern Railways, Great Western Railway and Greater Anglia are accepting tickets via any reasonable route.",
-      "severity": "Severe Delays",
+      "reason": "Central Line: Minor delays due to an earlier customer incident.",
+      "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
     "district:text:48f7b035b7fc51a8": {
@@ -28,6 +28,16 @@
       "line_name": "District",
       "reason": "District Line: Saturday 5 and Sunday 6 September, no service between Edgware Road and Wimbledon. Rail Replacement bus services will operate. If travelling to/from Fulham vs Crystal Palace on Saturday, it may be easier to walk to/from Hammersmith.",
       "severity": "Part Closure",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "elizabeth:text:ae68179272203b1c": {
+      "category": "fire alert",
+      "first_seen": "2026-09-05T15:27:17Z",
+      "issue_key": "elizabeth:text:ae68179272203b1c",
+      "line_id": "elizabeth",
+      "line_name": "Elizabeth line",
+      "reason": "No service between Paddington and Heathrow Terminals / Reading due to a fire alert in the Paddington area. GOOD service on the rest of the line.",
+      "severity": "Part Suspended",
       "source_created": "0001-01-01T00:00:00"
     },
     "hammersmith-city:text:004129bf5e441754": {
@@ -72,6 +82,18 @@
     }
   },
   "history": [
+    {
+      "category": "passenger incident",
+      "duration_seconds": 8826,
+      "first_seen": "2026-09-05T13:00:11Z",
+      "issue_key": "central:text:f7bc0c6b720f817d",
+      "line_id": "central",
+      "line_name": "Central",
+      "reason": "Central Line: Severe delays due to an earlier customer incident. London Buses, Liberty Line, Elizabeth Line, Chiltern Railways, Great Western Railway and Greater Anglia are accepting tickets via any reasonable route.",
+      "resolved_at": "2026-09-05T15:27:17Z",
+      "severity": "Severe Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
     {
       "category": "other",
       "duration_seconds": 1998,
@@ -3937,6 +3959,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-09-05T13:00:11Z",
+  "updated_at": "2026-09-05T15:27:17Z",
   "version": 1
 }
