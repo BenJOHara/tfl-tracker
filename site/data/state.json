@@ -10,6 +10,16 @@
       "severity": "Part Closure",
       "source_created": "0001-01-01T00:00:00"
     },
+    "metropolitan:text:2df4e90708614385": {
+      "category": "other",
+      "first_seen": "2026-09-05T05:38:04Z",
+      "issue_key": "metropolitan:text:2df4e90708614385",
+      "line_id": "metropolitan",
+      "line_name": "Metropolitan",
+      "reason": "Metropolitan Line: Minor delays between Moor Park and Watford due to train cancellations. GOOD SERVICE on the rest of the line.",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
     "waterloo-city:text:02da0890c7cbf303": {
       "category": "other",
       "first_seen": "2026-09-05T04:49:38Z",
@@ -3849,6 +3859,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-09-05T04:49:38Z",
+  "updated_at": "2026-09-05T05:38:04Z",
   "version": 1
 }
