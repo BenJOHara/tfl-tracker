@@ -10,13 +10,23 @@
       "severity": "Severe Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "circle:text:caeef4cde48f45fd": {
+    "central:text:d0de2dcf99ba0df9": {
+      "category": "train fault",
+      "first_seen": "2026-09-05T17:28:11Z",
+      "issue_key": "central:text:d0de2dcf99ba0df9",
+      "line_id": "central",
+      "line_name": "Central",
+      "reason": "Central Line: Severe delays between Leytonstone and Epping / Hainault via Newbury Park due to an earlier faulty train at Chancery Lane. MINOR DELAYS on the rest of the line.",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "district:text:1e53c554ce4c01bf": {
       "category": "person on track",
-      "first_seen": "2026-09-05T15:59:27Z",
-      "issue_key": "circle:text:caeef4cde48f45fd",
-      "line_id": "circle",
-      "line_name": "Circle",
-      "reason": "Circle Line: Severe delays Clockwise only due to a trespasser on the track at Hammersmith. GOOD SERVICE Anticlockwise only.",
+      "first_seen": "2026-09-05T17:28:11Z",
+      "issue_key": "district:text:1e53c554ce4c01bf",
+      "line_id": "district",
+      "line_name": "District",
+      "reason": "District Line: No service between Edgware Road and Wimbledon due to planned engineering works. SEVERE DELAYS between Barking and Upminster due to an earlier trespasser at Hammersmith. GOOD SERVICE on the rest of the line.",
       "severity": "Severe Delays",
       "source_created": "0001-01-01T00:00:00"
     },
@@ -30,23 +40,13 @@
       "severity": "Part Closure",
       "source_created": "0001-01-01T00:00:00"
     },
-    "district:text:c8046d4906c0d1d1": {
-      "category": "person on track",
-      "first_seen": "2026-09-05T15:59:27Z",
-      "issue_key": "district:text:c8046d4906c0d1d1",
-      "line_id": "district",
-      "line_name": "District",
-      "reason": "District Line: No service between Edgware Road and Wimbledon due to planned engineering works. NO SERVICE between Earl's Court and Ealing Broadway / Richmond while we deal with a trespasser at Hammersmith. GOOD SERVICE on the rest of the line.",
-      "severity": "Part Suspended",
-      "source_created": "0001-01-01T00:00:00"
-    },
-    "elizabeth:text:6026ce6161b76567": {
+    "elizabeth:text:43a3be5a6bf3606f": {
       "category": "fire alert",
-      "first_seen": "2026-09-05T15:59:27Z",
-      "issue_key": "elizabeth:text:6026ce6161b76567",
+      "first_seen": "2026-09-05T17:28:11Z",
+      "issue_key": "elizabeth:text:43a3be5a6bf3606f",
       "line_id": "elizabeth",
       "line_name": "Elizabeth line",
-      "reason": "No service between Paddington and Heathrow Terminals / Reading and SEVERE DELAYS between Paddington and Abbey Wood due to a fire alert in the Paddington area. Tickets are being accepted by London Underground, London Buses, Thameslink, DLR, South Western Railway and Southeastern. GOOD service on the rest of the line.",
+      "reason": "No service between Paddington and Heathrow Terminals / Reading and SEVERE DELAYS between Paddington and Abbey Wood due to a fire alert in the Paddington area. Avoid using the Elizabeth line. For trains to Heathrow Airport, use the Piccadilly line. Tickets are being accepted by London Underground, London Buses, Thameslink, DLR, South Western Railway and Southeastern. GOOD service on the rest of the line.",
       "severity": "Part Suspended",
       "source_created": "0001-01-01T00:00:00"
     },
@@ -70,14 +70,24 @@
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "piccadilly:text:da8ee71547526215": {
+    "piccadilly:text:1cd68741eba183cd": {
       "category": "person on track",
-      "first_seen": "2026-09-05T15:59:27Z",
-      "issue_key": "piccadilly:text:da8ee71547526215",
+      "first_seen": "2026-09-05T17:28:11Z",
+      "issue_key": "piccadilly:text:1cd68741eba183cd",
       "line_id": "piccadilly",
       "line_name": "Piccadilly",
-      "reason": "Piccadilly Line: No service between Acton Town and Hyde Park Corner while we deal with a trespasser at Hammersmith. SEVERE DELAYS on the rest of the line.",
-      "severity": "Part Suspended",
+      "reason": "Piccadilly Line: Severe delays due to an earlier trespasser at Hammersmith. London Underground tickets will be accepted on London buses, Weaver line, Great Northern and South Western Railway.",
+      "severity": "Severe Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "victoria:text:02e0850cdf11ef25": {
+      "category": "other",
+      "first_seen": "2026-09-05T17:28:11Z",
+      "issue_key": "victoria:text:02e0850cdf11ef25",
+      "line_id": "victoria",
+      "line_name": "Victoria",
+      "reason": "Victoria Line: Minor delays due to train cancellations.",
+      "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
     "waterloo-city:text:02da0890c7cbf303": {
@@ -102,6 +112,54 @@
     }
   },
   "history": [
+    {
+      "category": "person on track",
+      "duration_seconds": 5324,
+      "first_seen": "2026-09-05T15:59:27Z",
+      "issue_key": "circle:text:caeef4cde48f45fd",
+      "line_id": "circle",
+      "line_name": "Circle",
+      "reason": "Circle Line: Severe delays Clockwise only due to a trespasser on the track at Hammersmith. GOOD SERVICE Anticlockwise only.",
+      "resolved_at": "2026-09-05T17:28:11Z",
+      "severity": "Severe Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "person on track",
+      "duration_seconds": 5324,
+      "first_seen": "2026-09-05T15:59:27Z",
+      "issue_key": "district:text:c8046d4906c0d1d1",
+      "line_id": "district",
+      "line_name": "District",
+      "reason": "District Line: No service between Edgware Road and Wimbledon due to planned engineering works. NO SERVICE between Earl's Court and Ealing Broadway / Richmond while we deal with a trespasser at Hammersmith. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-09-05T17:28:11Z",
+      "severity": "Part Suspended",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "fire alert",
+      "duration_seconds": 5324,
+      "first_seen": "2026-09-05T15:59:27Z",
+      "issue_key": "elizabeth:text:6026ce6161b76567",
+      "line_id": "elizabeth",
+      "line_name": "Elizabeth line",
+      "reason": "No service between Paddington and Heathrow Terminals / Reading and SEVERE DELAYS between Paddington and Abbey Wood due to a fire alert in the Paddington area. Tickets are being accepted by London Underground, London Buses, Thameslink, DLR, South Western Railway and Southeastern. GOOD service on the rest of the line.",
+      "resolved_at": "2026-09-05T17:28:11Z",
+      "severity": "Part Suspended",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "person on track",
+      "duration_seconds": 5324,
+      "first_seen": "2026-09-05T15:59:27Z",
+      "issue_key": "piccadilly:text:da8ee71547526215",
+      "line_id": "piccadilly",
+      "line_name": "Piccadilly",
+      "reason": "Piccadilly Line: No service between Acton Town and Hyde Park Corner while we deal with a trespasser at Hammersmith. SEVERE DELAYS on the rest of the line.",
+      "resolved_at": "2026-09-05T17:28:11Z",
+      "severity": "Part Suspended",
+      "source_created": "0001-01-01T00:00:00"
+    },
     {
       "category": "passenger incident",
       "duration_seconds": 1930,
@@ -4003,6 +4061,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-09-05T15:59:27Z",
+  "updated_at": "2026-09-05T17:28:11Z",
   "version": 1
 }
