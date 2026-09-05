@@ -40,6 +40,26 @@
       "severity": "Part Suspended",
       "source_created": "0001-01-01T00:00:00"
     },
+    "hammersmith-city:text:d12673b0dd406bc6": {
+      "category": "other",
+      "first_seen": "2026-09-05T20:29:04Z",
+      "issue_key": "hammersmith-city:text:d12673b0dd406bc6",
+      "line_id": "hammersmith-city",
+      "line_name": "Hammersmith & City",
+      "reason": "Hammersmith and City Line: Severe delays between Barking and Edgware Road westbound only due to trains cancellations. GOOD SERVICE on the rest of the line.",
+      "severity": "Severe Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "metropolitan:text:a3d04cd760ea6a94": {
+      "category": "other",
+      "first_seen": "2026-09-05T20:29:04Z",
+      "issue_key": "metropolitan:text:a3d04cd760ea6a94",
+      "line_id": "metropolitan",
+      "line_name": "Metropolitan",
+      "reason": "Metropolitan Line: Minor delays between Moor Park and Chesham due to train cancellations. After the 21:00 departure from Chesham, the next southbound train will be at 22:00. GOOD SERVICE on the rest of the line.",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
     "piccadilly:text:1cd68741eba183cd": {
       "category": "person on track",
       "first_seen": "2026-09-05T17:28:11Z",
@@ -48,16 +68,6 @@
       "line_name": "Piccadilly",
       "reason": "Piccadilly Line: Severe delays due to an earlier trespasser at Hammersmith. London Underground tickets will be accepted on London buses, Weaver line, Great Northern and South Western Railway.",
       "severity": "Severe Delays",
-      "source_created": "0001-01-01T00:00:00"
-    },
-    "victoria:text:02e0850cdf11ef25": {
-      "category": "other",
-      "first_seen": "2026-09-05T17:28:11Z",
-      "issue_key": "victoria:text:02e0850cdf11ef25",
-      "line_id": "victoria",
-      "line_name": "Victoria",
-      "reason": "Victoria Line: Minor delays due to train cancellations.",
-      "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
     "waterloo-city:text:02da0890c7cbf303": {
@@ -82,6 +92,18 @@
     }
   },
   "history": [
+    {
+      "category": "other",
+      "duration_seconds": 10853,
+      "first_seen": "2026-09-05T17:28:11Z",
+      "issue_key": "victoria:text:02e0850cdf11ef25",
+      "line_id": "victoria",
+      "line_name": "Victoria",
+      "reason": "Victoria Line: Minor delays due to train cancellations.",
+      "resolved_at": "2026-09-05T20:29:04Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
     {
       "category": "train fault",
       "duration_seconds": 4024,
@@ -4103,6 +4125,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-09-05T19:18:57Z",
+  "updated_at": "2026-09-05T20:29:04Z",
   "version": 1
 }
