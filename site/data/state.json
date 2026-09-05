@@ -10,23 +10,13 @@
       "severity": "Severe Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "central:text:d0de2dcf99ba0df9": {
+    "central:text:464109e175421f39": {
       "category": "train fault",
-      "first_seen": "2026-09-05T17:28:11Z",
-      "issue_key": "central:text:d0de2dcf99ba0df9",
+      "first_seen": "2026-09-05T18:11:53Z",
+      "issue_key": "central:text:464109e175421f39",
       "line_id": "central",
       "line_name": "Central",
-      "reason": "Central Line: Severe delays between Leytonstone and Epping / Hainault via Newbury Park due to an earlier faulty train at Chancery Lane. MINOR DELAYS on the rest of the line.",
-      "severity": "Minor Delays",
-      "source_created": "0001-01-01T00:00:00"
-    },
-    "district:text:1e53c554ce4c01bf": {
-      "category": "person on track",
-      "first_seen": "2026-09-05T17:28:11Z",
-      "issue_key": "district:text:1e53c554ce4c01bf",
-      "line_id": "district",
-      "line_name": "District",
-      "reason": "District Line: No service between Edgware Road and Wimbledon due to planned engineering works. SEVERE DELAYS between Barking and Upminster due to an earlier trespasser at Hammersmith. GOOD SERVICE on the rest of the line.",
+      "reason": "Central Line: Severe delays between Leytonstone and Epping / Hainault via Newbury Park due to an earlier faulty train at Chancery Lane. MINOR DELAYS on the rest of the line. London Buses are accepting tickets via any reasonable route.",
       "severity": "Severe Delays",
       "source_created": "0001-01-01T00:00:00"
     },
@@ -40,13 +30,13 @@
       "severity": "Part Closure",
       "source_created": "0001-01-01T00:00:00"
     },
-    "elizabeth:text:43a3be5a6bf3606f": {
+    "elizabeth:text:66fc9004ae72be92": {
       "category": "fire alert",
-      "first_seen": "2026-09-05T17:28:11Z",
-      "issue_key": "elizabeth:text:43a3be5a6bf3606f",
+      "first_seen": "2026-09-05T18:11:53Z",
+      "issue_key": "elizabeth:text:66fc9004ae72be92",
       "line_id": "elizabeth",
       "line_name": "Elizabeth line",
-      "reason": "No service between Paddington and Heathrow Terminals / Reading and SEVERE DELAYS between Paddington and Abbey Wood due to a fire alert in the Paddington area. Avoid using the Elizabeth line. For trains to Heathrow Airport, use the Piccadilly line. Tickets are being accepted by London Underground, London Buses, Thameslink, DLR, South Western Railway and Southeastern. GOOD service on the rest of the line.",
+      "reason": "No service between Paddington and Heathrow Terminals / Reading due to a fire alert in the Paddington area. SEVERE DELAYS on the rest of the line. Avoid using the Elizabeth line. For trains to Heathrow Airport use the Piccadilly line. Tickets are being accepted by London Underground, London Buses, Thameslink, DLR, South Western Railway and Southeastern.",
       "severity": "Part Suspended",
       "source_created": "0001-01-01T00:00:00"
     },
@@ -112,6 +102,42 @@
     }
   },
   "history": [
+    {
+      "category": "train fault",
+      "duration_seconds": 2622,
+      "first_seen": "2026-09-05T17:28:11Z",
+      "issue_key": "central:text:d0de2dcf99ba0df9",
+      "line_id": "central",
+      "line_name": "Central",
+      "reason": "Central Line: Severe delays between Leytonstone and Epping / Hainault via Newbury Park due to an earlier faulty train at Chancery Lane. MINOR DELAYS on the rest of the line.",
+      "resolved_at": "2026-09-05T18:11:53Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "person on track",
+      "duration_seconds": 2622,
+      "first_seen": "2026-09-05T17:28:11Z",
+      "issue_key": "district:text:1e53c554ce4c01bf",
+      "line_id": "district",
+      "line_name": "District",
+      "reason": "District Line: No service between Edgware Road and Wimbledon due to planned engineering works. SEVERE DELAYS between Barking and Upminster due to an earlier trespasser at Hammersmith. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-09-05T18:11:53Z",
+      "severity": "Severe Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "fire alert",
+      "duration_seconds": 2622,
+      "first_seen": "2026-09-05T17:28:11Z",
+      "issue_key": "elizabeth:text:43a3be5a6bf3606f",
+      "line_id": "elizabeth",
+      "line_name": "Elizabeth line",
+      "reason": "No service between Paddington and Heathrow Terminals / Reading and SEVERE DELAYS between Paddington and Abbey Wood due to a fire alert in the Paddington area. Avoid using the Elizabeth line. For trains to Heathrow Airport, use the Piccadilly line. Tickets are being accepted by London Underground, London Buses, Thameslink, DLR, South Western Railway and Southeastern. GOOD service on the rest of the line.",
+      "resolved_at": "2026-09-05T18:11:53Z",
+      "severity": "Part Suspended",
+      "source_created": "0001-01-01T00:00:00"
+    },
     {
       "category": "person on track",
       "duration_seconds": 5324,
@@ -4061,6 +4087,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-09-05T17:28:11Z",
+  "updated_at": "2026-09-05T18:11:53Z",
   "version": 1
 }
