@@ -10,14 +10,14 @@
       "severity": "Severe Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "central:text:428d27f206760ca9": {
-      "category": "other",
-      "first_seen": "2026-09-05T12:26:53Z",
-      "issue_key": "central:text:428d27f206760ca9",
+    "central:text:f7bc0c6b720f817d": {
+      "category": "passenger incident",
+      "first_seen": "2026-09-05T13:00:11Z",
+      "issue_key": "central:text:f7bc0c6b720f817d",
       "line_id": "central",
       "line_name": "Central",
-      "reason": "Central Line: No service between Marble Arch and White City while emergency services deal with a casualty on the track. SEVERE DELAYS on the rest of the line. London Buses, Liberty Line, Elizabeth Line, Chiltern Railways, Great Western Railway and Greater Anglia are accepting tickets via any reasonable route.",
-      "severity": "Part Suspended",
+      "reason": "Central Line: Severe delays due to an earlier customer incident. London Buses, Liberty Line, Elizabeth Line, Chiltern Railways, Great Western Railway and Greater Anglia are accepting tickets via any reasonable route.",
+      "severity": "Severe Delays",
       "source_created": "0001-01-01T00:00:00"
     },
     "district:text:48f7b035b7fc51a8": {
@@ -28,6 +28,16 @@
       "line_name": "District",
       "reason": "District Line: Saturday 5 and Sunday 6 September, no service between Edgware Road and Wimbledon. Rail Replacement bus services will operate. If travelling to/from Fulham vs Crystal Palace on Saturday, it may be easier to walk to/from Hammersmith.",
       "severity": "Part Closure",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "hammersmith-city:text:004129bf5e441754": {
+      "category": "other",
+      "first_seen": "2026-09-05T13:00:11Z",
+      "issue_key": "hammersmith-city:text:004129bf5e441754",
+      "line_id": "hammersmith-city",
+      "line_name": "Hammersmith & City",
+      "reason": "Hammersmith and City Line: Minor delays due to train cancellations.",
+      "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
     "metropolitan:text:3ba8771fd32f07bb": {
@@ -62,6 +72,18 @@
     }
   },
   "history": [
+    {
+      "category": "other",
+      "duration_seconds": 1998,
+      "first_seen": "2026-09-05T12:26:53Z",
+      "issue_key": "central:text:428d27f206760ca9",
+      "line_id": "central",
+      "line_name": "Central",
+      "reason": "Central Line: No service between Marble Arch and White City while emergency services deal with a casualty on the track. SEVERE DELAYS on the rest of the line. London Buses, Liberty Line, Elizabeth Line, Chiltern Railways, Great Western Railway and Greater Anglia are accepting tickets via any reasonable route.",
+      "resolved_at": "2026-09-05T13:00:11Z",
+      "severity": "Part Suspended",
+      "source_created": "0001-01-01T00:00:00"
+    },
     {
       "category": "other",
       "duration_seconds": 12948,
@@ -3915,6 +3937,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-09-05T12:26:53Z",
+  "updated_at": "2026-09-05T13:00:11Z",
   "version": 1
 }
