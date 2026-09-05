@@ -10,24 +10,14 @@
       "severity": "Severe Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "piccadilly:text:b21650bab32077c8": {
-      "category": "signal failure",
-      "first_seen": "2026-09-04T23:35:21Z",
-      "issue_key": "piccadilly:text:b21650bab32077c8",
-      "line_id": "piccadilly",
-      "line_name": "Piccadilly",
-      "reason": "Piccadilly Line: Minor delays between King's Cross and Cockfosters while we fix a signal failure at Holborn. GOOD SERVICE on the rest of the line.",
-      "severity": "Minor Delays",
-      "source_created": "0001-01-01T00:00:00"
-    },
-    "victoria:text:02e0850cdf11ef25": {
+    "victoria:text:ea3475c5b39492d3": {
       "category": "other",
-      "first_seen": "2026-09-04T17:49:26Z",
-      "issue_key": "victoria:text:02e0850cdf11ef25",
+      "first_seen": "2026-09-05T00:17:33Z",
+      "issue_key": "victoria:text:ea3475c5b39492d3",
       "line_id": "victoria",
       "line_name": "Victoria",
-      "reason": "Victoria Line: Minor delays due to train cancellations.",
-      "severity": "Minor Delays",
+      "reason": "Victoria Line: Severe delays due to train cancellations and while we help a person ill on a train at Green Park.",
+      "severity": "Severe Delays",
       "source_created": "0001-01-01T00:00:00"
     },
     "waterloo-city:text:1bbcac27f282d0db": {
@@ -42,6 +32,30 @@
     }
   },
   "history": [
+    {
+      "category": "signal failure",
+      "duration_seconds": 2532,
+      "first_seen": "2026-09-04T23:35:21Z",
+      "issue_key": "piccadilly:text:b21650bab32077c8",
+      "line_id": "piccadilly",
+      "line_name": "Piccadilly",
+      "reason": "Piccadilly Line: Minor delays between King's Cross and Cockfosters while we fix a signal failure at Holborn. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-09-05T00:17:33Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "other",
+      "duration_seconds": 23287,
+      "first_seen": "2026-09-04T17:49:26Z",
+      "issue_key": "victoria:text:02e0850cdf11ef25",
+      "line_id": "victoria",
+      "line_name": "Victoria",
+      "reason": "Victoria Line: Minor delays due to train cancellations.",
+      "resolved_at": "2026-09-05T00:17:33Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
     {
       "category": "person on track",
       "duration_seconds": 5930,
@@ -3619,6 +3633,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-09-04T23:35:21Z",
+  "updated_at": "2026-09-05T00:17:33Z",
   "version": 1
 }
