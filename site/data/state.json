@@ -1,167 +1,229 @@
 {
   "active": {
-    "bakerloo:text:975c88cf69561d0c": {
+    "district:text:48f7b035b7fc51a8": {
       "category": "other",
+      "first_seen": "2026-09-05T04:49:38Z",
+      "issue_key": "district:text:48f7b035b7fc51a8",
+      "line_id": "district",
+      "line_name": "District",
+      "reason": "District Line: Saturday 5 and Sunday 6 September, no service between Edgware Road and Wimbledon. Rail Replacement bus services will operate. If travelling to/from Fulham vs Crystal Palace on Saturday, it may be easier to walk to/from Hammersmith.",
+      "severity": "Part Closure",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "waterloo-city:text:02da0890c7cbf303": {
+      "category": "other",
+      "first_seen": "2026-09-05T04:49:38Z",
+      "issue_key": "waterloo-city:text:02da0890c7cbf303",
+      "line_id": "waterloo-city",
+      "line_name": "Waterloo & City",
+      "reason": "Waterloo & City line: service operates 06:00 until 00:30, Monday to Friday only. There is no service on Saturdays, Sundays and on bank/public holidays.",
+      "severity": "Planned Closure",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "windrush:text:3c3044e104c5cd8e": {
+      "category": "other",
+      "first_seen": "2026-09-05T04:49:38Z",
+      "issue_key": "windrush:text:3c3044e104c5cd8e",
+      "line_id": "windrush",
+      "line_name": "Windrush",
+      "reason": "WINDRUSH LINE: Saturday 5, all day, and Sunday 6 September, until 1915, no service between Surrey Quays and Clapham Junction / Battersea Park. There will also be no SOUTHERN trains at Queens Road Peckham and Peckham Rye. Replacement bus service M operates between Canada Water and Clapham Junction via Surrey Quays, Queens Road Peckham, Peckham Rye, Denmark Hill, Clapham High Street and Wandsworth Road. In addition, replacement buses operate between London Bridge and Tulse Hill via South Bermondsey, Queens Road Peckham, Peckham Rye, East Dulwich, North Dulwich and Herne Hill.",
+      "severity": "Part Closure",
+      "source_created": "0001-01-01T00:00:00"
+    }
+  },
+  "history": [
+    {
+      "category": "other",
+      "duration_seconds": 14232,
       "first_seen": "2026-09-05T00:52:26Z",
       "issue_key": "bakerloo:text:975c88cf69561d0c",
       "line_id": "bakerloo",
       "line_name": "Bakerloo",
       "reason": "Bakerloo Line: Service will resume later this morning.",
+      "resolved_at": "2026-09-05T04:49:38Z",
       "severity": "Service Closed",
       "source_created": "0001-01-01T00:00:00"
     },
-    "circle:text:a1099579f6415e8f": {
+    {
       "category": "other",
+      "duration_seconds": 14232,
       "first_seen": "2026-09-05T00:52:26Z",
       "issue_key": "circle:text:a1099579f6415e8f",
       "line_id": "circle",
       "line_name": "Circle",
       "reason": "Circle Line: Service will resume later this morning.",
+      "resolved_at": "2026-09-05T04:49:38Z",
       "severity": "Service Closed",
       "source_created": "0001-01-01T00:00:00"
     },
-    "district:text:afbf53995c9beb6f": {
+    {
       "category": "planned engineering",
+      "duration_seconds": 14232,
       "first_seen": "2026-09-05T00:52:26Z",
       "issue_key": "district:text:afbf53995c9beb6f",
       "line_id": "district",
       "line_name": "District",
       "reason": "District Line: Service will resume later this morning. There will be no service between Edgware Road and Wimbledon due to planned engineering work.",
+      "resolved_at": "2026-09-05T04:49:38Z",
       "severity": "Service Closed",
       "source_created": "0001-01-01T00:00:00"
     },
-    "dlr:text:fb244db083a3f0ff": {
+    {
       "category": "other",
+      "duration_seconds": 14232,
       "first_seen": "2026-09-05T00:52:26Z",
       "issue_key": "dlr:text:fb244db083a3f0ff",
       "line_id": "dlr",
       "line_name": "DLR",
       "reason": "Docklands Light Railway: Service will resume later this morning.",
+      "resolved_at": "2026-09-05T04:49:38Z",
       "severity": "Service Closed",
       "source_created": "0001-01-01T00:00:00"
     },
-    "elizabeth:text:85644759b2256fee": {
+    {
       "category": "other",
+      "duration_seconds": 14232,
       "first_seen": "2026-09-05T00:52:26Z",
       "issue_key": "elizabeth:text:85644759b2256fee",
       "line_id": "elizabeth",
       "line_name": "Elizabeth line",
       "reason": "Service will resume later this morning.",
+      "resolved_at": "2026-09-05T04:49:38Z",
       "severity": "Service Closed",
       "source_created": "0001-01-01T00:00:00"
     },
-    "hammersmith-city:text:b560078b35a5fd17": {
+    {
       "category": "other",
+      "duration_seconds": 14232,
       "first_seen": "2026-09-05T00:52:26Z",
       "issue_key": "hammersmith-city:text:b560078b35a5fd17",
       "line_id": "hammersmith-city",
       "line_name": "Hammersmith & City",
       "reason": "Hammersmith and City Line: Service will resume later this morning.",
+      "resolved_at": "2026-09-05T04:49:38Z",
       "severity": "Service Closed",
       "source_created": "0001-01-01T00:00:00"
     },
-    "jubilee:text:b873de8ba9dc7841": {
+    {
       "category": "signal failure",
+      "duration_seconds": 14232,
       "first_seen": "2026-09-05T00:52:26Z",
       "issue_key": "jubilee:text:b873de8ba9dc7841",
       "line_id": "jubilee",
       "line_name": "Jubilee",
       "reason": "Jubilee Line: Severe delays due to a earlier signal failure at Bond Street. Tickets are being accepted on London Buses.",
+      "resolved_at": "2026-09-05T04:49:38Z",
       "severity": "Severe Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "liberty:text:19134079f5c98ab7": {
+    {
       "category": "other",
+      "duration_seconds": 14232,
       "first_seen": "2026-09-05T00:52:26Z",
       "issue_key": "liberty:text:19134079f5c98ab7",
       "line_id": "liberty",
       "line_name": "Liberty",
       "reason": "Liberty Line: Service will resume later this morning.",
+      "resolved_at": "2026-09-05T04:49:38Z",
       "severity": "Service Closed",
       "source_created": "0001-01-01T00:00:00"
     },
-    "lioness:text:edb0d527df87ed16": {
+    {
       "category": "other",
+      "duration_seconds": 14232,
       "first_seen": "2026-09-05T00:52:26Z",
       "issue_key": "lioness:text:edb0d527df87ed16",
       "line_id": "lioness",
       "line_name": "Lioness",
       "reason": "Lioness Line: Service will resume later this morning.",
+      "resolved_at": "2026-09-05T04:49:38Z",
       "severity": "Service Closed",
       "source_created": "0001-01-01T00:00:00"
     },
-    "metropolitan:text:4b366f757f8f5a28": {
+    {
       "category": "other",
+      "duration_seconds": 14232,
       "first_seen": "2026-09-05T00:52:26Z",
       "issue_key": "metropolitan:text:4b366f757f8f5a28",
       "line_id": "metropolitan",
       "line_name": "Metropolitan",
       "reason": "Metropolitan Line: Service will resume later this morning.",
+      "resolved_at": "2026-09-05T04:49:38Z",
       "severity": "Service Closed",
       "source_created": "0001-01-01T00:00:00"
     },
-    "mildmay:text:43f3ca710bb3792b": {
+    {
       "category": "other",
+      "duration_seconds": 14232,
       "first_seen": "2026-09-05T00:52:26Z",
       "issue_key": "mildmay:text:43f3ca710bb3792b",
       "line_id": "mildmay",
       "line_name": "Mildmay",
       "reason": "Mildmay Line: Service will resume later this morning.",
+      "resolved_at": "2026-09-05T04:49:38Z",
       "severity": "Service Closed",
       "source_created": "0001-01-01T00:00:00"
     },
-    "suffragette:text:774000467a2b26d3": {
+    {
       "category": "other",
+      "duration_seconds": 14232,
       "first_seen": "2026-09-05T00:52:26Z",
       "issue_key": "suffragette:text:774000467a2b26d3",
       "line_id": "suffragette",
       "line_name": "Suffragette",
       "reason": "Suffragette Line: Service will resume later this morning.",
+      "resolved_at": "2026-09-05T04:49:38Z",
       "severity": "Service Closed",
       "source_created": "0001-01-01T00:00:00"
     },
-    "tram:text:ab9d7a64f14b787b": {
+    {
       "category": "other",
+      "duration_seconds": 14232,
       "first_seen": "2026-09-05T00:52:26Z",
       "issue_key": "tram:text:ab9d7a64f14b787b",
       "line_id": "tram",
       "line_name": "Tram",
       "reason": "London Tramlink: Service will resume later this morning.",
+      "resolved_at": "2026-09-05T04:49:38Z",
       "severity": "Service Closed",
       "source_created": "0001-01-01T00:00:00"
     },
-    "victoria:text:bced78e91a82d599": {
+    {
       "category": "other",
+      "duration_seconds": 14232,
       "first_seen": "2026-09-05T00:52:26Z",
       "issue_key": "victoria:text:bced78e91a82d599",
       "line_id": "victoria",
       "line_name": "Victoria",
       "reason": "Victoria Line: Severe delays due to train cancellations and due to an earlier person ill on a train at Green Park.",
+      "resolved_at": "2026-09-05T04:49:38Z",
       "severity": "Severe Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "waterloo-city:text:1bbcac27f282d0db": {
+    {
       "category": "other",
+      "duration_seconds": 18857,
       "first_seen": "2026-09-04T23:35:21Z",
       "issue_key": "waterloo-city:text:1bbcac27f282d0db",
       "line_id": "waterloo-city",
       "line_name": "Waterloo & City",
       "reason": "Waterloo and City Line: Service will resume at 06:00 on Monday.",
+      "resolved_at": "2026-09-05T04:49:38Z",
       "severity": "Service Closed",
       "source_created": "0001-01-01T00:00:00"
     },
-    "weaver:text:f2dc8c00c6757e13": {
+    {
       "category": "other",
+      "duration_seconds": 14232,
       "first_seen": "2026-09-05T00:52:26Z",
       "issue_key": "weaver:text:f2dc8c00c6757e13",
       "line_id": "weaver",
       "line_name": "Weaver",
       "reason": "Weaver Line: Service will resume later this morning.",
+      "resolved_at": "2026-09-05T04:49:38Z",
       "severity": "Service Closed",
       "source_created": "0001-01-01T00:00:00"
-    }
-  },
-  "history": [
+    },
     {
       "category": "signal failure",
       "duration_seconds": 6724,
@@ -3787,6 +3849,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-09-05T00:52:26Z",
+  "updated_at": "2026-09-05T04:49:38Z",
   "version": 1
 }
