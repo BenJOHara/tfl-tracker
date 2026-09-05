@@ -1,13 +1,23 @@
 {
   "active": {
-    "bakerloo:text:441236c7b38e407e": {
+    "bakerloo:text:b0732850d659b264": {
       "category": "other",
-      "first_seen": "2026-09-05T08:51:05Z",
-      "issue_key": "bakerloo:text:441236c7b38e407e",
+      "first_seen": "2026-09-05T12:26:53Z",
+      "issue_key": "bakerloo:text:b0732850d659b264",
       "line_id": "bakerloo",
       "line_name": "Bakerloo",
-      "reason": "Bakerloo Line: Minor delays due to train cancellations.",
-      "severity": "Minor Delays",
+      "reason": "Bakerloo Line: Severe delays due to train cancellations. London Buses, Lioness Line, London Northwestern Railway and Thameslink are accepting tickets via any reasonable.",
+      "severity": "Severe Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "central:text:428d27f206760ca9": {
+      "category": "other",
+      "first_seen": "2026-09-05T12:26:53Z",
+      "issue_key": "central:text:428d27f206760ca9",
+      "line_id": "central",
+      "line_name": "Central",
+      "reason": "Central Line: No service between Marble Arch and White City while emergency services deal with a casualty on the track. SEVERE DELAYS on the rest of the line. London Buses, Liberty Line, Elizabeth Line, Chiltern Railways, Great Western Railway and Greater Anglia are accepting tickets via any reasonable route.",
+      "severity": "Part Suspended",
       "source_created": "0001-01-01T00:00:00"
     },
     "district:text:48f7b035b7fc51a8": {
@@ -20,13 +30,13 @@
       "severity": "Part Closure",
       "source_created": "0001-01-01T00:00:00"
     },
-    "metropolitan:text:2df4e90708614385": {
+    "metropolitan:text:3ba8771fd32f07bb": {
       "category": "other",
-      "first_seen": "2026-09-05T05:38:04Z",
-      "issue_key": "metropolitan:text:2df4e90708614385",
+      "first_seen": "2026-09-05T12:26:53Z",
+      "issue_key": "metropolitan:text:3ba8771fd32f07bb",
       "line_id": "metropolitan",
       "line_name": "Metropolitan",
-      "reason": "Metropolitan Line: Minor delays between Moor Park and Watford due to train cancellations. GOOD SERVICE on the rest of the line.",
+      "reason": "Metropolitan Line: Minor delays between Harrow-on-the-Hill and Uxbridge due to train cancellations. GOOD SERVICE on the rest of the line.",
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
@@ -52,6 +62,30 @@
     }
   },
   "history": [
+    {
+      "category": "other",
+      "duration_seconds": 12948,
+      "first_seen": "2026-09-05T08:51:05Z",
+      "issue_key": "bakerloo:text:441236c7b38e407e",
+      "line_id": "bakerloo",
+      "line_name": "Bakerloo",
+      "reason": "Bakerloo Line: Minor delays due to train cancellations.",
+      "resolved_at": "2026-09-05T12:26:53Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "other",
+      "duration_seconds": 24529,
+      "first_seen": "2026-09-05T05:38:04Z",
+      "issue_key": "metropolitan:text:2df4e90708614385",
+      "line_id": "metropolitan",
+      "line_name": "Metropolitan",
+      "reason": "Metropolitan Line: Minor delays between Moor Park and Watford due to train cancellations. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-09-05T12:26:53Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
     {
       "category": "other",
       "duration_seconds": 2265,
@@ -3881,6 +3915,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-09-05T09:28:50Z",
+  "updated_at": "2026-09-05T12:26:53Z",
   "version": 1
 }
