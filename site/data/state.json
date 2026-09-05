@@ -10,24 +10,14 @@
       "severity": "Severe Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "central:text:df913178dfd0a2fc": {
-      "category": "train fault",
-      "first_seen": "2026-09-05T22:14:27Z",
-      "issue_key": "central:text:df913178dfd0a2fc",
-      "line_id": "central",
-      "line_name": "Central",
-      "reason": "Central Line: Minor delays due to an earlier faulty train at Chancery Lane.",
-      "severity": "Minor Delays",
-      "source_created": "0001-01-01T00:00:00"
-    },
     "circle:text:bf9bb7504db7ea4d": {
       "category": "other",
       "first_seen": "2026-09-05T21:31:46Z",
       "issue_key": "circle:text:bf9bb7504db7ea4d",
       "line_id": "circle",
       "line_name": "Circle",
-      "reason": "Circle Line: Minor delays due to train cancellations.",
-      "severity": "Minor Delays",
+      "reason": "Circle Line: Severe delays due to train cancellations.",
+      "severity": "Severe Delays",
       "source_created": "0001-01-01T00:00:00"
     },
     "district:text:48f7b035b7fc51a8": {
@@ -40,34 +30,24 @@
       "severity": "Part Closure",
       "source_created": "0001-01-01T00:00:00"
     },
-    "elizabeth:text:66fc9004ae72be92": {
+    "elizabeth:text:05d2bebeca954d1d": {
       "category": "fire alert",
-      "first_seen": "2026-09-05T18:11:53Z",
-      "issue_key": "elizabeth:text:66fc9004ae72be92",
+      "first_seen": "2026-09-05T23:13:07Z",
+      "issue_key": "elizabeth:text:05d2bebeca954d1d",
       "line_id": "elizabeth",
       "line_name": "Elizabeth line",
-      "reason": "No service between Paddington and Heathrow Terminals / Reading due to a fire alert in the Paddington area. SEVERE DELAYS on the rest of the line. Avoid using the Elizabeth line. For trains to Heathrow Airport use the Piccadilly line. Tickets are being accepted by London Underground, London Buses, Thameslink, DLR, South Western Railway and Southeastern.",
+      "reason": "No service between Paddington and Heathrow Terminals / Reading due to a fire alert in the Paddington area. SEVERE DELAYS on the rest of the line. Avoid using the Elizabeth line.Tickets are being accepted by London Underground, London Buses, Thameslink, DLR, South Western Railway and Southeastern.",
       "severity": "Part Suspended",
       "source_created": "0001-01-01T00:00:00"
     },
-    "metropolitan:text:0d1740422005df73": {
-      "category": "train fault",
-      "first_seen": "2026-09-05T22:14:27Z",
-      "issue_key": "metropolitan:text:0d1740422005df73",
-      "line_id": "metropolitan",
-      "line_name": "Metropolitan",
-      "reason": "Metropolitan Line: Minor delays between Amersham and Moor Park southbound only due to an earlier faulty train at Amersham. The next southbound departure from Amersham will be the 23:22. GOOD SERVICE on the rest of the line.",
-      "severity": "Minor Delays",
-      "source_created": "0001-01-01T00:00:00"
-    },
-    "piccadilly:text:209f2d2a25a28f5d": {
-      "category": "person on track",
-      "first_seen": "2026-09-05T22:14:27Z",
-      "issue_key": "piccadilly:text:209f2d2a25a28f5d",
+    "piccadilly:text:5ad06fa75190b3cc": {
+      "category": "track fault",
+      "first_seen": "2026-09-05T23:13:07Z",
+      "issue_key": "piccadilly:text:5ad06fa75190b3cc",
       "line_id": "piccadilly",
       "line_name": "Piccadilly",
-      "reason": "Piccadilly Line: Severe delays between Acton Town and Heathrow Terminals due to an earlier trespasser at Hammersmith. London Underground tickets will be accepted on London buses, Weaver line, Great Northern and South Western Railway. MINOR DELAYS on the rest of the line.",
-      "severity": "Minor Delays",
+      "reason": "Piccadilly Line: Severe delays between Northfields and Heathrow Terminals due to an earlier track fault in the Osterley area. MINOR DELAYS on the rest of the line due to an earlier trespasser at Hammersmith. London Underground tickets will be accepted on London buses, Weaver line, Great Northern and South Western Railway.",
+      "severity": "Severe Delays",
       "source_created": "0001-01-01T00:00:00"
     },
     "waterloo-city:text:02da0890c7cbf303": {
@@ -92,6 +72,54 @@
     }
   },
   "history": [
+    {
+      "category": "train fault",
+      "duration_seconds": 3520,
+      "first_seen": "2026-09-05T22:14:27Z",
+      "issue_key": "central:text:df913178dfd0a2fc",
+      "line_id": "central",
+      "line_name": "Central",
+      "reason": "Central Line: Minor delays due to an earlier faulty train at Chancery Lane.",
+      "resolved_at": "2026-09-05T23:13:07Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "fire alert",
+      "duration_seconds": 18074,
+      "first_seen": "2026-09-05T18:11:53Z",
+      "issue_key": "elizabeth:text:66fc9004ae72be92",
+      "line_id": "elizabeth",
+      "line_name": "Elizabeth line",
+      "reason": "No service between Paddington and Heathrow Terminals / Reading due to a fire alert in the Paddington area. SEVERE DELAYS on the rest of the line. Avoid using the Elizabeth line. For trains to Heathrow Airport use the Piccadilly line. Tickets are being accepted by London Underground, London Buses, Thameslink, DLR, South Western Railway and Southeastern.",
+      "resolved_at": "2026-09-05T23:13:07Z",
+      "severity": "Part Suspended",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "train fault",
+      "duration_seconds": 3520,
+      "first_seen": "2026-09-05T22:14:27Z",
+      "issue_key": "metropolitan:text:0d1740422005df73",
+      "line_id": "metropolitan",
+      "line_name": "Metropolitan",
+      "reason": "Metropolitan Line: Minor delays between Amersham and Moor Park southbound only due to an earlier faulty train at Amersham. The next southbound departure from Amersham will be the 23:22. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-09-05T23:13:07Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "person on track",
+      "duration_seconds": 3520,
+      "first_seen": "2026-09-05T22:14:27Z",
+      "issue_key": "piccadilly:text:209f2d2a25a28f5d",
+      "line_id": "piccadilly",
+      "line_name": "Piccadilly",
+      "reason": "Piccadilly Line: Severe delays between Acton Town and Heathrow Terminals due to an earlier trespasser at Hammersmith. London Underground tickets will be accepted on London buses, Weaver line, Great Northern and South Western Railway. MINOR DELAYS on the rest of the line.",
+      "resolved_at": "2026-09-05T23:13:07Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
     {
       "category": "train fault",
       "duration_seconds": 10530,
@@ -4173,6 +4201,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-09-05T22:14:27Z",
+  "updated_at": "2026-09-05T23:13:07Z",
   "version": 1
 }
