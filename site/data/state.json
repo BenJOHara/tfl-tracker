@@ -10,14 +10,14 @@
       "severity": "Severe Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "central:text:464109e175421f39": {
+    "central:text:edcbf16092c05443": {
       "category": "train fault",
-      "first_seen": "2026-09-05T18:11:53Z",
-      "issue_key": "central:text:464109e175421f39",
+      "first_seen": "2026-09-05T19:18:57Z",
+      "issue_key": "central:text:edcbf16092c05443",
       "line_id": "central",
       "line_name": "Central",
-      "reason": "Central Line: Severe delays between Leytonstone and Epping / Hainault via Newbury Park due to an earlier faulty train at Chancery Lane. MINOR DELAYS on the rest of the line. London Buses are accepting tickets via any reasonable route.",
-      "severity": "Severe Delays",
+      "reason": "Central Line: Severe delays between White City and West Ruislip / Ealing Broadway due to an earlier faulty train at Chancery Lane. Tickets are being accepted on London Buses. MINOR DELAYS on the rest of the line.",
+      "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
     "district:text:48f7b035b7fc51a8": {
@@ -38,26 +38,6 @@
       "line_name": "Elizabeth line",
       "reason": "No service between Paddington and Heathrow Terminals / Reading due to a fire alert in the Paddington area. SEVERE DELAYS on the rest of the line. Avoid using the Elizabeth line. For trains to Heathrow Airport use the Piccadilly line. Tickets are being accepted by London Underground, London Buses, Thameslink, DLR, South Western Railway and Southeastern.",
       "severity": "Part Suspended",
-      "source_created": "0001-01-01T00:00:00"
-    },
-    "hammersmith-city:text:004129bf5e441754": {
-      "category": "other",
-      "first_seen": "2026-09-05T13:00:11Z",
-      "issue_key": "hammersmith-city:text:004129bf5e441754",
-      "line_id": "hammersmith-city",
-      "line_name": "Hammersmith & City",
-      "reason": "Hammersmith and City Line: Minor delays due to train cancellations.",
-      "severity": "Minor Delays",
-      "source_created": "0001-01-01T00:00:00"
-    },
-    "metropolitan:text:3ba8771fd32f07bb": {
-      "category": "other",
-      "first_seen": "2026-09-05T12:26:53Z",
-      "issue_key": "metropolitan:text:3ba8771fd32f07bb",
-      "line_id": "metropolitan",
-      "line_name": "Metropolitan",
-      "reason": "Metropolitan Line: Minor delays between Harrow-on-the-Hill and Uxbridge due to train cancellations. GOOD SERVICE on the rest of the line.",
-      "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
     "piccadilly:text:1cd68741eba183cd": {
@@ -102,6 +82,42 @@
     }
   },
   "history": [
+    {
+      "category": "train fault",
+      "duration_seconds": 4024,
+      "first_seen": "2026-09-05T18:11:53Z",
+      "issue_key": "central:text:464109e175421f39",
+      "line_id": "central",
+      "line_name": "Central",
+      "reason": "Central Line: Severe delays between Leytonstone and Epping / Hainault via Newbury Park due to an earlier faulty train at Chancery Lane. MINOR DELAYS on the rest of the line. London Buses are accepting tickets via any reasonable route.",
+      "resolved_at": "2026-09-05T19:18:57Z",
+      "severity": "Severe Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "other",
+      "duration_seconds": 22726,
+      "first_seen": "2026-09-05T13:00:11Z",
+      "issue_key": "hammersmith-city:text:004129bf5e441754",
+      "line_id": "hammersmith-city",
+      "line_name": "Hammersmith & City",
+      "reason": "Hammersmith and City Line: Minor delays due to train cancellations.",
+      "resolved_at": "2026-09-05T19:18:57Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "other",
+      "duration_seconds": 24724,
+      "first_seen": "2026-09-05T12:26:53Z",
+      "issue_key": "metropolitan:text:3ba8771fd32f07bb",
+      "line_id": "metropolitan",
+      "line_name": "Metropolitan",
+      "reason": "Metropolitan Line: Minor delays between Harrow-on-the-Hill and Uxbridge due to train cancellations. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-09-05T19:18:57Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
     {
       "category": "train fault",
       "duration_seconds": 2622,
@@ -4087,6 +4103,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-09-05T18:11:53Z",
+  "updated_at": "2026-09-05T19:18:57Z",
   "version": 1
 }
