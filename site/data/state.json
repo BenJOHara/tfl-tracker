@@ -1,5 +1,15 @@
 {
   "active": {
+    "circle:text:bf9bb7504db7ea4d": {
+      "category": "other",
+      "first_seen": "2026-09-06T19:29:02Z",
+      "issue_key": "circle:text:bf9bb7504db7ea4d",
+      "line_id": "circle",
+      "line_name": "Circle",
+      "reason": "Circle Line: Minor delays due to train cancellations.",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
     "district:text:48f7b035b7fc51a8": {
       "category": "other",
       "first_seen": "2026-09-05T04:49:38Z",
@@ -10,43 +20,23 @@
       "severity": "Part Closure",
       "source_created": "0001-01-01T00:00:00"
     },
-    "dlr:text:6bfd0b1444218bb4": {
+    "elizabeth:text:0a3628ab85e416c2": {
       "category": "other",
-      "first_seen": "2026-09-06T15:34:12Z",
-      "issue_key": "dlr:text:6bfd0b1444218bb4",
-      "line_id": "dlr",
-      "line_name": "DLR",
-      "reason": "Docklands Light Railway: Minor delays between Bank and Lewisham due to an earlier person ill on a train. GOOD SERVICE on the rest of the line.",
-      "severity": "Minor Delays",
-      "source_created": "0001-01-01T00:00:00"
-    },
-    "elizabeth:text:5e67165319ca28e1": {
-      "category": "other",
-      "first_seen": "2026-09-06T17:40:20Z",
-      "issue_key": "elizabeth:text:5e67165319ca28e1",
+      "first_seen": "2026-09-06T19:29:02Z",
+      "issue_key": "elizabeth:text:0a3628ab85e416c2",
       "line_id": "elizabeth",
       "line_name": "Elizabeth line",
-      "reason": "Minor delays between Whitechapel and Shenfield while we fix a signal system failure in the Chadwell Heath area. GOOD SERVICE on the rest of the line.",
-      "severity": "Minor Delays",
-      "source_created": "0001-01-01T00:00:00"
-    },
-    "jubilee:text:d1e78d3251fb68ca": {
-      "category": "fire alert",
-      "first_seen": "2026-09-06T15:34:12Z",
-      "issue_key": "jubilee:text:d1e78d3251fb68ca",
-      "line_id": "jubilee",
-      "line_name": "Jubilee",
-      "reason": "Jubilee Line: Severe delays due to an earlier fire alert at Stratford. Tickets are being accepted on London Buses, London Overground, DLR, Elizabeth line, C2C, Southeastern and Thameslink. For services to Wembley Stadium please use the Bakerloo line to Wembley Central.",
+      "reason": "Severe delays between Heathrow Terminals 2&3 and Heathrow Terminal 5 and SEVERE DELAYS between Whitechapel and Shenfield while we fix a signal system failure in the Chadwell Heath area. London Underground are accepting tickets via any reasonable route. GOOD SERVICE on the rest of the line.",
       "severity": "Severe Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "metropolitan:text:86dbab82a68c3e48": {
-      "category": "other",
-      "first_seen": "2026-09-06T17:46:28Z",
-      "issue_key": "metropolitan:text:86dbab82a68c3e48",
-      "line_id": "metropolitan",
-      "line_name": "Metropolitan",
-      "reason": "Metropolitan Line: Minor delays between Chalfont & Latimer and Amersham due to train cancellations. GOOD SERVICE on the rest of the line.",
+    "jubilee:text:7638392c12fa90b7": {
+      "category": "fire alert",
+      "first_seen": "2026-09-06T19:29:02Z",
+      "issue_key": "jubilee:text:7638392c12fa90b7",
+      "line_id": "jubilee",
+      "line_name": "Jubilee",
+      "reason": "Jubilee Line: Minor delays due to an earlier fire alert at Stratford.",
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
@@ -102,6 +92,54 @@
     }
   },
   "history": [
+    {
+      "category": "other",
+      "duration_seconds": 14090,
+      "first_seen": "2026-09-06T15:34:12Z",
+      "issue_key": "dlr:text:6bfd0b1444218bb4",
+      "line_id": "dlr",
+      "line_name": "DLR",
+      "reason": "Docklands Light Railway: Minor delays between Bank and Lewisham due to an earlier person ill on a train. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-09-06T19:29:02Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "other",
+      "duration_seconds": 6522,
+      "first_seen": "2026-09-06T17:40:20Z",
+      "issue_key": "elizabeth:text:5e67165319ca28e1",
+      "line_id": "elizabeth",
+      "line_name": "Elizabeth line",
+      "reason": "Minor delays between Whitechapel and Shenfield while we fix a signal system failure in the Chadwell Heath area. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-09-06T19:29:02Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "fire alert",
+      "duration_seconds": 14090,
+      "first_seen": "2026-09-06T15:34:12Z",
+      "issue_key": "jubilee:text:d1e78d3251fb68ca",
+      "line_id": "jubilee",
+      "line_name": "Jubilee",
+      "reason": "Jubilee Line: Severe delays due to an earlier fire alert at Stratford. Tickets are being accepted on London Buses, London Overground, DLR, Elizabeth line, C2C, Southeastern and Thameslink. For services to Wembley Stadium please use the Bakerloo line to Wembley Central.",
+      "resolved_at": "2026-09-06T19:29:02Z",
+      "severity": "Severe Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "other",
+      "duration_seconds": 6154,
+      "first_seen": "2026-09-06T17:46:28Z",
+      "issue_key": "metropolitan:text:86dbab82a68c3e48",
+      "line_id": "metropolitan",
+      "line_name": "Metropolitan",
+      "reason": "Metropolitan Line: Minor delays between Chalfont & Latimer and Amersham due to train cancellations. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-09-06T19:29:02Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
     {
       "category": "other",
       "duration_seconds": 50611,
@@ -4663,6 +4701,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-09-06T18:31:39Z",
+  "updated_at": "2026-09-06T19:29:02Z",
   "version": 1
 }
