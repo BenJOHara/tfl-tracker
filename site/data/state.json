@@ -10,6 +10,36 @@
       "severity": "Part Closure",
       "source_created": "0001-01-01T00:00:00"
     },
+    "elizabeth:text:0150a78f14de13df": {
+      "category": "signal failure",
+      "first_seen": "2026-09-06T12:22:45Z",
+      "issue_key": "elizabeth:text:0150a78f14de13df",
+      "line_id": "elizabeth",
+      "line_name": "Elizabeth line",
+      "reason": "Minor delays between Paddington and Hayes & Harlington while we fix a signal failure at Acton. GOOD SERVICE on the rest of the line.",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "jubilee:text:740489a5e444c4f2": {
+      "category": "fire alert",
+      "first_seen": "2026-09-06T12:22:45Z",
+      "issue_key": "jubilee:text:740489a5e444c4f2",
+      "line_id": "jubilee",
+      "line_name": "Jubilee",
+      "reason": "Jubilee Line: No service between North Greenwich and Stratford while we respond to a fire alert at Stratford. SEVERE DELAYS on the rest of the line.",
+      "severity": "Part Suspended",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "mildmay:text:ddfd9e75c0e2b565": {
+      "category": "person on track",
+      "first_seen": "2026-09-06T12:22:45Z",
+      "issue_key": "mildmay:text:ddfd9e75c0e2b565",
+      "line_id": "mildmay",
+      "line_name": "Mildmay",
+      "reason": "Mildmay Line: Minor delays between Willesden Junction and Clapham Junction due to an earlier trespasser on the track at Stratford. GOOD SERVICE on the rest of the line.",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
     "suffragette:text:0e55d5b7b5f6e760": {
       "category": "other",
       "first_seen": "2026-09-06T04:28:08Z",
@@ -4503,6 +4533,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-09-06T08:51:10Z",
+  "updated_at": "2026-09-06T12:22:45Z",
   "version": 1
 }
