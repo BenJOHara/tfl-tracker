@@ -1,23 +1,23 @@
 {
   "active": {
-    "bakerloo:text:b0732850d659b264": {
+    "bakerloo:text:975c88cf69561d0c": {
       "category": "other",
-      "first_seen": "2026-09-05T12:26:53Z",
-      "issue_key": "bakerloo:text:b0732850d659b264",
+      "first_seen": "2026-09-06T00:59:46Z",
+      "issue_key": "bakerloo:text:975c88cf69561d0c",
       "line_id": "bakerloo",
       "line_name": "Bakerloo",
-      "reason": "Bakerloo Line: Severe delays due to train cancellations. London Buses, Lioness Line, London Northwestern Railway and Thameslink are accepting tickets via any reasonable.",
-      "severity": "Severe Delays",
+      "reason": "Bakerloo Line: Service will resume later this morning.",
+      "severity": "Service Closed",
       "source_created": "0001-01-01T00:00:00"
     },
-    "circle:text:bf9bb7504db7ea4d": {
+    "circle:text:a1099579f6415e8f": {
       "category": "other",
-      "first_seen": "2026-09-05T21:31:46Z",
-      "issue_key": "circle:text:bf9bb7504db7ea4d",
+      "first_seen": "2026-09-06T00:59:46Z",
+      "issue_key": "circle:text:a1099579f6415e8f",
       "line_id": "circle",
       "line_name": "Circle",
-      "reason": "Circle Line: Severe delays due to train cancellations.",
-      "severity": "Severe Delays",
+      "reason": "Circle Line: Service will resume later this morning.",
+      "severity": "Service Closed",
       "source_created": "0001-01-01T00:00:00"
     },
     "district:text:48f7b035b7fc51a8": {
@@ -30,34 +30,104 @@
       "severity": "Part Closure",
       "source_created": "0001-01-01T00:00:00"
     },
-    "elizabeth:text:26ac1f7da30bc96e": {
-      "category": "fire alert",
-      "first_seen": "2026-09-05T23:59:34Z",
-      "issue_key": "elizabeth:text:26ac1f7da30bc96e",
+    "district:text:afbf53995c9beb6f": {
+      "category": "planned engineering",
+      "first_seen": "2026-09-06T00:59:46Z",
+      "issue_key": "district:text:afbf53995c9beb6f",
+      "line_id": "district",
+      "line_name": "District",
+      "reason": "District Line: Service will resume later this morning. There will be no service between Edgware Road and Wimbledon due to planned engineering work.",
+      "severity": "Service Closed",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "dlr:text:fb244db083a3f0ff": {
+      "category": "other",
+      "first_seen": "2026-09-06T00:59:46Z",
+      "issue_key": "dlr:text:fb244db083a3f0ff",
+      "line_id": "dlr",
+      "line_name": "DLR",
+      "reason": "Docklands Light Railway: Service will resume later this morning.",
+      "severity": "Service Closed",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "elizabeth:text:38b0b7c856bd31e9": {
+      "category": "planned engineering",
+      "first_seen": "2026-09-06T00:59:46Z",
+      "issue_key": "elizabeth:text:38b0b7c856bd31e9",
       "line_id": "elizabeth",
       "line_name": "Elizabeth line",
-      "reason": "No service due to a earlier fire alert in the Paddington area. For trains to Heathrow Airport use the Piccadilly line. Tickets are being accepted by London Underground, London Buses, Thameslink, DLR, South Western Railway and Southeastern.",
-      "severity": "Suspended",
+      "reason": "Service will resume later this morning. There will be no service between Paddington and Ealing Broadway until 07:45 due to planned engineering work.",
+      "severity": "Service Closed",
       "source_created": "0001-01-01T00:00:00"
     },
-    "metropolitan:text:2338d474440f5d00": {
-      "category": "train fault",
-      "first_seen": "2026-09-05T23:59:34Z",
-      "issue_key": "metropolitan:text:2338d474440f5d00",
+    "hammersmith-city:text:b560078b35a5fd17": {
+      "category": "other",
+      "first_seen": "2026-09-06T00:59:46Z",
+      "issue_key": "hammersmith-city:text:b560078b35a5fd17",
+      "line_id": "hammersmith-city",
+      "line_name": "Hammersmith & City",
+      "reason": "Hammersmith and City Line: Service will resume later this morning.",
+      "severity": "Service Closed",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "liberty:text:19134079f5c98ab7": {
+      "category": "other",
+      "first_seen": "2026-09-06T00:59:46Z",
+      "issue_key": "liberty:text:19134079f5c98ab7",
+      "line_id": "liberty",
+      "line_name": "Liberty",
+      "reason": "Liberty Line: Service will resume later this morning.",
+      "severity": "Service Closed",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "lioness:text:edb0d527df87ed16": {
+      "category": "other",
+      "first_seen": "2026-09-06T00:59:46Z",
+      "issue_key": "lioness:text:edb0d527df87ed16",
+      "line_id": "lioness",
+      "line_name": "Lioness",
+      "reason": "Lioness Line: Service will resume later this morning.",
+      "severity": "Service Closed",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "metropolitan:text:4b366f757f8f5a28": {
+      "category": "other",
+      "first_seen": "2026-09-06T00:59:46Z",
+      "issue_key": "metropolitan:text:4b366f757f8f5a28",
       "line_id": "metropolitan",
       "line_name": "Metropolitan",
-      "reason": "Metropolitan Line: No service between Rickmansworth and Moor Park southbound only due to a faulty train at Chesham. GOOD SERVICE on the rest of the line.",
-      "severity": "Part Suspended",
+      "reason": "Metropolitan Line: Service will resume later this morning.",
+      "severity": "Service Closed",
       "source_created": "0001-01-01T00:00:00"
     },
-    "piccadilly:text:5ad06fa75190b3cc": {
-      "category": "track fault",
-      "first_seen": "2026-09-05T23:13:07Z",
-      "issue_key": "piccadilly:text:5ad06fa75190b3cc",
-      "line_id": "piccadilly",
-      "line_name": "Piccadilly",
-      "reason": "Piccadilly Line: Severe delays between Northfields and Heathrow Terminals due to an earlier track fault in the Osterley area. MINOR DELAYS on the rest of the line due to an earlier trespasser at Hammersmith. London Underground tickets will be accepted on London buses, Weaver line, Great Northern and South Western Railway.",
-      "severity": "Severe Delays",
+    "mildmay:text:43f3ca710bb3792b": {
+      "category": "other",
+      "first_seen": "2026-09-06T00:59:46Z",
+      "issue_key": "mildmay:text:43f3ca710bb3792b",
+      "line_id": "mildmay",
+      "line_name": "Mildmay",
+      "reason": "Mildmay Line: Service will resume later this morning.",
+      "severity": "Service Closed",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "suffragette:text:5d3369c411872c36": {
+      "category": "planned engineering",
+      "first_seen": "2026-09-06T00:59:46Z",
+      "issue_key": "suffragette:text:5d3369c411872c36",
+      "line_id": "suffragette",
+      "line_name": "Suffragette",
+      "reason": "Suffragette Line: Service will resume later this morning. There will be no service between Gospel Oak and Woodgrange Park due to planned engineering work.",
+      "severity": "Service Closed",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "tram:text:ab9d7a64f14b787b": {
+      "category": "other",
+      "first_seen": "2026-09-06T00:59:46Z",
+      "issue_key": "tram:text:ab9d7a64f14b787b",
+      "line_id": "tram",
+      "line_name": "Tram",
+      "reason": "London Tramlink: Service will resume later this morning.",
+      "severity": "Service Closed",
       "source_created": "0001-01-01T00:00:00"
     },
     "victoria:text:4535e4dc0102862b": {
@@ -70,14 +140,24 @@
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "waterloo-city:text:02da0890c7cbf303": {
+    "waterloo-city:text:1bbcac27f282d0db": {
       "category": "other",
-      "first_seen": "2026-09-05T04:49:38Z",
-      "issue_key": "waterloo-city:text:02da0890c7cbf303",
+      "first_seen": "2026-09-06T00:59:46Z",
+      "issue_key": "waterloo-city:text:1bbcac27f282d0db",
       "line_id": "waterloo-city",
       "line_name": "Waterloo & City",
-      "reason": "Waterloo & City line: service operates 06:00 until 00:30, Monday to Friday only. There is no service on Saturdays, Sundays and on bank/public holidays.",
-      "severity": "Planned Closure",
+      "reason": "Waterloo and City Line: Service will resume at 06:00 on Monday.",
+      "severity": "Service Closed",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "weaver:text:f2dc8c00c6757e13": {
+      "category": "other",
+      "first_seen": "2026-09-06T00:59:46Z",
+      "issue_key": "weaver:text:f2dc8c00c6757e13",
+      "line_id": "weaver",
+      "line_name": "Weaver",
+      "reason": "Weaver Line: Service will resume later this morning.",
+      "severity": "Service Closed",
       "source_created": "0001-01-01T00:00:00"
     },
     "windrush:text:3c3044e104c5cd8e": {
@@ -92,6 +172,78 @@
     }
   },
   "history": [
+    {
+      "category": "other",
+      "duration_seconds": 45173,
+      "first_seen": "2026-09-05T12:26:53Z",
+      "issue_key": "bakerloo:text:b0732850d659b264",
+      "line_id": "bakerloo",
+      "line_name": "Bakerloo",
+      "reason": "Bakerloo Line: Severe delays due to train cancellations. London Buses, Lioness Line, London Northwestern Railway and Thameslink are accepting tickets via any reasonable.",
+      "resolved_at": "2026-09-06T00:59:46Z",
+      "severity": "Severe Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "other",
+      "duration_seconds": 12480,
+      "first_seen": "2026-09-05T21:31:46Z",
+      "issue_key": "circle:text:bf9bb7504db7ea4d",
+      "line_id": "circle",
+      "line_name": "Circle",
+      "reason": "Circle Line: Severe delays due to train cancellations.",
+      "resolved_at": "2026-09-06T00:59:46Z",
+      "severity": "Severe Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "fire alert",
+      "duration_seconds": 3612,
+      "first_seen": "2026-09-05T23:59:34Z",
+      "issue_key": "elizabeth:text:26ac1f7da30bc96e",
+      "line_id": "elizabeth",
+      "line_name": "Elizabeth line",
+      "reason": "No service due to a earlier fire alert in the Paddington area. For trains to Heathrow Airport use the Piccadilly line. Tickets are being accepted by London Underground, London Buses, Thameslink, DLR, South Western Railway and Southeastern.",
+      "resolved_at": "2026-09-06T00:59:46Z",
+      "severity": "Suspended",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "train fault",
+      "duration_seconds": 3612,
+      "first_seen": "2026-09-05T23:59:34Z",
+      "issue_key": "metropolitan:text:2338d474440f5d00",
+      "line_id": "metropolitan",
+      "line_name": "Metropolitan",
+      "reason": "Metropolitan Line: No service between Rickmansworth and Moor Park southbound only due to a faulty train at Chesham. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-09-06T00:59:46Z",
+      "severity": "Part Suspended",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "track fault",
+      "duration_seconds": 6399,
+      "first_seen": "2026-09-05T23:13:07Z",
+      "issue_key": "piccadilly:text:5ad06fa75190b3cc",
+      "line_id": "piccadilly",
+      "line_name": "Piccadilly",
+      "reason": "Piccadilly Line: Severe delays between Northfields and Heathrow Terminals due to an earlier track fault in the Osterley area. MINOR DELAYS on the rest of the line due to an earlier trespasser at Hammersmith. London Underground tickets will be accepted on London buses, Weaver line, Great Northern and South Western Railway.",
+      "resolved_at": "2026-09-06T00:59:46Z",
+      "severity": "Severe Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "other",
+      "duration_seconds": 72608,
+      "first_seen": "2026-09-05T04:49:38Z",
+      "issue_key": "waterloo-city:text:02da0890c7cbf303",
+      "line_id": "waterloo-city",
+      "line_name": "Waterloo & City",
+      "reason": "Waterloo & City line: service operates 06:00 until 00:30, Monday to Friday only. There is no service on Saturdays, Sundays and on bank/public holidays.",
+      "resolved_at": "2026-09-06T00:59:46Z",
+      "severity": "Planned Closure",
+      "source_created": "0001-01-01T00:00:00"
+    },
     {
       "category": "fire alert",
       "duration_seconds": 2787,
@@ -4233,6 +4385,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-09-05T23:59:34Z",
+  "updated_at": "2026-09-06T00:59:46Z",
   "version": 1
 }
