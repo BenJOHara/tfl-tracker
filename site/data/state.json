@@ -1,22 +1,12 @@
 {
   "active": {
-    "central:text:57e571a8abc00ea3": {
-      "category": "track fault",
-      "first_seen": "2026-09-06T12:27:52Z",
-      "issue_key": "central:text:57e571a8abc00ea3",
+    "central:text:d3a69d16e0daaa11": {
+      "category": "signal failure",
+      "first_seen": "2026-09-06T15:34:12Z",
+      "issue_key": "central:text:d3a69d16e0daaa11",
       "line_id": "central",
       "line_name": "Central",
-      "reason": "Central Line: Minor delays between Northolt and West Ruislip while we fix a track fault at Northolt. GOOD SERVICE on the rest of the line.",
-      "severity": "Minor Delays",
-      "source_created": "0001-01-01T00:00:00"
-    },
-    "circle:text:82f9370d15916ca0": {
-      "category": "other",
-      "first_seen": "2026-09-06T13:09:17Z",
-      "issue_key": "circle:text:82f9370d15916ca0",
-      "line_id": "circle",
-      "line_name": "Circle",
-      "reason": "Circle Line: Minor delays anticlockwise due to train cancellations. GOOD SERVICE clockwise.",
+      "reason": "Central Line: Minor delays between West Ruislip and Northolt due to an earlier signal failure at North Acton. GOOD SERVICE on the rest of the line.",
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
@@ -30,24 +20,24 @@
       "severity": "Part Closure",
       "source_created": "0001-01-01T00:00:00"
     },
-    "jubilee:text:740489a5e444c4f2": {
-      "category": "fire alert",
-      "first_seen": "2026-09-06T12:22:45Z",
-      "issue_key": "jubilee:text:740489a5e444c4f2",
-      "line_id": "jubilee",
-      "line_name": "Jubilee",
-      "reason": "Jubilee Line: No service between North Greenwich and Stratford while we respond to a fire alert at Stratford. SEVERE DELAYS on the rest of the line.",
-      "severity": "Part Suspended",
+    "dlr:text:6bfd0b1444218bb4": {
+      "category": "other",
+      "first_seen": "2026-09-06T15:34:12Z",
+      "issue_key": "dlr:text:6bfd0b1444218bb4",
+      "line_id": "dlr",
+      "line_name": "DLR",
+      "reason": "Docklands Light Railway: Minor delays between Bank and Lewisham due to an earlier person ill on a train. GOOD SERVICE on the rest of the line.",
+      "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "mildmay:text:b152da4fd0857773": {
-      "category": "person on track",
-      "first_seen": "2026-09-06T13:09:17Z",
-      "issue_key": "mildmay:text:b152da4fd0857773",
-      "line_id": "mildmay",
-      "line_name": "Mildmay",
-      "reason": "Mildmay Line: Minor delays between Willesden Junction and Clapham Junction / Richmond due to an earlier trespasser on the track at Stratford. GOOD SERVICE on the rest of the line.",
-      "severity": "Minor Delays",
+    "jubilee:text:d1e78d3251fb68ca": {
+      "category": "fire alert",
+      "first_seen": "2026-09-06T15:34:12Z",
+      "issue_key": "jubilee:text:d1e78d3251fb68ca",
+      "line_id": "jubilee",
+      "line_name": "Jubilee",
+      "reason": "Jubilee Line: Severe delays due to an earlier fire alert at Stratford. Tickets are being accepted on London Buses, London Overground, DLR, Elizabeth line, C2C, Southeastern and Thameslink. For services to Wembley Stadium please use the Bakerloo line to Wembley Central.",
+      "severity": "Severe Delays",
       "source_created": "0001-01-01T00:00:00"
     },
     "suffragette:text:0e55d5b7b5f6e760": {
@@ -112,6 +102,54 @@
     }
   },
   "history": [
+    {
+      "category": "track fault",
+      "duration_seconds": 11180,
+      "first_seen": "2026-09-06T12:27:52Z",
+      "issue_key": "central:text:57e571a8abc00ea3",
+      "line_id": "central",
+      "line_name": "Central",
+      "reason": "Central Line: Minor delays between Northolt and West Ruislip while we fix a track fault at Northolt. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-09-06T15:34:12Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "other",
+      "duration_seconds": 8695,
+      "first_seen": "2026-09-06T13:09:17Z",
+      "issue_key": "circle:text:82f9370d15916ca0",
+      "line_id": "circle",
+      "line_name": "Circle",
+      "reason": "Circle Line: Minor delays anticlockwise due to train cancellations. GOOD SERVICE clockwise.",
+      "resolved_at": "2026-09-06T15:34:12Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "fire alert",
+      "duration_seconds": 11487,
+      "first_seen": "2026-09-06T12:22:45Z",
+      "issue_key": "jubilee:text:740489a5e444c4f2",
+      "line_id": "jubilee",
+      "line_name": "Jubilee",
+      "reason": "Jubilee Line: No service between North Greenwich and Stratford while we respond to a fire alert at Stratford. SEVERE DELAYS on the rest of the line.",
+      "resolved_at": "2026-09-06T15:34:12Z",
+      "severity": "Part Suspended",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "person on track",
+      "duration_seconds": 8695,
+      "first_seen": "2026-09-06T13:09:17Z",
+      "issue_key": "mildmay:text:b152da4fd0857773",
+      "line_id": "mildmay",
+      "line_name": "Mildmay",
+      "reason": "Mildmay Line: Minor delays between Willesden Junction and Clapham Junction / Richmond due to an earlier trespasser on the track at Stratford. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-09-06T15:34:12Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
     {
       "category": "signal failure",
       "duration_seconds": 2792,
@@ -4577,6 +4615,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-09-06T13:09:17Z",
+  "updated_at": "2026-09-06T15:34:12Z",
   "version": 1
 }
