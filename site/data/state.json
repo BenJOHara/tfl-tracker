@@ -20,16 +20,6 @@
       "severity": "Part Closure",
       "source_created": "0001-01-01T00:00:00"
     },
-    "jubilee:text:7638392c12fa90b7": {
-      "category": "fire alert",
-      "first_seen": "2026-09-06T19:29:02Z",
-      "issue_key": "jubilee:text:7638392c12fa90b7",
-      "line_id": "jubilee",
-      "line_name": "Jubilee",
-      "reason": "Jubilee Line: Minor delays due to an earlier fire alert at Stratford.",
-      "severity": "Minor Delays",
-      "source_created": "0001-01-01T00:00:00"
-    },
     "suffragette:text:0e55d5b7b5f6e760": {
       "category": "other",
       "first_seen": "2026-09-06T04:28:08Z",
@@ -82,6 +72,18 @@
     }
   },
   "history": [
+    {
+      "category": "fire alert",
+      "duration_seconds": 13116,
+      "first_seen": "2026-09-06T19:29:02Z",
+      "issue_key": "jubilee:text:7638392c12fa90b7",
+      "line_id": "jubilee",
+      "line_name": "Jubilee",
+      "reason": "Jubilee Line: Minor delays due to an earlier fire alert at Stratford.",
+      "resolved_at": "2026-09-06T23:07:38Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
     {
       "category": "other",
       "duration_seconds": 4565,
@@ -4703,6 +4705,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-09-06T20:45:07Z",
+  "updated_at": "2026-09-06T23:07:38Z",
   "version": 1
 }
