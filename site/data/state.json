@@ -10,46 +10,6 @@
       "severity": "Part Closure",
       "source_created": "0001-01-01T00:00:00"
     },
-    "district:text:bb18157f5c64f6c8": {
-      "category": "planned engineering",
-      "first_seen": "2026-09-06T05:45:42Z",
-      "issue_key": "district:text:bb18157f5c64f6c8",
-      "line_id": "district",
-      "line_name": "District",
-      "reason": "District Line: No service between Upminster and West Ham while we remove an obstruction from the track at Upton park. Tickets are being accepted on London Buses, DLR and C2C. NO SERVICE between Edgware Road and Wimbledon due to planned engineering work. GOOD SERVICE on the rest of the line.",
-      "severity": "Part Suspended",
-      "source_created": "0001-01-01T00:00:00"
-    },
-    "elizabeth:text:d68410de2498508f": {
-      "category": "other",
-      "first_seen": "2026-09-06T04:28:08Z",
-      "issue_key": "elizabeth:text:d68410de2498508f",
-      "line_id": "elizabeth",
-      "line_name": "Elizabeth line",
-      "reason": "ELIZABETH LINE: Sunday 6 September, until 0745, no service between Paddington and Ealing Broadway. In addition, the 2345 Saturday evening GWR train from Didcot Parkway to Paddington terminates at Ealing Broadway and the 0638 GWR London Paddington to Reading train starts at Ealing Broadway. Please use London Underground connections.",
-      "severity": "Part Closure",
-      "source_created": "0001-01-01T00:00:00"
-    },
-    "hammersmith-city:text:81b2b915c126d8e9": {
-      "category": "other",
-      "first_seen": "2026-09-06T05:45:42Z",
-      "issue_key": "hammersmith-city:text:81b2b915c126d8e9",
-      "line_id": "hammersmith-city",
-      "line_name": "Hammersmith & City",
-      "reason": "Hammersmith and City Line: No service between Barking and Liverpool Street while we remove an obstruction from the track at Upton Park. Tickets are being accepted on London Buses, DLR and C2C. GOOD SERVICE on the rest of the line.",
-      "severity": "Part Suspended",
-      "source_created": "0001-01-01T00:00:00"
-    },
-    "jubilee:text:57925a2ef9e26722": {
-      "category": "other",
-      "first_seen": "2026-09-06T05:45:42Z",
-      "issue_key": "jubilee:text:57925a2ef9e26722",
-      "line_id": "jubilee",
-      "line_name": "Jubilee",
-      "reason": "Jubilee Line: Minor delays due to train cancellations.",
-      "severity": "Minor Delays",
-      "source_created": "0001-01-01T00:00:00"
-    },
     "suffragette:text:0e55d5b7b5f6e760": {
       "category": "other",
       "first_seen": "2026-09-06T04:28:08Z",
@@ -102,6 +62,54 @@
     }
   },
   "history": [
+    {
+      "category": "planned engineering",
+      "duration_seconds": 11128,
+      "first_seen": "2026-09-06T05:45:42Z",
+      "issue_key": "district:text:bb18157f5c64f6c8",
+      "line_id": "district",
+      "line_name": "District",
+      "reason": "District Line: No service between Upminster and West Ham while we remove an obstruction from the track at Upton park. Tickets are being accepted on London Buses, DLR and C2C. NO SERVICE between Edgware Road and Wimbledon due to planned engineering work. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-09-06T08:51:10Z",
+      "severity": "Part Suspended",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "other",
+      "duration_seconds": 15782,
+      "first_seen": "2026-09-06T04:28:08Z",
+      "issue_key": "elizabeth:text:d68410de2498508f",
+      "line_id": "elizabeth",
+      "line_name": "Elizabeth line",
+      "reason": "ELIZABETH LINE: Sunday 6 September, until 0745, no service between Paddington and Ealing Broadway. In addition, the 2345 Saturday evening GWR train from Didcot Parkway to Paddington terminates at Ealing Broadway and the 0638 GWR London Paddington to Reading train starts at Ealing Broadway. Please use London Underground connections.",
+      "resolved_at": "2026-09-06T08:51:10Z",
+      "severity": "Part Closure",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "other",
+      "duration_seconds": 11128,
+      "first_seen": "2026-09-06T05:45:42Z",
+      "issue_key": "hammersmith-city:text:81b2b915c126d8e9",
+      "line_id": "hammersmith-city",
+      "line_name": "Hammersmith & City",
+      "reason": "Hammersmith and City Line: No service between Barking and Liverpool Street while we remove an obstruction from the track at Upton Park. Tickets are being accepted on London Buses, DLR and C2C. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-09-06T08:51:10Z",
+      "severity": "Part Suspended",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "other",
+      "duration_seconds": 11128,
+      "first_seen": "2026-09-06T05:45:42Z",
+      "issue_key": "jubilee:text:57925a2ef9e26722",
+      "line_id": "jubilee",
+      "line_name": "Jubilee",
+      "reason": "Jubilee Line: Minor delays due to train cancellations.",
+      "resolved_at": "2026-09-06T08:51:10Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
     {
       "category": "other",
       "duration_seconds": 12502,
@@ -4495,6 +4503,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-09-06T05:45:42Z",
+  "updated_at": "2026-09-06T08:51:10Z",
   "version": 1
 }
