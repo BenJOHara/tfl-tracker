@@ -1,5 +1,15 @@
 {
   "active": {
+    "central:text:57e571a8abc00ea3": {
+      "category": "track fault",
+      "first_seen": "2026-09-06T12:27:52Z",
+      "issue_key": "central:text:57e571a8abc00ea3",
+      "line_id": "central",
+      "line_name": "Central",
+      "reason": "Central Line: Minor delays between Northolt and West Ruislip while we fix a track fault at Northolt. GOOD SERVICE on the rest of the line.",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
     "district:text:48f7b035b7fc51a8": {
       "category": "other",
       "first_seen": "2026-09-05T04:49:38Z",
@@ -4533,6 +4543,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-09-06T12:22:45Z",
+  "updated_at": "2026-09-06T12:27:52Z",
   "version": 1
 }
