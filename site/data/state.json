@@ -10,6 +10,16 @@
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
+    "circle:text:82f9370d15916ca0": {
+      "category": "other",
+      "first_seen": "2026-09-06T13:09:17Z",
+      "issue_key": "circle:text:82f9370d15916ca0",
+      "line_id": "circle",
+      "line_name": "Circle",
+      "reason": "Circle Line: Minor delays anticlockwise due to train cancellations. GOOD SERVICE clockwise.",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
     "district:text:48f7b035b7fc51a8": {
       "category": "other",
       "first_seen": "2026-09-05T04:49:38Z",
@@ -18,16 +28,6 @@
       "line_name": "District",
       "reason": "District Line: Saturday 5 and Sunday 6 September, no service between Edgware Road and Wimbledon. Rail Replacement bus services will operate. If travelling to/from Fulham vs Crystal Palace on Saturday, it may be easier to walk to/from Hammersmith.",
       "severity": "Part Closure",
-      "source_created": "0001-01-01T00:00:00"
-    },
-    "elizabeth:text:0150a78f14de13df": {
-      "category": "signal failure",
-      "first_seen": "2026-09-06T12:22:45Z",
-      "issue_key": "elizabeth:text:0150a78f14de13df",
-      "line_id": "elizabeth",
-      "line_name": "Elizabeth line",
-      "reason": "Minor delays between Paddington and Hayes & Harlington while we fix a signal failure at Acton. GOOD SERVICE on the rest of the line.",
-      "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
     "jubilee:text:740489a5e444c4f2": {
@@ -40,13 +40,13 @@
       "severity": "Part Suspended",
       "source_created": "0001-01-01T00:00:00"
     },
-    "mildmay:text:ddfd9e75c0e2b565": {
+    "mildmay:text:b152da4fd0857773": {
       "category": "person on track",
-      "first_seen": "2026-09-06T12:22:45Z",
-      "issue_key": "mildmay:text:ddfd9e75c0e2b565",
+      "first_seen": "2026-09-06T13:09:17Z",
+      "issue_key": "mildmay:text:b152da4fd0857773",
       "line_id": "mildmay",
       "line_name": "Mildmay",
-      "reason": "Mildmay Line: Minor delays between Willesden Junction and Clapham Junction due to an earlier trespasser on the track at Stratford. GOOD SERVICE on the rest of the line.",
+      "reason": "Mildmay Line: Minor delays between Willesden Junction and Clapham Junction / Richmond due to an earlier trespasser on the track at Stratford. GOOD SERVICE on the rest of the line.",
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
@@ -68,6 +68,16 @@
       "line_name": "Suffragette",
       "reason": "SUFFRAGETTE LINE: Sunday 6 September, a reduced service operates between Woodgrange Park and Barking Riverside. Trains run every 30 minutes.",
       "severity": "Reduced Service",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "victoria:text:02e0850cdf11ef25": {
+      "category": "other",
+      "first_seen": "2026-09-06T13:09:17Z",
+      "issue_key": "victoria:text:02e0850cdf11ef25",
+      "line_id": "victoria",
+      "line_name": "Victoria",
+      "reason": "Victoria Line: Minor delays due to train cancellations.",
+      "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
     "waterloo-city:text:02da0890c7cbf303": {
@@ -102,6 +112,30 @@
     }
   },
   "history": [
+    {
+      "category": "signal failure",
+      "duration_seconds": 2792,
+      "first_seen": "2026-09-06T12:22:45Z",
+      "issue_key": "elizabeth:text:0150a78f14de13df",
+      "line_id": "elizabeth",
+      "line_name": "Elizabeth line",
+      "reason": "Minor delays between Paddington and Hayes & Harlington while we fix a signal failure at Acton. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-09-06T13:09:17Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "person on track",
+      "duration_seconds": 2792,
+      "first_seen": "2026-09-06T12:22:45Z",
+      "issue_key": "mildmay:text:ddfd9e75c0e2b565",
+      "line_id": "mildmay",
+      "line_name": "Mildmay",
+      "reason": "Mildmay Line: Minor delays between Willesden Junction and Clapham Junction due to an earlier trespasser on the track at Stratford. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-09-06T13:09:17Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
     {
       "category": "planned engineering",
       "duration_seconds": 11128,
@@ -4543,6 +4577,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-09-06T12:27:52Z",
+  "updated_at": "2026-09-06T13:09:17Z",
   "version": 1
 }
