@@ -1,15 +1,5 @@
 {
   "active": {
-    "central:text:d3a69d16e0daaa11": {
-      "category": "signal failure",
-      "first_seen": "2026-09-06T15:34:12Z",
-      "issue_key": "central:text:d3a69d16e0daaa11",
-      "line_id": "central",
-      "line_name": "Central",
-      "reason": "Central Line: Minor delays between West Ruislip and Northolt due to an earlier signal failure at North Acton. GOOD SERVICE on the rest of the line.",
-      "severity": "Minor Delays",
-      "source_created": "0001-01-01T00:00:00"
-    },
     "district:text:48f7b035b7fc51a8": {
       "category": "other",
       "first_seen": "2026-09-05T04:49:38Z",
@@ -30,6 +20,16 @@
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
+    "elizabeth:text:5e67165319ca28e1": {
+      "category": "other",
+      "first_seen": "2026-09-06T17:40:20Z",
+      "issue_key": "elizabeth:text:5e67165319ca28e1",
+      "line_id": "elizabeth",
+      "line_name": "Elizabeth line",
+      "reason": "Minor delays between Whitechapel and Shenfield while we fix a signal system failure in the Chadwell Heath area. GOOD SERVICE on the rest of the line.",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
     "jubilee:text:d1e78d3251fb68ca": {
       "category": "fire alert",
       "first_seen": "2026-09-06T15:34:12Z",
@@ -38,6 +38,16 @@
       "line_name": "Jubilee",
       "reason": "Jubilee Line: Severe delays due to an earlier fire alert at Stratford. Tickets are being accepted on London Buses, London Overground, DLR, Elizabeth line, C2C, Southeastern and Thameslink. For services to Wembley Stadium please use the Bakerloo line to Wembley Central.",
       "severity": "Severe Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "metropolitan:text:6deb6cc000d3cb87": {
+      "category": "points failure",
+      "first_seen": "2026-09-06T17:40:20Z",
+      "issue_key": "metropolitan:text:6deb6cc000d3cb87",
+      "line_id": "metropolitan",
+      "line_name": "Metropolitan",
+      "reason": "Metropolitan Line: Minor delays between Chalfont & Latimer and Chesham while we fix a points failure at Moor Park. GOOD SERVICE on the rest of the line.",
+      "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
     "suffragette:text:0e55d5b7b5f6e760": {
@@ -102,6 +112,18 @@
     }
   },
   "history": [
+    {
+      "category": "signal failure",
+      "duration_seconds": 7568,
+      "first_seen": "2026-09-06T15:34:12Z",
+      "issue_key": "central:text:d3a69d16e0daaa11",
+      "line_id": "central",
+      "line_name": "Central",
+      "reason": "Central Line: Minor delays between West Ruislip and Northolt due to an earlier signal failure at North Acton. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-09-06T17:40:20Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
     {
       "category": "track fault",
       "duration_seconds": 11180,
@@ -4615,6 +4637,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-09-06T15:34:12Z",
+  "updated_at": "2026-09-06T17:40:20Z",
   "version": 1
 }
