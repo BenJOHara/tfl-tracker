@@ -90,28 +90,42 @@
       "severity": "Planned Closure",
       "source_created": "0001-01-01T00:00:00"
     },
-    "windrush:text:14ec08cd7b8585c0": {
+    "windrush:text:eb0c133ed7eb265c": {
       "category": "other",
+      "first_seen": "2026-09-06T18:31:39Z",
+      "issue_key": "windrush:text:eb0c133ed7eb265c",
+      "line_id": "windrush",
+      "line_name": "Windrush",
+      "reason": "WINDRUSH LINE: Sunday 6 September, from 1915, no service between Highbury & Islington and Battersea Park / Clapham Junction / Crystal Palace / New Cross Gate / West Croydon. Use MILDMAY LINE services between Highbury & Islington, Canonbury and Dalston Kingsland. Use SOUTHERN connections for stations south of New Cross Gate, and local buses for New Cross, Penge West and Anerley. Replacement buses operate.",
+      "severity": "Planned Closure",
+      "source_created": "0001-01-01T00:00:00"
+    }
+  },
+  "history": [
+    {
+      "category": "other",
+      "duration_seconds": 50611,
       "first_seen": "2026-09-06T04:28:08Z",
       "issue_key": "windrush:text:14ec08cd7b8585c0",
       "line_id": "windrush",
       "line_name": "Windrush",
       "reason": "WINDRUSH LINE: Sunday 6 September, until 1915, no service between Sydenham and West Croydon. Change at Crystal Palace for trains to/from Norwood Junction and connections to/from West Croydon. Use local London Buses services for Penge West and Anerley.",
+      "resolved_at": "2026-09-06T18:31:39Z",
       "severity": "Part Closure",
       "source_created": "0001-01-01T00:00:00"
     },
-    "windrush:text:3c3044e104c5cd8e": {
+    {
       "category": "other",
+      "duration_seconds": 135721,
       "first_seen": "2026-09-05T04:49:38Z",
       "issue_key": "windrush:text:3c3044e104c5cd8e",
       "line_id": "windrush",
       "line_name": "Windrush",
       "reason": "WINDRUSH LINE: Saturday 5, all day, and Sunday 6 September, until 1915, no service between Surrey Quays and Clapham Junction / Battersea Park. There will also be no SOUTHERN trains at Queens Road Peckham and Peckham Rye. Replacement bus service M operates between Canada Water and Clapham Junction via Surrey Quays, Queens Road Peckham, Peckham Rye, Denmark Hill, Clapham High Street and Wandsworth Road. In addition, replacement buses operate between London Bridge and Tulse Hill via South Bermondsey, Queens Road Peckham, Peckham Rye, East Dulwich, North Dulwich and Herne Hill.",
+      "resolved_at": "2026-09-06T18:31:39Z",
       "severity": "Part Closure",
       "source_created": "0001-01-01T00:00:00"
-    }
-  },
-  "history": [
+    },
     {
       "category": "points failure",
       "duration_seconds": 368,
@@ -4649,6 +4663,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-09-06T17:46:28Z",
+  "updated_at": "2026-09-06T18:31:39Z",
   "version": 1
 }
