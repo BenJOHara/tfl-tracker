@@ -1,17 +1,18 @@
 {
-  "active": {
-    "waterloo-city:text:1bbcac27f282d0db": {
+  "active": {},
+  "history": [
+    {
       "category": "other",
+      "duration_seconds": 18921,
       "first_seen": "2026-09-07T00:11:47Z",
       "issue_key": "waterloo-city:text:1bbcac27f282d0db",
       "line_id": "waterloo-city",
       "line_name": "Waterloo & City",
       "reason": "Waterloo and City Line: Service will resume at 06:00 on Monday.",
+      "resolved_at": "2026-09-07T05:27:08Z",
       "severity": "Service Closed",
       "source_created": "0001-01-01T00:00:00"
-    }
-  },
-  "history": [
+    },
     {
       "category": "other",
       "duration_seconds": 16217,
@@ -4957,6 +4958,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-09-07T04:42:04Z",
+  "updated_at": "2026-09-07T05:27:08Z",
   "version": 1
 }
