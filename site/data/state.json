@@ -6,32 +6,56 @@
       "issue_key": "elizabeth:text:4749f7e7c36f33be",
       "line_id": "elizabeth",
       "line_name": "Elizabeth line",
-      "reason": "Severe delays between Heathrow Terminals 2&3 and Heathrow Terminal 5 while we fix equipment damaged by vandalism in the Kensal Green area. Customers should use Piccadilly line to travel to Heathrow Airport and use the free interchange service to travel between terminals. MINOR DELAYS between Hayes & Harlington and Reading due to an earlier a vehicle hitting a bridge earlier at Burnham and MINOR DELAYS between Shenfield and Whitechapel due to an earlier signal system failure at Ilford. GOOD SERVICE on the rest of the line.",
+      "reason": "Severe delays between Heathrow Terminals 2&3 and Heathrow Terminal 5 while we fix equipment damaged by vandalism in the Kensal Green area. Customers should use Piccadilly line to travel to Heathrow Airport and use the free interchange service to travel between terminals. MINOR DELAYS between Paddington and Reading due to an earlier a vehicle hitting a bridge at Burnham. GOOD SERVICE on the rest of the line.",
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "metropolitan:text:1af1fda4f10f1200": {
+    "metropolitan:text:5423585d7c01fe2e": {
       "category": "signal failure",
+      "first_seen": "2026-09-07T15:18:21Z",
+      "issue_key": "metropolitan:text:5423585d7c01fe2e",
+      "line_id": "metropolitan",
+      "line_name": "Metropolitan",
+      "reason": "Metropolitan Line: Minor delays between Moor Park and Watford while we fix a signal failure at Watford. GOOD SERVICE on the rest of the line.",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "victoria:text:cff6c1e249178852": {
+      "category": "passenger incident",
+      "first_seen": "2026-09-07T15:18:21Z",
+      "issue_key": "victoria:text:cff6c1e249178852",
+      "line_id": "victoria",
+      "line_name": "Victoria",
+      "reason": "Victoria Line: Minor delays due to an earlier customer incident.",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    }
+  },
+  "history": [
+    {
+      "category": "signal failure",
+      "duration_seconds": 9121,
       "first_seen": "2026-09-07T12:46:20Z",
       "issue_key": "metropolitan:text:1af1fda4f10f1200",
       "line_id": "metropolitan",
       "line_name": "Metropolitan",
       "reason": "Metropolitan Line: No service between Amersham and Chalfont & Latimer while we fix a signal failure at Amersham. Minor delays between Moor Park and Watford while we fix a signal failure at Watford. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-09-07T15:18:21Z",
       "severity": "Part Suspended",
       "source_created": "0001-01-01T00:00:00"
     },
-    "victoria:text:ab89b49b1da4c8b9": {
+    {
       "category": "passenger incident",
+      "duration_seconds": 16604,
       "first_seen": "2026-09-07T10:41:37Z",
       "issue_key": "victoria:text:ab89b49b1da4c8b9",
       "line_id": "victoria",
       "line_name": "Victoria",
       "reason": "Victoria Line: Severe delays due to an earlier customer incident. Tickets are being accepted on London Buses, Weaver line and Suffragette line.",
+      "resolved_at": "2026-09-07T15:18:21Z",
       "severity": "Severe Delays",
       "source_created": "0001-01-01T00:00:00"
-    }
-  },
-  "history": [
+    },
     {
       "category": "signal failure",
       "duration_seconds": 7483,
@@ -5049,6 +5073,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-09-07T12:46:20Z",
+  "updated_at": "2026-09-07T15:18:21Z",
   "version": 1
 }
