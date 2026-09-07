@@ -30,6 +30,16 @@
       "severity": "Severe Delays",
       "source_created": "0001-01-01T00:00:00"
     },
+    "hammersmith-city:text:004129bf5e441754": {
+      "category": "other",
+      "first_seen": "2026-09-07T19:53:16Z",
+      "issue_key": "hammersmith-city:text:004129bf5e441754",
+      "line_id": "hammersmith-city",
+      "line_name": "Hammersmith & City",
+      "reason": "Hammersmith and City Line: Minor delays due to train cancellations.",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
     "victoria:text:02e0850cdf11ef25": {
       "category": "other",
       "first_seen": "2026-09-07T16:02:52Z",
@@ -5143,6 +5153,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-09-07T19:20:13Z",
+  "updated_at": "2026-09-07T19:53:16Z",
   "version": 1
 }
