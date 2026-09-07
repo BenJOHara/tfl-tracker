@@ -16,28 +16,8 @@
       "issue_key": "central:text:78dd5eb22a4e0d13",
       "line_id": "central",
       "line_name": "Central",
-      "reason": "Central Line: No service between Leytonstone and Hainault via Grange Hill while we fix a faulty train at Hainault and MINOR DELAYS between North Acton and Ealing Broadway/West Ruislip and between Leytonstone and Epping due to train cancellations. GOOD SERVICE on the rest of the line. Tickets are being accepted on London Buses.",
+      "reason": "Central Line: No service between Leytonstone and Hainault via Grange Hill while we fix a faulty train at Hainault and MINOR DELAYS between North Acton and Ealing Broadway/West Ruislip and between Leytonstone and Epping due to train cancellations. SEVERE DELAYS on the rest of the line. Tickets are being accepted on London Buses.",
       "severity": "Part Suspended",
-      "source_created": "0001-01-01T00:00:00"
-    },
-    "elizabeth:text:2bb0a0481ef9fd4d": {
-      "category": "other",
-      "first_seen": "2026-09-07T21:27:19Z",
-      "issue_key": "elizabeth:text:2bb0a0481ef9fd4d",
-      "line_id": "elizabeth",
-      "line_name": "Elizabeth line",
-      "reason": "Severe delays between Heathrow Terminals 2&3 and Heathrow Terminal 5 while we fix equipment damaged by vandalism in the Paddington area. Customers should use Piccadilly line to travel to Heathrow Airport and use the free interchange service to travel between terminals. GOOD SERVICE on the rest of the line.",
-      "severity": "Severe Delays",
-      "source_created": "0001-01-01T00:00:00"
-    },
-    "hammersmith-city:text:004129bf5e441754": {
-      "category": "other",
-      "first_seen": "2026-09-07T19:53:16Z",
-      "issue_key": "hammersmith-city:text:004129bf5e441754",
-      "line_id": "hammersmith-city",
-      "line_name": "Hammersmith & City",
-      "reason": "Hammersmith and City Line: Minor delays due to train cancellations.",
-      "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
     "windrush:text:9c23677941895d60": {
@@ -52,6 +32,30 @@
     }
   },
   "history": [
+    {
+      "category": "other",
+      "duration_seconds": 2727,
+      "first_seen": "2026-09-07T21:27:19Z",
+      "issue_key": "elizabeth:text:2bb0a0481ef9fd4d",
+      "line_id": "elizabeth",
+      "line_name": "Elizabeth line",
+      "reason": "Severe delays between Heathrow Terminals 2&3 and Heathrow Terminal 5 while we fix equipment damaged by vandalism in the Paddington area. Customers should use Piccadilly line to travel to Heathrow Airport and use the free interchange service to travel between terminals. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-09-07T22:12:46Z",
+      "severity": "Severe Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "other",
+      "duration_seconds": 8370,
+      "first_seen": "2026-09-07T19:53:16Z",
+      "issue_key": "hammersmith-city:text:004129bf5e441754",
+      "line_id": "hammersmith-city",
+      "line_name": "Hammersmith & City",
+      "reason": "Hammersmith and City Line: Minor delays due to train cancellations.",
+      "resolved_at": "2026-09-07T22:12:46Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
     {
       "category": "train fault",
       "duration_seconds": 7626,
@@ -5189,6 +5193,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-09-07T21:27:19Z",
+  "updated_at": "2026-09-07T22:12:46Z",
   "version": 1
 }
