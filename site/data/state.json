@@ -10,14 +10,24 @@
       "severity": "Severe Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "central:text:78dd5eb22a4e0d13": {
+    "central:text:c7aad24a349c06d2": {
       "category": "train fault",
-      "first_seen": "2026-09-07T21:27:19Z",
-      "issue_key": "central:text:78dd5eb22a4e0d13",
+      "first_seen": "2026-09-07T23:43:42Z",
+      "issue_key": "central:text:c7aad24a349c06d2",
       "line_id": "central",
       "line_name": "Central",
-      "reason": "Central Line: No service between Leytonstone and Hainault via Grange Hill while we fix a faulty train at Hainault and MINOR DELAYS between North Acton and Ealing Broadway/West Ruislip and between Leytonstone and Epping due to train cancellations. SEVERE DELAYS on the rest of the line. Tickets are being accepted on London Buses.",
-      "severity": "Part Suspended",
+      "reason": "Central Line: Severe delays due to an earlier faulty train at Hainault Tickets are being accepted on London Buses.",
+      "severity": "Severe Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "waterloo-city:text:0faebd0ea99ebd1b": {
+      "category": "other",
+      "first_seen": "2026-09-07T23:43:42Z",
+      "issue_key": "waterloo-city:text:0faebd0ea99ebd1b",
+      "line_id": "waterloo-city",
+      "line_name": "Waterloo & City",
+      "reason": "Waterloo and City Line: Service will resume at 06:00.",
+      "severity": "Service Closed",
       "source_created": "0001-01-01T00:00:00"
     },
     "windrush:text:9c23677941895d60": {
@@ -32,6 +42,18 @@
     }
   },
   "history": [
+    {
+      "category": "train fault",
+      "duration_seconds": 8183,
+      "first_seen": "2026-09-07T21:27:19Z",
+      "issue_key": "central:text:78dd5eb22a4e0d13",
+      "line_id": "central",
+      "line_name": "Central",
+      "reason": "Central Line: No service between Leytonstone and Hainault via Grange Hill while we fix a faulty train at Hainault and MINOR DELAYS between North Acton and Ealing Broadway/West Ruislip and between Leytonstone and Epping due to train cancellations. SEVERE DELAYS on the rest of the line. Tickets are being accepted on London Buses.",
+      "resolved_at": "2026-09-07T23:43:42Z",
+      "severity": "Part Suspended",
+      "source_created": "0001-01-01T00:00:00"
+    },
     {
       "category": "other",
       "duration_seconds": 2727,
@@ -5193,6 +5215,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-09-07T22:12:46Z",
+  "updated_at": "2026-09-07T23:43:42Z",
   "version": 1
 }
