@@ -1,23 +1,23 @@
 {
   "active": {
-    "central:text:46bc7de1e13ca6ae": {
-      "category": "other",
-      "first_seen": "2026-09-07T16:02:52Z",
-      "issue_key": "central:text:46bc7de1e13ca6ae",
-      "line_id": "central",
-      "line_name": "Central",
-      "reason": "Central Line: Minor delays between North Acton and Ealing Broadway/West Ruislip and between Leytonstone and Epping/Hainault via Newbury Park due to train cancellations.",
-      "severity": "Minor Delays",
+    "bakerloo:text:67cba68fbb9f0f1e": {
+      "category": "track fault",
+      "first_seen": "2026-09-07T19:20:13Z",
+      "issue_key": "bakerloo:text:67cba68fbb9f0f1e",
+      "line_id": "bakerloo",
+      "line_name": "Bakerloo",
+      "reason": "Bakerloo Line: Severe delays due to a track fault at Stonebridge Park. Tickets will be accepted on local buses.",
+      "severity": "Severe Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "district:text:2567bbcaab3ef271": {
-      "category": "other",
-      "first_seen": "2026-09-07T17:57:02Z",
-      "issue_key": "district:text:2567bbcaab3ef271",
-      "line_id": "district",
-      "line_name": "District",
-      "reason": "District Line: Minor delays between Turnham Green and Ealing Broadway due to an earlier security alert. Tickets being accepted on London Buses. GOOD SERVICE on the rest of the line.",
-      "severity": "Minor Delays",
+    "central:text:bef2c30051a0df92": {
+      "category": "train fault",
+      "first_seen": "2026-09-07T19:20:13Z",
+      "issue_key": "central:text:bef2c30051a0df92",
+      "line_id": "central",
+      "line_name": "Central",
+      "reason": "Central Line: No service between Hainault and Woodford via Grange Hill while we fix a faulty train at Hainault and MINOR DELAYS between North Acton and Ealing Broadway/West Ruislip and between Leytonstone and Epping due to train cancellations. GOOD SERVICE on the rest of the line. Tickets are being accepted on London Buses.",
+      "severity": "Part Suspended",
       "source_created": "0001-01-01T00:00:00"
     },
     "elizabeth:text:4749f7e7c36f33be": {
@@ -26,28 +26,8 @@
       "issue_key": "elizabeth:text:4749f7e7c36f33be",
       "line_id": "elizabeth",
       "line_name": "Elizabeth line",
-      "reason": "Severe delays between Heathrow Terminals 2&3 and Heathrow Terminal 5 while we fix equipment damaged by vandalism in the Kensal Green area. Customers should use Piccadilly line to travel to Heathrow Airport and use the free interchange service to travel between terminals. MINOR DELAYS between Paddington and Reading. GOOD SERVICE on the rest of the line.",
-      "severity": "Minor Delays",
-      "source_created": "0001-01-01T00:00:00"
-    },
-    "hammersmith-city:text:e589627c30faa7bc": {
-      "category": "other",
-      "first_seen": "2026-09-07T17:57:02Z",
-      "issue_key": "hammersmith-city:text:e589627c30faa7bc",
-      "line_id": "hammersmith-city",
-      "line_name": "Hammersmith & City",
-      "reason": "Hammersmith and City Line: Minor delays due to an earlier security alert.",
-      "severity": "Minor Delays",
-      "source_created": "0001-01-01T00:00:00"
-    },
-    "metropolitan:text:5423585d7c01fe2e": {
-      "category": "signal failure",
-      "first_seen": "2026-09-07T15:18:21Z",
-      "issue_key": "metropolitan:text:5423585d7c01fe2e",
-      "line_id": "metropolitan",
-      "line_name": "Metropolitan",
-      "reason": "Metropolitan Line: Minor delays between Moor Park and Watford while we fix a signal failure at Watford. GOOD SERVICE on the rest of the line.",
-      "severity": "Minor Delays",
+      "reason": "Severe delays between Heathrow Terminals 2&3 and Heathrow Terminal 5 while we fix equipment damaged by vandalism in the Kensal Green area. Customers should use Piccadilly line to travel to Heathrow Airport and use the free interchange service to travel between terminals. GOOD SERVICE on the rest of the line.",
+      "severity": "Severe Delays",
       "source_created": "0001-01-01T00:00:00"
     },
     "victoria:text:02e0850cdf11ef25": {
@@ -62,6 +42,54 @@
     }
   },
   "history": [
+    {
+      "category": "other",
+      "duration_seconds": 11841,
+      "first_seen": "2026-09-07T16:02:52Z",
+      "issue_key": "central:text:46bc7de1e13ca6ae",
+      "line_id": "central",
+      "line_name": "Central",
+      "reason": "Central Line: Minor delays between North Acton and Ealing Broadway/West Ruislip and between Leytonstone and Epping/Hainault via Newbury Park due to train cancellations.",
+      "resolved_at": "2026-09-07T19:20:13Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "other",
+      "duration_seconds": 4991,
+      "first_seen": "2026-09-07T17:57:02Z",
+      "issue_key": "district:text:2567bbcaab3ef271",
+      "line_id": "district",
+      "line_name": "District",
+      "reason": "District Line: Minor delays between Turnham Green and Ealing Broadway due to an earlier security alert. Tickets being accepted on London Buses. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-09-07T19:20:13Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "other",
+      "duration_seconds": 4991,
+      "first_seen": "2026-09-07T17:57:02Z",
+      "issue_key": "hammersmith-city:text:e589627c30faa7bc",
+      "line_id": "hammersmith-city",
+      "line_name": "Hammersmith & City",
+      "reason": "Hammersmith and City Line: Minor delays due to an earlier security alert.",
+      "resolved_at": "2026-09-07T19:20:13Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "signal failure",
+      "duration_seconds": 14512,
+      "first_seen": "2026-09-07T15:18:21Z",
+      "issue_key": "metropolitan:text:5423585d7c01fe2e",
+      "line_id": "metropolitan",
+      "line_name": "Metropolitan",
+      "reason": "Metropolitan Line: Minor delays between Moor Park and Watford while we fix a signal failure at Watford. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-09-07T19:20:13Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
     {
       "category": "passenger incident",
       "duration_seconds": 2671,
@@ -5115,6 +5143,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-09-07T17:57:02Z",
+  "updated_at": "2026-09-07T19:20:13Z",
   "version": 1
 }
