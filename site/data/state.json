@@ -1,12 +1,22 @@
 {
   "active": {
+    "central:text:46bc7de1e13ca6ae": {
+      "category": "other",
+      "first_seen": "2026-09-07T16:02:52Z",
+      "issue_key": "central:text:46bc7de1e13ca6ae",
+      "line_id": "central",
+      "line_name": "Central",
+      "reason": "Central Line: Minor delays between North Acton and Ealing Broadway/West Ruislip and between Leytonstone and Epping/Hainault via Newbury Park due to train cancellations.",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
     "elizabeth:text:4749f7e7c36f33be": {
       "category": "other",
       "first_seen": "2026-09-07T09:45:23Z",
       "issue_key": "elizabeth:text:4749f7e7c36f33be",
       "line_id": "elizabeth",
       "line_name": "Elizabeth line",
-      "reason": "Severe delays between Heathrow Terminals 2&3 and Heathrow Terminal 5 while we fix equipment damaged by vandalism in the Kensal Green area. Customers should use Piccadilly line to travel to Heathrow Airport and use the free interchange service to travel between terminals. MINOR DELAYS between Paddington and Reading due to an earlier a vehicle hitting a bridge at Burnham. GOOD SERVICE on the rest of the line.",
+      "reason": "Severe delays between Heathrow Terminals 2&3 and Heathrow Terminal 5 while we fix equipment damaged by vandalism in the Kensal Green area. Customers should use Piccadilly line to travel to Heathrow Airport and use the free interchange service to travel between terminals. MINOR DELAYS between Paddington and Reading. GOOD SERVICE on the rest of the line.",
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
@@ -20,18 +30,30 @@
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "victoria:text:cff6c1e249178852": {
-      "category": "passenger incident",
-      "first_seen": "2026-09-07T15:18:21Z",
-      "issue_key": "victoria:text:cff6c1e249178852",
+    "victoria:text:02e0850cdf11ef25": {
+      "category": "other",
+      "first_seen": "2026-09-07T16:02:52Z",
+      "issue_key": "victoria:text:02e0850cdf11ef25",
       "line_id": "victoria",
       "line_name": "Victoria",
-      "reason": "Victoria Line: Minor delays due to an earlier customer incident.",
+      "reason": "Victoria Line: Minor delays due to train cancellations.",
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     }
   },
   "history": [
+    {
+      "category": "passenger incident",
+      "duration_seconds": 2671,
+      "first_seen": "2026-09-07T15:18:21Z",
+      "issue_key": "victoria:text:cff6c1e249178852",
+      "line_id": "victoria",
+      "line_name": "Victoria",
+      "reason": "Victoria Line: Minor delays due to an earlier customer incident.",
+      "resolved_at": "2026-09-07T16:02:52Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
     {
       "category": "signal failure",
       "duration_seconds": 9121,
@@ -5073,6 +5095,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-09-07T15:18:21Z",
+  "updated_at": "2026-09-07T16:02:52Z",
   "version": 1
 }
