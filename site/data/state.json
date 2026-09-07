@@ -1,33 +1,23 @@
 {
   "active": {
-    "central:text:20bc0e98878dc4ce": {
-      "category": "signal failure",
-      "first_seen": "2026-09-07T10:41:37Z",
-      "issue_key": "central:text:20bc0e98878dc4ce",
-      "line_id": "central",
-      "line_name": "Central",
-      "reason": "Central Line: Minor delays due to an earlier signal failure at Liverpool Street.",
-      "severity": "Minor Delays",
-      "source_created": "0001-01-01T00:00:00"
-    },
     "elizabeth:text:4749f7e7c36f33be": {
       "category": "other",
       "first_seen": "2026-09-07T09:45:23Z",
       "issue_key": "elizabeth:text:4749f7e7c36f33be",
       "line_id": "elizabeth",
       "line_name": "Elizabeth line",
-      "reason": "Severe delays between Heathrow Terminals 2&3 and Heathrow Terminal 5 while we fix equipment damaged by vandalism in the Kensal Green area. Customers should use Piccadilly line to travel to Heathrow Airport and use the free interchange service to travel between terminals.",
-      "severity": "Severe Delays",
+      "reason": "Severe delays between Heathrow Terminals 2&3 and Heathrow Terminal 5 while we fix equipment damaged by vandalism in the Kensal Green area. Customers should use Piccadilly line to travel to Heathrow Airport and use the free interchange service to travel between terminals. MINOR DELAYS between Hayes & Harlington and Reading due to an earlier a vehicle hitting a bridge earlier at Burnham and MINOR DELAYS between Shenfield and Whitechapel due to an earlier signal system failure at Ilford. GOOD SERVICE on the rest of the line.",
+      "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "metropolitan:text:61aac13e03537b1c": {
+    "metropolitan:text:1af1fda4f10f1200": {
       "category": "signal failure",
-      "first_seen": "2026-09-07T10:41:37Z",
-      "issue_key": "metropolitan:text:61aac13e03537b1c",
+      "first_seen": "2026-09-07T12:46:20Z",
+      "issue_key": "metropolitan:text:1af1fda4f10f1200",
       "line_id": "metropolitan",
       "line_name": "Metropolitan",
-      "reason": "Metropolitan Line: Minor delays between Harrow-on-the-Hill and Watford/ Amersham/ Chesham while we fix a signal failure at Watford and MINOR DELAYS between Harrow-on-the-Hill and Uxbridge due to an earlier signal failure at Rayners Lane. GOOD SERVICE on the rest of the line.",
-      "severity": "Minor Delays",
+      "reason": "Metropolitan Line: No service between Amersham and Chalfont & Latimer while we fix a signal failure at Amersham. Minor delays between Moor Park and Watford while we fix a signal failure at Watford. GOOD SERVICE on the rest of the line.",
+      "severity": "Part Suspended",
       "source_created": "0001-01-01T00:00:00"
     },
     "victoria:text:ab89b49b1da4c8b9": {
@@ -42,6 +32,30 @@
     }
   },
   "history": [
+    {
+      "category": "signal failure",
+      "duration_seconds": 7483,
+      "first_seen": "2026-09-07T10:41:37Z",
+      "issue_key": "central:text:20bc0e98878dc4ce",
+      "line_id": "central",
+      "line_name": "Central",
+      "reason": "Central Line: Minor delays due to an earlier signal failure at Liverpool Street.",
+      "resolved_at": "2026-09-07T12:46:20Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "signal failure",
+      "duration_seconds": 7483,
+      "first_seen": "2026-09-07T10:41:37Z",
+      "issue_key": "metropolitan:text:61aac13e03537b1c",
+      "line_id": "metropolitan",
+      "line_name": "Metropolitan",
+      "reason": "Metropolitan Line: Minor delays between Harrow-on-the-Hill and Watford/ Amersham/ Chesham while we fix a signal failure at Watford and MINOR DELAYS between Harrow-on-the-Hill and Uxbridge due to an earlier signal failure at Rayners Lane. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-09-07T12:46:20Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
     {
       "category": "signal failure",
       "duration_seconds": 3374,
@@ -5035,6 +5049,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-09-07T10:41:37Z",
+  "updated_at": "2026-09-07T12:46:20Z",
   "version": 1
 }
