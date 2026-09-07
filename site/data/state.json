@@ -1,13 +1,13 @@
 {
   "active": {
-    "central:text:7a7435ad38b3ead9": {
+    "central:text:20bc0e98878dc4ce": {
       "category": "signal failure",
-      "first_seen": "2026-09-07T09:45:23Z",
-      "issue_key": "central:text:7a7435ad38b3ead9",
+      "first_seen": "2026-09-07T10:41:37Z",
+      "issue_key": "central:text:20bc0e98878dc4ce",
       "line_id": "central",
       "line_name": "Central",
-      "reason": "Central Line: Severe delays while we fix a signal failure at Liverpool Street. Tickets will be accepted on London Buses, Liberty Line, Elizabeth Line, Chiltern Railways, Great Western Railway and Greater Anglia Railways.",
-      "severity": "Severe Delays",
+      "reason": "Central Line: Minor delays due to an earlier signal failure at Liverpool Street.",
+      "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
     "elizabeth:text:4749f7e7c36f33be": {
@@ -20,28 +20,64 @@
       "severity": "Severe Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "piccadilly:text:7e4c997dd9e823ed": {
+    "metropolitan:text:61aac13e03537b1c": {
       "category": "signal failure",
+      "first_seen": "2026-09-07T10:41:37Z",
+      "issue_key": "metropolitan:text:61aac13e03537b1c",
+      "line_id": "metropolitan",
+      "line_name": "Metropolitan",
+      "reason": "Metropolitan Line: Minor delays between Harrow-on-the-Hill and Watford/ Amersham/ Chesham while we fix a signal failure at Watford and MINOR DELAYS between Harrow-on-the-Hill and Uxbridge due to an earlier signal failure at Rayners Lane. GOOD SERVICE on the rest of the line.",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "victoria:text:ab89b49b1da4c8b9": {
+      "category": "passenger incident",
+      "first_seen": "2026-09-07T10:41:37Z",
+      "issue_key": "victoria:text:ab89b49b1da4c8b9",
+      "line_id": "victoria",
+      "line_name": "Victoria",
+      "reason": "Victoria Line: Severe delays due to an earlier customer incident. Tickets are being accepted on London Buses, Weaver line and Suffragette line.",
+      "severity": "Severe Delays",
+      "source_created": "0001-01-01T00:00:00"
+    }
+  },
+  "history": [
+    {
+      "category": "signal failure",
+      "duration_seconds": 3374,
+      "first_seen": "2026-09-07T09:45:23Z",
+      "issue_key": "central:text:7a7435ad38b3ead9",
+      "line_id": "central",
+      "line_name": "Central",
+      "reason": "Central Line: Severe delays while we fix a signal failure at Liverpool Street. Tickets will be accepted on London Buses, Liberty Line, Elizabeth Line, Chiltern Railways, Great Western Railway and Greater Anglia Railways.",
+      "resolved_at": "2026-09-07T10:41:37Z",
+      "severity": "Severe Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "signal failure",
+      "duration_seconds": 3374,
       "first_seen": "2026-09-07T09:45:23Z",
       "issue_key": "piccadilly:text:7e4c997dd9e823ed",
       "line_id": "piccadilly",
       "line_name": "Piccadilly",
       "reason": "Piccadilly Line: No service between Rayners Lane and Uxbridge while we fix a signal failure at Rayners Lane. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-09-07T10:41:37Z",
       "severity": "Part Suspended",
       "source_created": "0001-01-01T00:00:00"
     },
-    "victoria:text:f51eb191412b3f7d": {
+    {
       "category": "other",
+      "duration_seconds": 3374,
       "first_seen": "2026-09-07T09:45:23Z",
       "issue_key": "victoria:text:f51eb191412b3f7d",
       "line_id": "victoria",
       "line_name": "Victoria",
       "reason": "Victoria Line: No service between Seven Sisters and Walthamstow Central, and SEVERE DELAYS on the rest of the line while emergency services deal with a casualty on the track. Tickets are being accepted on London Buses, Weaver line and Suffragette line.",
+      "resolved_at": "2026-09-07T10:41:37Z",
       "severity": "Part Suspended",
       "source_created": "0001-01-01T00:00:00"
-    }
-  },
-  "history": [
+    },
     {
       "category": "other",
       "duration_seconds": 18921,
@@ -4999,6 +5035,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-09-07T09:45:23Z",
+  "updated_at": "2026-09-07T10:41:37Z",
   "version": 1
 }
