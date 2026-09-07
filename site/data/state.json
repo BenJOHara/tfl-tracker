@@ -40,16 +40,6 @@
       "severity": "Service Closed",
       "source_created": "0001-01-01T00:00:00"
     },
-    "district:text:48f7b035b7fc51a8": {
-      "category": "other",
-      "first_seen": "2026-09-05T04:49:38Z",
-      "issue_key": "district:text:48f7b035b7fc51a8",
-      "line_id": "district",
-      "line_name": "District",
-      "reason": "District Line: Saturday 5 and Sunday 6 September, no service between Edgware Road and Wimbledon. Rail Replacement bus services will operate. If travelling to/from Fulham vs Crystal Palace on Saturday, it may be easier to walk to/from Hammersmith.",
-      "severity": "Part Closure",
-      "source_created": "0001-01-01T00:00:00"
-    },
     "dlr:text:fb244db083a3f0ff": {
       "category": "other",
       "first_seen": "2026-09-07T00:11:47Z",
@@ -150,16 +140,6 @@
       "severity": "Service Closed",
       "source_created": "0001-01-01T00:00:00"
     },
-    "suffragette:text:0e55d5b7b5f6e760": {
-      "category": "other",
-      "first_seen": "2026-09-06T04:28:08Z",
-      "issue_key": "suffragette:text:0e55d5b7b5f6e760",
-      "line_id": "suffragette",
-      "line_name": "Suffragette",
-      "reason": "SUFFRAGETTE LINE: Sunday 6 September, no service between Gospel Oak and Woodgrange Park. Use VICTORIA LINE connections between Seven Sisters (for South Tottenham), Blackhorse Road and Walthamstow Central (for Walthamstow Queens Road). Replacement buses operate.",
-      "severity": "Part Closure",
-      "source_created": "0001-01-01T00:00:00"
-    },
     "suffragette:text:774000467a2b26d3": {
       "category": "other",
       "first_seen": "2026-09-07T00:11:47Z",
@@ -168,16 +148,6 @@
       "line_name": "Suffragette",
       "reason": "Suffragette Line: Service will resume later this morning.",
       "severity": "Service Closed",
-      "source_created": "0001-01-01T00:00:00"
-    },
-    "suffragette:text:8b6b92f1998c923e": {
-      "category": "other",
-      "first_seen": "2026-09-06T04:28:08Z",
-      "issue_key": "suffragette:text:8b6b92f1998c923e",
-      "line_id": "suffragette",
-      "line_name": "Suffragette",
-      "reason": "SUFFRAGETTE LINE: Sunday 6 September, a reduced service operates between Woodgrange Park and Barking Riverside. Trains run every 30 minutes.",
-      "severity": "Reduced Service",
       "source_created": "0001-01-01T00:00:00"
     },
     "tram:text:ab9d7a64f14b787b": {
@@ -220,16 +190,6 @@
       "severity": "Service Closed",
       "source_created": "0001-01-01T00:00:00"
     },
-    "windrush:text:eb0c133ed7eb265c": {
-      "category": "other",
-      "first_seen": "2026-09-06T18:31:39Z",
-      "issue_key": "windrush:text:eb0c133ed7eb265c",
-      "line_id": "windrush",
-      "line_name": "Windrush",
-      "reason": "WINDRUSH LINE: Sunday 6 September, from 1915, no service between Highbury & Islington and Battersea Park / Clapham Junction / Crystal Palace / New Cross Gate / West Croydon. Use MILDMAY LINE services between Highbury & Islington, Canonbury and Dalston Kingsland. Use SOUTHERN connections for stations south of New Cross Gate, and local buses for New Cross, Penge West and Anerley. Replacement buses operate.",
-      "severity": "Planned Closure",
-      "source_created": "0001-01-01T00:00:00"
-    },
     "windrush:text:eb329ced32606fab": {
       "category": "other",
       "first_seen": "2026-09-07T00:11:47Z",
@@ -242,6 +202,54 @@
     }
   },
   "history": [
+    {
+      "category": "other",
+      "duration_seconds": 158788,
+      "first_seen": "2026-09-05T04:49:38Z",
+      "issue_key": "district:text:48f7b035b7fc51a8",
+      "line_id": "district",
+      "line_name": "District",
+      "reason": "District Line: Saturday 5 and Sunday 6 September, no service between Edgware Road and Wimbledon. Rail Replacement bus services will operate. If travelling to/from Fulham vs Crystal Palace on Saturday, it may be easier to walk to/from Hammersmith.",
+      "resolved_at": "2026-09-07T00:56:06Z",
+      "severity": "Part Closure",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "other",
+      "duration_seconds": 73678,
+      "first_seen": "2026-09-06T04:28:08Z",
+      "issue_key": "suffragette:text:0e55d5b7b5f6e760",
+      "line_id": "suffragette",
+      "line_name": "Suffragette",
+      "reason": "SUFFRAGETTE LINE: Sunday 6 September, no service between Gospel Oak and Woodgrange Park. Use VICTORIA LINE connections between Seven Sisters (for South Tottenham), Blackhorse Road and Walthamstow Central (for Walthamstow Queens Road). Replacement buses operate.",
+      "resolved_at": "2026-09-07T00:56:06Z",
+      "severity": "Part Closure",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "other",
+      "duration_seconds": 73678,
+      "first_seen": "2026-09-06T04:28:08Z",
+      "issue_key": "suffragette:text:8b6b92f1998c923e",
+      "line_id": "suffragette",
+      "line_name": "Suffragette",
+      "reason": "SUFFRAGETTE LINE: Sunday 6 September, a reduced service operates between Woodgrange Park and Barking Riverside. Trains run every 30 minutes.",
+      "resolved_at": "2026-09-07T00:56:06Z",
+      "severity": "Reduced Service",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "other",
+      "duration_seconds": 23067,
+      "first_seen": "2026-09-06T18:31:39Z",
+      "issue_key": "windrush:text:eb0c133ed7eb265c",
+      "line_id": "windrush",
+      "line_name": "Windrush",
+      "reason": "WINDRUSH LINE: Sunday 6 September, from 1915, no service between Highbury & Islington and Battersea Park / Clapham Junction / Crystal Palace / New Cross Gate / West Croydon. Use MILDMAY LINE services between Highbury & Islington, Canonbury and Dalston Kingsland. Use SOUTHERN connections for stations south of New Cross Gate, and local buses for New Cross, Penge West and Anerley. Replacement buses operate.",
+      "resolved_at": "2026-09-07T00:56:06Z",
+      "severity": "Planned Closure",
+      "source_created": "0001-01-01T00:00:00"
+    },
     {
       "category": "other",
       "duration_seconds": 16965,
@@ -4911,6 +4919,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-09-07T00:11:47Z",
+  "updated_at": "2026-09-07T00:56:06Z",
   "version": 1
 }
