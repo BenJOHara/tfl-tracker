@@ -1,13 +1,43 @@
 {
   "active": {
-    "circle:text:bf9bb7504db7ea4d": {
+    "bakerloo:text:975c88cf69561d0c": {
       "category": "other",
-      "first_seen": "2026-09-06T19:29:02Z",
-      "issue_key": "circle:text:bf9bb7504db7ea4d",
+      "first_seen": "2026-09-07T00:11:47Z",
+      "issue_key": "bakerloo:text:975c88cf69561d0c",
+      "line_id": "bakerloo",
+      "line_name": "Bakerloo",
+      "reason": "Bakerloo Line: Service will resume later this morning.",
+      "severity": "Service Closed",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "central:text:8dadc0a1b9047d57": {
+      "category": "other",
+      "first_seen": "2026-09-07T00:11:47Z",
+      "issue_key": "central:text:8dadc0a1b9047d57",
+      "line_id": "central",
+      "line_name": "Central",
+      "reason": "Central Line: Service will resume later this morning.",
+      "severity": "Service Closed",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "circle:text:a1099579f6415e8f": {
+      "category": "other",
+      "first_seen": "2026-09-07T00:11:47Z",
+      "issue_key": "circle:text:a1099579f6415e8f",
       "line_id": "circle",
       "line_name": "Circle",
-      "reason": "Circle Line: Minor delays due to train cancellations.",
-      "severity": "Minor Delays",
+      "reason": "Circle Line: Service will resume later this morning.",
+      "severity": "Service Closed",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "district:text:468f4f04f34d8411": {
+      "category": "other",
+      "first_seen": "2026-09-07T00:11:47Z",
+      "issue_key": "district:text:468f4f04f34d8411",
+      "line_id": "district",
+      "line_name": "District",
+      "reason": "District Line: Service will resume later this morning.",
+      "severity": "Service Closed",
       "source_created": "0001-01-01T00:00:00"
     },
     "district:text:48f7b035b7fc51a8": {
@@ -20,6 +50,106 @@
       "severity": "Part Closure",
       "source_created": "0001-01-01T00:00:00"
     },
+    "dlr:text:fb244db083a3f0ff": {
+      "category": "other",
+      "first_seen": "2026-09-07T00:11:47Z",
+      "issue_key": "dlr:text:fb244db083a3f0ff",
+      "line_id": "dlr",
+      "line_name": "DLR",
+      "reason": "Docklands Light Railway: Service will resume later this morning.",
+      "severity": "Service Closed",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "elizabeth:text:85644759b2256fee": {
+      "category": "other",
+      "first_seen": "2026-09-07T00:11:47Z",
+      "issue_key": "elizabeth:text:85644759b2256fee",
+      "line_id": "elizabeth",
+      "line_name": "Elizabeth line",
+      "reason": "Service will resume later this morning.",
+      "severity": "Service Closed",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "hammersmith-city:text:b560078b35a5fd17": {
+      "category": "other",
+      "first_seen": "2026-09-07T00:11:47Z",
+      "issue_key": "hammersmith-city:text:b560078b35a5fd17",
+      "line_id": "hammersmith-city",
+      "line_name": "Hammersmith & City",
+      "reason": "Hammersmith and City Line: Service will resume later this morning.",
+      "severity": "Service Closed",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "jubilee:text:41cf503738f881df": {
+      "category": "other",
+      "first_seen": "2026-09-07T00:11:47Z",
+      "issue_key": "jubilee:text:41cf503738f881df",
+      "line_id": "jubilee",
+      "line_name": "Jubilee",
+      "reason": "Jubilee Line: Service will resume later this morning.",
+      "severity": "Service Closed",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "liberty:text:19134079f5c98ab7": {
+      "category": "other",
+      "first_seen": "2026-09-07T00:11:47Z",
+      "issue_key": "liberty:text:19134079f5c98ab7",
+      "line_id": "liberty",
+      "line_name": "Liberty",
+      "reason": "Liberty Line: Service will resume later this morning.",
+      "severity": "Service Closed",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "lioness:text:edb0d527df87ed16": {
+      "category": "other",
+      "first_seen": "2026-09-07T00:11:47Z",
+      "issue_key": "lioness:text:edb0d527df87ed16",
+      "line_id": "lioness",
+      "line_name": "Lioness",
+      "reason": "Lioness Line: Service will resume later this morning.",
+      "severity": "Service Closed",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "metropolitan:text:4b366f757f8f5a28": {
+      "category": "other",
+      "first_seen": "2026-09-07T00:11:47Z",
+      "issue_key": "metropolitan:text:4b366f757f8f5a28",
+      "line_id": "metropolitan",
+      "line_name": "Metropolitan",
+      "reason": "Metropolitan Line: Service will resume later this morning.",
+      "severity": "Service Closed",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "mildmay:text:43f3ca710bb3792b": {
+      "category": "other",
+      "first_seen": "2026-09-07T00:11:47Z",
+      "issue_key": "mildmay:text:43f3ca710bb3792b",
+      "line_id": "mildmay",
+      "line_name": "Mildmay",
+      "reason": "Mildmay Line: Service will resume later this morning.",
+      "severity": "Service Closed",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "northern:text:82bd4c50fdf4647c": {
+      "category": "other",
+      "first_seen": "2026-09-07T00:11:47Z",
+      "issue_key": "northern:text:82bd4c50fdf4647c",
+      "line_id": "northern",
+      "line_name": "Northern",
+      "reason": "Northern Line: Service will resume later this morning.",
+      "severity": "Service Closed",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "piccadilly:text:93605ef69b23c043": {
+      "category": "other",
+      "first_seen": "2026-09-07T00:11:47Z",
+      "issue_key": "piccadilly:text:93605ef69b23c043",
+      "line_id": "piccadilly",
+      "line_name": "Piccadilly",
+      "reason": "Piccadilly Line: Service will resume later this morning.",
+      "severity": "Service Closed",
+      "source_created": "0001-01-01T00:00:00"
+    },
     "suffragette:text:0e55d5b7b5f6e760": {
       "category": "other",
       "first_seen": "2026-09-06T04:28:08Z",
@@ -28,6 +158,16 @@
       "line_name": "Suffragette",
       "reason": "SUFFRAGETTE LINE: Sunday 6 September, no service between Gospel Oak and Woodgrange Park. Use VICTORIA LINE connections between Seven Sisters (for South Tottenham), Blackhorse Road and Walthamstow Central (for Walthamstow Queens Road). Replacement buses operate.",
       "severity": "Part Closure",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "suffragette:text:774000467a2b26d3": {
+      "category": "other",
+      "first_seen": "2026-09-07T00:11:47Z",
+      "issue_key": "suffragette:text:774000467a2b26d3",
+      "line_id": "suffragette",
+      "line_name": "Suffragette",
+      "reason": "Suffragette Line: Service will resume later this morning.",
+      "severity": "Service Closed",
       "source_created": "0001-01-01T00:00:00"
     },
     "suffragette:text:8b6b92f1998c923e": {
@@ -40,24 +180,44 @@
       "severity": "Reduced Service",
       "source_created": "0001-01-01T00:00:00"
     },
-    "victoria:text:02e0850cdf11ef25": {
+    "tram:text:ab9d7a64f14b787b": {
       "category": "other",
-      "first_seen": "2026-09-06T13:09:17Z",
-      "issue_key": "victoria:text:02e0850cdf11ef25",
-      "line_id": "victoria",
-      "line_name": "Victoria",
-      "reason": "Victoria Line: Minor delays due to train cancellations.",
-      "severity": "Minor Delays",
+      "first_seen": "2026-09-07T00:11:47Z",
+      "issue_key": "tram:text:ab9d7a64f14b787b",
+      "line_id": "tram",
+      "line_name": "Tram",
+      "reason": "London Tramlink: Service will resume later this morning.",
+      "severity": "Service Closed",
       "source_created": "0001-01-01T00:00:00"
     },
-    "waterloo-city:text:02da0890c7cbf303": {
+    "victoria:text:a0235cf21943c30f": {
       "category": "other",
-      "first_seen": "2026-09-06T04:28:08Z",
-      "issue_key": "waterloo-city:text:02da0890c7cbf303",
+      "first_seen": "2026-09-07T00:11:47Z",
+      "issue_key": "victoria:text:a0235cf21943c30f",
+      "line_id": "victoria",
+      "line_name": "Victoria",
+      "reason": "Victoria Line: Service will resume later this morning.",
+      "severity": "Service Closed",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "waterloo-city:text:1bbcac27f282d0db": {
+      "category": "other",
+      "first_seen": "2026-09-07T00:11:47Z",
+      "issue_key": "waterloo-city:text:1bbcac27f282d0db",
       "line_id": "waterloo-city",
       "line_name": "Waterloo & City",
-      "reason": "Waterloo & City line: service operates 06:00 until 00:30, Monday to Friday only. There is no service on Saturdays, Sundays and on bank/public holidays.",
-      "severity": "Planned Closure",
+      "reason": "Waterloo and City Line: Service will resume at 06:00 on Monday.",
+      "severity": "Service Closed",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "weaver:text:f2dc8c00c6757e13": {
+      "category": "other",
+      "first_seen": "2026-09-07T00:11:47Z",
+      "issue_key": "weaver:text:f2dc8c00c6757e13",
+      "line_id": "weaver",
+      "line_name": "Weaver",
+      "reason": "Weaver Line: Service will resume later this morning.",
+      "severity": "Service Closed",
       "source_created": "0001-01-01T00:00:00"
     },
     "windrush:text:eb0c133ed7eb265c": {
@@ -69,9 +229,55 @@
       "reason": "WINDRUSH LINE: Sunday 6 September, from 1915, no service between Highbury & Islington and Battersea Park / Clapham Junction / Crystal Palace / New Cross Gate / West Croydon. Use MILDMAY LINE services between Highbury & Islington, Canonbury and Dalston Kingsland. Use SOUTHERN connections for stations south of New Cross Gate, and local buses for New Cross, Penge West and Anerley. Replacement buses operate.",
       "severity": "Planned Closure",
       "source_created": "0001-01-01T00:00:00"
+    },
+    "windrush:text:eb329ced32606fab": {
+      "category": "other",
+      "first_seen": "2026-09-07T00:11:47Z",
+      "issue_key": "windrush:text:eb329ced32606fab",
+      "line_id": "windrush",
+      "line_name": "Windrush",
+      "reason": "Windrush Line: Service will resume later this morning.",
+      "severity": "Service Closed",
+      "source_created": "0001-01-01T00:00:00"
     }
   },
   "history": [
+    {
+      "category": "other",
+      "duration_seconds": 16965,
+      "first_seen": "2026-09-06T19:29:02Z",
+      "issue_key": "circle:text:bf9bb7504db7ea4d",
+      "line_id": "circle",
+      "line_name": "Circle",
+      "reason": "Circle Line: Minor delays due to train cancellations.",
+      "resolved_at": "2026-09-07T00:11:47Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "other",
+      "duration_seconds": 39750,
+      "first_seen": "2026-09-06T13:09:17Z",
+      "issue_key": "victoria:text:02e0850cdf11ef25",
+      "line_id": "victoria",
+      "line_name": "Victoria",
+      "reason": "Victoria Line: Minor delays due to train cancellations.",
+      "resolved_at": "2026-09-07T00:11:47Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "other",
+      "duration_seconds": 71019,
+      "first_seen": "2026-09-06T04:28:08Z",
+      "issue_key": "waterloo-city:text:02da0890c7cbf303",
+      "line_id": "waterloo-city",
+      "line_name": "Waterloo & City",
+      "reason": "Waterloo & City line: service operates 06:00 until 00:30, Monday to Friday only. There is no service on Saturdays, Sundays and on bank/public holidays.",
+      "resolved_at": "2026-09-07T00:11:47Z",
+      "severity": "Planned Closure",
+      "source_created": "0001-01-01T00:00:00"
+    },
     {
       "category": "fire alert",
       "duration_seconds": 13116,
@@ -4705,6 +4911,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-09-06T23:07:38Z",
+  "updated_at": "2026-09-07T00:11:47Z",
   "version": 1
 }
