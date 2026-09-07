@@ -10,23 +10,23 @@
       "severity": "Severe Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "central:text:bef2c30051a0df92": {
+    "central:text:78dd5eb22a4e0d13": {
       "category": "train fault",
-      "first_seen": "2026-09-07T19:20:13Z",
-      "issue_key": "central:text:bef2c30051a0df92",
+      "first_seen": "2026-09-07T21:27:19Z",
+      "issue_key": "central:text:78dd5eb22a4e0d13",
       "line_id": "central",
       "line_name": "Central",
-      "reason": "Central Line: No service between Hainault and Woodford via Grange Hill while we fix a faulty train at Hainault and MINOR DELAYS between North Acton and Ealing Broadway/West Ruislip and between Leytonstone and Epping due to train cancellations. GOOD SERVICE on the rest of the line. Tickets are being accepted on London Buses.",
+      "reason": "Central Line: No service between Leytonstone and Hainault via Grange Hill while we fix a faulty train at Hainault and MINOR DELAYS between North Acton and Ealing Broadway/West Ruislip and between Leytonstone and Epping due to train cancellations. GOOD SERVICE on the rest of the line. Tickets are being accepted on London Buses.",
       "severity": "Part Suspended",
       "source_created": "0001-01-01T00:00:00"
     },
-    "elizabeth:text:4749f7e7c36f33be": {
+    "elizabeth:text:2bb0a0481ef9fd4d": {
       "category": "other",
-      "first_seen": "2026-09-07T09:45:23Z",
-      "issue_key": "elizabeth:text:4749f7e7c36f33be",
+      "first_seen": "2026-09-07T21:27:19Z",
+      "issue_key": "elizabeth:text:2bb0a0481ef9fd4d",
       "line_id": "elizabeth",
       "line_name": "Elizabeth line",
-      "reason": "Severe delays between Heathrow Terminals 2&3 and Heathrow Terminal 5 while we fix equipment damaged by vandalism in the Kensal Green area. Customers should use Piccadilly line to travel to Heathrow Airport and use the free interchange service to travel between terminals. GOOD SERVICE on the rest of the line.",
+      "reason": "Severe delays between Heathrow Terminals 2&3 and Heathrow Terminal 5 while we fix equipment damaged by vandalism in the Paddington area. Customers should use Piccadilly line to travel to Heathrow Airport and use the free interchange service to travel between terminals. GOOD SERVICE on the rest of the line.",
       "severity": "Severe Delays",
       "source_created": "0001-01-01T00:00:00"
     },
@@ -40,18 +40,54 @@
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "victoria:text:02e0850cdf11ef25": {
+    "windrush:text:9c23677941895d60": {
       "category": "other",
+      "first_seen": "2026-09-07T21:27:19Z",
+      "issue_key": "windrush:text:9c23677941895d60",
+      "line_id": "windrush",
+      "line_name": "Windrush",
+      "reason": "WINDRUSH LINE: Monday 7, Tuesday 8, Wednesday 9 and Thursday 10 September, after 2215 each evening, no service between Sydenham and West Croydon. West Croydon trains will divert to and depart from Crystal Palace after 2215. Use local buses via any reasonable route or Southern Railway trains between Sydenham and Norwood Junction. Tickets will also be accepted on Southern Railway trains between Crystal Palace and East Croydon (via Norwood Junction), and on two Southern Railway rail replacement buses departing Norwood Junction at 2318 and 0013 for West Croydon via Selhurst (and onward to Sutton). Last through trains: Highbury & Islington to West Croydon 2147; West Croydon to Highbury & Islington 2246",
+      "severity": "Part Closure",
+      "source_created": "0001-01-01T00:00:00"
+    }
+  },
+  "history": [
+    {
+      "category": "train fault",
+      "duration_seconds": 7626,
+      "first_seen": "2026-09-07T19:20:13Z",
+      "issue_key": "central:text:bef2c30051a0df92",
+      "line_id": "central",
+      "line_name": "Central",
+      "reason": "Central Line: No service between Hainault and Woodford via Grange Hill while we fix a faulty train at Hainault and MINOR DELAYS between North Acton and Ealing Broadway/West Ruislip and between Leytonstone and Epping due to train cancellations. GOOD SERVICE on the rest of the line. Tickets are being accepted on London Buses.",
+      "resolved_at": "2026-09-07T21:27:19Z",
+      "severity": "Part Suspended",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "other",
+      "duration_seconds": 42116,
+      "first_seen": "2026-09-07T09:45:23Z",
+      "issue_key": "elizabeth:text:4749f7e7c36f33be",
+      "line_id": "elizabeth",
+      "line_name": "Elizabeth line",
+      "reason": "Severe delays between Heathrow Terminals 2&3 and Heathrow Terminal 5 while we fix equipment damaged by vandalism in the Kensal Green area. Customers should use Piccadilly line to travel to Heathrow Airport and use the free interchange service to travel between terminals. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-09-07T21:27:19Z",
+      "severity": "Severe Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "other",
+      "duration_seconds": 19467,
       "first_seen": "2026-09-07T16:02:52Z",
       "issue_key": "victoria:text:02e0850cdf11ef25",
       "line_id": "victoria",
       "line_name": "Victoria",
       "reason": "Victoria Line: Minor delays due to train cancellations.",
+      "resolved_at": "2026-09-07T21:27:19Z",
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
-    }
-  },
-  "history": [
+    },
     {
       "category": "other",
       "duration_seconds": 11841,
@@ -5153,6 +5189,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-09-07T19:53:16Z",
+  "updated_at": "2026-09-07T21:27:19Z",
   "version": 1
 }
