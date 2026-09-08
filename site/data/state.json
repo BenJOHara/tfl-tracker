@@ -20,18 +20,30 @@
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "piccadilly:text:4e313782f12486f6": {
+    "piccadilly:text:0db55dbf0daea29d": {
       "category": "signal failure",
+      "first_seen": "2026-09-08T20:13:05Z",
+      "issue_key": "piccadilly:text:0db55dbf0daea29d",
+      "line_id": "piccadilly",
+      "line_name": "Piccadilly",
+      "reason": "Piccadilly Line: Severe delays between Acton Town and Uxbridge/Heathrow Terminals, and MINOR DELAYS on the rest of the line due to an earlier signal failure at Oakwood. Tickets are being accepted on London Buses and Elizabeth Line.",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    }
+  },
+  "history": [
+    {
+      "category": "signal failure",
+      "duration_seconds": 4572,
       "first_seen": "2026-09-08T18:56:53Z",
       "issue_key": "piccadilly:text:4e313782f12486f6",
       "line_id": "piccadilly",
       "line_name": "Piccadilly",
       "reason": "Piccadilly Line: No service between Cockfosters and Arnos Grove while we fix a signal failure at Oakwood. Tickets being accepted by London Buses. MINOR DELAYS on the rest of the line.",
+      "resolved_at": "2026-09-08T20:13:05Z",
       "severity": "Part Suspended",
       "source_created": "0001-01-01T00:00:00"
-    }
-  },
-  "history": [
+    },
     {
       "category": "signal failure",
       "duration_seconds": 4194,
@@ -5697,6 +5709,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-09-08T18:56:53Z",
+  "updated_at": "2026-09-08T20:13:05Z",
   "version": 1
 }
