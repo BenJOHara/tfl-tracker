@@ -19,6 +19,16 @@
       "reason": "Circle Line: Minor delays due to train cancellations.",
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
+    },
+    "elizabeth:text:67834a17a93a01e2": {
+      "category": "other",
+      "first_seen": "2026-09-08T15:23:08Z",
+      "issue_key": "elizabeth:text:67834a17a93a01e2",
+      "line_id": "elizabeth",
+      "line_name": "Elizabeth line",
+      "reason": "Severe delays between Paddington and Heathrow Terminal 4 due to vandalism to equipment in Paddington area. MINOR DELAYS between Hayes & Harlington and Reading. GOOD SERVICE on the rest of the line.",
+      "severity": "Severe Delays",
+      "source_created": "0001-01-01T00:00:00"
     }
   },
   "history": [
@@ -5591,6 +5601,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-09-08T13:49:32Z",
+  "updated_at": "2026-09-08T15:23:08Z",
   "version": 1
 }
