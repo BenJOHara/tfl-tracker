@@ -1,13 +1,13 @@
 {
   "active": {
-    "central:text:a2d43f0c233dd412": {
+    "central:text:a44ee102538cb99d": {
       "category": "signal failure",
-      "first_seen": "2026-09-08T17:35:10Z",
-      "issue_key": "central:text:a2d43f0c233dd412",
+      "first_seen": "2026-09-08T17:46:59Z",
+      "issue_key": "central:text:a44ee102538cb99d",
       "line_id": "central",
       "line_name": "Central",
-      "reason": "Central Line: No service between North Acton to Ealing Broadway while we fix a signal failure at North Acton. MINOR DELAYS on the rest of the line due to train cancellations. Tickets will be accepted on local buses.",
-      "severity": "Part Suspended",
+      "reason": "Central Line: Severe delays between North Acton to Ealing Broadway due to an earlier signal failure at North Acton. MINOR DELAYS on the rest of the line due to train cancellations. Tickets will be accepted on local buses.",
+      "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
     "circle:text:bf9bb7504db7ea4d": {
@@ -62,6 +62,18 @@
     }
   },
   "history": [
+    {
+      "category": "signal failure",
+      "duration_seconds": 709,
+      "first_seen": "2026-09-08T17:35:10Z",
+      "issue_key": "central:text:a2d43f0c233dd412",
+      "line_id": "central",
+      "line_name": "Central",
+      "reason": "Central Line: No service between North Acton to Ealing Broadway while we fix a signal failure at North Acton. MINOR DELAYS on the rest of the line due to train cancellations. Tickets will be accepted on local buses.",
+      "resolved_at": "2026-09-08T17:46:59Z",
+      "severity": "Part Suspended",
+      "source_created": "0001-01-01T00:00:00"
+    },
     {
       "category": "other",
       "duration_seconds": 28992,
@@ -5655,6 +5667,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-09-08T17:35:10Z",
+  "updated_at": "2026-09-08T17:46:59Z",
   "version": 1
 }
