@@ -9,29 +9,33 @@
       "reason": "Central Line: Minor delays due to train cancellations.",
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
-    },
-    "district:text:4817f09056353223": {
+    }
+  },
+  "history": [
+    {
       "category": "train fault",
+      "duration_seconds": 7591,
       "first_seen": "2026-09-08T11:42:16Z",
       "issue_key": "district:text:4817f09056353223",
       "line_id": "district",
       "line_name": "District",
       "reason": "District Line: Minor delays between Earl's Court and Wimbledon/Richmond/Ealing Broadway due to an earlier faulty train at Embankment. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-09-08T13:48:47Z",
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "metropolitan:text:5de9054dd918b5d5": {
+    {
       "category": "train fault",
+      "duration_seconds": 7591,
       "first_seen": "2026-09-08T11:42:16Z",
       "issue_key": "metropolitan:text:5de9054dd918b5d5",
       "line_id": "metropolitan",
       "line_name": "Metropolitan",
       "reason": "Metropolitan Line: Severe delays between Wembley Park and Aldgate while we fix a faulty train at Finchley Road. Tickets will be accepted on London Buses. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-09-08T13:48:47Z",
       "severity": "Severe Delays",
       "source_created": "0001-01-01T00:00:00"
-    }
-  },
-  "history": [
+    },
     {
       "category": "fire alert",
       "duration_seconds": 7818,
@@ -5577,6 +5581,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-09-08T11:42:16Z",
+  "updated_at": "2026-09-08T13:48:47Z",
   "version": 1
 }
