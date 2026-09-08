@@ -20,18 +20,40 @@
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "piccadilly:text:0db55dbf0daea29d": {
+    "piccadilly:text:bd1e6189960c4369": {
       "category": "signal failure",
+      "first_seen": "2026-09-08T21:47:59Z",
+      "issue_key": "piccadilly:text:bd1e6189960c4369",
+      "line_id": "piccadilly",
+      "line_name": "Piccadilly",
+      "reason": "Piccadilly Line: Minor delays due to an earlier signal failure at Oakwood.",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "windrush:text:9c23677941895d60": {
+      "category": "other",
+      "first_seen": "2026-09-08T21:47:59Z",
+      "issue_key": "windrush:text:9c23677941895d60",
+      "line_id": "windrush",
+      "line_name": "Windrush",
+      "reason": "WINDRUSH LINE: Monday 7, Tuesday 8, Wednesday 9 and Thursday 10 September, after 2215 each evening, no service between Sydenham and West Croydon. West Croydon trains will divert to and depart from Crystal Palace after 2215. Use local buses via any reasonable route or Southern Railway trains between Sydenham and Norwood Junction. Tickets will also be accepted on Southern Railway trains between Crystal Palace and East Croydon (via Norwood Junction), and on two Southern Railway rail replacement buses departing Norwood Junction at 2318 and 0013 for West Croydon via Selhurst (and onward to Sutton). Last through trains: Highbury & Islington to West Croydon 2147; West Croydon to Highbury & Islington 2246",
+      "severity": "Part Closure",
+      "source_created": "0001-01-01T00:00:00"
+    }
+  },
+  "history": [
+    {
+      "category": "signal failure",
+      "duration_seconds": 5694,
       "first_seen": "2026-09-08T20:13:05Z",
       "issue_key": "piccadilly:text:0db55dbf0daea29d",
       "line_id": "piccadilly",
       "line_name": "Piccadilly",
       "reason": "Piccadilly Line: Severe delays between Acton Town and Uxbridge/Heathrow Terminals, and MINOR DELAYS on the rest of the line due to an earlier signal failure at Oakwood. Tickets are being accepted on London Buses and Elizabeth Line.",
+      "resolved_at": "2026-09-08T21:47:59Z",
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
-    }
-  },
-  "history": [
+    },
     {
       "category": "signal failure",
       "duration_seconds": 4572,
@@ -5709,6 +5731,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-09-08T20:13:05Z",
+  "updated_at": "2026-09-08T21:47:59Z",
   "version": 1
 }
