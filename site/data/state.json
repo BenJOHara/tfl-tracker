@@ -1,22 +1,32 @@
 {
   "active": {
-    "elizabeth:text:3ebba4816f674e4b": {
+    "circle:text:91a1ca08994632f2": {
       "category": "other",
-      "first_seen": "2026-09-08T05:00:42Z",
-      "issue_key": "elizabeth:text:3ebba4816f674e4b",
-      "line_id": "elizabeth",
-      "line_name": "Elizabeth line",
-      "reason": "Minor delays between Paddington and Heathrow Terminals/Reading while we fix equipment damaged by vandalism in the Paddington area. Customers should use Piccadilly line to travel to Heathrow Airport and use the free interchange service to travel between terminals. GOOD SERVICE on the rest of the line.",
+      "first_seen": "2026-09-08T06:30:32Z",
+      "issue_key": "circle:text:91a1ca08994632f2",
+      "line_id": "circle",
+      "line_name": "Circle",
+      "reason": "Circle Line: Minor delays anti-clockwise due to train cancellations. GOOD SERVICE clockwise.",
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "hammersmith-city:text:9c95e66c82ea564f": {
+    "elizabeth:text:f925a390cd4e18dc": {
       "category": "other",
-      "first_seen": "2026-09-08T05:00:42Z",
-      "issue_key": "hammersmith-city:text:9c95e66c82ea564f",
-      "line_id": "hammersmith-city",
-      "line_name": "Hammersmith & City",
-      "reason": "Hammersmith and City Line: Minor delays between Barking and Moorgate westbound only due to train cancellations. GOOD SERVICE on the rest of the line.",
+      "first_seen": "2026-09-08T06:30:32Z",
+      "issue_key": "elizabeth:text:f925a390cd4e18dc",
+      "line_id": "elizabeth",
+      "line_name": "Elizabeth line",
+      "reason": "Severe delays between Paddington and Heathrow Terminal 4/Reading and MINOR DELAYS between Paddington and Heathrow Terminal 5 while we fix equipment damaged by vandalism in the Paddington area. Customers should use Piccadilly line to travel to Heathrow Airport and use the free interchange service to travel between terminals. GOOD SERVICE on the rest of the line.",
+      "severity": "Severe Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "metropolitan:text:569776447b05357b": {
+      "category": "signal failure",
+      "first_seen": "2026-09-08T06:30:32Z",
+      "issue_key": "metropolitan:text:569776447b05357b",
+      "line_id": "metropolitan",
+      "line_name": "Metropolitan",
+      "reason": "Metropolitan Line: Minor delays between Rickmansworth and Amersham while we fix a signal failure at Chorleywood. The next southbound service from Amersham will be at 07:24. GOOD SERVICE on the rest of the line.",
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
@@ -32,6 +42,30 @@
     }
   },
   "history": [
+    {
+      "category": "other",
+      "duration_seconds": 5390,
+      "first_seen": "2026-09-08T05:00:42Z",
+      "issue_key": "elizabeth:text:3ebba4816f674e4b",
+      "line_id": "elizabeth",
+      "line_name": "Elizabeth line",
+      "reason": "Minor delays between Paddington and Heathrow Terminals/Reading while we fix equipment damaged by vandalism in the Paddington area. Customers should use Piccadilly line to travel to Heathrow Airport and use the free interchange service to travel between terminals. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-09-08T06:30:32Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "other",
+      "duration_seconds": 5390,
+      "first_seen": "2026-09-08T05:00:42Z",
+      "issue_key": "hammersmith-city:text:9c95e66c82ea564f",
+      "line_id": "hammersmith-city",
+      "line_name": "Hammersmith & City",
+      "reason": "Hammersmith and City Line: Minor delays between Barking and Moorgate westbound only due to train cancellations. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-09-08T06:30:32Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
     {
       "category": "other",
       "duration_seconds": 16477,
@@ -5481,6 +5515,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-09-08T05:00:42Z",
+  "updated_at": "2026-09-08T06:30:32Z",
   "version": 1
 }
