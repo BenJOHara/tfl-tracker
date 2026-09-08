@@ -1,12 +1,12 @@
 {
   "active": {
-    "central:text:a44ee102538cb99d": {
-      "category": "signal failure",
-      "first_seen": "2026-09-08T17:46:59Z",
-      "issue_key": "central:text:a44ee102538cb99d",
+    "central:text:6d0af7c9d44f714a": {
+      "category": "other",
+      "first_seen": "2026-09-08T18:56:53Z",
+      "issue_key": "central:text:6d0af7c9d44f714a",
       "line_id": "central",
       "line_name": "Central",
-      "reason": "Central Line: Severe delays between North Acton to Ealing Broadway due to an earlier signal failure at North Acton. MINOR DELAYS on the rest of the line due to train cancellations. Tickets will be accepted on local buses.",
+      "reason": "Central Line: Minor delays due to train cancellations.",
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
@@ -20,48 +20,78 @@
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "district:text:ba1fb8822c2cf256": {
+    "piccadilly:text:4e313782f12486f6": {
+      "category": "signal failure",
+      "first_seen": "2026-09-08T18:56:53Z",
+      "issue_key": "piccadilly:text:4e313782f12486f6",
+      "line_id": "piccadilly",
+      "line_name": "Piccadilly",
+      "reason": "Piccadilly Line: No service between Cockfosters and Arnos Grove while we fix a signal failure at Oakwood. Tickets being accepted by London Buses. MINOR DELAYS on the rest of the line.",
+      "severity": "Part Suspended",
+      "source_created": "0001-01-01T00:00:00"
+    }
+  },
+  "history": [
+    {
+      "category": "signal failure",
+      "duration_seconds": 4194,
+      "first_seen": "2026-09-08T17:46:59Z",
+      "issue_key": "central:text:a44ee102538cb99d",
+      "line_id": "central",
+      "line_name": "Central",
+      "reason": "Central Line: Severe delays between North Acton to Ealing Broadway due to an earlier signal failure at North Acton. MINOR DELAYS on the rest of the line due to train cancellations. Tickets will be accepted on local buses.",
+      "resolved_at": "2026-09-08T18:56:53Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
       "category": "other",
+      "duration_seconds": 4903,
       "first_seen": "2026-09-08T17:35:10Z",
       "issue_key": "district:text:ba1fb8822c2cf256",
       "line_id": "district",
       "line_name": "District",
       "reason": "District Line: Minor delays between Turnham Green and Ealing Broadway due to train cancellations. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-09-08T18:56:53Z",
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "elizabeth:text:1b5530e2e387075d": {
+    {
       "category": "other",
+      "duration_seconds": 4903,
       "first_seen": "2026-09-08T17:35:10Z",
       "issue_key": "elizabeth:text:1b5530e2e387075d",
       "line_id": "elizabeth",
       "line_name": "Elizabeth line",
       "reason": "Severe delays between Paddington and Heathrow Terminal 4 due to vandalism to equipment in the Paddington area. MINOR DELAYS between Hayes & Harlington and Reading. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-09-08T18:56:53Z",
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "piccadilly:text:bcef0ce81d3ad443": {
+    {
       "category": "signal failure",
+      "duration_seconds": 4903,
       "first_seen": "2026-09-08T17:35:10Z",
       "issue_key": "piccadilly:text:bcef0ce81d3ad443",
       "line_id": "piccadilly",
       "line_name": "Piccadilly",
       "reason": "Piccadilly Line: Minor delays between Cockfosters and Arnos Grove westbound only while we fix a signal failure at Oakwood. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-09-08T18:56:53Z",
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "victoria:text:02e0850cdf11ef25": {
+    {
       "category": "other",
+      "duration_seconds": 4903,
       "first_seen": "2026-09-08T17:35:10Z",
       "issue_key": "victoria:text:02e0850cdf11ef25",
       "line_id": "victoria",
       "line_name": "Victoria",
       "reason": "Victoria Line: Minor delays due to train cancellations.",
+      "resolved_at": "2026-09-08T18:56:53Z",
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
-    }
-  },
-  "history": [
+    },
     {
       "category": "signal failure",
       "duration_seconds": 709,
@@ -5667,6 +5697,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-09-08T17:46:59Z",
+  "updated_at": "2026-09-08T18:56:53Z",
   "version": 1
 }
