@@ -10,38 +10,64 @@
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "northern:text:6c2d3cc6a1b4cdcc": {
+    "district:text:4817f09056353223": {
+      "category": "train fault",
+      "first_seen": "2026-09-08T11:42:16Z",
+      "issue_key": "district:text:4817f09056353223",
+      "line_id": "district",
+      "line_name": "District",
+      "reason": "District Line: Minor delays between Earl's Court and Wimbledon/Richmond/Ealing Broadway due to an earlier faulty train at Embankment. GOOD SERVICE on the rest of the line.",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "metropolitan:text:5de9054dd918b5d5": {
+      "category": "train fault",
+      "first_seen": "2026-09-08T11:42:16Z",
+      "issue_key": "metropolitan:text:5de9054dd918b5d5",
+      "line_id": "metropolitan",
+      "line_name": "Metropolitan",
+      "reason": "Metropolitan Line: Severe delays between Wembley Park and Aldgate while we fix a faulty train at Finchley Road. Tickets will be accepted on London Buses. GOOD SERVICE on the rest of the line.",
+      "severity": "Severe Delays",
+      "source_created": "0001-01-01T00:00:00"
+    }
+  },
+  "history": [
+    {
       "category": "fire alert",
+      "duration_seconds": 7818,
       "first_seen": "2026-09-08T09:31:58Z",
       "issue_key": "northern:text:6c2d3cc6a1b4cdcc",
       "line_id": "northern",
       "line_name": "Northern",
       "reason": "Northern Line: Severe delays between Camden Town and Edgware while we respond to a fire alert at Hendon Central. Tickets will be accepted on London Buses. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-09-08T11:42:16Z",
       "severity": "Severe Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "tram:text:e75c0ff372b30561": {
+    {
       "category": "other",
+      "duration_seconds": 7818,
       "first_seen": "2026-09-08T09:31:58Z",
       "issue_key": "tram:text:e75c0ff372b30561",
       "line_id": "tram",
       "line_name": "Tram",
       "reason": "London Tramlink: Minor delays between East Croydon and Sundowns due to an earlier broken down road vehicle at Lebanon Road. GOOD SERVICE on other tram routes.",
+      "resolved_at": "2026-09-08T11:42:16Z",
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "victoria:text:02e0850cdf11ef25": {
+    {
       "category": "other",
+      "duration_seconds": 24094,
       "first_seen": "2026-09-08T05:00:42Z",
       "issue_key": "victoria:text:02e0850cdf11ef25",
       "line_id": "victoria",
       "line_name": "Victoria",
       "reason": "Victoria Line: Minor delays due to train cancellations.",
+      "resolved_at": "2026-09-08T11:42:16Z",
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
-    }
-  },
-  "history": [
+    },
     {
       "category": "other",
       "duration_seconds": 10886,
@@ -5551,6 +5577,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-09-08T09:31:58Z",
+  "updated_at": "2026-09-08T11:42:16Z",
   "version": 1
 }
