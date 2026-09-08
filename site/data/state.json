@@ -190,16 +190,6 @@
       "severity": "Service Closed",
       "source_created": "0001-01-01T00:00:00"
     },
-    "windrush:text:9c23677941895d60": {
-      "category": "other",
-      "first_seen": "2026-09-07T21:27:19Z",
-      "issue_key": "windrush:text:9c23677941895d60",
-      "line_id": "windrush",
-      "line_name": "Windrush",
-      "reason": "WINDRUSH LINE: Monday 7, Tuesday 8, Wednesday 9 and Thursday 10 September, after 2215 each evening, no service between Sydenham and West Croydon. West Croydon trains will divert to and depart from Crystal Palace after 2215. Use local buses via any reasonable route or Southern Railway trains between Sydenham and Norwood Junction. Tickets will also be accepted on Southern Railway trains between Crystal Palace and East Croydon (via Norwood Junction), and on two Southern Railway rail replacement buses departing Norwood Junction at 2318 and 0013 for West Croydon via Selhurst (and onward to Sutton). Last through trains: Highbury & Islington to West Croydon 2147; West Croydon to Highbury & Islington 2246",
-      "severity": "Part Closure",
-      "source_created": "0001-01-01T00:00:00"
-    },
     "windrush:text:eb329ced32606fab": {
       "category": "other",
       "first_seen": "2026-09-08T00:26:05Z",
@@ -212,6 +202,18 @@
     }
   },
   "history": [
+    {
+      "category": "other",
+      "duration_seconds": 14515,
+      "first_seen": "2026-09-07T21:27:19Z",
+      "issue_key": "windrush:text:9c23677941895d60",
+      "line_id": "windrush",
+      "line_name": "Windrush",
+      "reason": "WINDRUSH LINE: Monday 7, Tuesday 8, Wednesday 9 and Thursday 10 September, after 2215 each evening, no service between Sydenham and West Croydon. West Croydon trains will divert to and depart from Crystal Palace after 2215. Use local buses via any reasonable route or Southern Railway trains between Sydenham and Norwood Junction. Tickets will also be accepted on Southern Railway trains between Crystal Palace and East Croydon (via Norwood Junction), and on two Southern Railway rail replacement buses departing Norwood Junction at 2318 and 0013 for West Croydon via Selhurst (and onward to Sutton). Last through trains: Highbury & Islington to West Croydon 2147; West Croydon to Highbury & Islington 2246",
+      "resolved_at": "2026-09-08T01:29:14Z",
+      "severity": "Part Closure",
+      "source_created": "0001-01-01T00:00:00"
+    },
     {
       "category": "track fault",
       "duration_seconds": 18352,
@@ -5409,6 +5411,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-09-08T00:26:05Z",
+  "updated_at": "2026-09-08T01:29:14Z",
   "version": 1
 }
