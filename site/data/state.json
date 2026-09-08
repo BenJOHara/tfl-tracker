@@ -1,13 +1,13 @@
 {
   "active": {
-    "central:text:6d0af7c9d44f714a": {
-      "category": "other",
-      "first_seen": "2026-09-08T09:31:58Z",
-      "issue_key": "central:text:6d0af7c9d44f714a",
+    "central:text:a2d43f0c233dd412": {
+      "category": "signal failure",
+      "first_seen": "2026-09-08T17:35:10Z",
+      "issue_key": "central:text:a2d43f0c233dd412",
       "line_id": "central",
       "line_name": "Central",
-      "reason": "Central Line: Minor delays due to train cancellations.",
-      "severity": "Minor Delays",
+      "reason": "Central Line: No service between North Acton to Ealing Broadway while we fix a signal failure at North Acton. MINOR DELAYS on the rest of the line due to train cancellations. Tickets will be accepted on local buses.",
+      "severity": "Part Suspended",
       "source_created": "0001-01-01T00:00:00"
     },
     "circle:text:bf9bb7504db7ea4d": {
@@ -20,18 +20,72 @@
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "elizabeth:text:67834a17a93a01e2": {
+    "district:text:ba1fb8822c2cf256": {
       "category": "other",
+      "first_seen": "2026-09-08T17:35:10Z",
+      "issue_key": "district:text:ba1fb8822c2cf256",
+      "line_id": "district",
+      "line_name": "District",
+      "reason": "District Line: Minor delays between Turnham Green and Ealing Broadway due to train cancellations. GOOD SERVICE on the rest of the line.",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "elizabeth:text:1b5530e2e387075d": {
+      "category": "other",
+      "first_seen": "2026-09-08T17:35:10Z",
+      "issue_key": "elizabeth:text:1b5530e2e387075d",
+      "line_id": "elizabeth",
+      "line_name": "Elizabeth line",
+      "reason": "Severe delays between Paddington and Heathrow Terminal 4 due to vandalism to equipment in the Paddington area. MINOR DELAYS between Hayes & Harlington and Reading. GOOD SERVICE on the rest of the line.",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "piccadilly:text:bcef0ce81d3ad443": {
+      "category": "signal failure",
+      "first_seen": "2026-09-08T17:35:10Z",
+      "issue_key": "piccadilly:text:bcef0ce81d3ad443",
+      "line_id": "piccadilly",
+      "line_name": "Piccadilly",
+      "reason": "Piccadilly Line: Minor delays between Cockfosters and Arnos Grove westbound only while we fix a signal failure at Oakwood. GOOD SERVICE on the rest of the line.",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "victoria:text:02e0850cdf11ef25": {
+      "category": "other",
+      "first_seen": "2026-09-08T17:35:10Z",
+      "issue_key": "victoria:text:02e0850cdf11ef25",
+      "line_id": "victoria",
+      "line_name": "Victoria",
+      "reason": "Victoria Line: Minor delays due to train cancellations.",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    }
+  },
+  "history": [
+    {
+      "category": "other",
+      "duration_seconds": 28992,
+      "first_seen": "2026-09-08T09:31:58Z",
+      "issue_key": "central:text:6d0af7c9d44f714a",
+      "line_id": "central",
+      "line_name": "Central",
+      "reason": "Central Line: Minor delays due to train cancellations.",
+      "resolved_at": "2026-09-08T17:35:10Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "other",
+      "duration_seconds": 7922,
       "first_seen": "2026-09-08T15:23:08Z",
       "issue_key": "elizabeth:text:67834a17a93a01e2",
       "line_id": "elizabeth",
       "line_name": "Elizabeth line",
       "reason": "Severe delays between Paddington and Heathrow Terminal 4 due to vandalism to equipment in Paddington area. MINOR DELAYS between Hayes & Harlington and Reading. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-09-08T17:35:10Z",
       "severity": "Severe Delays",
       "source_created": "0001-01-01T00:00:00"
-    }
-  },
-  "history": [
+    },
     {
       "category": "train fault",
       "duration_seconds": 7591,
@@ -5601,6 +5655,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-09-08T15:23:08Z",
+  "updated_at": "2026-09-08T17:35:10Z",
   "version": 1
 }
