@@ -1,32 +1,32 @@
 {
   "active": {
-    "circle:text:91a1ca08994632f2": {
+    "central:text:6d0af7c9d44f714a": {
       "category": "other",
-      "first_seen": "2026-09-08T06:30:32Z",
-      "issue_key": "circle:text:91a1ca08994632f2",
-      "line_id": "circle",
-      "line_name": "Circle",
-      "reason": "Circle Line: Minor delays anti-clockwise due to train cancellations. GOOD SERVICE clockwise.",
+      "first_seen": "2026-09-08T09:31:58Z",
+      "issue_key": "central:text:6d0af7c9d44f714a",
+      "line_id": "central",
+      "line_name": "Central",
+      "reason": "Central Line: Minor delays due to train cancellations.",
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "elizabeth:text:f925a390cd4e18dc": {
-      "category": "other",
-      "first_seen": "2026-09-08T06:30:32Z",
-      "issue_key": "elizabeth:text:f925a390cd4e18dc",
-      "line_id": "elizabeth",
-      "line_name": "Elizabeth line",
-      "reason": "Severe delays between Paddington and Heathrow Terminal 4/Reading and MINOR DELAYS between Paddington and Heathrow Terminal 5 while we fix equipment damaged by vandalism in the Paddington area. Customers should use Piccadilly line to travel to Heathrow Airport and use the free interchange service to travel between terminals. GOOD SERVICE on the rest of the line.",
+    "northern:text:6c2d3cc6a1b4cdcc": {
+      "category": "fire alert",
+      "first_seen": "2026-09-08T09:31:58Z",
+      "issue_key": "northern:text:6c2d3cc6a1b4cdcc",
+      "line_id": "northern",
+      "line_name": "Northern",
+      "reason": "Northern Line: Severe delays between Camden Town and Edgware while we respond to a fire alert at Hendon Central. Tickets will be accepted on London Buses. GOOD SERVICE on the rest of the line.",
       "severity": "Severe Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "metropolitan:text:569776447b05357b": {
-      "category": "signal failure",
-      "first_seen": "2026-09-08T06:30:32Z",
-      "issue_key": "metropolitan:text:569776447b05357b",
-      "line_id": "metropolitan",
-      "line_name": "Metropolitan",
-      "reason": "Metropolitan Line: Minor delays between Rickmansworth and Amersham while we fix a signal failure at Chorleywood. The next southbound service from Amersham will be at 07:24. GOOD SERVICE on the rest of the line.",
+    "tram:text:e75c0ff372b30561": {
+      "category": "other",
+      "first_seen": "2026-09-08T09:31:58Z",
+      "issue_key": "tram:text:e75c0ff372b30561",
+      "line_id": "tram",
+      "line_name": "Tram",
+      "reason": "London Tramlink: Minor delays between East Croydon and Sundowns due to an earlier broken down road vehicle at Lebanon Road. GOOD SERVICE on other tram routes.",
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
@@ -42,6 +42,42 @@
     }
   },
   "history": [
+    {
+      "category": "other",
+      "duration_seconds": 10886,
+      "first_seen": "2026-09-08T06:30:32Z",
+      "issue_key": "circle:text:91a1ca08994632f2",
+      "line_id": "circle",
+      "line_name": "Circle",
+      "reason": "Circle Line: Minor delays anti-clockwise due to train cancellations. GOOD SERVICE clockwise.",
+      "resolved_at": "2026-09-08T09:31:58Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "other",
+      "duration_seconds": 10886,
+      "first_seen": "2026-09-08T06:30:32Z",
+      "issue_key": "elizabeth:text:f925a390cd4e18dc",
+      "line_id": "elizabeth",
+      "line_name": "Elizabeth line",
+      "reason": "Severe delays between Paddington and Heathrow Terminal 4/Reading and MINOR DELAYS between Paddington and Heathrow Terminal 5 while we fix equipment damaged by vandalism in the Paddington area. Customers should use Piccadilly line to travel to Heathrow Airport and use the free interchange service to travel between terminals. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-09-08T09:31:58Z",
+      "severity": "Severe Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "signal failure",
+      "duration_seconds": 10886,
+      "first_seen": "2026-09-08T06:30:32Z",
+      "issue_key": "metropolitan:text:569776447b05357b",
+      "line_id": "metropolitan",
+      "line_name": "Metropolitan",
+      "reason": "Metropolitan Line: Minor delays between Rickmansworth and Amersham while we fix a signal failure at Chorleywood. The next southbound service from Amersham will be at 07:24. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-09-08T09:31:58Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
     {
       "category": "other",
       "duration_seconds": 5390,
@@ -5515,6 +5551,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-09-08T06:30:32Z",
+  "updated_at": "2026-09-08T09:31:58Z",
   "version": 1
 }
