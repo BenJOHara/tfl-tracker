@@ -1,15 +1,5 @@
 {
   "active": {
-    "central:text:6d0af7c9d44f714a": {
-      "category": "other",
-      "first_seen": "2026-09-08T18:56:53Z",
-      "issue_key": "central:text:6d0af7c9d44f714a",
-      "line_id": "central",
-      "line_name": "Central",
-      "reason": "Central Line: Minor delays due to train cancellations.",
-      "severity": "Minor Delays",
-      "source_created": "0001-01-01T00:00:00"
-    },
     "circle:text:bf9bb7504db7ea4d": {
       "category": "other",
       "first_seen": "2026-09-08T13:49:32Z",
@@ -17,16 +7,6 @@
       "line_id": "circle",
       "line_name": "Circle",
       "reason": "Circle Line: Minor delays due to train cancellations.",
-      "severity": "Minor Delays",
-      "source_created": "0001-01-01T00:00:00"
-    },
-    "piccadilly:text:bd1e6189960c4369": {
-      "category": "signal failure",
-      "first_seen": "2026-09-08T21:47:59Z",
-      "issue_key": "piccadilly:text:bd1e6189960c4369",
-      "line_id": "piccadilly",
-      "line_name": "Piccadilly",
-      "reason": "Piccadilly Line: Minor delays due to an earlier signal failure at Oakwood.",
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
@@ -42,6 +22,30 @@
     }
   },
   "history": [
+    {
+      "category": "other",
+      "duration_seconds": 13681,
+      "first_seen": "2026-09-08T18:56:53Z",
+      "issue_key": "central:text:6d0af7c9d44f714a",
+      "line_id": "central",
+      "line_name": "Central",
+      "reason": "Central Line: Minor delays due to train cancellations.",
+      "resolved_at": "2026-09-08T22:44:54Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "signal failure",
+      "duration_seconds": 3415,
+      "first_seen": "2026-09-08T21:47:59Z",
+      "issue_key": "piccadilly:text:bd1e6189960c4369",
+      "line_id": "piccadilly",
+      "line_name": "Piccadilly",
+      "reason": "Piccadilly Line: Minor delays due to an earlier signal failure at Oakwood.",
+      "resolved_at": "2026-09-08T22:44:54Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
     {
       "category": "signal failure",
       "duration_seconds": 5694,
@@ -5731,6 +5735,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-09-08T21:47:59Z",
+  "updated_at": "2026-09-08T22:44:54Z",
   "version": 1
 }
