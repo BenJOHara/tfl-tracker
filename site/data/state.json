@@ -30,18 +30,30 @@
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "piccadilly:text:fd67b95bf75753d7": {
+    "piccadilly:text:2bb44c22d125d1b3": {
       "category": "signal failure",
-      "first_seen": "2026-09-09T13:58:31Z",
-      "issue_key": "piccadilly:text:fd67b95bf75753d7",
+      "first_seen": "2026-09-09T15:07:18Z",
+      "issue_key": "piccadilly:text:2bb44c22d125d1b3",
       "line_id": "piccadilly",
       "line_name": "Piccadilly",
-      "reason": "Piccadilly Line: Minor delays between Acton Town and Heathrow Terminals / Uxbridge and between Arnos Grove and Cockfosters due to an earlier signal failure at Chiswick Park. GOOD SERVICE on the rest of the line.",
+      "reason": "Piccadilly Line: Minor delays between Acton Town and Uxbridge due to an earlier signal failure at Chiswick Park. GOOD SERVICE on the rest of the line.",
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     }
   },
   "history": [
+    {
+      "category": "signal failure",
+      "duration_seconds": 4127,
+      "first_seen": "2026-09-09T13:58:31Z",
+      "issue_key": "piccadilly:text:fd67b95bf75753d7",
+      "line_id": "piccadilly",
+      "line_name": "Piccadilly",
+      "reason": "Piccadilly Line: Minor delays between Acton Town and Heathrow Terminals / Uxbridge and between Arnos Grove and Cockfosters due to an earlier signal failure at Chiswick Park. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-09-09T15:07:18Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
     {
       "category": "signal failure",
       "duration_seconds": 7202,
@@ -6151,6 +6163,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-09-09T13:58:31Z",
+  "updated_at": "2026-09-09T15:07:18Z",
   "version": 1
 }
