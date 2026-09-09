@@ -30,38 +30,64 @@
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "piccadilly:text:c221a6d66c305947": {
+    "piccadilly:text:684acfd59c6439ff": {
       "category": "signal failure",
-      "first_seen": "2026-09-09T11:09:35Z",
-      "issue_key": "piccadilly:text:c221a6d66c305947",
+      "first_seen": "2026-09-09T11:58:29Z",
+      "issue_key": "piccadilly:text:684acfd59c6439ff",
       "line_id": "piccadilly",
       "line_name": "Piccadilly",
-      "reason": "Piccadilly Line: No service between Northfields and Heathrow Airport while we fix a signal failure at Osterley. Tickets will be accepted on Elizabeth line services. GOOD SERVICE on the rest of the line.",
-      "severity": "Part Suspended",
+      "reason": "Piccadilly Line: Severe delays between Northfields and Heathrow Airport due to an earlier signal failure at Osterley. Tickets will be accepted on Elizabeth line services. GOOD SERVICE on the rest of the line.",
+      "severity": "Severe Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "weaver:text:d9efe4ee4b78da03": {
-      "category": "points failure",
-      "first_seen": "2026-09-09T11:09:35Z",
-      "issue_key": "weaver:text:d9efe4ee4b78da03",
-      "line_id": "weaver",
-      "line_name": "Weaver",
-      "reason": "Weaver Line: No service between Edmonton Green and Cheshunt while we fix a points failure at Cheshunt. GOOD SERVICE on the rest of the line.",
-      "severity": "Part Suspended",
-      "source_created": "0001-01-01T00:00:00"
-    },
-    "windrush:text:f6e1a55727a3ac2f": {
+    "windrush:text:c22d3c47c873ac31": {
       "category": "other",
-      "first_seen": "2026-09-09T11:09:35Z",
-      "issue_key": "windrush:text:f6e1a55727a3ac2f",
+      "first_seen": "2026-09-09T11:58:29Z",
+      "issue_key": "windrush:text:c22d3c47c873ac31",
       "line_id": "windrush",
       "line_name": "Windrush",
-      "reason": "Windrush Line: No service between New Cross Gate and Crystal Palace/West Croydon and NO SERVICE between Highbury & Islington and Dalston Junction while emergency services deal with a casualty on the track. GOOD SERVICE on the rest of the line.",
+      "reason": "Windrush Line: No service between Sydenham and West Croydon and SEVERE DELAYS on the rest of the line while emergency services deal with a casualty on the track.",
       "severity": "Part Suspended",
       "source_created": "0001-01-01T00:00:00"
     }
   },
   "history": [
+    {
+      "category": "signal failure",
+      "duration_seconds": 2934,
+      "first_seen": "2026-09-09T11:09:35Z",
+      "issue_key": "piccadilly:text:c221a6d66c305947",
+      "line_id": "piccadilly",
+      "line_name": "Piccadilly",
+      "reason": "Piccadilly Line: No service between Northfields and Heathrow Airport while we fix a signal failure at Osterley. Tickets will be accepted on Elizabeth line services. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-09-09T11:58:29Z",
+      "severity": "Part Suspended",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "points failure",
+      "duration_seconds": 2934,
+      "first_seen": "2026-09-09T11:09:35Z",
+      "issue_key": "weaver:text:d9efe4ee4b78da03",
+      "line_id": "weaver",
+      "line_name": "Weaver",
+      "reason": "Weaver Line: No service between Edmonton Green and Cheshunt while we fix a points failure at Cheshunt. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-09-09T11:58:29Z",
+      "severity": "Part Suspended",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "other",
+      "duration_seconds": 2934,
+      "first_seen": "2026-09-09T11:09:35Z",
+      "issue_key": "windrush:text:f6e1a55727a3ac2f",
+      "line_id": "windrush",
+      "line_name": "Windrush",
+      "reason": "Windrush Line: No service between New Cross Gate and Crystal Palace/West Croydon and NO SERVICE between Highbury & Islington and Dalston Junction while emergency services deal with a casualty on the track. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-09-09T11:58:29Z",
+      "severity": "Part Suspended",
+      "source_created": "0001-01-01T00:00:00"
+    },
     {
       "category": "other",
       "duration_seconds": 4504,
@@ -6111,6 +6137,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-09-09T11:09:35Z",
+  "updated_at": "2026-09-09T11:58:29Z",
   "version": 1
 }
