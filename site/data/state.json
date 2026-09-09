@@ -1,12 +1,12 @@
 {
   "active": {
-    "bakerloo:text:01a67542cc3ab434": {
+    "bakerloo:text:5acf314f714ca60b": {
       "category": "signal failure",
-      "first_seen": "2026-09-09T17:46:57Z",
-      "issue_key": "bakerloo:text:01a67542cc3ab434",
+      "first_seen": "2026-09-09T20:03:55Z",
+      "issue_key": "bakerloo:text:5acf314f714ca60b",
       "line_id": "bakerloo",
       "line_name": "Bakerloo",
-      "reason": "Bakerloo Line: Severe delays while we fix a signal failure at Embankment.",
+      "reason": "Bakerloo Line: Severe delays due to an earlier signal failure.",
       "severity": "Severe Delays",
       "source_created": "0001-01-01T00:00:00"
     },
@@ -26,7 +26,7 @@
       "issue_key": "district:text:1d5d69ec69ee6253",
       "line_id": "district",
       "line_name": "District",
-      "reason": "District Line: No service between High Street Kensington and Edgware Road due to a points failure at High Street Kensington. Please change at High Street Kensington to continue your journey on the Circle line. SEVERE DELAYS on the rest of the line due to an earlier customer incident. Tickets are being accepted on London Buses.",
+      "reason": "District Line: No service between High Street Kensington and Edgware Road due to a points failure at High Street Kensington. Please change at High Street Kensington to continue your journey on the Circle line. MINOR DELAYS on the rest of the line due to an earlier customer incident. Tickets are being accepted on London Buses.",
       "severity": "Part Suspended",
       "source_created": "0001-01-01T00:00:00"
     },
@@ -50,36 +50,6 @@
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "hammersmith-city:text:788f12dba5f1ecfd": {
-      "category": "passenger incident",
-      "first_seen": "2026-09-09T19:27:47Z",
-      "issue_key": "hammersmith-city:text:788f12dba5f1ecfd",
-      "line_id": "hammersmith-city",
-      "line_name": "Hammersmith & City",
-      "reason": "Hammersmith and City Line: Minor delays eastbound only due to an earlier customer incident. GOOD SERVICE on the rest of the line.",
-      "severity": "Minor Delays",
-      "source_created": "0001-01-01T00:00:00"
-    },
-    "metropolitan:text:efa65136e857a6fd": {
-      "category": "signal failure",
-      "first_seen": "2026-09-09T19:27:47Z",
-      "issue_key": "metropolitan:text:efa65136e857a6fd",
-      "line_id": "metropolitan",
-      "line_name": "Metropolitan",
-      "reason": "Metropolitan Line: Severe delays between Uxbridge and Rayners Lane while we fix a signal failure at Rayners Lane. GOOD SERVICE on the rest of the line.",
-      "severity": "Severe Delays",
-      "source_created": "0001-01-01T00:00:00"
-    },
-    "piccadilly:text:a713807818b03674": {
-      "category": "signal failure",
-      "first_seen": "2026-09-09T19:27:47Z",
-      "issue_key": "piccadilly:text:a713807818b03674",
-      "line_id": "piccadilly",
-      "line_name": "Piccadilly",
-      "reason": "Piccadilly Line: Minor delays between Rayners Lane and Uxbridge due to an earlier signal failure at Rayners Lane. GOOD SERVICE on the rest of the line.",
-      "severity": "Minor Delays",
-      "source_created": "0001-01-01T00:00:00"
-    },
     "tram:text:147c3050e9d1d881": {
       "category": "signal failure",
       "first_seen": "2026-09-09T16:33:13Z",
@@ -92,6 +62,54 @@
     }
   },
   "history": [
+    {
+      "category": "signal failure",
+      "duration_seconds": 8218,
+      "first_seen": "2026-09-09T17:46:57Z",
+      "issue_key": "bakerloo:text:01a67542cc3ab434",
+      "line_id": "bakerloo",
+      "line_name": "Bakerloo",
+      "reason": "Bakerloo Line: Severe delays while we fix a signal failure at Embankment.",
+      "resolved_at": "2026-09-09T20:03:55Z",
+      "severity": "Severe Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "passenger incident",
+      "duration_seconds": 2168,
+      "first_seen": "2026-09-09T19:27:47Z",
+      "issue_key": "hammersmith-city:text:788f12dba5f1ecfd",
+      "line_id": "hammersmith-city",
+      "line_name": "Hammersmith & City",
+      "reason": "Hammersmith and City Line: Minor delays eastbound only due to an earlier customer incident. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-09-09T20:03:55Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "signal failure",
+      "duration_seconds": 2168,
+      "first_seen": "2026-09-09T19:27:47Z",
+      "issue_key": "metropolitan:text:efa65136e857a6fd",
+      "line_id": "metropolitan",
+      "line_name": "Metropolitan",
+      "reason": "Metropolitan Line: Severe delays between Uxbridge and Rayners Lane while we fix a signal failure at Rayners Lane. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-09-09T20:03:55Z",
+      "severity": "Severe Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "signal failure",
+      "duration_seconds": 2168,
+      "first_seen": "2026-09-09T19:27:47Z",
+      "issue_key": "piccadilly:text:a713807818b03674",
+      "line_id": "piccadilly",
+      "line_name": "Piccadilly",
+      "reason": "Piccadilly Line: Minor delays between Rayners Lane and Uxbridge due to an earlier signal failure at Rayners Lane. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-09-09T20:03:55Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
     {
       "category": "other",
       "duration_seconds": 10474,
@@ -6333,6 +6351,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-09-09T19:27:47Z",
+  "updated_at": "2026-09-09T20:03:55Z",
   "version": 1
 }
