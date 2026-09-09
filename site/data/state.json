@@ -1,5 +1,15 @@
 {
   "active": {
+    "central:text:6d0af7c9d44f714a": {
+      "category": "other",
+      "first_seen": "2026-09-09T06:46:04Z",
+      "issue_key": "central:text:6d0af7c9d44f714a",
+      "line_id": "central",
+      "line_name": "Central",
+      "reason": "Central Line: Minor delays due to train cancellations.",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
     "elizabeth:text:e04131bfd335811d": {
       "category": "other",
       "first_seen": "2026-09-09T05:59:38Z",
@@ -8,6 +18,16 @@
       "line_name": "Elizabeth line",
       "reason": "Severe delays between Paddington and Heathrow Terminal 4, MINOR DELAYS between Hayes & Harlington and Reading due to vandalism to equipment in the Paddington area. London Underground is accepting tickets via reasonable routes. GOOD SERVICE on the rest of the line.",
       "severity": "Severe Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "victoria:text:02e0850cdf11ef25": {
+      "category": "other",
+      "first_seen": "2026-09-09T06:46:04Z",
+      "issue_key": "victoria:text:02e0850cdf11ef25",
+      "line_id": "victoria",
+      "line_name": "Victoria",
+      "reason": "Victoria Line: Minor delays due to train cancellations.",
+      "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     }
   },
@@ -6001,6 +6021,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-09-09T05:59:38Z",
+  "updated_at": "2026-09-09T06:46:04Z",
   "version": 1
 }
