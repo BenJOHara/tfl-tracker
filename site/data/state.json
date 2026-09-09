@@ -1,5 +1,25 @@
 {
   "active": {
+    "bakerloo:text:441236c7b38e407e": {
+      "category": "other",
+      "first_seen": "2026-09-09T16:33:13Z",
+      "issue_key": "bakerloo:text:441236c7b38e407e",
+      "line_id": "bakerloo",
+      "line_name": "Bakerloo",
+      "reason": "Bakerloo Line: Minor delays due to train cancellations.",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "central:text:23c62521d4237097": {
+      "category": "other",
+      "first_seen": "2026-09-09T16:33:13Z",
+      "issue_key": "central:text:23c62521d4237097",
+      "line_id": "central",
+      "line_name": "Central",
+      "reason": "Central Line: Minor delays between North Acton and Ealing Broadway / West Ruislip and between Leytonstone and Epping / Hainault via Newbury Park due to train cancellations. GOOD SERVICE on the rest of the line.",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
     "district:text:69fe6760c0e732ba": {
       "category": "points failure",
       "first_seen": "2026-09-09T09:54:31Z",
@@ -8,6 +28,16 @@
       "line_name": "District",
       "reason": "District Line: No service between High Street Kensington and Edgware Road due to a points failure at High Street Kensington. Please change at High Street Kensington to continue your journey on the Circle line. Tickets are also being accepted on London Buses. GOOD SERVICE on the rest of the line.",
       "severity": "Part Suspended",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "elizabeth:text:25650d8ac546fb4c": {
+      "category": "other",
+      "first_seen": "2026-09-09T16:33:13Z",
+      "issue_key": "elizabeth:text:25650d8ac546fb4c",
+      "line_id": "elizabeth",
+      "line_name": "Elizabeth line",
+      "reason": "Severe delays between Paddington and Heathrow Terminal 4 and MINOR DELAYS between Hayes & Harlington and Reading due to vandalism to equipment in the Paddington area. GOOD SERVICE on the rest of the line.",
+      "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
     "elizabeth:text:414bd94fc52f8b34": {
@@ -20,28 +50,52 @@
       "severity": "Reduced Service",
       "source_created": "0001-01-01T00:00:00"
     },
-    "elizabeth:text:ce0de1c483e89356": {
-      "category": "other",
-      "first_seen": "2026-09-09T09:54:31Z",
-      "issue_key": "elizabeth:text:ce0de1c483e89356",
-      "line_id": "elizabeth",
-      "line_name": "Elizabeth line",
-      "reason": "Minor delays between Paddington and Heathrow Terminal 4 due to vandalism to equipment in the Paddington area. GOOD SERVICE on the rest of the line.",
-      "severity": "Minor Delays",
+    "tram:text:147c3050e9d1d881": {
+      "category": "signal failure",
+      "first_seen": "2026-09-09T16:33:13Z",
+      "issue_key": "tram:text:147c3050e9d1d881",
+      "line_id": "tram",
+      "line_name": "Tram",
+      "reason": "London Tramlink: No service between Beckenham Junction and Harrington Road due to a signal failure. GOOD SERVICE on other Tram routes.",
+      "severity": "Part Suspended",
       "source_created": "0001-01-01T00:00:00"
     },
-    "piccadilly:text:2bb44c22d125d1b3": {
-      "category": "signal failure",
-      "first_seen": "2026-09-09T15:07:18Z",
-      "issue_key": "piccadilly:text:2bb44c22d125d1b3",
-      "line_id": "piccadilly",
-      "line_name": "Piccadilly",
-      "reason": "Piccadilly Line: Minor delays between Acton Town and Uxbridge due to an earlier signal failure at Chiswick Park. GOOD SERVICE on the rest of the line.",
+    "victoria:text:02e0850cdf11ef25": {
+      "category": "other",
+      "first_seen": "2026-09-09T16:33:13Z",
+      "issue_key": "victoria:text:02e0850cdf11ef25",
+      "line_id": "victoria",
+      "line_name": "Victoria",
+      "reason": "Victoria Line: Minor delays due to train cancellations.",
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     }
   },
   "history": [
+    {
+      "category": "other",
+      "duration_seconds": 23922,
+      "first_seen": "2026-09-09T09:54:31Z",
+      "issue_key": "elizabeth:text:ce0de1c483e89356",
+      "line_id": "elizabeth",
+      "line_name": "Elizabeth line",
+      "reason": "Minor delays between Paddington and Heathrow Terminal 4 due to vandalism to equipment in the Paddington area. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-09-09T16:33:13Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "signal failure",
+      "duration_seconds": 5155,
+      "first_seen": "2026-09-09T15:07:18Z",
+      "issue_key": "piccadilly:text:2bb44c22d125d1b3",
+      "line_id": "piccadilly",
+      "line_name": "Piccadilly",
+      "reason": "Piccadilly Line: Minor delays between Acton Town and Uxbridge due to an earlier signal failure at Chiswick Park. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-09-09T16:33:13Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
     {
       "category": "signal failure",
       "duration_seconds": 4127,
@@ -6163,6 +6217,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-09-09T15:07:18Z",
+  "updated_at": "2026-09-09T16:33:13Z",
   "version": 1
 }
