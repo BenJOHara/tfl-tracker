@@ -1,23 +1,33 @@
 {
   "active": {
-    "central:text:6d0af7c9d44f714a": {
+    "central:text:46bc7de1e13ca6ae": {
       "category": "other",
-      "first_seen": "2026-09-09T06:46:04Z",
-      "issue_key": "central:text:6d0af7c9d44f714a",
+      "first_seen": "2026-09-09T09:54:31Z",
+      "issue_key": "central:text:46bc7de1e13ca6ae",
       "line_id": "central",
       "line_name": "Central",
-      "reason": "Central Line: Minor delays due to train cancellations.",
+      "reason": "Central Line: Minor delays between North Acton and Ealing Broadway/ West Ruislip and MINOR DELAYS between Leytonstone and Epping/ Hainault via Newbury Park due to train cancellations.",
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "elizabeth:text:e04131bfd335811d": {
+    "district:text:69fe6760c0e732ba": {
+      "category": "points failure",
+      "first_seen": "2026-09-09T09:54:31Z",
+      "issue_key": "district:text:69fe6760c0e732ba",
+      "line_id": "district",
+      "line_name": "District",
+      "reason": "District Line: No service between High Street Kensington and Edgware Road due to a points failure at High Street Kensington. Please change at High Street Kensington to continue your journey on the Circle line. Tickets are also being accepted on London Buses. GOOD SERVICE on the rest of the line.",
+      "severity": "Part Suspended",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "elizabeth:text:ce0de1c483e89356": {
       "category": "other",
-      "first_seen": "2026-09-09T05:59:38Z",
-      "issue_key": "elizabeth:text:e04131bfd335811d",
+      "first_seen": "2026-09-09T09:54:31Z",
+      "issue_key": "elizabeth:text:ce0de1c483e89356",
       "line_id": "elizabeth",
       "line_name": "Elizabeth line",
-      "reason": "Severe delays between Paddington and Heathrow Terminal 4, MINOR DELAYS between Hayes & Harlington and Reading due to vandalism to equipment in the Paddington area. London Underground is accepting tickets via reasonable routes. GOOD SERVICE on the rest of the line.",
-      "severity": "Severe Delays",
+      "reason": "Minor delays between Paddington and Heathrow Terminal 4 due to vandalism to equipment in the Paddington area. GOOD SERVICE on the rest of the line.",
+      "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
     "victoria:text:02e0850cdf11ef25": {
@@ -29,9 +39,43 @@
       "reason": "Victoria Line: Minor delays due to train cancellations.",
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
+    },
+    "windrush:text:cf535839adf63dbb": {
+      "category": "other",
+      "first_seen": "2026-09-09T09:54:31Z",
+      "issue_key": "windrush:text:cf535839adf63dbb",
+      "line_id": "windrush",
+      "line_name": "Windrush",
+      "reason": "Windrush Line: No service between New Cross Gate and Crystal Palace/West Croydon while emergency services deal with a casualty on the track. GOOD SERVICE on the rest of the line.",
+      "severity": "Part Suspended",
+      "source_created": "0001-01-01T00:00:00"
     }
   },
   "history": [
+    {
+      "category": "other",
+      "duration_seconds": 11307,
+      "first_seen": "2026-09-09T06:46:04Z",
+      "issue_key": "central:text:6d0af7c9d44f714a",
+      "line_id": "central",
+      "line_name": "Central",
+      "reason": "Central Line: Minor delays due to train cancellations.",
+      "resolved_at": "2026-09-09T09:54:31Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "other",
+      "duration_seconds": 14093,
+      "first_seen": "2026-09-09T05:59:38Z",
+      "issue_key": "elizabeth:text:e04131bfd335811d",
+      "line_id": "elizabeth",
+      "line_name": "Elizabeth line",
+      "reason": "Severe delays between Paddington and Heathrow Terminal 4, MINOR DELAYS between Hayes & Harlington and Reading due to vandalism to equipment in the Paddington area. London Underground is accepting tickets via reasonable routes. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-09-09T09:54:31Z",
+      "severity": "Severe Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
     {
       "category": "signal failure",
       "duration_seconds": 2146,
@@ -6021,6 +6065,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-09-09T06:46:04Z",
+  "updated_at": "2026-09-09T09:54:31Z",
   "version": 1
 }
