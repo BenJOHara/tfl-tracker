@@ -1,13 +1,13 @@
 {
   "active": {
-    "bakerloo:text:441236c7b38e407e": {
-      "category": "other",
-      "first_seen": "2026-09-09T16:33:13Z",
-      "issue_key": "bakerloo:text:441236c7b38e407e",
+    "bakerloo:text:01a67542cc3ab434": {
+      "category": "signal failure",
+      "first_seen": "2026-09-09T17:46:57Z",
+      "issue_key": "bakerloo:text:01a67542cc3ab434",
       "line_id": "bakerloo",
       "line_name": "Bakerloo",
-      "reason": "Bakerloo Line: Minor delays due to train cancellations.",
-      "severity": "Minor Delays",
+      "reason": "Bakerloo Line: Severe delays while we fix a signal failure at Embankment.",
+      "severity": "Severe Delays",
       "source_created": "0001-01-01T00:00:00"
     },
     "central:text:23c62521d4237097": {
@@ -20,13 +20,23 @@
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "district:text:69fe6760c0e732ba": {
+    "circle:text:4bab4b775cd0d7d6": {
+      "category": "other",
+      "first_seen": "2026-09-09T17:46:57Z",
+      "issue_key": "circle:text:4bab4b775cd0d7d6",
+      "line_id": "circle",
+      "line_name": "Circle",
+      "reason": "Circle Line: No service clockwise and SEVERE DELAYS anticlockwise while emergency services deal with a casualty on the track. Tickets are being accepted on London Buses.",
+      "severity": "Part Suspended",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "district:text:8e3863d61cae23c3": {
       "category": "points failure",
-      "first_seen": "2026-09-09T09:54:31Z",
-      "issue_key": "district:text:69fe6760c0e732ba",
+      "first_seen": "2026-09-09T17:46:57Z",
+      "issue_key": "district:text:8e3863d61cae23c3",
       "line_id": "district",
       "line_name": "District",
-      "reason": "District Line: No service between High Street Kensington and Edgware Road due to a points failure at High Street Kensington. Please change at High Street Kensington to continue your journey on the Circle line. Tickets are also being accepted on London Buses. GOOD SERVICE on the rest of the line.",
+      "reason": "District Line: No service between Embankment and Earl's Court westbound only while emergency services deal with a casualty on the track. No service between High Street Kensington and Edgware Road due to a points failure at High Street Kensington. Please change at High Street Kensington to continue your journey on the Circle line. Tickets are also being accepted on London Buses. SEVERE DELAYS on the rest of the line.",
       "severity": "Part Suspended",
       "source_created": "0001-01-01T00:00:00"
     },
@@ -59,19 +69,45 @@
       "reason": "London Tramlink: No service between Beckenham Junction and Harrington Road due to a signal failure. GOOD SERVICE on other Tram routes.",
       "severity": "Part Suspended",
       "source_created": "0001-01-01T00:00:00"
-    },
-    "victoria:text:02e0850cdf11ef25": {
+    }
+  },
+  "history": [
+    {
       "category": "other",
+      "duration_seconds": 4424,
+      "first_seen": "2026-09-09T16:33:13Z",
+      "issue_key": "bakerloo:text:441236c7b38e407e",
+      "line_id": "bakerloo",
+      "line_name": "Bakerloo",
+      "reason": "Bakerloo Line: Minor delays due to train cancellations.",
+      "resolved_at": "2026-09-09T17:46:57Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "points failure",
+      "duration_seconds": 28346,
+      "first_seen": "2026-09-09T09:54:31Z",
+      "issue_key": "district:text:69fe6760c0e732ba",
+      "line_id": "district",
+      "line_name": "District",
+      "reason": "District Line: No service between High Street Kensington and Edgware Road due to a points failure at High Street Kensington. Please change at High Street Kensington to continue your journey on the Circle line. Tickets are also being accepted on London Buses. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-09-09T17:46:57Z",
+      "severity": "Part Suspended",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "other",
+      "duration_seconds": 4424,
       "first_seen": "2026-09-09T16:33:13Z",
       "issue_key": "victoria:text:02e0850cdf11ef25",
       "line_id": "victoria",
       "line_name": "Victoria",
       "reason": "Victoria Line: Minor delays due to train cancellations.",
+      "resolved_at": "2026-09-09T17:46:57Z",
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
-    }
-  },
-  "history": [
+    },
     {
       "category": "other",
       "duration_seconds": 23922,
@@ -6217,6 +6253,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-09-09T16:33:13Z",
+  "updated_at": "2026-09-09T17:46:57Z",
   "version": 1
 }
