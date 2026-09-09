@@ -40,16 +40,6 @@
       "severity": "Part Suspended",
       "source_created": "0001-01-01T00:00:00"
     },
-    "elizabeth:text:25650d8ac546fb4c": {
-      "category": "other",
-      "first_seen": "2026-09-09T16:33:13Z",
-      "issue_key": "elizabeth:text:25650d8ac546fb4c",
-      "line_id": "elizabeth",
-      "line_name": "Elizabeth line",
-      "reason": "Severe delays between Paddington and Heathrow Terminal 4 and MINOR DELAYS between Hayes & Harlington and Reading due to vandalism to equipment in the Paddington area. GOOD SERVICE on the rest of the line.",
-      "severity": "Minor Delays",
-      "source_created": "0001-01-01T00:00:00"
-    },
     "elizabeth:text:414bd94fc52f8b34": {
       "category": "other",
       "first_seen": "2026-09-09T11:09:35Z",
@@ -58,6 +48,26 @@
       "line_name": "Elizabeth line",
       "reason": "ELIZABETH LINE: Due to vandalism to railway equipment we are running a reduced service at certain times of the day so please continue to check before you travel",
       "severity": "Reduced Service",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "elizabeth:text:ce0de1c483e89356": {
+      "category": "other",
+      "first_seen": "2026-09-09T18:37:00Z",
+      "issue_key": "elizabeth:text:ce0de1c483e89356",
+      "line_id": "elizabeth",
+      "line_name": "Elizabeth line",
+      "reason": "Minor delays between Paddington and Heathrow Terminal 4 due to vandalism to equipment in the Paddington area. GOOD SERVICE on the rest of the line.",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "hammersmith-city:text:defd7c168a447dfc": {
+      "category": "other",
+      "first_seen": "2026-09-09T18:37:00Z",
+      "issue_key": "hammersmith-city:text:defd7c168a447dfc",
+      "line_id": "hammersmith-city",
+      "line_name": "Hammersmith & City",
+      "reason": "Hammersmith and City Line: No service between Barking and Liverpool Street westbound only while emergency services deal with a casualty on the track. GOOD SERVICE on the rest of the line. London buses are accepting tickets via any reasonable route.",
+      "severity": "Part Suspended",
       "source_created": "0001-01-01T00:00:00"
     },
     "tram:text:147c3050e9d1d881": {
@@ -72,6 +82,18 @@
     }
   },
   "history": [
+    {
+      "category": "other",
+      "duration_seconds": 7427,
+      "first_seen": "2026-09-09T16:33:13Z",
+      "issue_key": "elizabeth:text:25650d8ac546fb4c",
+      "line_id": "elizabeth",
+      "line_name": "Elizabeth line",
+      "reason": "Severe delays between Paddington and Heathrow Terminal 4 and MINOR DELAYS between Hayes & Harlington and Reading due to vandalism to equipment in the Paddington area. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-09-09T18:37:00Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
     {
       "category": "other",
       "duration_seconds": 4424,
@@ -6253,6 +6275,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-09-09T17:46:57Z",
+  "updated_at": "2026-09-09T18:37:00Z",
   "version": 1
 }
