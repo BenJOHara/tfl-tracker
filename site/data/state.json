@@ -30,28 +30,42 @@
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "piccadilly:text:684acfd59c6439ff": {
+    "piccadilly:text:fd67b95bf75753d7": {
       "category": "signal failure",
+      "first_seen": "2026-09-09T13:58:31Z",
+      "issue_key": "piccadilly:text:fd67b95bf75753d7",
+      "line_id": "piccadilly",
+      "line_name": "Piccadilly",
+      "reason": "Piccadilly Line: Minor delays between Acton Town and Heathrow Terminals / Uxbridge and between Arnos Grove and Cockfosters due to an earlier signal failure at Chiswick Park. GOOD SERVICE on the rest of the line.",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    }
+  },
+  "history": [
+    {
+      "category": "signal failure",
+      "duration_seconds": 7202,
       "first_seen": "2026-09-09T11:58:29Z",
       "issue_key": "piccadilly:text:684acfd59c6439ff",
       "line_id": "piccadilly",
       "line_name": "Piccadilly",
       "reason": "Piccadilly Line: Severe delays between Northfields and Heathrow Airport due to an earlier signal failure at Osterley. Tickets will be accepted on Elizabeth line services. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-09-09T13:58:31Z",
       "severity": "Severe Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "windrush:text:c22d3c47c873ac31": {
+    {
       "category": "other",
+      "duration_seconds": 7202,
       "first_seen": "2026-09-09T11:58:29Z",
       "issue_key": "windrush:text:c22d3c47c873ac31",
       "line_id": "windrush",
       "line_name": "Windrush",
       "reason": "Windrush Line: No service between Sydenham and West Croydon and SEVERE DELAYS on the rest of the line while emergency services deal with a casualty on the track.",
+      "resolved_at": "2026-09-09T13:58:31Z",
       "severity": "Part Suspended",
       "source_created": "0001-01-01T00:00:00"
-    }
-  },
-  "history": [
+    },
     {
       "category": "signal failure",
       "duration_seconds": 2934,
@@ -6137,6 +6151,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-09-09T11:58:29Z",
+  "updated_at": "2026-09-09T13:58:31Z",
   "version": 1
 }
