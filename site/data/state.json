@@ -40,13 +40,13 @@
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "northern:text:3b59b3b069fa94f9": {
+    "northern:text:92184d8db81f708f": {
       "category": "points failure",
-      "first_seen": "2026-09-09T22:29:05Z",
-      "issue_key": "northern:text:3b59b3b069fa94f9",
+      "first_seen": "2026-09-09T23:16:30Z",
+      "issue_key": "northern:text:92184d8db81f708f",
       "line_id": "northern",
       "line_name": "Northern",
-      "reason": "Northern Line: Severe delays while we fix a points failure at Hampstead. London Buses are accepting tickets via any reasonable route.",
+      "reason": "Northern Line: Severe delays while we fix a points failure at Hampstead. Tickets are being accepted on London Buses, Trams, Southeastern, Thameslink and South Western Railway services via any reasonable route.",
       "severity": "Severe Delays",
       "source_created": "0001-01-01T00:00:00"
     },
@@ -72,6 +72,18 @@
     }
   },
   "history": [
+    {
+      "category": "points failure",
+      "duration_seconds": 2845,
+      "first_seen": "2026-09-09T22:29:05Z",
+      "issue_key": "northern:text:3b59b3b069fa94f9",
+      "line_id": "northern",
+      "line_name": "Northern",
+      "reason": "Northern Line: Severe delays while we fix a points failure at Hampstead. London Buses are accepting tickets via any reasonable route.",
+      "resolved_at": "2026-09-09T23:16:30Z",
+      "severity": "Severe Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
     {
       "category": "points failure",
       "duration_seconds": 2006,
@@ -6421,6 +6433,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-09-09T22:29:05Z",
+  "updated_at": "2026-09-09T23:16:30Z",
   "version": 1
 }
