@@ -1,15 +1,5 @@
 {
   "active": {
-    "central:text:46bc7de1e13ca6ae": {
-      "category": "other",
-      "first_seen": "2026-09-09T09:54:31Z",
-      "issue_key": "central:text:46bc7de1e13ca6ae",
-      "line_id": "central",
-      "line_name": "Central",
-      "reason": "Central Line: Minor delays between North Acton and Ealing Broadway/ West Ruislip and MINOR DELAYS between Leytonstone and Epping/ Hainault via Newbury Park due to train cancellations.",
-      "severity": "Minor Delays",
-      "source_created": "0001-01-01T00:00:00"
-    },
     "district:text:69fe6760c0e732ba": {
       "category": "points failure",
       "first_seen": "2026-09-09T09:54:31Z",
@@ -18,6 +8,16 @@
       "line_name": "District",
       "reason": "District Line: No service between High Street Kensington and Edgware Road due to a points failure at High Street Kensington. Please change at High Street Kensington to continue your journey on the Circle line. Tickets are also being accepted on London Buses. GOOD SERVICE on the rest of the line.",
       "severity": "Part Suspended",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "elizabeth:text:414bd94fc52f8b34": {
+      "category": "other",
+      "first_seen": "2026-09-09T11:09:35Z",
+      "issue_key": "elizabeth:text:414bd94fc52f8b34",
+      "line_id": "elizabeth",
+      "line_name": "Elizabeth line",
+      "reason": "ELIZABETH LINE: Due to vandalism to railway equipment we are running a reduced service at certain times of the day so please continue to check before you travel",
+      "severity": "Reduced Service",
       "source_created": "0001-01-01T00:00:00"
     },
     "elizabeth:text:ce0de1c483e89356": {
@@ -30,28 +30,74 @@
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "victoria:text:02e0850cdf11ef25": {
-      "category": "other",
-      "first_seen": "2026-09-09T06:46:04Z",
-      "issue_key": "victoria:text:02e0850cdf11ef25",
-      "line_id": "victoria",
-      "line_name": "Victoria",
-      "reason": "Victoria Line: Minor delays due to train cancellations.",
-      "severity": "Minor Delays",
+    "piccadilly:text:c221a6d66c305947": {
+      "category": "signal failure",
+      "first_seen": "2026-09-09T11:09:35Z",
+      "issue_key": "piccadilly:text:c221a6d66c305947",
+      "line_id": "piccadilly",
+      "line_name": "Piccadilly",
+      "reason": "Piccadilly Line: No service between Northfields and Heathrow Airport while we fix a signal failure at Osterley. Tickets will be accepted on Elizabeth line services. GOOD SERVICE on the rest of the line.",
+      "severity": "Part Suspended",
       "source_created": "0001-01-01T00:00:00"
     },
-    "windrush:text:cf535839adf63dbb": {
+    "weaver:text:d9efe4ee4b78da03": {
+      "category": "points failure",
+      "first_seen": "2026-09-09T11:09:35Z",
+      "issue_key": "weaver:text:d9efe4ee4b78da03",
+      "line_id": "weaver",
+      "line_name": "Weaver",
+      "reason": "Weaver Line: No service between Edmonton Green and Cheshunt while we fix a points failure at Cheshunt. GOOD SERVICE on the rest of the line.",
+      "severity": "Part Suspended",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "windrush:text:f6e1a55727a3ac2f": {
       "category": "other",
-      "first_seen": "2026-09-09T09:54:31Z",
-      "issue_key": "windrush:text:cf535839adf63dbb",
+      "first_seen": "2026-09-09T11:09:35Z",
+      "issue_key": "windrush:text:f6e1a55727a3ac2f",
       "line_id": "windrush",
       "line_name": "Windrush",
-      "reason": "Windrush Line: No service between New Cross Gate and Crystal Palace/West Croydon while emergency services deal with a casualty on the track. GOOD SERVICE on the rest of the line.",
+      "reason": "Windrush Line: No service between New Cross Gate and Crystal Palace/West Croydon and NO SERVICE between Highbury & Islington and Dalston Junction while emergency services deal with a casualty on the track. GOOD SERVICE on the rest of the line.",
       "severity": "Part Suspended",
       "source_created": "0001-01-01T00:00:00"
     }
   },
   "history": [
+    {
+      "category": "other",
+      "duration_seconds": 4504,
+      "first_seen": "2026-09-09T09:54:31Z",
+      "issue_key": "central:text:46bc7de1e13ca6ae",
+      "line_id": "central",
+      "line_name": "Central",
+      "reason": "Central Line: Minor delays between North Acton and Ealing Broadway/ West Ruislip and MINOR DELAYS between Leytonstone and Epping/ Hainault via Newbury Park due to train cancellations.",
+      "resolved_at": "2026-09-09T11:09:35Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "other",
+      "duration_seconds": 15811,
+      "first_seen": "2026-09-09T06:46:04Z",
+      "issue_key": "victoria:text:02e0850cdf11ef25",
+      "line_id": "victoria",
+      "line_name": "Victoria",
+      "reason": "Victoria Line: Minor delays due to train cancellations.",
+      "resolved_at": "2026-09-09T11:09:35Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "other",
+      "duration_seconds": 4504,
+      "first_seen": "2026-09-09T09:54:31Z",
+      "issue_key": "windrush:text:cf535839adf63dbb",
+      "line_id": "windrush",
+      "line_name": "Windrush",
+      "reason": "Windrush Line: No service between New Cross Gate and Crystal Palace/West Croydon while emergency services deal with a casualty on the track. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-09-09T11:09:35Z",
+      "severity": "Part Suspended",
+      "source_created": "0001-01-01T00:00:00"
+    },
     {
       "category": "other",
       "duration_seconds": 11307,
@@ -6065,6 +6111,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-09-09T09:54:31Z",
+  "updated_at": "2026-09-09T11:09:35Z",
   "version": 1
 }
