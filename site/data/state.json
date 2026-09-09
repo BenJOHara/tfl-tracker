@@ -1,13 +1,13 @@
 {
   "active": {
-    "bakerloo:text:5acf314f714ca60b": {
-      "category": "signal failure",
-      "first_seen": "2026-09-09T20:03:55Z",
-      "issue_key": "bakerloo:text:5acf314f714ca60b",
+    "bakerloo:text:441236c7b38e407e": {
+      "category": "other",
+      "first_seen": "2026-09-09T21:13:06Z",
+      "issue_key": "bakerloo:text:441236c7b38e407e",
       "line_id": "bakerloo",
       "line_name": "Bakerloo",
-      "reason": "Bakerloo Line: Severe delays due to an earlier signal failure.",
-      "severity": "Severe Delays",
+      "reason": "Bakerloo Line: Minor delays due to train cancellations.",
+      "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
     "circle:text:294e58aefaec8782": {
@@ -16,8 +16,8 @@
       "issue_key": "circle:text:294e58aefaec8782",
       "line_id": "circle",
       "line_name": "Circle",
-      "reason": "Circle Line: Severe delays due to an earlier customer incident.",
-      "severity": "Severe Delays",
+      "reason": "Circle Line: Minor delays due to an earlier customer incident.",
+      "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
     "district:text:1d5d69ec69ee6253": {
@@ -50,6 +50,16 @@
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
+    "northern:text:16786081ed9aec23": {
+      "category": "points failure",
+      "first_seen": "2026-09-09T21:13:06Z",
+      "issue_key": "northern:text:16786081ed9aec23",
+      "line_id": "northern",
+      "line_name": "Northern",
+      "reason": "Northern Line: No service between Edgware and Camden Town southbound, SEVERE DELAYS between Edgware and Camden Town northbound, and MINOR DELAYS between Camden Town and Battersea Power Station while we fix a points failure at Hampstead. GOOD SERVICE on the rest of the line.",
+      "severity": "Part Suspended",
+      "source_created": "0001-01-01T00:00:00"
+    },
     "tram:text:147c3050e9d1d881": {
       "category": "signal failure",
       "first_seen": "2026-09-09T16:33:13Z",
@@ -62,6 +72,18 @@
     }
   },
   "history": [
+    {
+      "category": "signal failure",
+      "duration_seconds": 4151,
+      "first_seen": "2026-09-09T20:03:55Z",
+      "issue_key": "bakerloo:text:5acf314f714ca60b",
+      "line_id": "bakerloo",
+      "line_name": "Bakerloo",
+      "reason": "Bakerloo Line: Severe delays due to an earlier signal failure.",
+      "resolved_at": "2026-09-09T21:13:06Z",
+      "severity": "Severe Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
     {
       "category": "signal failure",
       "duration_seconds": 8218,
@@ -6351,6 +6373,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-09-09T20:03:55Z",
+  "updated_at": "2026-09-09T21:13:06Z",
   "version": 1
 }
