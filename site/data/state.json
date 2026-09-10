@@ -39,6 +39,26 @@
       "reason": "Metropolitan Line: No service between Baker Street and Aldgate and MINOR DELAYS on the rest of the line due to a collapsed drain on the track at Baker Street. Tickets are being accepted on London Buses, Chiltern Railway and Thameslink.",
       "severity": "Part Suspended",
       "source_created": "0001-01-01T00:00:00"
+    },
+    "waterloo-city:text:dba9341acd1fd9fc": {
+      "category": "signal failure",
+      "first_seen": "2026-09-10T21:58:54Z",
+      "issue_key": "waterloo-city:text:dba9341acd1fd9fc",
+      "line_id": "waterloo-city",
+      "line_name": "Waterloo & City",
+      "reason": "Waterloo and City Line: No service while we fix a signal failure at Waterloo.",
+      "severity": "Suspended",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "windrush:text:9c23677941895d60": {
+      "category": "other",
+      "first_seen": "2026-09-10T21:58:54Z",
+      "issue_key": "windrush:text:9c23677941895d60",
+      "line_id": "windrush",
+      "line_name": "Windrush",
+      "reason": "WINDRUSH LINE: Monday 7, Tuesday 8, Wednesday 9 and Thursday 10 September, after 2215 each evening, no service between Sydenham and West Croydon. West Croydon trains will divert to and depart from Crystal Palace after 2215. Use local buses via any reasonable route or Southern Railway trains between Sydenham and Norwood Junction. Tickets will also be accepted on Southern Railway trains between Crystal Palace and East Croydon (via Norwood Junction), and on two Southern Railway rail replacement buses departing Norwood Junction at 2318 and 0013 for West Croydon via Selhurst (and onward to Sutton). Last through trains: Highbury & Islington to West Croydon 2147; West Croydon to Highbury & Islington 2246",
+      "severity": "Part Closure",
+      "source_created": "0001-01-01T00:00:00"
     }
   },
   "history": [
@@ -7063,6 +7083,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-09-10T20:52:13Z",
+  "updated_at": "2026-09-10T21:58:54Z",
   "version": 1
 }
