@@ -20,14 +20,14 @@
       "severity": "Part Suspended",
       "source_created": "0001-01-01T00:00:00"
     },
-    "elizabeth:text:7094cf041d682883": {
-      "category": "passenger incident",
-      "first_seen": "2026-09-10T09:36:45Z",
-      "issue_key": "elizabeth:text:7094cf041d682883",
+    "elizabeth:text:60c3cd54d84a1f6c": {
+      "category": "other",
+      "first_seen": "2026-09-10T09:40:28Z",
+      "issue_key": "elizabeth:text:60c3cd54d84a1f6c",
       "line_id": "elizabeth",
       "line_name": "Elizabeth line",
-      "reason": "Severe delays between Paddington and Heathrow Airport / Reading and MINOR DELAYS between Paddington and Abbey Wood following a late finish of engineering work at Westbourne Park and an earlier customer incident. Tickets are being accepted on London Underground, Great Western Railway, South Western Railway, Chiltern Railway, DLR, Southeastern and Thameslink. GOOD SERVICE on the rest of the line.",
-      "severity": "Severe Delays",
+      "reason": "Minor delays between Paddington and Heathrow Terminal 4 due to vandalism to railway equipment in the Paddington area. GOOD SERVICE on the rest of the line.",
+      "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
     "hammersmith-city:text:2461fc1d2a09e328": {
@@ -62,6 +62,18 @@
     }
   },
   "history": [
+    {
+      "category": "passenger incident",
+      "duration_seconds": 223,
+      "first_seen": "2026-09-10T09:36:45Z",
+      "issue_key": "elizabeth:text:7094cf041d682883",
+      "line_id": "elizabeth",
+      "line_name": "Elizabeth line",
+      "reason": "Severe delays between Paddington and Heathrow Airport / Reading and MINOR DELAYS between Paddington and Abbey Wood following a late finish of engineering work at Westbourne Park and an earlier customer incident. Tickets are being accepted on London Underground, Great Western Railway, South Western Railway, Chiltern Railway, DLR, Southeastern and Thameslink. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-09-10T09:40:28Z",
+      "severity": "Severe Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
     {
       "category": "other",
       "duration_seconds": 16946,
@@ -6855,6 +6867,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-09-10T09:36:45Z",
+  "updated_at": "2026-09-10T09:40:28Z",
   "version": 1
 }
