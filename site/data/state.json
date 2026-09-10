@@ -10,14 +10,14 @@
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "circle:text:e99cd0c03dd4c229": {
+    "circle:text:dcf1c6bbd3f5a0e5": {
       "category": "other",
-      "first_seen": "2026-09-10T17:18:38Z",
-      "issue_key": "circle:text:e99cd0c03dd4c229",
+      "first_seen": "2026-09-10T18:09:51Z",
+      "issue_key": "circle:text:dcf1c6bbd3f5a0e5",
       "line_id": "circle",
       "line_name": "Circle",
-      "reason": "Circle Line: No service clockwise due to an earlier collapsed drain on the track at Baker Street. SEVERE DELAYS on the rest of the line. Tickets are being accepted on London Buses, the Mildmay line, DLR and C2C.",
-      "severity": "Part Suspended",
+      "reason": "Circle Line: Severe delays due to a collapsed drain on the track at Baker Street. Tickets are being accepted on London Buses, the Mildmay line, DLR and C2C.",
+      "severity": "Severe Delays",
       "source_created": "0001-01-01T00:00:00"
     },
     "elizabeth:text:2eca9cd87ea10dba": {
@@ -30,23 +30,33 @@
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "hammersmith-city:text:9f924d4150962e6c": {
+    "hammersmith-city:text:7cbd2d461b162108": {
       "category": "other",
-      "first_seen": "2026-09-10T17:18:38Z",
-      "issue_key": "hammersmith-city:text:9f924d4150962e6c",
+      "first_seen": "2026-09-10T18:09:51Z",
+      "issue_key": "hammersmith-city:text:7cbd2d461b162108",
       "line_id": "hammersmith-city",
       "line_name": "Hammersmith & City",
-      "reason": "Hammersmith and City Line: Severe delays due to an earlier collapsed drain on the track at Baker Street. Tickets are being accepted on London Buses, the Mildmay line, DLR and C2C.",
+      "reason": "Hammersmith and City Line: Severe delays due to a collapsed drain on the track at Baker Street. Tickets are being accepted on London Buses, the Mildmay line, DLR and C2C.",
       "severity": "Severe Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "metropolitan:text:84d3673344d3a1f9": {
+    "metropolitan:text:c87ad283c7597303": {
       "category": "other",
-      "first_seen": "2026-09-10T17:18:38Z",
-      "issue_key": "metropolitan:text:84d3673344d3a1f9",
+      "first_seen": "2026-09-10T18:09:51Z",
+      "issue_key": "metropolitan:text:c87ad283c7597303",
       "line_id": "metropolitan",
       "line_name": "Metropolitan",
-      "reason": "Metropolitan Line: No service between Baker Street and Aldgate and MINOR DELAYS on the rest of the line while we fix a collapsed drain on the track at Baker Street. Tickets are being accepted on London Buses, Chiltern Railway and Thameslink.",
+      "reason": "Metropolitan Line: No service between Baker Street and Aldgate and MINOR DELAYS on the rest of the line due to a collapsed drain on the track at Baker Street. Tickets are being accepted on London Buses, Chiltern Railway and Thameslink.",
+      "severity": "Part Suspended",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "piccadilly:text:f4b9e43b2279f633": {
+      "category": "other",
+      "first_seen": "2026-09-10T18:09:51Z",
+      "issue_key": "piccadilly:text:f4b9e43b2279f633",
+      "line_id": "piccadilly",
+      "line_name": "Piccadilly",
+      "reason": "Piccadilly Line: No service between Acton Town and Uxbridge westbound only while we remove an animal from the track. GOOD SERVICE on the rest of the line.",
       "severity": "Part Suspended",
       "source_created": "0001-01-01T00:00:00"
     },
@@ -62,6 +72,42 @@
     }
   },
   "history": [
+    {
+      "category": "other",
+      "duration_seconds": 3073,
+      "first_seen": "2026-09-10T17:18:38Z",
+      "issue_key": "circle:text:e99cd0c03dd4c229",
+      "line_id": "circle",
+      "line_name": "Circle",
+      "reason": "Circle Line: No service clockwise due to an earlier collapsed drain on the track at Baker Street. SEVERE DELAYS on the rest of the line. Tickets are being accepted on London Buses, the Mildmay line, DLR and C2C.",
+      "resolved_at": "2026-09-10T18:09:51Z",
+      "severity": "Part Suspended",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "other",
+      "duration_seconds": 3073,
+      "first_seen": "2026-09-10T17:18:38Z",
+      "issue_key": "hammersmith-city:text:9f924d4150962e6c",
+      "line_id": "hammersmith-city",
+      "line_name": "Hammersmith & City",
+      "reason": "Hammersmith and City Line: Severe delays due to an earlier collapsed drain on the track at Baker Street. Tickets are being accepted on London Buses, the Mildmay line, DLR and C2C.",
+      "resolved_at": "2026-09-10T18:09:51Z",
+      "severity": "Severe Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "other",
+      "duration_seconds": 3073,
+      "first_seen": "2026-09-10T17:18:38Z",
+      "issue_key": "metropolitan:text:84d3673344d3a1f9",
+      "line_id": "metropolitan",
+      "line_name": "Metropolitan",
+      "reason": "Metropolitan Line: No service between Baker Street and Aldgate and MINOR DELAYS on the rest of the line while we fix a collapsed drain on the track at Baker Street. Tickets are being accepted on London Buses, Chiltern Railway and Thameslink.",
+      "resolved_at": "2026-09-10T18:09:51Z",
+      "severity": "Part Suspended",
+      "source_created": "0001-01-01T00:00:00"
+    },
     {
       "category": "other",
       "duration_seconds": 27713,
@@ -6975,6 +7021,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-09-10T17:18:38Z",
+  "updated_at": "2026-09-10T18:09:51Z",
   "version": 1
 }
