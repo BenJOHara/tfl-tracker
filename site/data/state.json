@@ -1,13 +1,13 @@
 {
   "active": {
-    "central:text:38b197ee841605a0": {
+    "central:text:1e4129cacca34265": {
       "category": "signal failure",
-      "first_seen": "2026-09-10T13:47:49Z",
-      "issue_key": "central:text:38b197ee841605a0",
+      "first_seen": "2026-09-10T14:55:38Z",
+      "issue_key": "central:text:1e4129cacca34265",
       "line_id": "central",
       "line_name": "Central",
-      "reason": "Central Line: Severe delays between Leytonstone and Epping while we fix a signal failure at Snaresbrook. MINOR DELAYS between North Acton and Ealing Broadway / West Ruislip and between Leytonstone and Hainault due to train cancellations. GOOD SERVICE on the rest of the line.",
-      "severity": "Severe Delays",
+      "reason": "Central Line: Minor delays while we fix a signal failure at Snaresbrook.",
+      "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
     "circle:text:efd545e49de71be6": {
@@ -52,6 +52,18 @@
     }
   },
   "history": [
+    {
+      "category": "signal failure",
+      "duration_seconds": 4069,
+      "first_seen": "2026-09-10T13:47:49Z",
+      "issue_key": "central:text:38b197ee841605a0",
+      "line_id": "central",
+      "line_name": "Central",
+      "reason": "Central Line: Severe delays between Leytonstone and Epping while we fix a signal failure at Snaresbrook. MINOR DELAYS between North Acton and Ealing Broadway / West Ruislip and between Leytonstone and Hainault due to train cancellations. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-09-10T14:55:38Z",
+      "severity": "Severe Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
     {
       "category": "other",
       "duration_seconds": 10160,
@@ -6905,6 +6917,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-09-10T13:47:49Z",
+  "updated_at": "2026-09-10T14:55:38Z",
   "version": 1
 }
