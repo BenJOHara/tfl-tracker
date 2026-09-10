@@ -10,34 +10,24 @@
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "circle:text:dcf1c6bbd3f5a0e5": {
+    "circle:text:a91e6a4c6a3c8ab4": {
       "category": "other",
-      "first_seen": "2026-09-10T18:09:51Z",
-      "issue_key": "circle:text:dcf1c6bbd3f5a0e5",
+      "first_seen": "2026-09-10T19:50:18Z",
+      "issue_key": "circle:text:a91e6a4c6a3c8ab4",
       "line_id": "circle",
       "line_name": "Circle",
-      "reason": "Circle Line: Severe delays due to a collapsed drain on the track at Baker Street. Tickets are being accepted on London Buses, the Mildmay line, DLR and C2C.",
-      "severity": "Severe Delays",
-      "source_created": "0001-01-01T00:00:00"
-    },
-    "elizabeth:text:2eca9cd87ea10dba": {
-      "category": "other",
-      "first_seen": "2026-09-10T17:18:38Z",
-      "issue_key": "elizabeth:text:2eca9cd87ea10dba",
-      "line_id": "elizabeth",
-      "line_name": "Elizabeth line",
-      "reason": "Severe delays between Paddington and Heathrow Terminal 4 and MINOR DELAYS between Hayes & Harlington and Reading due to vandalism to railway equipment in the Paddington area. GOOD SERVICE on the rest of the line. London Underground are accepting tickets via any reasonable route.",
+      "reason": "Circle Line: Minor delays due to a collapsed drain on the track at Baker Street.",
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "hammersmith-city:text:7cbd2d461b162108": {
+    "elizabeth:text:3c1a2fc6ceec90f4": {
       "category": "other",
-      "first_seen": "2026-09-10T18:09:51Z",
-      "issue_key": "hammersmith-city:text:7cbd2d461b162108",
-      "line_id": "hammersmith-city",
-      "line_name": "Hammersmith & City",
-      "reason": "Hammersmith and City Line: Severe delays due to a collapsed drain on the track at Baker Street. Tickets are being accepted on London Buses, the Mildmay line, DLR and C2C.",
-      "severity": "Severe Delays",
+      "first_seen": "2026-09-10T19:50:18Z",
+      "issue_key": "elizabeth:text:3c1a2fc6ceec90f4",
+      "line_id": "elizabeth",
+      "line_name": "Elizabeth line",
+      "reason": "Minor delays between Hayes & Harlington and Reading due to vandalism to railway equipment in the Paddington area. GOOD SERVICE on the rest of the line.",
+      "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
     "metropolitan:text:c87ad283c7597303": {
@@ -50,28 +40,78 @@
       "severity": "Part Suspended",
       "source_created": "0001-01-01T00:00:00"
     },
-    "piccadilly:text:f4b9e43b2279f633": {
+    "piccadilly:text:2607763e826789c4": {
       "category": "other",
-      "first_seen": "2026-09-10T18:09:51Z",
-      "issue_key": "piccadilly:text:f4b9e43b2279f633",
+      "first_seen": "2026-09-10T19:50:18Z",
+      "issue_key": "piccadilly:text:2607763e826789c4",
       "line_id": "piccadilly",
       "line_name": "Piccadilly",
-      "reason": "Piccadilly Line: No service between Acton Town and Uxbridge westbound only while we remove an animal from the track. GOOD SERVICE on the rest of the line.",
-      "severity": "Part Suspended",
-      "source_created": "0001-01-01T00:00:00"
-    },
-    "victoria:text:02e0850cdf11ef25": {
-      "category": "other",
-      "first_seen": "2026-09-10T17:18:38Z",
-      "issue_key": "victoria:text:02e0850cdf11ef25",
-      "line_id": "victoria",
-      "line_name": "Victoria",
-      "reason": "Victoria Line: Minor delays due to train cancellations.",
+      "reason": "Piccadilly Line: Minor delays between Acton Town and Uxbridge due to an earlier animal on the track. GOOD SERVICE on the rest of the line.",
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     }
   },
   "history": [
+    {
+      "category": "other",
+      "duration_seconds": 6027,
+      "first_seen": "2026-09-10T18:09:51Z",
+      "issue_key": "circle:text:dcf1c6bbd3f5a0e5",
+      "line_id": "circle",
+      "line_name": "Circle",
+      "reason": "Circle Line: Severe delays due to a collapsed drain on the track at Baker Street. Tickets are being accepted on London Buses, the Mildmay line, DLR and C2C.",
+      "resolved_at": "2026-09-10T19:50:18Z",
+      "severity": "Severe Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "other",
+      "duration_seconds": 9100,
+      "first_seen": "2026-09-10T17:18:38Z",
+      "issue_key": "elizabeth:text:2eca9cd87ea10dba",
+      "line_id": "elizabeth",
+      "line_name": "Elizabeth line",
+      "reason": "Severe delays between Paddington and Heathrow Terminal 4 and MINOR DELAYS between Hayes & Harlington and Reading due to vandalism to railway equipment in the Paddington area. GOOD SERVICE on the rest of the line. London Underground are accepting tickets via any reasonable route.",
+      "resolved_at": "2026-09-10T19:50:18Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "other",
+      "duration_seconds": 6027,
+      "first_seen": "2026-09-10T18:09:51Z",
+      "issue_key": "hammersmith-city:text:7cbd2d461b162108",
+      "line_id": "hammersmith-city",
+      "line_name": "Hammersmith & City",
+      "reason": "Hammersmith and City Line: Severe delays due to a collapsed drain on the track at Baker Street. Tickets are being accepted on London Buses, the Mildmay line, DLR and C2C.",
+      "resolved_at": "2026-09-10T19:50:18Z",
+      "severity": "Severe Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "other",
+      "duration_seconds": 6027,
+      "first_seen": "2026-09-10T18:09:51Z",
+      "issue_key": "piccadilly:text:f4b9e43b2279f633",
+      "line_id": "piccadilly",
+      "line_name": "Piccadilly",
+      "reason": "Piccadilly Line: No service between Acton Town and Uxbridge westbound only while we remove an animal from the track. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-09-10T19:50:18Z",
+      "severity": "Part Suspended",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "other",
+      "duration_seconds": 9100,
+      "first_seen": "2026-09-10T17:18:38Z",
+      "issue_key": "victoria:text:02e0850cdf11ef25",
+      "line_id": "victoria",
+      "line_name": "Victoria",
+      "reason": "Victoria Line: Minor delays due to train cancellations.",
+      "resolved_at": "2026-09-10T19:50:18Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
     {
       "category": "other",
       "duration_seconds": 3073,
@@ -7021,6 +7061,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-09-10T18:09:51Z",
+  "updated_at": "2026-09-10T19:50:18Z",
   "version": 1
 }
