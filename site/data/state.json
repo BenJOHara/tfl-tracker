@@ -1,67 +1,139 @@
 {
   "active": {
-    "circle:text:ed193b413b324779": {
+    "central:text:23c62521d4237097": {
       "category": "other",
-      "first_seen": "2026-09-10T04:54:19Z",
-      "issue_key": "circle:text:ed193b413b324779",
-      "line_id": "circle",
-      "line_name": "Circle",
-      "reason": "Circle Line: No service while we fix infrastructure damage on the track at Baker Street. Tickets will be accepted on London Buses via reasonable routes.",
-      "severity": "Suspended",
+      "first_seen": "2026-09-10T09:36:45Z",
+      "issue_key": "central:text:23c62521d4237097",
+      "line_id": "central",
+      "line_name": "Central",
+      "reason": "Central Line: Minor delays between North Acton and Ealing Broadway/West Ruislip, and MINOR DELAYS between Leytonstone and Epping/Hainault via Newbury Park due to train cancellations. GOOD SERVICE on the rest of the line.",
+      "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "district:text:be3543e5d7c5451b": {
+    "circle:text:efd545e49de71be6": {
       "category": "other",
-      "first_seen": "2026-09-10T05:58:42Z",
-      "issue_key": "district:text:be3543e5d7c5451b",
-      "line_id": "district",
-      "line_name": "District",
-      "reason": "District Line: Severe delays between High Street Kensington and Edgware Road and MINOR DELAYS between Earl's Court and Wimbledon while we fix infrastructure damage on the track at Baker Street. GOOD SERVICE on the rest of the line. Tickets are being accepted on London Buses via any reasonable route.",
+      "first_seen": "2026-09-10T09:36:45Z",
+      "issue_key": "circle:text:efd545e49de71be6",
+      "line_id": "circle",
+      "line_name": "Circle",
+      "reason": "Circle Line: No service between Edgware Road and Euston Square and SEVERE DELAYS on the rest of the line while we fix a collapsed drain on the track at Baker Street. Tickets are being accepted on London Buses, the Mildmay line, DLR and C2C.",
+      "severity": "Part Suspended",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "elizabeth:text:7094cf041d682883": {
+      "category": "passenger incident",
+      "first_seen": "2026-09-10T09:36:45Z",
+      "issue_key": "elizabeth:text:7094cf041d682883",
+      "line_id": "elizabeth",
+      "line_name": "Elizabeth line",
+      "reason": "Severe delays between Paddington and Heathrow Airport / Reading and MINOR DELAYS between Paddington and Abbey Wood following a late finish of engineering work at Westbourne Park and an earlier customer incident. Tickets are being accepted on London Underground, Great Western Railway, South Western Railway, Chiltern Railway, DLR, Southeastern and Thameslink. GOOD SERVICE on the rest of the line.",
       "severity": "Severe Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "elizabeth:text:d782bc78e775e01b": {
-      "category": "planned engineering",
-      "first_seen": "2026-09-10T04:54:19Z",
-      "issue_key": "elizabeth:text:d782bc78e775e01b",
-      "line_id": "elizabeth",
-      "line_name": "Elizabeth line",
-      "reason": "No service between Paddington and Heathrow Airport/Reading while emergency services deal with a casualty on the track. NO SERVICE between Paddington and Abbey Wood following a late finish of engineering work at Westbourne Park. Tickets will be accepted on London Underground via reasonable routes. GOOD SERVICE on the rest of the line.",
-      "severity": "Part Suspended",
-      "source_created": "0001-01-01T00:00:00"
-    },
-    "hammersmith-city:text:22786eb65927f357": {
+    "hammersmith-city:text:2461fc1d2a09e328": {
       "category": "other",
-      "first_seen": "2026-09-10T05:58:42Z",
-      "issue_key": "hammersmith-city:text:22786eb65927f357",
+      "first_seen": "2026-09-10T09:36:45Z",
+      "issue_key": "hammersmith-city:text:2461fc1d2a09e328",
       "line_id": "hammersmith-city",
       "line_name": "Hammersmith & City",
-      "reason": "Hammersmith and City Line: No service between Edgware Road and Moorgate and SEVERE DELAYS on the rest of the line while we fix infrastructure damage on the track at Baker Street. Tickets will be accepted on London Buses, DLR, Elizabeth line, c2c and South Western Railway services via reasonable routes.",
+      "reason": "Hammersmith and City Line: No service between Edgware Road and Euston Square and SEVERE DELAYS on the rest of the line while we fix a collapsed drain on the track at Baker Street. Tickets are being accepted on London Buses, the Mildmay line, DLR and C2C.",
       "severity": "Part Suspended",
       "source_created": "0001-01-01T00:00:00"
     },
-    "metropolitan:text:ad0fb503890b8e1d": {
+    "metropolitan:text:84d3673344d3a1f9": {
       "category": "other",
-      "first_seen": "2026-09-10T04:54:19Z",
-      "issue_key": "metropolitan:text:ad0fb503890b8e1d",
+      "first_seen": "2026-09-10T09:36:45Z",
+      "issue_key": "metropolitan:text:84d3673344d3a1f9",
       "line_id": "metropolitan",
       "line_name": "Metropolitan",
-      "reason": "Metropolitan Line: No service between Baker Street and Aldgate and SEVERE DELAYS on the rest of the line while we fix infrastructure damage to the track at Baker Street. Tickets are being accepted on London Buses and Thameslink services via any reasonable route.",
+      "reason": "Metropolitan Line: No service between Baker Street and Aldgate and MINOR DELAYS on the rest of the line while we fix a collapsed drain on the track at Baker Street. Tickets are being accepted on London Buses, Chiltern Railway and Thameslink.",
       "severity": "Part Suspended",
       "source_created": "0001-01-01T00:00:00"
     },
-    "tram:text:8fb858b7ce24ddae": {
+    "tram:text:112e8c12e4c5fdca": {
       "category": "signal failure",
-      "first_seen": "2026-09-10T05:58:42Z",
-      "issue_key": "tram:text:8fb858b7ce24ddae",
+      "first_seen": "2026-09-10T09:36:45Z",
+      "issue_key": "tram:text:112e8c12e4c5fdca",
       "line_id": "tram",
       "line_name": "Tram",
-      "reason": "London Tramlink: No service between Beckenham Junction and Harrington Road due to a signal failure at Harrington Road. Tickets are being accepted on London Buses and Southern Railway. GOOD SERVICE on all other tram routes.",
+      "reason": "London Tramlink: No service between Beckenham Junction and Harrington Road while we fix a signal failure at Harrington Road. Tickets are being accepted on London Buses and Southern Railway. GOOD SERVICE on all other tram routes.",
       "severity": "Part Suspended",
       "source_created": "0001-01-01T00:00:00"
     }
   },
   "history": [
+    {
+      "category": "other",
+      "duration_seconds": 16946,
+      "first_seen": "2026-09-10T04:54:19Z",
+      "issue_key": "circle:text:ed193b413b324779",
+      "line_id": "circle",
+      "line_name": "Circle",
+      "reason": "Circle Line: No service while we fix infrastructure damage on the track at Baker Street. Tickets will be accepted on London Buses via reasonable routes.",
+      "resolved_at": "2026-09-10T09:36:45Z",
+      "severity": "Suspended",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "other",
+      "duration_seconds": 13083,
+      "first_seen": "2026-09-10T05:58:42Z",
+      "issue_key": "district:text:be3543e5d7c5451b",
+      "line_id": "district",
+      "line_name": "District",
+      "reason": "District Line: Severe delays between High Street Kensington and Edgware Road and MINOR DELAYS between Earl's Court and Wimbledon while we fix infrastructure damage on the track at Baker Street. GOOD SERVICE on the rest of the line. Tickets are being accepted on London Buses via any reasonable route.",
+      "resolved_at": "2026-09-10T09:36:45Z",
+      "severity": "Severe Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "planned engineering",
+      "duration_seconds": 16946,
+      "first_seen": "2026-09-10T04:54:19Z",
+      "issue_key": "elizabeth:text:d782bc78e775e01b",
+      "line_id": "elizabeth",
+      "line_name": "Elizabeth line",
+      "reason": "No service between Paddington and Heathrow Airport/Reading while emergency services deal with a casualty on the track. NO SERVICE between Paddington and Abbey Wood following a late finish of engineering work at Westbourne Park. Tickets will be accepted on London Underground via reasonable routes. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-09-10T09:36:45Z",
+      "severity": "Part Suspended",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "other",
+      "duration_seconds": 13083,
+      "first_seen": "2026-09-10T05:58:42Z",
+      "issue_key": "hammersmith-city:text:22786eb65927f357",
+      "line_id": "hammersmith-city",
+      "line_name": "Hammersmith & City",
+      "reason": "Hammersmith and City Line: No service between Edgware Road and Moorgate and SEVERE DELAYS on the rest of the line while we fix infrastructure damage on the track at Baker Street. Tickets will be accepted on London Buses, DLR, Elizabeth line, c2c and South Western Railway services via reasonable routes.",
+      "resolved_at": "2026-09-10T09:36:45Z",
+      "severity": "Part Suspended",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "other",
+      "duration_seconds": 16946,
+      "first_seen": "2026-09-10T04:54:19Z",
+      "issue_key": "metropolitan:text:ad0fb503890b8e1d",
+      "line_id": "metropolitan",
+      "line_name": "Metropolitan",
+      "reason": "Metropolitan Line: No service between Baker Street and Aldgate and SEVERE DELAYS on the rest of the line while we fix infrastructure damage to the track at Baker Street. Tickets are being accepted on London Buses and Thameslink services via any reasonable route.",
+      "resolved_at": "2026-09-10T09:36:45Z",
+      "severity": "Part Suspended",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "signal failure",
+      "duration_seconds": 13083,
+      "first_seen": "2026-09-10T05:58:42Z",
+      "issue_key": "tram:text:8fb858b7ce24ddae",
+      "line_id": "tram",
+      "line_name": "Tram",
+      "reason": "London Tramlink: No service between Beckenham Junction and Harrington Road due to a signal failure at Harrington Road. Tickets are being accepted on London Buses and Southern Railway. GOOD SERVICE on all other tram routes.",
+      "resolved_at": "2026-09-10T09:36:45Z",
+      "severity": "Part Suspended",
+      "source_created": "0001-01-01T00:00:00"
+    },
     {
       "category": "planned engineering",
       "duration_seconds": 3863,
@@ -6783,6 +6855,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-09-10T05:58:42Z",
+  "updated_at": "2026-09-10T09:36:45Z",
   "version": 1
 }
