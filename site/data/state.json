@@ -39,19 +39,21 @@
       "reason": "Metropolitan Line: No service between Baker Street and Aldgate and MINOR DELAYS on the rest of the line due to a collapsed drain on the track at Baker Street. Tickets are being accepted on London Buses, Chiltern Railway and Thameslink.",
       "severity": "Part Suspended",
       "source_created": "0001-01-01T00:00:00"
-    },
-    "piccadilly:text:2607763e826789c4": {
+    }
+  },
+  "history": [
+    {
       "category": "other",
+      "duration_seconds": 3715,
       "first_seen": "2026-09-10T19:50:18Z",
       "issue_key": "piccadilly:text:2607763e826789c4",
       "line_id": "piccadilly",
       "line_name": "Piccadilly",
       "reason": "Piccadilly Line: Minor delays between Acton Town and Uxbridge due to an earlier animal on the track. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-09-10T20:52:13Z",
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
-    }
-  },
-  "history": [
+    },
     {
       "category": "other",
       "duration_seconds": 6027,
@@ -7061,6 +7063,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-09-10T19:50:18Z",
+  "updated_at": "2026-09-10T20:52:13Z",
   "version": 1
 }
