@@ -1,15 +1,5 @@
 {
   "active": {
-    "central:text:23c62521d4237097": {
-      "category": "other",
-      "first_seen": "2026-09-10T09:36:45Z",
-      "issue_key": "central:text:23c62521d4237097",
-      "line_id": "central",
-      "line_name": "Central",
-      "reason": "Central Line: Minor delays between North Acton and Ealing Broadway/West Ruislip, and MINOR DELAYS between Leytonstone and Epping/Hainault via Newbury Park due to train cancellations. GOOD SERVICE on the rest of the line.",
-      "severity": "Minor Delays",
-      "source_created": "0001-01-01T00:00:00"
-    },
     "circle:text:efd545e49de71be6": {
       "category": "other",
       "first_seen": "2026-09-10T09:36:45Z",
@@ -40,13 +30,13 @@
       "severity": "Part Suspended",
       "source_created": "0001-01-01T00:00:00"
     },
-    "metropolitan:text:84d3673344d3a1f9": {
+    "metropolitan:text:71302dd4c4cbbfde": {
       "category": "other",
-      "first_seen": "2026-09-10T09:36:45Z",
-      "issue_key": "metropolitan:text:84d3673344d3a1f9",
+      "first_seen": "2026-09-10T10:58:29Z",
+      "issue_key": "metropolitan:text:71302dd4c4cbbfde",
       "line_id": "metropolitan",
       "line_name": "Metropolitan",
-      "reason": "Metropolitan Line: No service between Baker Street and Aldgate and MINOR DELAYS on the rest of the line while we fix a collapsed drain on the track at Baker Street. Tickets are being accepted on London Buses, Chiltern Railway and Thameslink.",
+      "reason": "Metropolitan Line: No service between Baker Street and Aldgate and MINOR DELAYS between Harrow-on-the-Hill and Baker Street while we fix a collapsed drain on the track at Baker Street. Tickets are being accepted on London Buses, Chiltern Railway and Thameslink. GOOD SERVICE on the rest of the line.",
       "severity": "Part Suspended",
       "source_created": "0001-01-01T00:00:00"
     },
@@ -62,6 +52,30 @@
     }
   },
   "history": [
+    {
+      "category": "other",
+      "duration_seconds": 4904,
+      "first_seen": "2026-09-10T09:36:45Z",
+      "issue_key": "central:text:23c62521d4237097",
+      "line_id": "central",
+      "line_name": "Central",
+      "reason": "Central Line: Minor delays between North Acton and Ealing Broadway/West Ruislip, and MINOR DELAYS between Leytonstone and Epping/Hainault via Newbury Park due to train cancellations. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-09-10T10:58:29Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "other",
+      "duration_seconds": 4904,
+      "first_seen": "2026-09-10T09:36:45Z",
+      "issue_key": "metropolitan:text:84d3673344d3a1f9",
+      "line_id": "metropolitan",
+      "line_name": "Metropolitan",
+      "reason": "Metropolitan Line: No service between Baker Street and Aldgate and MINOR DELAYS on the rest of the line while we fix a collapsed drain on the track at Baker Street. Tickets are being accepted on London Buses, Chiltern Railway and Thameslink.",
+      "resolved_at": "2026-09-10T10:58:29Z",
+      "severity": "Part Suspended",
+      "source_created": "0001-01-01T00:00:00"
+    },
     {
       "category": "passenger incident",
       "duration_seconds": 223,
@@ -6867,6 +6881,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-09-10T09:40:28Z",
+  "updated_at": "2026-09-10T10:58:29Z",
   "version": 1
 }
