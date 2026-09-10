@@ -59,19 +59,21 @@
       "reason": "London Tramlink: No service between Beckenham Junction and Harrington Road while we respond to a signal failure in the Harrington Road area. GOOD SERVICE on all other tram routes.",
       "severity": "Part Suspended",
       "source_created": "0001-01-01T00:00:00"
-    },
-    "waterloo-city:text:0faebd0ea99ebd1b": {
+    }
+  },
+  "history": [
+    {
       "category": "other",
+      "duration_seconds": 18231,
       "first_seen": "2026-09-10T00:07:47Z",
       "issue_key": "waterloo-city:text:0faebd0ea99ebd1b",
       "line_id": "waterloo-city",
       "line_name": "Waterloo & City",
       "reason": "Waterloo and City Line: Service will resume at 06:00.",
+      "resolved_at": "2026-09-10T05:11:38Z",
       "severity": "Service Closed",
       "source_created": "0001-01-01T00:00:00"
-    }
-  },
-  "history": [
+    },
     {
       "category": "other",
       "duration_seconds": 15695,
@@ -6745,6 +6747,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-09-10T04:54:19Z",
+  "updated_at": "2026-09-10T05:11:38Z",
   "version": 1
 }
