@@ -30,13 +30,13 @@
       "severity": "Part Suspended",
       "source_created": "0001-01-01T00:00:00"
     },
-    "metropolitan:text:b25fa3abebaf77a3": {
+    "metropolitan:text:260356eedc102a5f": {
       "category": "other",
-      "first_seen": "2026-09-11T21:53:42Z",
-      "issue_key": "metropolitan:text:b25fa3abebaf77a3",
+      "first_seen": "2026-09-11T22:35:28Z",
+      "issue_key": "metropolitan:text:260356eedc102a5f",
       "line_id": "metropolitan",
       "line_name": "Metropolitan",
-      "reason": "Metropolitan Line: No service between Baker Street and Aldgate and SEVERE DELAYS between Baker Street and Wembley Park due to a collapsed drain on the track at Baker Street. MINOR DELAYS on the rest of the line. Tickets being accepted on London Buses and Chiltern railway services.",
+      "reason": "Metropolitan Line: No service between Baker Street and Aldgate due to a collapsed drain on the track at Baker Street. MINOR DELAYS on the rest of the line. Tickets being accepted on London Buses and Chiltern railway services.",
       "severity": "Part Suspended",
       "source_created": "0001-01-01T00:00:00"
     },
@@ -48,6 +48,16 @@
       "line_name": "Mildmay",
       "reason": "Mildmay Line: Severe delays due to train cancellations. London Underground are accepting tickets via reasonable route.",
       "severity": "Severe Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "northern:text:69206fe2a7f49d29": {
+      "category": "track fault",
+      "first_seen": "2026-09-11T22:35:28Z",
+      "issue_key": "northern:text:69206fe2a7f49d29",
+      "line_id": "northern",
+      "line_name": "Northern",
+      "reason": "Northern Line: No service between Stockwell and Morden southbound only and SEVERE DELAYS on the rest of the line while we fix a track fault at Balham. London Buses are accepting tickets via any reasonable route.",
+      "severity": "Part Suspended",
       "source_created": "0001-01-01T00:00:00"
     },
     "piccadilly:text:cb480ae1e3ea598f": {
@@ -62,6 +72,18 @@
     }
   },
   "history": [
+    {
+      "category": "other",
+      "duration_seconds": 2506,
+      "first_seen": "2026-09-11T21:53:42Z",
+      "issue_key": "metropolitan:text:b25fa3abebaf77a3",
+      "line_id": "metropolitan",
+      "line_name": "Metropolitan",
+      "reason": "Metropolitan Line: No service between Baker Street and Aldgate and SEVERE DELAYS between Baker Street and Wembley Park due to a collapsed drain on the track at Baker Street. MINOR DELAYS on the rest of the line. Tickets being accepted on London Buses and Chiltern railway services.",
+      "resolved_at": "2026-09-11T22:35:28Z",
+      "severity": "Part Suspended",
+      "source_created": "0001-01-01T00:00:00"
+    },
     {
       "category": "other",
       "duration_seconds": 27398,
@@ -7719,6 +7741,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-09-11T21:53:42Z",
+  "updated_at": "2026-09-11T22:35:28Z",
   "version": 1
 }
