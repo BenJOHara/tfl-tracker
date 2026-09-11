@@ -10,14 +10,14 @@
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "district:text:6b584d1fc7c5db24": {
+    "district:text:ab83c1147f42eae7": {
       "category": "person on track",
-      "first_seen": "2026-09-11T17:10:04Z",
-      "issue_key": "district:text:6b584d1fc7c5db24",
+      "first_seen": "2026-09-11T17:46:47Z",
+      "issue_key": "district:text:ab83c1147f42eae7",
       "line_id": "district",
       "line_name": "District",
-      "reason": "District Line: Severe delays between Earl's Court and Ealing Broadway / Richmond and between Earl's Court and Upminster Eastbound only due to an earlier trespasser on the track at Hammersmith. Tickets are being accepted on London Buses. GOOD SERVICE on the rest of the line.",
-      "severity": "Severe Delays",
+      "reason": "District Line: Minor delays between Earl's Court and Upminster due to an earlier trespasser on the track at Hammersmith. GOOD SERVICE on the rest of the line.",
+      "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
     "elizabeth:text:7c92c1a4f12b08b2": {
@@ -50,16 +50,6 @@
       "severity": "Part Suspended",
       "source_created": "0001-01-01T00:00:00"
     },
-    "mildmay:text:a3e451d103c0d8c7": {
-      "category": "other",
-      "first_seen": "2026-09-11T17:10:04Z",
-      "issue_key": "mildmay:text:a3e451d103c0d8c7",
-      "line_id": "mildmay",
-      "line_name": "Mildmay",
-      "reason": "Mildmay Line: Severe delays between Willesden Junction and Clapham Junction due to train cancellations. GOOD SERVICE on the rest of the line.",
-      "severity": "Severe Delays",
-      "source_created": "0001-01-01T00:00:00"
-    },
     "piccadilly:text:f4d41748104ae6f9": {
       "category": "other",
       "first_seen": "2026-09-11T17:10:04Z",
@@ -69,9 +59,43 @@
       "reason": "Piccadilly Line: No service between King's Cross St. Pancras and Arnos Grove and SEVERE DELAYS on the rest of the line while emergency services deal with a casualty on the track. Tickets are being accepted on London Buses, Great Northern, London Overground and South Western Railway services.",
       "severity": "Part Suspended",
       "source_created": "0001-01-01T00:00:00"
+    },
+    "weaver:text:aaa2910774601888": {
+      "category": "other",
+      "first_seen": "2026-09-11T17:46:47Z",
+      "issue_key": "weaver:text:aaa2910774601888",
+      "line_id": "weaver",
+      "line_name": "Weaver",
+      "reason": "Weaver Line: Severe delays between Liverpool Street and Chingford while we conduct a safety inspection of the track at Wood Street. London Underground is accepting tickets via reasonable routes. GOOD SERVICE on the rest of the line.",
+      "severity": "Severe Delays",
+      "source_created": "0001-01-01T00:00:00"
     }
   },
   "history": [
+    {
+      "category": "person on track",
+      "duration_seconds": 2203,
+      "first_seen": "2026-09-11T17:10:04Z",
+      "issue_key": "district:text:6b584d1fc7c5db24",
+      "line_id": "district",
+      "line_name": "District",
+      "reason": "District Line: Severe delays between Earl's Court and Ealing Broadway / Richmond and between Earl's Court and Upminster Eastbound only due to an earlier trespasser on the track at Hammersmith. Tickets are being accepted on London Buses. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-09-11T17:46:47Z",
+      "severity": "Severe Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "other",
+      "duration_seconds": 2203,
+      "first_seen": "2026-09-11T17:10:04Z",
+      "issue_key": "mildmay:text:a3e451d103c0d8c7",
+      "line_id": "mildmay",
+      "line_name": "Mildmay",
+      "reason": "Mildmay Line: Severe delays between Willesden Junction and Clapham Junction due to train cancellations. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-09-11T17:46:47Z",
+      "severity": "Severe Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
     {
       "category": "other",
       "duration_seconds": 13226,
@@ -7633,6 +7657,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-09-11T17:10:04Z",
+  "updated_at": "2026-09-11T17:46:47Z",
   "version": 1
 }
