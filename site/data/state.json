@@ -1,15 +1,5 @@
 {
   "active": {
-    "central:text:46bc7de1e13ca6ae": {
-      "category": "other",
-      "first_seen": "2026-09-11T09:05:41Z",
-      "issue_key": "central:text:46bc7de1e13ca6ae",
-      "line_id": "central",
-      "line_name": "Central",
-      "reason": "Central Line: Minor delays between North Acton and Ealing Broadway/West Ruislip and between Leytonstone and Epping/Hainault via Newbury Park due to train cancellations.",
-      "severity": "Minor Delays",
-      "source_created": "0001-01-01T00:00:00"
-    },
     "elizabeth:text:60c3cd54d84a1f6c": {
       "category": "other",
       "first_seen": "2026-09-11T05:39:19Z",
@@ -39,9 +29,31 @@
       "reason": "Piccadilly Line: Severe delays due to an earlier trespasser at Hammersmith. Tickets are being accepted on London Buses, Elizabeth line, Weaver line and Great Northern.",
       "severity": "Severe Delays",
       "source_created": "0001-01-01T00:00:00"
+    },
+    "victoria:text:02e0850cdf11ef25": {
+      "category": "other",
+      "first_seen": "2026-09-11T10:00:56Z",
+      "issue_key": "victoria:text:02e0850cdf11ef25",
+      "line_id": "victoria",
+      "line_name": "Victoria",
+      "reason": "Victoria Line: Minor delays due to train cancellations.",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
     }
   },
   "history": [
+    {
+      "category": "other",
+      "duration_seconds": 3315,
+      "first_seen": "2026-09-11T09:05:41Z",
+      "issue_key": "central:text:46bc7de1e13ca6ae",
+      "line_id": "central",
+      "line_name": "Central",
+      "reason": "Central Line: Minor delays between North Acton and Ealing Broadway/West Ruislip and between Leytonstone and Epping/Hainault via Newbury Park due to train cancellations.",
+      "resolved_at": "2026-09-11T10:00:56Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
     {
       "category": "other",
       "duration_seconds": 16554,
@@ -7411,6 +7423,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-09-11T09:05:41Z",
+  "updated_at": "2026-09-11T10:00:56Z",
   "version": 1
 }
