@@ -40,14 +40,14 @@
       "severity": "Part Suspended",
       "source_created": "0001-01-01T00:00:00"
     },
-    "metropolitan:text:40c1076baf2f97d0": {
-      "category": "other",
-      "first_seen": "2026-09-11T13:29:38Z",
-      "issue_key": "metropolitan:text:40c1076baf2f97d0",
+    "metropolitan:text:4a967252a9e8b6a0": {
+      "category": "train fault",
+      "first_seen": "2026-09-11T13:30:45Z",
+      "issue_key": "metropolitan:text:4a967252a9e8b6a0",
       "line_id": "metropolitan",
       "line_name": "Metropolitan",
-      "reason": "Metropolitan Line: No service between Baker Street and Aldgate and MINOR DELAYS between Harrow-on-the-Hill and Baker Street and between Harrow-on-the-Hill and Uxbridge due to a collapsed drain on the track at Baker Street. Tickets being accepted on London Buses and Chiltern railway services. GOOD SERVICE on the rest of the line.",
-      "severity": "Part Suspended",
+      "reason": "Metropolitan Line: No service between Baker Street and Aldgate and MINOR DELAYS between Harrow-on-the-Hill and Uxbridge due to a collapsed drain on the track at Baker Street. SEVERE DELAYS Harrow-on-the-Hill and Baker Street due to an earlier faulty train at Finchley Road. Tickets being accepted on London Buses and Chiltern railway services. GOOD SERVICE on the rest of the line.",
+      "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
     "northern:text:48b6034cea3beebc": {
@@ -72,6 +72,18 @@
     }
   },
   "history": [
+    {
+      "category": "other",
+      "duration_seconds": 67,
+      "first_seen": "2026-09-11T13:29:38Z",
+      "issue_key": "metropolitan:text:40c1076baf2f97d0",
+      "line_id": "metropolitan",
+      "line_name": "Metropolitan",
+      "reason": "Metropolitan Line: No service between Baker Street and Aldgate and MINOR DELAYS between Harrow-on-the-Hill and Baker Street and between Harrow-on-the-Hill and Uxbridge due to a collapsed drain on the track at Baker Street. Tickets being accepted on London Buses and Chiltern railway services. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-09-11T13:30:45Z",
+      "severity": "Part Suspended",
+      "source_created": "0001-01-01T00:00:00"
+    },
     {
       "category": "other",
       "duration_seconds": 15837,
@@ -7489,6 +7501,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-09-11T13:29:38Z",
+  "updated_at": "2026-09-11T13:30:45Z",
   "version": 1
 }
