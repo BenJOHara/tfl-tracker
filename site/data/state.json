@@ -40,6 +40,16 @@
       "severity": "Part Suspended",
       "source_created": "0001-01-01T00:00:00"
     },
+    "mildmay:text:3041259bfa92465b": {
+      "category": "other",
+      "first_seen": "2026-09-11T20:04:13Z",
+      "issue_key": "mildmay:text:3041259bfa92465b",
+      "line_id": "mildmay",
+      "line_name": "Mildmay",
+      "reason": "Mildmay Line: Severe delays due to train cancellations. London Underground are accepting tickets via reasonable route.",
+      "severity": "Severe Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
     "piccadilly:text:cb480ae1e3ea598f": {
       "category": "passenger incident",
       "first_seen": "2026-09-11T19:39:44Z",
@@ -7697,6 +7707,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-09-11T19:39:44Z",
+  "updated_at": "2026-09-11T20:04:13Z",
   "version": 1
 }
