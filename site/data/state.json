@@ -40,14 +40,14 @@
       "severity": "Part Suspended",
       "source_created": "0001-01-01T00:00:00"
     },
-    "waterloo-city:text:dba9341acd1fd9fc": {
-      "category": "signal failure",
-      "first_seen": "2026-09-10T21:58:54Z",
-      "issue_key": "waterloo-city:text:dba9341acd1fd9fc",
+    "waterloo-city:text:0faebd0ea99ebd1b": {
+      "category": "other",
+      "first_seen": "2026-09-11T00:03:38Z",
+      "issue_key": "waterloo-city:text:0faebd0ea99ebd1b",
       "line_id": "waterloo-city",
       "line_name": "Waterloo & City",
-      "reason": "Waterloo and City Line: No service while we fix a signal failure at Waterloo.",
-      "severity": "Suspended",
+      "reason": "Waterloo and City Line: Service will resume at 06:00.",
+      "severity": "Service Closed",
       "source_created": "0001-01-01T00:00:00"
     },
     "windrush:text:9c23677941895d60": {
@@ -62,6 +62,18 @@
     }
   },
   "history": [
+    {
+      "category": "signal failure",
+      "duration_seconds": 7484,
+      "first_seen": "2026-09-10T21:58:54Z",
+      "issue_key": "waterloo-city:text:dba9341acd1fd9fc",
+      "line_id": "waterloo-city",
+      "line_name": "Waterloo & City",
+      "reason": "Waterloo and City Line: No service while we fix a signal failure at Waterloo.",
+      "resolved_at": "2026-09-11T00:03:38Z",
+      "severity": "Suspended",
+      "source_created": "0001-01-01T00:00:00"
+    },
     {
       "category": "other",
       "duration_seconds": 14034,
@@ -7095,6 +7107,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-09-10T22:03:45Z",
+  "updated_at": "2026-09-11T00:03:38Z",
   "version": 1
 }
