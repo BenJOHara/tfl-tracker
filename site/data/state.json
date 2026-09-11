@@ -10,33 +10,23 @@
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "district:text:ab83c1147f42eae7": {
-      "category": "person on track",
-      "first_seen": "2026-09-11T17:46:47Z",
-      "issue_key": "district:text:ab83c1147f42eae7",
-      "line_id": "district",
-      "line_name": "District",
-      "reason": "District Line: Minor delays between Earl's Court and Upminster due to an earlier trespasser on the track at Hammersmith. GOOD SERVICE on the rest of the line.",
-      "severity": "Minor Delays",
-      "source_created": "0001-01-01T00:00:00"
-    },
-    "elizabeth:text:7c92c1a4f12b08b2": {
-      "category": "signal failure",
-      "first_seen": "2026-09-11T17:10:04Z",
-      "issue_key": "elizabeth:text:7c92c1a4f12b08b2",
+    "elizabeth:text:60c3cd54d84a1f6c": {
+      "category": "other",
+      "first_seen": "2026-09-11T19:39:44Z",
+      "issue_key": "elizabeth:text:60c3cd54d84a1f6c",
       "line_id": "elizabeth",
       "line_name": "Elizabeth line",
-      "reason": "Severe delays between Paddington and Heathrow Terminal 4 and MINOR DELAYS between Hayes & Harlington and Reading due to vandalism to railway equipment in the Paddington area. MINOR DELAYS between Whitechapel and Shenfield due to signal failure at Gidea Park. GOOD SERVICE on the rest of the line.",
+      "reason": "Minor delays between Paddington and Heathrow Terminal 4 due to vandalism to railway equipment in the Paddington area. GOOD SERVICE on the rest of the line.",
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "lioness:text:a153ebac62abd5e0": {
+    "lioness:text:3f1318a1d75f388c": {
       "category": "other",
-      "first_seen": "2026-09-11T17:10:04Z",
-      "issue_key": "lioness:text:a153ebac62abd5e0",
+      "first_seen": "2026-09-11T19:39:44Z",
+      "issue_key": "lioness:text:3f1318a1d75f388c",
       "line_id": "lioness",
       "line_name": "Lioness",
-      "reason": "Lioness Line: No service between Watford Junction and Willesden Junction and MINOR DELAYS on the rest of the line due to a sewage leak on the track at Watford High Street. London Underground is accepting tickets via reasonable routes.",
+      "reason": "Lioness Line: No service between Watford Junction and Willesden Junction for the rest of the day due to a sewage leak on the track at Watford High Street. London Underground are accepting tickets via reasonable route. MINOR DELAYS on the rest of the line.",
       "severity": "Part Suspended",
       "source_created": "0001-01-01T00:00:00"
     },
@@ -50,28 +40,78 @@
       "severity": "Part Suspended",
       "source_created": "0001-01-01T00:00:00"
     },
-    "piccadilly:text:f4d41748104ae6f9": {
-      "category": "other",
-      "first_seen": "2026-09-11T17:10:04Z",
-      "issue_key": "piccadilly:text:f4d41748104ae6f9",
+    "piccadilly:text:cb480ae1e3ea598f": {
+      "category": "passenger incident",
+      "first_seen": "2026-09-11T19:39:44Z",
+      "issue_key": "piccadilly:text:cb480ae1e3ea598f",
       "line_id": "piccadilly",
       "line_name": "Piccadilly",
-      "reason": "Piccadilly Line: No service between King's Cross St. Pancras and Arnos Grove and SEVERE DELAYS on the rest of the line while emergency services deal with a casualty on the track. Tickets are being accepted on London Buses, Great Northern, London Overground and South Western Railway services.",
-      "severity": "Part Suspended",
-      "source_created": "0001-01-01T00:00:00"
-    },
-    "weaver:text:aaa2910774601888": {
-      "category": "other",
-      "first_seen": "2026-09-11T17:46:47Z",
-      "issue_key": "weaver:text:aaa2910774601888",
-      "line_id": "weaver",
-      "line_name": "Weaver",
-      "reason": "Weaver Line: Severe delays between Liverpool Street and Chingford while we conduct a safety inspection of the track at Wood Street. London Underground is accepting tickets via reasonable routes. GOOD SERVICE on the rest of the line.",
+      "reason": "Piccadilly Line: Severe delays due to an earlier customer incident. Tickets are being accepted on London Buses, Great Northern, London Overground and South Western Railway services.",
       "severity": "Severe Delays",
       "source_created": "0001-01-01T00:00:00"
     }
   },
   "history": [
+    {
+      "category": "person on track",
+      "duration_seconds": 6777,
+      "first_seen": "2026-09-11T17:46:47Z",
+      "issue_key": "district:text:ab83c1147f42eae7",
+      "line_id": "district",
+      "line_name": "District",
+      "reason": "District Line: Minor delays between Earl's Court and Upminster due to an earlier trespasser on the track at Hammersmith. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-09-11T19:39:44Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "signal failure",
+      "duration_seconds": 8980,
+      "first_seen": "2026-09-11T17:10:04Z",
+      "issue_key": "elizabeth:text:7c92c1a4f12b08b2",
+      "line_id": "elizabeth",
+      "line_name": "Elizabeth line",
+      "reason": "Severe delays between Paddington and Heathrow Terminal 4 and MINOR DELAYS between Hayes & Harlington and Reading due to vandalism to railway equipment in the Paddington area. MINOR DELAYS between Whitechapel and Shenfield due to signal failure at Gidea Park. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-09-11T19:39:44Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "other",
+      "duration_seconds": 8980,
+      "first_seen": "2026-09-11T17:10:04Z",
+      "issue_key": "lioness:text:a153ebac62abd5e0",
+      "line_id": "lioness",
+      "line_name": "Lioness",
+      "reason": "Lioness Line: No service between Watford Junction and Willesden Junction and MINOR DELAYS on the rest of the line due to a sewage leak on the track at Watford High Street. London Underground is accepting tickets via reasonable routes.",
+      "resolved_at": "2026-09-11T19:39:44Z",
+      "severity": "Part Suspended",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "other",
+      "duration_seconds": 8980,
+      "first_seen": "2026-09-11T17:10:04Z",
+      "issue_key": "piccadilly:text:f4d41748104ae6f9",
+      "line_id": "piccadilly",
+      "line_name": "Piccadilly",
+      "reason": "Piccadilly Line: No service between King's Cross St. Pancras and Arnos Grove and SEVERE DELAYS on the rest of the line while emergency services deal with a casualty on the track. Tickets are being accepted on London Buses, Great Northern, London Overground and South Western Railway services.",
+      "resolved_at": "2026-09-11T19:39:44Z",
+      "severity": "Part Suspended",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "other",
+      "duration_seconds": 6777,
+      "first_seen": "2026-09-11T17:46:47Z",
+      "issue_key": "weaver:text:aaa2910774601888",
+      "line_id": "weaver",
+      "line_name": "Weaver",
+      "reason": "Weaver Line: Severe delays between Liverpool Street and Chingford while we conduct a safety inspection of the track at Wood Street. London Underground is accepting tickets via reasonable routes. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-09-11T19:39:44Z",
+      "severity": "Severe Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
     {
       "category": "person on track",
       "duration_seconds": 2203,
@@ -7657,6 +7697,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-09-11T17:46:47Z",
+  "updated_at": "2026-09-11T19:39:44Z",
   "version": 1
 }
