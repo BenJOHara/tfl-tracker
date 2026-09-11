@@ -1,42 +1,42 @@
 {
   "active": {
-    "bakerloo:text:40e9882a19a95dce": {
+    "central:text:6d0af7c9d44f714a": {
       "category": "other",
-      "first_seen": "2026-09-11T13:29:38Z",
-      "issue_key": "bakerloo:text:40e9882a19a95dce",
-      "line_id": "bakerloo",
-      "line_name": "Bakerloo",
-      "reason": "Bakerloo Line: Severe delays between Stonebridge Park and Harrow & Wealdstone due to a sewage leak on the track at Watford High Street. Tickets being accepted on London Buses. GOOD SERVICE on the rest of the line.",
+      "first_seen": "2026-09-11T17:10:04Z",
+      "issue_key": "central:text:6d0af7c9d44f714a",
+      "line_id": "central",
+      "line_name": "Central",
+      "reason": "Central Line: Minor delays due to train cancellations.",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "district:text:6b584d1fc7c5db24": {
+      "category": "person on track",
+      "first_seen": "2026-09-11T17:10:04Z",
+      "issue_key": "district:text:6b584d1fc7c5db24",
+      "line_id": "district",
+      "line_name": "District",
+      "reason": "District Line: Severe delays between Earl's Court and Ealing Broadway / Richmond and between Earl's Court and Upminster Eastbound only due to an earlier trespasser on the track at Hammersmith. Tickets are being accepted on London Buses. GOOD SERVICE on the rest of the line.",
       "severity": "Severe Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "central:text:d2855c401e5cb05b": {
+    "elizabeth:text:7c92c1a4f12b08b2": {
       "category": "signal failure",
-      "first_seen": "2026-09-11T14:17:04Z",
-      "issue_key": "central:text:d2855c401e5cb05b",
-      "line_id": "central",
-      "line_name": "Central",
-      "reason": "Central Line: Minor delays due to an earlier signal failure at Lancaster Gate and train cancellations.",
-      "severity": "Minor Delays",
-      "source_created": "0001-01-01T00:00:00"
-    },
-    "elizabeth:text:60c3cd54d84a1f6c": {
-      "category": "other",
-      "first_seen": "2026-09-11T05:39:19Z",
-      "issue_key": "elizabeth:text:60c3cd54d84a1f6c",
+      "first_seen": "2026-09-11T17:10:04Z",
+      "issue_key": "elizabeth:text:7c92c1a4f12b08b2",
       "line_id": "elizabeth",
       "line_name": "Elizabeth line",
-      "reason": "Minor delays between Paddington and Heathrow Terminal 4 due to vandalism to railway equipment in the Paddington area. GOOD SERVICE on the rest of the line.",
+      "reason": "Severe delays between Paddington and Heathrow Terminal 4 and MINOR DELAYS between Hayes & Harlington and Reading due to vandalism to railway equipment in the Paddington area. MINOR DELAYS between Whitechapel and Shenfield due to signal failure at Gidea Park. GOOD SERVICE on the rest of the line.",
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "lioness:text:d4aecd4b2dcb6f9e": {
+    "lioness:text:a153ebac62abd5e0": {
       "category": "other",
-      "first_seen": "2026-09-11T14:17:04Z",
-      "issue_key": "lioness:text:d4aecd4b2dcb6f9e",
+      "first_seen": "2026-09-11T17:10:04Z",
+      "issue_key": "lioness:text:a153ebac62abd5e0",
       "line_id": "lioness",
       "line_name": "Lioness",
-      "reason": "Lioness Line: No service between Harrow & Wealdstone and Watford Junction and SEVERE DELAYS on the rest of the line due to a sewage leak on the track at Watford High Street. London Underground is accepting tickets via reasonable routes, but Bakerloo line services are also disrupted.",
+      "reason": "Lioness Line: No service between Watford Junction and Willesden Junction and MINOR DELAYS on the rest of the line due to a sewage leak on the track at Watford High Street. London Underground is accepting tickets via reasonable routes.",
       "severity": "Part Suspended",
       "source_created": "0001-01-01T00:00:00"
     },
@@ -50,28 +50,100 @@
       "severity": "Part Suspended",
       "source_created": "0001-01-01T00:00:00"
     },
-    "northern:text:ef08e3a381291bd4": {
+    "mildmay:text:a3e451d103c0d8c7": {
+      "category": "other",
+      "first_seen": "2026-09-11T17:10:04Z",
+      "issue_key": "mildmay:text:a3e451d103c0d8c7",
+      "line_id": "mildmay",
+      "line_name": "Mildmay",
+      "reason": "Mildmay Line: Severe delays between Willesden Junction and Clapham Junction due to train cancellations. GOOD SERVICE on the rest of the line.",
+      "severity": "Severe Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "piccadilly:text:f4d41748104ae6f9": {
+      "category": "other",
+      "first_seen": "2026-09-11T17:10:04Z",
+      "issue_key": "piccadilly:text:f4d41748104ae6f9",
+      "line_id": "piccadilly",
+      "line_name": "Piccadilly",
+      "reason": "Piccadilly Line: No service between King's Cross St. Pancras and Arnos Grove and SEVERE DELAYS on the rest of the line while emergency services deal with a casualty on the track. Tickets are being accepted on London Buses, Great Northern, London Overground and South Western Railway services.",
+      "severity": "Part Suspended",
+      "source_created": "0001-01-01T00:00:00"
+    }
+  },
+  "history": [
+    {
+      "category": "other",
+      "duration_seconds": 13226,
+      "first_seen": "2026-09-11T13:29:38Z",
+      "issue_key": "bakerloo:text:40e9882a19a95dce",
+      "line_id": "bakerloo",
+      "line_name": "Bakerloo",
+      "reason": "Bakerloo Line: Severe delays between Stonebridge Park and Harrow & Wealdstone due to a sewage leak on the track at Watford High Street. Tickets being accepted on London Buses. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-09-11T17:10:04Z",
+      "severity": "Severe Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
       "category": "signal failure",
+      "duration_seconds": 10380,
+      "first_seen": "2026-09-11T14:17:04Z",
+      "issue_key": "central:text:d2855c401e5cb05b",
+      "line_id": "central",
+      "line_name": "Central",
+      "reason": "Central Line: Minor delays due to an earlier signal failure at Lancaster Gate and train cancellations.",
+      "resolved_at": "2026-09-11T17:10:04Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "other",
+      "duration_seconds": 41445,
+      "first_seen": "2026-09-11T05:39:19Z",
+      "issue_key": "elizabeth:text:60c3cd54d84a1f6c",
+      "line_id": "elizabeth",
+      "line_name": "Elizabeth line",
+      "reason": "Minor delays between Paddington and Heathrow Terminal 4 due to vandalism to railway equipment in the Paddington area. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-09-11T17:10:04Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "other",
+      "duration_seconds": 10380,
+      "first_seen": "2026-09-11T14:17:04Z",
+      "issue_key": "lioness:text:d4aecd4b2dcb6f9e",
+      "line_id": "lioness",
+      "line_name": "Lioness",
+      "reason": "Lioness Line: No service between Harrow & Wealdstone and Watford Junction and SEVERE DELAYS on the rest of the line due to a sewage leak on the track at Watford High Street. London Underground is accepting tickets via reasonable routes, but Bakerloo line services are also disrupted.",
+      "resolved_at": "2026-09-11T17:10:04Z",
+      "severity": "Part Suspended",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "signal failure",
+      "duration_seconds": 10380,
       "first_seen": "2026-09-11T14:17:04Z",
       "issue_key": "northern:text:ef08e3a381291bd4",
       "line_id": "northern",
       "line_name": "Northern",
       "reason": "Northern Line: Severe delays between Camden Town and Edgware due to an earlier signal failure at Chalk Farm. MINOR DELAYS on the rest of line. Tickets are being accepted on London Buses and Thameslink.",
+      "resolved_at": "2026-09-11T17:10:04Z",
       "severity": "Severe Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "piccadilly:text:c206324efe65b635": {
+    {
       "category": "passenger incident",
+      "duration_seconds": 10380,
       "first_seen": "2026-09-11T14:17:04Z",
       "issue_key": "piccadilly:text:c206324efe65b635",
       "line_id": "piccadilly",
       "line_name": "Piccadilly",
       "reason": "Piccadilly Line: Minor delays due to an earlier customer incident at Hounslow East.",
+      "resolved_at": "2026-09-11T17:10:04Z",
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
-    }
-  },
-  "history": [
+    },
     {
       "category": "other",
       "duration_seconds": 2846,
@@ -7561,6 +7633,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-09-11T14:17:04Z",
+  "updated_at": "2026-09-11T17:10:04Z",
   "version": 1
 }
