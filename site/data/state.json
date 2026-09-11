@@ -1,5 +1,15 @@
 {
   "active": {
+    "central:text:46bc7de1e13ca6ae": {
+      "category": "other",
+      "first_seen": "2026-09-11T09:05:41Z",
+      "issue_key": "central:text:46bc7de1e13ca6ae",
+      "line_id": "central",
+      "line_name": "Central",
+      "reason": "Central Line: Minor delays between North Acton and Ealing Broadway/West Ruislip and between Leytonstone and Epping/Hainault via Newbury Park due to train cancellations.",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
     "elizabeth:text:60c3cd54d84a1f6c": {
       "category": "other",
       "first_seen": "2026-09-11T05:39:19Z",
@@ -10,18 +20,40 @@
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "metropolitan:text:06d4c49eb223843f": {
+    "metropolitan:text:7e9abeb24ca24e5d": {
       "category": "other",
+      "first_seen": "2026-09-11T09:05:41Z",
+      "issue_key": "metropolitan:text:7e9abeb24ca24e5d",
+      "line_id": "metropolitan",
+      "line_name": "Metropolitan",
+      "reason": "Metropolitan Line: No service between Baker Street and Aldgate and SEVERE DELAYS between Harrow-on-the-Hill and Baker Street due to a collapsed drain on the track at Baker Street. GOOD SERVICE on the rest of the line. Tickets being accepted on London Buses and Chiltern railway services.",
+      "severity": "Part Suspended",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "piccadilly:text:ca8ba97d828f50c4": {
+      "category": "person on track",
+      "first_seen": "2026-09-11T09:05:41Z",
+      "issue_key": "piccadilly:text:ca8ba97d828f50c4",
+      "line_id": "piccadilly",
+      "line_name": "Piccadilly",
+      "reason": "Piccadilly Line: Severe delays due to an earlier trespasser at Hammersmith. Tickets are being accepted on London Buses, Elizabeth line, Weaver line and Great Northern.",
+      "severity": "Severe Delays",
+      "source_created": "0001-01-01T00:00:00"
+    }
+  },
+  "history": [
+    {
+      "category": "other",
+      "duration_seconds": 16554,
       "first_seen": "2026-09-11T04:29:47Z",
       "issue_key": "metropolitan:text:06d4c49eb223843f",
       "line_id": "metropolitan",
       "line_name": "Metropolitan",
       "reason": "Metropolitan Line: No service between Baker Street and Aldgate and MINOR DELAYS between Harrow-on-the-Hill and Baker Street due to a collapsed drain on the track at Baker Street. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-09-11T09:05:41Z",
       "severity": "Part Suspended",
       "source_created": "0001-01-01T00:00:00"
-    }
-  },
-  "history": [
+    },
     {
       "category": "planned engineering",
       "duration_seconds": 4172,
@@ -7379,6 +7411,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-09-11T05:39:19Z",
+  "updated_at": "2026-09-11T09:05:41Z",
   "version": 1
 }
