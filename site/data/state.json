@@ -50,28 +50,52 @@
       "severity": "Severe Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "northern:text:69206fe2a7f49d29": {
+    "northern:text:47ee55e8079c2712": {
       "category": "track fault",
+      "first_seen": "2026-09-11T23:34:21Z",
+      "issue_key": "northern:text:47ee55e8079c2712",
+      "line_id": "northern",
+      "line_name": "Northern",
+      "reason": "Northern Line: No service between Moorgate and Morden southbound and between Morden and Stockwell northbound and SEVERE DELAYS on the rest of the line while we fix a track fault at Balham. Tickets are being accepted on London Buses, London Trams, Southeastern, Thameslink and South Western Railway services.",
+      "severity": "Part Suspended",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "piccadilly:text:adf5da18113bdd01": {
+      "category": "passenger incident",
+      "first_seen": "2026-09-11T23:34:21Z",
+      "issue_key": "piccadilly:text:adf5da18113bdd01",
+      "line_id": "piccadilly",
+      "line_name": "Piccadilly",
+      "reason": "Piccadilly Line: Severe delays between Acton Town and Heathrow/Uxbridge and MINOR DELAYS on the rest of the line due to an earlier customer incident. Tickets are being accepted on London Buses, Great Northern, London Overground and South Western Railway services.",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    }
+  },
+  "history": [
+    {
+      "category": "track fault",
+      "duration_seconds": 3533,
       "first_seen": "2026-09-11T22:35:28Z",
       "issue_key": "northern:text:69206fe2a7f49d29",
       "line_id": "northern",
       "line_name": "Northern",
       "reason": "Northern Line: No service between Stockwell and Morden southbound only and SEVERE DELAYS on the rest of the line while we fix a track fault at Balham. London Buses are accepting tickets via any reasonable route.",
+      "resolved_at": "2026-09-11T23:34:21Z",
       "severity": "Part Suspended",
       "source_created": "0001-01-01T00:00:00"
     },
-    "piccadilly:text:cb480ae1e3ea598f": {
+    {
       "category": "passenger incident",
+      "duration_seconds": 14077,
       "first_seen": "2026-09-11T19:39:44Z",
       "issue_key": "piccadilly:text:cb480ae1e3ea598f",
       "line_id": "piccadilly",
       "line_name": "Piccadilly",
       "reason": "Piccadilly Line: Severe delays due to an earlier customer incident. Tickets are being accepted on London Buses, Great Northern, London Overground and South Western Railway services.",
+      "resolved_at": "2026-09-11T23:34:21Z",
       "severity": "Severe Delays",
       "source_created": "0001-01-01T00:00:00"
-    }
-  },
-  "history": [
+    },
     {
       "category": "other",
       "duration_seconds": 2506,
@@ -7741,6 +7765,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-09-11T22:35:28Z",
+  "updated_at": "2026-09-11T23:34:21Z",
   "version": 1
 }
