@@ -10,13 +10,13 @@
       "severity": "Severe Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "central:text:d87886b2250b12d8": {
-      "category": "other",
-      "first_seen": "2026-09-11T13:29:38Z",
-      "issue_key": "central:text:d87886b2250b12d8",
+    "central:text:d2855c401e5cb05b": {
+      "category": "signal failure",
+      "first_seen": "2026-09-11T14:17:04Z",
+      "issue_key": "central:text:d2855c401e5cb05b",
       "line_id": "central",
       "line_name": "Central",
-      "reason": "Central Line: Minor delays between North Acton and Ealing Broadway / West Ruislip and between Leytonstone and Epping / Hainault due to train cancellations. GOOD SERVICE on the rest of the line.",
+      "reason": "Central Line: Minor delays due to an earlier signal failure at Lancaster Gate and train cancellations.",
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
@@ -30,48 +30,108 @@
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "lioness:text:95157e6200ef52ba": {
+    "lioness:text:d4aecd4b2dcb6f9e": {
       "category": "other",
+      "first_seen": "2026-09-11T14:17:04Z",
+      "issue_key": "lioness:text:d4aecd4b2dcb6f9e",
+      "line_id": "lioness",
+      "line_name": "Lioness",
+      "reason": "Lioness Line: No service between Harrow & Wealdstone and Watford Junction and SEVERE DELAYS on the rest of the line due to a sewage leak on the track at Watford High Street. London Underground is accepting tickets via reasonable routes, but Bakerloo line services are also disrupted.",
+      "severity": "Part Suspended",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "metropolitan:text:1fa9bf7fa31140bb": {
+      "category": "other",
+      "first_seen": "2026-09-11T14:17:04Z",
+      "issue_key": "metropolitan:text:1fa9bf7fa31140bb",
+      "line_id": "metropolitan",
+      "line_name": "Metropolitan",
+      "reason": "Metropolitan Line: No service between Baker Street and Aldgate and MINOR DELAYS on the rest of the line due to a collapsed drain on the track at Baker Street. Tickets being accepted on London Buses and Chiltern railway services.",
+      "severity": "Part Suspended",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "northern:text:ef08e3a381291bd4": {
+      "category": "signal failure",
+      "first_seen": "2026-09-11T14:17:04Z",
+      "issue_key": "northern:text:ef08e3a381291bd4",
+      "line_id": "northern",
+      "line_name": "Northern",
+      "reason": "Northern Line: Severe delays between Camden Town and Edgware due to an earlier signal failure at Chalk Farm. MINOR DELAYS on the rest of line. Tickets are being accepted on London Buses and Thameslink.",
+      "severity": "Severe Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "piccadilly:text:c206324efe65b635": {
+      "category": "passenger incident",
+      "first_seen": "2026-09-11T14:17:04Z",
+      "issue_key": "piccadilly:text:c206324efe65b635",
+      "line_id": "piccadilly",
+      "line_name": "Piccadilly",
+      "reason": "Piccadilly Line: Minor delays due to an earlier customer incident at Hounslow East.",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    }
+  },
+  "history": [
+    {
+      "category": "other",
+      "duration_seconds": 2846,
+      "first_seen": "2026-09-11T13:29:38Z",
+      "issue_key": "central:text:d87886b2250b12d8",
+      "line_id": "central",
+      "line_name": "Central",
+      "reason": "Central Line: Minor delays between North Acton and Ealing Broadway / West Ruislip and between Leytonstone and Epping / Hainault due to train cancellations. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-09-11T14:17:04Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "other",
+      "duration_seconds": 2846,
       "first_seen": "2026-09-11T13:29:38Z",
       "issue_key": "lioness:text:95157e6200ef52ba",
       "line_id": "lioness",
       "line_name": "Lioness",
       "reason": "Lioness Line: No service between Willesden Junction and Watford Junction and SEVERE DELAYS on the rest of the line due to a sewage leak on the track at Watford High Street. London Underground is accepting tickets via reasonable routes, but Bakerloo line services are also disrupted.",
+      "resolved_at": "2026-09-11T14:17:04Z",
       "severity": "Part Suspended",
       "source_created": "0001-01-01T00:00:00"
     },
-    "metropolitan:text:4a967252a9e8b6a0": {
+    {
       "category": "train fault",
+      "duration_seconds": 2779,
       "first_seen": "2026-09-11T13:30:45Z",
       "issue_key": "metropolitan:text:4a967252a9e8b6a0",
       "line_id": "metropolitan",
       "line_name": "Metropolitan",
       "reason": "Metropolitan Line: No service between Baker Street and Aldgate and MINOR DELAYS between Harrow-on-the-Hill and Uxbridge due to a collapsed drain on the track at Baker Street. SEVERE DELAYS Harrow-on-the-Hill and Baker Street due to an earlier faulty train at Finchley Road. Tickets being accepted on London Buses and Chiltern railway services. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-09-11T14:17:04Z",
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "northern:text:48b6034cea3beebc": {
+    {
       "category": "signal failure",
+      "duration_seconds": 2846,
       "first_seen": "2026-09-11T13:29:38Z",
       "issue_key": "northern:text:48b6034cea3beebc",
       "line_id": "northern",
       "line_name": "Northern",
       "reason": "Northern Line: Severe delays due to an earlier signal failure at Chalk Farm. Tickets are being accepted on London Buses, London Trams, Southeastern, South Western Railway and Thameslink.",
+      "resolved_at": "2026-09-11T14:17:04Z",
       "severity": "Severe Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "piccadilly:text:704fd72306d334b9": {
+    {
       "category": "signal failure",
+      "duration_seconds": 2846,
       "first_seen": "2026-09-11T13:29:38Z",
       "issue_key": "piccadilly:text:704fd72306d334b9",
       "line_id": "piccadilly",
       "line_name": "Piccadilly",
       "reason": "Piccadilly Line: Severe delays due to a trespasser on the track earlier at Hammersmith, an earlier customer incident at Hounslow East and an earlier signal failure at Bounds Green. Tickets are being accepted on London Buses, Elizabeth line, Weaver line and Great Northern.",
+      "resolved_at": "2026-09-11T14:17:04Z",
       "severity": "Severe Delays",
       "source_created": "0001-01-01T00:00:00"
-    }
-  },
-  "history": [
+    },
     {
       "category": "other",
       "duration_seconds": 67,
@@ -7501,6 +7561,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-09-11T13:30:45Z",
+  "updated_at": "2026-09-11T14:17:04Z",
   "version": 1
 }
