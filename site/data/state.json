@@ -30,13 +30,13 @@
       "severity": "Part Suspended",
       "source_created": "0001-01-01T00:00:00"
     },
-    "metropolitan:text:1fa9bf7fa31140bb": {
+    "metropolitan:text:b25fa3abebaf77a3": {
       "category": "other",
-      "first_seen": "2026-09-11T14:17:04Z",
-      "issue_key": "metropolitan:text:1fa9bf7fa31140bb",
+      "first_seen": "2026-09-11T21:53:42Z",
+      "issue_key": "metropolitan:text:b25fa3abebaf77a3",
       "line_id": "metropolitan",
       "line_name": "Metropolitan",
-      "reason": "Metropolitan Line: No service between Baker Street and Aldgate and MINOR DELAYS on the rest of the line due to a collapsed drain on the track at Baker Street. Tickets being accepted on London Buses and Chiltern railway services.",
+      "reason": "Metropolitan Line: No service between Baker Street and Aldgate and SEVERE DELAYS between Baker Street and Wembley Park due to a collapsed drain on the track at Baker Street. MINOR DELAYS on the rest of the line. Tickets being accepted on London Buses and Chiltern railway services.",
       "severity": "Part Suspended",
       "source_created": "0001-01-01T00:00:00"
     },
@@ -62,6 +62,18 @@
     }
   },
   "history": [
+    {
+      "category": "other",
+      "duration_seconds": 27398,
+      "first_seen": "2026-09-11T14:17:04Z",
+      "issue_key": "metropolitan:text:1fa9bf7fa31140bb",
+      "line_id": "metropolitan",
+      "line_name": "Metropolitan",
+      "reason": "Metropolitan Line: No service between Baker Street and Aldgate and MINOR DELAYS on the rest of the line due to a collapsed drain on the track at Baker Street. Tickets being accepted on London Buses and Chiltern railway services.",
+      "resolved_at": "2026-09-11T21:53:42Z",
+      "severity": "Part Suspended",
+      "source_created": "0001-01-01T00:00:00"
+    },
     {
       "category": "person on track",
       "duration_seconds": 6777,
@@ -7707,6 +7719,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-09-11T20:04:13Z",
+  "updated_at": "2026-09-11T21:53:42Z",
   "version": 1
 }
