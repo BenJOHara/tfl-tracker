@@ -57,16 +57,16 @@
       "line_id": "elizabeth",
       "line_name": "Elizabeth line",
       "reason": "Severe delays Hayes & Harlington and Reading due to vandalism to equipment in the Paddington area. MINOR DELAYS Paddington and Heathrow Terminal 4. GOOD SERVICE on the rest of the line.",
-      "severity": "Severe Delays",
+      "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "jubilee:text:91738f24e1c3eddc": {
-      "category": "points failure",
-      "first_seen": "2026-09-12T17:02:23Z",
-      "issue_key": "jubilee:text:91738f24e1c3eddc",
+    "jubilee:text:57925a2ef9e26722": {
+      "category": "other",
+      "first_seen": "2026-09-12T20:45:54Z",
+      "issue_key": "jubilee:text:57925a2ef9e26722",
       "line_id": "jubilee",
       "line_name": "Jubilee",
-      "reason": "Jubilee Line: Minor delays due to an earlier points failure at Stratford.",
+      "reason": "Jubilee Line: Minor delays due to train cancellations.",
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
@@ -80,23 +80,23 @@
       "severity": "Part Suspended",
       "source_created": "0001-01-01T00:00:00"
     },
-    "metropolitan:text:50fce85f10fe4303": {
+    "mildmay:text:a605ed35d0422ebe": {
       "category": "other",
-      "first_seen": "2026-09-12T17:02:23Z",
-      "issue_key": "metropolitan:text:50fce85f10fe4303",
-      "line_id": "metropolitan",
-      "line_name": "Metropolitan",
-      "reason": "Metropolitan Line: Minor delays due to a collapsed drain at Baker Street.",
-      "severity": "Minor Delays",
+      "first_seen": "2026-09-12T20:45:54Z",
+      "issue_key": "mildmay:text:a605ed35d0422ebe",
+      "line_id": "mildmay",
+      "line_name": "Mildmay",
+      "reason": "MILDMAY LINE: Saturday 12 September, the 2131 train from Richmond to Stratford will terminate at Willesden Junction at 2149. The 2244 train from Stratford to Richmond will not run The 22:59 train from Stratford to Richmond will terminate at Willesden Junction at 2342",
+      "severity": "Reduced Service",
       "source_created": "0001-01-01T00:00:00"
     },
-    "piccadilly:text:8d2f9a4421082a4d": {
+    "piccadilly:text:cbceb9efe976a5fa": {
       "category": "signal failure",
-      "first_seen": "2026-09-12T19:13:46Z",
-      "issue_key": "piccadilly:text:8d2f9a4421082a4d",
+      "first_seen": "2026-09-12T20:45:54Z",
+      "issue_key": "piccadilly:text:cbceb9efe976a5fa",
       "line_id": "piccadilly",
       "line_name": "Piccadilly",
-      "reason": "Piccadilly Line: Severe delays while we fix a signal failure at Bounds Green. London Buses are accepting tickets via any reasonable route.",
+      "reason": "Piccadilly Line: Severe delays while we fix a signal failure at Bounds Green. London Buses, Elizabeth line, Weaver line, Great Northern and South Western Railway services are accepting tickets via any reasonable route.",
       "severity": "Severe Delays",
       "source_created": "0001-01-01T00:00:00"
     },
@@ -122,6 +122,42 @@
     }
   },
   "history": [
+    {
+      "category": "points failure",
+      "duration_seconds": 13411,
+      "first_seen": "2026-09-12T17:02:23Z",
+      "issue_key": "jubilee:text:91738f24e1c3eddc",
+      "line_id": "jubilee",
+      "line_name": "Jubilee",
+      "reason": "Jubilee Line: Minor delays due to an earlier points failure at Stratford.",
+      "resolved_at": "2026-09-12T20:45:54Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "other",
+      "duration_seconds": 13411,
+      "first_seen": "2026-09-12T17:02:23Z",
+      "issue_key": "metropolitan:text:50fce85f10fe4303",
+      "line_id": "metropolitan",
+      "line_name": "Metropolitan",
+      "reason": "Metropolitan Line: Minor delays due to a collapsed drain at Baker Street.",
+      "resolved_at": "2026-09-12T20:45:54Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "signal failure",
+      "duration_seconds": 5528,
+      "first_seen": "2026-09-12T19:13:46Z",
+      "issue_key": "piccadilly:text:8d2f9a4421082a4d",
+      "line_id": "piccadilly",
+      "line_name": "Piccadilly",
+      "reason": "Piccadilly Line: Severe delays while we fix a signal failure at Bounds Green. London Buses are accepting tickets via any reasonable route.",
+      "resolved_at": "2026-09-12T20:45:54Z",
+      "severity": "Severe Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
     {
       "category": "signal failure",
       "duration_seconds": 12045,
@@ -8355,6 +8391,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-09-12T19:13:46Z",
+  "updated_at": "2026-09-12T20:45:54Z",
   "version": 1
 }
