@@ -80,6 +80,16 @@
       "severity": "Part Suspended",
       "source_created": "0001-01-01T00:00:00"
     },
+    "metropolitan:text:808942537a3e859a": {
+      "category": "train fault",
+      "first_seen": "2026-09-12T21:29:15Z",
+      "issue_key": "metropolitan:text:808942537a3e859a",
+      "line_id": "metropolitan",
+      "line_name": "Metropolitan",
+      "reason": "Metropolitan Line: Minor delays between Harrow-on-the-Hill and Aldgate due to an earlier faulty train at Finchley Road. GOOD SERVICE on the rest of the line.",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
     "mildmay:text:a605ed35d0422ebe": {
       "category": "other",
       "first_seen": "2026-09-12T20:45:54Z",
@@ -8391,6 +8401,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-09-12T20:45:54Z",
+  "updated_at": "2026-09-12T21:29:15Z",
   "version": 1
 }
