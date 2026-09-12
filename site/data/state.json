@@ -10,16 +10,6 @@
       "severity": "Severe Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "central:text:46bc7de1e13ca6ae": {
-      "category": "other",
-      "first_seen": "2026-09-12T14:02:49Z",
-      "issue_key": "central:text:46bc7de1e13ca6ae",
-      "line_id": "central",
-      "line_name": "Central",
-      "reason": "Central Line: Minor delays between North Acton and Ealing Broadway/West Ruislip and between Leytonstone and Epping/Hainault via Newbury Park due to train cancellations.",
-      "severity": "Minor Delays",
-      "source_created": "0001-01-01T00:00:00"
-    },
     "circle:text:3581c262a6a0a950": {
       "category": "other",
       "first_seen": "2026-09-12T04:44:07Z",
@@ -80,16 +70,6 @@
       "severity": "Part Suspended",
       "source_created": "0001-01-01T00:00:00"
     },
-    "metropolitan:text:808942537a3e859a": {
-      "category": "train fault",
-      "first_seen": "2026-09-12T21:29:15Z",
-      "issue_key": "metropolitan:text:808942537a3e859a",
-      "line_id": "metropolitan",
-      "line_name": "Metropolitan",
-      "reason": "Metropolitan Line: Minor delays between Harrow-on-the-Hill and Aldgate due to an earlier faulty train at Finchley Road. GOOD SERVICE on the rest of the line.",
-      "severity": "Minor Delays",
-      "source_created": "0001-01-01T00:00:00"
-    },
     "mildmay:text:a605ed35d0422ebe": {
       "category": "other",
       "first_seen": "2026-09-12T20:45:54Z",
@@ -120,18 +100,54 @@
       "severity": "Planned Closure",
       "source_created": "0001-01-01T00:00:00"
     },
-    "windrush:text:65194335c8e03e99": {
-      "category": "other",
-      "first_seen": "2026-09-12T17:02:23Z",
-      "issue_key": "windrush:text:65194335c8e03e99",
+    "windrush:text:8a5ed5fb52c180eb": {
+      "category": "person on track",
+      "first_seen": "2026-09-12T22:38:48Z",
+      "issue_key": "windrush:text:8a5ed5fb52c180eb",
       "line_id": "windrush",
       "line_name": "Windrush",
-      "reason": "Windrush Line: Minor delays between Surrey Quays and New Cross due to train cancellations. GOOD SERVICE on the rest of the line.",
+      "reason": "Windrush Line: Minor delays between Surrey Quays and Clapham Junction while we deal with a trespasser on the track at Denmark Hill. MINOR DELAYS between Surrey Quays and New Cross due to train cancellations. GOOD SERVICE on the rest of the line.",
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     }
   },
   "history": [
+    {
+      "category": "other",
+      "duration_seconds": 30959,
+      "first_seen": "2026-09-12T14:02:49Z",
+      "issue_key": "central:text:46bc7de1e13ca6ae",
+      "line_id": "central",
+      "line_name": "Central",
+      "reason": "Central Line: Minor delays between North Acton and Ealing Broadway/West Ruislip and between Leytonstone and Epping/Hainault via Newbury Park due to train cancellations.",
+      "resolved_at": "2026-09-12T22:38:48Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "train fault",
+      "duration_seconds": 4173,
+      "first_seen": "2026-09-12T21:29:15Z",
+      "issue_key": "metropolitan:text:808942537a3e859a",
+      "line_id": "metropolitan",
+      "line_name": "Metropolitan",
+      "reason": "Metropolitan Line: Minor delays between Harrow-on-the-Hill and Aldgate due to an earlier faulty train at Finchley Road. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-09-12T22:38:48Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "other",
+      "duration_seconds": 20185,
+      "first_seen": "2026-09-12T17:02:23Z",
+      "issue_key": "windrush:text:65194335c8e03e99",
+      "line_id": "windrush",
+      "line_name": "Windrush",
+      "reason": "Windrush Line: Minor delays between Surrey Quays and New Cross due to train cancellations. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-09-12T22:38:48Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
     {
       "category": "points failure",
       "duration_seconds": 13411,
@@ -8401,6 +8417,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-09-12T21:29:15Z",
+  "updated_at": "2026-09-12T22:38:48Z",
   "version": 1
 }
