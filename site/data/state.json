@@ -1,15 +1,5 @@
 {
   "active": {
-    "central:text:a61abd151f83ac4d": {
-      "category": "other",
-      "first_seen": "2026-09-12T08:52:43Z",
-      "issue_key": "central:text:a61abd151f83ac4d",
-      "line_id": "central",
-      "line_name": "Central",
-      "reason": "Central Line: Minor delays North Acton to Ealing Broadway / West Ruislip and Leytonstone to Hainault and Epping via Newbury Park due to train cancellations. GOOD SERVICE on the rest of the line.",
-      "severity": "Minor Delays",
-      "source_created": "0001-01-01T00:00:00"
-    },
     "circle:text:3581c262a6a0a950": {
       "category": "other",
       "first_seen": "2026-09-12T04:44:07Z",
@@ -80,6 +70,16 @@
       "severity": "Part Suspended",
       "source_created": "0001-01-01T00:00:00"
     },
+    "northern:text:02ddf31e91de0e9a": {
+      "category": "fire alert",
+      "first_seen": "2026-09-12T09:22:11Z",
+      "issue_key": "northern:text:02ddf31e91de0e9a",
+      "line_id": "northern",
+      "line_name": "Northern",
+      "reason": "Northern Line: No service between Mornington Crescent and Charing Cross southbound only while we respond to a fire alert at Mornington Crescent. Tickets being accepted by London Buses via any reasonable routes. MINOR DELAYS between Kennington and Battersea Power Station. GOOD SERVICE on the rest of the line.",
+      "severity": "Part Suspended",
+      "source_created": "0001-01-01T00:00:00"
+    },
     "waterloo-city:text:02da0890c7cbf303": {
       "category": "other",
       "first_seen": "2026-09-12T04:44:07Z",
@@ -102,6 +102,18 @@
     }
   },
   "history": [
+    {
+      "category": "other",
+      "duration_seconds": 1768,
+      "first_seen": "2026-09-12T08:52:43Z",
+      "issue_key": "central:text:a61abd151f83ac4d",
+      "line_id": "central",
+      "line_name": "Central",
+      "reason": "Central Line: Minor delays North Acton to Ealing Broadway / West Ruislip and Leytonstone to Hainault and Epping via Newbury Park due to train cancellations. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-09-12T09:22:11Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
     {
       "category": "points failure",
       "duration_seconds": 8736,
@@ -8131,6 +8143,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-09-12T08:52:43Z",
+  "updated_at": "2026-09-12T09:22:11Z",
   "version": 1
 }
