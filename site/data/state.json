@@ -1,5 +1,15 @@
 {
   "active": {
+    "central:text:a61abd151f83ac4d": {
+      "category": "other",
+      "first_seen": "2026-09-12T08:52:43Z",
+      "issue_key": "central:text:a61abd151f83ac4d",
+      "line_id": "central",
+      "line_name": "Central",
+      "reason": "Central Line: Minor delays North Acton to Ealing Broadway / West Ruislip and Leytonstone to Hainault and Epping via Newbury Park due to train cancellations. GOOD SERVICE on the rest of the line.",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
     "circle:text:3581c262a6a0a950": {
       "category": "other",
       "first_seen": "2026-09-12T04:44:07Z",
@@ -10,13 +20,13 @@
       "severity": "Part Closure",
       "source_created": "0001-01-01T00:00:00"
     },
-    "district:text:7c00230f55daa4e1": {
+    "district:text:d0478c5626612288": {
       "category": "points failure",
-      "first_seen": "2026-09-12T06:27:07Z",
-      "issue_key": "district:text:7c00230f55daa4e1",
+      "first_seen": "2026-09-12T08:52:43Z",
+      "issue_key": "district:text:d0478c5626612288",
       "line_id": "district",
       "line_name": "District",
-      "reason": "District Line: No service between Edgware Road and Tower Hill to Ealing Broadway / Kensington (Olympia) / Richmond / Wimbledon due to planned engineering work. No service between Whitechapel and Tower Hill and SEVERE DELAYS on the rest of the line while we fix a points failure at Tower Hill. Tickets are being accepted on London Buses, Mildmay Line, Elizabeth line and C2C services.",
+      "reason": "District Line: No service between Edgware Road and Tower Hill to Ealing Broadway / Kensington (Olympia) / Richmond / Wimbledon due to planned engineering work. NO SERVICE between Tower Hill and Whitechapel while we fix a points failure at Tower Hill. Tickets are being accepted on London Buses, Mildmay Line, Elizabeth line and C2C services. MINOR DELAYS on the rest of the line.",
       "severity": "Part Suspended",
       "source_created": "0001-01-01T00:00:00"
     },
@@ -30,23 +40,23 @@
       "severity": "Part Closure",
       "source_created": "0001-01-01T00:00:00"
     },
-    "dlr:text:73cb63e09554cca9": {
-      "category": "fire alert",
-      "first_seen": "2026-09-12T06:27:07Z",
-      "issue_key": "dlr:text:73cb63e09554cca9",
-      "line_id": "dlr",
-      "line_name": "DLR",
-      "reason": "Docklands Light Railway: Severe delays between Woolwich Arsenal and Bank and MINOR DELAYS on all other routes due to an earlier fire alert at East India. Tickets are being accepted on London Underground.",
-      "severity": "Minor Delays",
+    "elizabeth:text:98f5d32c6a3b4571": {
+      "category": "other",
+      "first_seen": "2026-09-12T08:52:43Z",
+      "issue_key": "elizabeth:text:98f5d32c6a3b4571",
+      "line_id": "elizabeth",
+      "line_name": "Elizabeth line",
+      "reason": "Severe delays Hayes & Harlington and Reading due to vandalism to equipment in the Paddington area. MINOR DELAYS Paddington and Heathrow Terminal 4. GOOD SERVICE on the rest of the line.",
+      "severity": "Severe Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "hammersmith-city:text:b51dde1659a1873d": {
+    "hammersmith-city:text:f1cdae8542f2433c": {
       "category": "points failure",
-      "first_seen": "2026-09-12T06:27:07Z",
-      "issue_key": "hammersmith-city:text:b51dde1659a1873d",
+      "first_seen": "2026-09-12T08:52:43Z",
+      "issue_key": "hammersmith-city:text:f1cdae8542f2433c",
       "line_id": "hammersmith-city",
       "line_name": "Hammersmith & City",
-      "reason": "Hammersmith and City Line: No service between Liverpool Street and Barking and SEVERE DELAYS on the rest of the line while we fix a points failure at Tower Hill. Tickets will be accepted on London Buses via reasonable routes.",
+      "reason": "Hammersmith and City Line: No service between Liverpool Street and Barking and SEVERE DELAYS on the rest of the line while we fix a points failure at Tower Hill. Tickets will be accepted on London Buses and the Elizabeth line.",
       "severity": "Part Suspended",
       "source_created": "0001-01-01T00:00:00"
     },
@@ -68,16 +78,6 @@
       "line_name": "Metropolitan",
       "reason": "Metropolitan Line: No service between Baker Street and Aldgate and MINOR DELAYS on the rest of the line due to a collapsed drain on the track at Baker Street. Tickets being accepted on London Buses and Chiltern railway services.",
       "severity": "Part Suspended",
-      "source_created": "0001-01-01T00:00:00"
-    },
-    "northern:text:e89c5c32870dffd4": {
-      "category": "other",
-      "first_seen": "2026-09-12T06:27:07Z",
-      "issue_key": "northern:text:e89c5c32870dffd4",
-      "line_id": "northern",
-      "line_name": "Northern",
-      "reason": "Northern Line: Minor delays due to an earlier faulty track at Balham.",
-      "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
     "waterloo-city:text:02da0890c7cbf303": {
@@ -102,6 +102,54 @@
     }
   },
   "history": [
+    {
+      "category": "points failure",
+      "duration_seconds": 8736,
+      "first_seen": "2026-09-12T06:27:07Z",
+      "issue_key": "district:text:7c00230f55daa4e1",
+      "line_id": "district",
+      "line_name": "District",
+      "reason": "District Line: No service between Edgware Road and Tower Hill to Ealing Broadway / Kensington (Olympia) / Richmond / Wimbledon due to planned engineering work. No service between Whitechapel and Tower Hill and SEVERE DELAYS on the rest of the line while we fix a points failure at Tower Hill. Tickets are being accepted on London Buses, Mildmay Line, Elizabeth line and C2C services.",
+      "resolved_at": "2026-09-12T08:52:43Z",
+      "severity": "Part Suspended",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "fire alert",
+      "duration_seconds": 8736,
+      "first_seen": "2026-09-12T06:27:07Z",
+      "issue_key": "dlr:text:73cb63e09554cca9",
+      "line_id": "dlr",
+      "line_name": "DLR",
+      "reason": "Docklands Light Railway: Severe delays between Woolwich Arsenal and Bank and MINOR DELAYS on all other routes due to an earlier fire alert at East India. Tickets are being accepted on London Underground.",
+      "resolved_at": "2026-09-12T08:52:43Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "points failure",
+      "duration_seconds": 8736,
+      "first_seen": "2026-09-12T06:27:07Z",
+      "issue_key": "hammersmith-city:text:b51dde1659a1873d",
+      "line_id": "hammersmith-city",
+      "line_name": "Hammersmith & City",
+      "reason": "Hammersmith and City Line: No service between Liverpool Street and Barking and SEVERE DELAYS on the rest of the line while we fix a points failure at Tower Hill. Tickets will be accepted on London Buses via reasonable routes.",
+      "resolved_at": "2026-09-12T08:52:43Z",
+      "severity": "Part Suspended",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "other",
+      "duration_seconds": 8736,
+      "first_seen": "2026-09-12T06:27:07Z",
+      "issue_key": "northern:text:e89c5c32870dffd4",
+      "line_id": "northern",
+      "line_name": "Northern",
+      "reason": "Northern Line: Minor delays due to an earlier faulty track at Balham.",
+      "resolved_at": "2026-09-12T08:52:43Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
     {
       "category": "power failure",
       "duration_seconds": 6180,
@@ -8083,6 +8131,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-09-12T06:27:07Z",
+  "updated_at": "2026-09-12T08:52:43Z",
   "version": 1
 }
