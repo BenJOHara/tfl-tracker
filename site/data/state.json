@@ -10,13 +10,13 @@
       "severity": "Part Closure",
       "source_created": "0001-01-01T00:00:00"
     },
-    "district:text:d0478c5626612288": {
+    "district:text:923ad7d033c6e899": {
       "category": "points failure",
-      "first_seen": "2026-09-12T08:52:43Z",
-      "issue_key": "district:text:d0478c5626612288",
+      "first_seen": "2026-09-12T11:02:14Z",
+      "issue_key": "district:text:923ad7d033c6e899",
       "line_id": "district",
       "line_name": "District",
-      "reason": "District Line: No service between Edgware Road and Tower Hill to Ealing Broadway / Kensington (Olympia) / Richmond / Wimbledon due to planned engineering work. NO SERVICE between Tower Hill and Whitechapel while we fix a points failure at Tower Hill. Tickets are being accepted on London Buses, Mildmay Line, Elizabeth line and C2C services. MINOR DELAYS on the rest of the line.",
+      "reason": "District Line: No service between Edgware Road and Tower Hill to Ealing Broadway / Kensington (Olympia) / Richmond / Wimbledon due to planned engineering work. NO SERVICE between Tower Hill and Whitechapel due to a points failure at Tower Hill. Tickets are being accepted on London Buses, Mildmay Line, Elizabeth line and C2C services. MINOR DELAYS on the rest of the line.",
       "severity": "Part Suspended",
       "source_created": "0001-01-01T00:00:00"
     },
@@ -40,14 +40,14 @@
       "severity": "Severe Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "hammersmith-city:text:f1cdae8542f2433c": {
+    "hammersmith-city:text:22cfad601eb6750f": {
       "category": "points failure",
-      "first_seen": "2026-09-12T08:52:43Z",
-      "issue_key": "hammersmith-city:text:f1cdae8542f2433c",
+      "first_seen": "2026-09-12T11:02:14Z",
+      "issue_key": "hammersmith-city:text:22cfad601eb6750f",
       "line_id": "hammersmith-city",
       "line_name": "Hammersmith & City",
-      "reason": "Hammersmith and City Line: No service between Liverpool Street and Barking and SEVERE DELAYS on the rest of the line while we fix a points failure at Tower Hill. Tickets will be accepted on London Buses and the Elizabeth line.",
-      "severity": "Part Suspended",
+      "reason": "Hammersmith and City Line: Severe delays due to a points failure at Tower Hill. Tickets will be accepted on London Buses and the Elizabeth line.",
+      "severity": "Severe Delays",
       "source_created": "0001-01-01T00:00:00"
     },
     "lioness:text:c0eceb27c7293f4a": {
@@ -70,14 +70,14 @@
       "severity": "Part Suspended",
       "source_created": "0001-01-01T00:00:00"
     },
-    "northern:text:02ddf31e91de0e9a": {
+    "northern:text:2a6800152b05a959": {
       "category": "fire alert",
-      "first_seen": "2026-09-12T09:22:11Z",
-      "issue_key": "northern:text:02ddf31e91de0e9a",
+      "first_seen": "2026-09-12T11:02:14Z",
+      "issue_key": "northern:text:2a6800152b05a959",
       "line_id": "northern",
       "line_name": "Northern",
-      "reason": "Northern Line: No service between Mornington Crescent and Charing Cross southbound only while we respond to a fire alert at Mornington Crescent. Tickets being accepted by London Buses via any reasonable routes. MINOR DELAYS between Kennington and Battersea Power Station. GOOD SERVICE on the rest of the line.",
-      "severity": "Part Suspended",
+      "reason": "Northern Line: Minor delays due to an earlier fire alert at Mornington Crescent.",
+      "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
     "waterloo-city:text:02da0890c7cbf303": {
@@ -102,6 +102,42 @@
     }
   },
   "history": [
+    {
+      "category": "points failure",
+      "duration_seconds": 7771,
+      "first_seen": "2026-09-12T08:52:43Z",
+      "issue_key": "district:text:d0478c5626612288",
+      "line_id": "district",
+      "line_name": "District",
+      "reason": "District Line: No service between Edgware Road and Tower Hill to Ealing Broadway / Kensington (Olympia) / Richmond / Wimbledon due to planned engineering work. NO SERVICE between Tower Hill and Whitechapel while we fix a points failure at Tower Hill. Tickets are being accepted on London Buses, Mildmay Line, Elizabeth line and C2C services. MINOR DELAYS on the rest of the line.",
+      "resolved_at": "2026-09-12T11:02:14Z",
+      "severity": "Part Suspended",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "points failure",
+      "duration_seconds": 7771,
+      "first_seen": "2026-09-12T08:52:43Z",
+      "issue_key": "hammersmith-city:text:f1cdae8542f2433c",
+      "line_id": "hammersmith-city",
+      "line_name": "Hammersmith & City",
+      "reason": "Hammersmith and City Line: No service between Liverpool Street and Barking and SEVERE DELAYS on the rest of the line while we fix a points failure at Tower Hill. Tickets will be accepted on London Buses and the Elizabeth line.",
+      "resolved_at": "2026-09-12T11:02:14Z",
+      "severity": "Part Suspended",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "fire alert",
+      "duration_seconds": 6003,
+      "first_seen": "2026-09-12T09:22:11Z",
+      "issue_key": "northern:text:02ddf31e91de0e9a",
+      "line_id": "northern",
+      "line_name": "Northern",
+      "reason": "Northern Line: No service between Mornington Crescent and Charing Cross southbound only while we respond to a fire alert at Mornington Crescent. Tickets being accepted by London Buses via any reasonable routes. MINOR DELAYS between Kennington and Battersea Power Station. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-09-12T11:02:14Z",
+      "severity": "Part Suspended",
+      "source_created": "0001-01-01T00:00:00"
+    },
     {
       "category": "other",
       "duration_seconds": 1768,
@@ -8143,6 +8179,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-09-12T09:22:11Z",
+  "updated_at": "2026-09-12T11:02:14Z",
   "version": 1
 }
