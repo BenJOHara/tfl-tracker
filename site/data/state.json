@@ -90,6 +90,16 @@
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
+    "piccadilly:text:e0fa643d1318a14b": {
+      "category": "signal failure",
+      "first_seen": "2026-09-12T13:00:33Z",
+      "issue_key": "piccadilly:text:e0fa643d1318a14b",
+      "line_id": "piccadilly",
+      "line_name": "Piccadilly",
+      "reason": "Piccadilly Line: Severe delays between Acton Town and Cockfosters due to a signal failure at Bounds Green. GOOD SERVICE on the rest of the line. Tickets will be accepted on local buses.",
+      "severity": "Severe Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
     "waterloo-city:text:02da0890c7cbf303": {
       "category": "other",
       "first_seen": "2026-09-12T04:44:07Z",
@@ -8189,6 +8199,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-09-12T12:48:55Z",
+  "updated_at": "2026-09-12T13:00:33Z",
   "version": 1
 }
