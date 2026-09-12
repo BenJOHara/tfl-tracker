@@ -50,14 +50,14 @@
       "severity": "Part Suspended",
       "source_created": "0001-01-01T00:00:00"
     },
-    "northern:text:3b28520f1d30b77b": {
-      "category": "track fault",
-      "first_seen": "2026-09-12T04:44:07Z",
-      "issue_key": "northern:text:3b28520f1d30b77b",
+    "northern:text:9edecc612b66add9": {
+      "category": "other",
+      "first_seen": "2026-09-12T05:06:05Z",
+      "issue_key": "northern:text:9edecc612b66add9",
       "line_id": "northern",
       "line_name": "Northern",
-      "reason": "Northern Line: No service between Stockwell and Morden and SEVERE DELAYS on the rest of the line while we fix a track fault at Balham. Tickets are being accepted on London Buses, London Trams, Southeastern, Thameslink and South Western Railway services.",
-      "severity": "Part Suspended",
+      "reason": "Northern Line: Severe delays due to an earlier faulty track at Balham. Tickets are being accepted on London Buses, London Trams, Southeastern, Thameslink and South Western Railway services.",
+      "severity": "Severe Delays",
       "source_created": "0001-01-01T00:00:00"
     },
     "waterloo-city:text:02da0890c7cbf303": {
@@ -82,6 +82,18 @@
     }
   },
   "history": [
+    {
+      "category": "track fault",
+      "duration_seconds": 1318,
+      "first_seen": "2026-09-12T04:44:07Z",
+      "issue_key": "northern:text:3b28520f1d30b77b",
+      "line_id": "northern",
+      "line_name": "Northern",
+      "reason": "Northern Line: No service between Stockwell and Morden and SEVERE DELAYS on the rest of the line while we fix a track fault at Balham. Tickets are being accepted on London Buses, London Trams, Southeastern, Thameslink and South Western Railway services.",
+      "resolved_at": "2026-09-12T05:06:05Z",
+      "severity": "Part Suspended",
+      "source_created": "0001-01-01T00:00:00"
+    },
     {
       "category": "other",
       "duration_seconds": 14652,
@@ -8027,6 +8039,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-09-12T04:44:07Z",
+  "updated_at": "2026-09-12T05:06:05Z",
   "version": 1
 }
