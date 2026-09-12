@@ -1,12 +1,12 @@
 {
   "active": {
-    "bakerloo:text:384683dc94e2d775": {
+    "bakerloo:text:f5851041d43d36ff": {
       "category": "fire alert",
-      "first_seen": "2026-09-12T14:02:49Z",
-      "issue_key": "bakerloo:text:384683dc94e2d775",
+      "first_seen": "2026-09-12T15:53:01Z",
+      "issue_key": "bakerloo:text:f5851041d43d36ff",
       "line_id": "bakerloo",
       "line_name": "Bakerloo",
-      "reason": "Bakerloo Line: Severe delays due to an earlier fire alert at Piccadilly Circus. Tickets being accepted on London Buses and Thameslink.",
+      "reason": "Bakerloo Line: Severe delays due to an earlier fire alert at Piccadilly Circus. Tickets being accepted on London Buses and Thameslink. For travel to / from Wembley Stadium, please use Wembley Park station.",
       "severity": "Severe Delays",
       "source_created": "0001-01-01T00:00:00"
     },
@@ -60,44 +60,54 @@
       "severity": "Severe Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "hammersmith-city:text:22cfad601eb6750f": {
+    "hammersmith-city:text:6f7f6462a09f4873": {
       "category": "points failure",
-      "first_seen": "2026-09-12T11:02:14Z",
-      "issue_key": "hammersmith-city:text:22cfad601eb6750f",
+      "first_seen": "2026-09-12T15:53:01Z",
+      "issue_key": "hammersmith-city:text:6f7f6462a09f4873",
       "line_id": "hammersmith-city",
       "line_name": "Hammersmith & City",
-      "reason": "Hammersmith and City Line: Severe delays due to a points failure at Tower Hill. Tickets will be accepted on London Buses and the Elizabeth line.",
+      "reason": "Hammersmith and City Line: Minor delays due to a points failure at Tower Hill.",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "jubilee:text:eb7d8c2c791f4032": {
+      "category": "points failure",
+      "first_seen": "2026-09-12T15:53:01Z",
+      "issue_key": "jubilee:text:eb7d8c2c791f4032",
+      "line_id": "jubilee",
+      "line_name": "Jubilee",
+      "reason": "Jubilee Line: Severe delays due to an earlier points failure at Stratford. Tickets being accepted on London Buses, Mildmay line, DLR and Elizabeth line.",
       "severity": "Severe Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "lioness:text:c0eceb27c7293f4a": {
+    "lioness:text:bda7866e81bb230f": {
       "category": "other",
-      "first_seen": "2026-09-12T04:44:07Z",
-      "issue_key": "lioness:text:c0eceb27c7293f4a",
+      "first_seen": "2026-09-12T15:53:01Z",
+      "issue_key": "lioness:text:bda7866e81bb230f",
       "line_id": "lioness",
       "line_name": "Lioness",
-      "reason": "Lioness Line: No service between Watford Junction and Willesden Junction due to a sewage leak on the track at Watford High Street. MINOR DELAYS on the rest of the line. London Underground is accepting tickets via reasonable route.",
+      "reason": "Lioness Line: No service between Watford Junction and Willesden Junction due to a sewage leak on the track at Watford High Street. MINOR DELAYS on the rest of the line. London Underground is accepting tickets via reasonable route. For travel to / from Wembley Stadium, please use Wembley Park station.",
       "severity": "Part Suspended",
       "source_created": "0001-01-01T00:00:00"
     },
-    "metropolitan:text:1fa9bf7fa31140bb": {
+    "metropolitan:text:3b9819cfea331559": {
       "category": "other",
-      "first_seen": "2026-09-12T04:44:07Z",
-      "issue_key": "metropolitan:text:1fa9bf7fa31140bb",
+      "first_seen": "2026-09-12T15:53:01Z",
+      "issue_key": "metropolitan:text:3b9819cfea331559",
       "line_id": "metropolitan",
       "line_name": "Metropolitan",
-      "reason": "Metropolitan Line: No service between Baker Street and Aldgate and MINOR DELAYS on the rest of the line due to a collapsed drain on the track at Baker Street. Tickets being accepted on London Buses and Chiltern railway services.",
-      "severity": "Part Suspended",
+      "reason": "Metropolitan Line: Severe delays between Baker Street and Aldgate and MINOR DELAYS on the rest of the line due to a collapsed drain on the track at Baker Street. Tickets being accepted on London Buses and Chiltern railway services.",
+      "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "piccadilly:text:11d154c636dfc70c": {
+    "piccadilly:text:b012ce3d1e07f6d1": {
       "category": "signal failure",
-      "first_seen": "2026-09-12T14:02:49Z",
-      "issue_key": "piccadilly:text:11d154c636dfc70c",
+      "first_seen": "2026-09-12T15:53:01Z",
+      "issue_key": "piccadilly:text:b012ce3d1e07f6d1",
       "line_id": "piccadilly",
       "line_name": "Piccadilly",
-      "reason": "Piccadilly Line: Minor delays due to a signal failure at Bounds Green.",
-      "severity": "Minor Delays",
+      "reason": "Piccadilly Line: Severe delays Acton Town and Heathrow Airport/Uxbridge due to a signal failure at Bounds Green. Tickets being accepted on London Buses. MINOR DELAYS on the rest of the line.",
+      "severity": "Severe Delays",
       "source_created": "0001-01-01T00:00:00"
     },
     "waterloo-city:text:02da0890c7cbf303": {
@@ -122,6 +132,66 @@
     }
   },
   "history": [
+    {
+      "category": "fire alert",
+      "duration_seconds": 6612,
+      "first_seen": "2026-09-12T14:02:49Z",
+      "issue_key": "bakerloo:text:384683dc94e2d775",
+      "line_id": "bakerloo",
+      "line_name": "Bakerloo",
+      "reason": "Bakerloo Line: Severe delays due to an earlier fire alert at Piccadilly Circus. Tickets being accepted on London Buses and Thameslink.",
+      "resolved_at": "2026-09-12T15:53:01Z",
+      "severity": "Severe Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "points failure",
+      "duration_seconds": 17447,
+      "first_seen": "2026-09-12T11:02:14Z",
+      "issue_key": "hammersmith-city:text:22cfad601eb6750f",
+      "line_id": "hammersmith-city",
+      "line_name": "Hammersmith & City",
+      "reason": "Hammersmith and City Line: Severe delays due to a points failure at Tower Hill. Tickets will be accepted on London Buses and the Elizabeth line.",
+      "resolved_at": "2026-09-12T15:53:01Z",
+      "severity": "Severe Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "other",
+      "duration_seconds": 40134,
+      "first_seen": "2026-09-12T04:44:07Z",
+      "issue_key": "lioness:text:c0eceb27c7293f4a",
+      "line_id": "lioness",
+      "line_name": "Lioness",
+      "reason": "Lioness Line: No service between Watford Junction and Willesden Junction due to a sewage leak on the track at Watford High Street. MINOR DELAYS on the rest of the line. London Underground is accepting tickets via reasonable route.",
+      "resolved_at": "2026-09-12T15:53:01Z",
+      "severity": "Part Suspended",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "other",
+      "duration_seconds": 40134,
+      "first_seen": "2026-09-12T04:44:07Z",
+      "issue_key": "metropolitan:text:1fa9bf7fa31140bb",
+      "line_id": "metropolitan",
+      "line_name": "Metropolitan",
+      "reason": "Metropolitan Line: No service between Baker Street and Aldgate and MINOR DELAYS on the rest of the line due to a collapsed drain on the track at Baker Street. Tickets being accepted on London Buses and Chiltern railway services.",
+      "resolved_at": "2026-09-12T15:53:01Z",
+      "severity": "Part Suspended",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "signal failure",
+      "duration_seconds": 6612,
+      "first_seen": "2026-09-12T14:02:49Z",
+      "issue_key": "piccadilly:text:11d154c636dfc70c",
+      "line_id": "piccadilly",
+      "line_name": "Piccadilly",
+      "reason": "Piccadilly Line: Minor delays due to a signal failure at Bounds Green.",
+      "resolved_at": "2026-09-12T15:53:01Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
     {
       "category": "fire alert",
       "duration_seconds": 4434,
@@ -8235,6 +8305,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-09-12T14:02:49Z",
+  "updated_at": "2026-09-12T15:53:01Z",
   "version": 1
 }
