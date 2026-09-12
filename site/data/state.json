@@ -1,13 +1,23 @@
 {
   "active": {
-    "bakerloo:text:c56862ac99908218": {
+    "bakerloo:text:384683dc94e2d775": {
       "category": "fire alert",
-      "first_seen": "2026-09-12T12:48:55Z",
-      "issue_key": "bakerloo:text:c56862ac99908218",
+      "first_seen": "2026-09-12T14:02:49Z",
+      "issue_key": "bakerloo:text:384683dc94e2d775",
       "line_id": "bakerloo",
       "line_name": "Bakerloo",
-      "reason": "Bakerloo Line: No service between Paddington and Elephant & Castle while we respond to a fire alert at Piccadilly Circus. Tickets being accepted on London Buses and Thameslink. SEVERE DELAYS on the rest of the line.",
-      "severity": "Part Suspended",
+      "reason": "Bakerloo Line: Severe delays due to an earlier fire alert at Piccadilly Circus. Tickets being accepted on London Buses and Thameslink.",
+      "severity": "Severe Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "central:text:46bc7de1e13ca6ae": {
+      "category": "other",
+      "first_seen": "2026-09-12T14:02:49Z",
+      "issue_key": "central:text:46bc7de1e13ca6ae",
+      "line_id": "central",
+      "line_name": "Central",
+      "reason": "Central Line: Minor delays between North Acton and Ealing Broadway/West Ruislip and between Leytonstone and Epping/Hainault via Newbury Park due to train cancellations.",
+      "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
     "circle:text:3581c262a6a0a950": {
@@ -80,24 +90,14 @@
       "severity": "Part Suspended",
       "source_created": "0001-01-01T00:00:00"
     },
-    "northern:text:2a6800152b05a959": {
-      "category": "fire alert",
-      "first_seen": "2026-09-12T11:02:14Z",
-      "issue_key": "northern:text:2a6800152b05a959",
-      "line_id": "northern",
-      "line_name": "Northern",
-      "reason": "Northern Line: Minor delays due to an earlier fire alert at Mornington Crescent.",
-      "severity": "Minor Delays",
-      "source_created": "0001-01-01T00:00:00"
-    },
-    "piccadilly:text:e0fa643d1318a14b": {
+    "piccadilly:text:11d154c636dfc70c": {
       "category": "signal failure",
-      "first_seen": "2026-09-12T13:00:33Z",
-      "issue_key": "piccadilly:text:e0fa643d1318a14b",
+      "first_seen": "2026-09-12T14:02:49Z",
+      "issue_key": "piccadilly:text:11d154c636dfc70c",
       "line_id": "piccadilly",
       "line_name": "Piccadilly",
-      "reason": "Piccadilly Line: Severe delays between Acton Town and Cockfosters due to a signal failure at Bounds Green. GOOD SERVICE on the rest of the line. Tickets will be accepted on local buses.",
-      "severity": "Severe Delays",
+      "reason": "Piccadilly Line: Minor delays due to a signal failure at Bounds Green.",
+      "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
     "waterloo-city:text:02da0890c7cbf303": {
@@ -122,6 +122,42 @@
     }
   },
   "history": [
+    {
+      "category": "fire alert",
+      "duration_seconds": 4434,
+      "first_seen": "2026-09-12T12:48:55Z",
+      "issue_key": "bakerloo:text:c56862ac99908218",
+      "line_id": "bakerloo",
+      "line_name": "Bakerloo",
+      "reason": "Bakerloo Line: No service between Paddington and Elephant & Castle while we respond to a fire alert at Piccadilly Circus. Tickets being accepted on London Buses and Thameslink. SEVERE DELAYS on the rest of the line.",
+      "resolved_at": "2026-09-12T14:02:49Z",
+      "severity": "Part Suspended",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "fire alert",
+      "duration_seconds": 10835,
+      "first_seen": "2026-09-12T11:02:14Z",
+      "issue_key": "northern:text:2a6800152b05a959",
+      "line_id": "northern",
+      "line_name": "Northern",
+      "reason": "Northern Line: Minor delays due to an earlier fire alert at Mornington Crescent.",
+      "resolved_at": "2026-09-12T14:02:49Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "signal failure",
+      "duration_seconds": 3736,
+      "first_seen": "2026-09-12T13:00:33Z",
+      "issue_key": "piccadilly:text:e0fa643d1318a14b",
+      "line_id": "piccadilly",
+      "line_name": "Piccadilly",
+      "reason": "Piccadilly Line: Severe delays between Acton Town and Cockfosters due to a signal failure at Bounds Green. GOOD SERVICE on the rest of the line. Tickets will be accepted on local buses.",
+      "resolved_at": "2026-09-12T14:02:49Z",
+      "severity": "Severe Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
     {
       "category": "points failure",
       "duration_seconds": 7771,
@@ -8199,6 +8235,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-09-12T13:00:33Z",
+  "updated_at": "2026-09-12T14:02:49Z",
   "version": 1
 }
