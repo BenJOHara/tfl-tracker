@@ -110,16 +110,6 @@
       "severity": "Planned Closure",
       "source_created": "0001-01-01T00:00:00"
     },
-    "waterloo-city:text:1bbcac27f282d0db": {
-      "category": "other",
-      "first_seen": "2026-09-12T00:12:52Z",
-      "issue_key": "waterloo-city:text:1bbcac27f282d0db",
-      "line_id": "waterloo-city",
-      "line_name": "Waterloo & City",
-      "reason": "Waterloo and City Line: Service will resume at 06:00 on Monday.",
-      "severity": "Service Closed",
-      "source_created": "0001-01-01T00:00:00"
-    },
     "windrush:text:65194335c8e03e99": {
       "category": "other",
       "first_seen": "2026-09-12T17:02:23Z",
@@ -132,6 +122,18 @@
     }
   },
   "history": [
+    {
+      "category": "other",
+      "duration_seconds": 65154,
+      "first_seen": "2026-09-12T00:12:52Z",
+      "issue_key": "waterloo-city:text:1bbcac27f282d0db",
+      "line_id": "waterloo-city",
+      "line_name": "Waterloo & City",
+      "reason": "Waterloo and City Line: Service will resume at 06:00 on Monday.",
+      "resolved_at": "2026-09-12T18:18:46Z",
+      "severity": "Service Closed",
+      "source_created": "0001-01-01T00:00:00"
+    },
     {
       "category": "points failure",
       "duration_seconds": 4162,
@@ -8341,6 +8343,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-09-12T17:02:23Z",
+  "updated_at": "2026-09-12T18:18:46Z",
   "version": 1
 }
