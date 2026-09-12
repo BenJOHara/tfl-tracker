@@ -70,16 +70,6 @@
       "severity": "Part Suspended",
       "source_created": "0001-01-01T00:00:00"
     },
-    "mildmay:text:a605ed35d0422ebe": {
-      "category": "other",
-      "first_seen": "2026-09-12T20:45:54Z",
-      "issue_key": "mildmay:text:a605ed35d0422ebe",
-      "line_id": "mildmay",
-      "line_name": "Mildmay",
-      "reason": "MILDMAY LINE: Saturday 12 September, the 2131 train from Richmond to Stratford will terminate at Willesden Junction at 2149. The 2244 train from Stratford to Richmond will not run The 22:59 train from Stratford to Richmond will terminate at Willesden Junction at 2342",
-      "severity": "Reduced Service",
-      "source_created": "0001-01-01T00:00:00"
-    },
     "piccadilly:text:cbceb9efe976a5fa": {
       "category": "signal failure",
       "first_seen": "2026-09-12T20:45:54Z",
@@ -112,6 +102,18 @@
     }
   },
   "history": [
+    {
+      "category": "other",
+      "duration_seconds": 7588,
+      "first_seen": "2026-09-12T20:45:54Z",
+      "issue_key": "mildmay:text:a605ed35d0422ebe",
+      "line_id": "mildmay",
+      "line_name": "Mildmay",
+      "reason": "MILDMAY LINE: Saturday 12 September, the 2131 train from Richmond to Stratford will terminate at Willesden Junction at 2149. The 2244 train from Stratford to Richmond will not run The 22:59 train from Stratford to Richmond will terminate at Willesden Junction at 2342",
+      "resolved_at": "2026-09-12T22:52:22Z",
+      "severity": "Reduced Service",
+      "source_created": "0001-01-01T00:00:00"
+    },
     {
       "category": "other",
       "duration_seconds": 30959,
@@ -8417,6 +8419,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-09-12T22:38:48Z",
+  "updated_at": "2026-09-12T22:52:22Z",
   "version": 1
 }
