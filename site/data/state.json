@@ -1,5 +1,15 @@
 {
   "active": {
+    "bakerloo:text:c56862ac99908218": {
+      "category": "fire alert",
+      "first_seen": "2026-09-12T12:48:55Z",
+      "issue_key": "bakerloo:text:c56862ac99908218",
+      "line_id": "bakerloo",
+      "line_name": "Bakerloo",
+      "reason": "Bakerloo Line: No service between Paddington and Elephant & Castle while we respond to a fire alert at Piccadilly Circus. Tickets being accepted on London Buses and Thameslink. SEVERE DELAYS on the rest of the line.",
+      "severity": "Part Suspended",
+      "source_created": "0001-01-01T00:00:00"
+    },
     "circle:text:3581c262a6a0a950": {
       "category": "other",
       "first_seen": "2026-09-12T04:44:07Z",
@@ -8179,6 +8189,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-09-12T11:02:14Z",
+  "updated_at": "2026-09-12T12:48:55Z",
   "version": 1
 }
