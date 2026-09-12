@@ -1,53 +1,103 @@
 {
   "active": {
-    "central:text:6d0af7c9d44f714a": {
+    "bakerloo:text:975c88cf69561d0c": {
       "category": "other",
-      "first_seen": "2026-09-11T17:10:04Z",
-      "issue_key": "central:text:6d0af7c9d44f714a",
-      "line_id": "central",
-      "line_name": "Central",
-      "reason": "Central Line: Minor delays due to train cancellations.",
-      "severity": "Minor Delays",
+      "first_seen": "2026-09-12T00:39:55Z",
+      "issue_key": "bakerloo:text:975c88cf69561d0c",
+      "line_id": "bakerloo",
+      "line_name": "Bakerloo",
+      "reason": "Bakerloo Line: Service will resume later this morning.",
+      "severity": "Service Closed",
       "source_created": "0001-01-01T00:00:00"
     },
-    "elizabeth:text:60c3cd54d84a1f6c": {
+    "circle:text:74ca4457b9770a95": {
+      "category": "planned engineering",
+      "first_seen": "2026-09-12T00:39:55Z",
+      "issue_key": "circle:text:74ca4457b9770a95",
+      "line_id": "circle",
+      "line_name": "Circle",
+      "reason": "Circle Line: Service will resume later this morning. There will be no service between Edgware Road and Aldgate via Victoria due to planned engineering work",
+      "severity": "Service Closed",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "district:text:e2a9df5c1ebc8422": {
       "category": "other",
-      "first_seen": "2026-09-11T19:39:44Z",
-      "issue_key": "elizabeth:text:60c3cd54d84a1f6c",
+      "first_seen": "2026-09-12T00:39:55Z",
+      "issue_key": "district:text:e2a9df5c1ebc8422",
+      "line_id": "district",
+      "line_name": "District",
+      "reason": "District Line: Service will resume later this morning. There will be no service between Edgware Road and Tower Hill to Ealing Broadway / Kensington (Olympia) / Richmond / Wimbledon.",
+      "severity": "Service Closed",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "dlr:text:fb244db083a3f0ff": {
+      "category": "other",
+      "first_seen": "2026-09-12T00:39:55Z",
+      "issue_key": "dlr:text:fb244db083a3f0ff",
+      "line_id": "dlr",
+      "line_name": "DLR",
+      "reason": "Docklands Light Railway: Service will resume later this morning.",
+      "severity": "Service Closed",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "elizabeth:text:85644759b2256fee": {
+      "category": "other",
+      "first_seen": "2026-09-12T00:39:55Z",
+      "issue_key": "elizabeth:text:85644759b2256fee",
       "line_id": "elizabeth",
       "line_name": "Elizabeth line",
-      "reason": "Minor delays between Paddington and Heathrow Terminal 4 due to vandalism to railway equipment in the Paddington area. GOOD SERVICE on the rest of the line.",
-      "severity": "Minor Delays",
+      "reason": "Service will resume later this morning.",
+      "severity": "Service Closed",
       "source_created": "0001-01-01T00:00:00"
     },
-    "lioness:text:3f1318a1d75f388c": {
+    "hammersmith-city:text:b560078b35a5fd17": {
       "category": "other",
-      "first_seen": "2026-09-11T19:39:44Z",
-      "issue_key": "lioness:text:3f1318a1d75f388c",
+      "first_seen": "2026-09-12T00:39:55Z",
+      "issue_key": "hammersmith-city:text:b560078b35a5fd17",
+      "line_id": "hammersmith-city",
+      "line_name": "Hammersmith & City",
+      "reason": "Hammersmith and City Line: Service will resume later this morning.",
+      "severity": "Service Closed",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "liberty:text:19134079f5c98ab7": {
+      "category": "other",
+      "first_seen": "2026-09-12T00:39:55Z",
+      "issue_key": "liberty:text:19134079f5c98ab7",
+      "line_id": "liberty",
+      "line_name": "Liberty",
+      "reason": "Liberty Line: Service will resume later this morning.",
+      "severity": "Service Closed",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "lioness:text:edb0d527df87ed16": {
+      "category": "other",
+      "first_seen": "2026-09-12T00:39:55Z",
+      "issue_key": "lioness:text:edb0d527df87ed16",
       "line_id": "lioness",
       "line_name": "Lioness",
-      "reason": "Lioness Line: No service between Watford Junction and Willesden Junction for the rest of the day due to a sewage leak on the track at Watford High Street. London Underground are accepting tickets via reasonable route. MINOR DELAYS on the rest of the line.",
-      "severity": "Part Suspended",
+      "reason": "Lioness Line: Service will resume later this morning.",
+      "severity": "Service Closed",
       "source_created": "0001-01-01T00:00:00"
     },
-    "metropolitan:text:260356eedc102a5f": {
+    "metropolitan:text:4b366f757f8f5a28": {
       "category": "other",
-      "first_seen": "2026-09-11T22:35:28Z",
-      "issue_key": "metropolitan:text:260356eedc102a5f",
+      "first_seen": "2026-09-12T00:39:55Z",
+      "issue_key": "metropolitan:text:4b366f757f8f5a28",
       "line_id": "metropolitan",
       "line_name": "Metropolitan",
-      "reason": "Metropolitan Line: No service between Baker Street and Aldgate due to a collapsed drain on the track at Baker Street. MINOR DELAYS on the rest of the line. Tickets being accepted on London Buses and Chiltern railway services.",
-      "severity": "Part Suspended",
+      "reason": "Metropolitan Line: Service will resume later this morning.",
+      "severity": "Service Closed",
       "source_created": "0001-01-01T00:00:00"
     },
-    "mildmay:text:3041259bfa92465b": {
+    "mildmay:text:43f3ca710bb3792b": {
       "category": "other",
-      "first_seen": "2026-09-11T20:04:13Z",
-      "issue_key": "mildmay:text:3041259bfa92465b",
+      "first_seen": "2026-09-12T00:39:55Z",
+      "issue_key": "mildmay:text:43f3ca710bb3792b",
       "line_id": "mildmay",
       "line_name": "Mildmay",
-      "reason": "Mildmay Line: Severe delays due to train cancellations. London Underground are accepting tickets via reasonable route.",
-      "severity": "Severe Delays",
+      "reason": "Mildmay Line: Service will resume later this morning.",
+      "severity": "Service Closed",
       "source_created": "0001-01-01T00:00:00"
     },
     "northern:text:ecde348ae8886e61": {
@@ -60,6 +110,26 @@
       "severity": "Part Suspended",
       "source_created": "0001-01-01T00:00:00"
     },
+    "suffragette:text:774000467a2b26d3": {
+      "category": "other",
+      "first_seen": "2026-09-12T00:39:55Z",
+      "issue_key": "suffragette:text:774000467a2b26d3",
+      "line_id": "suffragette",
+      "line_name": "Suffragette",
+      "reason": "Suffragette Line: Service will resume later this morning.",
+      "severity": "Service Closed",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "tram:text:ab9d7a64f14b787b": {
+      "category": "other",
+      "first_seen": "2026-09-12T00:39:55Z",
+      "issue_key": "tram:text:ab9d7a64f14b787b",
+      "line_id": "tram",
+      "line_name": "Tram",
+      "reason": "London Tramlink: Service will resume later this morning.",
+      "severity": "Service Closed",
+      "source_created": "0001-01-01T00:00:00"
+    },
     "waterloo-city:text:1bbcac27f282d0db": {
       "category": "other",
       "first_seen": "2026-09-12T00:12:52Z",
@@ -69,9 +139,79 @@
       "reason": "Waterloo and City Line: Service will resume at 06:00 on Monday.",
       "severity": "Service Closed",
       "source_created": "0001-01-01T00:00:00"
+    },
+    "weaver:text:f2dc8c00c6757e13": {
+      "category": "other",
+      "first_seen": "2026-09-12T00:39:55Z",
+      "issue_key": "weaver:text:f2dc8c00c6757e13",
+      "line_id": "weaver",
+      "line_name": "Weaver",
+      "reason": "Weaver Line: Service will resume later this morning.",
+      "severity": "Service Closed",
+      "source_created": "0001-01-01T00:00:00"
     }
   },
   "history": [
+    {
+      "category": "other",
+      "duration_seconds": 26991,
+      "first_seen": "2026-09-11T17:10:04Z",
+      "issue_key": "central:text:6d0af7c9d44f714a",
+      "line_id": "central",
+      "line_name": "Central",
+      "reason": "Central Line: Minor delays due to train cancellations.",
+      "resolved_at": "2026-09-12T00:39:55Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "other",
+      "duration_seconds": 18011,
+      "first_seen": "2026-09-11T19:39:44Z",
+      "issue_key": "elizabeth:text:60c3cd54d84a1f6c",
+      "line_id": "elizabeth",
+      "line_name": "Elizabeth line",
+      "reason": "Minor delays between Paddington and Heathrow Terminal 4 due to vandalism to railway equipment in the Paddington area. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-09-12T00:39:55Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "other",
+      "duration_seconds": 18011,
+      "first_seen": "2026-09-11T19:39:44Z",
+      "issue_key": "lioness:text:3f1318a1d75f388c",
+      "line_id": "lioness",
+      "line_name": "Lioness",
+      "reason": "Lioness Line: No service between Watford Junction and Willesden Junction for the rest of the day due to a sewage leak on the track at Watford High Street. London Underground are accepting tickets via reasonable route. MINOR DELAYS on the rest of the line.",
+      "resolved_at": "2026-09-12T00:39:55Z",
+      "severity": "Part Suspended",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "other",
+      "duration_seconds": 7467,
+      "first_seen": "2026-09-11T22:35:28Z",
+      "issue_key": "metropolitan:text:260356eedc102a5f",
+      "line_id": "metropolitan",
+      "line_name": "Metropolitan",
+      "reason": "Metropolitan Line: No service between Baker Street and Aldgate due to a collapsed drain on the track at Baker Street. MINOR DELAYS on the rest of the line. Tickets being accepted on London Buses and Chiltern railway services.",
+      "resolved_at": "2026-09-12T00:39:55Z",
+      "severity": "Part Suspended",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "other",
+      "duration_seconds": 16542,
+      "first_seen": "2026-09-11T20:04:13Z",
+      "issue_key": "mildmay:text:3041259bfa92465b",
+      "line_id": "mildmay",
+      "line_name": "Mildmay",
+      "reason": "Mildmay Line: Severe delays due to train cancellations. London Underground are accepting tickets via reasonable route.",
+      "resolved_at": "2026-09-12T00:39:55Z",
+      "severity": "Severe Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
     {
       "category": "track fault",
       "duration_seconds": 2311,
@@ -7789,6 +7929,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-09-12T00:12:52Z",
+  "updated_at": "2026-09-12T00:39:55Z",
   "version": 1
 }
