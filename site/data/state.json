@@ -1,133 +1,73 @@
 {
   "active": {
-    "bakerloo:text:975c88cf69561d0c": {
+    "circle:text:3581c262a6a0a950": {
       "category": "other",
-      "first_seen": "2026-09-12T00:39:55Z",
-      "issue_key": "bakerloo:text:975c88cf69561d0c",
-      "line_id": "bakerloo",
-      "line_name": "Bakerloo",
-      "reason": "Bakerloo Line: Service will resume later this morning.",
-      "severity": "Service Closed",
-      "source_created": "0001-01-01T00:00:00"
-    },
-    "circle:text:74ca4457b9770a95": {
-      "category": "planned engineering",
-      "first_seen": "2026-09-12T00:39:55Z",
-      "issue_key": "circle:text:74ca4457b9770a95",
+      "first_seen": "2026-09-12T04:44:07Z",
+      "issue_key": "circle:text:3581c262a6a0a950",
       "line_id": "circle",
       "line_name": "Circle",
-      "reason": "Circle Line: Service will resume later this morning. There will be no service between Edgware Road and Aldgate via Victoria due to planned engineering work",
-      "severity": "Service Closed",
+      "reason": "CIRCLE LINE: Saturday 12 and Sunday 13 September, no service between Edgware Road and Aldgate (via Victoria)",
+      "severity": "Part Closure",
       "source_created": "0001-01-01T00:00:00"
     },
-    "district:text:e2a9df5c1ebc8422": {
+    "district:text:fada1ea308f257f6": {
       "category": "other",
-      "first_seen": "2026-09-12T00:39:55Z",
-      "issue_key": "district:text:e2a9df5c1ebc8422",
+      "first_seen": "2026-09-12T04:44:07Z",
+      "issue_key": "district:text:fada1ea308f257f6",
       "line_id": "district",
       "line_name": "District",
-      "reason": "District Line: Service will resume later this morning. There will be no service between Edgware Road and Tower Hill to Ealing Broadway / Kensington (Olympia) / Richmond / Wimbledon.",
-      "severity": "Service Closed",
+      "reason": "DISTRICT LINE: Saturday 12 and Sunday 13 September, no service between Tower Hill / Edgware Road and Ealing Broadway / Kensington (Olympia) / Richmond / Wimbledon. Use MILDMAY LINE services between Gunnersbury and Richmond on Saturday. Replacement buses operate. If travelling to Chelsea vs Hull City AFC at Stamford Bridge on Saturday, please use PICCADILLY LINE services at Earls Court.",
+      "severity": "Part Closure",
       "source_created": "0001-01-01T00:00:00"
     },
-    "dlr:text:fb244db083a3f0ff": {
-      "category": "other",
-      "first_seen": "2026-09-12T00:39:55Z",
-      "issue_key": "dlr:text:fb244db083a3f0ff",
+    "dlr:text:32d9cd049f26b085": {
+      "category": "power failure",
+      "first_seen": "2026-09-12T04:44:07Z",
+      "issue_key": "dlr:text:32d9cd049f26b085",
       "line_id": "dlr",
       "line_name": "DLR",
-      "reason": "Docklands Light Railway: Service will resume later this morning.",
-      "severity": "Service Closed",
-      "source_created": "0001-01-01T00:00:00"
-    },
-    "elizabeth:text:85644759b2256fee": {
-      "category": "other",
-      "first_seen": "2026-09-12T00:39:55Z",
-      "issue_key": "elizabeth:text:85644759b2256fee",
-      "line_id": "elizabeth",
-      "line_name": "Elizabeth line",
-      "reason": "Service will resume later this morning.",
-      "severity": "Service Closed",
-      "source_created": "0001-01-01T00:00:00"
-    },
-    "hammersmith-city:text:b560078b35a5fd17": {
-      "category": "other",
-      "first_seen": "2026-09-12T00:39:55Z",
-      "issue_key": "hammersmith-city:text:b560078b35a5fd17",
-      "line_id": "hammersmith-city",
-      "line_name": "Hammersmith & City",
-      "reason": "Hammersmith and City Line: Service will resume later this morning.",
-      "severity": "Service Closed",
-      "source_created": "0001-01-01T00:00:00"
-    },
-    "liberty:text:19134079f5c98ab7": {
-      "category": "other",
-      "first_seen": "2026-09-12T00:39:55Z",
-      "issue_key": "liberty:text:19134079f5c98ab7",
-      "line_id": "liberty",
-      "line_name": "Liberty",
-      "reason": "Liberty Line: Service will resume later this morning.",
-      "severity": "Service Closed",
-      "source_created": "0001-01-01T00:00:00"
-    },
-    "lioness:text:edb0d527df87ed16": {
-      "category": "other",
-      "first_seen": "2026-09-12T00:39:55Z",
-      "issue_key": "lioness:text:edb0d527df87ed16",
-      "line_id": "lioness",
-      "line_name": "Lioness",
-      "reason": "Lioness Line: Service will resume later this morning.",
-      "severity": "Service Closed",
-      "source_created": "0001-01-01T00:00:00"
-    },
-    "metropolitan:text:4b366f757f8f5a28": {
-      "category": "other",
-      "first_seen": "2026-09-12T00:39:55Z",
-      "issue_key": "metropolitan:text:4b366f757f8f5a28",
-      "line_id": "metropolitan",
-      "line_name": "Metropolitan",
-      "reason": "Metropolitan Line: Service will resume later this morning.",
-      "severity": "Service Closed",
-      "source_created": "0001-01-01T00:00:00"
-    },
-    "mildmay:text:43f3ca710bb3792b": {
-      "category": "other",
-      "first_seen": "2026-09-12T00:39:55Z",
-      "issue_key": "mildmay:text:43f3ca710bb3792b",
-      "line_id": "mildmay",
-      "line_name": "Mildmay",
-      "reason": "Mildmay Line: Service will resume later this morning.",
-      "severity": "Service Closed",
-      "source_created": "0001-01-01T00:00:00"
-    },
-    "northern:text:ecde348ae8886e61": {
-      "category": "track fault",
-      "first_seen": "2026-09-12T00:12:52Z",
-      "issue_key": "northern:text:ecde348ae8886e61",
-      "line_id": "northern",
-      "line_name": "Northern",
-      "reason": "Northern Line: No service between Kennington and Morden and SEVERE DELAYS on the rest of the line while we fix a track fault at Balham. Tickets are being accepted on London Buses, London Trams, Southeastern, Thameslink and South Western Railway services.",
+      "reason": "Docklands Light Railway: No service between Pontoon Dock and Woolwich Arsenal due to a power supply failure at Woolwich Arsenal. NO SERVICE between Blackwall and Canning Town while we respond to a fire alert at East India. London Underground are accepting tickets via any reasonable route. SEVERE DELAYS on the rest of the line.",
       "severity": "Part Suspended",
       "source_created": "0001-01-01T00:00:00"
     },
-    "suffragette:text:774000467a2b26d3": {
+    "lioness:text:c0eceb27c7293f4a": {
       "category": "other",
-      "first_seen": "2026-09-12T00:39:55Z",
-      "issue_key": "suffragette:text:774000467a2b26d3",
-      "line_id": "suffragette",
-      "line_name": "Suffragette",
-      "reason": "Suffragette Line: Service will resume later this morning.",
-      "severity": "Service Closed",
+      "first_seen": "2026-09-12T04:44:07Z",
+      "issue_key": "lioness:text:c0eceb27c7293f4a",
+      "line_id": "lioness",
+      "line_name": "Lioness",
+      "reason": "Lioness Line: No service between Watford Junction and Willesden Junction due to a sewage leak on the track at Watford High Street. MINOR DELAYS on the rest of the line. London Underground is accepting tickets via reasonable route.",
+      "severity": "Part Suspended",
       "source_created": "0001-01-01T00:00:00"
     },
-    "tram:text:ab9d7a64f14b787b": {
+    "metropolitan:text:1fa9bf7fa31140bb": {
       "category": "other",
-      "first_seen": "2026-09-12T00:39:55Z",
-      "issue_key": "tram:text:ab9d7a64f14b787b",
-      "line_id": "tram",
-      "line_name": "Tram",
-      "reason": "London Tramlink: Service will resume later this morning.",
-      "severity": "Service Closed",
+      "first_seen": "2026-09-12T04:44:07Z",
+      "issue_key": "metropolitan:text:1fa9bf7fa31140bb",
+      "line_id": "metropolitan",
+      "line_name": "Metropolitan",
+      "reason": "Metropolitan Line: No service between Baker Street and Aldgate and MINOR DELAYS on the rest of the line due to a collapsed drain on the track at Baker Street. Tickets being accepted on London Buses and Chiltern railway services.",
+      "severity": "Part Suspended",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "northern:text:3b28520f1d30b77b": {
+      "category": "track fault",
+      "first_seen": "2026-09-12T04:44:07Z",
+      "issue_key": "northern:text:3b28520f1d30b77b",
+      "line_id": "northern",
+      "line_name": "Northern",
+      "reason": "Northern Line: No service between Stockwell and Morden and SEVERE DELAYS on the rest of the line while we fix a track fault at Balham. Tickets are being accepted on London Buses, London Trams, Southeastern, Thameslink and South Western Railway services.",
+      "severity": "Part Suspended",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "waterloo-city:text:02da0890c7cbf303": {
+      "category": "other",
+      "first_seen": "2026-09-12T04:44:07Z",
+      "issue_key": "waterloo-city:text:02da0890c7cbf303",
+      "line_id": "waterloo-city",
+      "line_name": "Waterloo & City",
+      "reason": "Waterloo & City line: service operates 06:00 until 00:30, Monday to Friday only. There is no service on Saturdays, Sundays and on bank/public holidays.",
+      "severity": "Planned Closure",
       "source_created": "0001-01-01T00:00:00"
     },
     "waterloo-city:text:1bbcac27f282d0db": {
@@ -139,19 +79,177 @@
       "reason": "Waterloo and City Line: Service will resume at 06:00 on Monday.",
       "severity": "Service Closed",
       "source_created": "0001-01-01T00:00:00"
-    },
-    "weaver:text:f2dc8c00c6757e13": {
+    }
+  },
+  "history": [
+    {
       "category": "other",
+      "duration_seconds": 14652,
+      "first_seen": "2026-09-12T00:39:55Z",
+      "issue_key": "bakerloo:text:975c88cf69561d0c",
+      "line_id": "bakerloo",
+      "line_name": "Bakerloo",
+      "reason": "Bakerloo Line: Service will resume later this morning.",
+      "resolved_at": "2026-09-12T04:44:07Z",
+      "severity": "Service Closed",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "planned engineering",
+      "duration_seconds": 14652,
+      "first_seen": "2026-09-12T00:39:55Z",
+      "issue_key": "circle:text:74ca4457b9770a95",
+      "line_id": "circle",
+      "line_name": "Circle",
+      "reason": "Circle Line: Service will resume later this morning. There will be no service between Edgware Road and Aldgate via Victoria due to planned engineering work",
+      "resolved_at": "2026-09-12T04:44:07Z",
+      "severity": "Service Closed",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "other",
+      "duration_seconds": 14652,
+      "first_seen": "2026-09-12T00:39:55Z",
+      "issue_key": "district:text:e2a9df5c1ebc8422",
+      "line_id": "district",
+      "line_name": "District",
+      "reason": "District Line: Service will resume later this morning. There will be no service between Edgware Road and Tower Hill to Ealing Broadway / Kensington (Olympia) / Richmond / Wimbledon.",
+      "resolved_at": "2026-09-12T04:44:07Z",
+      "severity": "Service Closed",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "other",
+      "duration_seconds": 14652,
+      "first_seen": "2026-09-12T00:39:55Z",
+      "issue_key": "dlr:text:fb244db083a3f0ff",
+      "line_id": "dlr",
+      "line_name": "DLR",
+      "reason": "Docklands Light Railway: Service will resume later this morning.",
+      "resolved_at": "2026-09-12T04:44:07Z",
+      "severity": "Service Closed",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "other",
+      "duration_seconds": 14652,
+      "first_seen": "2026-09-12T00:39:55Z",
+      "issue_key": "elizabeth:text:85644759b2256fee",
+      "line_id": "elizabeth",
+      "line_name": "Elizabeth line",
+      "reason": "Service will resume later this morning.",
+      "resolved_at": "2026-09-12T04:44:07Z",
+      "severity": "Service Closed",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "other",
+      "duration_seconds": 14652,
+      "first_seen": "2026-09-12T00:39:55Z",
+      "issue_key": "hammersmith-city:text:b560078b35a5fd17",
+      "line_id": "hammersmith-city",
+      "line_name": "Hammersmith & City",
+      "reason": "Hammersmith and City Line: Service will resume later this morning.",
+      "resolved_at": "2026-09-12T04:44:07Z",
+      "severity": "Service Closed",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "other",
+      "duration_seconds": 14652,
+      "first_seen": "2026-09-12T00:39:55Z",
+      "issue_key": "liberty:text:19134079f5c98ab7",
+      "line_id": "liberty",
+      "line_name": "Liberty",
+      "reason": "Liberty Line: Service will resume later this morning.",
+      "resolved_at": "2026-09-12T04:44:07Z",
+      "severity": "Service Closed",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "other",
+      "duration_seconds": 14652,
+      "first_seen": "2026-09-12T00:39:55Z",
+      "issue_key": "lioness:text:edb0d527df87ed16",
+      "line_id": "lioness",
+      "line_name": "Lioness",
+      "reason": "Lioness Line: Service will resume later this morning.",
+      "resolved_at": "2026-09-12T04:44:07Z",
+      "severity": "Service Closed",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "other",
+      "duration_seconds": 14652,
+      "first_seen": "2026-09-12T00:39:55Z",
+      "issue_key": "metropolitan:text:4b366f757f8f5a28",
+      "line_id": "metropolitan",
+      "line_name": "Metropolitan",
+      "reason": "Metropolitan Line: Service will resume later this morning.",
+      "resolved_at": "2026-09-12T04:44:07Z",
+      "severity": "Service Closed",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "other",
+      "duration_seconds": 14652,
+      "first_seen": "2026-09-12T00:39:55Z",
+      "issue_key": "mildmay:text:43f3ca710bb3792b",
+      "line_id": "mildmay",
+      "line_name": "Mildmay",
+      "reason": "Mildmay Line: Service will resume later this morning.",
+      "resolved_at": "2026-09-12T04:44:07Z",
+      "severity": "Service Closed",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "track fault",
+      "duration_seconds": 16275,
+      "first_seen": "2026-09-12T00:12:52Z",
+      "issue_key": "northern:text:ecde348ae8886e61",
+      "line_id": "northern",
+      "line_name": "Northern",
+      "reason": "Northern Line: No service between Kennington and Morden and SEVERE DELAYS on the rest of the line while we fix a track fault at Balham. Tickets are being accepted on London Buses, London Trams, Southeastern, Thameslink and South Western Railway services.",
+      "resolved_at": "2026-09-12T04:44:07Z",
+      "severity": "Part Suspended",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "other",
+      "duration_seconds": 14652,
+      "first_seen": "2026-09-12T00:39:55Z",
+      "issue_key": "suffragette:text:774000467a2b26d3",
+      "line_id": "suffragette",
+      "line_name": "Suffragette",
+      "reason": "Suffragette Line: Service will resume later this morning.",
+      "resolved_at": "2026-09-12T04:44:07Z",
+      "severity": "Service Closed",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "other",
+      "duration_seconds": 14652,
+      "first_seen": "2026-09-12T00:39:55Z",
+      "issue_key": "tram:text:ab9d7a64f14b787b",
+      "line_id": "tram",
+      "line_name": "Tram",
+      "reason": "London Tramlink: Service will resume later this morning.",
+      "resolved_at": "2026-09-12T04:44:07Z",
+      "severity": "Service Closed",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "other",
+      "duration_seconds": 14652,
       "first_seen": "2026-09-12T00:39:55Z",
       "issue_key": "weaver:text:f2dc8c00c6757e13",
       "line_id": "weaver",
       "line_name": "Weaver",
       "reason": "Weaver Line: Service will resume later this morning.",
+      "resolved_at": "2026-09-12T04:44:07Z",
       "severity": "Service Closed",
       "source_created": "0001-01-01T00:00:00"
-    }
-  },
-  "history": [
+    },
     {
       "category": "other",
       "duration_seconds": 26991,
@@ -7929,6 +8027,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-09-12T00:39:55Z",
+  "updated_at": "2026-09-12T04:44:07Z",
   "version": 1
 }
