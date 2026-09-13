@@ -1,5 +1,25 @@
 {
   "active": {
+    "bakerloo:text:441236c7b38e407e": {
+      "category": "other",
+      "first_seen": "2026-09-13T10:23:31Z",
+      "issue_key": "bakerloo:text:441236c7b38e407e",
+      "line_id": "bakerloo",
+      "line_name": "Bakerloo",
+      "reason": "Bakerloo Line: Minor delays due to train cancellations.",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "central:text:6d0af7c9d44f714a": {
+      "category": "other",
+      "first_seen": "2026-09-13T10:23:31Z",
+      "issue_key": "central:text:6d0af7c9d44f714a",
+      "line_id": "central",
+      "line_name": "Central",
+      "reason": "Central Line: Minor delays due to train cancellations.",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
     "circle:text:3581c262a6a0a950": {
       "category": "other",
       "first_seen": "2026-09-12T04:44:07Z",
@@ -20,23 +40,23 @@
       "severity": "Part Closure",
       "source_created": "0001-01-01T00:00:00"
     },
-    "elizabeth:text:e4d96a3b1c34eccf": {
-      "category": "planned engineering",
-      "first_seen": "2026-09-13T05:19:31Z",
-      "issue_key": "elizabeth:text:e4d96a3b1c34eccf",
+    "elizabeth:text:f9854acad627f4b1": {
+      "category": "other",
+      "first_seen": "2026-09-13T10:23:31Z",
+      "issue_key": "elizabeth:text:f9854acad627f4b1",
       "line_id": "elizabeth",
       "line_name": "Elizabeth line",
-      "reason": "No service between Paddington and Heathrow until 07:15 due to emergency engineering work to fix damage to equipment caused by vandalism in the Paddington area. Tickets are being accepted on London Buses and the Piccadilly line via any reasonable route. GOOD SERVICE on the rest of the line.",
-      "severity": "Part Suspended",
+      "reason": "Severe delays between Paddington and Hayes & Harlington due to damage to equipment caused by vandalism in the Paddington area. MINOR DELAYS between Paddington and Heathrow. Tickets are being accepted on London Underground, London Buses, Great Western Railway and South Western Railway. GOOD SERVICE on the rest of the line.",
+      "severity": "Severe Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "lioness:text:714d357cebdcae7d": {
+    "metropolitan:text:caaa55a4535151ba": {
       "category": "other",
-      "first_seen": "2026-09-13T05:19:31Z",
-      "issue_key": "lioness:text:714d357cebdcae7d",
-      "line_id": "lioness",
-      "line_name": "Lioness",
-      "reason": "Lioness Line: Minor delays due to a sewage leak on the track at Watford High Street.",
+      "first_seen": "2026-09-13T10:23:31Z",
+      "issue_key": "metropolitan:text:caaa55a4535151ba",
+      "line_id": "metropolitan",
+      "line_name": "Metropolitan",
+      "reason": "Metropolitan Line: Minor delays whilst we fix a collapsed drain at Baker Street.",
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
@@ -69,19 +89,45 @@
       "reason": "Waterloo & City line: service operates 06:00 until 00:30, Monday to Friday only. There is no service on Saturdays, Sundays and on bank/public holidays.",
       "severity": "Planned Closure",
       "source_created": "0001-01-01T00:00:00"
+    }
+  },
+  "history": [
+    {
+      "category": "planned engineering",
+      "duration_seconds": 18240,
+      "first_seen": "2026-09-13T05:19:31Z",
+      "issue_key": "elizabeth:text:e4d96a3b1c34eccf",
+      "line_id": "elizabeth",
+      "line_name": "Elizabeth line",
+      "reason": "No service between Paddington and Heathrow until 07:15 due to emergency engineering work to fix damage to equipment caused by vandalism in the Paddington area. Tickets are being accepted on London Buses and the Piccadilly line via any reasonable route. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-09-13T10:23:31Z",
+      "severity": "Part Suspended",
+      "source_created": "0001-01-01T00:00:00"
     },
-    "windrush:text:ecf7693957b70f69": {
+    {
       "category": "other",
+      "duration_seconds": 18240,
+      "first_seen": "2026-09-13T05:19:31Z",
+      "issue_key": "lioness:text:714d357cebdcae7d",
+      "line_id": "lioness",
+      "line_name": "Lioness",
+      "reason": "Lioness Line: Minor delays due to a sewage leak on the track at Watford High Street.",
+      "resolved_at": "2026-09-13T10:23:31Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "other",
+      "duration_seconds": 18240,
       "first_seen": "2026-09-13T05:19:31Z",
       "issue_key": "windrush:text:ecf7693957b70f69",
       "line_id": "windrush",
       "line_name": "Windrush",
       "reason": "WINDRUSH LINE: Sunday 13 September, until 0900, no service between Wandsworth Road and Clapham Junction. Trains are diverted to/from Battersea Park for SOUTHERN connections to/from Clapham Junction.",
+      "resolved_at": "2026-09-13T10:23:31Z",
       "severity": "Part Closure",
       "source_created": "0001-01-01T00:00:00"
-    }
-  },
-  "history": [
+    },
     {
       "category": "other",
       "duration_seconds": 17532,
@@ -8663,6 +8709,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-09-13T06:04:57Z",
+  "updated_at": "2026-09-13T10:23:31Z",
   "version": 1
 }
