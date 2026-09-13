@@ -1,13 +1,23 @@
 {
   "active": {
-    "bakerloo:text:f5851041d43d36ff": {
-      "category": "fire alert",
-      "first_seen": "2026-09-12T15:53:01Z",
-      "issue_key": "bakerloo:text:f5851041d43d36ff",
+    "bakerloo:text:975c88cf69561d0c": {
+      "category": "other",
+      "first_seen": "2026-09-13T00:27:19Z",
+      "issue_key": "bakerloo:text:975c88cf69561d0c",
       "line_id": "bakerloo",
       "line_name": "Bakerloo",
-      "reason": "Bakerloo Line: Severe delays due to an earlier fire alert at Piccadilly Circus. Tickets being accepted on London Buses and Thameslink. For travel to / from Wembley Stadium, please use Wembley Park station.",
-      "severity": "Severe Delays",
+      "reason": "Bakerloo Line: Service will resume later this morning.",
+      "severity": "Service Closed",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "circle:text:0bb1242b9d48d6c4": {
+      "category": "planned engineering",
+      "first_seen": "2026-09-13T00:27:19Z",
+      "issue_key": "circle:text:0bb1242b9d48d6c4",
+      "line_id": "circle",
+      "line_name": "Circle",
+      "reason": "Circle Line: Service will resume later this morning, however there will be no service between Edgware Road and Aldgate via Victoria due to planned engineering work. GOOD SERVICE on the rest of the line.",
+      "severity": "Service Closed",
       "source_created": "0001-01-01T00:00:00"
     },
     "circle:text:3581c262a6a0a950": {
@@ -20,14 +30,14 @@
       "severity": "Part Closure",
       "source_created": "0001-01-01T00:00:00"
     },
-    "district:text:923ad7d033c6e899": {
-      "category": "points failure",
-      "first_seen": "2026-09-12T11:02:14Z",
-      "issue_key": "district:text:923ad7d033c6e899",
+    "district:text:b585e3470e1aba52": {
+      "category": "planned engineering",
+      "first_seen": "2026-09-13T00:27:19Z",
+      "issue_key": "district:text:b585e3470e1aba52",
       "line_id": "district",
       "line_name": "District",
-      "reason": "District Line: No service between Edgware Road and Tower Hill to Ealing Broadway / Kensington (Olympia) / Richmond / Wimbledon due to planned engineering work. NO SERVICE between Tower Hill and Whitechapel due to a points failure at Tower Hill. Tickets are being accepted on London Buses, Mildmay Line, Elizabeth line and C2C services. MINOR DELAYS on the rest of the line.",
-      "severity": "Part Suspended",
+      "reason": "District Line: Service will resume later this morning, however there will be no service between Edgware Road and Tower Hill to Ealing Broadway / Kensington (Olympia) / Richmond / Wimbledon due to planned engineering work.",
+      "severity": "Service Closed",
       "source_created": "0001-01-01T00:00:00"
     },
     "district:text:fada1ea308f257f6": {
@@ -40,68 +50,214 @@
       "severity": "Part Closure",
       "source_created": "0001-01-01T00:00:00"
     },
-    "elizabeth:text:98f5d32c6a3b4571": {
+    "dlr:text:fb244db083a3f0ff": {
       "category": "other",
+      "first_seen": "2026-09-13T00:27:19Z",
+      "issue_key": "dlr:text:fb244db083a3f0ff",
+      "line_id": "dlr",
+      "line_name": "DLR",
+      "reason": "Docklands Light Railway: Service will resume later this morning.",
+      "severity": "Service Closed",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "elizabeth:text:fc7d5e1e6d043190": {
+      "category": "other",
+      "first_seen": "2026-09-13T00:27:19Z",
+      "issue_key": "elizabeth:text:fc7d5e1e6d043190",
+      "line_id": "elizabeth",
+      "line_name": "Elizabeth line",
+      "reason": "Service will resume later this morning, however there will be no service between Paddington and Heathrow until 07:00 due to emergency works.",
+      "severity": "Service Closed",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "hammersmith-city:text:b560078b35a5fd17": {
+      "category": "other",
+      "first_seen": "2026-09-13T00:27:19Z",
+      "issue_key": "hammersmith-city:text:b560078b35a5fd17",
+      "line_id": "hammersmith-city",
+      "line_name": "Hammersmith & City",
+      "reason": "Hammersmith and City Line: Service will resume later this morning.",
+      "severity": "Service Closed",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "liberty:text:19134079f5c98ab7": {
+      "category": "other",
+      "first_seen": "2026-09-13T00:27:19Z",
+      "issue_key": "liberty:text:19134079f5c98ab7",
+      "line_id": "liberty",
+      "line_name": "Liberty",
+      "reason": "Liberty Line: Service will resume later this morning.",
+      "severity": "Service Closed",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "lioness:text:edb0d527df87ed16": {
+      "category": "other",
+      "first_seen": "2026-09-13T00:27:19Z",
+      "issue_key": "lioness:text:edb0d527df87ed16",
+      "line_id": "lioness",
+      "line_name": "Lioness",
+      "reason": "Lioness Line: Service will resume later this morning.",
+      "severity": "Service Closed",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "metropolitan:text:4b366f757f8f5a28": {
+      "category": "other",
+      "first_seen": "2026-09-13T00:27:19Z",
+      "issue_key": "metropolitan:text:4b366f757f8f5a28",
+      "line_id": "metropolitan",
+      "line_name": "Metropolitan",
+      "reason": "Metropolitan Line: Service will resume later this morning.",
+      "severity": "Service Closed",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "mildmay:text:8b8d8f53d9821fb6": {
+      "category": "planned engineering",
+      "first_seen": "2026-09-13T00:27:19Z",
+      "issue_key": "mildmay:text:8b8d8f53d9821fb6",
+      "line_id": "mildmay",
+      "line_name": "Mildmay",
+      "reason": "Mildmay Line: Service will resume later this morning, however there will be no service between Willesden Junction and Richmond due to planned engineering work.",
+      "severity": "Service Closed",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "suffragette:text:add9c4fa73228a10": {
+      "category": "planned engineering",
+      "first_seen": "2026-09-13T00:27:19Z",
+      "issue_key": "suffragette:text:add9c4fa73228a10",
+      "line_id": "suffragette",
+      "line_name": "Suffragette",
+      "reason": "Suffragette Line: There will be no service all day Sunday 13th September due to planned engineering work.",
+      "severity": "Service Closed",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "tram:text:ab9d7a64f14b787b": {
+      "category": "other",
+      "first_seen": "2026-09-13T00:27:19Z",
+      "issue_key": "tram:text:ab9d7a64f14b787b",
+      "line_id": "tram",
+      "line_name": "Tram",
+      "reason": "London Tramlink: Service will resume later this morning.",
+      "severity": "Service Closed",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "waterloo-city:text:1bbcac27f282d0db": {
+      "category": "other",
+      "first_seen": "2026-09-13T00:27:19Z",
+      "issue_key": "waterloo-city:text:1bbcac27f282d0db",
+      "line_id": "waterloo-city",
+      "line_name": "Waterloo & City",
+      "reason": "Waterloo and City Line: Service will resume at 06:00 on Monday.",
+      "severity": "Service Closed",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "weaver:text:f2dc8c00c6757e13": {
+      "category": "other",
+      "first_seen": "2026-09-13T00:27:19Z",
+      "issue_key": "weaver:text:f2dc8c00c6757e13",
+      "line_id": "weaver",
+      "line_name": "Weaver",
+      "reason": "Weaver Line: Service will resume later this morning.",
+      "severity": "Service Closed",
+      "source_created": "0001-01-01T00:00:00"
+    }
+  },
+  "history": [
+    {
+      "category": "fire alert",
+      "duration_seconds": 30858,
+      "first_seen": "2026-09-12T15:53:01Z",
+      "issue_key": "bakerloo:text:f5851041d43d36ff",
+      "line_id": "bakerloo",
+      "line_name": "Bakerloo",
+      "reason": "Bakerloo Line: Severe delays due to an earlier fire alert at Piccadilly Circus. Tickets being accepted on London Buses and Thameslink. For travel to / from Wembley Stadium, please use Wembley Park station.",
+      "resolved_at": "2026-09-13T00:27:19Z",
+      "severity": "Severe Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "points failure",
+      "duration_seconds": 48305,
+      "first_seen": "2026-09-12T11:02:14Z",
+      "issue_key": "district:text:923ad7d033c6e899",
+      "line_id": "district",
+      "line_name": "District",
+      "reason": "District Line: No service between Edgware Road and Tower Hill to Ealing Broadway / Kensington (Olympia) / Richmond / Wimbledon due to planned engineering work. NO SERVICE between Tower Hill and Whitechapel due to a points failure at Tower Hill. Tickets are being accepted on London Buses, Mildmay Line, Elizabeth line and C2C services. MINOR DELAYS on the rest of the line.",
+      "resolved_at": "2026-09-13T00:27:19Z",
+      "severity": "Part Suspended",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "other",
+      "duration_seconds": 56076,
       "first_seen": "2026-09-12T08:52:43Z",
       "issue_key": "elizabeth:text:98f5d32c6a3b4571",
       "line_id": "elizabeth",
       "line_name": "Elizabeth line",
       "reason": "Severe delays Hayes & Harlington and Reading due to vandalism to equipment in the Paddington area. MINOR DELAYS Paddington and Heathrow Terminal 4. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-09-13T00:27:19Z",
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "jubilee:text:57925a2ef9e26722": {
+    {
       "category": "other",
+      "duration_seconds": 13285,
       "first_seen": "2026-09-12T20:45:54Z",
       "issue_key": "jubilee:text:57925a2ef9e26722",
       "line_id": "jubilee",
       "line_name": "Jubilee",
       "reason": "Jubilee Line: Minor delays due to train cancellations.",
+      "resolved_at": "2026-09-13T00:27:19Z",
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "lioness:text:bda7866e81bb230f": {
+    {
       "category": "other",
+      "duration_seconds": 30858,
       "first_seen": "2026-09-12T15:53:01Z",
       "issue_key": "lioness:text:bda7866e81bb230f",
       "line_id": "lioness",
       "line_name": "Lioness",
       "reason": "Lioness Line: No service between Watford Junction and Willesden Junction due to a sewage leak on the track at Watford High Street. MINOR DELAYS on the rest of the line. London Underground is accepting tickets via reasonable route. For travel to / from Wembley Stadium, please use Wembley Park station.",
+      "resolved_at": "2026-09-13T00:27:19Z",
       "severity": "Part Suspended",
       "source_created": "0001-01-01T00:00:00"
     },
-    "piccadilly:text:cbceb9efe976a5fa": {
+    {
       "category": "signal failure",
+      "duration_seconds": 13285,
       "first_seen": "2026-09-12T20:45:54Z",
       "issue_key": "piccadilly:text:cbceb9efe976a5fa",
       "line_id": "piccadilly",
       "line_name": "Piccadilly",
       "reason": "Piccadilly Line: Severe delays while we fix a signal failure at Bounds Green. London Buses, Elizabeth line, Weaver line, Great Northern and South Western Railway services are accepting tickets via any reasonable route.",
+      "resolved_at": "2026-09-13T00:27:19Z",
       "severity": "Severe Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "waterloo-city:text:02da0890c7cbf303": {
+    {
       "category": "other",
+      "duration_seconds": 70992,
       "first_seen": "2026-09-12T04:44:07Z",
       "issue_key": "waterloo-city:text:02da0890c7cbf303",
       "line_id": "waterloo-city",
       "line_name": "Waterloo & City",
       "reason": "Waterloo & City line: service operates 06:00 until 00:30, Monday to Friday only. There is no service on Saturdays, Sundays and on bank/public holidays.",
+      "resolved_at": "2026-09-13T00:27:19Z",
       "severity": "Planned Closure",
       "source_created": "0001-01-01T00:00:00"
     },
-    "windrush:text:8a5ed5fb52c180eb": {
+    {
       "category": "person on track",
+      "duration_seconds": 6511,
       "first_seen": "2026-09-12T22:38:48Z",
       "issue_key": "windrush:text:8a5ed5fb52c180eb",
       "line_id": "windrush",
       "line_name": "Windrush",
       "reason": "Windrush Line: Minor delays between Surrey Quays and Clapham Junction while we deal with a trespasser on the track at Denmark Hill. MINOR DELAYS between Surrey Quays and New Cross due to train cancellations. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-09-13T00:27:19Z",
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
-    }
-  },
-  "history": [
+    },
     {
       "category": "other",
       "duration_seconds": 7588,
@@ -8419,6 +8575,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-09-12T22:52:22Z",
+  "updated_at": "2026-09-13T00:27:19Z",
   "version": 1
 }
