@@ -30,6 +30,16 @@
       "severity": "Part Closure",
       "source_created": "0001-01-01T00:00:00"
     },
+    "district:text:d19af9081e670ec2": {
+      "category": "points failure",
+      "first_seen": "2026-09-13T14:36:51Z",
+      "issue_key": "district:text:d19af9081e670ec2",
+      "line_id": "district",
+      "line_name": "District",
+      "reason": "District Line: No service between Edgware Road / Tower Hill and Ealing Broadway / Kensington (Olympia) / Richmond / Wimbledon due to planned engineering work. SEVERE DELAYS on the rest of the line due to an earlier points fault at Tower Hill. London Underground tickets will be accepted on London buses.",
+      "severity": "Severe Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
     "district:text:fada1ea308f257f6": {
       "category": "other",
       "first_seen": "2026-09-12T04:44:07Z",
@@ -40,13 +50,23 @@
       "severity": "Part Closure",
       "source_created": "0001-01-01T00:00:00"
     },
-    "elizabeth:text:f9854acad627f4b1": {
+    "elizabeth:text:624135604c66a7a8": {
       "category": "other",
-      "first_seen": "2026-09-13T10:23:31Z",
-      "issue_key": "elizabeth:text:f9854acad627f4b1",
+      "first_seen": "2026-09-13T14:36:51Z",
+      "issue_key": "elizabeth:text:624135604c66a7a8",
       "line_id": "elizabeth",
       "line_name": "Elizabeth line",
-      "reason": "Severe delays between Paddington and Hayes & Harlington due to damage to equipment caused by vandalism in the Paddington area. MINOR DELAYS between Paddington and Heathrow. Tickets are being accepted on London Underground, London Buses, Great Western Railway and South Western Railway. GOOD SERVICE on the rest of the line.",
+      "reason": "Severe delays between Hayes & Harlington and Reading due to damage to equipment caused by vandalism in the Paddington area. MINOR DELAYS between Paddington and Heathrow Terminal 4. Tickets are being accepted on London Underground, London Buses, Great Western Railway and South Western Railway. GOOD SERVICE on the rest of the line.",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "hammersmith-city:text:40565dafa54a0aed": {
+      "category": "points failure",
+      "first_seen": "2026-09-13T14:36:51Z",
+      "issue_key": "hammersmith-city:text:40565dafa54a0aed",
+      "line_id": "hammersmith-city",
+      "line_name": "Hammersmith & City",
+      "reason": "Hammersmith and City Line: Severe delays due to a points failure at Tower Hill. Tickets are being accepted on London Buses, Elizabeth line, DLR and C2C services.",
       "severity": "Severe Delays",
       "source_created": "0001-01-01T00:00:00"
     },
@@ -82,6 +102,18 @@
     }
   },
   "history": [
+    {
+      "category": "other",
+      "duration_seconds": 15200,
+      "first_seen": "2026-09-13T10:23:31Z",
+      "issue_key": "elizabeth:text:f9854acad627f4b1",
+      "line_id": "elizabeth",
+      "line_name": "Elizabeth line",
+      "reason": "Severe delays between Paddington and Hayes & Harlington due to damage to equipment caused by vandalism in the Paddington area. MINOR DELAYS between Paddington and Heathrow. Tickets are being accepted on London Underground, London Buses, Great Western Railway and South Western Railway. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-09-13T14:36:51Z",
+      "severity": "Severe Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
     {
       "category": "other",
       "duration_seconds": 4708,
@@ -8723,6 +8755,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-09-13T11:41:59Z",
+  "updated_at": "2026-09-13T14:36:51Z",
   "version": 1
 }
