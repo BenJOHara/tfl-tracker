@@ -10,13 +10,13 @@
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "central:text:6d0af7c9d44f714a": {
+    "central:text:a66c873aed771360": {
       "category": "other",
-      "first_seen": "2026-09-13T10:23:31Z",
-      "issue_key": "central:text:6d0af7c9d44f714a",
+      "first_seen": "2026-09-13T11:41:59Z",
+      "issue_key": "central:text:a66c873aed771360",
       "line_id": "central",
       "line_name": "Central",
-      "reason": "Central Line: Minor delays due to train cancellations.",
+      "reason": "Central Line: Severe delays between White City and Ealing Broadway/West Ruislip and between Leytonstone and Epping/Woodford via Hainault due to train cancellations. MINOR DELAYS on the rest of the line.Tickets will be accepted on London buses.",
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
@@ -48,16 +48,6 @@
       "line_name": "Elizabeth line",
       "reason": "Severe delays between Paddington and Hayes & Harlington due to damage to equipment caused by vandalism in the Paddington area. MINOR DELAYS between Paddington and Heathrow. Tickets are being accepted on London Underground, London Buses, Great Western Railway and South Western Railway. GOOD SERVICE on the rest of the line.",
       "severity": "Severe Delays",
-      "source_created": "0001-01-01T00:00:00"
-    },
-    "metropolitan:text:caaa55a4535151ba": {
-      "category": "other",
-      "first_seen": "2026-09-13T10:23:31Z",
-      "issue_key": "metropolitan:text:caaa55a4535151ba",
-      "line_id": "metropolitan",
-      "line_name": "Metropolitan",
-      "reason": "Metropolitan Line: Minor delays whilst we fix a collapsed drain at Baker Street.",
-      "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
     "mildmay:text:3d412b85d47315bd": {
@@ -92,6 +82,30 @@
     }
   },
   "history": [
+    {
+      "category": "other",
+      "duration_seconds": 4708,
+      "first_seen": "2026-09-13T10:23:31Z",
+      "issue_key": "central:text:6d0af7c9d44f714a",
+      "line_id": "central",
+      "line_name": "Central",
+      "reason": "Central Line: Minor delays due to train cancellations.",
+      "resolved_at": "2026-09-13T11:41:59Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "other",
+      "duration_seconds": 4708,
+      "first_seen": "2026-09-13T10:23:31Z",
+      "issue_key": "metropolitan:text:caaa55a4535151ba",
+      "line_id": "metropolitan",
+      "line_name": "Metropolitan",
+      "reason": "Metropolitan Line: Minor delays whilst we fix a collapsed drain at Baker Street.",
+      "resolved_at": "2026-09-13T11:41:59Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
     {
       "category": "planned engineering",
       "duration_seconds": 18240,
@@ -8709,6 +8723,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-09-13T10:23:31Z",
+  "updated_at": "2026-09-13T11:41:59Z",
   "version": 1
 }
