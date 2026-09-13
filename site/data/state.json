@@ -26,7 +26,7 @@
       "issue_key": "elizabeth:text:e4d96a3b1c34eccf",
       "line_id": "elizabeth",
       "line_name": "Elizabeth line",
-      "reason": "No service between Paddington and Heathrow until 07:00 due to emergency engineering work to fix damage to equipment caused by vandalism in the Paddington area. Tickets are being accepted on London Buses and the Piccadilly line via any reasonable route. GOOD SERVICE on the rest of the line.",
+      "reason": "No service between Paddington and Heathrow until 07:15 due to emergency engineering work to fix damage to equipment caused by vandalism in the Paddington area. Tickets are being accepted on London Buses and the Piccadilly line via any reasonable route. GOOD SERVICE on the rest of the line.",
       "severity": "Part Suspended",
       "source_created": "0001-01-01T00:00:00"
     },
@@ -8663,6 +8663,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-09-13T05:19:31Z",
+  "updated_at": "2026-09-13T06:04:57Z",
   "version": 1
 }
