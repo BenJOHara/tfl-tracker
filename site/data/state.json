@@ -30,14 +30,14 @@
       "severity": "Part Closure",
       "source_created": "0001-01-01T00:00:00"
     },
-    "district:text:d19af9081e670ec2": {
+    "district:text:b3b4088caa04c075": {
       "category": "points failure",
-      "first_seen": "2026-09-13T14:36:51Z",
-      "issue_key": "district:text:d19af9081e670ec2",
+      "first_seen": "2026-09-13T15:02:15Z",
+      "issue_key": "district:text:b3b4088caa04c075",
       "line_id": "district",
       "line_name": "District",
-      "reason": "District Line: No service between Edgware Road / Tower Hill and Ealing Broadway / Kensington (Olympia) / Richmond / Wimbledon due to planned engineering work. SEVERE DELAYS on the rest of the line due to an earlier points fault at Tower Hill. London Underground tickets will be accepted on London buses.",
-      "severity": "Severe Delays",
+      "reason": "District Line: No service between Edgware Road / Tower Hill and Ealing Broadway / Kensington (Olympia) / Richmond / Wimbledon due to planned engineering work. NO SERVICE between Tower Hill and Whitechapel due to a points failure at Tower Hill. London Underground tickets will be accepted on London buses. SEVERE DELAYS on the rest of the line.",
+      "severity": "Part Suspended",
       "source_created": "0001-01-01T00:00:00"
     },
     "district:text:fada1ea308f257f6": {
@@ -102,6 +102,18 @@
     }
   },
   "history": [
+    {
+      "category": "points failure",
+      "duration_seconds": 1524,
+      "first_seen": "2026-09-13T14:36:51Z",
+      "issue_key": "district:text:d19af9081e670ec2",
+      "line_id": "district",
+      "line_name": "District",
+      "reason": "District Line: No service between Edgware Road / Tower Hill and Ealing Broadway / Kensington (Olympia) / Richmond / Wimbledon due to planned engineering work. SEVERE DELAYS on the rest of the line due to an earlier points fault at Tower Hill. London Underground tickets will be accepted on London buses.",
+      "resolved_at": "2026-09-13T15:02:15Z",
+      "severity": "Severe Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
     {
       "category": "other",
       "duration_seconds": 15200,
@@ -8755,6 +8767,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-09-13T14:36:51Z",
+  "updated_at": "2026-09-13T15:02:15Z",
   "version": 1
 }
