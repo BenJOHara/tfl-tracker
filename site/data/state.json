@@ -50,6 +50,16 @@
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
+    "lioness:text:d2ca6c9022169d99": {
+      "category": "other",
+      "first_seen": "2026-09-13T19:49:40Z",
+      "issue_key": "lioness:text:d2ca6c9022169d99",
+      "line_id": "lioness",
+      "line_name": "Lioness",
+      "reason": "Lioness Line: No service between Willesden Junction and Watford Junction due to a sewage leak on the track at Watford High Street. MINOR DELAYS on the rest of the line. London Underground are accepting tickets via any reasonable route.",
+      "severity": "Part Suspended",
+      "source_created": "0001-01-01T00:00:00"
+    },
     "mildmay:text:3d412b85d47315bd": {
       "category": "other",
       "first_seen": "2026-09-13T05:19:31Z",
@@ -60,14 +70,14 @@
       "severity": "Part Closure",
       "source_created": "0001-01-01T00:00:00"
     },
-    "piccadilly:text:e52f6c3f741feea6": {
+    "piccadilly:text:f3716bf4fa605226": {
       "category": "signal failure",
-      "first_seen": "2026-09-13T18:07:11Z",
-      "issue_key": "piccadilly:text:e52f6c3f741feea6",
+      "first_seen": "2026-09-13T19:49:40Z",
+      "issue_key": "piccadilly:text:f3716bf4fa605226",
       "line_id": "piccadilly",
       "line_name": "Piccadilly",
-      "reason": "Piccadilly Line: No service between Hounslow central and Heathrow Terminals and SEVERE DELAYS between Acton Town and Hounslow Central while we fix a signal failure at Hatton Cross. Tickets are being accepted on London Buses, Elizabeth line and South Western Railway services. GOOD SERVICE on the rest of the line.",
-      "severity": "Part Suspended",
+      "reason": "Piccadilly Line: Severe delays between Acton Town and Heathrow Terminals due to an earlier signal failure at Hatton Cross and SEVERE DELAYS between Acton Town and Cockfosters westbound only due to an earlier faulty train at Hyde Park Corner. Tickets are being accepted on London Buses, Elizabeth line and South Western Railway services. GOOD SERVICE on the rest of the line.",
+      "severity": "Severe Delays",
       "source_created": "0001-01-01T00:00:00"
     },
     "suffragette:text:9bf02f9d01a13b94": {
@@ -92,6 +102,18 @@
     }
   },
   "history": [
+    {
+      "category": "signal failure",
+      "duration_seconds": 6149,
+      "first_seen": "2026-09-13T18:07:11Z",
+      "issue_key": "piccadilly:text:e52f6c3f741feea6",
+      "line_id": "piccadilly",
+      "line_name": "Piccadilly",
+      "reason": "Piccadilly Line: No service between Hounslow central and Heathrow Terminals and SEVERE DELAYS between Acton Town and Hounslow Central while we fix a signal failure at Hatton Cross. Tickets are being accepted on London Buses, Elizabeth line and South Western Railway services. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-09-13T19:49:40Z",
+      "severity": "Part Suspended",
+      "source_created": "0001-01-01T00:00:00"
+    },
     {
       "category": "signal failure",
       "duration_seconds": 1582,
@@ -8805,6 +8827,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-09-13T18:07:11Z",
+  "updated_at": "2026-09-13T19:49:40Z",
   "version": 1
 }
