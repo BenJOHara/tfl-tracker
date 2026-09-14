@@ -9,6 +9,26 @@
       "reason": "Central Line: Minor delays due to train cancellations.",
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
+    },
+    "hammersmith-city:text:004129bf5e441754": {
+      "category": "other",
+      "first_seen": "2026-09-14T20:54:34Z",
+      "issue_key": "hammersmith-city:text:004129bf5e441754",
+      "line_id": "hammersmith-city",
+      "line_name": "Hammersmith & City",
+      "reason": "Hammersmith and City Line: Minor delays due to train cancellations.",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "mildmay:text:f3bf22a0e57123c6": {
+      "category": "other",
+      "first_seen": "2026-09-14T20:54:34Z",
+      "issue_key": "mildmay:text:f3bf22a0e57123c6",
+      "line_id": "mildmay",
+      "line_name": "Mildmay",
+      "reason": "MILDMAY LINE: Monday 14 and Tuesday 15 September, the 2147 Clapham Junction to Stratford train will not run. The 2203 and 2234 Clapham Junction to Stratford trains terminate at Willesden Junction. The 2148 and 2249 trains from Richmond to Stratford will terminate at Willesden Junction.The 2300 train from Stratford to Richmond will not run",
+      "severity": "Reduced Service",
+      "source_created": "0001-01-01T00:00:00"
     }
   },
   "history": [
@@ -9253,6 +9273,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-09-14T20:25:12Z",
+  "updated_at": "2026-09-14T20:54:34Z",
   "version": 1
 }
