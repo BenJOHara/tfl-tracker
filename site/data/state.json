@@ -20,13 +20,13 @@
       "severity": "Part Suspended",
       "source_created": "0001-01-01T00:00:00"
     },
-    "piccadilly:text:3bc90e25387d90f2": {
+    "piccadilly:text:359f4a31408bf8ad": {
       "category": "signal failure",
-      "first_seen": "2026-09-14T10:23:05Z",
-      "issue_key": "piccadilly:text:3bc90e25387d90f2",
+      "first_seen": "2026-09-14T10:35:39Z",
+      "issue_key": "piccadilly:text:359f4a31408bf8ad",
       "line_id": "piccadilly",
       "line_name": "Piccadilly",
-      "reason": "Piccadilly Line: No service between Hyde Park Corner and Cockfosters eastbound only while we fix a signal failure at Bounds Green. London Buses are accepting tickets via any reasonable route. SEVERE DELAYS on the rest of the line.",
+      "reason": "Piccadilly Line: No service between Hyde Park Corner and Cockfosters eastbound only while we fix a signal failure at Bounds Green. London Buses, Great Northern, London Overground and South Western Railway are accepting tickets via any reasonable route. SEVERE DELAYS on the rest of the line.",
       "severity": "Part Suspended",
       "source_created": "0001-01-01T00:00:00"
     },
@@ -42,6 +42,18 @@
     }
   },
   "history": [
+    {
+      "category": "signal failure",
+      "duration_seconds": 754,
+      "first_seen": "2026-09-14T10:23:05Z",
+      "issue_key": "piccadilly:text:3bc90e25387d90f2",
+      "line_id": "piccadilly",
+      "line_name": "Piccadilly",
+      "reason": "Piccadilly Line: No service between Hyde Park Corner and Cockfosters eastbound only while we fix a signal failure at Bounds Green. London Buses are accepting tickets via any reasonable route. SEVERE DELAYS on the rest of the line.",
+      "resolved_at": "2026-09-14T10:35:39Z",
+      "severity": "Part Suspended",
+      "source_created": "0001-01-01T00:00:00"
+    },
     {
       "category": "other",
       "duration_seconds": 19512,
@@ -9199,6 +9211,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-09-14T10:23:05Z",
+  "updated_at": "2026-09-14T10:35:39Z",
   "version": 1
 }
