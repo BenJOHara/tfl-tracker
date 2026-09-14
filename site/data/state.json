@@ -30,6 +30,16 @@
       "severity": "Part Closure",
       "source_created": "0001-01-01T00:00:00"
     },
+    "waterloo-city:text:0faebd0ea99ebd1b": {
+      "category": "other",
+      "first_seen": "2026-09-14T23:50:12Z",
+      "issue_key": "waterloo-city:text:0faebd0ea99ebd1b",
+      "line_id": "waterloo-city",
+      "line_name": "Waterloo & City",
+      "reason": "Waterloo and City Line: Service will resume at 06:00.",
+      "severity": "Service Closed",
+      "source_created": "0001-01-01T00:00:00"
+    },
     "windrush:text:24d1bf44592d3d93": {
       "category": "other",
       "first_seen": "2026-09-14T23:18:57Z",
@@ -9307,6 +9317,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-09-14T23:18:57Z",
+  "updated_at": "2026-09-14T23:50:12Z",
   "version": 1
 }
