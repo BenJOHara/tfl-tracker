@@ -1,47 +1,95 @@
 {
   "active": {
-    "circle:text:bf9bb7504db7ea4d": {
+    "central:text:2b31a3b98c682086": {
+      "category": "passenger incident",
+      "first_seen": "2026-09-14T10:23:05Z",
+      "issue_key": "central:text:2b31a3b98c682086",
+      "line_id": "central",
+      "line_name": "Central",
+      "reason": "Central Line: Minor delays between White City and Ealing Broadway/West Ruislip westbound only due to an earlier customer incident. GOOD SERVICE on the rest of the line.",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "elizabeth:text:e4358ec67ed7db56": {
+      "category": "train fault",
+      "first_seen": "2026-09-14T10:23:05Z",
+      "issue_key": "elizabeth:text:e4358ec67ed7db56",
+      "line_id": "elizabeth",
+      "line_name": "Elizabeth line",
+      "reason": "No service between Maidenhead and Reading while emergency services deal with a casualty on the track. MINOR DELAYS between Paddington and Heathrow Terminals/Maidenhead while we fix a faulty train at Paddington. GOOD SERVICE on the rest of the line.",
+      "severity": "Part Suspended",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "piccadilly:text:3bc90e25387d90f2": {
+      "category": "signal failure",
+      "first_seen": "2026-09-14T10:23:05Z",
+      "issue_key": "piccadilly:text:3bc90e25387d90f2",
+      "line_id": "piccadilly",
+      "line_name": "Piccadilly",
+      "reason": "Piccadilly Line: No service between Hyde Park Corner and Cockfosters eastbound only while we fix a signal failure at Bounds Green. London Buses are accepting tickets via any reasonable route. SEVERE DELAYS on the rest of the line.",
+      "severity": "Part Suspended",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "suffragette:text:d3ca3c5c4482c600": {
+      "category": "points failure",
+      "first_seen": "2026-09-14T10:23:05Z",
+      "issue_key": "suffragette:text:d3ca3c5c4482c600",
+      "line_id": "suffragette",
+      "line_name": "Suffragette",
+      "reason": "Suffragette Line: No service between Gospel Oak and Upper Holloway while we fix a points failure at Upper Holloway. GOOD SERVICE on the rest of the line.",
+      "severity": "Part Suspended",
+      "source_created": "0001-01-01T00:00:00"
+    }
+  },
+  "history": [
+    {
       "category": "other",
+      "duration_seconds": 19512,
       "first_seen": "2026-09-14T04:57:53Z",
       "issue_key": "circle:text:bf9bb7504db7ea4d",
       "line_id": "circle",
       "line_name": "Circle",
       "reason": "Circle Line: Minor delays due to train cancellations.",
+      "resolved_at": "2026-09-14T10:23:05Z",
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "district:text:9c09d477e2a85811": {
+    {
       "category": "other",
+      "duration_seconds": 19512,
       "first_seen": "2026-09-14T04:57:53Z",
       "issue_key": "district:text:9c09d477e2a85811",
       "line_id": "district",
       "line_name": "District",
       "reason": "District Line: Minor delays due to train cancellations.",
+      "resolved_at": "2026-09-14T10:23:05Z",
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "mildmay:text:9ae4c7d8035430ea": {
+    {
       "category": "other",
+      "duration_seconds": 17978,
       "first_seen": "2026-09-14T05:23:27Z",
       "issue_key": "mildmay:text:9ae4c7d8035430ea",
       "line_id": "mildmay",
       "line_name": "Mildmay",
       "reason": "MILDMAY LINE: Monday 14 September, the 0621 train from Richmond to Stratford will start from Highbury & Islington at 0706",
+      "resolved_at": "2026-09-14T10:23:05Z",
       "severity": "Reduced Service",
       "source_created": "0001-01-01T00:00:00"
     },
-    "mildmay:text:b8fadd5f12d15bb3": {
+    {
       "category": "other",
+      "duration_seconds": 19512,
       "first_seen": "2026-09-14T04:57:53Z",
       "issue_key": "mildmay:text:b8fadd5f12d15bb3",
       "line_id": "mildmay",
       "line_name": "Mildmay",
       "reason": "MILDMAY LINE: Monday 14, Tuesday 15 and Wednesday 16 September, the 0558 first train from Richmond to Stratford will start from Highbury & Islington at 0642. Customers from Richmond should use the next train at 0608.",
+      "resolved_at": "2026-09-14T10:23:05Z",
       "severity": "Reduced Service",
       "source_created": "0001-01-01T00:00:00"
-    }
-  },
-  "history": [
+    },
     {
       "category": "other",
       "duration_seconds": 17126,
@@ -9151,6 +9199,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-09-14T05:23:27Z",
+  "updated_at": "2026-09-14T10:23:05Z",
   "version": 1
 }
