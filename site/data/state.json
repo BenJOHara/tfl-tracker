@@ -1,15 +1,5 @@
 {
   "active": {
-    "central:text:2b31a3b98c682086": {
-      "category": "passenger incident",
-      "first_seen": "2026-09-14T10:23:05Z",
-      "issue_key": "central:text:2b31a3b98c682086",
-      "line_id": "central",
-      "line_name": "Central",
-      "reason": "Central Line: Minor delays between White City and Ealing Broadway/West Ruislip westbound only due to an earlier customer incident. GOOD SERVICE on the rest of the line.",
-      "severity": "Minor Delays",
-      "source_created": "0001-01-01T00:00:00"
-    },
     "elizabeth:text:e4358ec67ed7db56": {
       "category": "train fault",
       "first_seen": "2026-09-14T10:23:05Z",
@@ -20,28 +10,54 @@
       "severity": "Part Suspended",
       "source_created": "0001-01-01T00:00:00"
     },
-    "piccadilly:text:359f4a31408bf8ad": {
+    "piccadilly:text:b1f1600211f72869": {
       "category": "signal failure",
+      "first_seen": "2026-09-14T10:56:32Z",
+      "issue_key": "piccadilly:text:b1f1600211f72869",
+      "line_id": "piccadilly",
+      "line_name": "Piccadilly",
+      "reason": "Piccadilly Line: Severe delays due to an earlier signal failure at Bounds Green. London Buses, Great Northern, London Overground and South Western Railway are accepting tickets via any reasonable route.",
+      "severity": "Severe Delays",
+      "source_created": "0001-01-01T00:00:00"
+    }
+  },
+  "history": [
+    {
+      "category": "passenger incident",
+      "duration_seconds": 2007,
+      "first_seen": "2026-09-14T10:23:05Z",
+      "issue_key": "central:text:2b31a3b98c682086",
+      "line_id": "central",
+      "line_name": "Central",
+      "reason": "Central Line: Minor delays between White City and Ealing Broadway/West Ruislip westbound only due to an earlier customer incident. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-09-14T10:56:32Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "signal failure",
+      "duration_seconds": 1253,
       "first_seen": "2026-09-14T10:35:39Z",
       "issue_key": "piccadilly:text:359f4a31408bf8ad",
       "line_id": "piccadilly",
       "line_name": "Piccadilly",
       "reason": "Piccadilly Line: No service between Hyde Park Corner and Cockfosters eastbound only while we fix a signal failure at Bounds Green. London Buses, Great Northern, London Overground and South Western Railway are accepting tickets via any reasonable route. SEVERE DELAYS on the rest of the line.",
+      "resolved_at": "2026-09-14T10:56:32Z",
       "severity": "Part Suspended",
       "source_created": "0001-01-01T00:00:00"
     },
-    "suffragette:text:d3ca3c5c4482c600": {
+    {
       "category": "points failure",
+      "duration_seconds": 2007,
       "first_seen": "2026-09-14T10:23:05Z",
       "issue_key": "suffragette:text:d3ca3c5c4482c600",
       "line_id": "suffragette",
       "line_name": "Suffragette",
       "reason": "Suffragette Line: No service between Gospel Oak and Upper Holloway while we fix a points failure at Upper Holloway. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-09-14T10:56:32Z",
       "severity": "Part Suspended",
       "source_created": "0001-01-01T00:00:00"
-    }
-  },
-  "history": [
+    },
     {
       "category": "signal failure",
       "duration_seconds": 754,
@@ -9211,6 +9227,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-09-14T10:35:39Z",
+  "updated_at": "2026-09-14T10:56:32Z",
   "version": 1
 }
