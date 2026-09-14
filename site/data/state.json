@@ -20,6 +20,16 @@
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
+    "mildmay:text:9ae4c7d8035430ea": {
+      "category": "other",
+      "first_seen": "2026-09-14T05:23:27Z",
+      "issue_key": "mildmay:text:9ae4c7d8035430ea",
+      "line_id": "mildmay",
+      "line_name": "Mildmay",
+      "reason": "MILDMAY LINE: Monday 14 September, the 0621 train from Richmond to Stratford will start from Highbury & Islington at 0706",
+      "severity": "Reduced Service",
+      "source_created": "0001-01-01T00:00:00"
+    },
     "mildmay:text:b8fadd5f12d15bb3": {
       "category": "other",
       "first_seen": "2026-09-14T04:57:53Z",
@@ -9141,6 +9151,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-09-14T04:57:53Z",
+  "updated_at": "2026-09-14T05:23:27Z",
   "version": 1
 }
