@@ -1,13 +1,23 @@
 {
   "active": {
-    "elizabeth:text:e4358ec67ed7db56": {
-      "category": "train fault",
-      "first_seen": "2026-09-14T10:23:05Z",
-      "issue_key": "elizabeth:text:e4358ec67ed7db56",
-      "line_id": "elizabeth",
-      "line_name": "Elizabeth line",
-      "reason": "No service between Maidenhead and Reading while emergency services deal with a casualty on the track. MINOR DELAYS between Paddington and Heathrow Terminals/Maidenhead while we fix a faulty train at Paddington. GOOD SERVICE on the rest of the line.",
-      "severity": "Part Suspended",
+    "central:text:6d0af7c9d44f714a": {
+      "category": "other",
+      "first_seen": "2026-09-14T16:27:36Z",
+      "issue_key": "central:text:6d0af7c9d44f714a",
+      "line_id": "central",
+      "line_name": "Central",
+      "reason": "Central Line: Minor delays due to train cancellations.",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "district:text:34b0d07ae2d9f16f": {
+      "category": "other",
+      "first_seen": "2026-09-14T16:27:36Z",
+      "issue_key": "district:text:34b0d07ae2d9f16f",
+      "line_id": "district",
+      "line_name": "District",
+      "reason": "District Line: Severe delays between Earl's Court and Ealing Broadway / Richmond due to an earlier person ill on a train. GOOD SERVICE on the rest of the line.",
+      "severity": "Severe Delays",
       "source_created": "0001-01-01T00:00:00"
     },
     "piccadilly:text:b1f1600211f72869": {
@@ -22,6 +32,18 @@
     }
   },
   "history": [
+    {
+      "category": "train fault",
+      "duration_seconds": 21871,
+      "first_seen": "2026-09-14T10:23:05Z",
+      "issue_key": "elizabeth:text:e4358ec67ed7db56",
+      "line_id": "elizabeth",
+      "line_name": "Elizabeth line",
+      "reason": "No service between Maidenhead and Reading while emergency services deal with a casualty on the track. MINOR DELAYS between Paddington and Heathrow Terminals/Maidenhead while we fix a faulty train at Paddington. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-09-14T16:27:36Z",
+      "severity": "Part Suspended",
+      "source_created": "0001-01-01T00:00:00"
+    },
     {
       "category": "passenger incident",
       "duration_seconds": 2007,
@@ -9227,6 +9249,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-09-14T10:56:32Z",
+  "updated_at": "2026-09-14T16:27:36Z",
   "version": 1
 }
