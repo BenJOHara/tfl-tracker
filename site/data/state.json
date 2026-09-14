@@ -9,29 +9,33 @@
       "reason": "Central Line: Minor delays due to train cancellations.",
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
-    },
-    "district:text:34b0d07ae2d9f16f": {
+    }
+  },
+  "history": [
+    {
       "category": "other",
+      "duration_seconds": 14256,
       "first_seen": "2026-09-14T16:27:36Z",
       "issue_key": "district:text:34b0d07ae2d9f16f",
       "line_id": "district",
       "line_name": "District",
       "reason": "District Line: Severe delays between Earl's Court and Ealing Broadway / Richmond due to an earlier person ill on a train. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-09-14T20:25:12Z",
       "severity": "Severe Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "piccadilly:text:b1f1600211f72869": {
+    {
       "category": "signal failure",
+      "duration_seconds": 34120,
       "first_seen": "2026-09-14T10:56:32Z",
       "issue_key": "piccadilly:text:b1f1600211f72869",
       "line_id": "piccadilly",
       "line_name": "Piccadilly",
       "reason": "Piccadilly Line: Severe delays due to an earlier signal failure at Bounds Green. London Buses, Great Northern, London Overground and South Western Railway are accepting tickets via any reasonable route.",
+      "resolved_at": "2026-09-14T20:25:12Z",
       "severity": "Severe Delays",
       "source_created": "0001-01-01T00:00:00"
-    }
-  },
-  "history": [
+    },
     {
       "category": "train fault",
       "duration_seconds": 21871,
@@ -9249,6 +9253,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-09-14T16:27:36Z",
+  "updated_at": "2026-09-14T20:25:12Z",
   "version": 1
 }
