@@ -1,15 +1,5 @@
 {
   "active": {
-    "bakerloo:text:286f55992d204fb5": {
-      "category": "signal failure",
-      "first_seen": "2026-09-15T17:39:04Z",
-      "issue_key": "bakerloo:text:286f55992d204fb5",
-      "line_id": "bakerloo",
-      "line_name": "Bakerloo",
-      "reason": "Bakerloo Line: Minor delays while we fix a signal failure at Charing Cross and an earlier track fault at Harrow & Wealdstone.",
-      "severity": "Minor Delays",
-      "source_created": "0001-01-01T00:00:00"
-    },
     "central:text:020d30c610b1255e": {
       "category": "other",
       "first_seen": "2026-09-15T17:39:04Z",
@@ -20,28 +10,54 @@
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "elizabeth:text:45f5f64a20bd8174": {
+    "piccadilly:text:ca9a0efae2a4d30b": {
       "category": "train fault",
-      "first_seen": "2026-09-15T17:00:52Z",
-      "issue_key": "elizabeth:text:45f5f64a20bd8174",
-      "line_id": "elizabeth",
-      "line_name": "Elizabeth line",
-      "reason": "Minor delays between Whitechapel and Shenfield due to a earlier faulty train at Gidea Park. GOOD service on the rest of the line.",
-      "severity": "Minor Delays",
-      "source_created": "0001-01-01T00:00:00"
-    },
-    "piccadilly:text:7e4351a2379b4084": {
-      "category": "signal failure",
-      "first_seen": "2026-09-15T16:51:43Z",
-      "issue_key": "piccadilly:text:7e4351a2379b4084",
+      "first_seen": "2026-09-15T19:52:21Z",
+      "issue_key": "piccadilly:text:ca9a0efae2a4d30b",
       "line_id": "piccadilly",
       "line_name": "Piccadilly",
-      "reason": "Piccadilly Line: Severe delays between Acton Town and Uxbridge / Heathrow Terminals, and MINOR DELAYS on the rest of the line due to an earlier signal failure at Turnpike Lane. Tickets are being accepted on the Elizabeth line and London Buses via any reasonable route.",
+      "reason": "Piccadilly Line: Severe delays Acton Town to Uxbridge/Heathrow terminals, and MINOR DELAYS between Acton Town and Cockfosters due to an earlier faulty train at Oakwood. Tickets are being accepted on the Elizabeth line, Weaver line, South Western Railway and London Buses via any reasonable route.",
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     }
   },
   "history": [
+    {
+      "category": "signal failure",
+      "duration_seconds": 7997,
+      "first_seen": "2026-09-15T17:39:04Z",
+      "issue_key": "bakerloo:text:286f55992d204fb5",
+      "line_id": "bakerloo",
+      "line_name": "Bakerloo",
+      "reason": "Bakerloo Line: Minor delays while we fix a signal failure at Charing Cross and an earlier track fault at Harrow & Wealdstone.",
+      "resolved_at": "2026-09-15T19:52:21Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "train fault",
+      "duration_seconds": 10289,
+      "first_seen": "2026-09-15T17:00:52Z",
+      "issue_key": "elizabeth:text:45f5f64a20bd8174",
+      "line_id": "elizabeth",
+      "line_name": "Elizabeth line",
+      "reason": "Minor delays between Whitechapel and Shenfield due to a earlier faulty train at Gidea Park. GOOD service on the rest of the line.",
+      "resolved_at": "2026-09-15T19:52:21Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "signal failure",
+      "duration_seconds": 10838,
+      "first_seen": "2026-09-15T16:51:43Z",
+      "issue_key": "piccadilly:text:7e4351a2379b4084",
+      "line_id": "piccadilly",
+      "line_name": "Piccadilly",
+      "reason": "Piccadilly Line: Severe delays between Acton Town and Uxbridge / Heathrow Terminals, and MINOR DELAYS on the rest of the line due to an earlier signal failure at Turnpike Lane. Tickets are being accepted on the Elizabeth line and London Buses via any reasonable route.",
+      "resolved_at": "2026-09-15T19:52:21Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
     {
       "category": "track fault",
       "duration_seconds": 2841,
@@ -9739,6 +9755,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-09-15T17:39:04Z",
+  "updated_at": "2026-09-15T19:52:21Z",
   "version": 1
 }
