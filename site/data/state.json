@@ -1,13 +1,13 @@
 {
   "active": {
-    "hammersmith-city:text:fc886daef0ca1d29": {
+    "mildmay:text:7b8e13a79f0f3dad": {
       "category": "other",
-      "first_seen": "2026-09-15T22:27:25Z",
-      "issue_key": "hammersmith-city:text:fc886daef0ca1d29",
-      "line_id": "hammersmith-city",
-      "line_name": "Hammersmith & City",
-      "reason": "Hammersmith and City Line: Minor delays eastbound only due to train cancellations.",
-      "severity": "Minor Delays",
+      "first_seen": "2026-09-15T22:53:51Z",
+      "issue_key": "mildmay:text:7b8e13a79f0f3dad",
+      "line_id": "mildmay",
+      "line_name": "Mildmay",
+      "reason": "MILDMAY LINE: Monday 14, Tuesday 15, Wednesday 16 and Thursday 17 September, after 2345 each evening, no service westbound from Stratford to Camden Road after 2345. The 2359 and 0015 services from Stratford will start from Camden Road at 0018 and 0035. Customers should use the last westbound service from Stratford at 2344, or local bus routes 30, 274, 388, 393 or 488.",
+      "severity": "Part Closure",
       "source_created": "0001-01-01T00:00:00"
     },
     "mildmay:text:ed5148d76d1add7f": {
@@ -20,38 +20,66 @@
       "severity": "Part Suspended",
       "source_created": "0001-01-01T00:00:00"
     },
-    "mildmay:text:f3bf22a0e57123c6": {
+    "windrush:text:24d1bf44592d3d93": {
       "category": "other",
+      "first_seen": "2026-09-15T22:53:51Z",
+      "issue_key": "windrush:text:24d1bf44592d3d93",
+      "line_id": "windrush",
+      "line_name": "Windrush",
+      "reason": "WINDRUSH LINE: Monday 14, Tuesday 15, Wednesday 16 and Thursday 17 September, after 2330 each evening, no service between New Cross Gate and West Croydon / Crystal Palace. Rail replacement buses (Operated by Southern Railway) will run as follows: The bus for Crystal Palace will depart London Bridge at 2358 calling at New Cross Gate, Brockley, Honor Oak Park, Forest Hill, Sydenham, Crystal Palace, Gipsy Hill, West Norwood, Tulse Hill and Streatham Hill. The bus for East Croydon will depart London Bridge at 0035 calling at New Cross Gate, Brockley, Honor Oak Park, Forest Hill, Sydenham, Norwood Junction and East Croydon. One return bus from Crystal Palace departs at 2359, calling at all stations to London Bridge via New Cross Gate. Alternatively, use local buses or trams via any reasonable route. Last through trains: New Cross Gate to Crystal Palace 2324, Crystal Palace to New Cross Gate / Highbury & Islington 2332; New Cross Gate to West Croydon 2330, West Croydon to New Cross Gate / Highbury & Islington 2316. The 2232 and 2247 Highbury & Islington to West Croydon trains are diverted to Crystal Palace and the 2338 Dalston Junction to New Cross Gate train does not run.",
+      "severity": "Part Closure",
+      "source_created": "0001-01-01T00:00:00"
+    }
+  },
+  "history": [
+    {
+      "category": "other",
+      "duration_seconds": 1586,
+      "first_seen": "2026-09-15T22:27:25Z",
+      "issue_key": "hammersmith-city:text:fc886daef0ca1d29",
+      "line_id": "hammersmith-city",
+      "line_name": "Hammersmith & City",
+      "reason": "Hammersmith and City Line: Minor delays eastbound only due to train cancellations.",
+      "resolved_at": "2026-09-15T22:53:51Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "other",
+      "duration_seconds": 1586,
       "first_seen": "2026-09-15T22:27:25Z",
       "issue_key": "mildmay:text:f3bf22a0e57123c6",
       "line_id": "mildmay",
       "line_name": "Mildmay",
       "reason": "MILDMAY LINE: Monday 14 and Tuesday 15 September, the 2147 Clapham Junction to Stratford train will not run. The 2203 and 2234 Clapham Junction to Stratford trains terminate at Willesden Junction. The 2148 and 2249 trains from Richmond to Stratford will terminate at Willesden Junction.The 2300 train from Stratford to Richmond will not run",
+      "resolved_at": "2026-09-15T22:53:51Z",
       "severity": "Reduced Service",
       "source_created": "0001-01-01T00:00:00"
     },
-    "piccadilly:text:2848561b2c059630": {
+    {
       "category": "train fault",
+      "duration_seconds": 1586,
       "first_seen": "2026-09-15T22:27:25Z",
       "issue_key": "piccadilly:text:2848561b2c059630",
       "line_id": "piccadilly",
       "line_name": "Piccadilly",
       "reason": "Piccadilly Line: Severe delays between Arnos Grove and Cockfosters and MINOR DELAYS between Acton Town and Uxbridge/Heathrow Airport due to an earlier faulty train at Oakwood. Tickets are being accepted on the Elizabeth line, Weaver line, South Western Railway and London Buses via any reasonable route. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-09-15T22:53:51Z",
       "severity": "Severe Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "suffragette:text:5064b8b0b422b7c6": {
+    {
       "category": "other",
+      "duration_seconds": 1586,
       "first_seen": "2026-09-15T22:27:25Z",
       "issue_key": "suffragette:text:5064b8b0b422b7c6",
       "line_id": "suffragette",
       "line_name": "Suffragette",
       "reason": "SUFFRAGETTE LINE: Monday 14, Tuesday 15, Wednesday 16, Thursday 17 and Friday 18 Septenber, the 2303 train from Barking Riverside to Gospel Oak will terminate at Upper Holloway at 2338",
+      "resolved_at": "2026-09-15T22:53:51Z",
       "severity": "Reduced Service",
       "source_created": "0001-01-01T00:00:00"
-    }
-  },
-  "history": [
+    },
     {
       "category": "train fault",
       "duration_seconds": 9304,
@@ -9809,6 +9837,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-09-15T22:27:25Z",
+  "updated_at": "2026-09-15T22:53:51Z",
   "version": 1
 }
