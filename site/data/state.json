@@ -1,15 +1,5 @@
 {
   "active": {
-    "central:text:020d30c610b1255e": {
-      "category": "other",
-      "first_seen": "2026-09-15T17:39:04Z",
-      "issue_key": "central:text:020d30c610b1255e",
-      "line_id": "central",
-      "line_name": "Central",
-      "reason": "Central Line: Minor delays North Acton to West Ruislip / Ealing Broadway and Leytonstone to Epping / Hainault due to train cancellations. GOOD service on the rest of the line.",
-      "severity": "Minor Delays",
-      "source_created": "0001-01-01T00:00:00"
-    },
     "piccadilly:text:ca9a0efae2a4d30b": {
       "category": "train fault",
       "first_seen": "2026-09-15T19:52:21Z",
@@ -22,6 +12,18 @@
     }
   },
   "history": [
+    {
+      "category": "other",
+      "duration_seconds": 8962,
+      "first_seen": "2026-09-15T17:39:04Z",
+      "issue_key": "central:text:020d30c610b1255e",
+      "line_id": "central",
+      "line_name": "Central",
+      "reason": "Central Line: Minor delays North Acton to West Ruislip / Ealing Broadway and Leytonstone to Epping / Hainault due to train cancellations. GOOD service on the rest of the line.",
+      "resolved_at": "2026-09-15T20:08:26Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
     {
       "category": "signal failure",
       "duration_seconds": 7997,
@@ -9755,6 +9757,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-09-15T19:52:21Z",
+  "updated_at": "2026-09-15T20:08:26Z",
   "version": 1
 }
