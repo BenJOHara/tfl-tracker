@@ -1,12 +1,22 @@
 {
   "active": {
-    "bakerloo:text:b92b49a1410b302e": {
-      "category": "track fault",
-      "first_seen": "2026-09-15T16:51:43Z",
-      "issue_key": "bakerloo:text:b92b49a1410b302e",
+    "bakerloo:text:286f55992d204fb5": {
+      "category": "signal failure",
+      "first_seen": "2026-09-15T17:39:04Z",
+      "issue_key": "bakerloo:text:286f55992d204fb5",
       "line_id": "bakerloo",
       "line_name": "Bakerloo",
-      "reason": "Bakerloo Line: Minor delays between Harrow & Wealdstone and Stonebridge Park due to an earlier track fault at Harrow & Wealdstone. GOOD SERVICE on the rest of the line.",
+      "reason": "Bakerloo Line: Minor delays while we fix a signal failure at Charing Cross and an earlier track fault at Harrow & Wealdstone.",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "central:text:020d30c610b1255e": {
+      "category": "other",
+      "first_seen": "2026-09-15T17:39:04Z",
+      "issue_key": "central:text:020d30c610b1255e",
+      "line_id": "central",
+      "line_name": "Central",
+      "reason": "Central Line: Minor delays North Acton to West Ruislip / Ealing Broadway and Leytonstone to Epping / Hainault due to train cancellations. GOOD service on the rest of the line.",
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
@@ -32,6 +42,18 @@
     }
   },
   "history": [
+    {
+      "category": "track fault",
+      "duration_seconds": 2841,
+      "first_seen": "2026-09-15T16:51:43Z",
+      "issue_key": "bakerloo:text:b92b49a1410b302e",
+      "line_id": "bakerloo",
+      "line_name": "Bakerloo",
+      "reason": "Bakerloo Line: Minor delays between Harrow & Wealdstone and Stonebridge Park due to an earlier track fault at Harrow & Wealdstone. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-09-15T17:39:04Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
     {
       "category": "person on track",
       "duration_seconds": 14226,
@@ -9717,6 +9739,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-09-15T17:00:52Z",
+  "updated_at": "2026-09-15T17:39:04Z",
   "version": 1
 }
