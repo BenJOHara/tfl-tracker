@@ -10,6 +10,16 @@
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
+    "elizabeth:text:45f5f64a20bd8174": {
+      "category": "train fault",
+      "first_seen": "2026-09-15T17:00:52Z",
+      "issue_key": "elizabeth:text:45f5f64a20bd8174",
+      "line_id": "elizabeth",
+      "line_name": "Elizabeth line",
+      "reason": "Minor delays between Whitechapel and Shenfield due to a earlier faulty train at Gidea Park. GOOD service on the rest of the line.",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
     "piccadilly:text:7e4351a2379b4084": {
       "category": "signal failure",
       "first_seen": "2026-09-15T16:51:43Z",
@@ -9707,6 +9717,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-09-15T16:51:43Z",
+  "updated_at": "2026-09-15T17:00:52Z",
   "version": 1
 }
