@@ -1,27 +1,51 @@
 {
   "active": {
-    "circle:text:489c69a8d6164932": {
+    "bakerloo:text:b92b49a1410b302e": {
+      "category": "track fault",
+      "first_seen": "2026-09-15T16:51:43Z",
+      "issue_key": "bakerloo:text:b92b49a1410b302e",
+      "line_id": "bakerloo",
+      "line_name": "Bakerloo",
+      "reason": "Bakerloo Line: Minor delays between Harrow & Wealdstone and Stonebridge Park due to an earlier track fault at Harrow & Wealdstone. GOOD SERVICE on the rest of the line.",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "piccadilly:text:7e4351a2379b4084": {
+      "category": "signal failure",
+      "first_seen": "2026-09-15T16:51:43Z",
+      "issue_key": "piccadilly:text:7e4351a2379b4084",
+      "line_id": "piccadilly",
+      "line_name": "Piccadilly",
+      "reason": "Piccadilly Line: Severe delays between Acton Town and Uxbridge / Heathrow Terminals, and MINOR DELAYS on the rest of the line due to an earlier signal failure at Turnpike Lane. Tickets are being accepted on the Elizabeth line and London Buses via any reasonable route.",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    }
+  },
+  "history": [
+    {
       "category": "person on track",
+      "duration_seconds": 14226,
       "first_seen": "2026-09-15T12:54:37Z",
       "issue_key": "circle:text:489c69a8d6164932",
       "line_id": "circle",
       "line_name": "Circle",
       "reason": "Circle Line: Minor delays Clockwise only due to an earlier trespasser on the track at Victoria. GOOD service on the rest of the line.",
+      "resolved_at": "2026-09-15T16:51:43Z",
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "piccadilly:text:4c8d99e44b7fe2fb": {
+    {
       "category": "signal failure",
+      "duration_seconds": 14226,
       "first_seen": "2026-09-15T12:54:37Z",
       "issue_key": "piccadilly:text:4c8d99e44b7fe2fb",
       "line_id": "piccadilly",
       "line_name": "Piccadilly",
       "reason": "Piccadilly Line: Severe delays due to an earlier signal failure at Turnpike Lane. Tickets are being accepted on the Elizabeth line and London Buses via any reasonable route.",
+      "resolved_at": "2026-09-15T16:51:43Z",
       "severity": "Severe Delays",
       "source_created": "0001-01-01T00:00:00"
-    }
-  },
-  "history": [
+    },
     {
       "category": "signal failure",
       "duration_seconds": 3017,
@@ -9683,6 +9707,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-09-15T12:54:37Z",
+  "updated_at": "2026-09-15T16:51:43Z",
   "version": 1
 }
