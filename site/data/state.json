@@ -1,17 +1,69 @@
 {
   "active": {
-    "piccadilly:text:ca9a0efae2a4d30b": {
+    "hammersmith-city:text:fc886daef0ca1d29": {
+      "category": "other",
+      "first_seen": "2026-09-15T22:27:25Z",
+      "issue_key": "hammersmith-city:text:fc886daef0ca1d29",
+      "line_id": "hammersmith-city",
+      "line_name": "Hammersmith & City",
+      "reason": "Hammersmith and City Line: Minor delays eastbound only due to train cancellations.",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "mildmay:text:ed5148d76d1add7f": {
+      "category": "other",
+      "first_seen": "2026-09-15T22:27:25Z",
+      "issue_key": "mildmay:text:ed5148d76d1add7f",
+      "line_id": "mildmay",
+      "line_name": "Mildmay",
+      "reason": "Mildmay Line: No service between Gospel Oak and Stratford and SEVERE DELAYS on the rest of the line while we fix an electrical fault at Hackney Central. London Underground is accepting tickets via reasonable routes.",
+      "severity": "Part Suspended",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "mildmay:text:f3bf22a0e57123c6": {
+      "category": "other",
+      "first_seen": "2026-09-15T22:27:25Z",
+      "issue_key": "mildmay:text:f3bf22a0e57123c6",
+      "line_id": "mildmay",
+      "line_name": "Mildmay",
+      "reason": "MILDMAY LINE: Monday 14 and Tuesday 15 September, the 2147 Clapham Junction to Stratford train will not run. The 2203 and 2234 Clapham Junction to Stratford trains terminate at Willesden Junction. The 2148 and 2249 trains from Richmond to Stratford will terminate at Willesden Junction.The 2300 train from Stratford to Richmond will not run",
+      "severity": "Reduced Service",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "piccadilly:text:2848561b2c059630": {
       "category": "train fault",
+      "first_seen": "2026-09-15T22:27:25Z",
+      "issue_key": "piccadilly:text:2848561b2c059630",
+      "line_id": "piccadilly",
+      "line_name": "Piccadilly",
+      "reason": "Piccadilly Line: Severe delays between Arnos Grove and Cockfosters and MINOR DELAYS between Acton Town and Uxbridge/Heathrow Airport due to an earlier faulty train at Oakwood. Tickets are being accepted on the Elizabeth line, Weaver line, South Western Railway and London Buses via any reasonable route. GOOD SERVICE on the rest of the line.",
+      "severity": "Severe Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "suffragette:text:5064b8b0b422b7c6": {
+      "category": "other",
+      "first_seen": "2026-09-15T22:27:25Z",
+      "issue_key": "suffragette:text:5064b8b0b422b7c6",
+      "line_id": "suffragette",
+      "line_name": "Suffragette",
+      "reason": "SUFFRAGETTE LINE: Monday 14, Tuesday 15, Wednesday 16, Thursday 17 and Friday 18 Septenber, the 2303 train from Barking Riverside to Gospel Oak will terminate at Upper Holloway at 2338",
+      "severity": "Reduced Service",
+      "source_created": "0001-01-01T00:00:00"
+    }
+  },
+  "history": [
+    {
+      "category": "train fault",
+      "duration_seconds": 9304,
       "first_seen": "2026-09-15T19:52:21Z",
       "issue_key": "piccadilly:text:ca9a0efae2a4d30b",
       "line_id": "piccadilly",
       "line_name": "Piccadilly",
       "reason": "Piccadilly Line: Severe delays Acton Town to Uxbridge/Heathrow terminals, and MINOR DELAYS between Acton Town and Cockfosters due to an earlier faulty train at Oakwood. Tickets are being accepted on the Elizabeth line, Weaver line, South Western Railway and London Buses via any reasonable route.",
+      "resolved_at": "2026-09-15T22:27:25Z",
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
-    }
-  },
-  "history": [
+    },
     {
       "category": "other",
       "duration_seconds": 8962,
@@ -9757,6 +9809,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-09-15T20:08:26Z",
+  "updated_at": "2026-09-15T22:27:25Z",
   "version": 1
 }
