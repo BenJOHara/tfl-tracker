@@ -1,57 +1,97 @@
 {
   "active": {
-    "bakerloo:text:c0aa30c96ea1c4d8": {
+    "bakerloo:text:82db1b82a7838013": {
       "category": "signal failure",
+      "first_seen": "2026-09-15T07:40:26Z",
+      "issue_key": "bakerloo:text:82db1b82a7838013",
+      "line_id": "bakerloo",
+      "line_name": "Bakerloo",
+      "reason": "Bakerloo Line: Severe delays due to an earlier signal failure at Stonebridge Park. Tickets will be accepted on London buses via any reasonable route.",
+      "severity": "Severe Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "lioness:text:50373fc21e9d67d0": {
+      "category": "signal failure",
+      "first_seen": "2026-09-15T07:40:26Z",
+      "issue_key": "lioness:text:50373fc21e9d67d0",
+      "line_id": "lioness",
+      "line_name": "Lioness",
+      "reason": "Lioness Line: Severe delays due to an earlier signal failure at Stonebridge Park.",
+      "severity": "Severe Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "metropolitan:text:2df4e90708614385": {
+      "category": "other",
+      "first_seen": "2026-09-15T07:40:26Z",
+      "issue_key": "metropolitan:text:2df4e90708614385",
+      "line_id": "metropolitan",
+      "line_name": "Metropolitan",
+      "reason": "Metropolitan Line: Minor delays between Moor Park and Watford due to train cancellations. GOOD SERVICE on the rest of the line.",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    }
+  },
+  "history": [
+    {
+      "category": "signal failure",
+      "duration_seconds": 3703,
       "first_seen": "2026-09-15T06:38:43Z",
       "issue_key": "bakerloo:text:c0aa30c96ea1c4d8",
       "line_id": "bakerloo",
       "line_name": "Bakerloo",
       "reason": "Bakerloo Line: No service between Harrow & Wealdstone and Queen's Park while we fix a signal failure at Stonebridge Park. MINOR DELAYS on the rest of the line. Tickets will be accepted on London buses.",
+      "resolved_at": "2026-09-15T07:40:26Z",
       "severity": "Part Suspended",
       "source_created": "0001-01-01T00:00:00"
     },
-    "district:text:f3d5eda59d95570a": {
+    {
       "category": "other",
+      "duration_seconds": 3703,
       "first_seen": "2026-09-15T06:38:43Z",
       "issue_key": "district:text:f3d5eda59d95570a",
       "line_id": "district",
       "line_name": "District",
       "reason": "District Line: Severe delays between Barking and Upminster due to train cancellations. Tickets will be accepted on London Buses and C2C via reasonable routes. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-09-15T07:40:26Z",
       "severity": "Severe Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "hammersmith-city:text:004129bf5e441754": {
+    {
       "category": "other",
+      "duration_seconds": 3703,
       "first_seen": "2026-09-15T06:38:43Z",
       "issue_key": "hammersmith-city:text:004129bf5e441754",
       "line_id": "hammersmith-city",
       "line_name": "Hammersmith & City",
       "reason": "Hammersmith and City Line: Minor delays due to train cancellations.",
+      "resolved_at": "2026-09-15T07:40:26Z",
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "lioness:text:3d347fa0b5016dea": {
+    {
       "category": "signal failure",
+      "duration_seconds": 3703,
       "first_seen": "2026-09-15T06:38:43Z",
       "issue_key": "lioness:text:3d347fa0b5016dea",
       "line_id": "lioness",
       "line_name": "Lioness",
       "reason": "Lioness Line: No service on the entire line while we fix a signal failure at Stonebridge Park.",
+      "resolved_at": "2026-09-15T07:40:26Z",
       "severity": "Suspended",
       "source_created": "0001-01-01T00:00:00"
     },
-    "tram:text:9e7d91018e834d41": {
+    {
       "category": "signal failure",
+      "duration_seconds": 3703,
       "first_seen": "2026-09-15T06:38:43Z",
       "issue_key": "tram:text:9e7d91018e834d41",
       "line_id": "tram",
       "line_name": "Tram",
       "reason": "London Tramlink: No service between Lloyd Park and Addington Village while we fix a signal failure at Lloyd Park. GOOD SERVICE on other Tram routes.",
+      "resolved_at": "2026-09-15T07:40:26Z",
       "severity": "Part Suspended",
       "source_created": "0001-01-01T00:00:00"
-    }
-  },
-  "history": [
+    },
     {
       "category": "other",
       "duration_seconds": 18187,
@@ -9605,6 +9645,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-09-15T06:38:43Z",
+  "updated_at": "2026-09-15T07:40:26Z",
   "version": 1
 }
