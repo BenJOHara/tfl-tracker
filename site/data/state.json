@@ -1,17 +1,39 @@
 {
   "active": {
-    "piccadilly:text:a6fa3df9dcf3e7b0": {
+    "circle:text:489c69a8d6164932": {
+      "category": "person on track",
+      "first_seen": "2026-09-15T12:54:37Z",
+      "issue_key": "circle:text:489c69a8d6164932",
+      "line_id": "circle",
+      "line_name": "Circle",
+      "reason": "Circle Line: Minor delays Clockwise only due to an earlier trespasser on the track at Victoria. GOOD service on the rest of the line.",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "piccadilly:text:4c8d99e44b7fe2fb": {
       "category": "signal failure",
-      "first_seen": "2026-09-15T12:04:20Z",
-      "issue_key": "piccadilly:text:a6fa3df9dcf3e7b0",
+      "first_seen": "2026-09-15T12:54:37Z",
+      "issue_key": "piccadilly:text:4c8d99e44b7fe2fb",
       "line_id": "piccadilly",
       "line_name": "Piccadilly",
-      "reason": "Piccadilly Line: Severe delays due to an earlier signal failure at Turnpike Lane. London Buses are accepting tickets via any reasonable route.",
+      "reason": "Piccadilly Line: Severe delays due to an earlier signal failure at Turnpike Lane. Tickets are being accepted on the Elizabeth line and London Buses via any reasonable route.",
       "severity": "Severe Delays",
       "source_created": "0001-01-01T00:00:00"
     }
   },
   "history": [
+    {
+      "category": "signal failure",
+      "duration_seconds": 3017,
+      "first_seen": "2026-09-15T12:04:20Z",
+      "issue_key": "piccadilly:text:a6fa3df9dcf3e7b0",
+      "line_id": "piccadilly",
+      "line_name": "Piccadilly",
+      "reason": "Piccadilly Line: Severe delays due to an earlier signal failure at Turnpike Lane. London Buses are accepting tickets via any reasonable route.",
+      "resolved_at": "2026-09-15T12:54:37Z",
+      "severity": "Severe Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
     {
       "category": "signal failure",
       "duration_seconds": 15834,
@@ -9661,6 +9683,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-09-15T12:04:20Z",
+  "updated_at": "2026-09-15T12:54:37Z",
   "version": 1
 }
