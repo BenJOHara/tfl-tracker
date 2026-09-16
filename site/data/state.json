@@ -9,6 +9,26 @@
       "reason": "Central Line: Minor delays between White City and Ealing Broadway / West Ruislip and between Leytonstone and Epping / Woodford via Hainault due to train cancellations. GOOD SERVICE on the rest of the line.",
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
+    },
+    "mildmay:text:853d13dd46662f08": {
+      "category": "other",
+      "first_seen": "2026-09-16T22:10:48Z",
+      "issue_key": "mildmay:text:853d13dd46662f08",
+      "line_id": "mildmay",
+      "line_name": "Mildmay",
+      "reason": "MILDMAY LINE: Wednesday 16 and Thursday 17 September, after 2300 each day, no service eastbound from Willesden Junction to Stratford. Customers should use the last eastbound services detailed below or London Overground services to Euston. Last through trains: Clapham Junction to Stratford 2218; Richmond to Stratford 22:32; Willesden Junction to Stratford 2252. The 2129 and 2159 trains from Stratford to Richmond, and 2135 train from Stratford to Clapham Junction, will terminate at Camden Road. The 2147 Clapham Junction to Stratford train will not run. The 2203 and 2234 Clapham Junction to Stratford trains, and the 2148 2240 and 2302 Richmond to Stratford trains will terminate at Willesden Junction. The 2300 Stratford to Richmond and 2318 Richmond to Willesden Junction trains will not run.",
+      "severity": "Part Closure",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "suffragette:text:5064b8b0b422b7c6": {
+      "category": "other",
+      "first_seen": "2026-09-16T22:10:48Z",
+      "issue_key": "suffragette:text:5064b8b0b422b7c6",
+      "line_id": "suffragette",
+      "line_name": "Suffragette",
+      "reason": "SUFFRAGETTE LINE: Monday 14, Tuesday 15, Wednesday 16, Thursday 17 and Friday 18 Septenber, the 2303 train from Barking Riverside to Gospel Oak will terminate at Upper Holloway at 2338",
+      "severity": "Reduced Service",
+      "source_created": "0001-01-01T00:00:00"
     }
   },
   "history": [
@@ -10345,6 +10365,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-09-16T21:39:58Z",
+  "updated_at": "2026-09-16T22:10:48Z",
   "version": 1
 }
