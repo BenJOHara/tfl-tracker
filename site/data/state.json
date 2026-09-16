@@ -20,28 +20,42 @@
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "mildmay:text:b8fadd5f12d15bb3": {
+    "suffragette:text:4e2e24c30f5036f1": {
       "category": "other",
+      "first_seen": "2026-09-16T06:02:26Z",
+      "issue_key": "suffragette:text:4e2e24c30f5036f1",
+      "line_id": "suffragette",
+      "line_name": "Suffragette",
+      "reason": "Suffragette Line: No service between Barking Riverside and South Tottenham while emergency services deal with a casualty on the track. MINOR DELAYS on the rest of the line. London Underground are accepting tickets via any reasonable route.",
+      "severity": "Part Suspended",
+      "source_created": "0001-01-01T00:00:00"
+    }
+  },
+  "history": [
+    {
+      "category": "other",
+      "duration_seconds": 2437,
       "first_seen": "2026-09-16T05:21:49Z",
       "issue_key": "mildmay:text:b8fadd5f12d15bb3",
       "line_id": "mildmay",
       "line_name": "Mildmay",
       "reason": "MILDMAY LINE: Monday 14, Tuesday 15 and Wednesday 16 September, the 0558 first train from Richmond to Stratford will start from Highbury & Islington at 0642. Customers from Richmond should use the next train at 0608.",
+      "resolved_at": "2026-09-16T06:02:26Z",
       "severity": "Reduced Service",
       "source_created": "0001-01-01T00:00:00"
     },
-    "windrush:text:5a83449e06ec98d5": {
+    {
       "category": "planned engineering",
+      "duration_seconds": 2437,
       "first_seen": "2026-09-16T05:21:49Z",
       "issue_key": "windrush:text:5a83449e06ec98d5",
       "line_id": "windrush",
       "line_name": "Windrush",
       "reason": "Windrush Line: Minor delays between West Croydon and Sydenham due to a late finish of engineering work at Norwood Junction. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-09-16T06:02:26Z",
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
-    }
-  },
-  "history": [
+    },
     {
       "category": "other",
       "duration_seconds": 16584,
@@ -10123,6 +10137,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-09-16T05:21:49Z",
+  "updated_at": "2026-09-16T06:02:26Z",
   "version": 1
 }
