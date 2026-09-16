@@ -1,13 +1,13 @@
 {
   "active": {
-    "central:text:c64194fc5e5dc4d1": {
+    "central:text:d1348ad727dc1fb9": {
       "category": "other",
-      "first_seen": "2026-09-16T18:29:21Z",
-      "issue_key": "central:text:c64194fc5e5dc4d1",
+      "first_seen": "2026-09-16T19:06:22Z",
+      "issue_key": "central:text:d1348ad727dc1fb9",
       "line_id": "central",
       "line_name": "Central",
-      "reason": "Central Line: Severe delays while we help person ill on a train at Leyton. Tickets being accepted by London Buses, Liberty Line, Elizabeth Line, Chiltern, Great Western, Greater Anglia services.",
-      "severity": "Severe Delays",
+      "reason": "Central Line: Severe delays between North Acton and Ealing Broadway / West Ruislip and between Leytonstone and Epping / Hainault and MINOR DELAYS between North Acton and Leytonstone due to an earlier person ill on a train at Leyton. Tickets being accepted by London Buses, Liberty Line, Elizabeth Line, Chiltern, Great Western, Greater Anglia services. GOOD SERVICE on the rest of the line.",
+      "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
     "victoria:text:cff6c1e249178852": {
@@ -22,6 +22,18 @@
     }
   },
   "history": [
+    {
+      "category": "other",
+      "duration_seconds": 2221,
+      "first_seen": "2026-09-16T18:29:21Z",
+      "issue_key": "central:text:c64194fc5e5dc4d1",
+      "line_id": "central",
+      "line_name": "Central",
+      "reason": "Central Line: Severe delays while we help person ill on a train at Leyton. Tickets being accepted by London Buses, Liberty Line, Elizabeth Line, Chiltern, Great Western, Greater Anglia services.",
+      "resolved_at": "2026-09-16T19:06:22Z",
+      "severity": "Severe Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
     {
       "category": "other",
       "duration_seconds": 4888,
@@ -10307,6 +10319,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-09-16T18:29:21Z",
+  "updated_at": "2026-09-16T19:06:22Z",
   "version": 1
 }
