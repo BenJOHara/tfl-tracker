@@ -1,37 +1,83 @@
 {
   "active": {
-    "bakerloo:text:496f95804d6adceb": {
+    "bakerloo:text:441236c7b38e407e": {
       "category": "other",
+      "first_seen": "2026-09-16T10:03:46Z",
+      "issue_key": "bakerloo:text:441236c7b38e407e",
+      "line_id": "bakerloo",
+      "line_name": "Bakerloo",
+      "reason": "Bakerloo Line: Minor delays due to train cancellations.",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "district:text:9c09d477e2a85811": {
+      "category": "other",
+      "first_seen": "2026-09-16T10:03:46Z",
+      "issue_key": "district:text:9c09d477e2a85811",
+      "line_id": "district",
+      "line_name": "District",
+      "reason": "District Line: Minor delays due to train cancellations.",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "metropolitan:text:13bee46ad02ea39c": {
+      "category": "signal failure",
+      "first_seen": "2026-09-16T10:03:46Z",
+      "issue_key": "metropolitan:text:13bee46ad02ea39c",
+      "line_id": "metropolitan",
+      "line_name": "Metropolitan",
+      "reason": "Metropolitan Line: Severe delays while we fix a signal failure at Neasden. London Buses, London Overground, London Northerwestern and Chiltern Railway are accepting tickets via any reasonable route.",
+      "severity": "Severe Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "victoria:text:e17840b01c513e99": {
+      "category": "other",
+      "first_seen": "2026-09-16T10:03:46Z",
+      "issue_key": "victoria:text:e17840b01c513e99",
+      "line_id": "victoria",
+      "line_name": "Victoria",
+      "reason": "Victoria Line: No service while emergency services deal with a casualty on the track. Tickets will be accepted on London Buses, Weaver/Suffragette line, Great Northern, Greater Anglia, Thameslink, South Western Railway and Southeastern via reasonable routes.",
+      "severity": "Suspended",
+      "source_created": "0001-01-01T00:00:00"
+    }
+  },
+  "history": [
+    {
+      "category": "other",
+      "duration_seconds": 16917,
       "first_seen": "2026-09-16T05:21:49Z",
       "issue_key": "bakerloo:text:496f95804d6adceb",
       "line_id": "bakerloo",
       "line_name": "Bakerloo",
       "reason": "Bakerloo Line: Severe delays between Queen's Park and Harrow & Wealdstone due to train cancellations. Tickets are being accepted on London Buses and Lioness line. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-09-16T10:03:46Z",
       "severity": "Severe Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "hammersmith-city:text:004129bf5e441754": {
+    {
       "category": "other",
+      "duration_seconds": 16917,
       "first_seen": "2026-09-16T05:21:49Z",
       "issue_key": "hammersmith-city:text:004129bf5e441754",
       "line_id": "hammersmith-city",
       "line_name": "Hammersmith & City",
       "reason": "Hammersmith and City Line: Minor delays due to train cancellations.",
+      "resolved_at": "2026-09-16T10:03:46Z",
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "suffragette:text:af1574e44226553f": {
+    {
       "category": "other",
+      "duration_seconds": 12209,
       "first_seen": "2026-09-16T06:40:17Z",
       "issue_key": "suffragette:text:af1574e44226553f",
       "line_id": "suffragette",
       "line_name": "Suffragette",
       "reason": "Suffragette Line: No service between Barking Riverside and South Tottenham while emergency services deal with a casualty on the track. London Underground are accepting tickets via any reasonable route. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-09-16T10:03:46Z",
       "severity": "Part Suspended",
       "source_created": "0001-01-01T00:00:00"
-    }
-  },
-  "history": [
+    },
     {
       "category": "other",
       "duration_seconds": 2271,
@@ -10149,6 +10195,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-09-16T06:40:17Z",
+  "updated_at": "2026-09-16T10:03:46Z",
   "version": 1
 }
