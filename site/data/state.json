@@ -1,22 +1,12 @@
 {
   "active": {
-    "central:text:a1672dfa79317544": {
+    "central:text:05b22deb6f90b60c": {
       "category": "other",
-      "first_seen": "2026-09-16T15:33:07Z",
-      "issue_key": "central:text:a1672dfa79317544",
+      "first_seen": "2026-09-16T17:07:53Z",
+      "issue_key": "central:text:05b22deb6f90b60c",
       "line_id": "central",
       "line_name": "Central",
-      "reason": "Central Line: Minor delays between Leytonstone and Epping/Hainault and between North Acton and Ealing Broadway/West Ruislip due to train cancellations. GOOD SERVICE on the rest of the line.",
-      "severity": "Minor Delays",
-      "source_created": "0001-01-01T00:00:00"
-    },
-    "metropolitan:text:7e62008ce9809d9b": {
-      "category": "signal failure",
-      "first_seen": "2026-09-16T14:52:57Z",
-      "issue_key": "metropolitan:text:7e62008ce9809d9b",
-      "line_id": "metropolitan",
-      "line_name": "Metropolitan",
-      "reason": "Metropolitan Line: Minor delays between Moor Park and Watford due to an earlier signal failure at Neasden. GOOD SERVICE on the rest of the line.",
+      "reason": "Central Line: Severe delays between White City and Ealing Broadway / West Ruislip and between Leytonstone and Epping / Hainault via Newbury Park and MINOR DELAYS on the rest of the line due to train cancellations.",
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
@@ -29,9 +19,43 @@
       "reason": "Victoria Line: Minor delays due to an earlier customer incident.",
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
+    },
+    "windrush:text:72b3c7859fbbf6a3": {
+      "category": "other",
+      "first_seen": "2026-09-16T17:07:53Z",
+      "issue_key": "windrush:text:72b3c7859fbbf6a3",
+      "line_id": "windrush",
+      "line_name": "Windrush",
+      "reason": "Windrush Line: Minor delays between Sydenham and West Croydon due to an operational incident at West Croydon. GOOD SERVICE on the rest of the line.",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
     }
   },
   "history": [
+    {
+      "category": "other",
+      "duration_seconds": 5686,
+      "first_seen": "2026-09-16T15:33:07Z",
+      "issue_key": "central:text:a1672dfa79317544",
+      "line_id": "central",
+      "line_name": "Central",
+      "reason": "Central Line: Minor delays between Leytonstone and Epping/Hainault and between North Acton and Ealing Broadway/West Ruislip due to train cancellations. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-09-16T17:07:53Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "signal failure",
+      "duration_seconds": 8096,
+      "first_seen": "2026-09-16T14:52:57Z",
+      "issue_key": "metropolitan:text:7e62008ce9809d9b",
+      "line_id": "metropolitan",
+      "line_name": "Metropolitan",
+      "reason": "Metropolitan Line: Minor delays between Moor Park and Watford due to an earlier signal failure at Neasden. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-09-16T17:07:53Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
     {
       "category": "fire alert",
       "duration_seconds": 2410,
@@ -10269,6 +10293,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-09-16T15:33:07Z",
+  "updated_at": "2026-09-16T17:07:53Z",
   "version": 1
 }
