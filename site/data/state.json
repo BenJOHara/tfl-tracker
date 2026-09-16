@@ -1,12 +1,12 @@
 {
   "active": {
-    "metropolitan:text:13bee46ad02ea39c": {
+    "metropolitan:text:7ca1fd10a90fd40e": {
       "category": "signal failure",
-      "first_seen": "2026-09-16T10:03:46Z",
-      "issue_key": "metropolitan:text:13bee46ad02ea39c",
+      "first_seen": "2026-09-16T12:12:10Z",
+      "issue_key": "metropolitan:text:7ca1fd10a90fd40e",
       "line_id": "metropolitan",
       "line_name": "Metropolitan",
-      "reason": "Metropolitan Line: Severe delays while we fix a signal failure at Neasden. London Buses, London Overground, London Northerwestern and Chiltern Railway are accepting tickets via any reasonable route.",
+      "reason": "Metropolitan Line: Severe delays between Moor Park and Watford due to train cancellations. MINOR DELAYS on the rest of the line while we fix a signal failure at Neasden. Tickets will be accepted on London Buses, London Overground, London Northerwestern and Chiltern Railway via reasonable routes.",
       "severity": "Severe Delays",
       "source_created": "0001-01-01T00:00:00"
     },
@@ -22,6 +22,18 @@
     }
   },
   "history": [
+    {
+      "category": "signal failure",
+      "duration_seconds": 7704,
+      "first_seen": "2026-09-16T10:03:46Z",
+      "issue_key": "metropolitan:text:13bee46ad02ea39c",
+      "line_id": "metropolitan",
+      "line_name": "Metropolitan",
+      "reason": "Metropolitan Line: Severe delays while we fix a signal failure at Neasden. London Buses, London Overground, London Northerwestern and Chiltern Railway are accepting tickets via any reasonable route.",
+      "resolved_at": "2026-09-16T12:12:10Z",
+      "severity": "Severe Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
     {
       "category": "other",
       "duration_seconds": 5459,
@@ -10211,6 +10223,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-09-16T11:34:45Z",
+  "updated_at": "2026-09-16T12:12:10Z",
   "version": 1
 }
