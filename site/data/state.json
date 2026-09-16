@@ -20,18 +20,30 @@
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "suffragette:text:4e2e24c30f5036f1": {
+    "suffragette:text:af1574e44226553f": {
       "category": "other",
-      "first_seen": "2026-09-16T06:02:26Z",
-      "issue_key": "suffragette:text:4e2e24c30f5036f1",
+      "first_seen": "2026-09-16T06:40:17Z",
+      "issue_key": "suffragette:text:af1574e44226553f",
       "line_id": "suffragette",
       "line_name": "Suffragette",
-      "reason": "Suffragette Line: No service between Barking Riverside and South Tottenham while emergency services deal with a casualty on the track. MINOR DELAYS on the rest of the line. London Underground are accepting tickets via any reasonable route.",
+      "reason": "Suffragette Line: No service between Barking Riverside and South Tottenham while emergency services deal with a casualty on the track. London Underground are accepting tickets via any reasonable route. GOOD SERVICE on the rest of the line.",
       "severity": "Part Suspended",
       "source_created": "0001-01-01T00:00:00"
     }
   },
   "history": [
+    {
+      "category": "other",
+      "duration_seconds": 2271,
+      "first_seen": "2026-09-16T06:02:26Z",
+      "issue_key": "suffragette:text:4e2e24c30f5036f1",
+      "line_id": "suffragette",
+      "line_name": "Suffragette",
+      "reason": "Suffragette Line: No service between Barking Riverside and South Tottenham while emergency services deal with a casualty on the track. MINOR DELAYS on the rest of the line. London Underground are accepting tickets via any reasonable route.",
+      "resolved_at": "2026-09-16T06:40:17Z",
+      "severity": "Part Suspended",
+      "source_created": "0001-01-01T00:00:00"
+    },
     {
       "category": "other",
       "duration_seconds": 2437,
@@ -10137,6 +10149,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-09-16T06:02:26Z",
+  "updated_at": "2026-09-16T06:40:17Z",
   "version": 1
 }
