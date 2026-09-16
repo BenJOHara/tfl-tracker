@@ -1,17 +1,29 @@
 {
   "active": {
-    "central:text:7c92180321dc021d": {
+    "central:text:23b5a31ea9ac8722": {
       "category": "other",
-      "first_seen": "2026-09-16T20:14:49Z",
-      "issue_key": "central:text:7c92180321dc021d",
+      "first_seen": "2026-09-16T21:39:58Z",
+      "issue_key": "central:text:23b5a31ea9ac8722",
       "line_id": "central",
       "line_name": "Central",
-      "reason": "Central Line: Minor delays between White City and Ealing Broadway / West Ruislip and between Leytonstone and Epping / Woodford via Hainault. GOOD SERVICE on the rest of the line.",
+      "reason": "Central Line: Minor delays between White City and Ealing Broadway / West Ruislip and between Leytonstone and Epping / Woodford via Hainault due to train cancellations. GOOD SERVICE on the rest of the line.",
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     }
   },
   "history": [
+    {
+      "category": "other",
+      "duration_seconds": 5109,
+      "first_seen": "2026-09-16T20:14:49Z",
+      "issue_key": "central:text:7c92180321dc021d",
+      "line_id": "central",
+      "line_name": "Central",
+      "reason": "Central Line: Minor delays between White City and Ealing Broadway / West Ruislip and between Leytonstone and Epping / Woodford via Hainault. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-09-16T21:39:58Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
     {
       "category": "other",
       "duration_seconds": 4107,
@@ -10333,6 +10345,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-09-16T20:14:49Z",
+  "updated_at": "2026-09-16T21:39:58Z",
   "version": 1
 }
