@@ -1,12 +1,12 @@
 {
   "active": {
-    "central:text:552b41bca5647209": {
-      "category": "fire alert",
-      "first_seen": "2026-09-16T14:52:57Z",
-      "issue_key": "central:text:552b41bca5647209",
+    "central:text:a1672dfa79317544": {
+      "category": "other",
+      "first_seen": "2026-09-16T15:33:07Z",
+      "issue_key": "central:text:a1672dfa79317544",
       "line_id": "central",
       "line_name": "Central",
-      "reason": "Central Line: Minor delays while we respond to a fire alert at Leytonstone.",
+      "reason": "Central Line: Minor delays between Leytonstone and Epping/Hainault and between North Acton and Ealing Broadway/West Ruislip due to train cancellations. GOOD SERVICE on the rest of the line.",
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
@@ -20,18 +20,42 @@
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "victoria:text:ae48db8e59348688": {
+    "victoria:text:cff6c1e249178852": {
       "category": "passenger incident",
+      "first_seen": "2026-09-16T15:33:07Z",
+      "issue_key": "victoria:text:cff6c1e249178852",
+      "line_id": "victoria",
+      "line_name": "Victoria",
+      "reason": "Victoria Line: Minor delays due to an earlier customer incident.",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    }
+  },
+  "history": [
+    {
+      "category": "fire alert",
+      "duration_seconds": 2410,
+      "first_seen": "2026-09-16T14:52:57Z",
+      "issue_key": "central:text:552b41bca5647209",
+      "line_id": "central",
+      "line_name": "Central",
+      "reason": "Central Line: Minor delays while we respond to a fire alert at Leytonstone.",
+      "resolved_at": "2026-09-16T15:33:07Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "passenger incident",
+      "duration_seconds": 14302,
       "first_seen": "2026-09-16T11:34:45Z",
       "issue_key": "victoria:text:ae48db8e59348688",
       "line_id": "victoria",
       "line_name": "Victoria",
       "reason": "Victoria Line: Severe delays to an earlier customer incident. Tickets will be accepted on London Buses, Weaver/Suffragette line, Great Northern, Greater Anglia, Thameslink, South Western Railway and Southeastern via reasonable routes.",
+      "resolved_at": "2026-09-16T15:33:07Z",
       "severity": "Severe Delays",
       "source_created": "0001-01-01T00:00:00"
-    }
-  },
-  "history": [
+    },
     {
       "category": "signal failure",
       "duration_seconds": 9647,
@@ -10245,6 +10269,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-09-16T14:52:57Z",
+  "updated_at": "2026-09-16T15:33:07Z",
   "version": 1
 }
