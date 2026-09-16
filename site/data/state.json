@@ -1,27 +1,41 @@
 {
   "active": {
-    "central:text:d1348ad727dc1fb9": {
+    "central:text:7c92180321dc021d": {
       "category": "other",
-      "first_seen": "2026-09-16T19:06:22Z",
-      "issue_key": "central:text:d1348ad727dc1fb9",
+      "first_seen": "2026-09-16T20:14:49Z",
+      "issue_key": "central:text:7c92180321dc021d",
       "line_id": "central",
       "line_name": "Central",
-      "reason": "Central Line: Severe delays between North Acton and Ealing Broadway / West Ruislip and between Leytonstone and Epping / Hainault and MINOR DELAYS between North Acton and Leytonstone due to an earlier person ill on a train at Leyton. Tickets being accepted by London Buses, Liberty Line, Elizabeth Line, Chiltern, Great Western, Greater Anglia services. GOOD SERVICE on the rest of the line.",
-      "severity": "Minor Delays",
-      "source_created": "0001-01-01T00:00:00"
-    },
-    "victoria:text:cff6c1e249178852": {
-      "category": "passenger incident",
-      "first_seen": "2026-09-16T15:33:07Z",
-      "issue_key": "victoria:text:cff6c1e249178852",
-      "line_id": "victoria",
-      "line_name": "Victoria",
-      "reason": "Victoria Line: Minor delays due to an earlier customer incident.",
+      "reason": "Central Line: Minor delays between White City and Ealing Broadway / West Ruislip and between Leytonstone and Epping / Woodford via Hainault. GOOD SERVICE on the rest of the line.",
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     }
   },
   "history": [
+    {
+      "category": "other",
+      "duration_seconds": 4107,
+      "first_seen": "2026-09-16T19:06:22Z",
+      "issue_key": "central:text:d1348ad727dc1fb9",
+      "line_id": "central",
+      "line_name": "Central",
+      "reason": "Central Line: Severe delays between North Acton and Ealing Broadway / West Ruislip and between Leytonstone and Epping / Hainault and MINOR DELAYS between North Acton and Leytonstone due to an earlier person ill on a train at Leyton. Tickets being accepted by London Buses, Liberty Line, Elizabeth Line, Chiltern, Great Western, Greater Anglia services. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-09-16T20:14:49Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "passenger incident",
+      "duration_seconds": 16902,
+      "first_seen": "2026-09-16T15:33:07Z",
+      "issue_key": "victoria:text:cff6c1e249178852",
+      "line_id": "victoria",
+      "line_name": "Victoria",
+      "reason": "Victoria Line: Minor delays due to an earlier customer incident.",
+      "resolved_at": "2026-09-16T20:14:49Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
     {
       "category": "other",
       "duration_seconds": 2221,
@@ -10319,6 +10333,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-09-16T19:06:22Z",
+  "updated_at": "2026-09-16T20:14:49Z",
   "version": 1
 }
