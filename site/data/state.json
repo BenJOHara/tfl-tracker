@@ -1,12 +1,12 @@
 {
   "active": {
-    "central:text:b5cc017672b79555": {
-      "category": "signal failure",
-      "first_seen": "2026-09-17T19:02:15Z",
-      "issue_key": "central:text:b5cc017672b79555",
+    "central:text:4a0397dc5ea0501f": {
+      "category": "other",
+      "first_seen": "2026-09-17T20:15:22Z",
+      "issue_key": "central:text:4a0397dc5ea0501f",
       "line_id": "central",
       "line_name": "Central",
-      "reason": "Central Line: Severe delays due to an earlier signal failure at White City. Tickets being London Buses, Liberty Line, Elizabeth Line, Chiltern, Great Western and Greater Angila services.",
+      "reason": "Central Line: Severe delays due to train cancellations. Tickets being London Buses, Liberty Line, Elizabeth Line, Chiltern, Great Western and Greater Anglia services.",
       "severity": "Severe Delays",
       "source_created": "0001-01-01T00:00:00"
     },
@@ -22,6 +22,18 @@
     }
   },
   "history": [
+    {
+      "category": "signal failure",
+      "duration_seconds": 4387,
+      "first_seen": "2026-09-17T19:02:15Z",
+      "issue_key": "central:text:b5cc017672b79555",
+      "line_id": "central",
+      "line_name": "Central",
+      "reason": "Central Line: Severe delays due to an earlier signal failure at White City. Tickets being London Buses, Liberty Line, Elizabeth Line, Chiltern, Great Western and Greater Angila services.",
+      "resolved_at": "2026-09-17T20:15:22Z",
+      "severity": "Severe Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
     {
       "category": "fire alert",
       "duration_seconds": 2378,
@@ -10811,6 +10823,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-09-17T19:41:53Z",
+  "updated_at": "2026-09-17T20:15:22Z",
   "version": 1
 }
