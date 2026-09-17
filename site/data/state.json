@@ -10,16 +10,6 @@
       "severity": "Severe Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "district:text:aba078607ad3f81c": {
-      "category": "fire alert",
-      "first_seen": "2026-09-17T19:02:15Z",
-      "issue_key": "district:text:aba078607ad3f81c",
-      "line_id": "district",
-      "line_name": "District",
-      "reason": "District Line: Severe delays between Upminster and Tower Hill while we respond to a fire alert at Dagenham East. Tickets are being accepted on London Buses, London Overground, C2C and Elizabeth line services. GOOD SERVICE on the rest of the line.",
-      "severity": "Severe Delays",
-      "source_created": "0001-01-01T00:00:00"
-    },
     "jubilee:text:8c9c694ff8132a50": {
       "category": "train fault",
       "first_seen": "2026-09-17T19:02:15Z",
@@ -32,6 +22,18 @@
     }
   },
   "history": [
+    {
+      "category": "fire alert",
+      "duration_seconds": 2378,
+      "first_seen": "2026-09-17T19:02:15Z",
+      "issue_key": "district:text:aba078607ad3f81c",
+      "line_id": "district",
+      "line_name": "District",
+      "reason": "District Line: Severe delays between Upminster and Tower Hill while we respond to a fire alert at Dagenham East. Tickets are being accepted on London Buses, London Overground, C2C and Elizabeth line services. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-09-17T19:41:53Z",
+      "severity": "Severe Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
     {
       "category": "signal failure",
       "duration_seconds": 11032,
@@ -10809,6 +10811,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-09-17T19:02:15Z",
+  "updated_at": "2026-09-17T19:41:53Z",
   "version": 1
 }
