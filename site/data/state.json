@@ -10,6 +10,16 @@
       "severity": "Severe Delays",
       "source_created": "0001-01-01T00:00:00"
     },
+    "elizabeth:text:4a9fbf201bee05c9": {
+      "category": "power failure",
+      "first_seen": "2026-09-17T17:08:19Z",
+      "issue_key": "elizabeth:text:4a9fbf201bee05c9",
+      "line_id": "elizabeth",
+      "line_name": "Elizabeth line",
+      "reason": "Minor delays between Paddington and Heathrow Terminals / Reading due to an earlier power supply failure at Southall. GOOD SERVICE on the rest of the line.",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
     "jubilee:text:da167214120b7d1a": {
       "category": "train fault",
       "first_seen": "2026-09-17T15:04:25Z",
@@ -10763,6 +10773,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-09-17T15:58:23Z",
+  "updated_at": "2026-09-17T17:08:19Z",
   "version": 1
 }
