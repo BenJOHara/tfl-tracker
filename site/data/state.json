@@ -1,37 +1,73 @@
 {
   "active": {
-    "central:text:52ac14c8e49231df": {
+    "central:text:b5cc017672b79555": {
       "category": "signal failure",
+      "first_seen": "2026-09-17T19:02:15Z",
+      "issue_key": "central:text:b5cc017672b79555",
+      "line_id": "central",
+      "line_name": "Central",
+      "reason": "Central Line: Severe delays due to an earlier signal failure at White City. Tickets being London Buses, Liberty Line, Elizabeth Line, Chiltern, Great Western and Greater Angila services.",
+      "severity": "Severe Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "district:text:aba078607ad3f81c": {
+      "category": "fire alert",
+      "first_seen": "2026-09-17T19:02:15Z",
+      "issue_key": "district:text:aba078607ad3f81c",
+      "line_id": "district",
+      "line_name": "District",
+      "reason": "District Line: Severe delays between Upminster and Tower Hill while we respond to a fire alert at Dagenham East. Tickets are being accepted on London Buses, London Overground, C2C and Elizabeth line services. GOOD SERVICE on the rest of the line.",
+      "severity": "Severe Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "jubilee:text:8c9c694ff8132a50": {
+      "category": "train fault",
+      "first_seen": "2026-09-17T19:02:15Z",
+      "issue_key": "jubilee:text:8c9c694ff8132a50",
+      "line_id": "jubilee",
+      "line_name": "Jubilee",
+      "reason": "Jubilee Line: Minor delays due to an earlier faulty train at Westminster.",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    }
+  },
+  "history": [
+    {
+      "category": "signal failure",
+      "duration_seconds": 11032,
       "first_seen": "2026-09-17T15:58:23Z",
       "issue_key": "central:text:52ac14c8e49231df",
       "line_id": "central",
       "line_name": "Central",
       "reason": "Central Line: Severe delays while we fix a signal failure at White City. Tickets being London Buses, Liberty Line, Elizabeth Line, Chiltern, Great Western and Greater Angila services.",
+      "resolved_at": "2026-09-17T19:02:15Z",
       "severity": "Severe Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "elizabeth:text:4a9fbf201bee05c9": {
+    {
       "category": "power failure",
+      "duration_seconds": 6836,
       "first_seen": "2026-09-17T17:08:19Z",
       "issue_key": "elizabeth:text:4a9fbf201bee05c9",
       "line_id": "elizabeth",
       "line_name": "Elizabeth line",
       "reason": "Minor delays between Paddington and Heathrow Terminals / Reading due to an earlier power supply failure at Southall. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-09-17T19:02:15Z",
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "jubilee:text:da167214120b7d1a": {
+    {
       "category": "train fault",
+      "duration_seconds": 14270,
       "first_seen": "2026-09-17T15:04:25Z",
       "issue_key": "jubilee:text:da167214120b7d1a",
       "line_id": "jubilee",
       "line_name": "Jubilee",
       "reason": "Jubilee Line: Severe delays due to an earlier faulty train at Westminster. London Buses, Mildmay line, DLR, Elizabeth line, c2c, Southeastern and Thameslink services are accepting tickets via any reasonable route.",
+      "resolved_at": "2026-09-17T19:02:15Z",
       "severity": "Severe Delays",
       "source_created": "0001-01-01T00:00:00"
-    }
-  },
-  "history": [
+    },
     {
       "category": "other",
       "duration_seconds": 3238,
@@ -10773,6 +10809,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-09-17T17:08:19Z",
+  "updated_at": "2026-09-17T19:02:15Z",
   "version": 1
 }
