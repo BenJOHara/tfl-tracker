@@ -1,27 +1,61 @@
 {
   "active": {
-    "central:text:dc3d787757a840b3": {
+    "central:text:6d0af7c9d44f714a": {
+      "category": "other",
+      "first_seen": "2026-09-17T15:04:25Z",
+      "issue_key": "central:text:6d0af7c9d44f714a",
+      "line_id": "central",
+      "line_name": "Central",
+      "reason": "Central Line: Minor delays due to train cancellations.",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "district:text:01dcebcb3a206074": {
+      "category": "other",
+      "first_seen": "2026-09-17T15:04:25Z",
+      "issue_key": "district:text:01dcebcb3a206074",
+      "line_id": "district",
+      "line_name": "District",
+      "reason": "District Line: Minor delays between Barking and Upminster due to an earlier person ill on the train at Upminster. GOOD SERVICE on the rest of the line.",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "jubilee:text:da167214120b7d1a": {
+      "category": "train fault",
+      "first_seen": "2026-09-17T15:04:25Z",
+      "issue_key": "jubilee:text:da167214120b7d1a",
+      "line_id": "jubilee",
+      "line_name": "Jubilee",
+      "reason": "Jubilee Line: Severe delays due to an earlier faulty train at Westminster. London Buses, Mildmay line, DLR, Elizabeth line, c2c, Southeastern and Thameslink services are accepting tickets via any reasonable route.",
+      "severity": "Severe Delays",
+      "source_created": "0001-01-01T00:00:00"
+    }
+  },
+  "history": [
+    {
       "category": "points failure",
+      "duration_seconds": 11544,
       "first_seen": "2026-09-17T11:52:01Z",
       "issue_key": "central:text:dc3d787757a840b3",
       "line_id": "central",
       "line_name": "Central",
       "reason": "Central Line: Minor delays while we fix a points failure at Hainault and due to train cancellations.",
+      "resolved_at": "2026-09-17T15:04:25Z",
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "jubilee:text:f2ea08812611415d": {
+    {
       "category": "train fault",
+      "duration_seconds": 11544,
       "first_seen": "2026-09-17T11:52:01Z",
       "issue_key": "jubilee:text:f2ea08812611415d",
       "line_id": "jubilee",
       "line_name": "Jubilee",
       "reason": "Jubilee Line: No service between Green Park and Waterloo, and SEVERE DELAYS on the rest of the line while we fix a faulty train at Westminster. London Buses, Mildmay line, DLR, Elizabeth line, c2c, Southeastern and Thameslink services are accepting tickets via any reasonable route.",
+      "resolved_at": "2026-09-17T15:04:25Z",
       "severity": "Part Suspended",
       "source_created": "0001-01-01T00:00:00"
-    }
-  },
-  "history": [
+    },
     {
       "category": "other",
       "duration_seconds": 5725,
@@ -10715,6 +10749,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-09-17T11:52:01Z",
+  "updated_at": "2026-09-17T15:04:25Z",
   "version": 1
 }
