@@ -1,27 +1,51 @@
 {
   "active": {
-    "central:text:23c62521d4237097": {
-      "category": "other",
-      "first_seen": "2026-09-17T10:16:36Z",
-      "issue_key": "central:text:23c62521d4237097",
+    "central:text:dc3d787757a840b3": {
+      "category": "points failure",
+      "first_seen": "2026-09-17T11:52:01Z",
+      "issue_key": "central:text:dc3d787757a840b3",
       "line_id": "central",
       "line_name": "Central",
-      "reason": "Central Line: Minor delays between North Acton and Ealing Broadway/West Ruislip and between Leytonstone and Epping/Hainault via Newbury Park due to train cancellations. GOOD SERVICE on the rest of the line.",
+      "reason": "Central Line: Minor delays while we fix a points failure at Hainault and due to train cancellations.",
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "jubilee:text:a162d21ca1ea2c88": {
+    "jubilee:text:f2ea08812611415d": {
       "category": "train fault",
-      "first_seen": "2026-09-17T10:16:36Z",
-      "issue_key": "jubilee:text:a162d21ca1ea2c88",
+      "first_seen": "2026-09-17T11:52:01Z",
+      "issue_key": "jubilee:text:f2ea08812611415d",
       "line_id": "jubilee",
       "line_name": "Jubilee",
-      "reason": "Jubilee Line: No service between London Bridge and Green Park and SEVERE DELAYS on the rest of the line while we fix a faulty train at Westminster. London Buses, Mildmay line, DLR, Elizabeth line, c2c, Southeastern and Thameslink services are accepting tickets via any reasonable route.",
+      "reason": "Jubilee Line: No service between Green Park and Waterloo, and SEVERE DELAYS on the rest of the line while we fix a faulty train at Westminster. London Buses, Mildmay line, DLR, Elizabeth line, c2c, Southeastern and Thameslink services are accepting tickets via any reasonable route.",
       "severity": "Part Suspended",
       "source_created": "0001-01-01T00:00:00"
     }
   },
   "history": [
+    {
+      "category": "other",
+      "duration_seconds": 5725,
+      "first_seen": "2026-09-17T10:16:36Z",
+      "issue_key": "central:text:23c62521d4237097",
+      "line_id": "central",
+      "line_name": "Central",
+      "reason": "Central Line: Minor delays between North Acton and Ealing Broadway/West Ruislip and between Leytonstone and Epping/Hainault via Newbury Park due to train cancellations. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-09-17T11:52:01Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "train fault",
+      "duration_seconds": 5725,
+      "first_seen": "2026-09-17T10:16:36Z",
+      "issue_key": "jubilee:text:a162d21ca1ea2c88",
+      "line_id": "jubilee",
+      "line_name": "Jubilee",
+      "reason": "Jubilee Line: No service between London Bridge and Green Park and SEVERE DELAYS on the rest of the line while we fix a faulty train at Westminster. London Buses, Mildmay line, DLR, Elizabeth line, c2c, Southeastern and Thameslink services are accepting tickets via any reasonable route.",
+      "resolved_at": "2026-09-17T11:52:01Z",
+      "severity": "Part Suspended",
+      "source_created": "0001-01-01T00:00:00"
+    },
     {
       "category": "other",
       "duration_seconds": 17412,
@@ -10691,6 +10715,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-09-17T10:16:36Z",
+  "updated_at": "2026-09-17T11:52:01Z",
   "version": 1
 }
