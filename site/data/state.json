@@ -1,27 +1,51 @@
 {
   "active": {
-    "circle:text:bf9bb7504db7ea4d": {
+    "central:text:23c62521d4237097": {
       "category": "other",
+      "first_seen": "2026-09-17T10:16:36Z",
+      "issue_key": "central:text:23c62521d4237097",
+      "line_id": "central",
+      "line_name": "Central",
+      "reason": "Central Line: Minor delays between North Acton and Ealing Broadway/West Ruislip and between Leytonstone and Epping/Hainault via Newbury Park due to train cancellations. GOOD SERVICE on the rest of the line.",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "jubilee:text:a162d21ca1ea2c88": {
+      "category": "train fault",
+      "first_seen": "2026-09-17T10:16:36Z",
+      "issue_key": "jubilee:text:a162d21ca1ea2c88",
+      "line_id": "jubilee",
+      "line_name": "Jubilee",
+      "reason": "Jubilee Line: No service between London Bridge and Green Park and SEVERE DELAYS on the rest of the line while we fix a faulty train at Westminster. London Buses, Mildmay line, DLR, Elizabeth line, c2c, Southeastern and Thameslink services are accepting tickets via any reasonable route.",
+      "severity": "Part Suspended",
+      "source_created": "0001-01-01T00:00:00"
+    }
+  },
+  "history": [
+    {
+      "category": "other",
+      "duration_seconds": 17412,
       "first_seen": "2026-09-17T05:26:24Z",
       "issue_key": "circle:text:bf9bb7504db7ea4d",
       "line_id": "circle",
       "line_name": "Circle",
       "reason": "Circle Line: Minor delays due to train cancellations.",
+      "resolved_at": "2026-09-17T10:16:36Z",
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "victoria:text:02e0850cdf11ef25": {
+    {
       "category": "other",
+      "duration_seconds": 14608,
       "first_seen": "2026-09-17T06:13:08Z",
       "issue_key": "victoria:text:02e0850cdf11ef25",
       "line_id": "victoria",
       "line_name": "Victoria",
       "reason": "Victoria Line: Minor delays due to train cancellations.",
+      "resolved_at": "2026-09-17T10:16:36Z",
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
-    }
-  },
-  "history": [
+    },
     {
       "category": "other",
       "duration_seconds": 17608,
@@ -10667,6 +10691,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-09-17T06:13:08Z",
+  "updated_at": "2026-09-17T10:16:36Z",
   "version": 1
 }
