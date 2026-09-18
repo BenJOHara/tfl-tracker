@@ -40,18 +40,40 @@
       "severity": "Reduced Service",
       "source_created": "0001-01-01T00:00:00"
     },
-    "piccadilly:text:8d74a34cf487dd61": {
+    "piccadilly:text:39db3ff9f7c22be8": {
       "category": "signal failure",
+      "first_seen": "2026-09-18T22:23:07Z",
+      "issue_key": "piccadilly:text:39db3ff9f7c22be8",
+      "line_id": "piccadilly",
+      "line_name": "Piccadilly",
+      "reason": "Piccadilly Line: Severe delays between Acton Town and Uxbridge/Heathrow Terminals due to an earlier signal failure at Cockfosters. Tickets are being accepted on London Buses, the Weaver line, Elizabeth line and Great Northern. GOOD SERVICE on the rest of the line.",
+      "severity": "Severe Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "suffragette:text:5064b8b0b422b7c6": {
+      "category": "other",
+      "first_seen": "2026-09-18T22:23:07Z",
+      "issue_key": "suffragette:text:5064b8b0b422b7c6",
+      "line_id": "suffragette",
+      "line_name": "Suffragette",
+      "reason": "SUFFRAGETTE LINE: Monday 14, Tuesday 15, Wednesday 16, Thursday 17 and Friday 18 Septenber, the 2303 train from Barking Riverside to Gospel Oak will terminate at Upper Holloway at 2338",
+      "severity": "Reduced Service",
+      "source_created": "0001-01-01T00:00:00"
+    }
+  },
+  "history": [
+    {
+      "category": "signal failure",
+      "duration_seconds": 1548,
       "first_seen": "2026-09-18T21:57:19Z",
       "issue_key": "piccadilly:text:8d74a34cf487dd61",
       "line_id": "piccadilly",
       "line_name": "Piccadilly",
       "reason": "Piccadilly Line: Severe delays between Hyde Park Corner and Uxbridge/Heathrow Terminals westbound only due to an earlier signal failure at Cockfosters. Tickets are being accepted on London Buses, the Weaver line and Great Northern. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-09-18T22:23:07Z",
       "severity": "Severe Delays",
       "source_created": "0001-01-01T00:00:00"
-    }
-  },
-  "history": [
+    },
     {
       "category": "other",
       "duration_seconds": 14789,
@@ -11405,6 +11427,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-09-18T21:57:19Z",
+  "updated_at": "2026-09-18T22:23:07Z",
   "version": 1
 }
