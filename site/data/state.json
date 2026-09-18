@@ -10,16 +10,6 @@
       "severity": "Severe Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "central:text:8e616bb51b61b43b": {
-      "category": "other",
-      "first_seen": "2026-09-18T17:18:51Z",
-      "issue_key": "central:text:8e616bb51b61b43b",
-      "line_id": "central",
-      "line_name": "Central",
-      "reason": "Central Line: Severe delays due to train cancellations. Tickets are being accepted on London Buses, Elizabeth line, Chiltern, Great Western, Great Anglia services.",
-      "severity": "Severe Delays",
-      "source_created": "0001-01-01T00:00:00"
-    },
     "hammersmith-city:text:eabfddb858ca741e": {
       "category": "other",
       "first_seen": "2026-09-18T19:44:24Z",
@@ -28,16 +18,6 @@
       "line_name": "Hammersmith & City",
       "reason": "Hammersmith and City Line: Severe delays due to train cancellations. Tickets being accepted on London Buses, Mildmay line, DLR and Elizabeth line via any reasonable routes.",
       "severity": "Severe Delays",
-      "source_created": "0001-01-01T00:00:00"
-    },
-    "jubilee:text:57925a2ef9e26722": {
-      "category": "other",
-      "first_seen": "2026-09-18T17:18:51Z",
-      "issue_key": "jubilee:text:57925a2ef9e26722",
-      "line_id": "jubilee",
-      "line_name": "Jubilee",
-      "reason": "Jubilee Line: Minor delays due to train cancellations.",
-      "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
     "mildmay:text:d9b8bc10f9853ea1": {
@@ -52,6 +32,30 @@
     }
   },
   "history": [
+    {
+      "category": "other",
+      "duration_seconds": 10084,
+      "first_seen": "2026-09-18T17:18:51Z",
+      "issue_key": "central:text:8e616bb51b61b43b",
+      "line_id": "central",
+      "line_name": "Central",
+      "reason": "Central Line: Severe delays due to train cancellations. Tickets are being accepted on London Buses, Elizabeth line, Chiltern, Great Western, Great Anglia services.",
+      "resolved_at": "2026-09-18T20:06:55Z",
+      "severity": "Severe Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "other",
+      "duration_seconds": 10084,
+      "first_seen": "2026-09-18T17:18:51Z",
+      "issue_key": "jubilee:text:57925a2ef9e26722",
+      "line_id": "jubilee",
+      "line_name": "Jubilee",
+      "reason": "Jubilee Line: Minor delays due to train cancellations.",
+      "resolved_at": "2026-09-18T20:06:55Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
     {
       "category": "other",
       "duration_seconds": 1919,
@@ -11369,6 +11373,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-09-18T19:44:24Z",
+  "updated_at": "2026-09-18T20:06:55Z",
   "version": 1
 }
