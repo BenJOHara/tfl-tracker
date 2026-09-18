@@ -20,6 +20,16 @@
       "severity": "Severe Delays",
       "source_created": "0001-01-01T00:00:00"
     },
+    "hammersmith-city:text:eabfddb858ca741e": {
+      "category": "other",
+      "first_seen": "2026-09-18T19:44:24Z",
+      "issue_key": "hammersmith-city:text:eabfddb858ca741e",
+      "line_id": "hammersmith-city",
+      "line_name": "Hammersmith & City",
+      "reason": "Hammersmith and City Line: Severe delays due to train cancellations. Tickets being accepted on London Buses, Mildmay line, DLR and Elizabeth line via any reasonable routes.",
+      "severity": "Severe Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
     "jubilee:text:57925a2ef9e26722": {
       "category": "other",
       "first_seen": "2026-09-18T17:18:51Z",
@@ -11359,6 +11369,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-09-18T17:50:50Z",
+  "updated_at": "2026-09-18T19:44:24Z",
   "version": 1
 }
