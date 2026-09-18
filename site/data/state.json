@@ -1,12 +1,22 @@
 {
   "active": {
-    "district:text:ef9c1cd915ebda17": {
+    "circle:text:8c05cbd38f74e3fb": {
       "category": "train fault",
-      "first_seen": "2026-09-18T05:00:42Z",
-      "issue_key": "district:text:ef9c1cd915ebda17",
+      "first_seen": "2026-09-18T05:18:14Z",
+      "issue_key": "circle:text:8c05cbd38f74e3fb",
+      "line_id": "circle",
+      "line_name": "Circle",
+      "reason": "Circle Line: Minor delays while we fix a defective train at Whitechapel.",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "district:text:c0513d613486a4d7": {
+      "category": "train fault",
+      "first_seen": "2026-09-18T05:18:14Z",
+      "issue_key": "district:text:c0513d613486a4d7",
       "line_id": "district",
       "line_name": "District",
-      "reason": "District Line: Severe delays between Earl's Court and Wimbledon due to a late finish of engineering work. Tickets are being accepted on London Buses and South Western Railway. MINOR DELAYS between Earl's Court and Upminster westbound only while we fix a faulty train at Whitechapel. GOOD SERVICE on the rest of the line.",
+      "reason": "District Line: Severe delays between Earl's Court and Wimbledon due to a late finish of engineering work at Parsons Green. SEVERE DELAYS between Upminster and Earl's Court westbound only while we fix a faulty train at Whitechapel. Tickets are being accepted on London Buses, C2C, DLR and South Western Railway. GOOD SERVICE on the rest of the line.",
       "severity": "Severe Delays",
       "source_created": "0001-01-01T00:00:00"
     },
@@ -20,38 +30,66 @@
       "severity": "Severe Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "northern:text:6280c0e54c4a4bf4": {
-      "category": "other",
-      "first_seen": "2026-09-18T05:00:42Z",
-      "issue_key": "northern:text:6280c0e54c4a4bf4",
-      "line_id": "northern",
-      "line_name": "Northern",
-      "reason": "Northern Line: No service between Kennington and Battersea Power Station due to a communications fault in the control room. Tickets are being accepted on London Buses. GOOD SERVICE on the rest of the line.",
-      "severity": "Part Suspended",
-      "source_created": "0001-01-01T00:00:00"
-    },
-    "victoria:text:66c197c988aea45f": {
+    "victoria:text:e864e43caf454aed": {
       "category": "planned engineering",
-      "first_seen": "2026-09-18T05:00:42Z",
-      "issue_key": "victoria:text:66c197c988aea45f",
+      "first_seen": "2026-09-18T05:18:14Z",
+      "issue_key": "victoria:text:e864e43caf454aed",
       "line_id": "victoria",
       "line_name": "Victoria",
-      "reason": "Victoria Line: No service northbound only due to a late finish of engineering work at Brixton. Tickets are being accepted on London Buses, Southeastern, South Western Railway, Greater Anglia, Great Northern, Suffragette line and Weaver line. GOOD SERVICE on the rest of the line.",
-      "severity": "Part Suspended",
-      "source_created": "0001-01-01T00:00:00"
-    },
-    "windrush:text:da341a3de1fd7abe": {
-      "category": "planned engineering",
-      "first_seen": "2026-09-18T05:00:42Z",
-      "issue_key": "windrush:text:da341a3de1fd7abe",
-      "line_id": "windrush",
-      "line_name": "Windrush",
-      "reason": "Windrush Line: Minor delays due to a late finish of engineering work at Norwood Junction. GOOD SERVICE on the rest of the line.",
+      "reason": "Victoria Line: Minor delays following a late finish of engineering work at Brixton.",
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     }
   },
   "history": [
+    {
+      "category": "train fault",
+      "duration_seconds": 1052,
+      "first_seen": "2026-09-18T05:00:42Z",
+      "issue_key": "district:text:ef9c1cd915ebda17",
+      "line_id": "district",
+      "line_name": "District",
+      "reason": "District Line: Severe delays between Earl's Court and Wimbledon due to a late finish of engineering work. Tickets are being accepted on London Buses and South Western Railway. MINOR DELAYS between Earl's Court and Upminster westbound only while we fix a faulty train at Whitechapel. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-09-18T05:18:14Z",
+      "severity": "Severe Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "other",
+      "duration_seconds": 1052,
+      "first_seen": "2026-09-18T05:00:42Z",
+      "issue_key": "northern:text:6280c0e54c4a4bf4",
+      "line_id": "northern",
+      "line_name": "Northern",
+      "reason": "Northern Line: No service between Kennington and Battersea Power Station due to a communications fault in the control room. Tickets are being accepted on London Buses. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-09-18T05:18:14Z",
+      "severity": "Part Suspended",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "planned engineering",
+      "duration_seconds": 1052,
+      "first_seen": "2026-09-18T05:00:42Z",
+      "issue_key": "victoria:text:66c197c988aea45f",
+      "line_id": "victoria",
+      "line_name": "Victoria",
+      "reason": "Victoria Line: No service northbound only due to a late finish of engineering work at Brixton. Tickets are being accepted on London Buses, Southeastern, South Western Railway, Greater Anglia, Great Northern, Suffragette line and Weaver line. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-09-18T05:18:14Z",
+      "severity": "Part Suspended",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "planned engineering",
+      "duration_seconds": 1052,
+      "first_seen": "2026-09-18T05:00:42Z",
+      "issue_key": "windrush:text:da341a3de1fd7abe",
+      "line_id": "windrush",
+      "line_name": "Windrush",
+      "reason": "Windrush Line: Minor delays due to a late finish of engineering work at Norwood Junction. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-09-18T05:18:14Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
     {
       "category": "other",
       "duration_seconds": 16842,
@@ -11189,6 +11227,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-09-18T05:00:42Z",
+  "updated_at": "2026-09-18T05:18:14Z",
   "version": 1
 }
