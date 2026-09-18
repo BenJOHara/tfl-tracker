@@ -1,13 +1,13 @@
 {
   "active": {
-    "central:text:83e7e31f4f312c5f": {
+    "central:text:3ec03880b456ad30": {
       "category": "other",
-      "first_seen": "2026-09-18T13:52:11Z",
-      "issue_key": "central:text:83e7e31f4f312c5f",
+      "first_seen": "2026-09-18T14:24:58Z",
+      "issue_key": "central:text:3ec03880b456ad30",
       "line_id": "central",
       "line_name": "Central",
-      "reason": "Central Line: Severe delays between North Acton and Ealing Broadway / West Ruislip and between Leytonstone and Epping / Hainault via Newbury Park and MINOR DELAYS on the rest of the line due to train cancellations. Tickets are being accepted on London Buses.",
-      "severity": "Minor Delays",
+      "reason": "Central Line: Severe delays due to train cancellations. Tickets are being accepted on London Buses, Elizabeth line, Liberty line, Great Western Railway, Chiltern Railways and Greater Anglia.",
+      "severity": "Severe Delays",
       "source_created": "0001-01-01T00:00:00"
     },
     "mildmay:text:92d32361081eca5b": {
@@ -19,19 +19,33 @@
       "reason": "Mildmay Line: Severe delays between Willesden Junction and Clapham Junction due to a vehicle colliding with a level crossing in the Shepherd's Bush area. MINOR DELAYS between Willesden Junction and Richmond due to train cancellations. GOOD SERVICE on the rest of the line.",
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
+    }
+  },
+  "history": [
+    {
+      "category": "other",
+      "duration_seconds": 1967,
+      "first_seen": "2026-09-18T13:52:11Z",
+      "issue_key": "central:text:83e7e31f4f312c5f",
+      "line_id": "central",
+      "line_name": "Central",
+      "reason": "Central Line: Severe delays between North Acton and Ealing Broadway / West Ruislip and between Leytonstone and Epping / Hainault via Newbury Park and MINOR DELAYS on the rest of the line due to train cancellations. Tickets are being accepted on London Buses.",
+      "resolved_at": "2026-09-18T14:24:58Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
     },
-    "piccadilly:text:ad6c21a18aabcf02": {
+    {
       "category": "points failure",
+      "duration_seconds": 1967,
       "first_seen": "2026-09-18T13:52:11Z",
       "issue_key": "piccadilly:text:ad6c21a18aabcf02",
       "line_id": "piccadilly",
       "line_name": "Piccadilly",
       "reason": "Piccadilly Line: Minor delays between Rayners Lane and Uxbridge while we fix a points failure at Uxbridge. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-09-18T14:24:58Z",
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
-    }
-  },
-  "history": [
+    },
     {
       "category": "other",
       "duration_seconds": 15384,
@@ -11301,6 +11315,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-09-18T13:52:11Z",
+  "updated_at": "2026-09-18T14:24:58Z",
   "version": 1
 }
