@@ -10,18 +10,50 @@
       "severity": "Severe Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "mildmay:text:92d32361081eca5b": {
+    "central:text:8e616bb51b61b43b": {
       "category": "other",
-      "first_seen": "2026-09-18T13:52:11Z",
-      "issue_key": "mildmay:text:92d32361081eca5b",
+      "first_seen": "2026-09-18T17:18:51Z",
+      "issue_key": "central:text:8e616bb51b61b43b",
+      "line_id": "central",
+      "line_name": "Central",
+      "reason": "Central Line: Severe delays due to train cancellations. Tickets are being accepted on London Buses, Elizabeth line, Chiltern, Great Western, Great Anglia services.",
+      "severity": "Severe Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "jubilee:text:57925a2ef9e26722": {
+      "category": "other",
+      "first_seen": "2026-09-18T17:18:51Z",
+      "issue_key": "jubilee:text:57925a2ef9e26722",
+      "line_id": "jubilee",
+      "line_name": "Jubilee",
+      "reason": "Jubilee Line: Minor delays due to train cancellations.",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "mildmay:text:649c7b8274c68b35": {
+      "category": "other",
+      "first_seen": "2026-09-18T17:18:51Z",
+      "issue_key": "mildmay:text:649c7b8274c68b35",
       "line_id": "mildmay",
       "line_name": "Mildmay",
-      "reason": "Mildmay Line: Severe delays between Willesden Junction and Clapham Junction due to a vehicle colliding with a level crossing in the Shepherd's Bush area. MINOR DELAYS between Willesden Junction and Richmond due to train cancellations. GOOD SERVICE on the rest of the line.",
+      "reason": "Mildmay Line: Minor delays due to a vehicle colliding with a level crossing in the Shepherd's Bush area and train cancellations.",
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     }
   },
   "history": [
+    {
+      "category": "other",
+      "duration_seconds": 12400,
+      "first_seen": "2026-09-18T13:52:11Z",
+      "issue_key": "mildmay:text:92d32361081eca5b",
+      "line_id": "mildmay",
+      "line_name": "Mildmay",
+      "reason": "Mildmay Line: Severe delays between Willesden Junction and Clapham Junction due to a vehicle colliding with a level crossing in the Shepherd's Bush area. MINOR DELAYS between Willesden Junction and Richmond due to train cancellations. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-09-18T17:18:51Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
     {
       "category": "other",
       "duration_seconds": 1967,
@@ -11315,6 +11347,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-09-18T14:24:58Z",
+  "updated_at": "2026-09-18T17:18:51Z",
   "version": 1
 }
