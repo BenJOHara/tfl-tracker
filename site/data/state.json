@@ -20,18 +20,50 @@
       "severity": "Severe Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "mildmay:text:d9b8bc10f9853ea1": {
+    "mildmay:text:43e11f61382aaf09": {
       "category": "other",
+      "first_seen": "2026-09-18T21:57:19Z",
+      "issue_key": "mildmay:text:43e11f61382aaf09",
+      "line_id": "mildmay",
+      "line_name": "Mildmay",
+      "reason": "Mildmay Line: Severe delays between Willesden Junction and Richmond and MINOR DELAYS on the rest of the line due to train cancellations.",
+      "severity": "Severe Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "mildmay:text:52b4d5ac71ea619f": {
+      "category": "other",
+      "first_seen": "2026-09-18T21:57:19Z",
+      "issue_key": "mildmay:text:52b4d5ac71ea619f",
+      "line_id": "mildmay",
+      "line_name": "Mildmay",
+      "reason": "MILDMAY LINE: Friday 18 September, the 2159 train from Stratford to Richmond will terminate at Camden Road. The 2318 train from Richmond to Willesden Junction will not run",
+      "severity": "Reduced Service",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "piccadilly:text:8d74a34cf487dd61": {
+      "category": "signal failure",
+      "first_seen": "2026-09-18T21:57:19Z",
+      "issue_key": "piccadilly:text:8d74a34cf487dd61",
+      "line_id": "piccadilly",
+      "line_name": "Piccadilly",
+      "reason": "Piccadilly Line: Severe delays between Hyde Park Corner and Uxbridge/Heathrow Terminals westbound only due to an earlier signal failure at Cockfosters. Tickets are being accepted on London Buses, the Weaver line and Great Northern. GOOD SERVICE on the rest of the line.",
+      "severity": "Severe Delays",
+      "source_created": "0001-01-01T00:00:00"
+    }
+  },
+  "history": [
+    {
+      "category": "other",
+      "duration_seconds": 14789,
       "first_seen": "2026-09-18T17:50:50Z",
       "issue_key": "mildmay:text:d9b8bc10f9853ea1",
       "line_id": "mildmay",
       "line_name": "Mildmay",
       "reason": "Mildmay Line: Minor delays due to train cancellations.",
+      "resolved_at": "2026-09-18T21:57:19Z",
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
-    }
-  },
-  "history": [
+    },
     {
       "category": "other",
       "duration_seconds": 10084,
@@ -11373,6 +11405,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-09-18T20:06:55Z",
+  "updated_at": "2026-09-18T21:57:19Z",
   "version": 1
 }
