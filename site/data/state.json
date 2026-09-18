@@ -1,37 +1,73 @@
 {
   "active": {
-    "central:text:23c62521d4237097": {
+    "central:text:83e7e31f4f312c5f": {
       "category": "other",
-      "first_seen": "2026-09-18T09:35:47Z",
-      "issue_key": "central:text:23c62521d4237097",
+      "first_seen": "2026-09-18T13:52:11Z",
+      "issue_key": "central:text:83e7e31f4f312c5f",
       "line_id": "central",
       "line_name": "Central",
-      "reason": "Central Line: Minor delays between North Acton and Ealing Broadway/West Ruislip and between Leytonstone and Epping/Hainault via Newbury Park due to train cancellations. GOOD SERVICE on the rest of the line.",
+      "reason": "Central Line: Severe delays between North Acton and Ealing Broadway / West Ruislip and between Leytonstone and Epping / Hainault via Newbury Park and MINOR DELAYS on the rest of the line due to train cancellations. Tickets are being accepted on London Buses.",
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "hammersmith-city:text:004129bf5e441754": {
+    "mildmay:text:92d32361081eca5b": {
       "category": "other",
-      "first_seen": "2026-09-18T09:35:47Z",
-      "issue_key": "hammersmith-city:text:004129bf5e441754",
-      "line_id": "hammersmith-city",
-      "line_name": "Hammersmith & City",
-      "reason": "Hammersmith and City Line: Minor delays due to train cancellations.",
+      "first_seen": "2026-09-18T13:52:11Z",
+      "issue_key": "mildmay:text:92d32361081eca5b",
+      "line_id": "mildmay",
+      "line_name": "Mildmay",
+      "reason": "Mildmay Line: Severe delays between Willesden Junction and Clapham Junction due to a vehicle colliding with a level crossing in the Shepherd's Bush area. MINOR DELAYS between Willesden Junction and Richmond due to train cancellations. GOOD SERVICE on the rest of the line.",
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "piccadilly:text:28acec4b0787e582": {
-      "category": "other",
-      "first_seen": "2026-09-18T09:53:44Z",
-      "issue_key": "piccadilly:text:28acec4b0787e582",
+    "piccadilly:text:ad6c21a18aabcf02": {
+      "category": "points failure",
+      "first_seen": "2026-09-18T13:52:11Z",
+      "issue_key": "piccadilly:text:ad6c21a18aabcf02",
       "line_id": "piccadilly",
       "line_name": "Piccadilly",
-      "reason": "Piccadilly Line: Minor delays between Acton Town and Heathrow Terminals/Rayners Lane due to train cancellations. GOOD SERVICE on the rest of the line.",
+      "reason": "Piccadilly Line: Minor delays between Rayners Lane and Uxbridge while we fix a points failure at Uxbridge. GOOD SERVICE on the rest of the line.",
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     }
   },
   "history": [
+    {
+      "category": "other",
+      "duration_seconds": 15384,
+      "first_seen": "2026-09-18T09:35:47Z",
+      "issue_key": "central:text:23c62521d4237097",
+      "line_id": "central",
+      "line_name": "Central",
+      "reason": "Central Line: Minor delays between North Acton and Ealing Broadway/West Ruislip and between Leytonstone and Epping/Hainault via Newbury Park due to train cancellations. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-09-18T13:52:11Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "other",
+      "duration_seconds": 15384,
+      "first_seen": "2026-09-18T09:35:47Z",
+      "issue_key": "hammersmith-city:text:004129bf5e441754",
+      "line_id": "hammersmith-city",
+      "line_name": "Hammersmith & City",
+      "reason": "Hammersmith and City Line: Minor delays due to train cancellations.",
+      "resolved_at": "2026-09-18T13:52:11Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "other",
+      "duration_seconds": 14307,
+      "first_seen": "2026-09-18T09:53:44Z",
+      "issue_key": "piccadilly:text:28acec4b0787e582",
+      "line_id": "piccadilly",
+      "line_name": "Piccadilly",
+      "reason": "Piccadilly Line: Minor delays between Acton Town and Heathrow Terminals/Rayners Lane due to train cancellations. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-09-18T13:52:11Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
     {
       "category": "train fault",
       "duration_seconds": 15453,
@@ -11265,6 +11301,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-09-18T09:53:44Z",
+  "updated_at": "2026-09-18T13:52:11Z",
   "version": 1
 }
