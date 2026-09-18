@@ -120,26 +120,6 @@
       "severity": "Service Closed",
       "source_created": "0001-01-01T00:00:00"
     },
-    "mildmay:text:7b8e13a79f0f3dad": {
-      "category": "other",
-      "first_seen": "2026-09-17T22:54:35Z",
-      "issue_key": "mildmay:text:7b8e13a79f0f3dad",
-      "line_id": "mildmay",
-      "line_name": "Mildmay",
-      "reason": "MILDMAY LINE: Monday 14, Tuesday 15, Wednesday 16 and Thursday 17 September, after 2345 each evening, no service westbound from Stratford to Camden Road after 2345. The 2359 and 0015 services from Stratford will start from Camden Road at 0018 and 0035. Customers should use the last westbound service from Stratford at 2344, or local bus routes 30, 274, 388, 393 or 488.",
-      "severity": "Part Closure",
-      "source_created": "0001-01-01T00:00:00"
-    },
-    "mildmay:text:853d13dd46662f08": {
-      "category": "other",
-      "first_seen": "2026-09-17T22:10:10Z",
-      "issue_key": "mildmay:text:853d13dd46662f08",
-      "line_id": "mildmay",
-      "line_name": "Mildmay",
-      "reason": "MILDMAY LINE: Wednesday 16 and Thursday 17 September, after 2300 each day, no service eastbound from Willesden Junction to Stratford. Customers should use the last eastbound services detailed below or London Overground services to Euston. Last through trains: Clapham Junction to Stratford 2218; Richmond to Stratford 22:32; Willesden Junction to Stratford 2252. The 2129 and 2159 trains from Stratford to Richmond, and 2135 train from Stratford to Clapham Junction, will terminate at Camden Road. The 2147 Clapham Junction to Stratford train will not run. The 2203 and 2234 Clapham Junction to Stratford trains, and the 2148 2240 and 2302 Richmond to Stratford trains will terminate at Willesden Junction. The 2300 Stratford to Richmond and 2318 Richmond to Willesden Junction trains will not run.",
-      "severity": "Part Closure",
-      "source_created": "0001-01-01T00:00:00"
-    },
     "northern:text:82bd4c50fdf4647c": {
       "category": "other",
       "first_seen": "2026-09-18T00:20:00Z",
@@ -167,6 +147,16 @@
       "line_id": "suffragette",
       "line_name": "Suffragette",
       "reason": "Suffragette Line: Service will resume later this morning.",
+      "severity": "Service Closed",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "tram:text:ab9d7a64f14b787b": {
+      "category": "other",
+      "first_seen": "2026-09-18T00:44:54Z",
+      "issue_key": "tram:text:ab9d7a64f14b787b",
+      "line_id": "tram",
+      "line_name": "Tram",
+      "reason": "London Tramlink: Service will resume later this morning.",
       "severity": "Service Closed",
       "source_created": "0001-01-01T00:00:00"
     },
@@ -200,16 +190,6 @@
       "severity": "Service Closed",
       "source_created": "0001-01-01T00:00:00"
     },
-    "windrush:text:24d1bf44592d3d93": {
-      "category": "other",
-      "first_seen": "2026-09-17T22:54:35Z",
-      "issue_key": "windrush:text:24d1bf44592d3d93",
-      "line_id": "windrush",
-      "line_name": "Windrush",
-      "reason": "WINDRUSH LINE: Monday 14, Tuesday 15, Wednesday 16 and Thursday 17 September, after 2330 each evening, no service between New Cross Gate and West Croydon / Crystal Palace. Rail replacement buses (Operated by Southern Railway) will run as follows: The bus for Crystal Palace will depart London Bridge at 2358 calling at New Cross Gate, Brockley, Honor Oak Park, Forest Hill, Sydenham, Crystal Palace, Gipsy Hill, West Norwood, Tulse Hill and Streatham Hill. The bus for East Croydon will depart London Bridge at 0035 calling at New Cross Gate, Brockley, Honor Oak Park, Forest Hill, Sydenham, Norwood Junction and East Croydon. One return bus from Crystal Palace departs at 2359, calling at all stations to London Bridge via New Cross Gate. Alternatively, use local buses or trams via any reasonable route. Last through trains: New Cross Gate to Crystal Palace 2324, Crystal Palace to New Cross Gate / Highbury & Islington 2332; New Cross Gate to West Croydon 2330, West Croydon to New Cross Gate / Highbury & Islington 2316. The 2232 and 2247 Highbury & Islington to West Croydon trains are diverted to Crystal Palace and the 2338 Dalston Junction to New Cross Gate train does not run.",
-      "severity": "Part Closure",
-      "source_created": "0001-01-01T00:00:00"
-    },
     "windrush:text:eb329ced32606fab": {
       "category": "other",
       "first_seen": "2026-09-18T00:20:00Z",
@@ -222,6 +202,42 @@
     }
   },
   "history": [
+    {
+      "category": "other",
+      "duration_seconds": 6619,
+      "first_seen": "2026-09-17T22:54:35Z",
+      "issue_key": "mildmay:text:7b8e13a79f0f3dad",
+      "line_id": "mildmay",
+      "line_name": "Mildmay",
+      "reason": "MILDMAY LINE: Monday 14, Tuesday 15, Wednesday 16 and Thursday 17 September, after 2345 each evening, no service westbound from Stratford to Camden Road after 2345. The 2359 and 0015 services from Stratford will start from Camden Road at 0018 and 0035. Customers should use the last westbound service from Stratford at 2344, or local bus routes 30, 274, 388, 393 or 488.",
+      "resolved_at": "2026-09-18T00:44:54Z",
+      "severity": "Part Closure",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "other",
+      "duration_seconds": 9284,
+      "first_seen": "2026-09-17T22:10:10Z",
+      "issue_key": "mildmay:text:853d13dd46662f08",
+      "line_id": "mildmay",
+      "line_name": "Mildmay",
+      "reason": "MILDMAY LINE: Wednesday 16 and Thursday 17 September, after 2300 each day, no service eastbound from Willesden Junction to Stratford. Customers should use the last eastbound services detailed below or London Overground services to Euston. Last through trains: Clapham Junction to Stratford 2218; Richmond to Stratford 22:32; Willesden Junction to Stratford 2252. The 2129 and 2159 trains from Stratford to Richmond, and 2135 train from Stratford to Clapham Junction, will terminate at Camden Road. The 2147 Clapham Junction to Stratford train will not run. The 2203 and 2234 Clapham Junction to Stratford trains, and the 2148 2240 and 2302 Richmond to Stratford trains will terminate at Willesden Junction. The 2300 Stratford to Richmond and 2318 Richmond to Willesden Junction trains will not run.",
+      "resolved_at": "2026-09-18T00:44:54Z",
+      "severity": "Part Closure",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "other",
+      "duration_seconds": 6619,
+      "first_seen": "2026-09-17T22:54:35Z",
+      "issue_key": "windrush:text:24d1bf44592d3d93",
+      "line_id": "windrush",
+      "line_name": "Windrush",
+      "reason": "WINDRUSH LINE: Monday 14, Tuesday 15, Wednesday 16 and Thursday 17 September, after 2330 each evening, no service between New Cross Gate and West Croydon / Crystal Palace. Rail replacement buses (Operated by Southern Railway) will run as follows: The bus for Crystal Palace will depart London Bridge at 2358 calling at New Cross Gate, Brockley, Honor Oak Park, Forest Hill, Sydenham, Crystal Palace, Gipsy Hill, West Norwood, Tulse Hill and Streatham Hill. The bus for East Croydon will depart London Bridge at 0035 calling at New Cross Gate, Brockley, Honor Oak Park, Forest Hill, Sydenham, Norwood Junction and East Croydon. One return bus from Crystal Palace departs at 2359, calling at all stations to London Bridge via New Cross Gate. Alternatively, use local buses or trams via any reasonable route. Last through trains: New Cross Gate to Crystal Palace 2324, Crystal Palace to New Cross Gate / Highbury & Islington 2332; New Cross Gate to West Croydon 2330, West Croydon to New Cross Gate / Highbury & Islington 2316. The 2232 and 2247 Highbury & Islington to West Croydon trains are diverted to Crystal Palace and the 2338 Dalston Junction to New Cross Gate train does not run.",
+      "resolved_at": "2026-09-18T00:44:54Z",
+      "severity": "Part Closure",
+      "source_created": "0001-01-01T00:00:00"
+    },
     {
       "category": "other",
       "duration_seconds": 14678,
@@ -11083,6 +11099,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-09-18T00:20:00Z",
+  "updated_at": "2026-09-18T00:44:54Z",
   "version": 1
 }
