@@ -1,15 +1,5 @@
 {
   "active": {
-    "central:text:3ec03880b456ad30": {
-      "category": "other",
-      "first_seen": "2026-09-18T14:24:58Z",
-      "issue_key": "central:text:3ec03880b456ad30",
-      "line_id": "central",
-      "line_name": "Central",
-      "reason": "Central Line: Severe delays due to train cancellations. Tickets are being accepted on London Buses, Elizabeth line, Liberty line, Great Western Railway, Chiltern Railways and Greater Anglia.",
-      "severity": "Severe Delays",
-      "source_created": "0001-01-01T00:00:00"
-    },
     "hammersmith-city:text:eabfddb858ca741e": {
       "category": "other",
       "first_seen": "2026-09-18T19:44:24Z",
@@ -20,48 +10,78 @@
       "severity": "Severe Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "mildmay:text:43e11f61382aaf09": {
+    "waterloo-city:text:1bbcac27f282d0db": {
       "category": "other",
+      "first_seen": "2026-09-19T00:13:39Z",
+      "issue_key": "waterloo-city:text:1bbcac27f282d0db",
+      "line_id": "waterloo-city",
+      "line_name": "Waterloo & City",
+      "reason": "Waterloo and City Line: Service will resume at 06:00 on Monday.",
+      "severity": "Service Closed",
+      "source_created": "0001-01-01T00:00:00"
+    }
+  },
+  "history": [
+    {
+      "category": "other",
+      "duration_seconds": 35321,
+      "first_seen": "2026-09-18T14:24:58Z",
+      "issue_key": "central:text:3ec03880b456ad30",
+      "line_id": "central",
+      "line_name": "Central",
+      "reason": "Central Line: Severe delays due to train cancellations. Tickets are being accepted on London Buses, Elizabeth line, Liberty line, Great Western Railway, Chiltern Railways and Greater Anglia.",
+      "resolved_at": "2026-09-19T00:13:39Z",
+      "severity": "Severe Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "other",
+      "duration_seconds": 8180,
       "first_seen": "2026-09-18T21:57:19Z",
       "issue_key": "mildmay:text:43e11f61382aaf09",
       "line_id": "mildmay",
       "line_name": "Mildmay",
       "reason": "Mildmay Line: Severe delays between Willesden Junction and Richmond and MINOR DELAYS on the rest of the line due to train cancellations.",
+      "resolved_at": "2026-09-19T00:13:39Z",
       "severity": "Severe Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "mildmay:text:52b4d5ac71ea619f": {
+    {
       "category": "other",
+      "duration_seconds": 8180,
       "first_seen": "2026-09-18T21:57:19Z",
       "issue_key": "mildmay:text:52b4d5ac71ea619f",
       "line_id": "mildmay",
       "line_name": "Mildmay",
       "reason": "MILDMAY LINE: Friday 18 September, the 2159 train from Stratford to Richmond will terminate at Camden Road. The 2318 train from Richmond to Willesden Junction will not run",
+      "resolved_at": "2026-09-19T00:13:39Z",
       "severity": "Reduced Service",
       "source_created": "0001-01-01T00:00:00"
     },
-    "piccadilly:text:39db3ff9f7c22be8": {
+    {
       "category": "signal failure",
+      "duration_seconds": 6632,
       "first_seen": "2026-09-18T22:23:07Z",
       "issue_key": "piccadilly:text:39db3ff9f7c22be8",
       "line_id": "piccadilly",
       "line_name": "Piccadilly",
       "reason": "Piccadilly Line: Severe delays between Acton Town and Uxbridge/Heathrow Terminals due to an earlier signal failure at Cockfosters. Tickets are being accepted on London Buses, the Weaver line, Elizabeth line and Great Northern. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-09-19T00:13:39Z",
       "severity": "Severe Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "suffragette:text:5064b8b0b422b7c6": {
+    {
       "category": "other",
+      "duration_seconds": 6632,
       "first_seen": "2026-09-18T22:23:07Z",
       "issue_key": "suffragette:text:5064b8b0b422b7c6",
       "line_id": "suffragette",
       "line_name": "Suffragette",
       "reason": "SUFFRAGETTE LINE: Monday 14, Tuesday 15, Wednesday 16, Thursday 17 and Friday 18 Septenber, the 2303 train from Barking Riverside to Gospel Oak will terminate at Upper Holloway at 2338",
+      "resolved_at": "2026-09-19T00:13:39Z",
       "severity": "Reduced Service",
       "source_created": "0001-01-01T00:00:00"
-    }
-  },
-  "history": [
+    },
     {
       "category": "signal failure",
       "duration_seconds": 1548,
@@ -11427,6 +11447,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-09-18T22:23:07Z",
+  "updated_at": "2026-09-19T00:13:39Z",
   "version": 1
 }
