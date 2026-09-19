@@ -50,16 +50,6 @@
       "severity": "Part Closure",
       "source_created": "0001-01-01T00:00:00"
     },
-    "jubilee:text:5917a0aebe196f8f": {
-      "category": "other",
-      "first_seen": "2026-09-19T20:58:25Z",
-      "issue_key": "jubilee:text:5917a0aebe196f8f",
-      "line_id": "jubilee",
-      "line_name": "Jubilee",
-      "reason": "Jubilee Line: Severe delays due to train cancellations. London Buses, Mildmay line, Elizabeth line, C2C, Southeastern and Thameslink services are accepting London Underground tickets.",
-      "severity": "Severe Delays",
-      "source_created": "0001-01-01T00:00:00"
-    },
     "metropolitan:text:ebef5d0583dc76ab": {
       "category": "other",
       "first_seen": "2026-09-19T22:56:00Z",
@@ -112,6 +102,18 @@
     }
   },
   "history": [
+    {
+      "category": "other",
+      "duration_seconds": 8561,
+      "first_seen": "2026-09-19T20:58:25Z",
+      "issue_key": "jubilee:text:5917a0aebe196f8f",
+      "line_id": "jubilee",
+      "line_name": "Jubilee",
+      "reason": "Jubilee Line: Severe delays due to train cancellations. London Buses, Mildmay line, Elizabeth line, C2C, Southeastern and Thameslink services are accepting London Underground tickets.",
+      "resolved_at": "2026-09-19T23:21:06Z",
+      "severity": "Severe Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
     {
       "category": "train fault",
       "duration_seconds": 7055,
@@ -11885,6 +11887,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-09-19T22:56:00Z",
+  "updated_at": "2026-09-19T23:21:06Z",
   "version": 1
 }
