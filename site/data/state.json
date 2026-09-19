@@ -20,24 +20,24 @@
       "severity": "Part Closure",
       "source_created": "0001-01-01T00:00:00"
     },
-    "hammersmith-city:text:004129bf5e441754": {
-      "category": "other",
-      "first_seen": "2026-09-19T09:00:55Z",
-      "issue_key": "hammersmith-city:text:004129bf5e441754",
-      "line_id": "hammersmith-city",
-      "line_name": "Hammersmith & City",
-      "reason": "Hammersmith and City Line: Minor delays due to train cancellations.",
+    "jubilee:text:267d1a27d25a2988": {
+      "category": "signal failure",
+      "first_seen": "2026-09-19T13:04:48Z",
+      "issue_key": "jubilee:text:267d1a27d25a2988",
+      "line_id": "jubilee",
+      "line_name": "Jubilee",
+      "reason": "Jubilee Line: Minor delays due to an earlier signal failure at Bond Street.",
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "jubilee:text:b12d920cc17faefa": {
-      "category": "signal failure",
-      "first_seen": "2026-09-19T09:00:55Z",
-      "issue_key": "jubilee:text:b12d920cc17faefa",
-      "line_id": "jubilee",
-      "line_name": "Jubilee",
-      "reason": "Jubilee Line: Severe delays due to an earlier signal failure at Bond Street. Tickets are being accepted on London Buses, Mildmay Line, DLR, Elizabeth Line, C2C, Southeastern and Thameslink via any reasonable route.",
-      "severity": "Severe Delays",
+    "metropolitan:text:065510fd137b7d90": {
+      "category": "other",
+      "first_seen": "2026-09-19T13:04:48Z",
+      "issue_key": "metropolitan:text:065510fd137b7d90",
+      "line_id": "metropolitan",
+      "line_name": "Metropolitan",
+      "reason": "Metropolitan Line: Minor delays between Moor Park and Watford, and between Harrow-on-the-Hill and Aldgate southbound only due to train cancellations. GOOD SERVICE on the rest of the line.",
+      "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
     "piccadilly:text:2b0b8ea71614ac9e": {
@@ -72,6 +72,30 @@
     }
   },
   "history": [
+    {
+      "category": "other",
+      "duration_seconds": 14633,
+      "first_seen": "2026-09-19T09:00:55Z",
+      "issue_key": "hammersmith-city:text:004129bf5e441754",
+      "line_id": "hammersmith-city",
+      "line_name": "Hammersmith & City",
+      "reason": "Hammersmith and City Line: Minor delays due to train cancellations.",
+      "resolved_at": "2026-09-19T13:04:48Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "signal failure",
+      "duration_seconds": 14633,
+      "first_seen": "2026-09-19T09:00:55Z",
+      "issue_key": "jubilee:text:b12d920cc17faefa",
+      "line_id": "jubilee",
+      "line_name": "Jubilee",
+      "reason": "Jubilee Line: Severe delays due to an earlier signal failure at Bond Street. Tickets are being accepted on London Buses, Mildmay Line, DLR, Elizabeth Line, C2C, Southeastern and Thameslink via any reasonable route.",
+      "resolved_at": "2026-09-19T13:04:48Z",
+      "severity": "Severe Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
     {
       "category": "other",
       "duration_seconds": 15323,
@@ -11701,6 +11725,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-09-19T09:00:55Z",
+  "updated_at": "2026-09-19T13:04:48Z",
   "version": 1
 }
