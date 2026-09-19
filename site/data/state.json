@@ -1,15 +1,5 @@
 {
   "active": {
-    "circle:text:396d115f881d2bd0": {
-      "category": "other",
-      "first_seen": "2026-09-19T04:45:32Z",
-      "issue_key": "circle:text:396d115f881d2bd0",
-      "line_id": "circle",
-      "line_name": "Circle",
-      "reason": "Circle Line: Severe delays due to train cancellations. Tickets will be accepted on London Buses.",
-      "severity": "Severe Delays",
-      "source_created": "0001-01-01T00:00:00"
-    },
     "district:text:13e8de774f2ea67e": {
       "category": "other",
       "first_seen": "2026-09-19T04:45:32Z",
@@ -28,6 +18,26 @@
       "line_name": "DLR",
       "reason": "DOCKLANDS LIGHT RAILWAY: Saturday 19 and Sunday 20 September, no service between Bank / Tower Gateway and Lewisham / Canning Town or between Stratford and Canary Wharf. Use JUBILEE LINE connections between Canary Wharf and Canada Water. Replacement buses operate.",
       "severity": "Part Closure",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "hammersmith-city:text:004129bf5e441754": {
+      "category": "other",
+      "first_seen": "2026-09-19T09:00:55Z",
+      "issue_key": "hammersmith-city:text:004129bf5e441754",
+      "line_id": "hammersmith-city",
+      "line_name": "Hammersmith & City",
+      "reason": "Hammersmith and City Line: Minor delays due to train cancellations.",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "jubilee:text:b12d920cc17faefa": {
+      "category": "signal failure",
+      "first_seen": "2026-09-19T09:00:55Z",
+      "issue_key": "jubilee:text:b12d920cc17faefa",
+      "line_id": "jubilee",
+      "line_name": "Jubilee",
+      "reason": "Jubilee Line: Severe delays due to an earlier signal failure at Bond Street. Tickets are being accepted on London Buses, Mildmay Line, DLR, Elizabeth Line, C2C, Southeastern and Thameslink via any reasonable route.",
+      "severity": "Severe Delays",
       "source_created": "0001-01-01T00:00:00"
     },
     "piccadilly:text:2b0b8ea71614ac9e": {
@@ -62,6 +72,18 @@
     }
   },
   "history": [
+    {
+      "category": "other",
+      "duration_seconds": 15323,
+      "first_seen": "2026-09-19T04:45:32Z",
+      "issue_key": "circle:text:396d115f881d2bd0",
+      "line_id": "circle",
+      "line_name": "Circle",
+      "reason": "Circle Line: Severe delays due to train cancellations. Tickets will be accepted on London Buses.",
+      "resolved_at": "2026-09-19T09:00:55Z",
+      "severity": "Severe Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
     {
       "category": "other",
       "duration_seconds": 15336,
@@ -11679,6 +11701,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-09-19T04:45:32Z",
+  "updated_at": "2026-09-19T09:00:55Z",
   "version": 1
 }
