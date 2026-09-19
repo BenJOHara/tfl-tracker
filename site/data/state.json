@@ -10,13 +10,23 @@
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "central:text:23c62521d4237097": {
-      "category": "other",
-      "first_seen": "2026-09-19T18:39:30Z",
-      "issue_key": "central:text:23c62521d4237097",
+    "central:text:f5e60d9a28a51fe5": {
+      "category": "train fault",
+      "first_seen": "2026-09-19T20:58:25Z",
+      "issue_key": "central:text:f5e60d9a28a51fe5",
       "line_id": "central",
       "line_name": "Central",
-      "reason": "Central Line: Minor delays between North Acton and Ealing Broadway / West Ruislip, and between Leytonstone and Epping / Hainault (via Newbury Park) due to train cancellations. GOOD SERVICE on the rest of the line.",
+      "reason": "Central Line: Minor delays due to train cancellations and while we fix a faulty train at Marble Arch.",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "circle:text:bf9bb7504db7ea4d": {
+      "category": "other",
+      "first_seen": "2026-09-19T20:58:25Z",
+      "issue_key": "circle:text:bf9bb7504db7ea4d",
+      "line_id": "circle",
+      "line_name": "Circle",
+      "reason": "Circle Line: Minor delays due to train cancellations.",
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
@@ -50,23 +60,23 @@
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "jubilee:text:57925a2ef9e26722": {
+    "jubilee:text:5917a0aebe196f8f": {
       "category": "other",
-      "first_seen": "2026-09-19T16:24:02Z",
-      "issue_key": "jubilee:text:57925a2ef9e26722",
+      "first_seen": "2026-09-19T20:58:25Z",
+      "issue_key": "jubilee:text:5917a0aebe196f8f",
       "line_id": "jubilee",
       "line_name": "Jubilee",
-      "reason": "Jubilee Line: Minor delays due to train cancellations.",
-      "severity": "Minor Delays",
+      "reason": "Jubilee Line: Severe delays due to train cancellations. London Buses, Mildmay line, Elizabeth line, C2C, Southeastern and Thameslink services are accepting London Underground tickets.",
+      "severity": "Severe Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "metropolitan:text:2df4e90708614385": {
+    "metropolitan:text:8baae44e63ac3342": {
       "category": "other",
-      "first_seen": "2026-09-19T16:24:02Z",
-      "issue_key": "metropolitan:text:2df4e90708614385",
+      "first_seen": "2026-09-19T20:58:25Z",
+      "issue_key": "metropolitan:text:8baae44e63ac3342",
       "line_id": "metropolitan",
       "line_name": "Metropolitan",
-      "reason": "Metropolitan Line: Minor delays between Moor Park and Watford due to train cancellations. GOOD SERVICE on the rest of the line.",
+      "reason": "Metropolitan Line: Minor delays between Moor Park and Amersham due to train cancellations. The next southbound train will be at 22:22. GOOD SERVICE on the rest of the line.",
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
@@ -112,6 +122,42 @@
     }
   },
   "history": [
+    {
+      "category": "other",
+      "duration_seconds": 8335,
+      "first_seen": "2026-09-19T18:39:30Z",
+      "issue_key": "central:text:23c62521d4237097",
+      "line_id": "central",
+      "line_name": "Central",
+      "reason": "Central Line: Minor delays between North Acton and Ealing Broadway / West Ruislip, and between Leytonstone and Epping / Hainault (via Newbury Park) due to train cancellations. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-09-19T20:58:25Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "other",
+      "duration_seconds": 16463,
+      "first_seen": "2026-09-19T16:24:02Z",
+      "issue_key": "jubilee:text:57925a2ef9e26722",
+      "line_id": "jubilee",
+      "line_name": "Jubilee",
+      "reason": "Jubilee Line: Minor delays due to train cancellations.",
+      "resolved_at": "2026-09-19T20:58:25Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "other",
+      "duration_seconds": 16463,
+      "first_seen": "2026-09-19T16:24:02Z",
+      "issue_key": "metropolitan:text:2df4e90708614385",
+      "line_id": "metropolitan",
+      "line_name": "Metropolitan",
+      "reason": "Metropolitan Line: Minor delays between Moor Park and Watford due to train cancellations. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-09-19T20:58:25Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
     {
       "category": "other",
       "duration_seconds": 8128,
@@ -11801,6 +11847,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-09-19T18:59:56Z",
+  "updated_at": "2026-09-19T20:58:25Z",
   "version": 1
 }
