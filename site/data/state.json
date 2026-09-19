@@ -10,6 +10,16 @@
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
+    "central:text:23c62521d4237097": {
+      "category": "other",
+      "first_seen": "2026-09-19T18:39:30Z",
+      "issue_key": "central:text:23c62521d4237097",
+      "line_id": "central",
+      "line_name": "Central",
+      "reason": "Central Line: Minor delays between North Acton and Ealing Broadway / West Ruislip, and between Leytonstone and Epping / Hainault (via Newbury Park) due to train cancellations. GOOD SERVICE on the rest of the line.",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
     "district:text:13e8de774f2ea67e": {
       "category": "other",
       "first_seen": "2026-09-19T04:45:32Z",
@@ -30,14 +40,14 @@
       "severity": "Part Closure",
       "source_created": "0001-01-01T00:00:00"
     },
-    "hammersmith-city:text:50881c15952e0f9b": {
+    "hammersmith-city:text:004129bf5e441754": {
       "category": "other",
-      "first_seen": "2026-09-19T16:24:02Z",
-      "issue_key": "hammersmith-city:text:50881c15952e0f9b",
+      "first_seen": "2026-09-19T18:39:30Z",
+      "issue_key": "hammersmith-city:text:004129bf5e441754",
       "line_id": "hammersmith-city",
       "line_name": "Hammersmith & City",
-      "reason": "Hammersmith and City Line: Severe delays due to train cancellations. London Buses are accepting tickets via any reasonable route.",
-      "severity": "Severe Delays",
+      "reason": "Hammersmith and City Line: Minor delays due to train cancellations.",
+      "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
     "jubilee:text:57925a2ef9e26722": {
@@ -92,6 +102,18 @@
     }
   },
   "history": [
+    {
+      "category": "other",
+      "duration_seconds": 8128,
+      "first_seen": "2026-09-19T16:24:02Z",
+      "issue_key": "hammersmith-city:text:50881c15952e0f9b",
+      "line_id": "hammersmith-city",
+      "line_name": "Hammersmith & City",
+      "reason": "Hammersmith and City Line: Severe delays due to train cancellations. London Buses are accepting tickets via any reasonable route.",
+      "resolved_at": "2026-09-19T18:39:30Z",
+      "severity": "Severe Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
     {
       "category": "signal failure",
       "duration_seconds": 11954,
@@ -11769,6 +11791,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-09-19T16:24:02Z",
+  "updated_at": "2026-09-19T18:39:30Z",
   "version": 1
 }
