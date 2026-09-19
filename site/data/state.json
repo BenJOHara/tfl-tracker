@@ -1,5 +1,15 @@
 {
   "active": {
+    "bakerloo:text:441236c7b38e407e": {
+      "category": "other",
+      "first_seen": "2026-09-19T16:24:02Z",
+      "issue_key": "bakerloo:text:441236c7b38e407e",
+      "line_id": "bakerloo",
+      "line_name": "Bakerloo",
+      "reason": "Bakerloo Line: Minor delays due to train cancellations.",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
     "district:text:13e8de774f2ea67e": {
       "category": "other",
       "first_seen": "2026-09-19T04:45:32Z",
@@ -20,23 +30,33 @@
       "severity": "Part Closure",
       "source_created": "0001-01-01T00:00:00"
     },
-    "jubilee:text:267d1a27d25a2988": {
-      "category": "signal failure",
-      "first_seen": "2026-09-19T13:04:48Z",
-      "issue_key": "jubilee:text:267d1a27d25a2988",
+    "hammersmith-city:text:50881c15952e0f9b": {
+      "category": "other",
+      "first_seen": "2026-09-19T16:24:02Z",
+      "issue_key": "hammersmith-city:text:50881c15952e0f9b",
+      "line_id": "hammersmith-city",
+      "line_name": "Hammersmith & City",
+      "reason": "Hammersmith and City Line: Severe delays due to train cancellations. London Buses are accepting tickets via any reasonable route.",
+      "severity": "Severe Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "jubilee:text:57925a2ef9e26722": {
+      "category": "other",
+      "first_seen": "2026-09-19T16:24:02Z",
+      "issue_key": "jubilee:text:57925a2ef9e26722",
       "line_id": "jubilee",
       "line_name": "Jubilee",
-      "reason": "Jubilee Line: Minor delays due to an earlier signal failure at Bond Street.",
+      "reason": "Jubilee Line: Minor delays due to train cancellations.",
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "metropolitan:text:065510fd137b7d90": {
+    "metropolitan:text:2df4e90708614385": {
       "category": "other",
-      "first_seen": "2026-09-19T13:04:48Z",
-      "issue_key": "metropolitan:text:065510fd137b7d90",
+      "first_seen": "2026-09-19T16:24:02Z",
+      "issue_key": "metropolitan:text:2df4e90708614385",
       "line_id": "metropolitan",
       "line_name": "Metropolitan",
-      "reason": "Metropolitan Line: Minor delays between Moor Park and Watford, and between Harrow-on-the-Hill and Aldgate southbound only due to train cancellations. GOOD SERVICE on the rest of the line.",
+      "reason": "Metropolitan Line: Minor delays between Moor Park and Watford due to train cancellations. GOOD SERVICE on the rest of the line.",
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
@@ -72,6 +92,30 @@
     }
   },
   "history": [
+    {
+      "category": "signal failure",
+      "duration_seconds": 11954,
+      "first_seen": "2026-09-19T13:04:48Z",
+      "issue_key": "jubilee:text:267d1a27d25a2988",
+      "line_id": "jubilee",
+      "line_name": "Jubilee",
+      "reason": "Jubilee Line: Minor delays due to an earlier signal failure at Bond Street.",
+      "resolved_at": "2026-09-19T16:24:02Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "other",
+      "duration_seconds": 11954,
+      "first_seen": "2026-09-19T13:04:48Z",
+      "issue_key": "metropolitan:text:065510fd137b7d90",
+      "line_id": "metropolitan",
+      "line_name": "Metropolitan",
+      "reason": "Metropolitan Line: Minor delays between Moor Park and Watford, and between Harrow-on-the-Hill and Aldgate southbound only due to train cancellations. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-09-19T16:24:02Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
     {
       "category": "other",
       "duration_seconds": 14633,
@@ -11725,6 +11769,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-09-19T13:04:48Z",
+  "updated_at": "2026-09-19T16:24:02Z",
   "version": 1
 }
