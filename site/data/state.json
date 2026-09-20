@@ -1,12 +1,12 @@
 {
   "active": {
-    "bakerloo:text:642f8370dec74079": {
-      "category": "track fault",
-      "first_seen": "2026-09-20T18:53:27Z",
-      "issue_key": "bakerloo:text:642f8370dec74079",
+    "bakerloo:text:441236c7b38e407e": {
+      "category": "other",
+      "first_seen": "2026-09-20T19:23:06Z",
+      "issue_key": "bakerloo:text:441236c7b38e407e",
       "line_id": "bakerloo",
       "line_name": "Bakerloo",
-      "reason": "Bakerloo Line: Minor delays due to an earlier track fault at Oxford Circus.",
+      "reason": "Bakerloo Line: Minor delays due to train cancellations.",
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
@@ -92,6 +92,18 @@
     }
   },
   "history": [
+    {
+      "category": "track fault",
+      "duration_seconds": 1779,
+      "first_seen": "2026-09-20T18:53:27Z",
+      "issue_key": "bakerloo:text:642f8370dec74079",
+      "line_id": "bakerloo",
+      "line_name": "Bakerloo",
+      "reason": "Bakerloo Line: Minor delays due to an earlier track fault at Oxford Circus.",
+      "resolved_at": "2026-09-20T19:23:06Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
     {
       "category": "track fault",
       "duration_seconds": 6637,
@@ -12177,6 +12189,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-09-20T18:53:27Z",
+  "updated_at": "2026-09-20T19:23:06Z",
   "version": 1
 }
