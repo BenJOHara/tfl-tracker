@@ -50,6 +50,16 @@
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
+    "metropolitan:text:7bfe5e94a45da103": {
+      "category": "points failure",
+      "first_seen": "2026-09-20T21:38:45Z",
+      "issue_key": "metropolitan:text:7bfe5e94a45da103",
+      "line_id": "metropolitan",
+      "line_name": "Metropolitan",
+      "reason": "Metropolitan Line: No service between Chalfont & Latimer and Chesham while we fix a points failure at Chalfont & Latimer. Tickets are being accepted on London Buses. GOOD SERVICE on the rest of the line.",
+      "severity": "Part Suspended",
+      "source_created": "0001-01-01T00:00:00"
+    },
     "piccadilly:text:2b0b8ea71614ac9e": {
       "category": "other",
       "first_seen": "2026-09-19T00:35:56Z",
@@ -12199,6 +12209,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-09-20T20:59:10Z",
+  "updated_at": "2026-09-20T21:38:45Z",
   "version": 1
 }
