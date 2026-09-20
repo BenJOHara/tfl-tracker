@@ -169,19 +169,21 @@
       "reason": "Weaver Line: Service will resume later this morning. There will be no service between Hackney Downs and Enfield Town/Cheshunt due to planned engineering work.",
       "severity": "Service Closed",
       "source_created": "0001-01-01T00:00:00"
-    },
-    "windrush:text:281a099bd4b8d2c7": {
+    }
+  },
+  "history": [
+    {
       "category": "other",
+      "duration_seconds": 8920,
       "first_seen": "2026-09-19T22:56:00Z",
       "issue_key": "windrush:text:281a099bd4b8d2c7",
       "line_id": "windrush",
       "line_name": "Windrush",
       "reason": "WINDRUSH LINE: Saturday 19 September, after 2330, no westbound service between Wandsworth Road and Clapham Junction. Trains are diverted to/from Battersea Park for SOUTHERN connections to/from Clapham Junction.",
+      "resolved_at": "2026-09-20T01:24:40Z",
       "severity": "Part Closure",
       "source_created": "0001-01-01T00:00:00"
-    }
-  },
-  "history": [
+    },
     {
       "category": "other",
       "duration_seconds": 29154,
@@ -12027,6 +12029,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-09-20T00:29:56Z",
+  "updated_at": "2026-09-20T01:24:40Z",
   "version": 1
 }
