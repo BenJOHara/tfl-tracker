@@ -1,15 +1,5 @@
 {
   "active": {
-    "circle:text:bf9bb7504db7ea4d": {
-      "category": "other",
-      "first_seen": "2026-09-20T06:43:31Z",
-      "issue_key": "circle:text:bf9bb7504db7ea4d",
-      "line_id": "circle",
-      "line_name": "Circle",
-      "reason": "Circle Line: Minor delays due to train cancellations.",
-      "severity": "Minor Delays",
-      "source_created": "0001-01-01T00:00:00"
-    },
     "district:text:13e8de774f2ea67e": {
       "category": "other",
       "first_seen": "2026-09-19T04:45:32Z",
@@ -28,6 +18,16 @@
       "line_name": "DLR",
       "reason": "DOCKLANDS LIGHT RAILWAY: Saturday 19 and Sunday 20 September, no service between Bank / Tower Gateway and Lewisham / Canning Town or between Stratford and Canary Wharf. Use JUBILEE LINE connections between Canary Wharf and Canada Water. Replacement buses operate.",
       "severity": "Part Closure",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "hammersmith-city:text:004129bf5e441754": {
+      "category": "other",
+      "first_seen": "2026-09-20T09:52:09Z",
+      "issue_key": "hammersmith-city:text:004129bf5e441754",
+      "line_id": "hammersmith-city",
+      "line_name": "Hammersmith & City",
+      "reason": "Hammersmith and City Line: Minor delays due to train cancellations.",
+      "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
     "lioness:text:aed4597907ad3fcf": {
@@ -79,19 +79,33 @@
       "reason": "WINDRUSH LINE: Sunday 20 September, no service between Wandsworth Road and Clapham Junction. Trains are diverted to/from Battersea Park for SOUTHERN connections to/from Clapham Junction.",
       "severity": "Part Closure",
       "source_created": "0001-01-01T00:00:00"
-    },
-    "windrush:text:f9155fc25939d611": {
+    }
+  },
+  "history": [
+    {
       "category": "other",
+      "duration_seconds": 11318,
+      "first_seen": "2026-09-20T06:43:31Z",
+      "issue_key": "circle:text:bf9bb7504db7ea4d",
+      "line_id": "circle",
+      "line_name": "Circle",
+      "reason": "Circle Line: Minor delays due to train cancellations.",
+      "resolved_at": "2026-09-20T09:52:09Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "other",
+      "duration_seconds": 16264,
       "first_seen": "2026-09-20T05:21:05Z",
       "issue_key": "windrush:text:f9155fc25939d611",
       "line_id": "windrush",
       "line_name": "Windrush",
       "reason": "WINDRUSH LINE: Sunday 20 September, until 0800, no service between Sydenham and West Croydon. Customers should use local buses or trams via any reasonable route. First Trains: Highbury & Islington to West Croydon 0817; New Cross Gate to West Croydon 0747; West Croydon to Highbury & Islington 0848. In addition, SOUTHERN services will be replaced by buses between London Bridge and East Croydon, calling at Norwood Junction only.",
+      "resolved_at": "2026-09-20T09:52:09Z",
       "severity": "Part Closure",
       "source_created": "0001-01-01T00:00:00"
-    }
-  },
-  "history": [
+    },
     {
       "category": "other",
       "duration_seconds": 17469,
@@ -12105,6 +12119,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-09-20T06:43:31Z",
+  "updated_at": "2026-09-20T09:52:09Z",
   "version": 1
 }
