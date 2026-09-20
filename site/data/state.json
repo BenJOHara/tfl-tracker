@@ -1,5 +1,15 @@
 {
   "active": {
+    "bakerloo:text:4e9dd86353634056": {
+      "category": "track fault",
+      "first_seen": "2026-09-20T17:02:50Z",
+      "issue_key": "bakerloo:text:4e9dd86353634056",
+      "line_id": "bakerloo",
+      "line_name": "Bakerloo",
+      "reason": "Bakerloo Line: Minor delays while we fix a track fault at Oxford Circus.",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
     "district:text:13e8de774f2ea67e": {
       "category": "other",
       "first_seen": "2026-09-19T04:45:32Z",
@@ -30,13 +40,13 @@
       "severity": "Part Closure",
       "source_created": "0001-01-01T00:00:00"
     },
-    "victoria:text:4d22e708867bba16": {
-      "category": "train fault",
-      "first_seen": "2026-09-20T15:34:45Z",
-      "issue_key": "victoria:text:4d22e708867bba16",
+    "victoria:text:9c36bb85844aed3f": {
+      "category": "other",
+      "first_seen": "2026-09-20T17:02:50Z",
+      "issue_key": "victoria:text:9c36bb85844aed3f",
       "line_id": "victoria",
       "line_name": "Victoria",
-      "reason": "Victoria Line: Minor delays due to an earlier faulty train at Highbury & Islington.",
+      "reason": "Victoria Line: Minor delays due train cancellations.",
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
@@ -72,6 +82,18 @@
     }
   },
   "history": [
+    {
+      "category": "train fault",
+      "duration_seconds": 5285,
+      "first_seen": "2026-09-20T15:34:45Z",
+      "issue_key": "victoria:text:4d22e708867bba16",
+      "line_id": "victoria",
+      "line_name": "Victoria",
+      "reason": "Victoria Line: Minor delays due to an earlier faulty train at Highbury & Islington.",
+      "resolved_at": "2026-09-20T17:02:50Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
     {
       "category": "other",
       "duration_seconds": 36820,
@@ -12133,6 +12155,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-09-20T15:34:45Z",
+  "updated_at": "2026-09-20T17:02:50Z",
   "version": 1
 }
