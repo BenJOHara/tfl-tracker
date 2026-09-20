@@ -1,12 +1,12 @@
 {
   "active": {
-    "bakerloo:text:4e9dd86353634056": {
+    "bakerloo:text:642f8370dec74079": {
       "category": "track fault",
-      "first_seen": "2026-09-20T17:02:50Z",
-      "issue_key": "bakerloo:text:4e9dd86353634056",
+      "first_seen": "2026-09-20T18:53:27Z",
+      "issue_key": "bakerloo:text:642f8370dec74079",
       "line_id": "bakerloo",
       "line_name": "Bakerloo",
-      "reason": "Bakerloo Line: Minor delays while we fix a track fault at Oxford Circus.",
+      "reason": "Bakerloo Line: Minor delays due to an earlier track fault at Oxford Circus.",
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
@@ -28,6 +28,16 @@
       "line_name": "DLR",
       "reason": "DOCKLANDS LIGHT RAILWAY: Saturday 19 and Sunday 20 September, no service between Bank / Tower Gateway and Lewisham / Canning Town or between Stratford and Canary Wharf. Use JUBILEE LINE connections between Canary Wharf and Canada Water. Replacement buses operate.",
       "severity": "Part Closure",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "hammersmith-city:text:004129bf5e441754": {
+      "category": "other",
+      "first_seen": "2026-09-20T18:53:27Z",
+      "issue_key": "hammersmith-city:text:004129bf5e441754",
+      "line_id": "hammersmith-city",
+      "line_name": "Hammersmith & City",
+      "reason": "Hammersmith and City Line: Minor delays due to train cancellations.",
+      "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
     "piccadilly:text:2b0b8ea71614ac9e": {
@@ -82,6 +92,18 @@
     }
   },
   "history": [
+    {
+      "category": "track fault",
+      "duration_seconds": 6637,
+      "first_seen": "2026-09-20T17:02:50Z",
+      "issue_key": "bakerloo:text:4e9dd86353634056",
+      "line_id": "bakerloo",
+      "line_name": "Bakerloo",
+      "reason": "Bakerloo Line: Minor delays while we fix a track fault at Oxford Circus.",
+      "resolved_at": "2026-09-20T18:53:27Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
     {
       "category": "train fault",
       "duration_seconds": 5285,
@@ -12155,6 +12177,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-09-20T17:02:50Z",
+  "updated_at": "2026-09-20T18:53:27Z",
   "version": 1
 }
