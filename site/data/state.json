@@ -1,13 +1,23 @@
 {
   "active": {
-    "suffragette:text:286a471990ec8ed8": {
+    "metropolitan:text:978a81919e8a3a52": {
+      "category": "signal failure",
+      "first_seen": "2026-09-21T07:04:20Z",
+      "issue_key": "metropolitan:text:978a81919e8a3a52",
+      "line_id": "metropolitan",
+      "line_name": "Metropolitan",
+      "reason": "Metropolitan Line: Severe delays between Rickmansworth and Amersham/Chesham while we fix a signal failure at Amersham. Tickets will be accepted on Chiltern services. GOOD SERVICE on the rest of the line.",
+      "severity": "Severe Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "suffragette:text:ccca3e00ac3c80d2": {
       "category": "other",
-      "first_seen": "2026-09-21T06:21:15Z",
-      "issue_key": "suffragette:text:286a471990ec8ed8",
+      "first_seen": "2026-09-21T07:04:20Z",
+      "issue_key": "suffragette:text:ccca3e00ac3c80d2",
       "line_id": "suffragette",
       "line_name": "Suffragette",
-      "reason": "Suffragette Line: No service between Woodgrange Park and Gospel Oak and SEVERE DELAYS between Woodgrange Park and Barking Riverside due to a broken down freight train at Upper Holloway. London Underground are accepting tickets via any reasonable route.",
-      "severity": "Part Suspended",
+      "reason": "Suffragette Line: Severe delays due to an earlier faulty freight train at Upper Holloway. London Underground and London Buses are accepting tickets via any reasonable route.",
+      "severity": "Severe Delays",
       "source_created": "0001-01-01T00:00:00"
     },
     "waterloo-city:text:1984152bc00a6cfb": {
@@ -22,6 +32,18 @@
     }
   },
   "history": [
+    {
+      "category": "other",
+      "duration_seconds": 2585,
+      "first_seen": "2026-09-21T06:21:15Z",
+      "issue_key": "suffragette:text:286a471990ec8ed8",
+      "line_id": "suffragette",
+      "line_name": "Suffragette",
+      "reason": "Suffragette Line: No service between Woodgrange Park and Gospel Oak and SEVERE DELAYS between Woodgrange Park and Barking Riverside due to a broken down freight train at Upper Holloway. London Underground are accepting tickets via any reasonable route.",
+      "resolved_at": "2026-09-21T07:04:20Z",
+      "severity": "Part Suspended",
+      "source_created": "0001-01-01T00:00:00"
+    },
     {
       "category": "other",
       "duration_seconds": 18923,
@@ -12503,6 +12525,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-09-21T06:21:15Z",
+  "updated_at": "2026-09-21T07:04:20Z",
   "version": 1
 }
