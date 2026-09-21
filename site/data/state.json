@@ -1,37 +1,53 @@
 {
   "active": {
-    "metropolitan:text:978a81919e8a3a52": {
-      "category": "signal failure",
-      "first_seen": "2026-09-21T07:04:20Z",
-      "issue_key": "metropolitan:text:978a81919e8a3a52",
-      "line_id": "metropolitan",
-      "line_name": "Metropolitan",
-      "reason": "Metropolitan Line: Severe delays between Rickmansworth and Amersham/Chesham while we fix a signal failure at Amersham. Tickets will be accepted on Chiltern services. GOOD SERVICE on the rest of the line.",
-      "severity": "Severe Delays",
-      "source_created": "0001-01-01T00:00:00"
-    },
-    "suffragette:text:ccca3e00ac3c80d2": {
+    "central:text:d87886b2250b12d8": {
       "category": "other",
-      "first_seen": "2026-09-21T07:04:20Z",
-      "issue_key": "suffragette:text:ccca3e00ac3c80d2",
-      "line_id": "suffragette",
-      "line_name": "Suffragette",
-      "reason": "Suffragette Line: Severe delays due to an earlier faulty freight train at Upper Holloway. London Underground and London Buses are accepting tickets via any reasonable route.",
-      "severity": "Severe Delays",
-      "source_created": "0001-01-01T00:00:00"
-    },
-    "waterloo-city:text:1984152bc00a6cfb": {
-      "category": "train fault",
-      "first_seen": "2026-09-21T06:21:15Z",
-      "issue_key": "waterloo-city:text:1984152bc00a6cfb",
-      "line_id": "waterloo-city",
-      "line_name": "Waterloo & City",
-      "reason": "Waterloo and City Line: Minor delays due to faulty trains.",
+      "first_seen": "2026-09-21T13:10:15Z",
+      "issue_key": "central:text:d87886b2250b12d8",
+      "line_id": "central",
+      "line_name": "Central",
+      "reason": "Central Line: Minor delays between North Acton and Ealing Broadway / West Ruislip and between Leytonstone and Epping / Hainault due to train cancellations. GOOD SERVICE on the rest of the line.",
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     }
   },
   "history": [
+    {
+      "category": "signal failure",
+      "duration_seconds": 21955,
+      "first_seen": "2026-09-21T07:04:20Z",
+      "issue_key": "metropolitan:text:978a81919e8a3a52",
+      "line_id": "metropolitan",
+      "line_name": "Metropolitan",
+      "reason": "Metropolitan Line: Severe delays between Rickmansworth and Amersham/Chesham while we fix a signal failure at Amersham. Tickets will be accepted on Chiltern services. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-09-21T13:10:15Z",
+      "severity": "Severe Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "other",
+      "duration_seconds": 21955,
+      "first_seen": "2026-09-21T07:04:20Z",
+      "issue_key": "suffragette:text:ccca3e00ac3c80d2",
+      "line_id": "suffragette",
+      "line_name": "Suffragette",
+      "reason": "Suffragette Line: Severe delays due to an earlier faulty freight train at Upper Holloway. London Underground and London Buses are accepting tickets via any reasonable route.",
+      "resolved_at": "2026-09-21T13:10:15Z",
+      "severity": "Severe Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "train fault",
+      "duration_seconds": 24540,
+      "first_seen": "2026-09-21T06:21:15Z",
+      "issue_key": "waterloo-city:text:1984152bc00a6cfb",
+      "line_id": "waterloo-city",
+      "line_name": "Waterloo & City",
+      "reason": "Waterloo and City Line: Minor delays due to faulty trains.",
+      "resolved_at": "2026-09-21T13:10:15Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
     {
       "category": "other",
       "duration_seconds": 2585,
@@ -12525,6 +12541,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-09-21T07:04:20Z",
+  "updated_at": "2026-09-21T13:10:15Z",
   "version": 1
 }
