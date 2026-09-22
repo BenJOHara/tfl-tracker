@@ -1,27 +1,41 @@
 {
   "active": {
-    "metropolitan:text:de32e148c6862215": {
-      "category": "signal failure",
-      "first_seen": "2026-09-22T11:54:20Z",
-      "issue_key": "metropolitan:text:de32e148c6862215",
-      "line_id": "metropolitan",
-      "line_name": "Metropolitan",
-      "reason": "Metropolitan Line: Minor delays between Rickmansworth and Amersham due to an earlier signal failure at Amersham. The next southbound departure from Amersham will be at 13:22. GOOD SERVICE on the rest of the line.",
-      "severity": "Minor Delays",
-      "source_created": "0001-01-01T00:00:00"
-    },
-    "mildmay:text:e8c92f103f3b2c3b": {
-      "category": "points failure",
-      "first_seen": "2026-09-22T11:54:20Z",
-      "issue_key": "mildmay:text:e8c92f103f3b2c3b",
-      "line_id": "mildmay",
-      "line_name": "Mildmay",
-      "reason": "Mildmay Line: Minor delays due to an earlier points failure at Stratford.",
+    "central:text:23c62521d4237097": {
+      "category": "other",
+      "first_seen": "2026-09-22T15:31:13Z",
+      "issue_key": "central:text:23c62521d4237097",
+      "line_id": "central",
+      "line_name": "Central",
+      "reason": "Central Line: Minor delays between North Acton and Ealing Broadway/West Ruislip and between Leytonstone and Epping/Hainault via Newbury Park due to train cancellations. GOOD SERVICE on the rest of the line.",
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     }
   },
   "history": [
+    {
+      "category": "signal failure",
+      "duration_seconds": 13013,
+      "first_seen": "2026-09-22T11:54:20Z",
+      "issue_key": "metropolitan:text:de32e148c6862215",
+      "line_id": "metropolitan",
+      "line_name": "Metropolitan",
+      "reason": "Metropolitan Line: Minor delays between Rickmansworth and Amersham due to an earlier signal failure at Amersham. The next southbound departure from Amersham will be at 13:22. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-09-22T15:31:13Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "points failure",
+      "duration_seconds": 13013,
+      "first_seen": "2026-09-22T11:54:20Z",
+      "issue_key": "mildmay:text:e8c92f103f3b2c3b",
+      "line_id": "mildmay",
+      "line_name": "Mildmay",
+      "reason": "Mildmay Line: Minor delays due to an earlier points failure at Stratford.",
+      "resolved_at": "2026-09-22T15:31:13Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
     {
       "category": "points failure",
       "duration_seconds": 2933,
@@ -12875,6 +12889,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-09-22T11:54:20Z",
+  "updated_at": "2026-09-22T15:31:13Z",
   "version": 1
 }
