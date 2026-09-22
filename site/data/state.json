@@ -1,17 +1,39 @@
 {
   "active": {
-    "mildmay:text:e8ac7d4c1c9321c0": {
+    "metropolitan:text:de32e148c6862215": {
+      "category": "signal failure",
+      "first_seen": "2026-09-22T11:54:20Z",
+      "issue_key": "metropolitan:text:de32e148c6862215",
+      "line_id": "metropolitan",
+      "line_name": "Metropolitan",
+      "reason": "Metropolitan Line: Minor delays between Rickmansworth and Amersham due to an earlier signal failure at Amersham. The next southbound departure from Amersham will be at 13:22. GOOD SERVICE on the rest of the line.",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "mildmay:text:e8c92f103f3b2c3b": {
       "category": "points failure",
+      "first_seen": "2026-09-22T11:54:20Z",
+      "issue_key": "mildmay:text:e8c92f103f3b2c3b",
+      "line_id": "mildmay",
+      "line_name": "Mildmay",
+      "reason": "Mildmay Line: Minor delays due to an earlier points failure at Stratford.",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    }
+  },
+  "history": [
+    {
+      "category": "points failure",
+      "duration_seconds": 2933,
       "first_seen": "2026-09-22T11:05:27Z",
       "issue_key": "mildmay:text:e8ac7d4c1c9321c0",
       "line_id": "mildmay",
       "line_name": "Mildmay",
       "reason": "Mildmay Line: Severe delays while we fix a points failure at Stratford. London Underground are accepting tickets via any reasonable route.",
+      "resolved_at": "2026-09-22T11:54:20Z",
       "severity": "Severe Delays",
       "source_created": "0001-01-01T00:00:00"
-    }
-  },
-  "history": [
+    },
     {
       "category": "planned engineering",
       "duration_seconds": 17970,
@@ -12853,6 +12875,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-09-22T11:05:27Z",
+  "updated_at": "2026-09-22T11:54:20Z",
   "version": 1
 }
