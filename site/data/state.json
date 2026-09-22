@@ -1,37 +1,53 @@
 {
   "active": {
-    "central:text:2aee6188885cd068": {
+    "mildmay:text:e8ac7d4c1c9321c0": {
+      "category": "points failure",
+      "first_seen": "2026-09-22T11:05:27Z",
+      "issue_key": "mildmay:text:e8ac7d4c1c9321c0",
+      "line_id": "mildmay",
+      "line_name": "Mildmay",
+      "reason": "Mildmay Line: Severe delays while we fix a points failure at Stratford. London Underground are accepting tickets via any reasonable route.",
+      "severity": "Severe Delays",
+      "source_created": "0001-01-01T00:00:00"
+    }
+  },
+  "history": [
+    {
       "category": "planned engineering",
+      "duration_seconds": 17970,
       "first_seen": "2026-09-22T06:05:57Z",
       "issue_key": "central:text:2aee6188885cd068",
       "line_id": "central",
       "line_name": "Central",
       "reason": "Central Line: Severe delays between White City and Ealing Broadway / West Ruislip following a late finish of engineering work at Woodford. Tickets are being accepted on London Buses, Elizabeth line, Chiltern Railways and Great Western Railway. MINOR DELAYS on the rest of the line.",
+      "resolved_at": "2026-09-22T11:05:27Z",
       "severity": "Severe Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "hammersmith-city:text:004129bf5e441754": {
+    {
       "category": "other",
+      "duration_seconds": 18680,
       "first_seen": "2026-09-22T05:54:07Z",
       "issue_key": "hammersmith-city:text:004129bf5e441754",
       "line_id": "hammersmith-city",
       "line_name": "Hammersmith & City",
       "reason": "Hammersmith and City Line: Minor delays due to train cancellations.",
+      "resolved_at": "2026-09-22T11:05:27Z",
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "metropolitan:text:2df4e90708614385": {
+    {
       "category": "other",
+      "duration_seconds": 18680,
       "first_seen": "2026-09-22T05:54:07Z",
       "issue_key": "metropolitan:text:2df4e90708614385",
       "line_id": "metropolitan",
       "line_name": "Metropolitan",
       "reason": "Metropolitan Line: Minor delays between Moor Park and Watford due to train cancellations. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-09-22T11:05:27Z",
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
-    }
-  },
-  "history": [
+    },
     {
       "category": "other",
       "duration_seconds": 18067,
@@ -12837,6 +12853,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-09-22T06:05:57Z",
+  "updated_at": "2026-09-22T11:05:27Z",
   "version": 1
 }
