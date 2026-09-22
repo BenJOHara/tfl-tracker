@@ -9,6 +9,16 @@
       "reason": "Central Line: Severe delays due to an earlier signal failure at St. Paul's. London Buses, London Overground, Elizabeth line, Chiltern Railways and Greater Anglia are accepting tickets via any reasonable route.",
       "severity": "Severe Delays",
       "source_created": "0001-01-01T00:00:00"
+    },
+    "northern:text:20b97d62cc27751f": {
+      "category": "signal failure",
+      "first_seen": "2026-09-22T22:54:05Z",
+      "issue_key": "northern:text:20b97d62cc27751f",
+      "line_id": "northern",
+      "line_name": "Northern",
+      "reason": "Northern Line: Severe delays between Battersea Power Station and Kennington while we fix a signal failure at Battersea Power Station. Tickets will be accepted on London buses. GOOD SERVICE on the rest of the line.",
+      "severity": "Severe Delays",
+      "source_created": "0001-01-01T00:00:00"
     }
   },
   "history": [
@@ -12913,6 +12923,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-09-22T22:01:03Z",
+  "updated_at": "2026-09-22T22:54:05Z",
   "version": 1
 }
