@@ -1,17 +1,29 @@
 {
   "active": {
-    "central:text:b425fea36edd1295": {
+    "central:text:5cd31287cfe813a4": {
       "category": "signal failure",
+      "first_seen": "2026-09-22T22:01:03Z",
+      "issue_key": "central:text:5cd31287cfe813a4",
+      "line_id": "central",
+      "line_name": "Central",
+      "reason": "Central Line: Severe delays due to an earlier signal failure at St. Paul's. London Buses, London Overground, Elizabeth line, Chiltern Railways and Greater Anglia are accepting tickets via any reasonable route.",
+      "severity": "Severe Delays",
+      "source_created": "0001-01-01T00:00:00"
+    }
+  },
+  "history": [
+    {
+      "category": "signal failure",
+      "duration_seconds": 7425,
       "first_seen": "2026-09-22T19:57:18Z",
       "issue_key": "central:text:b425fea36edd1295",
       "line_id": "central",
       "line_name": "Central",
       "reason": "Central Line: Minor delays while we fix a signal failure at St. Paul's.",
+      "resolved_at": "2026-09-22T22:01:03Z",
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
-    }
-  },
-  "history": [
+    },
     {
       "category": "other",
       "duration_seconds": 15965,
@@ -12901,6 +12913,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-09-22T19:57:18Z",
+  "updated_at": "2026-09-22T22:01:03Z",
   "version": 1
 }
