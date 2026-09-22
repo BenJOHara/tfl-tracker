@@ -1,5 +1,15 @@
 {
   "active": {
+    "central:text:2aee6188885cd068": {
+      "category": "planned engineering",
+      "first_seen": "2026-09-22T06:05:57Z",
+      "issue_key": "central:text:2aee6188885cd068",
+      "line_id": "central",
+      "line_name": "Central",
+      "reason": "Central Line: Severe delays between White City and Ealing Broadway / West Ruislip following a late finish of engineering work at Woodford. Tickets are being accepted on London Buses, Elizabeth line, Chiltern Railways and Great Western Railway. MINOR DELAYS on the rest of the line.",
+      "severity": "Severe Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
     "hammersmith-city:text:004129bf5e441754": {
       "category": "other",
       "first_seen": "2026-09-22T05:54:07Z",
@@ -12827,6 +12837,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-09-22T05:54:07Z",
+  "updated_at": "2026-09-22T06:05:57Z",
   "version": 1
 }
