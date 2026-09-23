@@ -1,17 +1,29 @@
 {
   "active": {
-    "windrush:text:87c79103a2a9eb2f": {
-      "category": "signal failure",
-      "first_seen": "2026-09-23T12:08:09Z",
-      "issue_key": "windrush:text:87c79103a2a9eb2f",
-      "line_id": "windrush",
-      "line_name": "Windrush",
-      "reason": "Windrush Line: Minor delays due to an earlier signal failure at Norwood Junction.",
+    "hammersmith-city:text:004129bf5e441754": {
+      "category": "other",
+      "first_seen": "2026-09-23T14:24:00Z",
+      "issue_key": "hammersmith-city:text:004129bf5e441754",
+      "line_id": "hammersmith-city",
+      "line_name": "Hammersmith & City",
+      "reason": "Hammersmith and City Line: Minor delays due to train cancellations.",
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     }
   },
   "history": [
+    {
+      "category": "signal failure",
+      "duration_seconds": 8151,
+      "first_seen": "2026-09-23T12:08:09Z",
+      "issue_key": "windrush:text:87c79103a2a9eb2f",
+      "line_id": "windrush",
+      "line_name": "Windrush",
+      "reason": "Windrush Line: Minor delays due to an earlier signal failure at Norwood Junction.",
+      "resolved_at": "2026-09-23T14:24:00Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
     {
       "category": "signal failure",
       "duration_seconds": 7681,
@@ -13249,6 +13261,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-09-23T12:08:09Z",
+  "updated_at": "2026-09-23T14:24:00Z",
   "version": 1
 }
