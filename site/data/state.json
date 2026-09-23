@@ -1,5 +1,15 @@
 {
   "active": {
+    "northern:text:0b50e6ec9966c3b5": {
+      "category": "signal failure",
+      "first_seen": "2026-09-23T10:00:08Z",
+      "issue_key": "northern:text:0b50e6ec9966c3b5",
+      "line_id": "northern",
+      "line_name": "Northern",
+      "reason": "Northern Line: Minor delays due to an earlier signal failure in the Battersea area and an earlier customer incident at Moorgate.",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
     "windrush:text:eb2a019d30117439": {
       "category": "signal failure",
       "first_seen": "2026-09-23T09:35:24Z",
@@ -13225,6 +13235,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-09-23T09:35:24Z",
+  "updated_at": "2026-09-23T10:00:08Z",
   "version": 1
 }
