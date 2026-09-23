@@ -1,27 +1,71 @@
 {
   "active": {
-    "central:text:86f96d050df2dbf5": {
+    "bakerloo:text:c5cb7401ae3e04a5": {
+      "category": "passenger incident",
+      "first_seen": "2026-09-23T18:27:10Z",
+      "issue_key": "bakerloo:text:c5cb7401ae3e04a5",
+      "line_id": "bakerloo",
+      "line_name": "Bakerloo",
+      "reason": "Bakerloo Line: Minor delays due to an earlier customer incident at Embankment.",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "central:text:84c255f7a695d799": {
       "category": "other",
+      "first_seen": "2026-09-23T18:27:10Z",
+      "issue_key": "central:text:84c255f7a695d799",
+      "line_id": "central",
+      "line_name": "Central",
+      "reason": "Central Line: Minor delays while we help a person ill on a train.",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "metropolitan:text:a0f3e836262e2c11": {
+      "category": "other",
+      "first_seen": "2026-09-23T18:27:10Z",
+      "issue_key": "metropolitan:text:a0f3e836262e2c11",
+      "line_id": "metropolitan",
+      "line_name": "Metropolitan",
+      "reason": "Metropolitan Line: Minor delays between Harrow-on-the-Hill and Uxbridge while we deal with a signalling problem. GOOD service on the rest of the line.",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "weaver:text:415cab5f9adf9010": {
+      "category": "fire alert",
+      "first_seen": "2026-09-23T18:27:10Z",
+      "issue_key": "weaver:text:415cab5f9adf9010",
+      "line_id": "weaver",
+      "line_name": "Weaver",
+      "reason": "Weaver Line: No service between Cheshunt and Edmonton Green while we respond to a fire alert. GOOD SERVICE on the rest of the line.",
+      "severity": "Part Suspended",
+      "source_created": "0001-01-01T00:00:00"
+    }
+  },
+  "history": [
+    {
+      "category": "other",
+      "duration_seconds": 4358,
       "first_seen": "2026-09-23T17:14:32Z",
       "issue_key": "central:text:86f96d050df2dbf5",
       "line_id": "central",
       "line_name": "Central",
       "reason": "Central Line: Minor Delays between North Acton and Ealing Broadway / West Ruislip, and between Leytonstone and Epping / Hainault via Newbury Park due to train cancelations. GOOD SERVICE on the rest on the line.",
+      "resolved_at": "2026-09-23T18:27:10Z",
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "metropolitan:text:3131202624829c50": {
+    {
       "category": "other",
+      "duration_seconds": 4358,
       "first_seen": "2026-09-23T17:14:32Z",
       "issue_key": "metropolitan:text:3131202624829c50",
       "line_id": "metropolitan",
       "line_name": "Metropolitan",
       "reason": "Metropolitan Line: Minor delays between Harrow-on-the-Hill and Uxbridge while we dealing with a signalling problem at Rayners Lane. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-09-23T18:27:10Z",
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
-    }
-  },
-  "history": [
+    },
     {
       "category": "other",
       "duration_seconds": 10232,
@@ -13283,6 +13327,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-09-23T17:14:32Z",
+  "updated_at": "2026-09-23T18:27:10Z",
   "version": 1
 }
