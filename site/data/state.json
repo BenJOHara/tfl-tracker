@@ -1,17 +1,29 @@
 {
   "active": {
-    "bakerloo:text:a07026f880d9dc06": {
+    "windrush:text:eb2a019d30117439": {
+      "category": "signal failure",
+      "first_seen": "2026-09-23T09:35:24Z",
+      "issue_key": "windrush:text:eb2a019d30117439",
+      "line_id": "windrush",
+      "line_name": "Windrush",
+      "reason": "Windrush Line: No service between New Cross Gate and Crystal Palace/West Croydon, and SEVERE DELAYS between New Cross Gate and Highbury & Islington while we fix a signal failure at Norwood Junction. London Buses are accepting valid tickets via any reasonable route. GOOD SERVICE on the rest of the line.",
+      "severity": "Part Suspended",
+      "source_created": "0001-01-01T00:00:00"
+    }
+  },
+  "history": [
+    {
       "category": "passenger incident",
+      "duration_seconds": 10721,
       "first_seen": "2026-09-23T06:36:43Z",
       "issue_key": "bakerloo:text:a07026f880d9dc06",
       "line_id": "bakerloo",
       "line_name": "Bakerloo",
       "reason": "Bakerloo Line: Minor delays between Queen's Park and Elephant & Castle due to an earlier customer incident at Queen's Park. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-09-23T09:35:24Z",
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
-    }
-  },
-  "history": [
+    },
     {
       "category": "signal failure",
       "duration_seconds": 5036,
@@ -13213,6 +13225,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-09-23T06:36:43Z",
+  "updated_at": "2026-09-23T09:35:24Z",
   "version": 1
 }
