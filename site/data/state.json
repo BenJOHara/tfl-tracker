@@ -10,58 +10,108 @@
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "circle:text:3f928f9d3cf6f661": {
+    "circle:text:237d7705628d56a9": {
       "category": "points failure",
-      "first_seen": "2026-09-23T20:30:10Z",
-      "issue_key": "circle:text:3f928f9d3cf6f661",
+      "first_seen": "2026-09-23T21:44:30Z",
+      "issue_key": "circle:text:237d7705628d56a9",
       "line_id": "circle",
       "line_name": "Circle",
-      "reason": "Circle Line: No service while we fix a points failure at Tower Hill.",
-      "severity": "Suspended",
+      "reason": "Circle Line: Severe delays due to an earlier points failure at Tower Hill.",
+      "severity": "Severe Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "district:text:bf73bdb64d551bc4": {
+    "district:text:81413346d60e6500": {
       "category": "points failure",
-      "first_seen": "2026-09-23T20:30:10Z",
-      "issue_key": "district:text:bf73bdb64d551bc4",
+      "first_seen": "2026-09-23T21:44:30Z",
+      "issue_key": "district:text:81413346d60e6500",
       "line_id": "district",
       "line_name": "District",
-      "reason": "District Line: No service between Embankment and Whitechapel eastbound only, and SEVERE DELAYS between Earl's Court and Ealing Broadway / Richmond while we fix a points failure at Tower Hill. MINOR DELAYS on the rest of the line. London buses are accepting tickets via any reasonable route.",
-      "severity": "Part Suspended",
+      "reason": "District Line: Severe delays due to an earlier points failure at Tower Hill. London buses are accepting tickets via any reasonable route.",
+      "severity": "Severe Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "hammersmith-city:text:0f21fb624a07fed2": {
+    "hammersmith-city:text:f796f93e5623748b": {
       "category": "points failure",
-      "first_seen": "2026-09-23T20:30:10Z",
-      "issue_key": "hammersmith-city:text:0f21fb624a07fed2",
+      "first_seen": "2026-09-23T21:44:30Z",
+      "issue_key": "hammersmith-city:text:f796f93e5623748b",
       "line_id": "hammersmith-city",
       "line_name": "Hammersmith & City",
-      "reason": "Hammersmith and City Line: No service between Liverpool Street and Barking while we fix a points failure at Tower Hill. MINOR DELAYS on the rest of the line.",
-      "severity": "Part Suspended",
+      "reason": "Hammersmith and City Line: Severe delays due to an earlier points failure at Tower Hill.",
+      "severity": "Severe Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "metropolitan:text:d7e3cbb9fc506b34": {
+    "piccadilly:text:a713807818b03674": {
       "category": "signal failure",
-      "first_seen": "2026-09-23T20:30:10Z",
-      "issue_key": "metropolitan:text:d7e3cbb9fc506b34",
-      "line_id": "metropolitan",
-      "line_name": "Metropolitan",
-      "reason": "Metropolitan Line: Minor delays between Harrow-on-the-Hill and Uxbridge while we fix a signal failure at Rayners Lane. GOOD SERVICE on the rest of the line.",
-      "severity": "Minor Delays",
-      "source_created": "0001-01-01T00:00:00"
-    },
-    "piccadilly:text:a82a66d6b53bae63": {
-      "category": "points failure",
-      "first_seen": "2026-09-23T20:30:10Z",
-      "issue_key": "piccadilly:text:a82a66d6b53bae63",
+      "first_seen": "2026-09-23T21:44:30Z",
+      "issue_key": "piccadilly:text:a713807818b03674",
       "line_id": "piccadilly",
       "line_name": "Piccadilly",
-      "reason": "Piccadilly Line: Minor delays between South Harrow and Uxbridge while we fix a points failure at Rayners lane. GOOD SERVICE on the rest of the line.",
+      "reason": "Piccadilly Line: Minor delays between Rayners Lane and Uxbridge due to an earlier signal failure at Rayners lane. GOOD SERVICE on the rest of the line.",
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     }
   },
   "history": [
+    {
+      "category": "points failure",
+      "duration_seconds": 4460,
+      "first_seen": "2026-09-23T20:30:10Z",
+      "issue_key": "circle:text:3f928f9d3cf6f661",
+      "line_id": "circle",
+      "line_name": "Circle",
+      "reason": "Circle Line: No service while we fix a points failure at Tower Hill.",
+      "resolved_at": "2026-09-23T21:44:30Z",
+      "severity": "Suspended",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "points failure",
+      "duration_seconds": 4460,
+      "first_seen": "2026-09-23T20:30:10Z",
+      "issue_key": "district:text:bf73bdb64d551bc4",
+      "line_id": "district",
+      "line_name": "District",
+      "reason": "District Line: No service between Embankment and Whitechapel eastbound only, and SEVERE DELAYS between Earl's Court and Ealing Broadway / Richmond while we fix a points failure at Tower Hill. MINOR DELAYS on the rest of the line. London buses are accepting tickets via any reasonable route.",
+      "resolved_at": "2026-09-23T21:44:30Z",
+      "severity": "Part Suspended",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "points failure",
+      "duration_seconds": 4460,
+      "first_seen": "2026-09-23T20:30:10Z",
+      "issue_key": "hammersmith-city:text:0f21fb624a07fed2",
+      "line_id": "hammersmith-city",
+      "line_name": "Hammersmith & City",
+      "reason": "Hammersmith and City Line: No service between Liverpool Street and Barking while we fix a points failure at Tower Hill. MINOR DELAYS on the rest of the line.",
+      "resolved_at": "2026-09-23T21:44:30Z",
+      "severity": "Part Suspended",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "signal failure",
+      "duration_seconds": 4460,
+      "first_seen": "2026-09-23T20:30:10Z",
+      "issue_key": "metropolitan:text:d7e3cbb9fc506b34",
+      "line_id": "metropolitan",
+      "line_name": "Metropolitan",
+      "reason": "Metropolitan Line: Minor delays between Harrow-on-the-Hill and Uxbridge while we fix a signal failure at Rayners Lane. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-09-23T21:44:30Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "points failure",
+      "duration_seconds": 4460,
+      "first_seen": "2026-09-23T20:30:10Z",
+      "issue_key": "piccadilly:text:a82a66d6b53bae63",
+      "line_id": "piccadilly",
+      "line_name": "Piccadilly",
+      "reason": "Piccadilly Line: Minor delays between South Harrow and Uxbridge while we fix a points failure at Rayners lane. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-09-23T21:44:30Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
     {
       "category": "passenger incident",
       "duration_seconds": 7380,
@@ -13431,6 +13481,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-09-23T20:30:10Z",
+  "updated_at": "2026-09-23T21:44:30Z",
   "version": 1
 }
