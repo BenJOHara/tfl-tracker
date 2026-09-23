@@ -1,27 +1,41 @@
 {
   "active": {
-    "northern:text:0b50e6ec9966c3b5": {
+    "windrush:text:87c79103a2a9eb2f": {
       "category": "signal failure",
+      "first_seen": "2026-09-23T12:08:09Z",
+      "issue_key": "windrush:text:87c79103a2a9eb2f",
+      "line_id": "windrush",
+      "line_name": "Windrush",
+      "reason": "Windrush Line: Minor delays due to an earlier signal failure at Norwood Junction.",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    }
+  },
+  "history": [
+    {
+      "category": "signal failure",
+      "duration_seconds": 7681,
       "first_seen": "2026-09-23T10:00:08Z",
       "issue_key": "northern:text:0b50e6ec9966c3b5",
       "line_id": "northern",
       "line_name": "Northern",
       "reason": "Northern Line: Minor delays due to an earlier signal failure in the Battersea area and an earlier customer incident at Moorgate.",
+      "resolved_at": "2026-09-23T12:08:09Z",
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "windrush:text:eb2a019d30117439": {
+    {
       "category": "signal failure",
+      "duration_seconds": 9165,
       "first_seen": "2026-09-23T09:35:24Z",
       "issue_key": "windrush:text:eb2a019d30117439",
       "line_id": "windrush",
       "line_name": "Windrush",
       "reason": "Windrush Line: No service between New Cross Gate and Crystal Palace/West Croydon, and SEVERE DELAYS between New Cross Gate and Highbury & Islington while we fix a signal failure at Norwood Junction. London Buses are accepting valid tickets via any reasonable route. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-09-23T12:08:09Z",
       "severity": "Part Suspended",
       "source_created": "0001-01-01T00:00:00"
-    }
-  },
-  "history": [
+    },
     {
       "category": "passenger incident",
       "duration_seconds": 10721,
@@ -13235,6 +13249,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-09-23T10:00:08Z",
+  "updated_at": "2026-09-23T12:08:09Z",
   "version": 1
 }
