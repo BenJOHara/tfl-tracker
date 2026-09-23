@@ -39,19 +39,21 @@
       "reason": "Hammersmith and City Line: Severe delays due to an earlier points failure at Tower Hill.",
       "severity": "Severe Delays",
       "source_created": "0001-01-01T00:00:00"
-    },
-    "piccadilly:text:a713807818b03674": {
+    }
+  },
+  "history": [
+    {
       "category": "signal failure",
+      "duration_seconds": 1283,
       "first_seen": "2026-09-23T21:44:30Z",
       "issue_key": "piccadilly:text:a713807818b03674",
       "line_id": "piccadilly",
       "line_name": "Piccadilly",
       "reason": "Piccadilly Line: Minor delays between Rayners Lane and Uxbridge due to an earlier signal failure at Rayners lane. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-09-23T22:05:53Z",
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
-    }
-  },
-  "history": [
+    },
     {
       "category": "points failure",
       "duration_seconds": 4460,
@@ -13481,6 +13483,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-09-23T21:44:30Z",
+  "updated_at": "2026-09-23T22:05:53Z",
   "version": 1
 }
