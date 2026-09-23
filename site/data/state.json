@@ -1,17 +1,39 @@
 {
   "active": {
-    "hammersmith-city:text:004129bf5e441754": {
+    "central:text:86f96d050df2dbf5": {
       "category": "other",
-      "first_seen": "2026-09-23T14:24:00Z",
-      "issue_key": "hammersmith-city:text:004129bf5e441754",
-      "line_id": "hammersmith-city",
-      "line_name": "Hammersmith & City",
-      "reason": "Hammersmith and City Line: Minor delays due to train cancellations.",
+      "first_seen": "2026-09-23T17:14:32Z",
+      "issue_key": "central:text:86f96d050df2dbf5",
+      "line_id": "central",
+      "line_name": "Central",
+      "reason": "Central Line: Minor Delays between North Acton and Ealing Broadway / West Ruislip, and between Leytonstone and Epping / Hainault via Newbury Park due to train cancelations. GOOD SERVICE on the rest on the line.",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "metropolitan:text:3131202624829c50": {
+      "category": "other",
+      "first_seen": "2026-09-23T17:14:32Z",
+      "issue_key": "metropolitan:text:3131202624829c50",
+      "line_id": "metropolitan",
+      "line_name": "Metropolitan",
+      "reason": "Metropolitan Line: Minor delays between Harrow-on-the-Hill and Uxbridge while we dealing with a signalling problem at Rayners Lane. GOOD SERVICE on the rest of the line.",
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     }
   },
   "history": [
+    {
+      "category": "other",
+      "duration_seconds": 10232,
+      "first_seen": "2026-09-23T14:24:00Z",
+      "issue_key": "hammersmith-city:text:004129bf5e441754",
+      "line_id": "hammersmith-city",
+      "line_name": "Hammersmith & City",
+      "reason": "Hammersmith and City Line: Minor delays due to train cancellations.",
+      "resolved_at": "2026-09-23T17:14:32Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
     {
       "category": "signal failure",
       "duration_seconds": 8151,
@@ -13261,6 +13283,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-09-23T14:24:00Z",
+  "updated_at": "2026-09-23T17:14:32Z",
   "version": 1
 }
