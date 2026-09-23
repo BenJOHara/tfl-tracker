@@ -1,17 +1,29 @@
 {
   "active": {
-    "bakerloo:text:097341a9cbe7c77b": {
-      "category": "signal failure",
-      "first_seen": "2026-09-23T05:12:47Z",
-      "issue_key": "bakerloo:text:097341a9cbe7c77b",
+    "bakerloo:text:a07026f880d9dc06": {
+      "category": "passenger incident",
+      "first_seen": "2026-09-23T06:36:43Z",
+      "issue_key": "bakerloo:text:a07026f880d9dc06",
       "line_id": "bakerloo",
       "line_name": "Bakerloo",
-      "reason": "Bakerloo Line: Minor delays due to an earlier signal failure at Queens Park.",
+      "reason": "Bakerloo Line: Minor delays between Queen's Park and Elephant & Castle due to an earlier customer incident at Queen's Park. GOOD SERVICE on the rest of the line.",
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     }
   },
   "history": [
+    {
+      "category": "signal failure",
+      "duration_seconds": 5036,
+      "first_seen": "2026-09-23T05:12:47Z",
+      "issue_key": "bakerloo:text:097341a9cbe7c77b",
+      "line_id": "bakerloo",
+      "line_name": "Bakerloo",
+      "reason": "Bakerloo Line: Minor delays due to an earlier signal failure at Queens Park.",
+      "resolved_at": "2026-09-23T06:36:43Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
     {
       "category": "signal failure",
       "duration_seconds": 1082,
@@ -13201,6 +13213,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-09-23T05:12:47Z",
+  "updated_at": "2026-09-23T06:36:43Z",
   "version": 1
 }
