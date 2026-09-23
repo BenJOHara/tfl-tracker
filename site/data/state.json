@@ -1,57 +1,127 @@
 {
   "active": {
-    "bakerloo:text:c5cb7401ae3e04a5": {
-      "category": "passenger incident",
-      "first_seen": "2026-09-23T18:27:10Z",
-      "issue_key": "bakerloo:text:c5cb7401ae3e04a5",
-      "line_id": "bakerloo",
-      "line_name": "Bakerloo",
-      "reason": "Bakerloo Line: Minor delays due to an earlier customer incident at Embankment.",
+    "central:text:9bb309190b6cfcee": {
+      "category": "other",
+      "first_seen": "2026-09-23T20:30:10Z",
+      "issue_key": "central:text:9bb309190b6cfcee",
+      "line_id": "central",
+      "line_name": "Central",
+      "reason": "Central Line: Minor delays due to to train cancellations.",
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "central:text:d79fe8305ff77b18": {
-      "category": "other",
-      "first_seen": "2026-09-23T18:52:58Z",
-      "issue_key": "central:text:d79fe8305ff77b18",
-      "line_id": "central",
-      "line_name": "Central",
-      "reason": "Central Line: No service between Debden and Epping while we fix equipment damaged by vandalism. MINOR DELAYS on the rest of the line while we help a person ill on a train.",
+    "circle:text:3f928f9d3cf6f661": {
+      "category": "points failure",
+      "first_seen": "2026-09-23T20:30:10Z",
+      "issue_key": "circle:text:3f928f9d3cf6f661",
+      "line_id": "circle",
+      "line_name": "Circle",
+      "reason": "Circle Line: No service while we fix a points failure at Tower Hill.",
+      "severity": "Suspended",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "district:text:bf73bdb64d551bc4": {
+      "category": "points failure",
+      "first_seen": "2026-09-23T20:30:10Z",
+      "issue_key": "district:text:bf73bdb64d551bc4",
+      "line_id": "district",
+      "line_name": "District",
+      "reason": "District Line: No service between Embankment and Whitechapel eastbound only, and SEVERE DELAYS between Earl's Court and Ealing Broadway / Richmond while we fix a points failure at Tower Hill. MINOR DELAYS on the rest of the line. London buses are accepting tickets via any reasonable route.",
       "severity": "Part Suspended",
       "source_created": "0001-01-01T00:00:00"
     },
-    "circle:text:bf9bb7504db7ea4d": {
-      "category": "other",
-      "first_seen": "2026-09-23T18:52:58Z",
-      "issue_key": "circle:text:bf9bb7504db7ea4d",
-      "line_id": "circle",
-      "line_name": "Circle",
-      "reason": "Circle Line: Minor delays due to train cancellations.",
+    "hammersmith-city:text:0f21fb624a07fed2": {
+      "category": "points failure",
+      "first_seen": "2026-09-23T20:30:10Z",
+      "issue_key": "hammersmith-city:text:0f21fb624a07fed2",
+      "line_id": "hammersmith-city",
+      "line_name": "Hammersmith & City",
+      "reason": "Hammersmith and City Line: No service between Liverpool Street and Barking while we fix a points failure at Tower Hill. MINOR DELAYS on the rest of the line.",
+      "severity": "Part Suspended",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "metropolitan:text:d7e3cbb9fc506b34": {
+      "category": "signal failure",
+      "first_seen": "2026-09-23T20:30:10Z",
+      "issue_key": "metropolitan:text:d7e3cbb9fc506b34",
+      "line_id": "metropolitan",
+      "line_name": "Metropolitan",
+      "reason": "Metropolitan Line: Minor delays between Harrow-on-the-Hill and Uxbridge while we fix a signal failure at Rayners Lane. GOOD SERVICE on the rest of the line.",
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "district:text:254e5c1299706255": {
-      "category": "train fault",
-      "first_seen": "2026-09-23T18:52:58Z",
-      "issue_key": "district:text:254e5c1299706255",
-      "line_id": "district",
-      "line_name": "District",
-      "reason": "District Line: Severe Delays between Wimbledon and Earl's Court while we fix a faulty train at East Putney. GOOD SERVICE on the rest of the line.",
-      "severity": "Severe Delays",
-      "source_created": "0001-01-01T00:00:00"
-    },
-    "metropolitan:text:a0f3e836262e2c11": {
-      "category": "other",
-      "first_seen": "2026-09-23T18:27:10Z",
-      "issue_key": "metropolitan:text:a0f3e836262e2c11",
-      "line_id": "metropolitan",
-      "line_name": "Metropolitan",
-      "reason": "Metropolitan Line: Minor delays between Harrow-on-the-Hill and Uxbridge while we deal with a signalling problem. GOOD service on the rest of the line.",
+    "piccadilly:text:a82a66d6b53bae63": {
+      "category": "points failure",
+      "first_seen": "2026-09-23T20:30:10Z",
+      "issue_key": "piccadilly:text:a82a66d6b53bae63",
+      "line_id": "piccadilly",
+      "line_name": "Piccadilly",
+      "reason": "Piccadilly Line: Minor delays between South Harrow and Uxbridge while we fix a points failure at Rayners lane. GOOD SERVICE on the rest of the line.",
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     }
   },
   "history": [
+    {
+      "category": "passenger incident",
+      "duration_seconds": 7380,
+      "first_seen": "2026-09-23T18:27:10Z",
+      "issue_key": "bakerloo:text:c5cb7401ae3e04a5",
+      "line_id": "bakerloo",
+      "line_name": "Bakerloo",
+      "reason": "Bakerloo Line: Minor delays due to an earlier customer incident at Embankment.",
+      "resolved_at": "2026-09-23T20:30:10Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "other",
+      "duration_seconds": 5832,
+      "first_seen": "2026-09-23T18:52:58Z",
+      "issue_key": "central:text:d79fe8305ff77b18",
+      "line_id": "central",
+      "line_name": "Central",
+      "reason": "Central Line: No service between Debden and Epping while we fix equipment damaged by vandalism. MINOR DELAYS on the rest of the line while we help a person ill on a train.",
+      "resolved_at": "2026-09-23T20:30:10Z",
+      "severity": "Part Suspended",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "other",
+      "duration_seconds": 5832,
+      "first_seen": "2026-09-23T18:52:58Z",
+      "issue_key": "circle:text:bf9bb7504db7ea4d",
+      "line_id": "circle",
+      "line_name": "Circle",
+      "reason": "Circle Line: Minor delays due to train cancellations.",
+      "resolved_at": "2026-09-23T20:30:10Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "train fault",
+      "duration_seconds": 5832,
+      "first_seen": "2026-09-23T18:52:58Z",
+      "issue_key": "district:text:254e5c1299706255",
+      "line_id": "district",
+      "line_name": "District",
+      "reason": "District Line: Severe Delays between Wimbledon and Earl's Court while we fix a faulty train at East Putney. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-09-23T20:30:10Z",
+      "severity": "Severe Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "other",
+      "duration_seconds": 7380,
+      "first_seen": "2026-09-23T18:27:10Z",
+      "issue_key": "metropolitan:text:a0f3e836262e2c11",
+      "line_id": "metropolitan",
+      "line_name": "Metropolitan",
+      "reason": "Metropolitan Line: Minor delays between Harrow-on-the-Hill and Uxbridge while we deal with a signalling problem. GOOD service on the rest of the line.",
+      "resolved_at": "2026-09-23T20:30:10Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
     {
       "category": "other",
       "duration_seconds": 1548,
@@ -13361,6 +13431,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-09-23T18:52:58Z",
+  "updated_at": "2026-09-23T20:30:10Z",
   "version": 1
 }
