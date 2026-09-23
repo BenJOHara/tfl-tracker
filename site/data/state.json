@@ -1,27 +1,231 @@
 {
   "active": {
-    "central:text:5cd31287cfe813a4": {
+    "bakerloo:text:975c88cf69561d0c": {
+      "category": "other",
+      "first_seen": "2026-09-23T00:23:20Z",
+      "issue_key": "bakerloo:text:975c88cf69561d0c",
+      "line_id": "bakerloo",
+      "line_name": "Bakerloo",
+      "reason": "Bakerloo Line: Service will resume later this morning.",
+      "severity": "Service Closed",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "central:text:8dadc0a1b9047d57": {
+      "category": "other",
+      "first_seen": "2026-09-23T00:23:20Z",
+      "issue_key": "central:text:8dadc0a1b9047d57",
+      "line_id": "central",
+      "line_name": "Central",
+      "reason": "Central Line: Service will resume later this morning.",
+      "severity": "Service Closed",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "circle:text:a1099579f6415e8f": {
+      "category": "other",
+      "first_seen": "2026-09-23T00:23:20Z",
+      "issue_key": "circle:text:a1099579f6415e8f",
+      "line_id": "circle",
+      "line_name": "Circle",
+      "reason": "Circle Line: Service will resume later this morning.",
+      "severity": "Service Closed",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "district:text:468f4f04f34d8411": {
+      "category": "other",
+      "first_seen": "2026-09-23T00:23:20Z",
+      "issue_key": "district:text:468f4f04f34d8411",
+      "line_id": "district",
+      "line_name": "District",
+      "reason": "District Line: Service will resume later this morning.",
+      "severity": "Service Closed",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "dlr:text:fb244db083a3f0ff": {
+      "category": "other",
+      "first_seen": "2026-09-23T00:23:20Z",
+      "issue_key": "dlr:text:fb244db083a3f0ff",
+      "line_id": "dlr",
+      "line_name": "DLR",
+      "reason": "Docklands Light Railway: Service will resume later this morning.",
+      "severity": "Service Closed",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "elizabeth:text:85644759b2256fee": {
+      "category": "other",
+      "first_seen": "2026-09-23T00:23:20Z",
+      "issue_key": "elizabeth:text:85644759b2256fee",
+      "line_id": "elizabeth",
+      "line_name": "Elizabeth line",
+      "reason": "Service will resume later this morning.",
+      "severity": "Service Closed",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "hammersmith-city:text:b560078b35a5fd17": {
+      "category": "other",
+      "first_seen": "2026-09-23T00:23:20Z",
+      "issue_key": "hammersmith-city:text:b560078b35a5fd17",
+      "line_id": "hammersmith-city",
+      "line_name": "Hammersmith & City",
+      "reason": "Hammersmith and City Line: Service will resume later this morning.",
+      "severity": "Service Closed",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "jubilee:text:41cf503738f881df": {
+      "category": "other",
+      "first_seen": "2026-09-23T00:23:20Z",
+      "issue_key": "jubilee:text:41cf503738f881df",
+      "line_id": "jubilee",
+      "line_name": "Jubilee",
+      "reason": "Jubilee Line: Service will resume later this morning.",
+      "severity": "Service Closed",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "liberty:text:19134079f5c98ab7": {
+      "category": "other",
+      "first_seen": "2026-09-23T00:23:20Z",
+      "issue_key": "liberty:text:19134079f5c98ab7",
+      "line_id": "liberty",
+      "line_name": "Liberty",
+      "reason": "Liberty Line: Service will resume later this morning.",
+      "severity": "Service Closed",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "lioness:text:edb0d527df87ed16": {
+      "category": "other",
+      "first_seen": "2026-09-23T00:23:20Z",
+      "issue_key": "lioness:text:edb0d527df87ed16",
+      "line_id": "lioness",
+      "line_name": "Lioness",
+      "reason": "Lioness Line: Service will resume later this morning.",
+      "severity": "Service Closed",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "metropolitan:text:4b366f757f8f5a28": {
+      "category": "other",
+      "first_seen": "2026-09-23T00:23:20Z",
+      "issue_key": "metropolitan:text:4b366f757f8f5a28",
+      "line_id": "metropolitan",
+      "line_name": "Metropolitan",
+      "reason": "Metropolitan Line: Service will resume later this morning.",
+      "severity": "Service Closed",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "mildmay:text:1fbc925fb1144f09": {
+      "category": "planned engineering",
+      "first_seen": "2026-09-23T00:23:20Z",
+      "issue_key": "mildmay:text:1fbc925fb1144f09",
+      "line_id": "mildmay",
+      "line_name": "Mildmay",
+      "reason": "Mildmay Line: No service between Willesden Junction and Shepherd's Bush southbound only until 0615 due to planned engineering work. GOOD SERVICE on the rest of the line.",
+      "severity": "Service Closed",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "northern:text:82bd4c50fdf4647c": {
+      "category": "other",
+      "first_seen": "2026-09-23T00:23:20Z",
+      "issue_key": "northern:text:82bd4c50fdf4647c",
+      "line_id": "northern",
+      "line_name": "Northern",
+      "reason": "Northern Line: Service will resume later this morning.",
+      "severity": "Service Closed",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "piccadilly:text:93605ef69b23c043": {
+      "category": "other",
+      "first_seen": "2026-09-23T00:23:20Z",
+      "issue_key": "piccadilly:text:93605ef69b23c043",
+      "line_id": "piccadilly",
+      "line_name": "Piccadilly",
+      "reason": "Piccadilly Line: Service will resume later this morning.",
+      "severity": "Service Closed",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "suffragette:text:774000467a2b26d3": {
+      "category": "other",
+      "first_seen": "2026-09-23T00:23:20Z",
+      "issue_key": "suffragette:text:774000467a2b26d3",
+      "line_id": "suffragette",
+      "line_name": "Suffragette",
+      "reason": "Suffragette Line: Service will resume later this morning.",
+      "severity": "Service Closed",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "tram:text:ab9d7a64f14b787b": {
+      "category": "other",
+      "first_seen": "2026-09-23T00:23:20Z",
+      "issue_key": "tram:text:ab9d7a64f14b787b",
+      "line_id": "tram",
+      "line_name": "Tram",
+      "reason": "London Tramlink: Service will resume later this morning.",
+      "severity": "Service Closed",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "victoria:text:a0235cf21943c30f": {
+      "category": "other",
+      "first_seen": "2026-09-23T00:23:20Z",
+      "issue_key": "victoria:text:a0235cf21943c30f",
+      "line_id": "victoria",
+      "line_name": "Victoria",
+      "reason": "Victoria Line: Service will resume later this morning.",
+      "severity": "Service Closed",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "waterloo-city:text:0faebd0ea99ebd1b": {
+      "category": "other",
+      "first_seen": "2026-09-23T00:23:20Z",
+      "issue_key": "waterloo-city:text:0faebd0ea99ebd1b",
+      "line_id": "waterloo-city",
+      "line_name": "Waterloo & City",
+      "reason": "Waterloo and City Line: Service will resume at 06:00.",
+      "severity": "Service Closed",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "weaver:text:f2dc8c00c6757e13": {
+      "category": "other",
+      "first_seen": "2026-09-23T00:23:20Z",
+      "issue_key": "weaver:text:f2dc8c00c6757e13",
+      "line_id": "weaver",
+      "line_name": "Weaver",
+      "reason": "Weaver Line: Service will resume later this morning.",
+      "severity": "Service Closed",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "windrush:text:eb329ced32606fab": {
+      "category": "other",
+      "first_seen": "2026-09-23T00:23:20Z",
+      "issue_key": "windrush:text:eb329ced32606fab",
+      "line_id": "windrush",
+      "line_name": "Windrush",
+      "reason": "Windrush Line: Service will resume later this morning.",
+      "severity": "Service Closed",
+      "source_created": "0001-01-01T00:00:00"
+    }
+  },
+  "history": [
+    {
       "category": "signal failure",
+      "duration_seconds": 8537,
       "first_seen": "2026-09-22T22:01:03Z",
       "issue_key": "central:text:5cd31287cfe813a4",
       "line_id": "central",
       "line_name": "Central",
       "reason": "Central Line: Severe delays due to an earlier signal failure at St. Paul's. London Buses, London Overground, Elizabeth line, Chiltern Railways and Greater Anglia are accepting tickets via any reasonable route.",
+      "resolved_at": "2026-09-23T00:23:20Z",
       "severity": "Severe Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "northern:text:20b97d62cc27751f": {
+    {
       "category": "signal failure",
+      "duration_seconds": 5355,
       "first_seen": "2026-09-22T22:54:05Z",
       "issue_key": "northern:text:20b97d62cc27751f",
       "line_id": "northern",
       "line_name": "Northern",
       "reason": "Northern Line: Severe delays between Battersea Power Station and Kennington while we fix a signal failure at Battersea Power Station. Tickets will be accepted on London buses. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-09-23T00:23:20Z",
       "severity": "Severe Delays",
       "source_created": "0001-01-01T00:00:00"
-    }
-  },
-  "history": [
+    },
     {
       "category": "signal failure",
       "duration_seconds": 7425,
@@ -12923,6 +13127,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-09-22T22:54:05Z",
+  "updated_at": "2026-09-23T00:23:20Z",
   "version": 1
 }
