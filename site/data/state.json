@@ -1,37 +1,53 @@
 {
   "active": {
-    "bakerloo:text:a245b45adf060066": {
+    "bakerloo:text:097341a9cbe7c77b": {
       "category": "signal failure",
+      "first_seen": "2026-09-23T05:12:47Z",
+      "issue_key": "bakerloo:text:097341a9cbe7c77b",
+      "line_id": "bakerloo",
+      "line_name": "Bakerloo",
+      "reason": "Bakerloo Line: Minor delays due to an earlier signal failure at Queens Park.",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    }
+  },
+  "history": [
+    {
+      "category": "signal failure",
+      "duration_seconds": 1082,
       "first_seen": "2026-09-23T04:54:45Z",
       "issue_key": "bakerloo:text:a245b45adf060066",
       "line_id": "bakerloo",
       "line_name": "Bakerloo",
       "reason": "Bakerloo Line: No service between Paddington and Queen's Park while we fix a signal failure at Queens Park. Tickets are being accepted on London Buses, Lioness Line, London Northwestern Railway and Thameslink services. SEVERE DELAYS on the rest of the line.",
+      "resolved_at": "2026-09-23T05:12:47Z",
       "severity": "Part Suspended",
       "source_created": "0001-01-01T00:00:00"
     },
-    "metropolitan:text:b72f032e1d2b0c80": {
+    {
       "category": "other",
+      "duration_seconds": 1082,
       "first_seen": "2026-09-23T04:54:45Z",
       "issue_key": "metropolitan:text:b72f032e1d2b0c80",
       "line_id": "metropolitan",
       "line_name": "Metropolitan",
       "reason": "Metropolitan Line: Minor delays between Moor Park and Watford due train cancellations. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-09-23T05:12:47Z",
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "waterloo-city:text:0faebd0ea99ebd1b": {
+    {
       "category": "other",
+      "duration_seconds": 17367,
       "first_seen": "2026-09-23T00:23:20Z",
       "issue_key": "waterloo-city:text:0faebd0ea99ebd1b",
       "line_id": "waterloo-city",
       "line_name": "Waterloo & City",
       "reason": "Waterloo and City Line: Service will resume at 06:00.",
+      "resolved_at": "2026-09-23T05:12:47Z",
       "severity": "Service Closed",
       "source_created": "0001-01-01T00:00:00"
-    }
-  },
-  "history": [
+    },
     {
       "category": "other",
       "duration_seconds": 16285,
@@ -13185,6 +13201,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-09-23T04:54:45Z",
+  "updated_at": "2026-09-23T05:12:47Z",
   "version": 1
 }
