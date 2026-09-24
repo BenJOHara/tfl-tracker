@@ -1,37 +1,73 @@
 {
   "active": {
-    "hammersmith-city:text:ac437253a37c213b": {
+    "district:text:9c09d477e2a85811": {
       "category": "other",
+      "first_seen": "2026-09-24T06:21:13Z",
+      "issue_key": "district:text:9c09d477e2a85811",
+      "line_id": "district",
+      "line_name": "District",
+      "reason": "District Line: Minor delays due to train cancellations.",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "jubilee:text:0f64ac1f2842491c": {
+      "category": "signal failure",
+      "first_seen": "2026-09-24T06:21:13Z",
+      "issue_key": "jubilee:text:0f64ac1f2842491c",
+      "line_id": "jubilee",
+      "line_name": "Jubilee",
+      "reason": "Jubilee Line: Severe delays due to an earlier signal failure at Baker Street. London Buses, Mildmay Line, DLR and Elizabeth Line are accepting tickets via any reasonable route.",
+      "severity": "Severe Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "northern:text:e1cd05348d0130a7": {
+      "category": "planned engineering",
+      "first_seen": "2026-09-24T06:21:13Z",
+      "issue_key": "northern:text:e1cd05348d0130a7",
+      "line_id": "northern",
+      "line_name": "Northern",
+      "reason": "Northern Line: Severe delays between Kennington and Morden following a late finish of engineering work. Tickets will be accepted on London Buses via reasonable routes. GOOD SERVICE on the rest of the line.",
+      "severity": "Severe Delays",
+      "source_created": "0001-01-01T00:00:00"
+    }
+  },
+  "history": [
+    {
+      "category": "other",
+      "duration_seconds": 3939,
       "first_seen": "2026-09-24T05:15:34Z",
       "issue_key": "hammersmith-city:text:ac437253a37c213b",
       "line_id": "hammersmith-city",
       "line_name": "Hammersmith & City",
       "reason": "Hammersmith and City Line: Minor delays eastbound only due to train cancellations. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-09-24T06:21:13Z",
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "jubilee:text:46bf8be8dc6412d9": {
+    {
       "category": "signal failure",
+      "duration_seconds": 3939,
       "first_seen": "2026-09-24T05:15:34Z",
       "issue_key": "jubilee:text:46bf8be8dc6412d9",
       "line_id": "jubilee",
       "line_name": "Jubilee",
       "reason": "Jubilee Line: No service between Finchley Road and Waterloo while we fix a signal failure at Baker Street. SEVERE DELAYS on the rest of the line. London Buses, Mildmay Line, DLR and Elizabeth Line are accepting tickets via any reasonable route.",
+      "resolved_at": "2026-09-24T06:21:13Z",
       "severity": "Part Suspended",
       "source_created": "0001-01-01T00:00:00"
     },
-    "northern:text:0bfc49a65bf1e9eb": {
+    {
       "category": "planned engineering",
+      "duration_seconds": 3939,
       "first_seen": "2026-09-24T05:15:34Z",
       "issue_key": "northern:text:0bfc49a65bf1e9eb",
       "line_id": "northern",
       "line_name": "Northern",
       "reason": "Northern Line: No service between Stockwell and Morden southbound only due to a late finish of engineering work. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-09-24T06:21:13Z",
       "severity": "Part Suspended",
       "source_created": "0001-01-01T00:00:00"
-    }
-  },
-  "history": [
+    },
     {
       "category": "other",
       "duration_seconds": 2249,
@@ -13797,6 +13833,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-09-24T05:15:34Z",
+  "updated_at": "2026-09-24T06:21:13Z",
   "version": 1
 }
