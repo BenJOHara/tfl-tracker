@@ -9,6 +9,26 @@
       "reason": "Central Line: Minor delays between White City and Ealing Broadway/West Ruislip and between Leytonstone and Epping/Hainault via Newbury Park due train cancellations. GOOD SERVICE on the rest of the line.",
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
+    },
+    "suffragette:text:cb9fee184d2838d9": {
+      "category": "signal failure",
+      "first_seen": "2026-09-24T18:28:00Z",
+      "issue_key": "suffragette:text:cb9fee184d2838d9",
+      "line_id": "suffragette",
+      "line_name": "Suffragette",
+      "reason": "Suffragette Line: Minor delays while we fix a signal failure at South Tottenham.",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "weaver:text:f3b5c84a34eec6c6": {
+      "category": "signal failure",
+      "first_seen": "2026-09-24T18:28:00Z",
+      "issue_key": "weaver:text:f3b5c84a34eec6c6",
+      "line_id": "weaver",
+      "line_name": "Weaver",
+      "reason": "Weaver Line: No service between Hackney Downs and Enfield Town / Cheshunt while we remove an object from the overhead power lines at Edmonton Green. MINOR DELAYS on the rest of the line while we fix a signal failure at South Tottenham. London Underground are accepting tickets via any reasonable route.",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
     }
   },
   "history": [
@@ -13921,6 +13941,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-09-24T17:03:51Z",
+  "updated_at": "2026-09-24T18:28:00Z",
   "version": 1
 }
