@@ -1,13 +1,13 @@
 {
   "active": {
-    "central:text:3bb080c7260f5d4b": {
+    "central:text:a36e9db7c5f31acd": {
       "category": "signal failure",
-      "first_seen": "2026-09-24T09:29:39Z",
-      "issue_key": "central:text:3bb080c7260f5d4b",
+      "first_seen": "2026-09-24T10:06:45Z",
+      "issue_key": "central:text:a36e9db7c5f31acd",
       "line_id": "central",
       "line_name": "Central",
-      "reason": "Central Line: Severe delays due to an earlier signal failure at Leytonstone. Tickets will be accepted on London Buses, Liberty line, Chiltern, Great Western Railway and Elizabeth line via reasonable routes.",
-      "severity": "Severe Delays",
+      "reason": "Central Line: Severe delays between North Acton and Ealing Broadway/West Ruislip and between Leytonstone and Epping/Hainault via Newbury Park due to an earlier signal failure at Leytonstone. Tickets will be accepted on London Buses, Liberty line, Chiltern, Great Western Railway and Elizabeth line via reasonable routes. MINOR DELAYS on the rest of the line.",
+      "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
     "district:text:9c09d477e2a85811": {
@@ -17,16 +17,6 @@
       "line_id": "district",
       "line_name": "District",
       "reason": "District Line: Minor delays due to train cancellations.",
-      "severity": "Minor Delays",
-      "source_created": "0001-01-01T00:00:00"
-    },
-    "northern:text:952aa77a3fccfbc5": {
-      "category": "planned engineering",
-      "first_seen": "2026-09-24T09:29:39Z",
-      "issue_key": "northern:text:952aa77a3fccfbc5",
-      "line_id": "northern",
-      "line_name": "Northern",
-      "reason": "Northern Line: Minor delays between Camden Town and Kennington following a late finish of engineering work. GOOD SERVICE on the rest of the line.",
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
@@ -42,6 +32,30 @@
     }
   },
   "history": [
+    {
+      "category": "signal failure",
+      "duration_seconds": 2226,
+      "first_seen": "2026-09-24T09:29:39Z",
+      "issue_key": "central:text:3bb080c7260f5d4b",
+      "line_id": "central",
+      "line_name": "Central",
+      "reason": "Central Line: Severe delays due to an earlier signal failure at Leytonstone. Tickets will be accepted on London Buses, Liberty line, Chiltern, Great Western Railway and Elizabeth line via reasonable routes.",
+      "resolved_at": "2026-09-24T10:06:45Z",
+      "severity": "Severe Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "planned engineering",
+      "duration_seconds": 2226,
+      "first_seen": "2026-09-24T09:29:39Z",
+      "issue_key": "northern:text:952aa77a3fccfbc5",
+      "line_id": "northern",
+      "line_name": "Northern",
+      "reason": "Northern Line: Minor delays between Camden Town and Kennington following a late finish of engineering work. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-09-24T10:06:45Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
     {
       "category": "signal failure",
       "duration_seconds": 11306,
@@ -13867,6 +13881,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-09-24T09:29:39Z",
+  "updated_at": "2026-09-24T10:06:45Z",
   "version": 1
 }
