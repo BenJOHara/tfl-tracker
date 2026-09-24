@@ -1,37 +1,73 @@
 {
   "active": {
-    "central:text:4acd7614e149dada": {
+    "elizabeth:text:283f68b38c4478fc": {
       "category": "other",
+      "first_seen": "2026-09-24T20:26:05Z",
+      "issue_key": "elizabeth:text:283f68b38c4478fc",
+      "line_id": "elizabeth",
+      "line_name": "Elizabeth line",
+      "reason": "Severe delays Whitechapel to Shenfield due to an obstruction on the track at Harold Wood. GOOD SERVICE on the rest of the line.",
+      "severity": "Severe Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "metropolitan:text:8baae44e63ac3342": {
+      "category": "other",
+      "first_seen": "2026-09-24T20:26:05Z",
+      "issue_key": "metropolitan:text:8baae44e63ac3342",
+      "line_id": "metropolitan",
+      "line_name": "Metropolitan",
+      "reason": "Metropolitan Line: Minor delays between Moor Park and Amersham due to train cancellations. The next southbound train will be at 21:52. GOOD SERVICE on the rest of the line.",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "weaver:text:c8780b1e48207aa6": {
+      "category": "other",
+      "first_seen": "2026-09-24T20:26:05Z",
+      "issue_key": "weaver:text:c8780b1e48207aa6",
+      "line_id": "weaver",
+      "line_name": "Weaver",
+      "reason": "Weaver Line: Severe delays between Hackney Downs and Enfield Town / Cheshunt, due to an earlier obstruction on the overhead power lines in the Edmonton Green area. GOOD SERVICE on the rest of the line.",
+      "severity": "Severe Delays",
+      "source_created": "0001-01-01T00:00:00"
+    }
+  },
+  "history": [
+    {
+      "category": "other",
+      "duration_seconds": 21778,
       "first_seen": "2026-09-24T14:23:07Z",
       "issue_key": "central:text:4acd7614e149dada",
       "line_id": "central",
       "line_name": "Central",
       "reason": "Central Line: Minor delays between White City and Ealing Broadway/West Ruislip and between Leytonstone and Epping/Hainault via Newbury Park due train cancellations. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-09-24T20:26:05Z",
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "elizabeth:text:4f4fd2c047378a30": {
+    {
       "category": "other",
+      "duration_seconds": 4534,
       "first_seen": "2026-09-24T19:10:31Z",
       "issue_key": "elizabeth:text:4f4fd2c047378a30",
       "line_id": "elizabeth",
       "line_name": "Elizabeth line",
       "reason": "Severe delays between Gidea Park and Shenfield and MINOR DELAYS between Whitechapel and Gidea Park due to an obstruction on the track at Harold Wood. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-09-24T20:26:05Z",
       "severity": "Severe Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "weaver:text:aba7fcfca6def920": {
+    {
       "category": "other",
+      "duration_seconds": 4534,
       "first_seen": "2026-09-24T19:10:31Z",
       "issue_key": "weaver:text:aba7fcfca6def920",
       "line_id": "weaver",
       "line_name": "Weaver",
       "reason": "Weaver Line: No service between Hackney Downs and Enfield Town / Cheshunt, and MINOR DELAYS on the rest of the line due to an obstruction on the overhead power lines in the Edmonton Green area.",
+      "resolved_at": "2026-09-24T20:26:05Z",
       "severity": "Part Suspended",
       "source_created": "0001-01-01T00:00:00"
-    }
-  },
-  "history": [
+    },
     {
       "category": "signal failure",
       "duration_seconds": 2551,
@@ -13965,6 +14001,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-09-24T19:10:31Z",
+  "updated_at": "2026-09-24T20:26:05Z",
   "version": 1
 }
