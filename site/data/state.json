@@ -110,13 +110,13 @@
       "severity": "Service Closed",
       "source_created": "0001-01-01T00:00:00"
     },
-    "mildmay:text:43f3ca710bb3792b": {
-      "category": "other",
-      "first_seen": "2026-09-24T00:30:32Z",
-      "issue_key": "mildmay:text:43f3ca710bb3792b",
+    "mildmay:text:1fcc3e64b2e5b59f": {
+      "category": "planned engineering",
+      "first_seen": "2026-09-24T01:21:23Z",
+      "issue_key": "mildmay:text:1fcc3e64b2e5b59f",
       "line_id": "mildmay",
       "line_name": "Mildmay",
-      "reason": "Mildmay Line: Service will resume later this morning.",
+      "reason": "Mildmay Line: Service will resume later this morning. There will be no service between Willesden Junction and Shepherd's Bush until 06:15 due to planned engineering work.",
       "severity": "Service Closed",
       "source_created": "0001-01-01T00:00:00"
     },
@@ -202,6 +202,18 @@
     }
   },
   "history": [
+    {
+      "category": "other",
+      "duration_seconds": 3051,
+      "first_seen": "2026-09-24T00:30:32Z",
+      "issue_key": "mildmay:text:43f3ca710bb3792b",
+      "line_id": "mildmay",
+      "line_name": "Mildmay",
+      "reason": "Mildmay Line: Service will resume later this morning.",
+      "resolved_at": "2026-09-24T01:21:23Z",
+      "severity": "Service Closed",
+      "source_created": "0001-01-01T00:00:00"
+    },
     {
       "category": "other",
       "duration_seconds": 14422,
@@ -13691,6 +13703,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-09-24T00:30:32Z",
+  "updated_at": "2026-09-24T01:21:23Z",
   "version": 1
 }
