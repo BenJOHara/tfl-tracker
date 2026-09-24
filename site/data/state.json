@@ -1,37 +1,63 @@
 {
   "active": {
-    "elizabeth:text:283f68b38c4478fc": {
+    "elizabeth:text:d1e32ab8b0d8455f": {
       "category": "other",
+      "first_seen": "2026-09-24T21:44:58Z",
+      "issue_key": "elizabeth:text:d1e32ab8b0d8455f",
+      "line_id": "elizabeth",
+      "line_name": "Elizabeth line",
+      "reason": "Severe delays Whitechapel to Shenfield due to an earlier obstruction on the track at Harold Wood. GOOD SERVICE on the rest of the line.",
+      "severity": "Severe Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "metropolitan:text:4777e53d01714269": {
+      "category": "signal failure",
+      "first_seen": "2026-09-24T21:44:58Z",
+      "issue_key": "metropolitan:text:4777e53d01714269",
+      "line_id": "metropolitan",
+      "line_name": "Metropolitan",
+      "reason": "Metropolitan Line: Minor delays between Moor Park and Chesham due to an earlier signal failure at Rickmansworth. The next southbound departure from Chesham is at 23:30. GOOD SERVICE on the rest of the line.",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    }
+  },
+  "history": [
+    {
+      "category": "other",
+      "duration_seconds": 4733,
       "first_seen": "2026-09-24T20:26:05Z",
       "issue_key": "elizabeth:text:283f68b38c4478fc",
       "line_id": "elizabeth",
       "line_name": "Elizabeth line",
       "reason": "Severe delays Whitechapel to Shenfield due to an obstruction on the track at Harold Wood. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-09-24T21:44:58Z",
       "severity": "Severe Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "metropolitan:text:8baae44e63ac3342": {
+    {
       "category": "other",
+      "duration_seconds": 4733,
       "first_seen": "2026-09-24T20:26:05Z",
       "issue_key": "metropolitan:text:8baae44e63ac3342",
       "line_id": "metropolitan",
       "line_name": "Metropolitan",
       "reason": "Metropolitan Line: Minor delays between Moor Park and Amersham due to train cancellations. The next southbound train will be at 21:52. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-09-24T21:44:58Z",
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "weaver:text:c8780b1e48207aa6": {
+    {
       "category": "other",
+      "duration_seconds": 4733,
       "first_seen": "2026-09-24T20:26:05Z",
       "issue_key": "weaver:text:c8780b1e48207aa6",
       "line_id": "weaver",
       "line_name": "Weaver",
       "reason": "Weaver Line: Severe delays between Hackney Downs and Enfield Town / Cheshunt, due to an earlier obstruction on the overhead power lines in the Edmonton Green area. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-09-24T21:44:58Z",
       "severity": "Severe Delays",
       "source_created": "0001-01-01T00:00:00"
-    }
-  },
-  "history": [
+    },
     {
       "category": "other",
       "duration_seconds": 21778,
@@ -14001,6 +14027,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-09-24T20:26:05Z",
+  "updated_at": "2026-09-24T21:44:58Z",
   "version": 1
 }
