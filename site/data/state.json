@@ -1,37 +1,73 @@
 {
   "active": {
-    "district:text:aad91497cba276db": {
+    "hammersmith-city:text:ac437253a37c213b": {
       "category": "other",
+      "first_seen": "2026-09-24T05:15:34Z",
+      "issue_key": "hammersmith-city:text:ac437253a37c213b",
+      "line_id": "hammersmith-city",
+      "line_name": "Hammersmith & City",
+      "reason": "Hammersmith and City Line: Minor delays eastbound only due to train cancellations. GOOD SERVICE on the rest of the line.",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "jubilee:text:46bf8be8dc6412d9": {
+      "category": "signal failure",
+      "first_seen": "2026-09-24T05:15:34Z",
+      "issue_key": "jubilee:text:46bf8be8dc6412d9",
+      "line_id": "jubilee",
+      "line_name": "Jubilee",
+      "reason": "Jubilee Line: No service between Finchley Road and Waterloo while we fix a signal failure at Baker Street. SEVERE DELAYS on the rest of the line. London Buses, Mildmay Line, DLR and Elizabeth Line are accepting tickets via any reasonable route.",
+      "severity": "Part Suspended",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "northern:text:0bfc49a65bf1e9eb": {
+      "category": "planned engineering",
+      "first_seen": "2026-09-24T05:15:34Z",
+      "issue_key": "northern:text:0bfc49a65bf1e9eb",
+      "line_id": "northern",
+      "line_name": "Northern",
+      "reason": "Northern Line: No service between Stockwell and Morden southbound only due to a late finish of engineering work. GOOD SERVICE on the rest of the line.",
+      "severity": "Part Suspended",
+      "source_created": "0001-01-01T00:00:00"
+    }
+  },
+  "history": [
+    {
+      "category": "other",
+      "duration_seconds": 2249,
       "first_seen": "2026-09-24T04:38:05Z",
       "issue_key": "district:text:aad91497cba276db",
       "line_id": "district",
       "line_name": "District",
       "reason": "District Line: Minor delays between Earl's Court and Wimbledon due to train cancellations. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-09-24T05:15:34Z",
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "jubilee:text:d6f1f69bd81e79d1": {
+    {
       "category": "planned engineering",
+      "duration_seconds": 2249,
       "first_seen": "2026-09-24T04:38:05Z",
       "issue_key": "jubilee:text:d6f1f69bd81e79d1",
       "line_id": "jubilee",
       "line_name": "Jubilee",
       "reason": "Jubilee Line: No service between Stratford and North Greenwich due to a late finish of engineering work. London Buses, Mildmay Line, DLR and Elizabeth Line are accepting tickets via any reasonable route. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-09-24T05:15:34Z",
       "severity": "Part Suspended",
       "source_created": "0001-01-01T00:00:00"
     },
-    "waterloo-city:text:0faebd0ea99ebd1b": {
+    {
       "category": "other",
+      "duration_seconds": 18878,
       "first_seen": "2026-09-24T00:00:56Z",
       "issue_key": "waterloo-city:text:0faebd0ea99ebd1b",
       "line_id": "waterloo-city",
       "line_name": "Waterloo & City",
       "reason": "Waterloo and City Line: Service will resume at 06:00.",
+      "resolved_at": "2026-09-24T05:15:34Z",
       "severity": "Service Closed",
       "source_created": "0001-01-01T00:00:00"
-    }
-  },
-  "history": [
+    },
     {
       "category": "other",
       "duration_seconds": 14853,
@@ -13761,6 +13797,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-09-24T04:38:05Z",
+  "updated_at": "2026-09-24T05:15:34Z",
   "version": 1
 }
