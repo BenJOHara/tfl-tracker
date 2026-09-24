@@ -1,5 +1,15 @@
 {
   "active": {
+    "central:text:3bb080c7260f5d4b": {
+      "category": "signal failure",
+      "first_seen": "2026-09-24T09:29:39Z",
+      "issue_key": "central:text:3bb080c7260f5d4b",
+      "line_id": "central",
+      "line_name": "Central",
+      "reason": "Central Line: Severe delays due to an earlier signal failure at Leytonstone. Tickets will be accepted on London Buses, Liberty line, Chiltern, Great Western Railway and Elizabeth line via reasonable routes.",
+      "severity": "Severe Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
     "district:text:9c09d477e2a85811": {
       "category": "other",
       "first_seen": "2026-09-24T06:21:13Z",
@@ -10,28 +20,52 @@
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "jubilee:text:0f64ac1f2842491c": {
+    "northern:text:952aa77a3fccfbc5": {
+      "category": "planned engineering",
+      "first_seen": "2026-09-24T09:29:39Z",
+      "issue_key": "northern:text:952aa77a3fccfbc5",
+      "line_id": "northern",
+      "line_name": "Northern",
+      "reason": "Northern Line: Minor delays between Camden Town and Kennington following a late finish of engineering work. GOOD SERVICE on the rest of the line.",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "victoria:text:762fa33c937450fd": {
+      "category": "train fault",
+      "first_seen": "2026-09-24T09:29:39Z",
+      "issue_key": "victoria:text:762fa33c937450fd",
+      "line_id": "victoria",
+      "line_name": "Victoria",
+      "reason": "Victoria Line: Minor delays due to an earlier faulty train at Pimlico.",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    }
+  },
+  "history": [
+    {
       "category": "signal failure",
+      "duration_seconds": 11306,
       "first_seen": "2026-09-24T06:21:13Z",
       "issue_key": "jubilee:text:0f64ac1f2842491c",
       "line_id": "jubilee",
       "line_name": "Jubilee",
       "reason": "Jubilee Line: Severe delays due to an earlier signal failure at Baker Street. London Buses, Mildmay Line, DLR and Elizabeth Line are accepting tickets via any reasonable route.",
+      "resolved_at": "2026-09-24T09:29:39Z",
       "severity": "Severe Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "northern:text:e1cd05348d0130a7": {
+    {
       "category": "planned engineering",
+      "duration_seconds": 11306,
       "first_seen": "2026-09-24T06:21:13Z",
       "issue_key": "northern:text:e1cd05348d0130a7",
       "line_id": "northern",
       "line_name": "Northern",
       "reason": "Northern Line: Severe delays between Kennington and Morden following a late finish of engineering work. Tickets will be accepted on London Buses via reasonable routes. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-09-24T09:29:39Z",
       "severity": "Severe Delays",
       "source_created": "0001-01-01T00:00:00"
-    }
-  },
-  "history": [
+    },
     {
       "category": "other",
       "duration_seconds": 3939,
@@ -13833,6 +13867,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-09-24T06:21:13Z",
+  "updated_at": "2026-09-24T09:29:39Z",
   "version": 1
 }
