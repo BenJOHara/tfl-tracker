@@ -1,27 +1,51 @@
 {
   "active": {
-    "elizabeth:text:d1e32ab8b0d8455f": {
-      "category": "other",
-      "first_seen": "2026-09-24T21:44:58Z",
-      "issue_key": "elizabeth:text:d1e32ab8b0d8455f",
-      "line_id": "elizabeth",
-      "line_name": "Elizabeth line",
-      "reason": "Severe delays Whitechapel to Shenfield due to an earlier obstruction on the track at Harold Wood. GOOD SERVICE on the rest of the line.",
-      "severity": "Severe Delays",
+    "jubilee:text:a241f24ff79ff426": {
+      "category": "signal failure",
+      "first_seen": "2026-09-24T23:24:10Z",
+      "issue_key": "jubilee:text:a241f24ff79ff426",
+      "line_id": "jubilee",
+      "line_name": "Jubilee",
+      "reason": "Jubilee Line: No service between Willesden Green and Stanmore while we fix a signal failure at Wembley Park. SEVERE DELAYS on the rest of the line.",
+      "severity": "Part Suspended",
       "source_created": "0001-01-01T00:00:00"
     },
-    "piccadilly:text:78c89e2e6e4881bf": {
+    "piccadilly:text:00650c5c28b82a83": {
       "category": "passenger incident",
-      "first_seen": "2026-09-24T22:24:36Z",
-      "issue_key": "piccadilly:text:78c89e2e6e4881bf",
+      "first_seen": "2026-09-24T23:24:10Z",
+      "issue_key": "piccadilly:text:00650c5c28b82a83",
       "line_id": "piccadilly",
       "line_name": "Piccadilly",
-      "reason": "Piccadilly Line: Minor delays between Acton Town and Cockfosters eastbound only while we deal with a customer incident at Wood Green. GOOD SERVICE on the rest of the line.",
+      "reason": "Piccadilly Line: Minor delays between Acton Town and Uxbridge due to an earlier customer incident at Wood Green. GOOD SERVICE on the rest of the line.",
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     }
   },
   "history": [
+    {
+      "category": "other",
+      "duration_seconds": 5952,
+      "first_seen": "2026-09-24T21:44:58Z",
+      "issue_key": "elizabeth:text:d1e32ab8b0d8455f",
+      "line_id": "elizabeth",
+      "line_name": "Elizabeth line",
+      "reason": "Severe delays Whitechapel to Shenfield due to an earlier obstruction on the track at Harold Wood. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-09-24T23:24:10Z",
+      "severity": "Severe Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "passenger incident",
+      "duration_seconds": 3574,
+      "first_seen": "2026-09-24T22:24:36Z",
+      "issue_key": "piccadilly:text:78c89e2e6e4881bf",
+      "line_id": "piccadilly",
+      "line_name": "Piccadilly",
+      "reason": "Piccadilly Line: Minor delays between Acton Town and Cockfosters eastbound only while we deal with a customer incident at Wood Green. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-09-24T23:24:10Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
     {
       "category": "signal failure",
       "duration_seconds": 2378,
@@ -14039,6 +14063,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-09-24T22:24:36Z",
+  "updated_at": "2026-09-24T23:24:10Z",
   "version": 1
 }
