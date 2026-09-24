@@ -9,19 +9,21 @@
       "reason": "Central Line: Minor delays between White City and Ealing Broadway/West Ruislip and between Leytonstone and Epping/Hainault via Newbury Park due train cancellations. GOOD SERVICE on the rest of the line.",
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
-    },
-    "metropolitan:text:8f33d7c6a788a3e7": {
+    }
+  },
+  "history": [
+    {
       "category": "other",
+      "duration_seconds": 9644,
       "first_seen": "2026-09-24T14:23:07Z",
       "issue_key": "metropolitan:text:8f33d7c6a788a3e7",
       "line_id": "metropolitan",
       "line_name": "Metropolitan",
       "reason": "Metropolitan Line: Minor delays between Moor Park and Amersham due to train cancellations. (The next train from Amersham southbound will be at 16:47.) GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-09-24T17:03:51Z",
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
-    }
-  },
-  "history": [
+    },
     {
       "category": "signal failure",
       "duration_seconds": 8530,
@@ -13919,6 +13921,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-09-24T15:06:42Z",
+  "updated_at": "2026-09-24T17:03:51Z",
   "version": 1
 }
