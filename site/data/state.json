@@ -1,22 +1,12 @@
 {
   "active": {
-    "central:text:a36e9db7c5f31acd": {
+    "central:text:36d43492f3123756": {
       "category": "signal failure",
-      "first_seen": "2026-09-24T10:06:45Z",
-      "issue_key": "central:text:a36e9db7c5f31acd",
+      "first_seen": "2026-09-24T12:00:57Z",
+      "issue_key": "central:text:36d43492f3123756",
       "line_id": "central",
       "line_name": "Central",
-      "reason": "Central Line: Severe delays between North Acton and Ealing Broadway/West Ruislip and between Leytonstone and Epping/Hainault via Newbury Park due to an earlier signal failure at Leytonstone. Tickets will be accepted on London Buses, Liberty line, Chiltern, Great Western Railway and Elizabeth line via reasonable routes. MINOR DELAYS on the rest of the line.",
-      "severity": "Minor Delays",
-      "source_created": "0001-01-01T00:00:00"
-    },
-    "district:text:9c09d477e2a85811": {
-      "category": "other",
-      "first_seen": "2026-09-24T06:21:13Z",
-      "issue_key": "district:text:9c09d477e2a85811",
-      "line_id": "district",
-      "line_name": "District",
-      "reason": "District Line: Minor delays due to train cancellations.",
+      "reason": "Central Line: Minor delays between White City and Ealing Broadway/West Ruislip and between Leytonstone and Epping/Hainault via Newbury Park due to an earlier signal failure at Leytonstone. GOOD SERVICE on the rest of the line.",
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
@@ -32,6 +22,30 @@
     }
   },
   "history": [
+    {
+      "category": "signal failure",
+      "duration_seconds": 6852,
+      "first_seen": "2026-09-24T10:06:45Z",
+      "issue_key": "central:text:a36e9db7c5f31acd",
+      "line_id": "central",
+      "line_name": "Central",
+      "reason": "Central Line: Severe delays between North Acton and Ealing Broadway/West Ruislip and between Leytonstone and Epping/Hainault via Newbury Park due to an earlier signal failure at Leytonstone. Tickets will be accepted on London Buses, Liberty line, Chiltern, Great Western Railway and Elizabeth line via reasonable routes. MINOR DELAYS on the rest of the line.",
+      "resolved_at": "2026-09-24T12:00:57Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "other",
+      "duration_seconds": 20384,
+      "first_seen": "2026-09-24T06:21:13Z",
+      "issue_key": "district:text:9c09d477e2a85811",
+      "line_id": "district",
+      "line_name": "District",
+      "reason": "District Line: Minor delays due to train cancellations.",
+      "resolved_at": "2026-09-24T12:00:57Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
     {
       "category": "signal failure",
       "duration_seconds": 2226,
@@ -13881,6 +13895,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-09-24T10:06:45Z",
+  "updated_at": "2026-09-24T12:00:57Z",
   "version": 1
 }
