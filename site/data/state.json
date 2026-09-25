@@ -1,17 +1,39 @@
 {
   "active": {
-    "victoria:text:a89d6dcf8842bee2": {
+    "district:text:aad91497cba276db": {
+      "category": "other",
+      "first_seen": "2026-09-25T06:52:57Z",
+      "issue_key": "district:text:aad91497cba276db",
+      "line_id": "district",
+      "line_name": "District",
+      "reason": "District Line: Minor delays between Earl's Court and Wimbledon due to train cancellations. GOOD SERVICE on the rest of the line.",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "victoria:text:61bb2c6e05ac5bf1": {
       "category": "track fault",
-      "first_seen": "2026-09-25T05:25:24Z",
-      "issue_key": "victoria:text:a89d6dcf8842bee2",
+      "first_seen": "2026-09-25T06:52:57Z",
+      "issue_key": "victoria:text:61bb2c6e05ac5bf1",
       "line_id": "victoria",
       "line_name": "Victoria",
-      "reason": "Victoria Line: Minor delays while we fix a track fault at Brixton.",
+      "reason": "Victoria Line: Minor delays due to a track fault at Brixton.",
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     }
   },
   "history": [
+    {
+      "category": "track fault",
+      "duration_seconds": 5253,
+      "first_seen": "2026-09-25T05:25:24Z",
+      "issue_key": "victoria:text:a89d6dcf8842bee2",
+      "line_id": "victoria",
+      "line_name": "Victoria",
+      "reason": "Victoria Line: Minor delays while we fix a track fault at Brixton.",
+      "resolved_at": "2026-09-25T06:52:57Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
     {
       "category": "planned engineering",
       "duration_seconds": 17089,
@@ -14317,6 +14339,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-09-25T05:25:24Z",
+  "updated_at": "2026-09-25T06:52:57Z",
   "version": 1
 }
