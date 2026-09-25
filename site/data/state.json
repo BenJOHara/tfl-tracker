@@ -1,17 +1,29 @@
 {
   "active": {
-    "victoria:text:1449d9e062ba14bd": {
+    "waterloo-city:text:1bbcac27f282d0db": {
       "category": "other",
+      "first_seen": "2026-09-25T23:38:25Z",
+      "issue_key": "waterloo-city:text:1bbcac27f282d0db",
+      "line_id": "waterloo-city",
+      "line_name": "Waterloo & City",
+      "reason": "Waterloo and City Line: Service will resume at 06:00 on Monday.",
+      "severity": "Service Closed",
+      "source_created": "0001-01-01T00:00:00"
+    }
+  },
+  "history": [
+    {
+      "category": "other",
+      "duration_seconds": 10456,
       "first_seen": "2026-09-25T20:44:09Z",
       "issue_key": "victoria:text:1449d9e062ba14bd",
       "line_id": "victoria",
       "line_name": "Victoria",
       "reason": "Victoria Line: Severe delays due to an earlier person ill on a train at Oxford Circus.",
+      "resolved_at": "2026-09-25T23:38:25Z",
       "severity": "Severe Delays",
       "source_created": "0001-01-01T00:00:00"
-    }
-  },
-  "history": [
+    },
     {
       "category": "other",
       "duration_seconds": 11790,
@@ -14545,6 +14557,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-09-25T22:14:21Z",
+  "updated_at": "2026-09-25T23:38:25Z",
   "version": 1
 }
