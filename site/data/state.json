@@ -10,14 +10,14 @@
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "elizabeth:text:b6c54815f3fad50e": {
+    "elizabeth:text:bdf842bd52eedbba": {
       "category": "person on track",
-      "first_seen": "2026-09-25T17:35:13Z",
-      "issue_key": "elizabeth:text:b6c54815f3fad50e",
+      "first_seen": "2026-09-25T19:26:09Z",
+      "issue_key": "elizabeth:text:bdf842bd52eedbba",
       "line_id": "elizabeth",
       "line_name": "Elizabeth line",
-      "reason": "Severe delays between Paddington and Heathrow Terminals / Reading while we deal with a trespasser on the track in the Slough area. GOOD SERVICE on the rest of the line.",
-      "severity": "Severe Delays",
+      "reason": "Minor delays between Paddington and Heathrow Terminals / Reading due to an earlier trespasser on the track at Slough. GOOD SERVICE on the rest of the line.",
+      "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
     "jubilee:text:57925a2ef9e26722": {
@@ -30,18 +30,42 @@
       "severity": "Severe Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "victoria:text:d4b5c9df96e6ddc8": {
+    "victoria:text:91063c6e21ce8ef8": {
       "category": "other",
-      "first_seen": "2026-09-25T18:57:51Z",
-      "issue_key": "victoria:text:d4b5c9df96e6ddc8",
+      "first_seen": "2026-09-25T19:26:09Z",
+      "issue_key": "victoria:text:91063c6e21ce8ef8",
       "line_id": "victoria",
       "line_name": "Victoria",
-      "reason": "Victoria Line: Severe delays while we help a person ill on a train.",
+      "reason": "Victoria Line: Severe delays due to a person taken ill on a train earlier at Oxford Circus.",
       "severity": "Severe Delays",
       "source_created": "0001-01-01T00:00:00"
     }
   },
   "history": [
+    {
+      "category": "person on track",
+      "duration_seconds": 6656,
+      "first_seen": "2026-09-25T17:35:13Z",
+      "issue_key": "elizabeth:text:b6c54815f3fad50e",
+      "line_id": "elizabeth",
+      "line_name": "Elizabeth line",
+      "reason": "Severe delays between Paddington and Heathrow Terminals / Reading while we deal with a trespasser on the track in the Slough area. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-09-25T19:26:09Z",
+      "severity": "Severe Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "other",
+      "duration_seconds": 1698,
+      "first_seen": "2026-09-25T18:57:51Z",
+      "issue_key": "victoria:text:d4b5c9df96e6ddc8",
+      "line_id": "victoria",
+      "line_name": "Victoria",
+      "reason": "Victoria Line: Severe delays while we help a person ill on a train.",
+      "resolved_at": "2026-09-25T19:26:09Z",
+      "severity": "Severe Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
     {
       "category": "train fault",
       "duration_seconds": 4958,
@@ -14503,6 +14527,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-09-25T18:57:51Z",
+  "updated_at": "2026-09-25T19:26:09Z",
   "version": 1
 }
