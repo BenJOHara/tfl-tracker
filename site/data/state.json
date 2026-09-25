@@ -10,38 +10,54 @@
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "elizabeth:text:bdf842bd52eedbba": {
-      "category": "person on track",
-      "first_seen": "2026-09-25T19:26:09Z",
-      "issue_key": "elizabeth:text:bdf842bd52eedbba",
-      "line_id": "elizabeth",
-      "line_name": "Elizabeth line",
-      "reason": "Minor delays between Paddington and Heathrow Terminals / Reading due to an earlier trespasser on the track at Slough. GOOD SERVICE on the rest of the line.",
-      "severity": "Minor Delays",
-      "source_created": "0001-01-01T00:00:00"
-    },
-    "jubilee:text:57925a2ef9e26722": {
+    "victoria:text:1449d9e062ba14bd": {
       "category": "other",
-      "first_seen": "2026-09-25T18:57:51Z",
-      "issue_key": "jubilee:text:57925a2ef9e26722",
-      "line_id": "jubilee",
-      "line_name": "Jubilee",
-      "reason": "Jubilee Line: Severe delays due to train cancellations.",
-      "severity": "Severe Delays",
-      "source_created": "0001-01-01T00:00:00"
-    },
-    "victoria:text:91063c6e21ce8ef8": {
-      "category": "other",
-      "first_seen": "2026-09-25T19:26:09Z",
-      "issue_key": "victoria:text:91063c6e21ce8ef8",
+      "first_seen": "2026-09-25T20:44:09Z",
+      "issue_key": "victoria:text:1449d9e062ba14bd",
       "line_id": "victoria",
       "line_name": "Victoria",
-      "reason": "Victoria Line: Severe delays due to a person taken ill on a train earlier at Oxford Circus.",
+      "reason": "Victoria Line: Severe delays due to an earlier person ill on a train at Oxford Circus.",
       "severity": "Severe Delays",
       "source_created": "0001-01-01T00:00:00"
     }
   },
   "history": [
+    {
+      "category": "person on track",
+      "duration_seconds": 4680,
+      "first_seen": "2026-09-25T19:26:09Z",
+      "issue_key": "elizabeth:text:bdf842bd52eedbba",
+      "line_id": "elizabeth",
+      "line_name": "Elizabeth line",
+      "reason": "Minor delays between Paddington and Heathrow Terminals / Reading due to an earlier trespasser on the track at Slough. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-09-25T20:44:09Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "other",
+      "duration_seconds": 6378,
+      "first_seen": "2026-09-25T18:57:51Z",
+      "issue_key": "jubilee:text:57925a2ef9e26722",
+      "line_id": "jubilee",
+      "line_name": "Jubilee",
+      "reason": "Jubilee Line: Severe delays due to train cancellations.",
+      "resolved_at": "2026-09-25T20:44:09Z",
+      "severity": "Severe Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "other",
+      "duration_seconds": 4680,
+      "first_seen": "2026-09-25T19:26:09Z",
+      "issue_key": "victoria:text:91063c6e21ce8ef8",
+      "line_id": "victoria",
+      "line_name": "Victoria",
+      "reason": "Victoria Line: Severe delays due to a person taken ill on a train earlier at Oxford Circus.",
+      "resolved_at": "2026-09-25T20:44:09Z",
+      "severity": "Severe Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
     {
       "category": "person on track",
       "duration_seconds": 6656,
@@ -14527,6 +14543,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-09-25T19:26:09Z",
+  "updated_at": "2026-09-25T20:44:09Z",
   "version": 1
 }
