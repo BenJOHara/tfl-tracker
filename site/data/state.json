@@ -1,37 +1,73 @@
 {
   "active": {
-    "district:text:6ff33a06940589a8": {
+    "bakerloo:text:441236c7b38e407e": {
+      "category": "other",
+      "first_seen": "2026-09-25T14:46:28Z",
+      "issue_key": "bakerloo:text:441236c7b38e407e",
+      "line_id": "bakerloo",
+      "line_name": "Bakerloo",
+      "reason": "Bakerloo Line: Minor delays due to train cancellations.",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "district:text:fcbfdd475c48a15e": {
       "category": "signal failure",
-      "first_seen": "2026-09-25T12:43:13Z",
-      "issue_key": "district:text:6ff33a06940589a8",
+      "first_seen": "2026-09-25T14:46:28Z",
+      "issue_key": "district:text:fcbfdd475c48a15e",
       "line_id": "district",
       "line_name": "District",
-      "reason": "District Line: Minor delays between Earl's Court and Wimbledon while we fix a signal failure at Wimbledon. GOOD SERVICE on the rest of the line.",
+      "reason": "District Line: Minor delays between Wimbledon and Earl's Court due to an earlier signal failure at Wimbledon. GOOD SERVICE on the rest of the line.",
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "jubilee:text:520db816f673bb28": {
+    "jubilee:text:57925a2ef9e26722": {
       "category": "other",
-      "first_seen": "2026-09-25T12:43:13Z",
-      "issue_key": "jubilee:text:520db816f673bb28",
+      "first_seen": "2026-09-25T14:46:28Z",
+      "issue_key": "jubilee:text:57925a2ef9e26722",
       "line_id": "jubilee",
       "line_name": "Jubilee",
-      "reason": "Jubilee Line: Severe delays between Finchley Road and Stanmore northbound only, and MINOR DELAYS on the rest of the line due to train cancellations.",
-      "severity": "Minor Delays",
-      "source_created": "0001-01-01T00:00:00"
-    },
-    "metropolitan:text:2df4e90708614385": {
-      "category": "other",
-      "first_seen": "2026-09-25T12:43:13Z",
-      "issue_key": "metropolitan:text:2df4e90708614385",
-      "line_id": "metropolitan",
-      "line_name": "Metropolitan",
-      "reason": "Metropolitan Line: Minor delays between Moor Park and Watford due to train cancellations. GOOD SERVICE on the rest of the line.",
+      "reason": "Jubilee Line: Minor delays due to train cancellations.",
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     }
   },
   "history": [
+    {
+      "category": "signal failure",
+      "duration_seconds": 7395,
+      "first_seen": "2026-09-25T12:43:13Z",
+      "issue_key": "district:text:6ff33a06940589a8",
+      "line_id": "district",
+      "line_name": "District",
+      "reason": "District Line: Minor delays between Earl's Court and Wimbledon while we fix a signal failure at Wimbledon. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-09-25T14:46:28Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "other",
+      "duration_seconds": 7395,
+      "first_seen": "2026-09-25T12:43:13Z",
+      "issue_key": "jubilee:text:520db816f673bb28",
+      "line_id": "jubilee",
+      "line_name": "Jubilee",
+      "reason": "Jubilee Line: Severe delays between Finchley Road and Stanmore northbound only, and MINOR DELAYS on the rest of the line due to train cancellations.",
+      "resolved_at": "2026-09-25T14:46:28Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "other",
+      "duration_seconds": 7395,
+      "first_seen": "2026-09-25T12:43:13Z",
+      "issue_key": "metropolitan:text:2df4e90708614385",
+      "line_id": "metropolitan",
+      "line_name": "Metropolitan",
+      "reason": "Metropolitan Line: Minor delays between Moor Park and Watford due to train cancellations. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-09-25T14:46:28Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
     {
       "category": "other",
       "duration_seconds": 10725,
@@ -14373,6 +14409,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-09-25T12:43:13Z",
+  "updated_at": "2026-09-25T14:46:28Z",
   "version": 1
 }
