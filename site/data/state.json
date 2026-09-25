@@ -1,5 +1,36 @@
 {
-  "active": {},
+  "active": {
+    "district:text:6ff33a06940589a8": {
+      "category": "signal failure",
+      "first_seen": "2026-09-25T12:43:13Z",
+      "issue_key": "district:text:6ff33a06940589a8",
+      "line_id": "district",
+      "line_name": "District",
+      "reason": "District Line: Minor delays between Earl's Court and Wimbledon while we fix a signal failure at Wimbledon. GOOD SERVICE on the rest of the line.",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "jubilee:text:520db816f673bb28": {
+      "category": "other",
+      "first_seen": "2026-09-25T12:43:13Z",
+      "issue_key": "jubilee:text:520db816f673bb28",
+      "line_id": "jubilee",
+      "line_name": "Jubilee",
+      "reason": "Jubilee Line: Severe delays between Finchley Road and Stanmore northbound only, and MINOR DELAYS on the rest of the line due to train cancellations.",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "metropolitan:text:2df4e90708614385": {
+      "category": "other",
+      "first_seen": "2026-09-25T12:43:13Z",
+      "issue_key": "metropolitan:text:2df4e90708614385",
+      "line_id": "metropolitan",
+      "line_name": "Metropolitan",
+      "reason": "Metropolitan Line: Minor delays between Moor Park and Watford due to train cancellations. GOOD SERVICE on the rest of the line.",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    }
+  },
   "history": [
     {
       "category": "other",
@@ -14342,6 +14373,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-09-25T09:51:42Z",
+  "updated_at": "2026-09-25T12:43:13Z",
   "version": 1
 }
