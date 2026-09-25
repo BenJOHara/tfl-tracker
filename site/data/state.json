@@ -1,15 +1,5 @@
 {
   "active": {
-    "central:text:2671929b56956017": {
-      "category": "other",
-      "first_seen": "2026-09-25T18:57:51Z",
-      "issue_key": "central:text:2671929b56956017",
-      "line_id": "central",
-      "line_name": "Central",
-      "reason": "Central Line: Minor delays between White City and Ealing Broadway / West Ruislip and between Leytonstone and Epping / Hainault via Newbury Park due to train cancellations. GOOD SERVICE on the rest of the line.",
-      "severity": "Minor Delays",
-      "source_created": "0001-01-01T00:00:00"
-    },
     "victoria:text:1449d9e062ba14bd": {
       "category": "other",
       "first_seen": "2026-09-25T20:44:09Z",
@@ -22,6 +12,18 @@
     }
   },
   "history": [
+    {
+      "category": "other",
+      "duration_seconds": 11790,
+      "first_seen": "2026-09-25T18:57:51Z",
+      "issue_key": "central:text:2671929b56956017",
+      "line_id": "central",
+      "line_name": "Central",
+      "reason": "Central Line: Minor delays between White City and Ealing Broadway / West Ruislip and between Leytonstone and Epping / Hainault via Newbury Park due to train cancellations. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-09-25T22:14:21Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
     {
       "category": "person on track",
       "duration_seconds": 4680,
@@ -14543,6 +14545,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-09-25T20:44:09Z",
+  "updated_at": "2026-09-25T22:14:21Z",
   "version": 1
 }
