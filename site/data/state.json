@@ -1,12 +1,12 @@
 {
   "active": {
-    "central:text:008aa73dc9efff4b": {
-      "category": "train fault",
-      "first_seen": "2026-09-25T17:35:13Z",
-      "issue_key": "central:text:008aa73dc9efff4b",
+    "central:text:2671929b56956017": {
+      "category": "other",
+      "first_seen": "2026-09-25T18:57:51Z",
+      "issue_key": "central:text:2671929b56956017",
       "line_id": "central",
       "line_name": "Central",
-      "reason": "Central Line: Minor delays between White City and Ealing Broadway/West Ruislip, and MINOR DELAYS between Leytonstone and Epping/Hainault via Newbury Park due to an earlier faulty train at Ruislip Gardens. GOOD SERVICE on the rest of the line.",
+      "reason": "Central Line: Minor delays between White City and Ealing Broadway / West Ruislip and between Leytonstone and Epping / Hainault via Newbury Park due to train cancellations. GOOD SERVICE on the rest of the line.",
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
@@ -16,42 +16,80 @@
       "issue_key": "elizabeth:text:b6c54815f3fad50e",
       "line_id": "elizabeth",
       "line_name": "Elizabeth line",
-      "reason": "Minor delays between Paddington and Heathrow Terminals / Reading while we deal with a trespasser on the track in the Slough area. GOOD SERVICE on the rest of the line.",
+      "reason": "Severe delays between Paddington and Heathrow Terminals / Reading while we deal with a trespasser on the track in the Slough area. GOOD SERVICE on the rest of the line.",
+      "severity": "Severe Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "jubilee:text:57925a2ef9e26722": {
+      "category": "other",
+      "first_seen": "2026-09-25T18:57:51Z",
+      "issue_key": "jubilee:text:57925a2ef9e26722",
+      "line_id": "jubilee",
+      "line_name": "Jubilee",
+      "reason": "Jubilee Line: Severe delays due to train cancellations.",
+      "severity": "Severe Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "victoria:text:d4b5c9df96e6ddc8": {
+      "category": "other",
+      "first_seen": "2026-09-25T18:57:51Z",
+      "issue_key": "victoria:text:d4b5c9df96e6ddc8",
+      "line_id": "victoria",
+      "line_name": "Victoria",
+      "reason": "Victoria Line: Severe delays while we help a person ill on a train.",
+      "severity": "Severe Delays",
+      "source_created": "0001-01-01T00:00:00"
+    }
+  },
+  "history": [
+    {
+      "category": "train fault",
+      "duration_seconds": 4958,
+      "first_seen": "2026-09-25T17:35:13Z",
+      "issue_key": "central:text:008aa73dc9efff4b",
+      "line_id": "central",
+      "line_name": "Central",
+      "reason": "Central Line: Minor delays between White City and Ealing Broadway/West Ruislip, and MINOR DELAYS between Leytonstone and Epping/Hainault via Newbury Park due to an earlier faulty train at Ruislip Gardens. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-09-25T18:57:51Z",
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "jubilee:text:6fe272c88d515a8e": {
+    {
       "category": "other",
+      "duration_seconds": 4958,
       "first_seen": "2026-09-25T17:35:13Z",
       "issue_key": "jubilee:text:6fe272c88d515a8e",
       "line_id": "jubilee",
       "line_name": "Jubilee",
       "reason": "Jubilee Line: Severe delays due to an earlier person ill on a train at Baker Street.",
+      "resolved_at": "2026-09-25T18:57:51Z",
       "severity": "Severe Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "piccadilly:text:4266724cf918a956": {
+    {
       "category": "person on track",
+      "duration_seconds": 4958,
       "first_seen": "2026-09-25T17:35:13Z",
       "issue_key": "piccadilly:text:4266724cf918a956",
       "line_id": "piccadilly",
       "line_name": "Piccadilly",
       "reason": "Piccadilly Line: Severe delays between Acton Town and Heathrow Terminals due to an earlier trespasser on the track at Hatton Cross. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-09-25T18:57:51Z",
       "severity": "Severe Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "victoria:text:ce2871f421d5401a": {
+    {
       "category": "track fault",
+      "duration_seconds": 4958,
       "first_seen": "2026-09-25T17:35:13Z",
       "issue_key": "victoria:text:ce2871f421d5401a",
       "line_id": "victoria",
       "line_name": "Victoria",
       "reason": "Victoria Line: Minor delays between Victoria and Brixton while we fix a track fault at Brixton.",
+      "resolved_at": "2026-09-25T18:57:51Z",
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
-    }
-  },
-  "history": [
+    },
     {
       "category": "other",
       "duration_seconds": 10125,
@@ -14465,6 +14503,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-09-25T17:35:13Z",
+  "updated_at": "2026-09-25T18:57:51Z",
   "version": 1
 }
