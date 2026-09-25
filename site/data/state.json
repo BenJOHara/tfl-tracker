@@ -1,27 +1,41 @@
 {
   "active": {
-    "mildmay:text:1fcc3e64b2e5b59f": {
+    "victoria:text:a89d6dcf8842bee2": {
+      "category": "track fault",
+      "first_seen": "2026-09-25T05:25:24Z",
+      "issue_key": "victoria:text:a89d6dcf8842bee2",
+      "line_id": "victoria",
+      "line_name": "Victoria",
+      "reason": "Victoria Line: Minor delays while we fix a track fault at Brixton.",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    }
+  },
+  "history": [
+    {
       "category": "planned engineering",
+      "duration_seconds": 17089,
       "first_seen": "2026-09-25T00:40:35Z",
       "issue_key": "mildmay:text:1fcc3e64b2e5b59f",
       "line_id": "mildmay",
       "line_name": "Mildmay",
       "reason": "Mildmay Line: Service will resume later this morning. There will be no service between Willesden Junction and Shepherd's Bush until 06:15 due to planned engineering work.",
+      "resolved_at": "2026-09-25T05:25:24Z",
       "severity": "Planned Closure",
       "source_created": "0001-01-01T00:00:00"
     },
-    "waterloo-city:text:0faebd0ea99ebd1b": {
+    {
       "category": "other",
+      "duration_seconds": 19222,
       "first_seen": "2026-09-25T00:05:02Z",
       "issue_key": "waterloo-city:text:0faebd0ea99ebd1b",
       "line_id": "waterloo-city",
       "line_name": "Waterloo & City",
       "reason": "Waterloo and City Line: Service will resume at 06:00.",
+      "resolved_at": "2026-09-25T05:25:24Z",
       "severity": "Service Closed",
       "source_created": "0001-01-01T00:00:00"
-    }
-  },
-  "history": [
+    },
     {
       "category": "other",
       "duration_seconds": 14836,
@@ -14303,6 +14317,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-09-25T04:47:51Z",
+  "updated_at": "2026-09-25T05:25:24Z",
   "version": 1
 }
