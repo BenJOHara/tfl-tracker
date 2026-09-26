@@ -20,6 +20,16 @@
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
+    "northern:text:d4496417cc480e7b": {
+      "category": "points failure",
+      "first_seen": "2026-09-26T21:24:08Z",
+      "issue_key": "northern:text:d4496417cc480e7b",
+      "line_id": "northern",
+      "line_name": "Northern",
+      "reason": "Northern Line: No service between Tooting Broadway and Morden while we fix a points failure at Morden. GOOD SERVICE on the rest of the line.",
+      "severity": "Part Suspended",
+      "source_created": "0001-01-01T00:00:00"
+    },
     "piccadilly:text:504e3620256197c2": {
       "category": "other",
       "first_seen": "2026-09-26T05:27:14Z",
@@ -15063,6 +15073,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-09-26T19:28:03Z",
+  "updated_at": "2026-09-26T21:24:08Z",
   "version": 1
 }
