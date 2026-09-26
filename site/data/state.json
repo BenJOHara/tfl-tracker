@@ -110,13 +110,13 @@
       "severity": "Service Closed",
       "source_created": "0001-01-01T00:00:00"
     },
-    "piccadilly:text:504e3620256197c2": {
+    "piccadilly:text:d929dcf25fa8b79f": {
       "category": "other",
-      "first_seen": "2026-09-26T00:54:14Z",
-      "issue_key": "piccadilly:text:504e3620256197c2",
+      "first_seen": "2026-09-26T02:03:51Z",
+      "issue_key": "piccadilly:text:d929dcf25fa8b79f",
       "line_id": "piccadilly",
       "line_name": "Piccadilly",
-      "reason": "PICCADILLY LINE: From 0200 Saturday 26 and all day Sunday 27 September (including Friday and Saturday Night Tube), no service between Cockfosters and Uxbridge. Trains continue to operate between Acton Town and Heathrow. Use DISTRICT LINE trains between Central London and Acton Town / Ealing Common and METROPOLITAN LINE trains between Rayners Lane and Uxbridge. Use ELIZABETH LINE trains for travel between Central London and Heathrow. Replacement buses operate.",
+      "reason": "PICCADILLY LINE: From 0200 Saturday 26 and all day Sunday 27 September (including Friday and Saturday Night Tube), no service between Cockfosters and Acton Town. Trains continue to operate between Acton Town and Heathrow. Use DISTRICT LINE trains between Central London and Acton Town / Ealing Common and METROPOLITAN LINE trains between Rayners Lane and Uxbridge. Use ELIZABETH LINE trains for travel between Central London and Heathrow. Replacement buses operate.",
       "severity": "Part Closure",
       "source_created": "0001-01-01T00:00:00"
     },
@@ -162,6 +162,18 @@
     }
   },
   "history": [
+    {
+      "category": "other",
+      "duration_seconds": 4177,
+      "first_seen": "2026-09-26T00:54:14Z",
+      "issue_key": "piccadilly:text:504e3620256197c2",
+      "line_id": "piccadilly",
+      "line_name": "Piccadilly",
+      "reason": "PICCADILLY LINE: From 0200 Saturday 26 and all day Sunday 27 September (including Friday and Saturday Night Tube), no service between Cockfosters and Uxbridge. Trains continue to operate between Acton Town and Heathrow. Use DISTRICT LINE trains between Central London and Acton Town / Ealing Common and METROPOLITAN LINE trains between Rayners Lane and Uxbridge. Use ELIZABETH LINE trains for travel between Central London and Heathrow. Replacement buses operate.",
+      "resolved_at": "2026-09-26T02:03:51Z",
+      "severity": "Part Closure",
+      "source_created": "0001-01-01T00:00:00"
+    },
     {
       "category": "other",
       "duration_seconds": 10456,
@@ -14707,6 +14719,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-09-26T00:54:14Z",
+  "updated_at": "2026-09-26T02:03:51Z",
   "version": 1
 }
