@@ -10,16 +10,6 @@
       "severity": "Part Closure",
       "source_created": "0001-01-01T00:00:00"
     },
-    "central:text:68ea8c8ab5d9711e": {
-      "category": "planned engineering",
-      "first_seen": "2026-09-26T05:54:44Z",
-      "issue_key": "central:text:68ea8c8ab5d9711e",
-      "line_id": "central",
-      "line_name": "Central",
-      "reason": "Central Line: No service between Liverpool Street and Woodford / Newbury Park due to planned engineering work. NO SERVICE between Marble Arch and Liverpool Street, between Woodford and Loughton / Hainault and between Hainault and Newbury Park due to a late finish of engineering work. London Buses are accepting tickets via any reasonable route.",
-      "severity": "Part Suspended",
-      "source_created": "0001-01-01T00:00:00"
-    },
     "circle:text:bf9bb7504db7ea4d": {
       "category": "other",
       "first_seen": "2026-09-26T05:27:14Z",
@@ -30,23 +20,23 @@
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "jubilee:text:b3c23eceaa9ddd4e": {
+    "jubilee:text:05fd2ae5c3ad359e": {
       "category": "person on track",
-      "first_seen": "2026-09-26T05:54:44Z",
-      "issue_key": "jubilee:text:b3c23eceaa9ddd4e",
+      "first_seen": "2026-09-26T07:35:21Z",
+      "issue_key": "jubilee:text:05fd2ae5c3ad359e",
       "line_id": "jubilee",
       "line_name": "Jubilee",
-      "reason": "Jubilee Line: Severe delays due to an trespasser on the track earlier at Dollis Hill. London Buses, Mildmay Line, DLR, Elizabeth Line, C2C, Southeastern, and Thameslink are accepting tickets via any reasonable route.",
-      "severity": "Severe Delays",
+      "reason": "Jubilee Line: Minor delays due to a trespasser on the track earlier at Dollis Hill.",
+      "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "metropolitan:text:f6978e1633ab45e3": {
-      "category": "person on track",
-      "first_seen": "2026-09-26T05:54:44Z",
-      "issue_key": "metropolitan:text:f6978e1633ab45e3",
+    "metropolitan:text:8817a8c18d328f89": {
+      "category": "signal failure",
+      "first_seen": "2026-09-26T07:35:21Z",
+      "issue_key": "metropolitan:text:8817a8c18d328f89",
       "line_id": "metropolitan",
       "line_name": "Metropolitan",
-      "reason": "Metropolitan Line: Severe delays due to a trespasser on the track earlier at Dollis Hill. Tickets are being accepted on London Buses, Lioness Line, London Northwestern Railway, Chiltern Railways & Thameslink.",
+      "reason": "Metropolitan Line: Severe delays between Moor Park and Watford due to train cancellations. MINOR DELAYS on the rest of the line due to a trespasser on the track earlier at Dollis Hill. Southbound Metropolitan trains are not stopping at stations between Moor Park and Harrow-On-The-Hill while we fix a signal failure at Rickmansworth. Please change at Harrow-On-The-Hill or Moor Park to complete your journey.",
       "severity": "Severe Delays",
       "source_created": "0001-01-01T00:00:00"
     },
@@ -92,6 +82,42 @@
     }
   },
   "history": [
+    {
+      "category": "planned engineering",
+      "duration_seconds": 6037,
+      "first_seen": "2026-09-26T05:54:44Z",
+      "issue_key": "central:text:68ea8c8ab5d9711e",
+      "line_id": "central",
+      "line_name": "Central",
+      "reason": "Central Line: No service between Liverpool Street and Woodford / Newbury Park due to planned engineering work. NO SERVICE between Marble Arch and Liverpool Street, between Woodford and Loughton / Hainault and between Hainault and Newbury Park due to a late finish of engineering work. London Buses are accepting tickets via any reasonable route.",
+      "resolved_at": "2026-09-26T07:35:21Z",
+      "severity": "Part Suspended",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "person on track",
+      "duration_seconds": 6037,
+      "first_seen": "2026-09-26T05:54:44Z",
+      "issue_key": "jubilee:text:b3c23eceaa9ddd4e",
+      "line_id": "jubilee",
+      "line_name": "Jubilee",
+      "reason": "Jubilee Line: Severe delays due to an trespasser on the track earlier at Dollis Hill. London Buses, Mildmay Line, DLR, Elizabeth Line, C2C, Southeastern, and Thameslink are accepting tickets via any reasonable route.",
+      "resolved_at": "2026-09-26T07:35:21Z",
+      "severity": "Severe Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "person on track",
+      "duration_seconds": 6037,
+      "first_seen": "2026-09-26T05:54:44Z",
+      "issue_key": "metropolitan:text:f6978e1633ab45e3",
+      "line_id": "metropolitan",
+      "line_name": "Metropolitan",
+      "reason": "Metropolitan Line: Severe delays due to a trespasser on the track earlier at Dollis Hill. Tickets are being accepted on London Buses, Lioness Line, London Northwestern Railway, Chiltern Railways & Thameslink.",
+      "resolved_at": "2026-09-26T07:35:21Z",
+      "severity": "Severe Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
     {
       "category": "planned engineering",
       "duration_seconds": 1650,
@@ -14877,6 +14903,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-09-26T05:54:44Z",
+  "updated_at": "2026-09-26T07:35:21Z",
   "version": 1
 }
