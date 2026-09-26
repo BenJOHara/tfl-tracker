@@ -10,6 +10,16 @@
       "severity": "Service Closed",
       "source_created": "0001-01-01T00:00:00"
     },
+    "central:text:0398e2b2296b233f": {
+      "category": "other",
+      "first_seen": "2026-09-26T00:54:14Z",
+      "issue_key": "central:text:0398e2b2296b233f",
+      "line_id": "central",
+      "line_name": "Central",
+      "reason": "CENTRAL LINE: Saturday 26 September, between 0210 and 0530, no Night Tube service between Marble Arch and Loughton / Hainault (via Newbury Park). Replacement bus service CL5 operates between Stratford City Bus Station (for Stratford) and Loughton via Leyton, Leytonstone (eastbound buses serve Leytonstone High Road instead), Snaresbrook, South Woodford, Woodford and Buckhurst Hill. Use Night Bus N8 for Wanstead, Redbridge, Gants Hill, Barkingside, Fairlop (Barkingside, Fullwell Cross) and Hainault.",
+      "severity": "Part Closure",
+      "source_created": "0001-01-01T00:00:00"
+    },
     "circle:text:a1099579f6415e8f": {
       "category": "other",
       "first_seen": "2026-09-26T00:40:50Z",
@@ -98,6 +108,16 @@
       "line_name": "Mildmay",
       "reason": "Mildmay Line: Service will resume later this morning.",
       "severity": "Service Closed",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "piccadilly:text:504e3620256197c2": {
+      "category": "other",
+      "first_seen": "2026-09-26T00:54:14Z",
+      "issue_key": "piccadilly:text:504e3620256197c2",
+      "line_id": "piccadilly",
+      "line_name": "Piccadilly",
+      "reason": "PICCADILLY LINE: From 0200 Saturday 26 and all day Sunday 27 September (including Friday and Saturday Night Tube), no service between Cockfosters and Uxbridge. Trains continue to operate between Acton Town and Heathrow. Use DISTRICT LINE trains between Central London and Acton Town / Ealing Common and METROPOLITAN LINE trains between Rayners Lane and Uxbridge. Use ELIZABETH LINE trains for travel between Central London and Heathrow. Replacement buses operate.",
+      "severity": "Part Closure",
       "source_created": "0001-01-01T00:00:00"
     },
     "suffragette:text:774000467a2b26d3": {
@@ -14687,6 +14707,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-09-26T00:40:50Z",
+  "updated_at": "2026-09-26T00:54:14Z",
   "version": 1
 }
