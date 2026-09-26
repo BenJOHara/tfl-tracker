@@ -10,23 +10,33 @@
       "severity": "Part Closure",
       "source_created": "0001-01-01T00:00:00"
     },
-    "central:text:8830a94ca43a4fab": {
+    "central:text:f8ab80bf862d700e": {
       "category": "planned engineering",
-      "first_seen": "2026-09-26T12:25:55Z",
-      "issue_key": "central:text:8830a94ca43a4fab",
+      "first_seen": "2026-09-26T14:34:27Z",
+      "issue_key": "central:text:f8ab80bf862d700e",
       "line_id": "central",
       "line_name": "Central",
-      "reason": "Central Line: No service between Woodford and Loughton while we conduct a track inspection at Buckhurst Hill. Tickets are being accepted on London Buses. NO SERVICE between Liverpool Street and Woodford / Newbury Park due to planned engineering work. GOOD SERVICE on the rest of the line.",
-      "severity": "Part Suspended",
+      "reason": "Central Line: NO SERVICE between Liverpool Street and Woodford / Newbury Park due to planned engineering work. GOOD SERVICE on the rest of the line.",
+      "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "metropolitan:text:49ca7bf39d95bb61": {
+    "jubilee:text:57925a2ef9e26722": {
       "category": "other",
-      "first_seen": "2026-09-26T10:56:04Z",
-      "issue_key": "metropolitan:text:49ca7bf39d95bb61",
+      "first_seen": "2026-09-26T14:34:27Z",
+      "issue_key": "jubilee:text:57925a2ef9e26722",
+      "line_id": "jubilee",
+      "line_name": "Jubilee",
+      "reason": "Jubilee Line: Minor delays due to train cancellations",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "metropolitan:text:2df4e90708614385": {
+      "category": "other",
+      "first_seen": "2026-09-26T14:34:27Z",
+      "issue_key": "metropolitan:text:2df4e90708614385",
       "line_id": "metropolitan",
       "line_name": "Metropolitan",
-      "reason": "Metropolitan Line: Minor delays between Moor Park and Watford and between Harrow-On-The-Hill and Uxbridge due to train cancellations. GOOD SERVICE on the rest of the line.",
+      "reason": "Metropolitan Line: Minor delays between Moor Park and Watford due to train cancellations. GOOD SERVICE on the rest of the line.",
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
@@ -38,6 +48,16 @@
       "line_name": "Piccadilly",
       "reason": "PICCADILLY LINE: From 0200 Saturday 26 and all day Sunday 27 September (including Friday and Saturday Night Tube), no service between Cockfosters and Uxbridge. Trains continue to operate between Acton Town and Heathrow. Use DISTRICT LINE trains between Central London and Acton Town / Ealing Common and METROPOLITAN LINE trains between Rayners Lane and Uxbridge. Use ELIZABETH LINE trains for travel between Central London and Heathrow. Replacement buses operate.",
       "severity": "Part Closure",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "victoria:text:02e0850cdf11ef25": {
+      "category": "other",
+      "first_seen": "2026-09-26T14:34:27Z",
+      "issue_key": "victoria:text:02e0850cdf11ef25",
+      "line_id": "victoria",
+      "line_name": "Victoria",
+      "reason": "Victoria Line: Minor delays due to train cancellations.",
+      "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
     "waterloo-city:text:02da0890c7cbf303": {
@@ -62,6 +82,30 @@
     }
   },
   "history": [
+    {
+      "category": "planned engineering",
+      "duration_seconds": 7712,
+      "first_seen": "2026-09-26T12:25:55Z",
+      "issue_key": "central:text:8830a94ca43a4fab",
+      "line_id": "central",
+      "line_name": "Central",
+      "reason": "Central Line: No service between Woodford and Loughton while we conduct a track inspection at Buckhurst Hill. Tickets are being accepted on London Buses. NO SERVICE between Liverpool Street and Woodford / Newbury Park due to planned engineering work. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-09-26T14:34:27Z",
+      "severity": "Part Suspended",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "other",
+      "duration_seconds": 13103,
+      "first_seen": "2026-09-26T10:56:04Z",
+      "issue_key": "metropolitan:text:49ca7bf39d95bb61",
+      "line_id": "metropolitan",
+      "line_name": "Metropolitan",
+      "reason": "Metropolitan Line: Minor delays between Moor Park and Watford and between Harrow-On-The-Hill and Uxbridge due to train cancellations. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-09-26T14:34:27Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
     {
       "category": "signal failure",
       "duration_seconds": 8008,
@@ -14991,6 +15035,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-09-26T12:25:55Z",
+  "updated_at": "2026-09-26T14:34:27Z",
   "version": 1
 }
