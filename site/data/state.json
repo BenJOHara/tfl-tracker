@@ -10,16 +10,6 @@
       "severity": "Part Closure",
       "source_created": "0001-01-01T00:00:00"
     },
-    "central:text:f8ab80bf862d700e": {
-      "category": "planned engineering",
-      "first_seen": "2026-09-26T14:34:27Z",
-      "issue_key": "central:text:f8ab80bf862d700e",
-      "line_id": "central",
-      "line_name": "Central",
-      "reason": "Central Line: NO SERVICE between Liverpool Street and Woodford / Newbury Park due to planned engineering work. GOOD SERVICE on the rest of the line.",
-      "severity": "Minor Delays",
-      "source_created": "0001-01-01T00:00:00"
-    },
     "jubilee:text:57925a2ef9e26722": {
       "category": "other",
       "first_seen": "2026-09-26T14:34:27Z",
@@ -82,6 +72,18 @@
     }
   },
   "history": [
+    {
+      "category": "planned engineering",
+      "duration_seconds": 1176,
+      "first_seen": "2026-09-26T14:34:27Z",
+      "issue_key": "central:text:f8ab80bf862d700e",
+      "line_id": "central",
+      "line_name": "Central",
+      "reason": "Central Line: NO SERVICE between Liverpool Street and Woodford / Newbury Park due to planned engineering work. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-09-26T14:54:03Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
     {
       "category": "planned engineering",
       "duration_seconds": 7712,
@@ -15035,6 +15037,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-09-26T14:34:27Z",
+  "updated_at": "2026-09-26T14:54:03Z",
   "version": 1
 }
