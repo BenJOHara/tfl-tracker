@@ -30,14 +30,24 @@
       "severity": "Part Closure",
       "source_created": "0001-01-01T00:00:00"
     },
-    "elizabeth:text:18491f72380fb3d4": {
+    "elizabeth:text:b878a829d54334e3": {
       "category": "other",
-      "first_seen": "2026-09-27T00:42:21Z",
-      "issue_key": "elizabeth:text:18491f72380fb3d4",
+      "first_seen": "2026-09-27T07:11:34Z",
+      "issue_key": "elizabeth:text:b878a829d54334e3",
       "line_id": "elizabeth",
       "line_name": "Elizabeth line",
-      "reason": "ELIZABETH LINE: Sunday 27 September, between 0120 and 0800, no service between West Drayton and Maidenhead. Replacement bus service W1 operates between Hayes & Harlington and Slough via Langley (not serving Iver), and replacement bus service W3 operates between Slough and Maidenhead via Burnham and Taplow.",
-      "severity": "Part Closure",
+      "reason": "ELIZABETH LINE: Sunday 27 September, from 0800, a reduced service operates between Paddington and Heathrow Terminal 4 / Maidenhead. Two trains an hour serve Heathrow Terminal 4, West Drayton, Langley, Slough, Burnham and Maidenhead. Four trains an hour serve Acton Main Line, West Ealing, Hanwell and Heathrow Terminals 2 and 3. Six trains an hour serve Ealing Broadway, Southall and Hayes & Harlington.",
+      "severity": "Reduced Service",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "hammersmith-city:text:004129bf5e441754": {
+      "category": "other",
+      "first_seen": "2026-09-27T07:11:34Z",
+      "issue_key": "hammersmith-city:text:004129bf5e441754",
+      "line_id": "hammersmith-city",
+      "line_name": "Hammersmith & City",
+      "reason": "Hammersmith and City Line: Minor delays due to train cancellations.",
+      "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
     "lioness:text:2982b7bcac5eb3dd": {
@@ -48,6 +58,16 @@
       "line_name": "Lioness",
       "reason": "LIONESS LINE: Sunday 27 September, until 1200 and from 2030, no service between Kilburn High Road and Euston. Please use local London Buses and London Underground services.",
       "severity": "Part Closure",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "mildmay:text:0830b912d4a6dc10": {
+      "category": "planned engineering",
+      "first_seen": "2026-09-27T07:11:34Z",
+      "issue_key": "mildmay:text:0830b912d4a6dc10",
+      "line_id": "mildmay",
+      "line_name": "Mildmay",
+      "reason": "Mildmay Line: No service between Willesden Junction and Clapham Junction due to a late finish of engineering works. GOOD SERVICE on the rest of the line. London Underground are accepting tickets via any reasonable route.",
+      "severity": "Part Suspended",
       "source_created": "0001-01-01T00:00:00"
     },
     "piccadilly:text:504e3620256197c2": {
@@ -102,6 +122,18 @@
     }
   },
   "history": [
+    {
+      "category": "other",
+      "duration_seconds": 23353,
+      "first_seen": "2026-09-27T00:42:21Z",
+      "issue_key": "elizabeth:text:18491f72380fb3d4",
+      "line_id": "elizabeth",
+      "line_name": "Elizabeth line",
+      "reason": "ELIZABETH LINE: Sunday 27 September, between 0120 and 0800, no service between West Drayton and Maidenhead. Replacement bus service W1 operates between Hayes & Harlington and Slough via Langley (not serving Iver), and replacement bus service W3 operates between Slough and Maidenhead via Burnham and Taplow.",
+      "resolved_at": "2026-09-27T07:11:34Z",
+      "severity": "Part Closure",
+      "source_created": "0001-01-01T00:00:00"
+    },
     {
       "category": "other",
       "duration_seconds": 18604,
@@ -15355,6 +15387,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-09-27T05:52:25Z",
+  "updated_at": "2026-09-27T07:11:34Z",
   "version": 1
 }
