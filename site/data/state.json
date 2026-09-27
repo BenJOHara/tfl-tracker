@@ -10,14 +10,24 @@
       "severity": "Part Closure",
       "source_created": "0001-01-01T00:00:00"
     },
-    "district:text:aad91497cba276db": {
+    "central:text:8ac6d464b3170d82": {
+      "category": "train fault",
+      "first_seen": "2026-09-27T11:55:40Z",
+      "issue_key": "central:text:8ac6d464b3170d82",
+      "line_id": "central",
+      "line_name": "Central",
+      "reason": "Central Line: No service between Liverpool Street and Woodford / Newbury Park due to planned engineering work. MINOR DELAYS between White City and Ealing Broadway / West Ruislip due to earlier faulty trains at Liverpool Street. GOOD SERVICE on the rest of the line.",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "district:text:45f0fe31e89c9d49": {
       "category": "other",
-      "first_seen": "2026-09-27T05:52:25Z",
-      "issue_key": "district:text:aad91497cba276db",
+      "first_seen": "2026-09-27T11:55:40Z",
+      "issue_key": "district:text:45f0fe31e89c9d49",
       "line_id": "district",
       "line_name": "District",
-      "reason": "District Line: Minor delays between Earl's Court and Wimbledon due to train cancellations. GOOD SERVICE on the rest of the line.",
-      "severity": "Minor Delays",
+      "reason": "District Line: No service between Earl's Court and Kensington (Olympia) due to train cancellations. Tickets are being accepted on the Mildmay line (West Brompton - Willesden Junction) and on London Buses. GOOD SERVICE on the rest of the line.",
+      "severity": "Part Suspended",
       "source_created": "0001-01-01T00:00:00"
     },
     "dlr:text:287038ff364d981b": {
@@ -40,34 +50,14 @@
       "severity": "Reduced Service",
       "source_created": "0001-01-01T00:00:00"
     },
-    "hammersmith-city:text:004129bf5e441754": {
+    "metropolitan:text:2df4e90708614385": {
       "category": "other",
-      "first_seen": "2026-09-27T07:11:34Z",
-      "issue_key": "hammersmith-city:text:004129bf5e441754",
-      "line_id": "hammersmith-city",
-      "line_name": "Hammersmith & City",
-      "reason": "Hammersmith and City Line: Minor delays due to train cancellations.",
+      "first_seen": "2026-09-27T11:55:40Z",
+      "issue_key": "metropolitan:text:2df4e90708614385",
+      "line_id": "metropolitan",
+      "line_name": "Metropolitan",
+      "reason": "Metropolitan Line: Minor delays between Moor Park and Watford due to train cancellations. GOOD SERVICE on the rest of the line.",
       "severity": "Minor Delays",
-      "source_created": "0001-01-01T00:00:00"
-    },
-    "lioness:text:2982b7bcac5eb3dd": {
-      "category": "other",
-      "first_seen": "2026-09-27T05:52:25Z",
-      "issue_key": "lioness:text:2982b7bcac5eb3dd",
-      "line_id": "lioness",
-      "line_name": "Lioness",
-      "reason": "LIONESS LINE: Sunday 27 September, until 1200 and from 2030, no service between Kilburn High Road and Euston. Please use local London Buses and London Underground services.",
-      "severity": "Part Closure",
-      "source_created": "0001-01-01T00:00:00"
-    },
-    "mildmay:text:0830b912d4a6dc10": {
-      "category": "planned engineering",
-      "first_seen": "2026-09-27T07:11:34Z",
-      "issue_key": "mildmay:text:0830b912d4a6dc10",
-      "line_id": "mildmay",
-      "line_name": "Mildmay",
-      "reason": "Mildmay Line: No service between Willesden Junction and Clapham Junction due to a late finish of engineering works. GOOD SERVICE on the rest of the line. London Underground are accepting tickets via any reasonable route.",
-      "severity": "Part Suspended",
       "source_created": "0001-01-01T00:00:00"
     },
     "piccadilly:text:504e3620256197c2": {
@@ -80,13 +70,13 @@
       "severity": "Part Closure",
       "source_created": "0001-01-01T00:00:00"
     },
-    "victoria:text:02e0850cdf11ef25": {
+    "victoria:text:f24ffab99f649a35": {
       "category": "other",
-      "first_seen": "2026-09-27T00:42:21Z",
-      "issue_key": "victoria:text:02e0850cdf11ef25",
+      "first_seen": "2026-09-27T11:55:40Z",
+      "issue_key": "victoria:text:f24ffab99f649a35",
       "line_id": "victoria",
       "line_name": "Victoria",
-      "reason": "Victoria Line: Minor delays due to train cancellations.",
+      "reason": "Victoria Line: Minor delays due to a tack fault at Brixton.",
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
@@ -100,28 +90,102 @@
       "severity": "Planned Closure",
       "source_created": "0001-01-01T00:00:00"
     },
-    "weaver:text:df1db725d7695619": {
+    "weaver:text:7457fd1aa7ae0e63": {
       "category": "other",
-      "first_seen": "2026-09-27T05:52:25Z",
-      "issue_key": "weaver:text:df1db725d7695619",
+      "first_seen": "2026-09-27T11:55:40Z",
+      "issue_key": "weaver:text:7457fd1aa7ae0e63",
       "line_id": "weaver",
       "line_name": "Weaver",
-      "reason": "WEAVER LINE: Sunday 27 September, until 1015, no service between Liverpool Street and Cheshunt / Chingford / Enfield Town. The limited number of GREATER ANGLIA and STANSTED EXPRESS trains which usually stop at Seven Sisters will stop at Tottenham Hale instead, and these trains will not serve Hackney Downs. Use London Underground connections between Central London and Seven Sisters / Hackney Downs.",
-      "severity": "Planned Closure",
-      "source_created": "0001-01-01T00:00:00"
-    },
-    "windrush:text:a3c2372615e241e0": {
-      "category": "other",
-      "first_seen": "2026-09-27T05:52:25Z",
-      "issue_key": "windrush:text:a3c2372615e241e0",
-      "line_id": "windrush",
-      "line_name": "Windrush",
-      "reason": "WINDRUSH LINE: Sunday 27 September, until 0900, no service between Wandsworth Road and Clapham Junction. Trains are diverted to/from Battersea Park for SOUTHERN services to/from Clapham Junction.",
+      "reason": "WEAVER LINE: Saturday 26 September, all day, and Sunday 27 September, from 1015, no service between Hackney Downs and Cheshunt / Enfield Town. The limited number of GREATER ANGLIA and STANSTED EXPRESS trains which usually stop at Seven Sisters will stop at Tottenham Hale instead. Use London Underground connections between Central London and Seven Sisters, and for Rectory Road and Stoke Newington, use Clapton station. If travelling to the Big Bang concert at Tottenham Hotspur Stadium, please use Victoria line trains to/from Seven Sisters or Tottenham Hale.",
       "severity": "Part Closure",
       "source_created": "0001-01-01T00:00:00"
     }
   },
   "history": [
+    {
+      "category": "other",
+      "duration_seconds": 21795,
+      "first_seen": "2026-09-27T05:52:25Z",
+      "issue_key": "district:text:aad91497cba276db",
+      "line_id": "district",
+      "line_name": "District",
+      "reason": "District Line: Minor delays between Earl's Court and Wimbledon due to train cancellations. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-09-27T11:55:40Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "other",
+      "duration_seconds": 17046,
+      "first_seen": "2026-09-27T07:11:34Z",
+      "issue_key": "hammersmith-city:text:004129bf5e441754",
+      "line_id": "hammersmith-city",
+      "line_name": "Hammersmith & City",
+      "reason": "Hammersmith and City Line: Minor delays due to train cancellations.",
+      "resolved_at": "2026-09-27T11:55:40Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "other",
+      "duration_seconds": 21795,
+      "first_seen": "2026-09-27T05:52:25Z",
+      "issue_key": "lioness:text:2982b7bcac5eb3dd",
+      "line_id": "lioness",
+      "line_name": "Lioness",
+      "reason": "LIONESS LINE: Sunday 27 September, until 1200 and from 2030, no service between Kilburn High Road and Euston. Please use local London Buses and London Underground services.",
+      "resolved_at": "2026-09-27T11:55:40Z",
+      "severity": "Part Closure",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "planned engineering",
+      "duration_seconds": 17046,
+      "first_seen": "2026-09-27T07:11:34Z",
+      "issue_key": "mildmay:text:0830b912d4a6dc10",
+      "line_id": "mildmay",
+      "line_name": "Mildmay",
+      "reason": "Mildmay Line: No service between Willesden Junction and Clapham Junction due to a late finish of engineering works. GOOD SERVICE on the rest of the line. London Underground are accepting tickets via any reasonable route.",
+      "resolved_at": "2026-09-27T11:55:40Z",
+      "severity": "Part Suspended",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "other",
+      "duration_seconds": 40399,
+      "first_seen": "2026-09-27T00:42:21Z",
+      "issue_key": "victoria:text:02e0850cdf11ef25",
+      "line_id": "victoria",
+      "line_name": "Victoria",
+      "reason": "Victoria Line: Minor delays due to train cancellations.",
+      "resolved_at": "2026-09-27T11:55:40Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "other",
+      "duration_seconds": 21795,
+      "first_seen": "2026-09-27T05:52:25Z",
+      "issue_key": "weaver:text:df1db725d7695619",
+      "line_id": "weaver",
+      "line_name": "Weaver",
+      "reason": "WEAVER LINE: Sunday 27 September, until 1015, no service between Liverpool Street and Cheshunt / Chingford / Enfield Town. The limited number of GREATER ANGLIA and STANSTED EXPRESS trains which usually stop at Seven Sisters will stop at Tottenham Hale instead, and these trains will not serve Hackney Downs. Use London Underground connections between Central London and Seven Sisters / Hackney Downs.",
+      "resolved_at": "2026-09-27T11:55:40Z",
+      "severity": "Planned Closure",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "other",
+      "duration_seconds": 21795,
+      "first_seen": "2026-09-27T05:52:25Z",
+      "issue_key": "windrush:text:a3c2372615e241e0",
+      "line_id": "windrush",
+      "line_name": "Windrush",
+      "reason": "WINDRUSH LINE: Sunday 27 September, until 0900, no service between Wandsworth Road and Clapham Junction. Trains are diverted to/from Battersea Park for SOUTHERN services to/from Clapham Junction.",
+      "resolved_at": "2026-09-27T11:55:40Z",
+      "severity": "Part Closure",
+      "source_created": "0001-01-01T00:00:00"
+    },
     {
       "category": "other",
       "duration_seconds": 23353,
@@ -15387,6 +15451,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-09-27T07:11:34Z",
+  "updated_at": "2026-09-27T11:55:40Z",
   "version": 1
 }
