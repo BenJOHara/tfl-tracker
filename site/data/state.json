@@ -10,16 +10,6 @@
       "severity": "Part Closure",
       "source_created": "0001-01-01T00:00:00"
     },
-    "district:text:45f0fe31e89c9d49": {
-      "category": "other",
-      "first_seen": "2026-09-27T11:55:40Z",
-      "issue_key": "district:text:45f0fe31e89c9d49",
-      "line_id": "district",
-      "line_name": "District",
-      "reason": "District Line: No service between Earl's Court and Kensington (Olympia) due to train cancellations. Tickets are being accepted on the Mildmay line (West Brompton - Willesden Junction) and on London Buses. GOOD SERVICE on the rest of the line.",
-      "severity": "Part Suspended",
-      "source_created": "0001-01-01T00:00:00"
-    },
     "dlr:text:287038ff364d981b": {
       "category": "other",
       "first_seen": "2026-09-27T05:52:25Z",
@@ -40,13 +30,23 @@
       "severity": "Reduced Service",
       "source_created": "0001-01-01T00:00:00"
     },
-    "jubilee:text:62a6f3f58bea0fe4": {
-      "category": "passenger incident",
-      "first_seen": "2026-09-27T12:59:00Z",
-      "issue_key": "jubilee:text:62a6f3f58bea0fe4",
-      "line_id": "jubilee",
-      "line_name": "Jubilee",
-      "reason": "Jubilee Line: Minor delays between Wembley Park and Stanmore due to a customer incident at Canons Park. GOOD SERVICE on the rest of the line.",
+    "metropolitan:text:2df4e90708614385": {
+      "category": "other",
+      "first_seen": "2026-09-27T16:53:46Z",
+      "issue_key": "metropolitan:text:2df4e90708614385",
+      "line_id": "metropolitan",
+      "line_name": "Metropolitan",
+      "reason": "Metropolitan Line: Minor delays between Moor Park and Watford due to train cancellations. GOOD SERVICE on the rest of the line.",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "mildmay:text:7483e30860b03527": {
+      "category": "fire alert",
+      "first_seen": "2026-09-27T16:53:46Z",
+      "issue_key": "mildmay:text:7483e30860b03527",
+      "line_id": "mildmay",
+      "line_name": "Mildmay",
+      "reason": "Mildmay Line: Minor delays between Willesden Junction and Clapham Junction due to a fire alert near Wandsworth Road. GOOD SERVICE on the rest of the line.",
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
@@ -60,14 +60,14 @@
       "severity": "Part Closure",
       "source_created": "0001-01-01T00:00:00"
     },
-    "victoria:text:61bb2c6e05ac5bf1": {
+    "victoria:text:34ddcd85f4006edf": {
       "category": "track fault",
-      "first_seen": "2026-09-27T12:59:00Z",
-      "issue_key": "victoria:text:61bb2c6e05ac5bf1",
+      "first_seen": "2026-09-27T16:53:46Z",
+      "issue_key": "victoria:text:34ddcd85f4006edf",
       "line_id": "victoria",
       "line_name": "Victoria",
-      "reason": "Victoria Line: Minor delays due to a track fault at Brixton.",
-      "severity": "Minor Delays",
+      "reason": "Victoria Line: Severe delays due to a track fault at Brixton. Tickets will be accepted on London Buses, Weaver line, Suffragette line, Great Northern, Thameslink, South Western Railway, Southeastern and Greater Anglia.",
+      "severity": "Severe Delays",
       "source_created": "0001-01-01T00:00:00"
     },
     "waterloo-city:text:02da0890c7cbf303": {
@@ -89,9 +89,55 @@
       "reason": "WEAVER LINE: Saturday 26 September, all day, and Sunday 27 September, from 1015, no service between Hackney Downs and Cheshunt / Enfield Town. The limited number of GREATER ANGLIA and STANSTED EXPRESS trains which usually stop at Seven Sisters will stop at Tottenham Hale instead. Use London Underground connections between Central London and Seven Sisters, and for Rectory Road and Stoke Newington, use Clapton station. If travelling to the Big Bang concert at Tottenham Hotspur Stadium, please use Victoria line trains to/from Seven Sisters or Tottenham Hale.",
       "severity": "Part Closure",
       "source_created": "0001-01-01T00:00:00"
+    },
+    "windrush:text:3c1f3cf1e05dab05": {
+      "category": "fire alert",
+      "first_seen": "2026-09-27T16:53:46Z",
+      "issue_key": "windrush:text:3c1f3cf1e05dab05",
+      "line_id": "windrush",
+      "line_name": "Windrush",
+      "reason": "Windrush Line: No service between Wandsworth Road and Clapham Junction due to a fire alert near Wandsworth Road. GOOD SERVICE on the rest of the line.",
+      "severity": "Part Suspended",
+      "source_created": "0001-01-01T00:00:00"
     }
   },
   "history": [
+    {
+      "category": "other",
+      "duration_seconds": 17886,
+      "first_seen": "2026-09-27T11:55:40Z",
+      "issue_key": "district:text:45f0fe31e89c9d49",
+      "line_id": "district",
+      "line_name": "District",
+      "reason": "District Line: No service between Earl's Court and Kensington (Olympia) due to train cancellations. Tickets are being accepted on the Mildmay line (West Brompton - Willesden Junction) and on London Buses. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-09-27T16:53:46Z",
+      "severity": "Part Suspended",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "passenger incident",
+      "duration_seconds": 14086,
+      "first_seen": "2026-09-27T12:59:00Z",
+      "issue_key": "jubilee:text:62a6f3f58bea0fe4",
+      "line_id": "jubilee",
+      "line_name": "Jubilee",
+      "reason": "Jubilee Line: Minor delays between Wembley Park and Stanmore due to a customer incident at Canons Park. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-09-27T16:53:46Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "track fault",
+      "duration_seconds": 14086,
+      "first_seen": "2026-09-27T12:59:00Z",
+      "issue_key": "victoria:text:61bb2c6e05ac5bf1",
+      "line_id": "victoria",
+      "line_name": "Victoria",
+      "reason": "Victoria Line: Minor delays due to a track fault at Brixton.",
+      "resolved_at": "2026-09-27T16:53:46Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
     {
       "category": "train fault",
       "duration_seconds": 3800,
@@ -15477,6 +15523,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-09-27T12:59:00Z",
+  "updated_at": "2026-09-27T16:53:46Z",
   "version": 1
 }
