@@ -10,16 +10,6 @@
       "severity": "Part Closure",
       "source_created": "0001-01-01T00:00:00"
     },
-    "central:text:8ac6d464b3170d82": {
-      "category": "train fault",
-      "first_seen": "2026-09-27T11:55:40Z",
-      "issue_key": "central:text:8ac6d464b3170d82",
-      "line_id": "central",
-      "line_name": "Central",
-      "reason": "Central Line: No service between Liverpool Street and Woodford / Newbury Park due to planned engineering work. MINOR DELAYS between White City and Ealing Broadway / West Ruislip due to earlier faulty trains at Liverpool Street. GOOD SERVICE on the rest of the line.",
-      "severity": "Minor Delays",
-      "source_created": "0001-01-01T00:00:00"
-    },
     "district:text:45f0fe31e89c9d49": {
       "category": "other",
       "first_seen": "2026-09-27T11:55:40Z",
@@ -50,13 +40,13 @@
       "severity": "Reduced Service",
       "source_created": "0001-01-01T00:00:00"
     },
-    "metropolitan:text:2df4e90708614385": {
-      "category": "other",
-      "first_seen": "2026-09-27T11:55:40Z",
-      "issue_key": "metropolitan:text:2df4e90708614385",
-      "line_id": "metropolitan",
-      "line_name": "Metropolitan",
-      "reason": "Metropolitan Line: Minor delays between Moor Park and Watford due to train cancellations. GOOD SERVICE on the rest of the line.",
+    "jubilee:text:62a6f3f58bea0fe4": {
+      "category": "passenger incident",
+      "first_seen": "2026-09-27T12:59:00Z",
+      "issue_key": "jubilee:text:62a6f3f58bea0fe4",
+      "line_id": "jubilee",
+      "line_name": "Jubilee",
+      "reason": "Jubilee Line: Minor delays between Wembley Park and Stanmore due to a customer incident at Canons Park. GOOD SERVICE on the rest of the line.",
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
@@ -70,13 +60,13 @@
       "severity": "Part Closure",
       "source_created": "0001-01-01T00:00:00"
     },
-    "victoria:text:f24ffab99f649a35": {
-      "category": "other",
-      "first_seen": "2026-09-27T11:55:40Z",
-      "issue_key": "victoria:text:f24ffab99f649a35",
+    "victoria:text:61bb2c6e05ac5bf1": {
+      "category": "track fault",
+      "first_seen": "2026-09-27T12:59:00Z",
+      "issue_key": "victoria:text:61bb2c6e05ac5bf1",
       "line_id": "victoria",
       "line_name": "Victoria",
-      "reason": "Victoria Line: Minor delays due to a tack fault at Brixton.",
+      "reason": "Victoria Line: Minor delays due to a track fault at Brixton.",
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
@@ -102,6 +92,42 @@
     }
   },
   "history": [
+    {
+      "category": "train fault",
+      "duration_seconds": 3800,
+      "first_seen": "2026-09-27T11:55:40Z",
+      "issue_key": "central:text:8ac6d464b3170d82",
+      "line_id": "central",
+      "line_name": "Central",
+      "reason": "Central Line: No service between Liverpool Street and Woodford / Newbury Park due to planned engineering work. MINOR DELAYS between White City and Ealing Broadway / West Ruislip due to earlier faulty trains at Liverpool Street. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-09-27T12:59:00Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "other",
+      "duration_seconds": 3800,
+      "first_seen": "2026-09-27T11:55:40Z",
+      "issue_key": "metropolitan:text:2df4e90708614385",
+      "line_id": "metropolitan",
+      "line_name": "Metropolitan",
+      "reason": "Metropolitan Line: Minor delays between Moor Park and Watford due to train cancellations. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-09-27T12:59:00Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "other",
+      "duration_seconds": 3800,
+      "first_seen": "2026-09-27T11:55:40Z",
+      "issue_key": "victoria:text:f24ffab99f649a35",
+      "line_id": "victoria",
+      "line_name": "Victoria",
+      "reason": "Victoria Line: Minor delays due to a tack fault at Brixton.",
+      "resolved_at": "2026-09-27T12:59:00Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
     {
       "category": "other",
       "duration_seconds": 21795,
@@ -15451,6 +15477,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-09-27T11:55:40Z",
+  "updated_at": "2026-09-27T12:59:00Z",
   "version": 1
 }
