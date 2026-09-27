@@ -30,14 +30,34 @@
       "severity": "Reduced Service",
       "source_created": "0001-01-01T00:00:00"
     },
-    "metropolitan:text:2df4e90708614385": {
+    "jubilee:text:88a6373a147bd08e": {
       "category": "other",
-      "first_seen": "2026-09-27T16:53:46Z",
-      "issue_key": "metropolitan:text:2df4e90708614385",
-      "line_id": "metropolitan",
-      "line_name": "Metropolitan",
-      "reason": "Metropolitan Line: Minor delays between Moor Park and Watford due to train cancellations. GOOD SERVICE on the rest of the line.",
+      "first_seen": "2026-09-27T20:04:44Z",
+      "issue_key": "jubilee:text:88a6373a147bd08e",
+      "line_id": "jubilee",
+      "line_name": "Jubilee",
+      "reason": "Jubilee Line: Minor delays due to an earlier signal system failure.",
       "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "lioness:text:2982b7bcac5eb3dd": {
+      "category": "other",
+      "first_seen": "2026-09-27T20:04:44Z",
+      "issue_key": "lioness:text:2982b7bcac5eb3dd",
+      "line_id": "lioness",
+      "line_name": "Lioness",
+      "reason": "LIONESS LINE: Sunday 27 September, until 1200 and from 2030, no service between Kilburn High Road and Euston. Please use local London Buses and London Underground services.",
+      "severity": "Part Closure",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "lioness:text:f55bac4c8f12d51e": {
+      "category": "track fault",
+      "first_seen": "2026-09-27T20:04:44Z",
+      "issue_key": "lioness:text:f55bac4c8f12d51e",
+      "line_id": "lioness",
+      "line_name": "Lioness",
+      "reason": "Lioness Line: No service between Euston and Kilburn High Road due to planned engineering work. NO SERVICE between Willesden Junction and Watford Junction while we fix a track fault at Hatch End. SEVERE DELAYS on the rest of the line. London Underground are accepting tickets via any reasonable route.",
+      "severity": "Part Suspended",
       "source_created": "0001-01-01T00:00:00"
     },
     "mildmay:text:7483e30860b03527": {
@@ -102,6 +122,18 @@
     }
   },
   "history": [
+    {
+      "category": "other",
+      "duration_seconds": 11458,
+      "first_seen": "2026-09-27T16:53:46Z",
+      "issue_key": "metropolitan:text:2df4e90708614385",
+      "line_id": "metropolitan",
+      "line_name": "Metropolitan",
+      "reason": "Metropolitan Line: Minor delays between Moor Park and Watford due to train cancellations. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-09-27T20:04:44Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
     {
       "category": "other",
       "duration_seconds": 17886,
@@ -15523,6 +15555,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-09-27T16:53:46Z",
+  "updated_at": "2026-09-27T20:04:44Z",
   "version": 1
 }
