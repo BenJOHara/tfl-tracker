@@ -30,16 +30,6 @@
       "severity": "Reduced Service",
       "source_created": "0001-01-01T00:00:00"
     },
-    "jubilee:text:88a6373a147bd08e": {
-      "category": "other",
-      "first_seen": "2026-09-27T20:04:44Z",
-      "issue_key": "jubilee:text:88a6373a147bd08e",
-      "line_id": "jubilee",
-      "line_name": "Jubilee",
-      "reason": "Jubilee Line: Minor delays due to an earlier signal system failure.",
-      "severity": "Minor Delays",
-      "source_created": "0001-01-01T00:00:00"
-    },
     "lioness:text:2982b7bcac5eb3dd": {
       "category": "other",
       "first_seen": "2026-09-27T20:04:44Z",
@@ -50,24 +40,24 @@
       "severity": "Part Closure",
       "source_created": "0001-01-01T00:00:00"
     },
-    "lioness:text:6dd3ba77989f4513": {
-      "category": "track fault",
-      "first_seen": "2026-09-27T20:22:54Z",
-      "issue_key": "lioness:text:6dd3ba77989f4513",
-      "line_id": "lioness",
-      "line_name": "Lioness",
-      "reason": "Lioness Line: Severe delays due to an earlier track fault at Hatch End. No service between Euston and Kilburn High Road due to planned engineering work. London Underground are accepting tickets via any reasonable route.",
-      "severity": "Severe Delays",
-      "source_created": "0001-01-01T00:00:00"
-    },
-    "mildmay:text:7483e30860b03527": {
+    "mildmay:text:9598ea11610d613a": {
       "category": "fire alert",
-      "first_seen": "2026-09-27T16:53:46Z",
-      "issue_key": "mildmay:text:7483e30860b03527",
+      "first_seen": "2026-09-27T22:59:12Z",
+      "issue_key": "mildmay:text:9598ea11610d613a",
       "line_id": "mildmay",
       "line_name": "Mildmay",
-      "reason": "Mildmay Line: Minor delays between Willesden Junction and Clapham Junction due to a fire alert near Wandsworth Road. GOOD SERVICE on the rest of the line.",
+      "reason": "Mildmay Line: Minor delays between Willesden Junction and Clapham Junction due to a fire alert near Wandsworth Road. NO SERVICE between Gospel Oak and Stratford due to planned engineering work. GOOD SERVICE on the rest of the line.",
       "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "mildmay:text:a1c8142297c36084": {
+      "category": "other",
+      "first_seen": "2026-09-27T22:59:12Z",
+      "issue_key": "mildmay:text:a1c8142297c36084",
+      "line_id": "mildmay",
+      "line_name": "Mildmay",
+      "reason": "MILDMAY LINE: Sunday 27 September, after 2215, no service between Gospel Oak and Stratford. Rail replacement buses will run as follows: Service S: Camden Road - Holloway Road (Piccadilly line) - Highbury & Islington - Canonbury - Dalston Junction (for Dalston Kingsland) - Hackney Central - Homerton - Hackney Wick - Stratford. For Caledonian Road & Barnsbury use local bus route 274 to/from Camden Road or walk to/from Highbury & Islington. Some buses continue on request westbound only from Camden Road as follows: Camden Road - Kentish Town West - Gospel Oak (bus stop in Southampton Road) - Hampstead Heath - Finchley Road Tube (for Finchley Road & Frognal) - West Hampstead - Brondesbury (bus stops in Kilburn High Road) - Queen's Park (walk/local buses for Brondesbury Park) - Kensal Rise - Willesden Junction - Acton Central - South Acton - Gunnersbury - Kew Gardens (Royal Botanic Gardens) - Richmond. Last through trains: Richmond to Stratford 2110; Camden Road to Stratford 2203; Stratford to Richmond 2201; Stratford to Clapham Junction 22:08",
+      "severity": "Part Closure",
       "source_created": "0001-01-01T00:00:00"
     },
     "piccadilly:text:504e3620256197c2": {
@@ -122,6 +112,42 @@
     }
   },
   "history": [
+    {
+      "category": "other",
+      "duration_seconds": 10468,
+      "first_seen": "2026-09-27T20:04:44Z",
+      "issue_key": "jubilee:text:88a6373a147bd08e",
+      "line_id": "jubilee",
+      "line_name": "Jubilee",
+      "reason": "Jubilee Line: Minor delays due to an earlier signal system failure.",
+      "resolved_at": "2026-09-27T22:59:12Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "track fault",
+      "duration_seconds": 9378,
+      "first_seen": "2026-09-27T20:22:54Z",
+      "issue_key": "lioness:text:6dd3ba77989f4513",
+      "line_id": "lioness",
+      "line_name": "Lioness",
+      "reason": "Lioness Line: Severe delays due to an earlier track fault at Hatch End. No service between Euston and Kilburn High Road due to planned engineering work. London Underground are accepting tickets via any reasonable route.",
+      "resolved_at": "2026-09-27T22:59:12Z",
+      "severity": "Severe Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "fire alert",
+      "duration_seconds": 21926,
+      "first_seen": "2026-09-27T16:53:46Z",
+      "issue_key": "mildmay:text:7483e30860b03527",
+      "line_id": "mildmay",
+      "line_name": "Mildmay",
+      "reason": "Mildmay Line: Minor delays between Willesden Junction and Clapham Junction due to a fire alert near Wandsworth Road. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-09-27T22:59:12Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
     {
       "category": "track fault",
       "duration_seconds": 1090,
@@ -15567,6 +15593,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-09-27T20:22:54Z",
+  "updated_at": "2026-09-27T22:59:12Z",
   "version": 1
 }
