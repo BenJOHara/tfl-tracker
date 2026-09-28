@@ -1,13 +1,13 @@
 {
   "active": {
-    "piccadilly:text:01071e9fcb4a3627": {
+    "central:text:6d0af7c9d44f714a": {
       "category": "other",
-      "first_seen": "2026-09-28T15:53:34Z",
-      "issue_key": "piccadilly:text:01071e9fcb4a3627",
-      "line_id": "piccadilly",
-      "line_name": "Piccadilly",
-      "reason": "Piccadilly Line: No service between Cockfosters and Arnos Grove while we deal with a signalling problem. Tickets are being accepted on London Buses. GOOD SERVICE on the rest of the line.",
-      "severity": "Part Suspended",
+      "first_seen": "2026-09-28T17:02:00Z",
+      "issue_key": "central:text:6d0af7c9d44f714a",
+      "line_id": "central",
+      "line_name": "Central",
+      "reason": "Central Line: Minor delays due to train cancellations.",
+      "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
     "victoria:text:3c352b64a8878d9f": {
@@ -22,6 +22,18 @@
     }
   },
   "history": [
+    {
+      "category": "other",
+      "duration_seconds": 4106,
+      "first_seen": "2026-09-28T15:53:34Z",
+      "issue_key": "piccadilly:text:01071e9fcb4a3627",
+      "line_id": "piccadilly",
+      "line_name": "Piccadilly",
+      "reason": "Piccadilly Line: No service between Cockfosters and Arnos Grove while we deal with a signalling problem. Tickets are being accepted on London Buses. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-09-28T17:02:00Z",
+      "severity": "Part Suspended",
+      "source_created": "0001-01-01T00:00:00"
+    },
     {
       "category": "other",
       "duration_seconds": 29982,
@@ -15923,6 +15935,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-09-28T15:53:34Z",
+  "updated_at": "2026-09-28T17:02:00Z",
   "version": 1
 }
