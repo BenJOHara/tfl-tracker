@@ -10,16 +10,6 @@
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "dlr:text:fc8ac0739110b7cc": {
-      "category": "train fault",
-      "first_seen": "2026-09-28T07:33:52Z",
-      "issue_key": "dlr:text:fc8ac0739110b7cc",
-      "line_id": "dlr",
-      "line_name": "DLR",
-      "reason": "Docklands Light Railway: Minor delays between Bank/Tower Gateway and Canning Town/Canary Wharf due to an earlier faulty train at Bank. GOOD SERVICE on the rest of the line.",
-      "severity": "Minor Delays",
-      "source_created": "0001-01-01T00:00:00"
-    },
     "northern:text:82cfeccb1c4abfec": {
       "category": "other",
       "first_seen": "2026-09-28T07:33:52Z",
@@ -42,6 +32,18 @@
     }
   },
   "history": [
+    {
+      "category": "train fault",
+      "duration_seconds": 3714,
+      "first_seen": "2026-09-28T07:33:52Z",
+      "issue_key": "dlr:text:fc8ac0739110b7cc",
+      "line_id": "dlr",
+      "line_name": "DLR",
+      "reason": "Docklands Light Railway: Minor delays between Bank/Tower Gateway and Canning Town/Canary Wharf due to an earlier faulty train at Bank. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-09-28T08:35:46Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
     {
       "category": "other",
       "duration_seconds": 21567,
@@ -15895,6 +15897,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-09-28T07:33:52Z",
+  "updated_at": "2026-09-28T08:35:46Z",
   "version": 1
 }
