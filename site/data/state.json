@@ -1,5 +1,15 @@
 {
   "active": {
+    "mildmay:text:aeed1c960d7701c9": {
+      "category": "other",
+      "first_seen": "2026-09-28T21:52:34Z",
+      "issue_key": "mildmay:text:aeed1c960d7701c9",
+      "line_id": "mildmay",
+      "line_name": "Mildmay",
+      "reason": "Mildmay Line: No service between Richmond and Willesden Junction due to an incident on a level crossing at Acton Central. Tickets will be accepted via any reasonable route. GOOD SERVICE on the rest of the line.",
+      "severity": "Part Suspended",
+      "source_created": "0001-01-01T00:00:00"
+    },
     "victoria:text:3c352b64a8878d9f": {
       "category": "track fault",
       "first_seen": "2026-09-28T15:53:34Z",
@@ -8,6 +18,16 @@
       "line_name": "Victoria",
       "reason": "Victoria Line: Severe delays due to a track fault at Brixton. Tickets will be accepted on London Buses, Weaver Line, Suffragette Line, Great Northern. Thameslink, Greater Anglia, South Western Railway and Southeastern services via any reasonable route.",
       "severity": "Severe Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "weaver:text:08b5760c82e9ccba": {
+      "category": "other",
+      "first_seen": "2026-09-28T21:52:34Z",
+      "issue_key": "weaver:text:08b5760c82e9ccba",
+      "line_id": "weaver",
+      "line_name": "Weaver",
+      "reason": "WEAVER LINE: Monday 28, Tuesday 29, Wednesday 30 September and Thursday 1 October, after 2245, no service between Hackney Downs and Chingford. Last trains are at 2231 from Liverpool Street to Chingford and at 2253 from Chingford to Liverpool Street. Replacement bus service L3 operates between Hackney Downs and Chingford via Clapton, St James Street, Walthamstow Central, Wood Street and Highams Park. The last three northbound buses start from Liverpool Street at 0014 0044 and 0114 and also serve Bethnal Green, Cambridge Heath and London Fields (Mare Street). At Liverpool Street, buses will serve stops on Wormwood Street instead of Bishopsgate, due to roadworks.",
+      "severity": "Part Closure",
       "source_created": "0001-01-01T00:00:00"
     }
   },
@@ -15937,6 +15957,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-09-28T21:25:01Z",
+  "updated_at": "2026-09-28T21:52:34Z",
   "version": 1
 }
