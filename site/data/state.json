@@ -29,6 +29,16 @@
       "reason": "WEAVER LINE: Monday 28, Tuesday 29, Wednesday 30 September and Thursday 1 October, after 2245, no service between Hackney Downs and Chingford. Last trains are at 2231 from Liverpool Street to Chingford and at 2253 from Chingford to Liverpool Street. Replacement bus service L3 operates between Hackney Downs and Chingford via Clapton, St James Street, Walthamstow Central, Wood Street and Highams Park. The last three northbound buses start from Liverpool Street at 0014 0044 and 0114 and also serve Bethnal Green, Cambridge Heath and London Fields (Mare Street). At Liverpool Street, buses will serve stops on Wormwood Street instead of Bishopsgate, due to roadworks.",
       "severity": "Part Closure",
       "source_created": "0001-01-01T00:00:00"
+    },
+    "windrush:text:78b009d411586453": {
+      "category": "person on track",
+      "first_seen": "2026-09-29T23:09:54Z",
+      "issue_key": "windrush:text:78b009d411586453",
+      "line_id": "windrush",
+      "line_name": "Windrush",
+      "reason": "Windrush Line: Severe delays between Clapham Junction and Surrey Quays while we deal with a trespasser on the track at Denmark Hill. GOOD SERVICE on the rest of the line.",
+      "severity": "Severe Delays",
+      "source_created": "0001-01-01T00:00:00"
     }
   },
   "history": [
@@ -16485,6 +16495,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-09-29T22:42:07Z",
+  "updated_at": "2026-09-29T23:09:54Z",
   "version": 1
 }
