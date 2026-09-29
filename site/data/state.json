@@ -1,13 +1,13 @@
 {
   "active": {
-    "bakerloo:text:a9da1cce7d68d496": {
+    "bakerloo:text:dbec4dee5b5f63d5": {
       "category": "fire alert",
-      "first_seen": "2026-09-29T18:43:14Z",
-      "issue_key": "bakerloo:text:a9da1cce7d68d496",
+      "first_seen": "2026-09-29T19:30:07Z",
+      "issue_key": "bakerloo:text:dbec4dee5b5f63d5",
       "line_id": "bakerloo",
       "line_name": "Bakerloo",
-      "reason": "Bakerloo Line: Severe delays due to an earlier fire alert at Waterloo. Tickets are being accepted on London Buses, Lioness line, London Northwestern Railway and Thameslink.",
-      "severity": "Severe Delays",
+      "reason": "Bakerloo Line: Minor delays due to an earlier fire alert at Waterloo.",
+      "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
     "central:text:6d0af7c9d44f714a": {
@@ -20,14 +20,14 @@
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "northern:text:cc01e7faf3fbd87b": {
+    "northern:text:6cbfd0065b6f01ec": {
       "category": "person on track",
-      "first_seen": "2026-09-29T18:43:14Z",
-      "issue_key": "northern:text:cc01e7faf3fbd87b",
+      "first_seen": "2026-09-29T19:30:07Z",
+      "issue_key": "northern:text:6cbfd0065b6f01ec",
       "line_id": "northern",
       "line_name": "Northern",
-      "reason": "Northern Line: No service between Edgware and Colindale, and SEVERE DELAYS between Colindale and Camden Town while we respond to a trespasser on the track at Edgware. MINOR DELAYS on the rest of the line due to train cancellations.",
-      "severity": "Part Suspended",
+      "reason": "Northern Line: Minor delays due to an earlier trespasser on the track at Edgware and due to train cancellations.",
+      "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
     "victoria:text:de10a32858a34a87": {
@@ -42,6 +42,30 @@
     }
   },
   "history": [
+    {
+      "category": "fire alert",
+      "duration_seconds": 2813,
+      "first_seen": "2026-09-29T18:43:14Z",
+      "issue_key": "bakerloo:text:a9da1cce7d68d496",
+      "line_id": "bakerloo",
+      "line_name": "Bakerloo",
+      "reason": "Bakerloo Line: Severe delays due to an earlier fire alert at Waterloo. Tickets are being accepted on London Buses, Lioness line, London Northwestern Railway and Thameslink.",
+      "resolved_at": "2026-09-29T19:30:07Z",
+      "severity": "Severe Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "person on track",
+      "duration_seconds": 2813,
+      "first_seen": "2026-09-29T18:43:14Z",
+      "issue_key": "northern:text:cc01e7faf3fbd87b",
+      "line_id": "northern",
+      "line_name": "Northern",
+      "reason": "Northern Line: No service between Edgware and Colindale, and SEVERE DELAYS between Colindale and Camden Town while we respond to a trespasser on the track at Edgware. MINOR DELAYS on the rest of the line due to train cancellations.",
+      "resolved_at": "2026-09-29T19:30:07Z",
+      "severity": "Part Suspended",
+      "source_created": "0001-01-01T00:00:00"
+    },
     {
       "category": "other",
       "duration_seconds": 13047,
@@ -16447,6 +16471,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-09-29T18:43:14Z",
+  "updated_at": "2026-09-29T19:30:07Z",
   "version": 1
 }
