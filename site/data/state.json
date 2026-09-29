@@ -1,15 +1,5 @@
 {
   "active": {
-    "bakerloo:text:dbec4dee5b5f63d5": {
-      "category": "fire alert",
-      "first_seen": "2026-09-29T19:30:07Z",
-      "issue_key": "bakerloo:text:dbec4dee5b5f63d5",
-      "line_id": "bakerloo",
-      "line_name": "Bakerloo",
-      "reason": "Bakerloo Line: Minor delays due to an earlier fire alert at Waterloo.",
-      "severity": "Minor Delays",
-      "source_created": "0001-01-01T00:00:00"
-    },
     "central:text:6d0af7c9d44f714a": {
       "category": "other",
       "first_seen": "2026-09-29T18:43:14Z",
@@ -17,16 +7,6 @@
       "line_id": "central",
       "line_name": "Central",
       "reason": "Central Line: Minor delays due to train cancellations.",
-      "severity": "Minor Delays",
-      "source_created": "0001-01-01T00:00:00"
-    },
-    "northern:text:6cbfd0065b6f01ec": {
-      "category": "person on track",
-      "first_seen": "2026-09-29T19:30:07Z",
-      "issue_key": "northern:text:6cbfd0065b6f01ec",
-      "line_id": "northern",
-      "line_name": "Northern",
-      "reason": "Northern Line: Minor delays due to an earlier trespasser on the track at Edgware and due to train cancellations.",
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
@@ -39,9 +19,43 @@
       "reason": "Victoria Line: Severe delays due to infrastructure damage at Brixton. Tickets are being accepted on, London Buses, Weaver Line, Suffragette Line, Great Northern, Thameslink, Greater Anglia, South Western Railway and Southeastern services via any reasonable route.",
       "severity": "Severe Delays",
       "source_created": "0001-01-01T00:00:00"
+    },
+    "weaver:text:08b5760c82e9ccba": {
+      "category": "other",
+      "first_seen": "2026-09-29T22:42:07Z",
+      "issue_key": "weaver:text:08b5760c82e9ccba",
+      "line_id": "weaver",
+      "line_name": "Weaver",
+      "reason": "WEAVER LINE: Monday 28, Tuesday 29, Wednesday 30 September and Thursday 1 October, after 2245, no service between Hackney Downs and Chingford. Last trains are at 2231 from Liverpool Street to Chingford and at 2253 from Chingford to Liverpool Street. Replacement bus service L3 operates between Hackney Downs and Chingford via Clapton, St James Street, Walthamstow Central, Wood Street and Highams Park. The last three northbound buses start from Liverpool Street at 0014 0044 and 0114 and also serve Bethnal Green, Cambridge Heath and London Fields (Mare Street). At Liverpool Street, buses will serve stops on Wormwood Street instead of Bishopsgate, due to roadworks.",
+      "severity": "Part Closure",
+      "source_created": "0001-01-01T00:00:00"
     }
   },
   "history": [
+    {
+      "category": "fire alert",
+      "duration_seconds": 11520,
+      "first_seen": "2026-09-29T19:30:07Z",
+      "issue_key": "bakerloo:text:dbec4dee5b5f63d5",
+      "line_id": "bakerloo",
+      "line_name": "Bakerloo",
+      "reason": "Bakerloo Line: Minor delays due to an earlier fire alert at Waterloo.",
+      "resolved_at": "2026-09-29T22:42:07Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "person on track",
+      "duration_seconds": 11520,
+      "first_seen": "2026-09-29T19:30:07Z",
+      "issue_key": "northern:text:6cbfd0065b6f01ec",
+      "line_id": "northern",
+      "line_name": "Northern",
+      "reason": "Northern Line: Minor delays due to an earlier trespasser on the track at Edgware and due to train cancellations.",
+      "resolved_at": "2026-09-29T22:42:07Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
     {
       "category": "fire alert",
       "duration_seconds": 2813,
@@ -16471,6 +16485,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-09-29T19:30:07Z",
+  "updated_at": "2026-09-29T22:42:07Z",
   "version": 1
 }
