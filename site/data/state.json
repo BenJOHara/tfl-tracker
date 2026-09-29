@@ -1,23 +1,13 @@
 {
   "active": {
-    "central:text:bbfadfcb1d9db750": {
+    "central:text:661ffb5df5776638": {
       "category": "other",
-      "first_seen": "2026-09-29T14:20:03Z",
-      "issue_key": "central:text:bbfadfcb1d9db750",
+      "first_seen": "2026-09-29T15:05:47Z",
+      "issue_key": "central:text:661ffb5df5776638",
       "line_id": "central",
       "line_name": "Central",
-      "reason": "Central Line: No service between Northolt and West Ruislip while emergency services deal with a casualty on the track. MINOR DELAYS between North Acton and Ealing Broadway/Northolt, and between Leytonstone and Epping/Hainault via Newbury Park due to train cancellations. GOOD SERVICE on the rest of the line.",
+      "reason": "Central Line: No service between Northolt and West Ruislip while emergency services deal with a casualty on the track. Tickets will be accepted on London Buses. MINOR DELAYS on the rest of the line due to train cancellations.",
       "severity": "Part Suspended",
-      "source_created": "0001-01-01T00:00:00"
-    },
-    "metropolitan:text:f710cdce8948534c": {
-      "category": "signal failure",
-      "first_seen": "2026-09-29T14:20:03Z",
-      "issue_key": "metropolitan:text:f710cdce8948534c",
-      "line_id": "metropolitan",
-      "line_name": "Metropolitan",
-      "reason": "Metropolitan Line: Minor delays between Moor Park and Amersham /Chesham/Watford due to an earlier signal failure at Harrow-on-the-Hill. GOOD SERVICE on the rest of the line.",
-      "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
     "victoria:text:de10a32858a34a87": {
@@ -32,6 +22,30 @@
     }
   },
   "history": [
+    {
+      "category": "other",
+      "duration_seconds": 2744,
+      "first_seen": "2026-09-29T14:20:03Z",
+      "issue_key": "central:text:bbfadfcb1d9db750",
+      "line_id": "central",
+      "line_name": "Central",
+      "reason": "Central Line: No service between Northolt and West Ruislip while emergency services deal with a casualty on the track. MINOR DELAYS between North Acton and Ealing Broadway/Northolt, and between Leytonstone and Epping/Hainault via Newbury Park due to train cancellations. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-09-29T15:05:47Z",
+      "severity": "Part Suspended",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "signal failure",
+      "duration_seconds": 2744,
+      "first_seen": "2026-09-29T14:20:03Z",
+      "issue_key": "metropolitan:text:f710cdce8948534c",
+      "line_id": "metropolitan",
+      "line_name": "Metropolitan",
+      "reason": "Metropolitan Line: Minor delays between Moor Park and Amersham /Chesham/Watford due to an earlier signal failure at Harrow-on-the-Hill. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-09-29T15:05:47Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
     {
       "category": "other",
       "duration_seconds": 3305,
@@ -16401,6 +16415,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-09-29T14:20:03Z",
+  "updated_at": "2026-09-29T15:05:47Z",
   "version": 1
 }
