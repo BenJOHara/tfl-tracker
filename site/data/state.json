@@ -1,23 +1,23 @@
 {
   "active": {
-    "central:text:23c62521d4237097": {
+    "central:text:bbfadfcb1d9db750": {
       "category": "other",
-      "first_seen": "2026-09-29T13:24:58Z",
-      "issue_key": "central:text:23c62521d4237097",
+      "first_seen": "2026-09-29T14:20:03Z",
+      "issue_key": "central:text:bbfadfcb1d9db750",
       "line_id": "central",
       "line_name": "Central",
-      "reason": "Central Line: Minor delays between North Acton and Ealing Broadway/West Ruislip, and between Leytonstone and Epping/Hainault via Newbury Park due to train cancellations. GOOD SERVICE on the rest of the line.",
-      "severity": "Minor Delays",
+      "reason": "Central Line: No service between Northolt and West Ruislip while emergency services deal with a casualty on the track. MINOR DELAYS between North Acton and Ealing Broadway/Northolt, and between Leytonstone and Epping/Hainault via Newbury Park due to train cancellations. GOOD SERVICE on the rest of the line.",
+      "severity": "Part Suspended",
       "source_created": "0001-01-01T00:00:00"
     },
-    "metropolitan:text:f653dc1419adce49": {
+    "metropolitan:text:f710cdce8948534c": {
       "category": "signal failure",
-      "first_seen": "2026-09-29T13:24:58Z",
-      "issue_key": "metropolitan:text:f653dc1419adce49",
+      "first_seen": "2026-09-29T14:20:03Z",
+      "issue_key": "metropolitan:text:f710cdce8948534c",
       "line_id": "metropolitan",
       "line_name": "Metropolitan",
-      "reason": "Metropolitan Line: Severe delays between Harrow-on-the-Hill and Watford, and MINOR DELAYS between Moor Park and Amersham / Chesham due to an earlier signal failure at Harrow-on-the-Hill. Tickets are being accepted on London Buses, Lioness Line, Northwestern Railway and Chiltern Railway via any reasonable route. GOOD SERVICE on the rest of the line.",
-      "severity": "Severe Delays",
+      "reason": "Metropolitan Line: Minor delays between Moor Park and Amersham /Chesham/Watford due to an earlier signal failure at Harrow-on-the-Hill. GOOD SERVICE on the rest of the line.",
+      "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
     "victoria:text:de10a32858a34a87": {
@@ -32,6 +32,30 @@
     }
   },
   "history": [
+    {
+      "category": "other",
+      "duration_seconds": 3305,
+      "first_seen": "2026-09-29T13:24:58Z",
+      "issue_key": "central:text:23c62521d4237097",
+      "line_id": "central",
+      "line_name": "Central",
+      "reason": "Central Line: Minor delays between North Acton and Ealing Broadway/West Ruislip, and between Leytonstone and Epping/Hainault via Newbury Park due to train cancellations. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-09-29T14:20:03Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "signal failure",
+      "duration_seconds": 3305,
+      "first_seen": "2026-09-29T13:24:58Z",
+      "issue_key": "metropolitan:text:f653dc1419adce49",
+      "line_id": "metropolitan",
+      "line_name": "Metropolitan",
+      "reason": "Metropolitan Line: Severe delays between Harrow-on-the-Hill and Watford, and MINOR DELAYS between Moor Park and Amersham / Chesham due to an earlier signal failure at Harrow-on-the-Hill. Tickets are being accepted on London Buses, Lioness Line, Northwestern Railway and Chiltern Railway via any reasonable route. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-09-29T14:20:03Z",
+      "severity": "Severe Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
     {
       "category": "other",
       "duration_seconds": 17444,
@@ -16377,6 +16401,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-09-29T13:24:58Z",
+  "updated_at": "2026-09-29T14:20:03Z",
   "version": 1
 }
