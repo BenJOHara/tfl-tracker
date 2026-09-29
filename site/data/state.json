@@ -1,12 +1,32 @@
 {
   "active": {
-    "central:text:661ffb5df5776638": {
+    "bakerloo:text:a9da1cce7d68d496": {
+      "category": "fire alert",
+      "first_seen": "2026-09-29T18:43:14Z",
+      "issue_key": "bakerloo:text:a9da1cce7d68d496",
+      "line_id": "bakerloo",
+      "line_name": "Bakerloo",
+      "reason": "Bakerloo Line: Severe delays due to an earlier fire alert at Waterloo. Tickets are being accepted on London Buses, Lioness line, London Northwestern Railway and Thameslink.",
+      "severity": "Severe Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "central:text:6d0af7c9d44f714a": {
       "category": "other",
-      "first_seen": "2026-09-29T15:05:47Z",
-      "issue_key": "central:text:661ffb5df5776638",
+      "first_seen": "2026-09-29T18:43:14Z",
+      "issue_key": "central:text:6d0af7c9d44f714a",
       "line_id": "central",
       "line_name": "Central",
-      "reason": "Central Line: No service between Northolt and West Ruislip while emergency services deal with a casualty on the track. Tickets will be accepted on London Buses. MINOR DELAYS on the rest of the line due to train cancellations.",
+      "reason": "Central Line: Minor delays due to train cancellations.",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "northern:text:cc01e7faf3fbd87b": {
+      "category": "person on track",
+      "first_seen": "2026-09-29T18:43:14Z",
+      "issue_key": "northern:text:cc01e7faf3fbd87b",
+      "line_id": "northern",
+      "line_name": "Northern",
+      "reason": "Northern Line: No service between Edgware and Colindale, and SEVERE DELAYS between Colindale and Camden Town while we respond to a trespasser on the track at Edgware. MINOR DELAYS on the rest of the line due to train cancellations.",
       "severity": "Part Suspended",
       "source_created": "0001-01-01T00:00:00"
     },
@@ -22,6 +42,18 @@
     }
   },
   "history": [
+    {
+      "category": "other",
+      "duration_seconds": 13047,
+      "first_seen": "2026-09-29T15:05:47Z",
+      "issue_key": "central:text:661ffb5df5776638",
+      "line_id": "central",
+      "line_name": "Central",
+      "reason": "Central Line: No service between Northolt and West Ruislip while emergency services deal with a casualty on the track. Tickets will be accepted on London Buses. MINOR DELAYS on the rest of the line due to train cancellations.",
+      "resolved_at": "2026-09-29T18:43:14Z",
+      "severity": "Part Suspended",
+      "source_created": "0001-01-01T00:00:00"
+    },
     {
       "category": "other",
       "duration_seconds": 2744,
@@ -16415,6 +16447,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-09-29T15:05:47Z",
+  "updated_at": "2026-09-29T18:43:14Z",
   "version": 1
 }
