@@ -1,42 +1,32 @@
 {
   "active": {
-    "central:text:6d0af7c9d44f714a": {
-      "category": "other",
-      "first_seen": "2026-09-29T06:49:43Z",
-      "issue_key": "central:text:6d0af7c9d44f714a",
+    "central:text:88c80cb629922b0e": {
+      "category": "train fault",
+      "first_seen": "2026-09-29T07:35:14Z",
+      "issue_key": "central:text:88c80cb629922b0e",
       "line_id": "central",
       "line_name": "Central",
-      "reason": "Central Line: Minor delays due to train cancellations.",
+      "reason": "Central Line: Severe delays eastbound only due to an earlier faulty train at Notting Hill Gate. Tickets will be accepted on, London Buses, London Overground, Elizabeth line, Chiltern Railways, Great Western Railway and Greater Anglia services via any reasonable route. MINOR DELAYS on the rest of the line due to train cancellations.",
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "circle:text:4f5af3df11ffcc36": {
+    "district:text:3e34f4f578a5f823": {
       "category": "train fault",
-      "first_seen": "2026-09-29T06:49:43Z",
-      "issue_key": "circle:text:4f5af3df11ffcc36",
-      "line_id": "circle",
-      "line_name": "Circle",
-      "reason": "Circle Line: Minor delays while we fix a faulty train at High Street Kensington.",
-      "severity": "Minor Delays",
-      "source_created": "0001-01-01T00:00:00"
-    },
-    "district:text:fb5efc803178bae5": {
-      "category": "train fault",
-      "first_seen": "2026-09-29T06:49:43Z",
-      "issue_key": "district:text:fb5efc803178bae5",
+      "first_seen": "2026-09-29T07:35:14Z",
+      "issue_key": "district:text:3e34f4f578a5f823",
       "line_id": "district",
       "line_name": "District",
-      "reason": "District Line: Severe delays due to an earlier faulty train at Earl's Court. Tickets are being accepted on London Buses.",
+      "reason": "District Line: Severe delays between Barking and Upminster and MINOR DELAYS on the rest of the line due to an earlier faulty train at Earl's Court. Tickets are being accepted on London Buses.",
       "severity": "Severe Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "metropolitan:text:a2a725431747aa4c": {
+    "metropolitan:text:9ed28c96c6322fe5": {
       "category": "person on track",
-      "first_seen": "2026-09-29T06:49:43Z",
-      "issue_key": "metropolitan:text:a2a725431747aa4c",
+      "first_seen": "2026-09-29T07:35:14Z",
+      "issue_key": "metropolitan:text:9ed28c96c6322fe5",
       "line_id": "metropolitan",
       "line_name": "Metropolitan",
-      "reason": "Metropolitan Line: Minor delays between Harrow-on-the-Hill and Baker Street due to an earlier trespasser on the track at Harrow-on-the-Hill. GOOD SERVICE on the rest of the line.",
+      "reason": "Metropolitan Line: Minor delays between Chesham and Moor Park, and between Harrow-on-the-Hill and Baker Street due to an earlier trespasser on the track at Harrow-on-the-Hill. GOOD SERVICE on the rest of the line.",
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
@@ -52,6 +42,54 @@
     }
   },
   "history": [
+    {
+      "category": "other",
+      "duration_seconds": 2731,
+      "first_seen": "2026-09-29T06:49:43Z",
+      "issue_key": "central:text:6d0af7c9d44f714a",
+      "line_id": "central",
+      "line_name": "Central",
+      "reason": "Central Line: Minor delays due to train cancellations.",
+      "resolved_at": "2026-09-29T07:35:14Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "train fault",
+      "duration_seconds": 2731,
+      "first_seen": "2026-09-29T06:49:43Z",
+      "issue_key": "circle:text:4f5af3df11ffcc36",
+      "line_id": "circle",
+      "line_name": "Circle",
+      "reason": "Circle Line: Minor delays while we fix a faulty train at High Street Kensington.",
+      "resolved_at": "2026-09-29T07:35:14Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "train fault",
+      "duration_seconds": 2731,
+      "first_seen": "2026-09-29T06:49:43Z",
+      "issue_key": "district:text:fb5efc803178bae5",
+      "line_id": "district",
+      "line_name": "District",
+      "reason": "District Line: Severe delays due to an earlier faulty train at Earl's Court. Tickets are being accepted on London Buses.",
+      "resolved_at": "2026-09-29T07:35:14Z",
+      "severity": "Severe Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "person on track",
+      "duration_seconds": 2731,
+      "first_seen": "2026-09-29T06:49:43Z",
+      "issue_key": "metropolitan:text:a2a725431747aa4c",
+      "line_id": "metropolitan",
+      "line_name": "Metropolitan",
+      "reason": "Metropolitan Line: Minor delays between Harrow-on-the-Hill and Baker Street due to an earlier trespasser on the track at Harrow-on-the-Hill. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-09-29T07:35:14Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
     {
       "category": "other",
       "duration_seconds": 20698,
@@ -16253,6 +16291,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-09-29T06:49:43Z",
+  "updated_at": "2026-09-29T07:35:14Z",
   "version": 1
 }
