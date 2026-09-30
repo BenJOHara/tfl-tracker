@@ -1,33 +1,63 @@
 {
   "active": {
-    "district:text:0f32004bcb69c1c2": {
-      "category": "train fault",
-      "first_seen": "2026-09-30T07:21:29Z",
-      "issue_key": "district:text:0f32004bcb69c1c2",
+    "district:text:9c09d477e2a85811": {
+      "category": "other",
+      "first_seen": "2026-09-30T08:42:52Z",
+      "issue_key": "district:text:9c09d477e2a85811",
       "line_id": "district",
       "line_name": "District",
-      "reason": "District Line: Minor delays between Upminster and Earl's Court westbound only, due to an earlier faulty train at Bromley-by-Bow. GOOD SERVICE on the rest of the line.",
+      "reason": "District Line: Minor delays due to train cancellations.",
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "metropolitan:text:300a49bd175fae6c": {
+    "elizabeth:text:46fec7b69c80a616": {
       "category": "other",
-      "first_seen": "2026-09-30T07:21:29Z",
-      "issue_key": "metropolitan:text:300a49bd175fae6c",
-      "line_id": "metropolitan",
-      "line_name": "Metropolitan",
-      "reason": "Metropolitan Line: No service between Harrow-on-the-Hill and Uxbridge while we deal with a signalling problem at Rayners Lane. GOOD SERVICE on the rest of the line.",
-      "severity": "Part Suspended",
+      "first_seen": "2026-09-30T08:42:52Z",
+      "issue_key": "elizabeth:text:46fec7b69c80a616",
+      "line_id": "elizabeth",
+      "line_name": "Elizabeth line",
+      "reason": "Minor delays between Abbey Wood and Heathrow Terminals / Reading while we conduct a safety inspection of the track. GOOD SERVICE on the rest of the line.",
+      "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "piccadilly:text:b30792cad331ce8f": {
+    "hammersmith-city:text:f963dc563d5b516d": {
       "category": "other",
-      "first_seen": "2026-09-30T07:21:29Z",
-      "issue_key": "piccadilly:text:b30792cad331ce8f",
+      "first_seen": "2026-09-30T08:42:52Z",
+      "issue_key": "hammersmith-city:text:f963dc563d5b516d",
+      "line_id": "hammersmith-city",
+      "line_name": "Hammersmith & City",
+      "reason": "Hammersmith and City Line: Minor delays on the eastbound only due to train cancelations. GOOD SERVICE on the rest of the line.",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "jubilee:text:bb7b7ee4aa4de59e": {
+      "category": "fire alert",
+      "first_seen": "2026-09-30T08:42:52Z",
+      "issue_key": "jubilee:text:bb7b7ee4aa4de59e",
+      "line_id": "jubilee",
+      "line_name": "Jubilee",
+      "reason": "Jubilee Line: Minor delays due to an earlier fire alert at Kilburn.",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "metropolitan:text:194b12b9b8dd2662": {
+      "category": "fire alert",
+      "first_seen": "2026-09-30T08:42:52Z",
+      "issue_key": "metropolitan:text:194b12b9b8dd2662",
+      "line_id": "metropolitan",
+      "line_name": "Metropolitan",
+      "reason": "Metropolitan Line: Severe delays due to an earlier signalling problem at Rayners Lane and an earlier fire alert in the Kilburn area. Tickets are being accepted on, London Buses, Lioness Line, London Northwestern Railway, Chiltern Railways and Thameslink via any reasonable route.",
+      "severity": "Severe Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "piccadilly:text:82a1ea2fcbb0370f": {
+      "category": "other",
+      "first_seen": "2026-09-30T08:42:52Z",
+      "issue_key": "piccadilly:text:82a1ea2fcbb0370f",
       "line_id": "piccadilly",
       "line_name": "Piccadilly",
-      "reason": "Piccadilly Line: No service between South Harrow and Uxbridge while we deal with a signalling problem at Rayners Lane. Tickets will be accepted on London Buses via any reasonable route. GOOD SERVICE on the rest of the line.",
-      "severity": "Part Suspended",
+      "reason": "Piccadilly Line: Minor delays between Rayners Lane and Uxbridge due to an earlier signalling problem at Rayners Lane. GOOD SERVICE on the rest of the line.",
+      "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
     "victoria:text:a196dfa6a212a4eb": {
@@ -42,6 +72,42 @@
     }
   },
   "history": [
+    {
+      "category": "train fault",
+      "duration_seconds": 4883,
+      "first_seen": "2026-09-30T07:21:29Z",
+      "issue_key": "district:text:0f32004bcb69c1c2",
+      "line_id": "district",
+      "line_name": "District",
+      "reason": "District Line: Minor delays between Upminster and Earl's Court westbound only, due to an earlier faulty train at Bromley-by-Bow. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-09-30T08:42:52Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "other",
+      "duration_seconds": 4883,
+      "first_seen": "2026-09-30T07:21:29Z",
+      "issue_key": "metropolitan:text:300a49bd175fae6c",
+      "line_id": "metropolitan",
+      "line_name": "Metropolitan",
+      "reason": "Metropolitan Line: No service between Harrow-on-the-Hill and Uxbridge while we deal with a signalling problem at Rayners Lane. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-09-30T08:42:52Z",
+      "severity": "Part Suspended",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "other",
+      "duration_seconds": 4883,
+      "first_seen": "2026-09-30T07:21:29Z",
+      "issue_key": "piccadilly:text:b30792cad331ce8f",
+      "line_id": "piccadilly",
+      "line_name": "Piccadilly",
+      "reason": "Piccadilly Line: No service between South Harrow and Uxbridge while we deal with a signalling problem at Rayners Lane. Tickets will be accepted on London Buses via any reasonable route. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-09-30T08:42:52Z",
+      "severity": "Part Suspended",
+      "source_created": "0001-01-01T00:00:00"
+    },
     {
       "category": "other",
       "duration_seconds": 20878,
@@ -16783,6 +16849,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-09-30T07:21:29Z",
+  "updated_at": "2026-09-30T08:42:52Z",
   "version": 1
 }
