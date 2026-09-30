@@ -1,5 +1,15 @@
 {
   "active": {
+    "central:text:5bd67d208a495439": {
+      "category": "train fault",
+      "first_seen": "2026-09-30T15:23:37Z",
+      "issue_key": "central:text:5bd67d208a495439",
+      "line_id": "central",
+      "line_name": "Central",
+      "reason": "Central Line: Minor delays due to an earlier faulty train at Stratford.",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
     "jubilee:text:c48bec601976d779": {
       "category": "fire alert",
       "first_seen": "2026-09-30T13:54:44Z",
@@ -8,16 +18,6 @@
       "line_name": "Jubilee",
       "reason": "Jubilee Line: Severe delays due to an earlier fire alert at Kilburn. Tickets are being accepted on London Buses, DLR, C2C, Southeastern, Mildmay line, Elizabeth line and Thameslink via any reasonable route.",
       "severity": "Severe Delays",
-      "source_created": "0001-01-01T00:00:00"
-    },
-    "tram:text:a1a9d8308351224d": {
-      "category": "other",
-      "first_seen": "2026-09-30T13:54:44Z",
-      "issue_key": "tram:text:a1a9d8308351224d",
-      "line_id": "tram",
-      "line_name": "Tram",
-      "reason": "London Tramlink: Minor delays between Wimbledon and Beckenham Junction / Elmers End due to an emergency services vehicle blocking the route at Centrale. GOOD SERVICE on all other Tram routes.",
-      "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
     "victoria:text:0924448a610c9c41": {
@@ -32,6 +32,18 @@
     }
   },
   "history": [
+    {
+      "category": "other",
+      "duration_seconds": 5333,
+      "first_seen": "2026-09-30T13:54:44Z",
+      "issue_key": "tram:text:a1a9d8308351224d",
+      "line_id": "tram",
+      "line_name": "Tram",
+      "reason": "London Tramlink: Minor delays between Wimbledon and Beckenham Junction / Elmers End due to an emergency services vehicle blocking the route at Centrale. GOOD SERVICE on all other Tram routes.",
+      "resolved_at": "2026-09-30T15:23:37Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
     {
       "category": "other",
       "duration_seconds": 18712,
@@ -16893,6 +16905,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-09-30T13:54:44Z",
+  "updated_at": "2026-09-30T15:23:37Z",
   "version": 1
 }
