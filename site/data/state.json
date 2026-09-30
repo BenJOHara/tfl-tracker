@@ -1,23 +1,13 @@
 {
   "active": {
-    "central:text:879c2548fe21e030": {
+    "waterloo-city:text:0faebd0ea99ebd1b": {
       "category": "other",
-      "first_seen": "2026-09-30T18:37:24Z",
-      "issue_key": "central:text:879c2548fe21e030",
-      "line_id": "central",
-      "line_name": "Central",
-      "reason": "Central Line: Minor delays between North Acton and West Ruislip / Ealing Broadway and between Leytonstone and Epping / Hainault due to train cancellations. GOOD SERVICE on the rest of the line.",
-      "severity": "Minor Delays",
-      "source_created": "0001-01-01T00:00:00"
-    },
-    "victoria:text:652a647b0bfe7799": {
-      "category": "track fault",
-      "first_seen": "2026-09-30T18:37:24Z",
-      "issue_key": "victoria:text:652a647b0bfe7799",
-      "line_id": "victoria",
-      "line_name": "Victoria",
-      "reason": "Victoria Line: Severe delays due to a track fault at Brixton. Tickets will be accepted on, London Buses, Weaver Line, Suffragette Line, Great Northern, Greater Anglia, Thameslink, South Western Railway and Southeastern via any reasonable route.",
-      "severity": "Severe Delays",
+      "first_seen": "2026-09-30T23:57:42Z",
+      "issue_key": "waterloo-city:text:0faebd0ea99ebd1b",
+      "line_id": "waterloo-city",
+      "line_name": "Waterloo & City",
+      "reason": "Waterloo and City Line: Service will resume at 06:00.",
+      "severity": "Service Closed",
       "source_created": "0001-01-01T00:00:00"
     },
     "weaver:text:08b5760c82e9ccba": {
@@ -32,6 +22,30 @@
     }
   },
   "history": [
+    {
+      "category": "other",
+      "duration_seconds": 19218,
+      "first_seen": "2026-09-30T18:37:24Z",
+      "issue_key": "central:text:879c2548fe21e030",
+      "line_id": "central",
+      "line_name": "Central",
+      "reason": "Central Line: Minor delays between North Acton and West Ruislip / Ealing Broadway and between Leytonstone and Epping / Hainault due to train cancellations. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-09-30T23:57:42Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "track fault",
+      "duration_seconds": 19218,
+      "first_seen": "2026-09-30T18:37:24Z",
+      "issue_key": "victoria:text:652a647b0bfe7799",
+      "line_id": "victoria",
+      "line_name": "Victoria",
+      "reason": "Victoria Line: Severe delays due to a track fault at Brixton. Tickets will be accepted on, London Buses, Weaver Line, Suffragette Line, Great Northern, Greater Anglia, Thameslink, South Western Railway and Southeastern via any reasonable route.",
+      "resolved_at": "2026-09-30T23:57:42Z",
+      "severity": "Severe Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
     {
       "category": "fire alert",
       "duration_seconds": 5944,
@@ -16965,6 +16979,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-09-30T22:34:09Z",
+  "updated_at": "2026-09-30T23:57:42Z",
   "version": 1
 }
