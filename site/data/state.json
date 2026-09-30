@@ -10,16 +10,6 @@
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "jubilee:text:bb7b7ee4aa4de59e": {
-      "category": "fire alert",
-      "first_seen": "2026-09-30T18:37:24Z",
-      "issue_key": "jubilee:text:bb7b7ee4aa4de59e",
-      "line_id": "jubilee",
-      "line_name": "Jubilee",
-      "reason": "Jubilee Line: Minor delays due to an earlier fire alert at Kilburn.",
-      "severity": "Minor Delays",
-      "source_created": "0001-01-01T00:00:00"
-    },
     "victoria:text:652a647b0bfe7799": {
       "category": "track fault",
       "first_seen": "2026-09-30T18:37:24Z",
@@ -32,6 +22,18 @@
     }
   },
   "history": [
+    {
+      "category": "fire alert",
+      "duration_seconds": 5944,
+      "first_seen": "2026-09-30T18:37:24Z",
+      "issue_key": "jubilee:text:bb7b7ee4aa4de59e",
+      "line_id": "jubilee",
+      "line_name": "Jubilee",
+      "reason": "Jubilee Line: Minor delays due to an earlier fire alert at Kilburn.",
+      "resolved_at": "2026-09-30T20:16:28Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
     {
       "category": "train fault",
       "duration_seconds": 11627,
@@ -16953,6 +16955,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-09-30T18:37:24Z",
+  "updated_at": "2026-09-30T20:16:28Z",
   "version": 1
 }
