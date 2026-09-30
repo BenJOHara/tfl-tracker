@@ -1,77 +1,121 @@
 {
   "active": {
-    "district:text:9c09d477e2a85811": {
-      "category": "other",
-      "first_seen": "2026-09-30T08:42:52Z",
-      "issue_key": "district:text:9c09d477e2a85811",
-      "line_id": "district",
-      "line_name": "District",
-      "reason": "District Line: Minor delays due to train cancellations.",
-      "severity": "Minor Delays",
-      "source_created": "0001-01-01T00:00:00"
-    },
-    "elizabeth:text:46fec7b69c80a616": {
-      "category": "other",
-      "first_seen": "2026-09-30T08:42:52Z",
-      "issue_key": "elizabeth:text:46fec7b69c80a616",
-      "line_id": "elizabeth",
-      "line_name": "Elizabeth line",
-      "reason": "Minor delays between Abbey Wood and Heathrow Terminals / Reading while we conduct a safety inspection of the track. GOOD SERVICE on the rest of the line.",
-      "severity": "Minor Delays",
-      "source_created": "0001-01-01T00:00:00"
-    },
-    "hammersmith-city:text:f963dc563d5b516d": {
-      "category": "other",
-      "first_seen": "2026-09-30T08:42:52Z",
-      "issue_key": "hammersmith-city:text:f963dc563d5b516d",
-      "line_id": "hammersmith-city",
-      "line_name": "Hammersmith & City",
-      "reason": "Hammersmith and City Line: Minor delays on the eastbound only due to train cancelations. GOOD SERVICE on the rest of the line.",
-      "severity": "Minor Delays",
-      "source_created": "0001-01-01T00:00:00"
-    },
-    "jubilee:text:bb7b7ee4aa4de59e": {
+    "jubilee:text:c48bec601976d779": {
       "category": "fire alert",
-      "first_seen": "2026-09-30T08:42:52Z",
-      "issue_key": "jubilee:text:bb7b7ee4aa4de59e",
+      "first_seen": "2026-09-30T13:54:44Z",
+      "issue_key": "jubilee:text:c48bec601976d779",
       "line_id": "jubilee",
       "line_name": "Jubilee",
-      "reason": "Jubilee Line: Minor delays due to an earlier fire alert at Kilburn.",
-      "severity": "Minor Delays",
-      "source_created": "0001-01-01T00:00:00"
-    },
-    "metropolitan:text:194b12b9b8dd2662": {
-      "category": "fire alert",
-      "first_seen": "2026-09-30T08:42:52Z",
-      "issue_key": "metropolitan:text:194b12b9b8dd2662",
-      "line_id": "metropolitan",
-      "line_name": "Metropolitan",
-      "reason": "Metropolitan Line: Severe delays due to an earlier signalling problem at Rayners Lane and an earlier fire alert in the Kilburn area. Tickets are being accepted on, London Buses, Lioness Line, London Northwestern Railway, Chiltern Railways and Thameslink via any reasonable route.",
+      "reason": "Jubilee Line: Severe delays due to an earlier fire alert at Kilburn. Tickets are being accepted on London Buses, DLR, C2C, Southeastern, Mildmay line, Elizabeth line and Thameslink via any reasonable route.",
       "severity": "Severe Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "piccadilly:text:82a1ea2fcbb0370f": {
+    "tram:text:a1a9d8308351224d": {
       "category": "other",
-      "first_seen": "2026-09-30T08:42:52Z",
-      "issue_key": "piccadilly:text:82a1ea2fcbb0370f",
-      "line_id": "piccadilly",
-      "line_name": "Piccadilly",
-      "reason": "Piccadilly Line: Minor delays between Rayners Lane and Uxbridge due to an earlier signalling problem at Rayners Lane. GOOD SERVICE on the rest of the line.",
+      "first_seen": "2026-09-30T13:54:44Z",
+      "issue_key": "tram:text:a1a9d8308351224d",
+      "line_id": "tram",
+      "line_name": "Tram",
+      "reason": "London Tramlink: Minor delays between Wimbledon and Beckenham Junction / Elmers End due to an emergency services vehicle blocking the route at Centrale. GOOD SERVICE on all other Tram routes.",
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "victoria:text:a196dfa6a212a4eb": {
-      "category": "other",
-      "first_seen": "2026-09-30T07:21:29Z",
-      "issue_key": "victoria:text:a196dfa6a212a4eb",
+    "victoria:text:0924448a610c9c41": {
+      "category": "track fault",
+      "first_seen": "2026-09-30T13:54:44Z",
+      "issue_key": "victoria:text:0924448a610c9c41",
       "line_id": "victoria",
       "line_name": "Victoria",
-      "reason": "Victoria Line: Severe delays due to infrastructure damage at Brixton. Tickets will be accepted on, London Buses, Weaver Line, Suffragette Line, Great Northern, Thameslink, South Western Railway and Southeastern via any reasonable route.",
+      "reason": "Victoria Line: Severe delays due to a track fault at Brixton. Tickets will be accepted on, London Buses, Weaver Line, Suffragette Line, Great Northern, Thameslink, South Western Railway and Southeastern via any reasonable route.",
       "severity": "Severe Delays",
       "source_created": "0001-01-01T00:00:00"
     }
   },
   "history": [
+    {
+      "category": "other",
+      "duration_seconds": 18712,
+      "first_seen": "2026-09-30T08:42:52Z",
+      "issue_key": "district:text:9c09d477e2a85811",
+      "line_id": "district",
+      "line_name": "District",
+      "reason": "District Line: Minor delays due to train cancellations.",
+      "resolved_at": "2026-09-30T13:54:44Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "other",
+      "duration_seconds": 18712,
+      "first_seen": "2026-09-30T08:42:52Z",
+      "issue_key": "elizabeth:text:46fec7b69c80a616",
+      "line_id": "elizabeth",
+      "line_name": "Elizabeth line",
+      "reason": "Minor delays between Abbey Wood and Heathrow Terminals / Reading while we conduct a safety inspection of the track. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-09-30T13:54:44Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "other",
+      "duration_seconds": 18712,
+      "first_seen": "2026-09-30T08:42:52Z",
+      "issue_key": "hammersmith-city:text:f963dc563d5b516d",
+      "line_id": "hammersmith-city",
+      "line_name": "Hammersmith & City",
+      "reason": "Hammersmith and City Line: Minor delays on the eastbound only due to train cancelations. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-09-30T13:54:44Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "fire alert",
+      "duration_seconds": 18712,
+      "first_seen": "2026-09-30T08:42:52Z",
+      "issue_key": "jubilee:text:bb7b7ee4aa4de59e",
+      "line_id": "jubilee",
+      "line_name": "Jubilee",
+      "reason": "Jubilee Line: Minor delays due to an earlier fire alert at Kilburn.",
+      "resolved_at": "2026-09-30T13:54:44Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "fire alert",
+      "duration_seconds": 18712,
+      "first_seen": "2026-09-30T08:42:52Z",
+      "issue_key": "metropolitan:text:194b12b9b8dd2662",
+      "line_id": "metropolitan",
+      "line_name": "Metropolitan",
+      "reason": "Metropolitan Line: Severe delays due to an earlier signalling problem at Rayners Lane and an earlier fire alert in the Kilburn area. Tickets are being accepted on, London Buses, Lioness Line, London Northwestern Railway, Chiltern Railways and Thameslink via any reasonable route.",
+      "resolved_at": "2026-09-30T13:54:44Z",
+      "severity": "Severe Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "other",
+      "duration_seconds": 18712,
+      "first_seen": "2026-09-30T08:42:52Z",
+      "issue_key": "piccadilly:text:82a1ea2fcbb0370f",
+      "line_id": "piccadilly",
+      "line_name": "Piccadilly",
+      "reason": "Piccadilly Line: Minor delays between Rayners Lane and Uxbridge due to an earlier signalling problem at Rayners Lane. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-09-30T13:54:44Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "other",
+      "duration_seconds": 23595,
+      "first_seen": "2026-09-30T07:21:29Z",
+      "issue_key": "victoria:text:a196dfa6a212a4eb",
+      "line_id": "victoria",
+      "line_name": "Victoria",
+      "reason": "Victoria Line: Severe delays due to infrastructure damage at Brixton. Tickets will be accepted on, London Buses, Weaver Line, Suffragette Line, Great Northern, Thameslink, South Western Railway and Southeastern via any reasonable route.",
+      "resolved_at": "2026-09-30T13:54:44Z",
+      "severity": "Severe Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
     {
       "category": "train fault",
       "duration_seconds": 4883,
@@ -16849,6 +16893,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-09-30T08:42:52Z",
+  "updated_at": "2026-09-30T13:54:44Z",
   "version": 1
 }
