@@ -1,47 +1,85 @@
 {
   "active": {
-    "central:text:5bd67d208a495439": {
-      "category": "train fault",
-      "first_seen": "2026-09-30T15:23:37Z",
-      "issue_key": "central:text:5bd67d208a495439",
+    "central:text:879c2548fe21e030": {
+      "category": "other",
+      "first_seen": "2026-09-30T18:37:24Z",
+      "issue_key": "central:text:879c2548fe21e030",
       "line_id": "central",
       "line_name": "Central",
-      "reason": "Central Line: Minor delays due to an earlier faulty train at Stratford.",
+      "reason": "Central Line: Minor delays between North Acton and West Ruislip / Ealing Broadway and between Leytonstone and Epping / Hainault due to train cancellations. GOOD SERVICE on the rest of the line.",
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "jubilee:text:c48bec601976d779": {
+    "jubilee:text:bb7b7ee4aa4de59e": {
       "category": "fire alert",
-      "first_seen": "2026-09-30T13:54:44Z",
-      "issue_key": "jubilee:text:c48bec601976d779",
+      "first_seen": "2026-09-30T18:37:24Z",
+      "issue_key": "jubilee:text:bb7b7ee4aa4de59e",
       "line_id": "jubilee",
       "line_name": "Jubilee",
-      "reason": "Jubilee Line: Severe delays due to an earlier fire alert at Kilburn. Tickets are being accepted on London Buses, DLR, C2C, Southeastern, Mildmay line, Elizabeth line and Thameslink via any reasonable route.",
-      "severity": "Severe Delays",
-      "source_created": "0001-01-01T00:00:00"
-    },
-    "northern:text:e47962a2386db37e": {
-      "category": "other",
-      "first_seen": "2026-09-30T15:41:44Z",
-      "issue_key": "northern:text:e47962a2386db37e",
-      "line_id": "northern",
-      "line_name": "Northern",
-      "reason": "Northern Line: Minor delays between Kennington and Morden due to train cancellations. GOOD SERVICE on the rest of the line.",
+      "reason": "Jubilee Line: Minor delays due to an earlier fire alert at Kilburn.",
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "victoria:text:0924448a610c9c41": {
+    "victoria:text:652a647b0bfe7799": {
       "category": "track fault",
-      "first_seen": "2026-09-30T13:54:44Z",
-      "issue_key": "victoria:text:0924448a610c9c41",
+      "first_seen": "2026-09-30T18:37:24Z",
+      "issue_key": "victoria:text:652a647b0bfe7799",
       "line_id": "victoria",
       "line_name": "Victoria",
-      "reason": "Victoria Line: Severe delays due to a track fault at Brixton. Tickets will be accepted on, London Buses, Weaver Line, Suffragette Line, Great Northern, Thameslink, South Western Railway and Southeastern via any reasonable route.",
+      "reason": "Victoria Line: Severe delays due to a track fault at Brixton. Tickets will be accepted on, London Buses, Weaver Line, Suffragette Line, Great Northern, Greater Anglia, Thameslink, South Western Railway and Southeastern via any reasonable route.",
       "severity": "Severe Delays",
       "source_created": "0001-01-01T00:00:00"
     }
   },
   "history": [
+    {
+      "category": "train fault",
+      "duration_seconds": 11627,
+      "first_seen": "2026-09-30T15:23:37Z",
+      "issue_key": "central:text:5bd67d208a495439",
+      "line_id": "central",
+      "line_name": "Central",
+      "reason": "Central Line: Minor delays due to an earlier faulty train at Stratford.",
+      "resolved_at": "2026-09-30T18:37:24Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "fire alert",
+      "duration_seconds": 16960,
+      "first_seen": "2026-09-30T13:54:44Z",
+      "issue_key": "jubilee:text:c48bec601976d779",
+      "line_id": "jubilee",
+      "line_name": "Jubilee",
+      "reason": "Jubilee Line: Severe delays due to an earlier fire alert at Kilburn. Tickets are being accepted on London Buses, DLR, C2C, Southeastern, Mildmay line, Elizabeth line and Thameslink via any reasonable route.",
+      "resolved_at": "2026-09-30T18:37:24Z",
+      "severity": "Severe Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "other",
+      "duration_seconds": 10540,
+      "first_seen": "2026-09-30T15:41:44Z",
+      "issue_key": "northern:text:e47962a2386db37e",
+      "line_id": "northern",
+      "line_name": "Northern",
+      "reason": "Northern Line: Minor delays between Kennington and Morden due to train cancellations. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-09-30T18:37:24Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "track fault",
+      "duration_seconds": 16960,
+      "first_seen": "2026-09-30T13:54:44Z",
+      "issue_key": "victoria:text:0924448a610c9c41",
+      "line_id": "victoria",
+      "line_name": "Victoria",
+      "reason": "Victoria Line: Severe delays due to a track fault at Brixton. Tickets will be accepted on, London Buses, Weaver Line, Suffragette Line, Great Northern, Thameslink, South Western Railway and Southeastern via any reasonable route.",
+      "resolved_at": "2026-09-30T18:37:24Z",
+      "severity": "Severe Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
     {
       "category": "other",
       "duration_seconds": 5333,
@@ -16915,6 +16953,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-09-30T15:41:44Z",
+  "updated_at": "2026-09-30T18:37:24Z",
   "version": 1
 }
