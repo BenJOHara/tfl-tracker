@@ -1,15 +1,5 @@
 {
   "active": {
-    "metropolitan:text:6d9b592c5757f685": {
-      "category": "train fault",
-      "first_seen": "2026-10-01T11:51:18Z",
-      "issue_key": "metropolitan:text:6d9b592c5757f685",
-      "line_id": "metropolitan",
-      "line_name": "Metropolitan",
-      "reason": "Metropolitan Line: Severe delays due to an earlier faulty train at Neasden. Tickets are being accepted on London Buses, Lioness Line, London Northwestern and Thameslink services via any reasonable routes.",
-      "severity": "Severe Delays",
-      "source_created": "0001-01-01T00:00:00"
-    },
     "victoria:text:4102bb90a5520af3": {
       "category": "track fault",
       "first_seen": "2026-10-01T12:35:13Z",
@@ -22,6 +12,18 @@
     }
   },
   "history": [
+    {
+      "category": "train fault",
+      "duration_seconds": 10698,
+      "first_seen": "2026-10-01T11:51:18Z",
+      "issue_key": "metropolitan:text:6d9b592c5757f685",
+      "line_id": "metropolitan",
+      "line_name": "Metropolitan",
+      "reason": "Metropolitan Line: Severe delays due to an earlier faulty train at Neasden. Tickets are being accepted on London Buses, Lioness Line, London Northwestern and Thameslink services via any reasonable routes.",
+      "resolved_at": "2026-10-01T14:49:36Z",
+      "severity": "Severe Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
     {
       "category": "track fault",
       "duration_seconds": 2635,
@@ -17291,6 +17293,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-10-01T12:35:13Z",
+  "updated_at": "2026-10-01T14:49:36Z",
   "version": 1
 }
