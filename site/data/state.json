@@ -10,18 +10,30 @@
       "severity": "Severe Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "victoria:text:61bb2c6e05ac5bf1": {
+    "victoria:text:4102bb90a5520af3": {
       "category": "track fault",
+      "first_seen": "2026-10-01T12:35:13Z",
+      "issue_key": "victoria:text:4102bb90a5520af3",
+      "line_id": "victoria",
+      "line_name": "Victoria",
+      "reason": "Victoria Line: Severe delays due to a track fault at Brixton. Tickets are being accepted on London Buses, Weaver Line, Suffragette Line, Great Northern, Greater Anglia, Thameslink, South Western Railway and Southeastern via any reasonable route.",
+      "severity": "Severe Delays",
+      "source_created": "0001-01-01T00:00:00"
+    }
+  },
+  "history": [
+    {
+      "category": "track fault",
+      "duration_seconds": 2635,
       "first_seen": "2026-10-01T11:51:18Z",
       "issue_key": "victoria:text:61bb2c6e05ac5bf1",
       "line_id": "victoria",
       "line_name": "Victoria",
       "reason": "Victoria Line: Minor delays due to a track fault at Brixton.",
+      "resolved_at": "2026-10-01T12:35:13Z",
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
-    }
-  },
-  "history": [
+    },
     {
       "category": "other",
       "duration_seconds": 14814,
@@ -17279,6 +17291,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-10-01T11:51:18Z",
+  "updated_at": "2026-10-01T12:35:13Z",
   "version": 1
 }
