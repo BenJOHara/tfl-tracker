@@ -10,16 +10,6 @@
       "severity": "Severe Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "piccadilly:text:367e986c16e2ed77": {
-      "category": "signal failure",
-      "first_seen": "2026-10-01T22:00:49Z",
-      "issue_key": "piccadilly:text:367e986c16e2ed77",
-      "line_id": "piccadilly",
-      "line_name": "Piccadilly",
-      "reason": "Piccadilly Line: Minor delays between South Harrow and Uxbridge due to an earlier signal failure at Rayners Lane. GOOD SERVICE on the rest of the line.",
-      "severity": "Minor Delays",
-      "source_created": "0001-01-01T00:00:00"
-    },
     "weaver:text:08b5760c82e9ccba": {
       "category": "other",
       "first_seen": "2026-10-01T22:00:49Z",
@@ -32,6 +22,18 @@
     }
   },
   "history": [
+    {
+      "category": "signal failure",
+      "duration_seconds": 3264,
+      "first_seen": "2026-10-01T22:00:49Z",
+      "issue_key": "piccadilly:text:367e986c16e2ed77",
+      "line_id": "piccadilly",
+      "line_name": "Piccadilly",
+      "reason": "Piccadilly Line: Minor delays between South Harrow and Uxbridge due to an earlier signal failure at Rayners Lane. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-10-01T22:55:13Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
     {
       "category": "other",
       "duration_seconds": 15448,
@@ -17361,6 +17363,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-10-01T22:00:49Z",
+  "updated_at": "2026-10-01T22:55:13Z",
   "version": 1
 }
