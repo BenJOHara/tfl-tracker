@@ -7,7 +7,7 @@
       "line_id": "metropolitan",
       "line_name": "Metropolitan",
       "reason": "Metropolitan Line: Severe delays between Harrow-on-the-Hill and Uxbridge due to an earlier signal failure at Rayners Lane. London Buses are accepting tickets via any reasonable route. MINOR DELAYS on the rest of the line.",
-      "severity": "Severe Delays",
+      "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
     "weaver:text:08b5760c82e9ccba": {
@@ -17363,6 +17363,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-10-01T22:55:13Z",
+  "updated_at": "2026-10-01T23:29:28Z",
   "version": 1
 }
