@@ -1,37 +1,63 @@
 {
   "active": {
-    "central:text:6d0af7c9d44f714a": {
+    "metropolitan:text:6d9b592c5757f685": {
+      "category": "train fault",
+      "first_seen": "2026-10-01T11:51:18Z",
+      "issue_key": "metropolitan:text:6d9b592c5757f685",
+      "line_id": "metropolitan",
+      "line_name": "Metropolitan",
+      "reason": "Metropolitan Line: Severe delays due to an earlier faulty train at Neasden. Tickets are being accepted on London Buses, Lioness Line, London Northwestern and Thameslink services via any reasonable routes.",
+      "severity": "Severe Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "victoria:text:61bb2c6e05ac5bf1": {
+      "category": "track fault",
+      "first_seen": "2026-10-01T11:51:18Z",
+      "issue_key": "victoria:text:61bb2c6e05ac5bf1",
+      "line_id": "victoria",
+      "line_name": "Victoria",
+      "reason": "Victoria Line: Minor delays due to a track fault at Brixton.",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    }
+  },
+  "history": [
+    {
       "category": "other",
+      "duration_seconds": 14814,
       "first_seen": "2026-10-01T07:44:24Z",
       "issue_key": "central:text:6d0af7c9d44f714a",
       "line_id": "central",
       "line_name": "Central",
       "reason": "Central Line: Minor delays due to train cancellations.",
+      "resolved_at": "2026-10-01T11:51:18Z",
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "northern:text:82cfeccb1c4abfec": {
+    {
       "category": "other",
+      "duration_seconds": 14814,
       "first_seen": "2026-10-01T07:44:24Z",
       "issue_key": "northern:text:82cfeccb1c4abfec",
       "line_id": "northern",
       "line_name": "Northern",
       "reason": "Northern Line: Minor delays due to train cancellations.",
+      "resolved_at": "2026-10-01T11:51:18Z",
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "victoria:text:3dd5e4dc7bbdc83f": {
+    {
       "category": "track fault",
+      "duration_seconds": 14814,
       "first_seen": "2026-10-01T07:44:24Z",
       "issue_key": "victoria:text:3dd5e4dc7bbdc83f",
       "line_id": "victoria",
       "line_name": "Victoria",
       "reason": "Victoria Line: Severe delays due to a track fault at Brixton. Tickets are being accepted on, London Buses, London Trams, Southeastern, Thameslink and South Western Railway services via any acceptable route.",
+      "resolved_at": "2026-10-01T11:51:18Z",
       "severity": "Severe Delays",
       "source_created": "0001-01-01T00:00:00"
-    }
-  },
-  "history": [
+    },
     {
       "category": "other",
       "duration_seconds": 7340,
@@ -17253,6 +17279,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-10-01T07:44:24Z",
+  "updated_at": "2026-10-01T11:51:18Z",
   "version": 1
 }
