@@ -1,47 +1,85 @@
 {
   "active": {
-    "central:text:bde4623f336882eb": {
+    "metropolitan:text:509c6e777b8e2e3c": {
+      "category": "signal failure",
+      "first_seen": "2026-10-01T22:00:49Z",
+      "issue_key": "metropolitan:text:509c6e777b8e2e3c",
+      "line_id": "metropolitan",
+      "line_name": "Metropolitan",
+      "reason": "Metropolitan Line: Severe delays between Harrow-on-the-Hill and Uxbridge due to an earlier signal failure at Rayners Lane. London Buses are accepting tickets via any reasonable route. MINOR DELAYS on the rest of the line.",
+      "severity": "Severe Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "piccadilly:text:367e986c16e2ed77": {
+      "category": "signal failure",
+      "first_seen": "2026-10-01T22:00:49Z",
+      "issue_key": "piccadilly:text:367e986c16e2ed77",
+      "line_id": "piccadilly",
+      "line_name": "Piccadilly",
+      "reason": "Piccadilly Line: Minor delays between South Harrow and Uxbridge due to an earlier signal failure at Rayners Lane. GOOD SERVICE on the rest of the line.",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "weaver:text:08b5760c82e9ccba": {
       "category": "other",
+      "first_seen": "2026-10-01T22:00:49Z",
+      "issue_key": "weaver:text:08b5760c82e9ccba",
+      "line_id": "weaver",
+      "line_name": "Weaver",
+      "reason": "WEAVER LINE: Monday 28, Tuesday 29, Wednesday 30 September and Thursday 1 October, after 2245, no service between Hackney Downs and Chingford. Last trains are at 2231 from Liverpool Street to Chingford and at 2253 from Chingford to Liverpool Street. Replacement bus service L3 operates between Hackney Downs and Chingford via Clapton, St James Street, Walthamstow Central, Wood Street and Highams Park. The last three northbound buses start from Liverpool Street at 0014 0044 and 0114 and also serve Bethnal Green, Cambridge Heath and London Fields (Mare Street). At Liverpool Street, buses will serve stops on Wormwood Street instead of Bishopsgate, due to roadworks.",
+      "severity": "Part Closure",
+      "source_created": "0001-01-01T00:00:00"
+    }
+  },
+  "history": [
+    {
+      "category": "other",
+      "duration_seconds": 15448,
       "first_seen": "2026-10-01T17:43:21Z",
       "issue_key": "central:text:bde4623f336882eb",
       "line_id": "central",
       "line_name": "Central",
       "reason": "Central Line: Minor delays between White City and Ealing Broadway / West Ruislip and between Leytonstone and Epping via Woodford / Hainault via Newbury Park due to train cancellations. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-10-01T22:00:49Z",
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "metropolitan:text:9cf10d0705ae4a15": {
+    {
       "category": "signal failure",
+      "duration_seconds": 7591,
       "first_seen": "2026-10-01T19:54:18Z",
       "issue_key": "metropolitan:text:9cf10d0705ae4a15",
       "line_id": "metropolitan",
       "line_name": "Metropolitan",
       "reason": "Metropolitan Line: No service between Harrow-on-the-Hill and Uxbridge while we fix a signal failure at Rayners Lane. London Buses are accepting tickets via any reasonable route. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-10-01T22:00:49Z",
       "severity": "Part Suspended",
       "source_created": "0001-01-01T00:00:00"
     },
-    "piccadilly:text:00381dfbdc866f81": {
+    {
       "category": "signal failure",
+      "duration_seconds": 7591,
       "first_seen": "2026-10-01T19:54:18Z",
       "issue_key": "piccadilly:text:00381dfbdc866f81",
       "line_id": "piccadilly",
       "line_name": "Piccadilly",
       "reason": "Piccadilly Line: No service between South Harrow and Uxbridge while we fix a signal failure at Rayners Lane. London Buses are accepting tickets via any reasonable route. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-10-01T22:00:49Z",
       "severity": "Part Suspended",
       "source_created": "0001-01-01T00:00:00"
     },
-    "victoria:text:4102bb90a5520af3": {
+    {
       "category": "track fault",
+      "duration_seconds": 33936,
       "first_seen": "2026-10-01T12:35:13Z",
       "issue_key": "victoria:text:4102bb90a5520af3",
       "line_id": "victoria",
       "line_name": "Victoria",
       "reason": "Victoria Line: Severe delays due to a track fault at Brixton. Tickets are being accepted on London Buses, Weaver Line, Suffragette Line, Great Northern, Greater Anglia, Thameslink, South Western Railway and Southeastern via any reasonable route.",
+      "resolved_at": "2026-10-01T22:00:49Z",
       "severity": "Severe Delays",
       "source_created": "0001-01-01T00:00:00"
-    }
-  },
-  "history": [
+    },
     {
       "category": "train fault",
       "duration_seconds": 10698,
@@ -17323,6 +17361,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-10-01T19:54:18Z",
+  "updated_at": "2026-10-01T22:00:49Z",
   "version": 1
 }
