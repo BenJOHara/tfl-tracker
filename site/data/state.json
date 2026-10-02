@@ -19,6 +19,16 @@
       "reason": "Victoria Line: Severe delays due to a track fault at Brixton. London Buses, Weaver line, Suffragette line, Great Northern, Thameslink and Greater Anglia, South Western Railway and Southeastern are accepting valid tickets via any reasonable route.",
       "severity": "Severe Delays",
       "source_created": "0001-01-01T00:00:00"
+    },
+    "waterloo-city:text:1bbcac27f282d0db": {
+      "category": "other",
+      "first_seen": "2026-10-02T23:44:51Z",
+      "issue_key": "waterloo-city:text:1bbcac27f282d0db",
+      "line_id": "waterloo-city",
+      "line_name": "Waterloo & City",
+      "reason": "Waterloo and City Line: Service will resume at 06:00 on Monday.",
+      "severity": "Service Closed",
+      "source_created": "0001-01-01T00:00:00"
     }
   },
   "history": [
@@ -17747,6 +17757,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-10-02T23:04:16Z",
+  "updated_at": "2026-10-02T23:44:51Z",
   "version": 1
 }
