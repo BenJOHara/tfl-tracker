@@ -1,43 +1,13 @@
 {
   "active": {
-    "central:text:6d0af7c9d44f714a": {
+    "tram:text:6a9e6ed2f56c0af3": {
       "category": "other",
-      "first_seen": "2026-10-02T07:33:41Z",
-      "issue_key": "central:text:6d0af7c9d44f714a",
-      "line_id": "central",
-      "line_name": "Central",
-      "reason": "Central Line: Minor delays due to train cancellations.",
+      "first_seen": "2026-10-02T14:06:43Z",
+      "issue_key": "tram:text:6a9e6ed2f56c0af3",
+      "line_id": "tram",
+      "line_name": "Tram",
+      "reason": "London Tramlink: Minor delays between Sandilands and East Croydon due to an earlier road traffic collision in the area. GOOD SERVICE on the rest of the line.",
       "severity": "Minor Delays",
-      "source_created": "0001-01-01T00:00:00"
-    },
-    "district:text:93b440a220d2c3dc": {
-      "category": "points failure",
-      "first_seen": "2026-10-02T08:23:19Z",
-      "issue_key": "district:text:93b440a220d2c3dc",
-      "line_id": "district",
-      "line_name": "District",
-      "reason": "District Line: Minor delays between Earl's Court and Richmond / Ealing Broadway and between Barking and Upminster due to an earlier points failure at Gloucester Road. GOOD SERVICE on the rest of the line.",
-      "severity": "Minor Delays",
-      "source_created": "0001-01-01T00:00:00"
-    },
-    "northern:text:82cfeccb1c4abfec": {
-      "category": "other",
-      "first_seen": "2026-10-02T07:33:41Z",
-      "issue_key": "northern:text:82cfeccb1c4abfec",
-      "line_id": "northern",
-      "line_name": "Northern",
-      "reason": "Northern Line: Minor delays due to train cancellations.",
-      "severity": "Minor Delays",
-      "source_created": "0001-01-01T00:00:00"
-    },
-    "suffragette:text:2ae73b22ce4fa8c5": {
-      "category": "person on track",
-      "first_seen": "2026-10-02T08:57:49Z",
-      "issue_key": "suffragette:text:2ae73b22ce4fa8c5",
-      "line_id": "suffragette",
-      "line_name": "Suffragette",
-      "reason": "Suffragette Line: Severe delays due to a trespasser on the track at Harringay Green Lanes.",
-      "severity": "Severe Delays",
       "source_created": "0001-01-01T00:00:00"
     },
     "victoria:text:c85748041e2744fe": {
@@ -52,6 +22,54 @@
     }
   },
   "history": [
+    {
+      "category": "other",
+      "duration_seconds": 23582,
+      "first_seen": "2026-10-02T07:33:41Z",
+      "issue_key": "central:text:6d0af7c9d44f714a",
+      "line_id": "central",
+      "line_name": "Central",
+      "reason": "Central Line: Minor delays due to train cancellations.",
+      "resolved_at": "2026-10-02T14:06:43Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "points failure",
+      "duration_seconds": 20604,
+      "first_seen": "2026-10-02T08:23:19Z",
+      "issue_key": "district:text:93b440a220d2c3dc",
+      "line_id": "district",
+      "line_name": "District",
+      "reason": "District Line: Minor delays between Earl's Court and Richmond / Ealing Broadway and between Barking and Upminster due to an earlier points failure at Gloucester Road. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-10-02T14:06:43Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "other",
+      "duration_seconds": 23582,
+      "first_seen": "2026-10-02T07:33:41Z",
+      "issue_key": "northern:text:82cfeccb1c4abfec",
+      "line_id": "northern",
+      "line_name": "Northern",
+      "reason": "Northern Line: Minor delays due to train cancellations.",
+      "resolved_at": "2026-10-02T14:06:43Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "person on track",
+      "duration_seconds": 18534,
+      "first_seen": "2026-10-02T08:57:49Z",
+      "issue_key": "suffragette:text:2ae73b22ce4fa8c5",
+      "line_id": "suffragette",
+      "line_name": "Suffragette",
+      "reason": "Suffragette Line: Severe delays due to a trespasser on the track at Harringay Green Lanes.",
+      "resolved_at": "2026-10-02T14:06:43Z",
+      "severity": "Severe Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
     {
       "category": "points failure",
       "duration_seconds": 2978,
@@ -17669,6 +17687,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-10-02T08:57:49Z",
+  "updated_at": "2026-10-02T14:06:43Z",
   "version": 1
 }
