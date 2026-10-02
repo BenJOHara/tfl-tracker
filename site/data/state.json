@@ -10,13 +10,13 @@
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "district:text:7d87c86b029c04cd": {
+    "district:text:93b440a220d2c3dc": {
       "category": "points failure",
-      "first_seen": "2026-10-02T07:33:41Z",
-      "issue_key": "district:text:7d87c86b029c04cd",
+      "first_seen": "2026-10-02T08:23:19Z",
+      "issue_key": "district:text:93b440a220d2c3dc",
       "line_id": "district",
       "line_name": "District",
-      "reason": "District Line: Severe delays between Barking and Upminster due to an earlier points failure at Gloucester Road. Tickets will be accepted on London Buses. MINOR DELAYS on the rest of the line.",
+      "reason": "District Line: Minor delays between Earl's Court and Richmond / Ealing Broadway and between Barking and Upminster due to an earlier points failure at Gloucester Road. GOOD SERVICE on the rest of the line.",
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
@@ -42,6 +42,18 @@
     }
   },
   "history": [
+    {
+      "category": "points failure",
+      "duration_seconds": 2978,
+      "first_seen": "2026-10-02T07:33:41Z",
+      "issue_key": "district:text:7d87c86b029c04cd",
+      "line_id": "district",
+      "line_name": "District",
+      "reason": "District Line: Severe delays between Barking and Upminster due to an earlier points failure at Gloucester Road. Tickets will be accepted on London Buses. MINOR DELAYS on the rest of the line.",
+      "resolved_at": "2026-10-02T08:23:19Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
     {
       "category": "other",
       "duration_seconds": 21386,
@@ -17647,6 +17659,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-10-02T07:33:41Z",
+  "updated_at": "2026-10-02T08:23:19Z",
   "version": 1
 }
