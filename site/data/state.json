@@ -30,6 +30,16 @@
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
+    "suffragette:text:2ae73b22ce4fa8c5": {
+      "category": "person on track",
+      "first_seen": "2026-10-02T08:57:49Z",
+      "issue_key": "suffragette:text:2ae73b22ce4fa8c5",
+      "line_id": "suffragette",
+      "line_name": "Suffragette",
+      "reason": "Suffragette Line: Severe delays due to a trespasser on the track at Harringay Green Lanes.",
+      "severity": "Severe Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
     "victoria:text:c85748041e2744fe": {
       "category": "track fault",
       "first_seen": "2026-10-02T07:33:41Z",
@@ -17659,6 +17669,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-10-02T08:23:19Z",
+  "updated_at": "2026-10-02T08:57:49Z",
   "version": 1
 }
