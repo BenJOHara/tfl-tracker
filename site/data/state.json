@@ -1,5 +1,15 @@
 {
   "active": {
+    "bakerloo:text:f85f8637774a9fb0": {
+      "category": "other",
+      "first_seen": "2026-10-02T19:15:48Z",
+      "issue_key": "bakerloo:text:f85f8637774a9fb0",
+      "line_id": "bakerloo",
+      "line_name": "Bakerloo",
+      "reason": "Bakerloo Line: No service between Harrow & Wealdstone and Stonebridge Park due to an earlier signalling problem at Harrow & Wealdstone. GOOD SERVICE on the rest of the line. Tickets are being accepted on London Buses and London Northwestern Railway.",
+      "severity": "Part Suspended",
+      "source_created": "0001-01-01T00:00:00"
+    },
     "central:text:2671929b56956017": {
       "category": "other",
       "first_seen": "2026-10-02T14:53:56Z",
@@ -8,6 +18,16 @@
       "line_name": "Central",
       "reason": "Central Line: Minor delays between White City and Ealing Broadway/West Ruislip, and between Leytonstone and Epping/Hainault via Newbury Park due to train cancellations. GOOD SERVICE on the rest of the line.",
       "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "lioness:text:46ff41c8528603d9": {
+      "category": "other",
+      "first_seen": "2026-10-02T19:15:48Z",
+      "issue_key": "lioness:text:46ff41c8528603d9",
+      "line_id": "lioness",
+      "line_name": "Lioness",
+      "reason": "Lioness Line: Severe delays due to a signalling problem at Harrow & Wealdstone due to an earlier signalling problem at Harrow & Wealdstone. London Underground and London Northwestern are accepting tickets but the Bakerloo line is also disrupted.",
+      "severity": "Severe Delays",
       "source_created": "0001-01-01T00:00:00"
     },
     "victoria:text:c85748041e2744fe": {
@@ -17699,6 +17719,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-10-02T14:53:56Z",
+  "updated_at": "2026-10-02T19:15:48Z",
   "version": 1
 }
