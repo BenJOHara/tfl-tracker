@@ -1,13 +1,13 @@
 {
   "active": {
-    "lioness:text:2cfeb4e4bc30def4": {
+    "tram:text:4775fd5b035edfae": {
       "category": "other",
-      "first_seen": "2026-10-02T19:46:50Z",
-      "issue_key": "lioness:text:2cfeb4e4bc30def4",
-      "line_id": "lioness",
-      "line_name": "Lioness",
-      "reason": "Lioness Line: Minor delays due to an earlier signalling problem at Harrow & Wealdstone.",
-      "severity": "Minor Delays",
+      "first_seen": "2026-10-02T23:04:16Z",
+      "issue_key": "tram:text:4775fd5b035edfae",
+      "line_id": "tram",
+      "line_name": "Tram",
+      "reason": "London Trams: From 22:00 Friday 2 October, no service on London Trams.",
+      "severity": "Planned Closure",
       "source_created": "0001-01-01T00:00:00"
     },
     "victoria:text:c85748041e2744fe": {
@@ -22,6 +22,18 @@
     }
   },
   "history": [
+    {
+      "category": "other",
+      "duration_seconds": 11846,
+      "first_seen": "2026-10-02T19:46:50Z",
+      "issue_key": "lioness:text:2cfeb4e4bc30def4",
+      "line_id": "lioness",
+      "line_name": "Lioness",
+      "reason": "Lioness Line: Minor delays due to an earlier signalling problem at Harrow & Wealdstone.",
+      "resolved_at": "2026-10-02T23:04:16Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
     {
       "category": "other",
       "duration_seconds": 1862,
@@ -17735,6 +17747,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-10-02T19:46:50Z",
+  "updated_at": "2026-10-02T23:04:16Z",
   "version": 1
 }
