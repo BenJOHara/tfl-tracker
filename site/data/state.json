@@ -30,14 +30,14 @@
       "severity": "Severe Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "piccadilly:text:2ed1dbeb2ae4c902": {
+    "piccadilly:text:77f71bf0f6dc35be": {
       "category": "other",
-      "first_seen": "2026-10-03T07:59:56Z",
-      "issue_key": "piccadilly:text:2ed1dbeb2ae4c902",
+      "first_seen": "2026-10-03T08:18:39Z",
+      "issue_key": "piccadilly:text:77f71bf0f6dc35be",
       "line_id": "piccadilly",
       "line_name": "Piccadilly",
-      "reason": "Piccadilly Line: Minor delays between Acton Town and Uxbridge while we conduct a track inspection at Eastcote. GOOD SERVICE on the rest of the line.",
-      "severity": "Minor Delays",
+      "reason": "Piccadilly Line: No service between South Harrow and Uxbridge and MINOR DELAYS between Acton Town and South Harrow while we conduct a track inspection at Eastcote. Please use the Metropolitan line. GOOD SERVICE on the rest of the line.",
+      "severity": "Part Suspended",
       "source_created": "0001-01-01T00:00:00"
     },
     "tram:text:d4ccb19c1cc1d5b6": {
@@ -72,6 +72,18 @@
     }
   },
   "history": [
+    {
+      "category": "other",
+      "duration_seconds": 1123,
+      "first_seen": "2026-10-03T07:59:56Z",
+      "issue_key": "piccadilly:text:2ed1dbeb2ae4c902",
+      "line_id": "piccadilly",
+      "line_name": "Piccadilly",
+      "reason": "Piccadilly Line: Minor delays between Acton Town and Uxbridge while we conduct a track inspection at Eastcote. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-10-03T08:18:39Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
     {
       "category": "other",
       "duration_seconds": 21992,
@@ -18001,6 +18013,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-10-03T07:59:56Z",
+  "updated_at": "2026-10-03T08:18:39Z",
   "version": 1
 }
