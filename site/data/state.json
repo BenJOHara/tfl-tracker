@@ -1,5 +1,15 @@
 {
   "active": {
+    "district:text:46fb733aa615d251": {
+      "category": "other",
+      "first_seen": "2026-10-03T17:26:54Z",
+      "issue_key": "district:text:46fb733aa615d251",
+      "line_id": "district",
+      "line_name": "District",
+      "reason": "District Line: Minor delays between Earl's Court and Kensington (Olympia) due to train cancellations. GOOD SERVICE on the rest of the line.",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
     "jubilee:text:de08670d8ad8b91b": {
       "category": "other",
       "first_seen": "2026-10-03T07:59:56Z",
@@ -20,6 +30,16 @@
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
+    "mildmay:text:c840288b89dbb1f8": {
+      "category": "person on track",
+      "first_seen": "2026-10-03T17:26:54Z",
+      "issue_key": "mildmay:text:c840288b89dbb1f8",
+      "line_id": "mildmay",
+      "line_name": "Mildmay",
+      "reason": "Mildmay Line: Minor delays between Willesden Junction and Stratford due to an earlier trespasser at Dalston Kingsland. GOOD SERVICE on the rest of the line.",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
     "tram:text:d4ccb19c1cc1d5b6": {
       "category": "other",
       "first_seen": "2026-10-03T07:59:56Z",
@@ -30,14 +50,14 @@
       "severity": "Part Closure",
       "source_created": "0001-01-01T00:00:00"
     },
-    "victoria:text:61bb2c6e05ac5bf1": {
-      "category": "track fault",
-      "first_seen": "2026-10-03T07:59:56Z",
-      "issue_key": "victoria:text:61bb2c6e05ac5bf1",
+    "victoria:text:41801b49a0ea0292": {
+      "category": "train fault",
+      "first_seen": "2026-10-03T17:26:54Z",
+      "issue_key": "victoria:text:41801b49a0ea0292",
       "line_id": "victoria",
       "line_name": "Victoria",
-      "reason": "Victoria Line: Minor delays due to a track fault at Brixton",
-      "severity": "Minor Delays",
+      "reason": "Victoria Line: Severe delays due to a track fault at Brixton and a earlier faulty train at Oxford Circus. Tickets are being accepted on London Buses, the Weaver line and the Suffragette line. Southeastern, South Western Railway, Greater Anglia, Great Northern and Thameslink.",
+      "severity": "Severe Delays",
       "source_created": "0001-01-01T00:00:00"
     },
     "waterloo-city:text:02da0890c7cbf303": {
@@ -49,9 +69,31 @@
       "reason": "Waterloo & City line: service operates 06:00 until 00:30, Monday to Friday only. There is no service on Saturdays, Sundays and on bank/public holidays.",
       "severity": "Planned Closure",
       "source_created": "0001-01-01T00:00:00"
+    },
+    "windrush:text:28a34a5cdb689f18": {
+      "category": "other",
+      "first_seen": "2026-10-03T17:26:54Z",
+      "issue_key": "windrush:text:28a34a5cdb689f18",
+      "line_id": "windrush",
+      "line_name": "Windrush",
+      "reason": "Windrush Line: No service between Surrey Quays and Clapham Junction while emergency services deal with a casualty on the track. London Underground is accepting tickets. GOOD SERVICE on the rest of the line.",
+      "severity": "Part Suspended",
+      "source_created": "0001-01-01T00:00:00"
     }
   },
   "history": [
+    {
+      "category": "track fault",
+      "duration_seconds": 34018,
+      "first_seen": "2026-10-03T07:59:56Z",
+      "issue_key": "victoria:text:61bb2c6e05ac5bf1",
+      "line_id": "victoria",
+      "line_name": "Victoria",
+      "reason": "Victoria Line: Minor delays due to a track fault at Brixton",
+      "resolved_at": "2026-10-03T17:26:54Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
     {
       "category": "other",
       "duration_seconds": 19115,
@@ -18029,6 +18071,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-10-03T13:18:31Z",
+  "updated_at": "2026-10-03T17:26:54Z",
   "version": 1
 }
