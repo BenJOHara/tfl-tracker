@@ -10,6 +10,16 @@
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
+    "hammersmith-city:text:004129bf5e441754": {
+      "category": "other",
+      "first_seen": "2026-10-03T22:52:54Z",
+      "issue_key": "hammersmith-city:text:004129bf5e441754",
+      "line_id": "hammersmith-city",
+      "line_name": "Hammersmith & City",
+      "reason": "Hammersmith and City Line: Minor delays due to train cancellations.",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
     "jubilee:text:de08670d8ad8b91b": {
       "category": "other",
       "first_seen": "2026-10-03T07:59:56Z",
@@ -28,16 +38,6 @@
       "line_name": "Metropolitan",
       "reason": "Metropolitan Line: Minor delays between Harrow-on-the-Hill and Uxbridge due to train cancellations. GOOD SERVICE on the rest of the line.",
       "severity": "Minor Delays",
-      "source_created": "0001-01-01T00:00:00"
-    },
-    "mildmay:text:83efb7b5cc8fe6aa": {
-      "category": "other",
-      "first_seen": "2026-10-03T20:07:55Z",
-      "issue_key": "mildmay:text:83efb7b5cc8fe6aa",
-      "line_id": "mildmay",
-      "line_name": "Mildmay",
-      "reason": "MILDMAY LINE: Saturday 3 October, the 2104 and 2234 Clapham Junction to Stratford trains will terminate at Willesden Junction. The 2319 Clapham Junction to Willesden Junction train will not run.",
-      "severity": "Reduced Service",
       "source_created": "0001-01-01T00:00:00"
     },
     "tram:text:d4ccb19c1cc1d5b6": {
@@ -92,6 +92,18 @@
     }
   },
   "history": [
+    {
+      "category": "other",
+      "duration_seconds": 9899,
+      "first_seen": "2026-10-03T20:07:55Z",
+      "issue_key": "mildmay:text:83efb7b5cc8fe6aa",
+      "line_id": "mildmay",
+      "line_name": "Mildmay",
+      "reason": "MILDMAY LINE: Saturday 3 October, the 2104 and 2234 Clapham Junction to Stratford trains will terminate at Willesden Junction. The 2319 Clapham Junction to Willesden Junction train will not run.",
+      "resolved_at": "2026-10-03T22:52:54Z",
+      "severity": "Reduced Service",
+      "source_created": "0001-01-01T00:00:00"
+    },
     {
       "category": "person on track",
       "duration_seconds": 9661,
@@ -18117,6 +18129,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-10-03T20:07:55Z",
+  "updated_at": "2026-10-03T22:52:54Z",
   "version": 1
 }
