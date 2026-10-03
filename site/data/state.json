@@ -30,14 +30,14 @@
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "mildmay:text:c840288b89dbb1f8": {
-      "category": "person on track",
-      "first_seen": "2026-10-03T17:26:54Z",
-      "issue_key": "mildmay:text:c840288b89dbb1f8",
+    "mildmay:text:83efb7b5cc8fe6aa": {
+      "category": "other",
+      "first_seen": "2026-10-03T20:07:55Z",
+      "issue_key": "mildmay:text:83efb7b5cc8fe6aa",
       "line_id": "mildmay",
       "line_name": "Mildmay",
-      "reason": "Mildmay Line: Minor delays between Willesden Junction and Stratford due to an earlier trespasser at Dalston Kingsland. GOOD SERVICE on the rest of the line.",
-      "severity": "Minor Delays",
+      "reason": "MILDMAY LINE: Saturday 3 October, the 2104 and 2234 Clapham Junction to Stratford trains will terminate at Willesden Junction. The 2319 Clapham Junction to Willesden Junction train will not run.",
+      "severity": "Reduced Service",
       "source_created": "0001-01-01T00:00:00"
     },
     "tram:text:d4ccb19c1cc1d5b6": {
@@ -50,14 +50,24 @@
       "severity": "Part Closure",
       "source_created": "0001-01-01T00:00:00"
     },
-    "victoria:text:41801b49a0ea0292": {
-      "category": "train fault",
-      "first_seen": "2026-10-03T17:26:54Z",
-      "issue_key": "victoria:text:41801b49a0ea0292",
+    "victoria:text:0baa97588ded857c": {
+      "category": "track fault",
+      "first_seen": "2026-10-03T20:07:55Z",
+      "issue_key": "victoria:text:0baa97588ded857c",
       "line_id": "victoria",
       "line_name": "Victoria",
-      "reason": "Victoria Line: Severe delays due to a track fault at Brixton and a earlier faulty train at Oxford Circus. Tickets are being accepted on London Buses, the Weaver line and the Suffragette line. Southeastern, South Western Railway, Greater Anglia, Great Northern and Thameslink.",
+      "reason": "Victoria Line: No service between Victoria and Brixton due to a track fault at Brixton. SEVERE DELAYS on the rest of the line. Tickets are being accepted on London Buses, the Weaver line and the Suffragette line. Southeastern, South Western Railway, Greater Anglia, Great Northern and Thameslink.",
       "severity": "Severe Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "victoria:text:9d225d7f97dff9b0": {
+      "category": "other",
+      "first_seen": "2026-10-03T20:07:55Z",
+      "issue_key": "victoria:text:9d225d7f97dff9b0",
+      "line_id": "victoria",
+      "line_name": "Victoria",
+      "reason": "VICTORIA LINE: From 1930 Saturday 3 until 1000 Sunday 4 October, no service between Victoria and Brixton. Please use London Buses services or National Rail services between Victoria and Brixton.",
+      "severity": "Part Closure",
       "source_created": "0001-01-01T00:00:00"
     },
     "waterloo-city:text:02da0890c7cbf303": {
@@ -70,18 +80,54 @@
       "severity": "Planned Closure",
       "source_created": "0001-01-01T00:00:00"
     },
-    "windrush:text:28a34a5cdb689f18": {
+    "windrush:text:6d7458a49b622079": {
       "category": "other",
-      "first_seen": "2026-10-03T17:26:54Z",
-      "issue_key": "windrush:text:28a34a5cdb689f18",
+      "first_seen": "2026-10-03T20:07:55Z",
+      "issue_key": "windrush:text:6d7458a49b622079",
       "line_id": "windrush",
       "line_name": "Windrush",
-      "reason": "Windrush Line: No service between Surrey Quays and Clapham Junction while emergency services deal with a casualty on the track. London Underground is accepting tickets. GOOD SERVICE on the rest of the line.",
+      "reason": "Windrush Line: No service between Surrey Quays and Clapham Junction while emergency services deal with a casualty on the track. London Underground is accepting tickets via any reasonable route. GOOD SERVICE on the rest of the line.",
       "severity": "Part Suspended",
       "source_created": "0001-01-01T00:00:00"
     }
   },
   "history": [
+    {
+      "category": "person on track",
+      "duration_seconds": 9661,
+      "first_seen": "2026-10-03T17:26:54Z",
+      "issue_key": "mildmay:text:c840288b89dbb1f8",
+      "line_id": "mildmay",
+      "line_name": "Mildmay",
+      "reason": "Mildmay Line: Minor delays between Willesden Junction and Stratford due to an earlier trespasser at Dalston Kingsland. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-10-03T20:07:55Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "train fault",
+      "duration_seconds": 9661,
+      "first_seen": "2026-10-03T17:26:54Z",
+      "issue_key": "victoria:text:41801b49a0ea0292",
+      "line_id": "victoria",
+      "line_name": "Victoria",
+      "reason": "Victoria Line: Severe delays due to a track fault at Brixton and a earlier faulty train at Oxford Circus. Tickets are being accepted on London Buses, the Weaver line and the Suffragette line. Southeastern, South Western Railway, Greater Anglia, Great Northern and Thameslink.",
+      "resolved_at": "2026-10-03T20:07:55Z",
+      "severity": "Severe Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "other",
+      "duration_seconds": 9661,
+      "first_seen": "2026-10-03T17:26:54Z",
+      "issue_key": "windrush:text:28a34a5cdb689f18",
+      "line_id": "windrush",
+      "line_name": "Windrush",
+      "reason": "Windrush Line: No service between Surrey Quays and Clapham Junction while emergency services deal with a casualty on the track. London Underground is accepting tickets. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-10-03T20:07:55Z",
+      "severity": "Part Suspended",
+      "source_created": "0001-01-01T00:00:00"
+    },
     {
       "category": "track fault",
       "duration_seconds": 34018,
@@ -18071,6 +18117,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-10-03T17:26:54Z",
+  "updated_at": "2026-10-03T20:07:55Z",
   "version": 1
 }
