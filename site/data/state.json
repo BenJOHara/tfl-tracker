@@ -1,15 +1,5 @@
 {
   "active": {
-    "district:text:fc845599c003214c": {
-      "category": "other",
-      "first_seen": "2026-10-03T07:59:56Z",
-      "issue_key": "district:text:fc845599c003214c",
-      "line_id": "district",
-      "line_name": "District",
-      "reason": "District Line: No service between Earl's Court and Richmond / Ealing Broadway/Kensington (Olympia) while we deal with a signalling problem at Turnham Green. Tickets are being accepted on London Buses, Elizabeth line and South Western Railway. GOOD SERVICE on the rest of the line.",
-      "severity": "Part Suspended",
-      "source_created": "0001-01-01T00:00:00"
-    },
     "jubilee:text:de08670d8ad8b91b": {
       "category": "other",
       "first_seen": "2026-10-03T07:59:56Z",
@@ -20,24 +10,14 @@
       "severity": "Part Closure",
       "source_created": "0001-01-01T00:00:00"
     },
-    "metropolitan:text:2f1a45d4b2a4ab30": {
+    "metropolitan:text:3ba8771fd32f07bb": {
       "category": "other",
-      "first_seen": "2026-10-03T07:59:56Z",
-      "issue_key": "metropolitan:text:2f1a45d4b2a4ab30",
+      "first_seen": "2026-10-03T13:18:31Z",
+      "issue_key": "metropolitan:text:3ba8771fd32f07bb",
       "line_id": "metropolitan",
       "line_name": "Metropolitan",
-      "reason": "Metropolitan Line: Severe delays between Harrow-on-the-Hill and Uxbridge while we conduct a track inspection at Eastcote. London Buses are accepting valid tickets via any reasonable route. GOOD SERVICE on the rest of the line.",
-      "severity": "Severe Delays",
-      "source_created": "0001-01-01T00:00:00"
-    },
-    "piccadilly:text:77f71bf0f6dc35be": {
-      "category": "other",
-      "first_seen": "2026-10-03T08:18:39Z",
-      "issue_key": "piccadilly:text:77f71bf0f6dc35be",
-      "line_id": "piccadilly",
-      "line_name": "Piccadilly",
-      "reason": "Piccadilly Line: No service between South Harrow and Uxbridge and MINOR DELAYS between Acton Town and South Harrow while we conduct a track inspection at Eastcote. Please use the Metropolitan line. GOOD SERVICE on the rest of the line.",
-      "severity": "Part Suspended",
+      "reason": "Metropolitan Line: Minor delays between Harrow-on-the-Hill and Uxbridge due to train cancellations. GOOD SERVICE on the rest of the line.",
+      "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
     "tram:text:d4ccb19c1cc1d5b6": {
@@ -72,6 +52,42 @@
     }
   },
   "history": [
+    {
+      "category": "other",
+      "duration_seconds": 19115,
+      "first_seen": "2026-10-03T07:59:56Z",
+      "issue_key": "district:text:fc845599c003214c",
+      "line_id": "district",
+      "line_name": "District",
+      "reason": "District Line: No service between Earl's Court and Richmond / Ealing Broadway/Kensington (Olympia) while we deal with a signalling problem at Turnham Green. Tickets are being accepted on London Buses, Elizabeth line and South Western Railway. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-10-03T13:18:31Z",
+      "severity": "Part Suspended",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "other",
+      "duration_seconds": 19115,
+      "first_seen": "2026-10-03T07:59:56Z",
+      "issue_key": "metropolitan:text:2f1a45d4b2a4ab30",
+      "line_id": "metropolitan",
+      "line_name": "Metropolitan",
+      "reason": "Metropolitan Line: Severe delays between Harrow-on-the-Hill and Uxbridge while we conduct a track inspection at Eastcote. London Buses are accepting valid tickets via any reasonable route. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-10-03T13:18:31Z",
+      "severity": "Severe Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "other",
+      "duration_seconds": 17992,
+      "first_seen": "2026-10-03T08:18:39Z",
+      "issue_key": "piccadilly:text:77f71bf0f6dc35be",
+      "line_id": "piccadilly",
+      "line_name": "Piccadilly",
+      "reason": "Piccadilly Line: No service between South Harrow and Uxbridge and MINOR DELAYS between Acton Town and South Harrow while we conduct a track inspection at Eastcote. Please use the Metropolitan line. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-10-03T13:18:31Z",
+      "severity": "Part Suspended",
+      "source_created": "0001-01-01T00:00:00"
+    },
     {
       "category": "other",
       "duration_seconds": 1123,
@@ -18013,6 +18029,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-10-03T08:18:39Z",
+  "updated_at": "2026-10-03T13:18:31Z",
   "version": 1
 }
