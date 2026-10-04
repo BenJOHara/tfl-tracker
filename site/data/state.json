@@ -80,16 +80,6 @@
       "severity": "Part Closure",
       "source_created": "0001-01-01T00:00:00"
     },
-    "tram:text:b3b719409e15c5a2": {
-      "category": "planned engineering",
-      "first_seen": "2026-10-04T14:08:58Z",
-      "issue_key": "tram:text:b3b719409e15c5a2",
-      "line_id": "tram",
-      "line_name": "Tram",
-      "reason": "London Tramlink: No service between Wandle Park and Reeves corner and between Arena and Elmers End due to planned engineering work. NO SERVICE between East Croydon and Reeves Corner while police respond to an incident. GOOD SERVICE on other tram routes.",
-      "severity": "Part Suspended",
-      "source_created": "0001-01-01T00:00:00"
-    },
     "tram:text:d4ccb19c1cc1d5b6": {
       "category": "other",
       "first_seen": "2026-10-03T07:59:56Z",
@@ -122,6 +112,18 @@
     }
   },
   "history": [
+    {
+      "category": "planned engineering",
+      "duration_seconds": 1292,
+      "first_seen": "2026-10-04T14:08:58Z",
+      "issue_key": "tram:text:b3b719409e15c5a2",
+      "line_id": "tram",
+      "line_name": "Tram",
+      "reason": "London Tramlink: No service between Wandle Park and Reeves corner and between Arena and Elmers End due to planned engineering work. NO SERVICE between East Croydon and Reeves Corner while police respond to an incident. GOOD SERVICE on other tram routes.",
+      "resolved_at": "2026-10-04T14:30:30Z",
+      "severity": "Part Suspended",
+      "source_created": "0001-01-01T00:00:00"
+    },
     {
       "category": "other",
       "duration_seconds": 19206,
@@ -18495,6 +18497,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-10-04T14:08:58Z",
+  "updated_at": "2026-10-04T14:30:30Z",
   "version": 1
 }
