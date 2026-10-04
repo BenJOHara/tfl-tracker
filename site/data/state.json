@@ -1,5 +1,15 @@
 {
   "active": {
+    "central:text:6d0af7c9d44f714a": {
+      "category": "other",
+      "first_seen": "2026-10-04T14:08:58Z",
+      "issue_key": "central:text:6d0af7c9d44f714a",
+      "line_id": "central",
+      "line_name": "Central",
+      "reason": "Central Line: Minor delays due to train cancellations.",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
     "dlr:text:9830f0585bec28a8": {
       "category": "other",
       "first_seen": "2026-10-04T08:21:49Z",
@@ -20,14 +30,14 @@
       "severity": "Part Closure",
       "source_created": "0001-01-01T00:00:00"
     },
-    "metropolitan:text:09e6dd64a0ae515b": {
+    "metropolitan:text:56fb9aa482a0b679": {
       "category": "other",
-      "first_seen": "2026-10-04T08:48:52Z",
-      "issue_key": "metropolitan:text:09e6dd64a0ae515b",
+      "first_seen": "2026-10-04T14:08:58Z",
+      "issue_key": "metropolitan:text:56fb9aa482a0b679",
       "line_id": "metropolitan",
       "line_name": "Metropolitan",
-      "reason": "Metropolitan Line: No service between Harrow-on-the-Hill and Aldgate / Amersham and Watford, while we deal with a track fire at Harrow-on-the-Hill. SEVERE DELAYS on the rest of the line. Tickets are being accepted on London Buses, Lioness Line, London Northwestern Railway, Chiltern Railways and Thameslink.",
-      "severity": "Part Suspended",
+      "reason": "Metropolitan Line: Minor delays between Harrow-on-the-Hill and Uxbridge/ Aldgate due to train cancellations. GOOD SERVICE on the rest of the line.",
+      "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
     "mildmay:text:42fade78eb8ed58d": {
@@ -40,14 +50,24 @@
       "severity": "Reduced Service",
       "source_created": "0001-01-01T00:00:00"
     },
-    "mildmay:text:a7b8fa667731c8f2": {
-      "category": "other",
-      "first_seen": "2026-10-04T08:21:49Z",
-      "issue_key": "mildmay:text:a7b8fa667731c8f2",
+    "mildmay:text:4f7d5df5026ca750": {
+      "category": "train fault",
+      "first_seen": "2026-10-04T14:08:58Z",
+      "issue_key": "mildmay:text:4f7d5df5026ca750",
       "line_id": "mildmay",
       "line_name": "Mildmay",
-      "reason": "MILDMAY LINE: Sunday 4 October, the 0848 Willesden Junction to Clapham Junction and the 0915 from Gospel Oak to Clapham Junction will start at Shepherds Bush. The 0931 train from Stratford to Richmond will start from Willesden Junction",
-      "severity": "Reduced Service",
+      "reason": "Mildmay Line: No service between Clapham Junction and Willesden Junction and MINOR DELAYS on the rest of the line while we fix a faulty train at Shepherd's Bush. London Underground are accepting tickets via any reasonable route.",
+      "severity": "Part Suspended",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "piccadilly:text:11ed3ff27a6ce495": {
+      "category": "track fault",
+      "first_seen": "2026-10-04T14:08:58Z",
+      "issue_key": "piccadilly:text:11ed3ff27a6ce495",
+      "line_id": "piccadilly",
+      "line_name": "Piccadilly",
+      "reason": "Piccadilly Line: Minor delays between Acton Town and Heathrow Airport / Rayners Lane due to an earlier track fault at Leicester Square. GOOD SERVICE on the rest of the line.",
+      "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
     "tram:text:b15e32900375c63c": {
@@ -60,6 +80,16 @@
       "severity": "Part Closure",
       "source_created": "0001-01-01T00:00:00"
     },
+    "tram:text:b3b719409e15c5a2": {
+      "category": "planned engineering",
+      "first_seen": "2026-10-04T14:08:58Z",
+      "issue_key": "tram:text:b3b719409e15c5a2",
+      "line_id": "tram",
+      "line_name": "Tram",
+      "reason": "London Tramlink: No service between Wandle Park and Reeves corner and between Arena and Elmers End due to planned engineering work. NO SERVICE between East Croydon and Reeves Corner while police respond to an incident. GOOD SERVICE on other tram routes.",
+      "severity": "Part Suspended",
+      "source_created": "0001-01-01T00:00:00"
+    },
     "tram:text:d4ccb19c1cc1d5b6": {
       "category": "other",
       "first_seen": "2026-10-03T07:59:56Z",
@@ -67,26 +97,6 @@
       "line_id": "tram",
       "line_name": "Tram",
       "reason": "London Trams: Saturday 3 until Wednesday 7 October, no eastbound service Wandle Park - Centrale and westbound service Church Street - Wandle Park. Also no service between Arena and Elmers End on Sunday 4 October",
-      "severity": "Part Closure",
-      "source_created": "0001-01-01T00:00:00"
-    },
-    "victoria:text:63cbf51a66525900": {
-      "category": "track fault",
-      "first_seen": "2026-10-04T08:48:52Z",
-      "issue_key": "victoria:text:63cbf51a66525900",
-      "line_id": "victoria",
-      "line_name": "Victoria",
-      "reason": "Victoria Line: Severe delays due to an earlier track fault at Brixton. Tickets are being accepted on London Buses, the Weaver line and the Suffragette line. Southeastern, South Western Railway, Greater Anglia, Great Northern and Thameslink.",
-      "severity": "Severe Delays",
-      "source_created": "0001-01-01T00:00:00"
-    },
-    "victoria:text:9d225d7f97dff9b0": {
-      "category": "other",
-      "first_seen": "2026-10-03T20:07:55Z",
-      "issue_key": "victoria:text:9d225d7f97dff9b0",
-      "line_id": "victoria",
-      "line_name": "Victoria",
-      "reason": "VICTORIA LINE: From 1930 Saturday 3 until 1000 Sunday 4 October, no service between Victoria and Brixton. Please use London Buses services or National Rail services between Victoria and Brixton.",
       "severity": "Part Closure",
       "source_created": "0001-01-01T00:00:00"
     },
@@ -98,16 +108,6 @@
       "line_name": "Waterloo & City",
       "reason": "Waterloo & City line: service operates 06:00 until 00:30, Monday to Friday only. There is no service on Saturdays, Sundays and on bank/public holidays.",
       "severity": "Planned Closure",
-      "source_created": "0001-01-01T00:00:00"
-    },
-    "waterloo-city:text:1bbcac27f282d0db": {
-      "category": "other",
-      "first_seen": "2026-10-04T02:05:41Z",
-      "issue_key": "waterloo-city:text:1bbcac27f282d0db",
-      "line_id": "waterloo-city",
-      "line_name": "Waterloo & City",
-      "reason": "Waterloo and City Line: Service will resume at 06:00 on Monday.",
-      "severity": "Service Closed",
       "source_created": "0001-01-01T00:00:00"
     },
     "windrush:text:83da906568b82f67": {
@@ -122,6 +122,66 @@
     }
   },
   "history": [
+    {
+      "category": "other",
+      "duration_seconds": 19206,
+      "first_seen": "2026-10-04T08:48:52Z",
+      "issue_key": "metropolitan:text:09e6dd64a0ae515b",
+      "line_id": "metropolitan",
+      "line_name": "Metropolitan",
+      "reason": "Metropolitan Line: No service between Harrow-on-the-Hill and Aldgate / Amersham and Watford, while we deal with a track fire at Harrow-on-the-Hill. SEVERE DELAYS on the rest of the line. Tickets are being accepted on London Buses, Lioness Line, London Northwestern Railway, Chiltern Railways and Thameslink.",
+      "resolved_at": "2026-10-04T14:08:58Z",
+      "severity": "Part Suspended",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "other",
+      "duration_seconds": 20829,
+      "first_seen": "2026-10-04T08:21:49Z",
+      "issue_key": "mildmay:text:a7b8fa667731c8f2",
+      "line_id": "mildmay",
+      "line_name": "Mildmay",
+      "reason": "MILDMAY LINE: Sunday 4 October, the 0848 Willesden Junction to Clapham Junction and the 0915 from Gospel Oak to Clapham Junction will start at Shepherds Bush. The 0931 train from Stratford to Richmond will start from Willesden Junction",
+      "resolved_at": "2026-10-04T14:08:58Z",
+      "severity": "Reduced Service",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "track fault",
+      "duration_seconds": 19206,
+      "first_seen": "2026-10-04T08:48:52Z",
+      "issue_key": "victoria:text:63cbf51a66525900",
+      "line_id": "victoria",
+      "line_name": "Victoria",
+      "reason": "Victoria Line: Severe delays due to an earlier track fault at Brixton. Tickets are being accepted on London Buses, the Weaver line and the Suffragette line. Southeastern, South Western Railway, Greater Anglia, Great Northern and Thameslink.",
+      "resolved_at": "2026-10-04T14:08:58Z",
+      "severity": "Severe Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "other",
+      "duration_seconds": 64863,
+      "first_seen": "2026-10-03T20:07:55Z",
+      "issue_key": "victoria:text:9d225d7f97dff9b0",
+      "line_id": "victoria",
+      "line_name": "Victoria",
+      "reason": "VICTORIA LINE: From 1930 Saturday 3 until 1000 Sunday 4 October, no service between Victoria and Brixton. Please use London Buses services or National Rail services between Victoria and Brixton.",
+      "resolved_at": "2026-10-04T14:08:58Z",
+      "severity": "Part Closure",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "other",
+      "duration_seconds": 43397,
+      "first_seen": "2026-10-04T02:05:41Z",
+      "issue_key": "waterloo-city:text:1bbcac27f282d0db",
+      "line_id": "waterloo-city",
+      "line_name": "Waterloo & City",
+      "reason": "Waterloo and City Line: Service will resume at 06:00 on Monday.",
+      "resolved_at": "2026-10-04T14:08:58Z",
+      "severity": "Service Closed",
+      "source_created": "0001-01-01T00:00:00"
+    },
     {
       "category": "other",
       "duration_seconds": 1623,
@@ -18435,6 +18495,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-10-04T08:48:52Z",
+  "updated_at": "2026-10-04T14:08:58Z",
   "version": 1
 }
