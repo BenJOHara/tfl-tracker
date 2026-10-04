@@ -1,43 +1,133 @@
 {
   "active": {
-    "district:text:46fb733aa615d251": {
+    "bakerloo:text:975c88cf69561d0c": {
       "category": "other",
-      "first_seen": "2026-10-03T17:26:54Z",
-      "issue_key": "district:text:46fb733aa615d251",
+      "first_seen": "2026-10-04T02:05:41Z",
+      "issue_key": "bakerloo:text:975c88cf69561d0c",
+      "line_id": "bakerloo",
+      "line_name": "Bakerloo",
+      "reason": "Bakerloo Line: Service will resume later this morning.",
+      "severity": "Service Closed",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "circle:text:a1099579f6415e8f": {
+      "category": "other",
+      "first_seen": "2026-10-04T02:05:41Z",
+      "issue_key": "circle:text:a1099579f6415e8f",
+      "line_id": "circle",
+      "line_name": "Circle",
+      "reason": "Circle Line: Service will resume later this morning.",
+      "severity": "Service Closed",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "district:text:468f4f04f34d8411": {
+      "category": "other",
+      "first_seen": "2026-10-04T02:05:41Z",
+      "issue_key": "district:text:468f4f04f34d8411",
       "line_id": "district",
       "line_name": "District",
-      "reason": "District Line: Minor delays between Earl's Court and Kensington (Olympia) due to train cancellations. GOOD SERVICE on the rest of the line.",
-      "severity": "Minor Delays",
+      "reason": "District Line: Service will resume later this morning.",
+      "severity": "Service Closed",
       "source_created": "0001-01-01T00:00:00"
     },
-    "hammersmith-city:text:004129bf5e441754": {
+    "dlr:text:665033ae8c9c0e54": {
+      "category": "planned engineering",
+      "first_seen": "2026-10-04T02:05:41Z",
+      "issue_key": "dlr:text:665033ae8c9c0e54",
+      "line_id": "dlr",
+      "line_name": "DLR",
+      "reason": "Docklands Light Railway: Service will resume later this morning. There will be no service between Tower Gateway and Shadwell due to planned engineering work.",
+      "severity": "Service Closed",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "elizabeth:text:85644759b2256fee": {
       "category": "other",
-      "first_seen": "2026-10-03T22:52:54Z",
-      "issue_key": "hammersmith-city:text:004129bf5e441754",
+      "first_seen": "2026-10-04T02:05:41Z",
+      "issue_key": "elizabeth:text:85644759b2256fee",
+      "line_id": "elizabeth",
+      "line_name": "Elizabeth line",
+      "reason": "Service will resume later this morning.",
+      "severity": "Service Closed",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "hammersmith-city:text:b560078b35a5fd17": {
+      "category": "other",
+      "first_seen": "2026-10-04T02:05:41Z",
+      "issue_key": "hammersmith-city:text:b560078b35a5fd17",
       "line_id": "hammersmith-city",
       "line_name": "Hammersmith & City",
-      "reason": "Hammersmith and City Line: Minor delays due to train cancellations.",
-      "severity": "Minor Delays",
+      "reason": "Hammersmith and City Line: Service will resume later this morning.",
+      "severity": "Service Closed",
       "source_created": "0001-01-01T00:00:00"
     },
-    "jubilee:text:de08670d8ad8b91b": {
+    "jubilee:text:03977a0fdd2bcd8e": {
       "category": "other",
-      "first_seen": "2026-10-03T07:59:56Z",
-      "issue_key": "jubilee:text:de08670d8ad8b91b",
+      "first_seen": "2026-10-04T02:05:41Z",
+      "issue_key": "jubilee:text:03977a0fdd2bcd8e",
       "line_id": "jubilee",
       "line_name": "Jubilee",
-      "reason": "JUBILEE LINE: From 0430 Saturday 3 until 0130 Sunday 4 October, no service between Green Park and Canary Wharf. If travelling between Central London and North Greenwich, please travel via Stratford.",
+      "reason": "JUBILEE LINE: Sunday 4 October, between 0130 and 0530, no service between Green Park and Stratford. Replacement bus service JL3 operates between North Greenwich, Canning Town and Stratford.",
       "severity": "Part Closure",
       "source_created": "0001-01-01T00:00:00"
     },
-    "metropolitan:text:3ba8771fd32f07bb": {
+    "liberty:text:19134079f5c98ab7": {
       "category": "other",
-      "first_seen": "2026-10-03T13:18:31Z",
-      "issue_key": "metropolitan:text:3ba8771fd32f07bb",
+      "first_seen": "2026-10-04T02:05:41Z",
+      "issue_key": "liberty:text:19134079f5c98ab7",
+      "line_id": "liberty",
+      "line_name": "Liberty",
+      "reason": "Liberty Line: Service will resume later this morning.",
+      "severity": "Service Closed",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "lioness:text:edb0d527df87ed16": {
+      "category": "other",
+      "first_seen": "2026-10-04T02:05:41Z",
+      "issue_key": "lioness:text:edb0d527df87ed16",
+      "line_id": "lioness",
+      "line_name": "Lioness",
+      "reason": "Lioness Line: Service will resume later this morning.",
+      "severity": "Service Closed",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "metropolitan:text:4b366f757f8f5a28": {
+      "category": "other",
+      "first_seen": "2026-10-04T02:05:41Z",
+      "issue_key": "metropolitan:text:4b366f757f8f5a28",
       "line_id": "metropolitan",
       "line_name": "Metropolitan",
-      "reason": "Metropolitan Line: Minor delays between Harrow-on-the-Hill and Uxbridge due to train cancellations. GOOD SERVICE on the rest of the line.",
-      "severity": "Minor Delays",
+      "reason": "Metropolitan Line: Service will resume later this morning.",
+      "severity": "Service Closed",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "mildmay:text:43f3ca710bb3792b": {
+      "category": "other",
+      "first_seen": "2026-10-04T02:05:41Z",
+      "issue_key": "mildmay:text:43f3ca710bb3792b",
+      "line_id": "mildmay",
+      "line_name": "Mildmay",
+      "reason": "Mildmay Line: Service will resume later this morning.",
+      "severity": "Service Closed",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "suffragette:text:774000467a2b26d3": {
+      "category": "other",
+      "first_seen": "2026-10-04T02:05:41Z",
+      "issue_key": "suffragette:text:774000467a2b26d3",
+      "line_id": "suffragette",
+      "line_name": "Suffragette",
+      "reason": "Suffragette Line: Service will resume later this morning.",
+      "severity": "Service Closed",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "tram:text:ae43b39ba08a770a": {
+      "category": "planned engineering",
+      "first_seen": "2026-10-04T02:05:41Z",
+      "issue_key": "tram:text:ae43b39ba08a770a",
+      "line_id": "tram",
+      "line_name": "Tram",
+      "reason": "London Tramlink: Service will resume later this morning. There will be no service between Wandle Park and Reeves Corner and between Arena and Elmers End due to planned engineering work.",
+      "severity": "Service Closed",
       "source_created": "0001-01-01T00:00:00"
     },
     "tram:text:d4ccb19c1cc1d5b6": {
@@ -50,16 +140,6 @@
       "severity": "Part Closure",
       "source_created": "0001-01-01T00:00:00"
     },
-    "victoria:text:0baa97588ded857c": {
-      "category": "track fault",
-      "first_seen": "2026-10-03T20:07:55Z",
-      "issue_key": "victoria:text:0baa97588ded857c",
-      "line_id": "victoria",
-      "line_name": "Victoria",
-      "reason": "Victoria Line: No service between Victoria and Brixton due to a track fault at Brixton. SEVERE DELAYS on the rest of the line. Tickets are being accepted on London Buses, the Weaver line and the Suffragette line. Southeastern, South Western Railway, Greater Anglia, Great Northern and Thameslink.",
-      "severity": "Severe Delays",
-      "source_created": "0001-01-01T00:00:00"
-    },
     "victoria:text:9d225d7f97dff9b0": {
       "category": "other",
       "first_seen": "2026-10-03T20:07:55Z",
@@ -70,28 +150,112 @@
       "severity": "Part Closure",
       "source_created": "0001-01-01T00:00:00"
     },
-    "waterloo-city:text:02da0890c7cbf303": {
+    "waterloo-city:text:1bbcac27f282d0db": {
       "category": "other",
+      "first_seen": "2026-10-04T02:05:41Z",
+      "issue_key": "waterloo-city:text:1bbcac27f282d0db",
+      "line_id": "waterloo-city",
+      "line_name": "Waterloo & City",
+      "reason": "Waterloo and City Line: Service will resume at 06:00 on Monday.",
+      "severity": "Service Closed",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "weaver:text:f2dc8c00c6757e13": {
+      "category": "other",
+      "first_seen": "2026-10-04T02:05:41Z",
+      "issue_key": "weaver:text:f2dc8c00c6757e13",
+      "line_id": "weaver",
+      "line_name": "Weaver",
+      "reason": "Weaver Line: Service will resume later this morning.",
+      "severity": "Service Closed",
+      "source_created": "0001-01-01T00:00:00"
+    }
+  },
+  "history": [
+    {
+      "category": "other",
+      "duration_seconds": 31127,
+      "first_seen": "2026-10-03T17:26:54Z",
+      "issue_key": "district:text:46fb733aa615d251",
+      "line_id": "district",
+      "line_name": "District",
+      "reason": "District Line: Minor delays between Earl's Court and Kensington (Olympia) due to train cancellations. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-10-04T02:05:41Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "other",
+      "duration_seconds": 11567,
+      "first_seen": "2026-10-03T22:52:54Z",
+      "issue_key": "hammersmith-city:text:004129bf5e441754",
+      "line_id": "hammersmith-city",
+      "line_name": "Hammersmith & City",
+      "reason": "Hammersmith and City Line: Minor delays due to train cancellations.",
+      "resolved_at": "2026-10-04T02:05:41Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "other",
+      "duration_seconds": 65145,
+      "first_seen": "2026-10-03T07:59:56Z",
+      "issue_key": "jubilee:text:de08670d8ad8b91b",
+      "line_id": "jubilee",
+      "line_name": "Jubilee",
+      "reason": "JUBILEE LINE: From 0430 Saturday 3 until 0130 Sunday 4 October, no service between Green Park and Canary Wharf. If travelling between Central London and North Greenwich, please travel via Stratford.",
+      "resolved_at": "2026-10-04T02:05:41Z",
+      "severity": "Part Closure",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "other",
+      "duration_seconds": 46030,
+      "first_seen": "2026-10-03T13:18:31Z",
+      "issue_key": "metropolitan:text:3ba8771fd32f07bb",
+      "line_id": "metropolitan",
+      "line_name": "Metropolitan",
+      "reason": "Metropolitan Line: Minor delays between Harrow-on-the-Hill and Uxbridge due to train cancellations. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-10-04T02:05:41Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "track fault",
+      "duration_seconds": 21466,
+      "first_seen": "2026-10-03T20:07:55Z",
+      "issue_key": "victoria:text:0baa97588ded857c",
+      "line_id": "victoria",
+      "line_name": "Victoria",
+      "reason": "Victoria Line: No service between Victoria and Brixton due to a track fault at Brixton. SEVERE DELAYS on the rest of the line. Tickets are being accepted on London Buses, the Weaver line and the Suffragette line. Southeastern, South Western Railway, Greater Anglia, Great Northern and Thameslink.",
+      "resolved_at": "2026-10-04T02:05:41Z",
+      "severity": "Severe Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "other",
+      "duration_seconds": 65145,
       "first_seen": "2026-10-03T07:59:56Z",
       "issue_key": "waterloo-city:text:02da0890c7cbf303",
       "line_id": "waterloo-city",
       "line_name": "Waterloo & City",
       "reason": "Waterloo & City line: service operates 06:00 until 00:30, Monday to Friday only. There is no service on Saturdays, Sundays and on bank/public holidays.",
+      "resolved_at": "2026-10-04T02:05:41Z",
       "severity": "Planned Closure",
       "source_created": "0001-01-01T00:00:00"
     },
-    "windrush:text:6d7458a49b622079": {
+    {
       "category": "other",
+      "duration_seconds": 21466,
       "first_seen": "2026-10-03T20:07:55Z",
       "issue_key": "windrush:text:6d7458a49b622079",
       "line_id": "windrush",
       "line_name": "Windrush",
       "reason": "Windrush Line: No service between Surrey Quays and Clapham Junction while emergency services deal with a casualty on the track. London Underground is accepting tickets via any reasonable route. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-10-04T02:05:41Z",
       "severity": "Part Suspended",
       "source_created": "0001-01-01T00:00:00"
-    }
-  },
-  "history": [
+    },
     {
       "category": "other",
       "duration_seconds": 9899,
@@ -18129,6 +18293,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-10-03T22:52:54Z",
+  "updated_at": "2026-10-04T02:05:41Z",
   "version": 1
 }
