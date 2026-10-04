@@ -10,14 +10,14 @@
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "district:text:2fb1a12ed4a2fb88": {
+    "district:text:a307a433843f53f3": {
       "category": "other",
-      "first_seen": "2026-10-04T21:16:38Z",
-      "issue_key": "district:text:2fb1a12ed4a2fb88",
+      "first_seen": "2026-10-04T21:41:14Z",
+      "issue_key": "district:text:a307a433843f53f3",
       "line_id": "district",
       "line_name": "District",
-      "reason": "District Line: No service between Turnham Green and Ealing Broadway while we deal with a signalling problem at Ealing Broadway. London Buses and Elizabeth Line are accepting tickets via any reasonable route. GOOD SERVICE on the rest of the line.",
-      "severity": "Part Suspended",
+      "reason": "District Line: Minor delays between Turnham Green and Ealing Broadway due to an earlier signalling problem at Ealing Broadway. GOOD SERVICE on the rest of the line.",
+      "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
     "dlr:text:9830f0585bec28a8": {
@@ -102,6 +102,18 @@
     }
   },
   "history": [
+    {
+      "category": "other",
+      "duration_seconds": 1476,
+      "first_seen": "2026-10-04T21:16:38Z",
+      "issue_key": "district:text:2fb1a12ed4a2fb88",
+      "line_id": "district",
+      "line_name": "District",
+      "reason": "District Line: No service between Turnham Green and Ealing Broadway while we deal with a signalling problem at Ealing Broadway. London Buses and Elizabeth Line are accepting tickets via any reasonable route. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-10-04T21:41:14Z",
+      "severity": "Part Suspended",
+      "source_created": "0001-01-01T00:00:00"
+    },
     {
       "category": "train fault",
       "duration_seconds": 11362,
@@ -18535,6 +18547,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-10-04T21:16:38Z",
+  "updated_at": "2026-10-04T21:41:14Z",
   "version": 1
 }
