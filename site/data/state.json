@@ -1,23 +1,23 @@
 {
   "active": {
-    "central:text:6d0af7c9d44f714a": {
+    "bakerloo:text:975c88cf69561d0c": {
       "category": "other",
-      "first_seen": "2026-10-04T14:08:58Z",
-      "issue_key": "central:text:6d0af7c9d44f714a",
-      "line_id": "central",
-      "line_name": "Central",
-      "reason": "Central Line: Minor delays due to train cancellations.",
-      "severity": "Minor Delays",
+      "first_seen": "2026-10-04T23:59:58Z",
+      "issue_key": "bakerloo:text:975c88cf69561d0c",
+      "line_id": "bakerloo",
+      "line_name": "Bakerloo",
+      "reason": "Bakerloo Line: Service will resume later this morning.",
+      "severity": "Service Closed",
       "source_created": "0001-01-01T00:00:00"
     },
-    "district:text:a307a433843f53f3": {
+    "circle:text:a1099579f6415e8f": {
       "category": "other",
-      "first_seen": "2026-10-04T21:41:14Z",
-      "issue_key": "district:text:a307a433843f53f3",
-      "line_id": "district",
-      "line_name": "District",
-      "reason": "District Line: Minor delays between Turnham Green and Ealing Broadway due to an earlier signalling problem at Ealing Broadway. GOOD SERVICE on the rest of the line.",
-      "severity": "Minor Delays",
+      "first_seen": "2026-10-04T23:59:58Z",
+      "issue_key": "circle:text:a1099579f6415e8f",
+      "line_id": "circle",
+      "line_name": "Circle",
+      "reason": "Circle Line: Service will resume later this morning.",
+      "severity": "Service Closed",
       "source_created": "0001-01-01T00:00:00"
     },
     "dlr:text:9830f0585bec28a8": {
@@ -30,14 +30,44 @@
       "severity": "Part Closure",
       "source_created": "0001-01-01T00:00:00"
     },
-    "hammersmith-city:text:64b98d2c9b197d43": {
-      "category": "train fault",
-      "first_seen": "2026-10-04T21:16:38Z",
-      "issue_key": "hammersmith-city:text:64b98d2c9b197d43",
+    "dlr:text:fb244db083a3f0ff": {
+      "category": "other",
+      "first_seen": "2026-10-04T23:59:58Z",
+      "issue_key": "dlr:text:fb244db083a3f0ff",
+      "line_id": "dlr",
+      "line_name": "DLR",
+      "reason": "Docklands Light Railway: Service will resume later this morning.",
+      "severity": "Service Closed",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "elizabeth:text:85644759b2256fee": {
+      "category": "other",
+      "first_seen": "2026-10-04T23:59:58Z",
+      "issue_key": "elizabeth:text:85644759b2256fee",
+      "line_id": "elizabeth",
+      "line_name": "Elizabeth line",
+      "reason": "Service will resume later this morning.",
+      "severity": "Service Closed",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "hammersmith-city:text:b560078b35a5fd17": {
+      "category": "other",
+      "first_seen": "2026-10-04T23:59:58Z",
+      "issue_key": "hammersmith-city:text:b560078b35a5fd17",
       "line_id": "hammersmith-city",
       "line_name": "Hammersmith & City",
-      "reason": "Hammersmith and City Line: Minor delays due to an earlier faulty train at Moorgate.",
-      "severity": "Minor Delays",
+      "reason": "Hammersmith and City Line: Service will resume later this morning.",
+      "severity": "Service Closed",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "jubilee:text:41cf503738f881df": {
+      "category": "other",
+      "first_seen": "2026-10-04T23:59:58Z",
+      "issue_key": "jubilee:text:41cf503738f881df",
+      "line_id": "jubilee",
+      "line_name": "Jubilee",
+      "reason": "Jubilee Line: Service will resume later this morning.",
+      "severity": "Service Closed",
       "source_created": "0001-01-01T00:00:00"
     },
     "jubilee:text:f73d2e32a64808e7": {
@@ -50,6 +80,16 @@
       "severity": "Part Closure",
       "source_created": "0001-01-01T00:00:00"
     },
+    "metropolitan:text:4b366f757f8f5a28": {
+      "category": "other",
+      "first_seen": "2026-10-04T23:59:58Z",
+      "issue_key": "metropolitan:text:4b366f757f8f5a28",
+      "line_id": "metropolitan",
+      "line_name": "Metropolitan",
+      "reason": "Metropolitan Line: Service will resume later this morning.",
+      "severity": "Service Closed",
+      "source_created": "0001-01-01T00:00:00"
+    },
     "mildmay:text:42fade78eb8ed58d": {
       "category": "other",
       "first_seen": "2026-10-04T08:21:49Z",
@@ -58,6 +98,36 @@
       "line_name": "Mildmay",
       "reason": "MILDMAY LINE: Sunday 4 October, a reduced service will run between Kensington (Olympia) and Clapham Junction. Trains will use platform 17 at Clapham Junction. Southern Railway services will not operate between Shepherds Bush and Watford Junction until 1200 and after 2100.",
       "severity": "Reduced Service",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "northern:text:82bd4c50fdf4647c": {
+      "category": "other",
+      "first_seen": "2026-10-04T23:59:58Z",
+      "issue_key": "northern:text:82bd4c50fdf4647c",
+      "line_id": "northern",
+      "line_name": "Northern",
+      "reason": "Northern Line: Service will resume later this morning.",
+      "severity": "Service Closed",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "piccadilly:text:93605ef69b23c043": {
+      "category": "other",
+      "first_seen": "2026-10-04T23:59:58Z",
+      "issue_key": "piccadilly:text:93605ef69b23c043",
+      "line_id": "piccadilly",
+      "line_name": "Piccadilly",
+      "reason": "Piccadilly Line: Service will resume later this morning.",
+      "severity": "Service Closed",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "tram:text:5456f5f6c1c4e2ac": {
+      "category": "planned engineering",
+      "first_seen": "2026-10-04T23:59:58Z",
+      "issue_key": "tram:text:5456f5f6c1c4e2ac",
+      "line_id": "tram",
+      "line_name": "Tram",
+      "reason": "London Tramlink: Service will resume later this morning. There will be no service between Wandle Park and Reeves Corner due to planned engineering work.",
+      "severity": "Service Closed",
       "source_created": "0001-01-01T00:00:00"
     },
     "tram:text:b15e32900375c63c": {
@@ -80,14 +150,24 @@
       "severity": "Part Closure",
       "source_created": "0001-01-01T00:00:00"
     },
-    "waterloo-city:text:02da0890c7cbf303": {
+    "victoria:text:a0235cf21943c30f": {
       "category": "other",
-      "first_seen": "2026-10-04T08:21:49Z",
-      "issue_key": "waterloo-city:text:02da0890c7cbf303",
+      "first_seen": "2026-10-04T23:59:58Z",
+      "issue_key": "victoria:text:a0235cf21943c30f",
+      "line_id": "victoria",
+      "line_name": "Victoria",
+      "reason": "Victoria Line: Service will resume later this morning.",
+      "severity": "Service Closed",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "waterloo-city:text:0faebd0ea99ebd1b": {
+      "category": "other",
+      "first_seen": "2026-10-04T23:59:58Z",
+      "issue_key": "waterloo-city:text:0faebd0ea99ebd1b",
       "line_id": "waterloo-city",
       "line_name": "Waterloo & City",
-      "reason": "Waterloo & City line: service operates 06:00 until 00:30, Monday to Friday only. There is no service on Saturdays, Sundays and on bank/public holidays.",
-      "severity": "Planned Closure",
+      "reason": "Waterloo and City Line: Service will resume at 06:00.",
+      "severity": "Service Closed",
       "source_created": "0001-01-01T00:00:00"
     },
     "windrush:text:83da906568b82f67": {
@@ -102,6 +182,54 @@
     }
   },
   "history": [
+    {
+      "category": "other",
+      "duration_seconds": 35460,
+      "first_seen": "2026-10-04T14:08:58Z",
+      "issue_key": "central:text:6d0af7c9d44f714a",
+      "line_id": "central",
+      "line_name": "Central",
+      "reason": "Central Line: Minor delays due to train cancellations.",
+      "resolved_at": "2026-10-04T23:59:58Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "other",
+      "duration_seconds": 8324,
+      "first_seen": "2026-10-04T21:41:14Z",
+      "issue_key": "district:text:a307a433843f53f3",
+      "line_id": "district",
+      "line_name": "District",
+      "reason": "District Line: Minor delays between Turnham Green and Ealing Broadway due to an earlier signalling problem at Ealing Broadway. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-10-04T23:59:58Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "train fault",
+      "duration_seconds": 9800,
+      "first_seen": "2026-10-04T21:16:38Z",
+      "issue_key": "hammersmith-city:text:64b98d2c9b197d43",
+      "line_id": "hammersmith-city",
+      "line_name": "Hammersmith & City",
+      "reason": "Hammersmith and City Line: Minor delays due to an earlier faulty train at Moorgate.",
+      "resolved_at": "2026-10-04T23:59:58Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "other",
+      "duration_seconds": 56289,
+      "first_seen": "2026-10-04T08:21:49Z",
+      "issue_key": "waterloo-city:text:02da0890c7cbf303",
+      "line_id": "waterloo-city",
+      "line_name": "Waterloo & City",
+      "reason": "Waterloo & City line: service operates 06:00 until 00:30, Monday to Friday only. There is no service on Saturdays, Sundays and on bank/public holidays.",
+      "resolved_at": "2026-10-04T23:59:58Z",
+      "severity": "Planned Closure",
+      "source_created": "0001-01-01T00:00:00"
+    },
     {
       "category": "other",
       "duration_seconds": 1476,
@@ -18547,6 +18675,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-10-04T21:41:14Z",
+  "updated_at": "2026-10-04T23:59:58Z",
   "version": 1
 }
