@@ -30,16 +30,6 @@
       "severity": "Part Closure",
       "source_created": "0001-01-01T00:00:00"
     },
-    "metropolitan:text:56fb9aa482a0b679": {
-      "category": "other",
-      "first_seen": "2026-10-04T14:08:58Z",
-      "issue_key": "metropolitan:text:56fb9aa482a0b679",
-      "line_id": "metropolitan",
-      "line_name": "Metropolitan",
-      "reason": "Metropolitan Line: Minor delays between Harrow-on-the-Hill and Uxbridge/ Aldgate due to train cancellations. GOOD SERVICE on the rest of the line.",
-      "severity": "Minor Delays",
-      "source_created": "0001-01-01T00:00:00"
-    },
     "mildmay:text:42fade78eb8ed58d": {
       "category": "other",
       "first_seen": "2026-10-04T08:21:49Z",
@@ -48,26 +38,6 @@
       "line_name": "Mildmay",
       "reason": "MILDMAY LINE: Sunday 4 October, a reduced service will run between Kensington (Olympia) and Clapham Junction. Trains will use platform 17 at Clapham Junction. Southern Railway services will not operate between Shepherds Bush and Watford Junction until 1200 and after 2100.",
       "severity": "Reduced Service",
-      "source_created": "0001-01-01T00:00:00"
-    },
-    "mildmay:text:4f7d5df5026ca750": {
-      "category": "train fault",
-      "first_seen": "2026-10-04T14:08:58Z",
-      "issue_key": "mildmay:text:4f7d5df5026ca750",
-      "line_id": "mildmay",
-      "line_name": "Mildmay",
-      "reason": "Mildmay Line: No service between Clapham Junction and Willesden Junction and MINOR DELAYS on the rest of the line while we fix a faulty train at Shepherd's Bush. London Underground are accepting tickets via any reasonable route.",
-      "severity": "Part Suspended",
-      "source_created": "0001-01-01T00:00:00"
-    },
-    "piccadilly:text:11ed3ff27a6ce495": {
-      "category": "track fault",
-      "first_seen": "2026-10-04T14:08:58Z",
-      "issue_key": "piccadilly:text:11ed3ff27a6ce495",
-      "line_id": "piccadilly",
-      "line_name": "Piccadilly",
-      "reason": "Piccadilly Line: Minor delays between Acton Town and Heathrow Airport / Rayners Lane due to an earlier track fault at Leicester Square. GOOD SERVICE on the rest of the line.",
-      "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
     "tram:text:b15e32900375c63c": {
@@ -109,9 +79,55 @@
       "reason": "WINDRUSH LINE: Sunday 4 October, no service between Surrey Quays and Clapham Junction / Battersea Park. Replacement bus service M operates between Canada Water and Clapham Junction via Surrey Quays, Queens Road Peckham, Peckham Rye, Denmark Hill, Clapham High Street and Wandsworth Road.",
       "severity": "Part Closure",
       "source_created": "0001-01-01T00:00:00"
+    },
+    "windrush:text:b4ccd9d7c8954fab": {
+      "category": "train fault",
+      "first_seen": "2026-10-04T18:07:16Z",
+      "issue_key": "windrush:text:b4ccd9d7c8954fab",
+      "line_id": "windrush",
+      "line_name": "Windrush",
+      "reason": "Windrush Line: No service between Surrey Quays and Clapham Junction due to planned engineering work and MINOR DELAYS between Highbury & Islington and New Cross Gate due to an earlier faulty train at Whitechapel. GOOD SERVICE on the rest of the line.",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
     }
   },
   "history": [
+    {
+      "category": "other",
+      "duration_seconds": 14298,
+      "first_seen": "2026-10-04T14:08:58Z",
+      "issue_key": "metropolitan:text:56fb9aa482a0b679",
+      "line_id": "metropolitan",
+      "line_name": "Metropolitan",
+      "reason": "Metropolitan Line: Minor delays between Harrow-on-the-Hill and Uxbridge/ Aldgate due to train cancellations. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-10-04T18:07:16Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "train fault",
+      "duration_seconds": 14298,
+      "first_seen": "2026-10-04T14:08:58Z",
+      "issue_key": "mildmay:text:4f7d5df5026ca750",
+      "line_id": "mildmay",
+      "line_name": "Mildmay",
+      "reason": "Mildmay Line: No service between Clapham Junction and Willesden Junction and MINOR DELAYS on the rest of the line while we fix a faulty train at Shepherd's Bush. London Underground are accepting tickets via any reasonable route.",
+      "resolved_at": "2026-10-04T18:07:16Z",
+      "severity": "Part Suspended",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "track fault",
+      "duration_seconds": 14298,
+      "first_seen": "2026-10-04T14:08:58Z",
+      "issue_key": "piccadilly:text:11ed3ff27a6ce495",
+      "line_id": "piccadilly",
+      "line_name": "Piccadilly",
+      "reason": "Piccadilly Line: Minor delays between Acton Town and Heathrow Airport / Rayners Lane due to an earlier track fault at Leicester Square. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-10-04T18:07:16Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
     {
       "category": "planned engineering",
       "duration_seconds": 1292,
@@ -18497,6 +18513,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-10-04T14:30:30Z",
+  "updated_at": "2026-10-04T18:07:16Z",
   "version": 1
 }
