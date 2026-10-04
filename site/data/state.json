@@ -130,6 +130,16 @@
       "severity": "Service Closed",
       "source_created": "0001-01-01T00:00:00"
     },
+    "tram:text:b15e32900375c63c": {
+      "category": "other",
+      "first_seen": "2026-10-04T02:40:04Z",
+      "issue_key": "tram:text:b15e32900375c63c",
+      "line_id": "tram",
+      "line_name": "Tram",
+      "reason": "London Trams: Sunday 4 October, no service between Arena and Elmers End",
+      "severity": "Part Closure",
+      "source_created": "0001-01-01T00:00:00"
+    },
     "tram:text:d4ccb19c1cc1d5b6": {
       "category": "other",
       "first_seen": "2026-10-03T07:59:56Z",
@@ -18293,6 +18303,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-10-04T02:05:41Z",
+  "updated_at": "2026-10-04T02:40:04Z",
   "version": 1
 }
