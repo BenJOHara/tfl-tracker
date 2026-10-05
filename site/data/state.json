@@ -100,6 +100,16 @@
       "severity": "Reduced Service",
       "source_created": "0001-01-01T00:00:00"
     },
+    "mildmay:text:43f3ca710bb3792b": {
+      "category": "other",
+      "first_seen": "2026-10-05T00:13:11Z",
+      "issue_key": "mildmay:text:43f3ca710bb3792b",
+      "line_id": "mildmay",
+      "line_name": "Mildmay",
+      "reason": "Mildmay Line: Service will resume later this morning.",
+      "severity": "Service Closed",
+      "source_created": "0001-01-01T00:00:00"
+    },
     "northern:text:82bd4c50fdf4647c": {
       "category": "other",
       "first_seen": "2026-10-04T23:59:58Z",
@@ -178,6 +188,16 @@
       "line_name": "Windrush",
       "reason": "WINDRUSH LINE: Sunday 4 October, no service between Surrey Quays and Clapham Junction / Battersea Park. Replacement bus service M operates between Canada Water and Clapham Junction via Surrey Quays, Queens Road Peckham, Peckham Rye, Denmark Hill, Clapham High Street and Wandsworth Road.",
       "severity": "Part Closure",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "windrush:text:eb329ced32606fab": {
+      "category": "other",
+      "first_seen": "2026-10-05T00:13:11Z",
+      "issue_key": "windrush:text:eb329ced32606fab",
+      "line_id": "windrush",
+      "line_name": "Windrush",
+      "reason": "Windrush Line: Service will resume later this morning.",
+      "severity": "Service Closed",
       "source_created": "0001-01-01T00:00:00"
     }
   },
@@ -18675,6 +18695,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-10-04T23:59:58Z",
+  "updated_at": "2026-10-05T00:13:11Z",
   "version": 1
 }
