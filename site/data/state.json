@@ -10,18 +10,30 @@
       "severity": "Part Closure",
       "source_created": "0001-01-01T00:00:00"
     },
-    "windrush:text:5ac3e58a4c462ef1": {
+    "victoria:text:7253242b9b60f14c": {
+      "category": "signal failure",
+      "first_seen": "2026-10-05T12:34:41Z",
+      "issue_key": "victoria:text:7253242b9b60f14c",
+      "line_id": "victoria",
+      "line_name": "Victoria",
+      "reason": "Victoria Line: Severe delays due to an earlier signal failure at Brixton. Tickets are being accepted on London Buses, London Overground, Great Northern, Thameslink, Greater Anglia, South Western Railway and Southeastern services via any reasonable route.",
+      "severity": "Severe Delays",
+      "source_created": "0001-01-01T00:00:00"
+    }
+  },
+  "history": [
+    {
       "category": "planned engineering",
+      "duration_seconds": 25635,
       "first_seen": "2026-10-05T05:27:26Z",
       "issue_key": "windrush:text:5ac3e58a4c462ef1",
       "line_id": "windrush",
       "line_name": "Windrush",
       "reason": "Windrush Line: Minor delays following a late finish of engineering work.",
+      "resolved_at": "2026-10-05T12:34:41Z",
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
-    }
-  },
-  "history": [
+    },
     {
       "category": "other",
       "duration_seconds": 19648,
@@ -18743,6 +18755,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-10-05T05:27:26Z",
+  "updated_at": "2026-10-05T12:34:41Z",
   "version": 1
 }
