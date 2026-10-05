@@ -19,19 +19,21 @@
       "reason": "London Trams: Saturday 3 until Wednesday 7 October, no eastbound service Wandle Park - Centrale and westbound service Church Street - Wandle Park. Also no service between Arena and Elmers End on Sunday 4 October",
       "severity": "Part Closure",
       "source_created": "0001-01-01T00:00:00"
-    },
-    "victoria:text:7253242b9b60f14c": {
+    }
+  },
+  "history": [
+    {
       "category": "signal failure",
+      "duration_seconds": 30487,
       "first_seen": "2026-10-05T12:34:41Z",
       "issue_key": "victoria:text:7253242b9b60f14c",
       "line_id": "victoria",
       "line_name": "Victoria",
       "reason": "Victoria Line: Severe delays due to an earlier signal failure at Brixton. Tickets are being accepted on London Buses, London Overground, Great Northern, Thameslink, Greater Anglia, South Western Railway and Southeastern services via any reasonable route.",
+      "resolved_at": "2026-10-05T21:02:48Z",
       "severity": "Severe Delays",
       "source_created": "0001-01-01T00:00:00"
-    }
-  },
-  "history": [
+    },
     {
       "category": "planned engineering",
       "duration_seconds": 25635,
@@ -18765,6 +18767,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-10-05T14:26:22Z",
+  "updated_at": "2026-10-05T21:02:48Z",
   "version": 1
 }
