@@ -10,6 +10,16 @@
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
+    "elizabeth:text:f705e5b1435ddeea": {
+      "category": "train fault",
+      "first_seen": "2026-10-06T08:53:12Z",
+      "issue_key": "elizabeth:text:f705e5b1435ddeea",
+      "line_id": "elizabeth",
+      "line_name": "Elizabeth line",
+      "reason": "No service between Abbey Wood and Paddington and SEVERE DELAYS on the rest of the line while we fix a faulty train at Paddington. Tickets are being accepted on London Underground, London Buses, Great Western Railway, Chiltern Railway, Southeastern and Thameslink services via any reasonable route.",
+      "severity": "Part Suspended",
+      "source_created": "0001-01-01T00:00:00"
+    },
     "jubilee:text:58626c1c031cc7d0": {
       "category": "fire alert",
       "first_seen": "2026-10-06T08:04:39Z",
@@ -19041,6 +19051,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-10-06T08:04:39Z",
+  "updated_at": "2026-10-06T08:53:12Z",
   "version": 1
 }
