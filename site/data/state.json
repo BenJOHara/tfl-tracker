@@ -1,15 +1,5 @@
 {
   "active": {
-    "central:text:cb15ff2732aae5a4": {
-      "category": "other",
-      "first_seen": "2026-10-06T20:11:34Z",
-      "issue_key": "central:text:cb15ff2732aae5a4",
-      "line_id": "central",
-      "line_name": "Central",
-      "reason": "Central Line: Minor delays between North Acton and West Ruislip/Ealing Broadway, and between Leytonstone and Epping/Hainault via Newbury Park due to train cancellations. GOOD SERVICE on the rest of the line.",
-      "severity": "Minor Delays",
-      "source_created": "0001-01-01T00:00:00"
-    },
     "tram:text:d4ccb19c1cc1d5b6": {
       "category": "other",
       "first_seen": "2026-10-06T08:04:39Z",
@@ -29,9 +19,41 @@
       "reason": "Victoria Line: Minor delays due to train cancellations.",
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
+    },
+    "waterloo-city:text:0faebd0ea99ebd1b": {
+      "category": "other",
+      "first_seen": "2026-10-06T23:46:46Z",
+      "issue_key": "waterloo-city:text:0faebd0ea99ebd1b",
+      "line_id": "waterloo-city",
+      "line_name": "Waterloo & City",
+      "reason": "Waterloo and City Line: Service will resume at 06:00.",
+      "severity": "Service Closed",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "windrush:text:6097109c6d059b2d": {
+      "category": "other",
+      "first_seen": "2026-10-06T23:46:46Z",
+      "issue_key": "windrush:text:6097109c6d059b2d",
+      "line_id": "windrush",
+      "line_name": "Windrush",
+      "reason": "WINDRUSH LINE: Monday 5 and Tuesday 6 October, after 2315 each evening, no service between Surrey Quays and Clapham Junction / Battersea Park. Please use local London Buses and London Underground services as no replacement bus service operates for this closure.",
+      "severity": "Part Closure",
+      "source_created": "0001-01-01T00:00:00"
     }
   },
   "history": [
+    {
+      "category": "other",
+      "duration_seconds": 12912,
+      "first_seen": "2026-10-06T20:11:34Z",
+      "issue_key": "central:text:cb15ff2732aae5a4",
+      "line_id": "central",
+      "line_name": "Central",
+      "reason": "Central Line: Minor delays between North Acton and West Ruislip/Ealing Broadway, and between Leytonstone and Epping/Hainault via Newbury Park due to train cancellations. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-10-06T23:46:46Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
     {
       "category": "other",
       "duration_seconds": 18482,
@@ -19089,6 +19111,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-10-06T20:11:34Z",
+  "updated_at": "2026-10-06T23:46:46Z",
   "version": 1
 }
