@@ -1,5 +1,35 @@
 {
   "active": {
+    "bakerloo:text:441236c7b38e407e": {
+      "category": "other",
+      "first_seen": "2026-10-07T13:53:49Z",
+      "issue_key": "bakerloo:text:441236c7b38e407e",
+      "line_id": "bakerloo",
+      "line_name": "Bakerloo",
+      "reason": "Bakerloo Line: Minor delays due to train cancellations.",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "central:text:46bc7de1e13ca6ae": {
+      "category": "other",
+      "first_seen": "2026-10-07T13:53:49Z",
+      "issue_key": "central:text:46bc7de1e13ca6ae",
+      "line_id": "central",
+      "line_name": "Central",
+      "reason": "Central Line: Minor delays between North Acton and Ealing Broadway / West Ruislip and between Leytonstone and Epping / Hainault via Newbury Park due to train cancellations.",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "piccadilly:text:19c4c0f8a1694c7d": {
+      "category": "signal failure",
+      "first_seen": "2026-10-07T13:53:49Z",
+      "issue_key": "piccadilly:text:19c4c0f8a1694c7d",
+      "line_id": "piccadilly",
+      "line_name": "Piccadilly",
+      "reason": "Piccadilly Line: Severe delays between Acton Town and Heathrow Terminals due to an earlier signal failure at Boston Manor. GOOD SERVICE on the rest of the line. Tickets are being accepted on London Buses, Elizabeth Line and South Western Railway.",
+      "severity": "Severe Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
     "tram:text:d4ccb19c1cc1d5b6": {
       "category": "other",
       "first_seen": "2026-10-07T05:19:15Z",
@@ -19415,6 +19445,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-10-07T11:55:22Z",
+  "updated_at": "2026-10-07T13:53:49Z",
   "version": 1
 }
