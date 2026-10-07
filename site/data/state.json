@@ -1,13 +1,13 @@
 {
   "active": {
-    "bakerloo:text:441236c7b38e407e": {
+    "bakerloo:text:0c44992317d85d32": {
       "category": "other",
-      "first_seen": "2026-10-07T13:53:49Z",
-      "issue_key": "bakerloo:text:441236c7b38e407e",
+      "first_seen": "2026-10-07T19:55:12Z",
+      "issue_key": "bakerloo:text:0c44992317d85d32",
       "line_id": "bakerloo",
       "line_name": "Bakerloo",
-      "reason": "Bakerloo Line: Minor delays due to train cancellations.",
-      "severity": "Minor Delays",
+      "reason": "Bakerloo Line: Severe delays due to train cancellations. Tickets are being accepted on London Buses, Lioness line, London Northwestern Railway and Thameslink.",
+      "severity": "Severe Delays",
       "source_created": "0001-01-01T00:00:00"
     },
     "central:text:23c62521d4237097": {
@@ -32,6 +32,18 @@
     }
   },
   "history": [
+    {
+      "category": "other",
+      "duration_seconds": 21683,
+      "first_seen": "2026-10-07T13:53:49Z",
+      "issue_key": "bakerloo:text:441236c7b38e407e",
+      "line_id": "bakerloo",
+      "line_name": "Bakerloo",
+      "reason": "Bakerloo Line: Minor delays due to train cancellations.",
+      "resolved_at": "2026-10-07T19:55:12Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
     {
       "category": "other",
       "duration_seconds": 16716,
@@ -19485,6 +19497,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-10-07T18:32:25Z",
+  "updated_at": "2026-10-07T19:55:12Z",
   "version": 1
 }
