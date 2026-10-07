@@ -10,33 +10,13 @@
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "central:text:46bc7de1e13ca6ae": {
+    "central:text:23c62521d4237097": {
       "category": "other",
-      "first_seen": "2026-10-07T13:53:49Z",
-      "issue_key": "central:text:46bc7de1e13ca6ae",
+      "first_seen": "2026-10-07T18:32:25Z",
+      "issue_key": "central:text:23c62521d4237097",
       "line_id": "central",
       "line_name": "Central",
-      "reason": "Central Line: Minor delays between North Acton and Ealing Broadway / West Ruislip and between Leytonstone and Epping / Hainault via Newbury Park due to train cancellations.",
-      "severity": "Minor Delays",
-      "source_created": "0001-01-01T00:00:00"
-    },
-    "hammersmith-city:text:004129bf5e441754": {
-      "category": "other",
-      "first_seen": "2026-10-07T16:40:22Z",
-      "issue_key": "hammersmith-city:text:004129bf5e441754",
-      "line_id": "hammersmith-city",
-      "line_name": "Hammersmith & City",
-      "reason": "Hammersmith and City Line: Minor delays due to train cancellations.",
-      "severity": "Minor Delays",
-      "source_created": "0001-01-01T00:00:00"
-    },
-    "piccadilly:text:57a0d2d0e39901e3": {
-      "category": "signal failure",
-      "first_seen": "2026-10-07T16:40:22Z",
-      "issue_key": "piccadilly:text:57a0d2d0e39901e3",
-      "line_id": "piccadilly",
-      "line_name": "Piccadilly",
-      "reason": "Piccadilly Line: Minor delays between Acton Town and Heathrow Terminals due to an earlier signal failure at Boston Manor. GOOD SERVICE on the rest of the line.",
+      "reason": "Central Line: Minor delays between North Acton and Ealing Broadway / West Ruislip and between Leytonstone and Epping / Hainault via Newbury Park due to train cancellations. GOOD SERVICE on the rest of the line.",
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
@@ -52,6 +32,42 @@
     }
   },
   "history": [
+    {
+      "category": "other",
+      "duration_seconds": 16716,
+      "first_seen": "2026-10-07T13:53:49Z",
+      "issue_key": "central:text:46bc7de1e13ca6ae",
+      "line_id": "central",
+      "line_name": "Central",
+      "reason": "Central Line: Minor delays between North Acton and Ealing Broadway / West Ruislip and between Leytonstone and Epping / Hainault via Newbury Park due to train cancellations.",
+      "resolved_at": "2026-10-07T18:32:25Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "other",
+      "duration_seconds": 6723,
+      "first_seen": "2026-10-07T16:40:22Z",
+      "issue_key": "hammersmith-city:text:004129bf5e441754",
+      "line_id": "hammersmith-city",
+      "line_name": "Hammersmith & City",
+      "reason": "Hammersmith and City Line: Minor delays due to train cancellations.",
+      "resolved_at": "2026-10-07T18:32:25Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "signal failure",
+      "duration_seconds": 6723,
+      "first_seen": "2026-10-07T16:40:22Z",
+      "issue_key": "piccadilly:text:57a0d2d0e39901e3",
+      "line_id": "piccadilly",
+      "line_name": "Piccadilly",
+      "reason": "Piccadilly Line: Minor delays between Acton Town and Heathrow Terminals due to an earlier signal failure at Boston Manor. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-10-07T18:32:25Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
     {
       "category": "signal failure",
       "duration_seconds": 9993,
@@ -19469,6 +19485,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-10-07T16:40:22Z",
+  "updated_at": "2026-10-07T18:32:25Z",
   "version": 1
 }
