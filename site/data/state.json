@@ -1,15 +1,5 @@
 {
   "active": {
-    "district:text:0cdd787e2e6757a0": {
-      "category": "train fault",
-      "first_seen": "2026-10-07T09:23:15Z",
-      "issue_key": "district:text:0cdd787e2e6757a0",
-      "line_id": "district",
-      "line_name": "District",
-      "reason": "District Line: Minor delays between Tower Hill and Ealing Broadway / Richmond / Wimbledon due to an earlier faulty train at Monument and train cancellations. GOOD SERVICE on the rest of the line.",
-      "severity": "Minor Delays",
-      "source_created": "0001-01-01T00:00:00"
-    },
     "tram:text:d4ccb19c1cc1d5b6": {
       "category": "other",
       "first_seen": "2026-10-07T05:19:15Z",
@@ -20,18 +10,42 @@
       "severity": "Part Closure",
       "source_created": "0001-01-01T00:00:00"
     },
-    "victoria:text:8cff71284e9c5231": {
+    "victoria:text:02e0850cdf11ef25": {
       "category": "other",
+      "first_seen": "2026-10-07T11:55:22Z",
+      "issue_key": "victoria:text:02e0850cdf11ef25",
+      "line_id": "victoria",
+      "line_name": "Victoria",
+      "reason": "Victoria Line: Minor delays due to train cancellations.",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    }
+  },
+  "history": [
+    {
+      "category": "train fault",
+      "duration_seconds": 9127,
+      "first_seen": "2026-10-07T09:23:15Z",
+      "issue_key": "district:text:0cdd787e2e6757a0",
+      "line_id": "district",
+      "line_name": "District",
+      "reason": "District Line: Minor delays between Tower Hill and Ealing Broadway / Richmond / Wimbledon due to an earlier faulty train at Monument and train cancellations. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-10-07T11:55:22Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "other",
+      "duration_seconds": 23767,
       "first_seen": "2026-10-07T05:19:15Z",
       "issue_key": "victoria:text:8cff71284e9c5231",
       "line_id": "victoria",
       "line_name": "Victoria",
       "reason": "Victoria Line: Severe delays due to train cancellations. London Underground tickets will be accepted on London buses, Weaver line, Suffragette line, Great Northern, Greater Anglia, South Western railways and Southeastern.",
+      "resolved_at": "2026-10-07T11:55:22Z",
       "severity": "Severe Delays",
       "source_created": "0001-01-01T00:00:00"
-    }
-  },
-  "history": [
+    },
     {
       "category": "planned engineering",
       "duration_seconds": 14640,
@@ -19401,6 +19415,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-10-07T09:23:15Z",
+  "updated_at": "2026-10-07T11:55:22Z",
   "version": 1
 }
