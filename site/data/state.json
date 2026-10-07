@@ -1,13 +1,13 @@
 {
   "active": {
-    "elizabeth:text:0ae93b615c287ce1": {
-      "category": "planned engineering",
-      "first_seen": "2026-10-07T05:19:15Z",
-      "issue_key": "elizabeth:text:0ae93b615c287ce1",
-      "line_id": "elizabeth",
-      "line_name": "Elizabeth line",
-      "reason": "No service between Paddington and Reading / Heathrow Terminals and MINOR DELAYS between Paddington and Abbey Wood eastbound only due to a late finish of engineering work. London Underground are accepting tickets via any reasonable route. GOOD SERVICE on the rest of the line.",
-      "severity": "Part Suspended",
+    "district:text:0cdd787e2e6757a0": {
+      "category": "train fault",
+      "first_seen": "2026-10-07T09:23:15Z",
+      "issue_key": "district:text:0cdd787e2e6757a0",
+      "line_id": "district",
+      "line_name": "District",
+      "reason": "District Line: Minor delays between Tower Hill and Ealing Broadway / Richmond / Wimbledon due to an earlier faulty train at Monument and train cancellations. GOOD SERVICE on the rest of the line.",
+      "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
     "tram:text:d4ccb19c1cc1d5b6": {
@@ -32,6 +32,18 @@
     }
   },
   "history": [
+    {
+      "category": "planned engineering",
+      "duration_seconds": 14640,
+      "first_seen": "2026-10-07T05:19:15Z",
+      "issue_key": "elizabeth:text:0ae93b615c287ce1",
+      "line_id": "elizabeth",
+      "line_name": "Elizabeth line",
+      "reason": "No service between Paddington and Reading / Heathrow Terminals and MINOR DELAYS between Paddington and Abbey Wood eastbound only due to a late finish of engineering work. London Underground are accepting tickets via any reasonable route. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-10-07T09:23:15Z",
+      "severity": "Part Suspended",
+      "source_created": "0001-01-01T00:00:00"
+    },
     {
       "category": "other",
       "duration_seconds": 4590,
@@ -19389,6 +19401,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-10-07T06:35:45Z",
+  "updated_at": "2026-10-07T09:23:15Z",
   "version": 1
 }
