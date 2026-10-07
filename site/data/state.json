@@ -1,15 +1,5 @@
 {
   "active": {
-    "district:text:40decf0504fa5afd": {
-      "category": "other",
-      "first_seen": "2026-10-07T05:19:15Z",
-      "issue_key": "district:text:40decf0504fa5afd",
-      "line_id": "district",
-      "line_name": "District",
-      "reason": "District Line: Minor delays between Earl's Court and Wimbledon / Ealing Broadway due to train cancellations. GOOD SERVICE on the rest of the line.",
-      "severity": "Minor Delays",
-      "source_created": "0001-01-01T00:00:00"
-    },
     "elizabeth:text:0ae93b615c287ce1": {
       "category": "planned engineering",
       "first_seen": "2026-10-07T05:19:15Z",
@@ -42,6 +32,18 @@
     }
   },
   "history": [
+    {
+      "category": "other",
+      "duration_seconds": 4590,
+      "first_seen": "2026-10-07T05:19:15Z",
+      "issue_key": "district:text:40decf0504fa5afd",
+      "line_id": "district",
+      "line_name": "District",
+      "reason": "District Line: Minor delays between Earl's Court and Wimbledon / Ealing Broadway due to train cancellations. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-10-07T06:35:45Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
     {
       "category": "other",
       "duration_seconds": 16923,
@@ -19387,6 +19389,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-10-07T05:19:15Z",
+  "updated_at": "2026-10-07T06:35:45Z",
   "version": 1
 }
