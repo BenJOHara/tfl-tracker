@@ -1,17 +1,49 @@
 {
   "active": {
-    "elizabeth:text:aeda491aa9b86ee7": {
+    "northern:text:77c5dc7e808224b0": {
+      "category": "fire alert",
+      "first_seen": "2026-10-08T10:07:24Z",
+      "issue_key": "northern:text:77c5dc7e808224b0",
+      "line_id": "northern",
+      "line_name": "Northern",
+      "reason": "Northern Line: No service between Moorgate and Morden via Bank, and SEVERE DELAYS on the rest of the line while we respond to a fire alert at Stockwell. Tickets are being accepted on London Buses, Thameslink, Great Northern, South Western Railway and London Trams.",
+      "severity": "Part Suspended",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "piccadilly:text:bc7fa8fa8238152d": {
       "category": "signal failure",
+      "first_seen": "2026-10-08T10:07:24Z",
+      "issue_key": "piccadilly:text:bc7fa8fa8238152d",
+      "line_id": "piccadilly",
+      "line_name": "Piccadilly",
+      "reason": "Piccadilly Line: Severe delays due to an earlier signal failure at Arnos Grove. Tickets are being accepted on London Buses, Great Northern, Elizabeth line, South Western Railway and London Overground services via any reasonable route.",
+      "severity": "Service Closed",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "victoria:text:02e0850cdf11ef25": {
+      "category": "other",
+      "first_seen": "2026-10-08T10:07:24Z",
+      "issue_key": "victoria:text:02e0850cdf11ef25",
+      "line_id": "victoria",
+      "line_name": "Victoria",
+      "reason": "Victoria Line: Minor delays due to train cancellations.",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    }
+  },
+  "history": [
+    {
+      "category": "signal failure",
+      "duration_seconds": 13733,
       "first_seen": "2026-10-08T06:18:31Z",
       "issue_key": "elizabeth:text:aeda491aa9b86ee7",
       "line_id": "elizabeth",
       "line_name": "Elizabeth line",
       "reason": "Severe Delays between Paddington and Heathrow Airport / Reading while we fix a signal failure in the Paddington area. Tickets are being accepted on London Underground, Great Western Railway and South Western Railway. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-10-08T10:07:24Z",
       "severity": "Severe Delays",
       "source_created": "0001-01-01T00:00:00"
-    }
-  },
-  "history": [
+    },
     {
       "category": "other",
       "duration_seconds": 4423,
@@ -19777,6 +19809,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-10-08T07:32:14Z",
+  "updated_at": "2026-10-08T10:07:24Z",
   "version": 1
 }
