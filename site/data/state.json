@@ -1,15 +1,5 @@
 {
   "active": {
-    "district:text:4b0cfe5beacc79d1": {
-      "category": "other",
-      "first_seen": "2026-10-08T06:18:31Z",
-      "issue_key": "district:text:4b0cfe5beacc79d1",
-      "line_id": "district",
-      "line_name": "District",
-      "reason": "District Line: Minor delays between Earl's Court and Ealing Broadway / Richmond / Kensington (Olympia), between Edgware Road and Wimbledon and between Tower Hill and Upminster due to train cancellations. GOOD SERVICE on the rest of the line.",
-      "severity": "Minor Delays",
-      "source_created": "0001-01-01T00:00:00"
-    },
     "elizabeth:text:aeda491aa9b86ee7": {
       "category": "signal failure",
       "first_seen": "2026-10-08T06:18:31Z",
@@ -19,19 +9,33 @@
       "reason": "Severe Delays between Paddington and Heathrow Airport / Reading while we fix a signal failure in the Paddington area. Tickets are being accepted on London Underground, Great Western Railway and South Western Railway. GOOD SERVICE on the rest of the line.",
       "severity": "Severe Delays",
       "source_created": "0001-01-01T00:00:00"
+    }
+  },
+  "history": [
+    {
+      "category": "other",
+      "duration_seconds": 4423,
+      "first_seen": "2026-10-08T06:18:31Z",
+      "issue_key": "district:text:4b0cfe5beacc79d1",
+      "line_id": "district",
+      "line_name": "District",
+      "reason": "District Line: Minor delays between Earl's Court and Ealing Broadway / Richmond / Kensington (Olympia), between Edgware Road and Wimbledon and between Tower Hill and Upminster due to train cancellations. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-10-08T07:32:14Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
     },
-    "tram:text:39fb577c76050ce0": {
+    {
       "category": "planned engineering",
+      "duration_seconds": 4423,
       "first_seen": "2026-10-08T06:18:31Z",
       "issue_key": "tram:text:39fb577c76050ce0",
       "line_id": "tram",
       "line_name": "Tram",
       "reason": "London Tramlink: Minor delays following a late finish of engineering works.",
+      "resolved_at": "2026-10-08T07:32:14Z",
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
-    }
-  },
-  "history": [
+    },
     {
       "category": "other",
       "duration_seconds": 18140,
@@ -19773,6 +19777,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-10-08T06:18:31Z",
+  "updated_at": "2026-10-08T07:32:14Z",
   "version": 1
 }
