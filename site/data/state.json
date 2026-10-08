@@ -10,48 +10,76 @@
       "severity": "Severe Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "northern:text:24906c53d82d9094": {
+    "northern:text:3ffbd4e6ea146fcb": {
       "category": "signal failure",
+      "first_seen": "2026-10-08T14:53:13Z",
+      "issue_key": "northern:text:3ffbd4e6ea146fcb",
+      "line_id": "northern",
+      "line_name": "Northern",
+      "reason": "Northern Line: No service between Moorgate and Morden via Bank while we fix a signal failure at Stockwell. SEVERE DELAYS on the rest of the line. Tickets are being accepted on London Buses, Thameslink, Great Northern, South Western Railway and London Trams.",
+      "severity": "Severe Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "piccadilly:text:bd186b4f75a14470": {
+      "category": "signal failure",
+      "first_seen": "2026-10-08T14:53:13Z",
+      "issue_key": "piccadilly:text:bd186b4f75a14470",
+      "line_id": "piccadilly",
+      "line_name": "Piccadilly",
+      "reason": "Piccadilly Line: Minor delays between Acton Town and Uxbridge / Heathrow Terminals due to an earlier signal failure at Arnos Grove. GOOD SERVICE on the rest of the line.",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    }
+  },
+  "history": [
+    {
+      "category": "signal failure",
+      "duration_seconds": 4143,
       "first_seen": "2026-10-08T13:44:10Z",
       "issue_key": "northern:text:24906c53d82d9094",
       "line_id": "northern",
       "line_name": "Northern",
       "reason": "Northern Line: No service between Camden Town and Morden via Bank while we fix a signal failure at Stockwell. SEVERE DELAYS on the rest of the line. Tickets are being accepted on London Buses, Thameslink, Great Northern, South Western Railway and London Trams.",
+      "resolved_at": "2026-10-08T14:53:13Z",
       "severity": "Part Suspended",
       "source_created": "0001-01-01T00:00:00"
     },
-    "piccadilly:text:504352d835f12023": {
+    {
       "category": "signal failure",
+      "duration_seconds": 4143,
       "first_seen": "2026-10-08T13:44:10Z",
       "issue_key": "piccadilly:text:504352d835f12023",
       "line_id": "piccadilly",
       "line_name": "Piccadilly",
       "reason": "Piccadilly Line: Minor delays due to an earlier signal failure at Arnos Grove.",
+      "resolved_at": "2026-10-08T14:53:13Z",
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "tram:text:f7df0f17377393d7": {
+    {
       "category": "other",
+      "duration_seconds": 4143,
       "first_seen": "2026-10-08T13:44:10Z",
       "issue_key": "tram:text:f7df0f17377393d7",
       "line_id": "tram",
       "line_name": "Tram",
       "reason": "London Tramlink: No service between Addiscombe and Elmers End / Harrington Road due to a road traffic collision at Arena. GOOD SERVICE on other tram routes.",
+      "resolved_at": "2026-10-08T14:53:13Z",
       "severity": "Part Suspended",
       "source_created": "0001-01-01T00:00:00"
     },
-    "waterloo-city:text:705a0dde77a1768d": {
+    {
       "category": "other",
+      "duration_seconds": 4143,
       "first_seen": "2026-10-08T13:44:10Z",
       "issue_key": "waterloo-city:text:705a0dde77a1768d",
       "line_id": "waterloo-city",
       "line_name": "Waterloo & City",
       "reason": "Waterloo and City Line: Severe delays due to train cancellations. Tickets will be accepted on London Buses.",
+      "resolved_at": "2026-10-08T14:53:13Z",
       "severity": "Severe Delays",
       "source_created": "0001-01-01T00:00:00"
-    }
-  },
-  "history": [
+    },
     {
       "category": "fire alert",
       "duration_seconds": 13006,
@@ -19865,6 +19893,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-10-08T13:44:10Z",
+  "updated_at": "2026-10-08T14:53:13Z",
   "version": 1
 }
