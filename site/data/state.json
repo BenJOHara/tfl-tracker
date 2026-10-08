@@ -1,37 +1,73 @@
 {
   "active": {
-    "bakerloo:text:7123b95579bb571c": {
+    "bakerloo:text:441236c7b38e407e": {
       "category": "other",
+      "first_seen": "2026-10-08T17:24:10Z",
+      "issue_key": "bakerloo:text:441236c7b38e407e",
+      "line_id": "bakerloo",
+      "line_name": "Bakerloo",
+      "reason": "Bakerloo Line: Minor delays due to train cancellations.",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "elizabeth:text:66b9c2b3355b6db8": {
+      "category": "train fault",
+      "first_seen": "2026-10-08T17:24:10Z",
+      "issue_key": "elizabeth:text:66b9c2b3355b6db8",
+      "line_id": "elizabeth",
+      "line_name": "Elizabeth line",
+      "reason": "Minor delays between Shenfield and Paddington due to an earlier faulty train at Stratford. GOOD SERVICE on the rest of the line",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "northern:text:46f2ed53cb8890a4": {
+      "category": "signal failure",
+      "first_seen": "2026-10-08T17:24:10Z",
+      "issue_key": "northern:text:46f2ed53cb8890a4",
+      "line_id": "northern",
+      "line_name": "Northern",
+      "reason": "Northern Line: Severe delays due to an earlier signal failure at Stockwell. Tickets are being accepted on London Buses, Thameslink, Great Northern, South Western Railway and London Trams.",
+      "severity": "Severe Delays",
+      "source_created": "0001-01-01T00:00:00"
+    }
+  },
+  "history": [
+    {
+      "category": "other",
+      "duration_seconds": 13200,
       "first_seen": "2026-10-08T13:44:10Z",
       "issue_key": "bakerloo:text:7123b95579bb571c",
       "line_id": "bakerloo",
       "line_name": "Bakerloo",
       "reason": "Bakerloo Line: Severe delays due to train cancellations. London Buses, Lioness Line, London Northwestern Railway and Thameslink are accepting tickets via any reasonable route.",
+      "resolved_at": "2026-10-08T17:24:10Z",
       "severity": "Severe Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "northern:text:3ffbd4e6ea146fcb": {
+    {
       "category": "signal failure",
+      "duration_seconds": 9057,
       "first_seen": "2026-10-08T14:53:13Z",
       "issue_key": "northern:text:3ffbd4e6ea146fcb",
       "line_id": "northern",
       "line_name": "Northern",
       "reason": "Northern Line: No service between Moorgate and Morden via Bank while we fix a signal failure at Stockwell. SEVERE DELAYS on the rest of the line. Tickets are being accepted on London Buses, Thameslink, Great Northern, South Western Railway and London Trams.",
+      "resolved_at": "2026-10-08T17:24:10Z",
       "severity": "Severe Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "piccadilly:text:bd186b4f75a14470": {
+    {
       "category": "signal failure",
+      "duration_seconds": 9057,
       "first_seen": "2026-10-08T14:53:13Z",
       "issue_key": "piccadilly:text:bd186b4f75a14470",
       "line_id": "piccadilly",
       "line_name": "Piccadilly",
       "reason": "Piccadilly Line: Minor delays between Acton Town and Uxbridge / Heathrow Terminals due to an earlier signal failure at Arnos Grove. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-10-08T17:24:10Z",
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
-    }
-  },
-  "history": [
+    },
     {
       "category": "signal failure",
       "duration_seconds": 4143,
@@ -19893,6 +19929,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-10-08T14:53:13Z",
+  "updated_at": "2026-10-08T17:24:10Z",
   "version": 1
 }
