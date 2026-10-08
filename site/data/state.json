@@ -29,6 +29,16 @@
       "reason": "London Trams: Saturday 3 until Wednesday 7 October, no eastbound service Wandle Park - Centrale and westbound service Church Street - Wandle Park. Also no service between Arena and Elmers End on Sunday 4 October",
       "severity": "Part Closure",
       "source_created": "0001-01-01T00:00:00"
+    },
+    "waterloo-city:text:0faebd0ea99ebd1b": {
+      "category": "other",
+      "first_seen": "2026-10-08T00:08:15Z",
+      "issue_key": "waterloo-city:text:0faebd0ea99ebd1b",
+      "line_id": "waterloo-city",
+      "line_name": "Waterloo & City",
+      "reason": "Waterloo and City Line: Service will resume at 06:00.",
+      "severity": "Service Closed",
+      "source_created": "0001-01-01T00:00:00"
     }
   },
   "history": [
@@ -19497,6 +19507,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-10-07T19:55:12Z",
+  "updated_at": "2026-10-08T00:08:15Z",
   "version": 1
 }
