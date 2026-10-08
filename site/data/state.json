@@ -10,14 +10,14 @@
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "elizabeth:text:d90375df354298e8": {
-      "category": "train fault",
-      "first_seen": "2026-10-08T19:30:58Z",
-      "issue_key": "elizabeth:text:d90375df354298e8",
-      "line_id": "elizabeth",
-      "line_name": "Elizabeth line",
-      "reason": "Minor delays due to an earlier faulty train at Stratford.",
-      "severity": "Minor Delays",
+    "mildmay:text:39c31b598339becd": {
+      "category": "other",
+      "first_seen": "2026-10-08T22:18:17Z",
+      "issue_key": "mildmay:text:39c31b598339becd",
+      "line_id": "mildmay",
+      "line_name": "Mildmay",
+      "reason": "MILDMAY LINE: Monday 5, Tuesday 6, Wednesday 7 and Thursday 8 October, the 2229 train from Stratford to Richmond will terminate at Camden Road at 2249",
+      "severity": "Reduced Service",
       "source_created": "0001-01-01T00:00:00"
     },
     "northern:text:46f2ed53cb8890a4": {
@@ -29,9 +29,31 @@
       "reason": "Northern Line: Severe delays due to an earlier signal failure at Stockwell. Tickets are being accepted on London Buses, Thameslink, Great Northern, South Western Railway and London Trams.",
       "severity": "Severe Delays",
       "source_created": "0001-01-01T00:00:00"
+    },
+    "windrush:text:3b959c41d66e711c": {
+      "category": "other",
+      "first_seen": "2026-10-08T22:18:17Z",
+      "issue_key": "windrush:text:3b959c41d66e711c",
+      "line_id": "windrush",
+      "line_name": "Windrush",
+      "reason": "WINDRUSH LINE: Thursday 8 October, after 2315 each evening, no service between Surrey Quays and Clapham Junction / Battersea Park. Please use local London Buses and London Underground services as no replacement bus service operates for this closure.",
+      "severity": "Part Closure",
+      "source_created": "0001-01-01T00:00:00"
     }
   },
   "history": [
+    {
+      "category": "train fault",
+      "duration_seconds": 10039,
+      "first_seen": "2026-10-08T19:30:58Z",
+      "issue_key": "elizabeth:text:d90375df354298e8",
+      "line_id": "elizabeth",
+      "line_name": "Elizabeth line",
+      "reason": "Minor delays due to an earlier faulty train at Stratford.",
+      "resolved_at": "2026-10-08T22:18:17Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
     {
       "category": "train fault",
       "duration_seconds": 7608,
@@ -19941,6 +19963,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-10-08T19:30:58Z",
+  "updated_at": "2026-10-08T22:18:17Z",
   "version": 1
 }
