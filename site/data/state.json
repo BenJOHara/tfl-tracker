@@ -1,5 +1,15 @@
 {
   "active": {
+    "bakerloo:text:441236c7b38e407e": {
+      "category": "other",
+      "first_seen": "2026-10-09T13:07:11Z",
+      "issue_key": "bakerloo:text:441236c7b38e407e",
+      "line_id": "bakerloo",
+      "line_name": "Bakerloo",
+      "reason": "Bakerloo Line: Severe delays due to train cancellations.",
+      "severity": "Severe Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
     "central:text:6d0af7c9d44f714a": {
       "category": "other",
       "first_seen": "2026-10-09T05:59:06Z",
@@ -10,28 +20,62 @@
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "district:text:0062cd472c9fc97a": {
+    "metropolitan:text:2df4e90708614385": {
+      "category": "other",
+      "first_seen": "2026-10-09T13:07:11Z",
+      "issue_key": "metropolitan:text:2df4e90708614385",
+      "line_id": "metropolitan",
+      "line_name": "Metropolitan",
+      "reason": "Metropolitan Line: Minor delays between Moor Park and Watford due to train cancellations. GOOD SERVICE on the rest of the line.",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "piccadilly:text:32167c7fed1240ee": {
       "category": "passenger incident",
+      "first_seen": "2026-10-09T13:07:11Z",
+      "issue_key": "piccadilly:text:32167c7fed1240ee",
+      "line_id": "piccadilly",
+      "line_name": "Piccadilly",
+      "reason": "Piccadilly Line: Severe delays between Acton Town and Uxbridge and MINOR DELAYS between Cockfosters and Heathrow Terminals westbound only due to an earlier customer incident. Tickets are being accepted on London Buses and Great Northern services. GOOD SERVICE on the rest of the line.",
+      "severity": "Severe Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "victoria:text:02e0850cdf11ef25": {
+      "category": "other",
+      "first_seen": "2026-10-09T13:07:11Z",
+      "issue_key": "victoria:text:02e0850cdf11ef25",
+      "line_id": "victoria",
+      "line_name": "Victoria",
+      "reason": "Victoria Line: Minor delays due to train cancellations.",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    }
+  },
+  "history": [
+    {
+      "category": "passenger incident",
+      "duration_seconds": 13165,
       "first_seen": "2026-10-09T09:27:46Z",
       "issue_key": "district:text:0062cd472c9fc97a",
       "line_id": "district",
       "line_name": "District",
       "reason": "District Line: Severe delays due to an earlier customer incident at Earl's Court. Tickets will be accepted on London Buses, Mildmay line, DLR, Elizabeth line, C2C and South Western Railway via reasonable routes.",
+      "resolved_at": "2026-10-09T13:07:11Z",
       "severity": "Severe Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "victoria:text:818a925297f54ccf": {
+    {
       "category": "other",
+      "duration_seconds": 13165,
       "first_seen": "2026-10-09T09:27:46Z",
       "issue_key": "victoria:text:818a925297f54ccf",
       "line_id": "victoria",
       "line_name": "Victoria",
       "reason": "Victoria Line: Severe delays due to train cancellations. Tickets are being accepted on London Buses, Weaver line, Suffragette line, Great Northern, Thameslink, Greater Anglia, South Western Railway and Southeastern services.",
+      "resolved_at": "2026-10-09T13:07:11Z",
       "severity": "Severe Delays",
       "source_created": "0001-01-01T00:00:00"
-    }
-  },
-  "history": [
+    },
     {
       "category": "signal failure",
       "duration_seconds": 12520,
@@ -20313,6 +20357,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-10-09T09:27:46Z",
+  "updated_at": "2026-10-09T13:07:11Z",
   "version": 1
 }
