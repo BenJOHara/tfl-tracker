@@ -10,18 +10,30 @@
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "district:text:9b6351b02a382ad5": {
-      "category": "other",
-      "first_seen": "2026-10-09T19:03:54Z",
-      "issue_key": "district:text:9b6351b02a382ad5",
+    "district:text:ccefd2a0c1d3ddb0": {
+      "category": "passenger incident",
+      "first_seen": "2026-10-09T21:07:28Z",
+      "issue_key": "district:text:ccefd2a0c1d3ddb0",
       "line_id": "district",
       "line_name": "District",
-      "reason": "District Line: No service between Wimbledon and Earl's Court and SEVERE DELAYS between Earl's Court and Edgware Road while emergency services deal with a casualty on the track. Tickets will be accepted on London Buses. MINOR DELAYS on the rest of the line.",
+      "reason": "District Line: Severe delays due to an earlier customer incident. Tickets are being accepted on London Buses, Mildmay Line, DLR, Elizabeth Line, and C2C services via any reasonable route.",
       "severity": "Severe Delays",
       "source_created": "0001-01-01T00:00:00"
     }
   },
   "history": [
+    {
+      "category": "other",
+      "duration_seconds": 7414,
+      "first_seen": "2026-10-09T19:03:54Z",
+      "issue_key": "district:text:9b6351b02a382ad5",
+      "line_id": "district",
+      "line_name": "District",
+      "reason": "District Line: No service between Wimbledon and Earl's Court and SEVERE DELAYS between Earl's Court and Edgware Road while emergency services deal with a casualty on the track. Tickets will be accepted on London Buses. MINOR DELAYS on the rest of the line.",
+      "resolved_at": "2026-10-09T21:07:28Z",
+      "severity": "Severe Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
     {
       "category": "other",
       "duration_seconds": 727,
@@ -20447,6 +20459,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-10-09T19:03:54Z",
+  "updated_at": "2026-10-09T21:07:28Z",
   "version": 1
 }
