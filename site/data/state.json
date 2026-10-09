@@ -7,7 +7,7 @@
       "line_id": "district",
       "line_name": "District",
       "reason": "District Line: Severe delays between Earl's Court and Wimbledon due to an earlier customer incident. MINOR DELAYS on the rest of the line. Tickets are being accepted on London Buses, Mildmay Line, DLR, Elizabeth Line, and C2C services via any reasonable route.",
-      "severity": "Minor Delays",
+      "severity": "Severe Delays",
       "source_created": "0001-01-01T00:00:00"
     }
   },
@@ -20473,6 +20473,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-10-09T22:58:32Z",
+  "updated_at": "2026-10-09T23:11:02Z",
   "version": 1
 }
