@@ -1,5 +1,15 @@
 {
   "active": {
+    "bakerloo:text:975c88cf69561d0c": {
+      "category": "other",
+      "first_seen": "2026-10-09T02:25:14Z",
+      "issue_key": "bakerloo:text:975c88cf69561d0c",
+      "line_id": "bakerloo",
+      "line_name": "Bakerloo",
+      "reason": "Bakerloo Line: Service will resume later this morning.",
+      "severity": "Service Closed",
+      "source_created": "0001-01-01T00:00:00"
+    },
     "central:text:8dadc0a1b9047d57": {
       "category": "other",
       "first_seen": "2026-10-09T00:28:35Z",
@@ -180,16 +190,6 @@
       "severity": "Service Closed",
       "source_created": "0001-01-01T00:00:00"
     },
-    "windrush:text:3b959c41d66e711c": {
-      "category": "other",
-      "first_seen": "2026-10-08T22:18:17Z",
-      "issue_key": "windrush:text:3b959c41d66e711c",
-      "line_id": "windrush",
-      "line_name": "Windrush",
-      "reason": "WINDRUSH LINE: Thursday 8 October, after 2315 each evening, no service between Surrey Quays and Clapham Junction / Battersea Park. Please use local London Buses and London Underground services as no replacement bus service operates for this closure.",
-      "severity": "Part Closure",
-      "source_created": "0001-01-01T00:00:00"
-    },
     "windrush:text:eb329ced32606fab": {
       "category": "other",
       "first_seen": "2026-10-09T00:28:35Z",
@@ -202,6 +202,18 @@
     }
   },
   "history": [
+    {
+      "category": "other",
+      "duration_seconds": 14817,
+      "first_seen": "2026-10-08T22:18:17Z",
+      "issue_key": "windrush:text:3b959c41d66e711c",
+      "line_id": "windrush",
+      "line_name": "Windrush",
+      "reason": "WINDRUSH LINE: Thursday 8 October, after 2315 each evening, no service between Surrey Quays and Clapham Junction / Battersea Park. Please use local London Buses and London Underground services as no replacement bus service operates for this closure.",
+      "resolved_at": "2026-10-09T02:25:14Z",
+      "severity": "Part Closure",
+      "source_created": "0001-01-01T00:00:00"
+    },
     {
       "category": "other",
       "duration_seconds": 25465,
@@ -20171,6 +20183,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-10-09T00:28:35Z",
+  "updated_at": "2026-10-09T02:25:14Z",
   "version": 1
 }
