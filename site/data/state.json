@@ -1,12 +1,12 @@
 {
   "active": {
-    "bakerloo:text:441236c7b38e407e": {
+    "bakerloo:text:c9deee89c1088787": {
       "category": "other",
-      "first_seen": "2026-10-09T13:07:11Z",
-      "issue_key": "bakerloo:text:441236c7b38e407e",
+      "first_seen": "2026-10-09T13:42:11Z",
+      "issue_key": "bakerloo:text:c9deee89c1088787",
       "line_id": "bakerloo",
       "line_name": "Bakerloo",
-      "reason": "Bakerloo Line: Severe delays due to train cancellations.",
+      "reason": "Bakerloo Line: Severe delays due to train cancellations. Tickets will be accepted on London Buses.",
       "severity": "Severe Delays",
       "source_created": "0001-01-01T00:00:00"
     },
@@ -20,24 +20,34 @@
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "metropolitan:text:2df4e90708614385": {
+    "district:text:f6c0d66a893442ee": {
       "category": "other",
-      "first_seen": "2026-10-09T13:07:11Z",
-      "issue_key": "metropolitan:text:2df4e90708614385",
-      "line_id": "metropolitan",
-      "line_name": "Metropolitan",
-      "reason": "Metropolitan Line: Minor delays between Moor Park and Watford due to train cancellations. GOOD SERVICE on the rest of the line.",
-      "severity": "Minor Delays",
+      "first_seen": "2026-10-09T13:42:11Z",
+      "issue_key": "district:text:f6c0d66a893442ee",
+      "line_id": "district",
+      "line_name": "District",
+      "reason": "District Line: Severe delays between Earl's Court and Barking eastbound only while we help a person ill on a train. Tickets will be accepted on London Buses and C2C. GOOD SERVICE on the rest of the line.",
+      "severity": "Severe Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "piccadilly:text:32167c7fed1240ee": {
+    "elizabeth:text:f12519c0977d4fe7": {
+      "category": "signal failure",
+      "first_seen": "2026-10-09T13:42:11Z",
+      "issue_key": "elizabeth:text:f12519c0977d4fe7",
+      "line_id": "elizabeth",
+      "line_name": "Elizabeth line",
+      "reason": "Severe delays between Paddington and Heathrow Airport / Reading due to a signal failure in the Paddington area. GOOD SERVICE on the rest of the line. Tickets are being accepted on London Underground, London Buses, GWR and South Western Railway Services.",
+      "severity": "Severe Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "piccadilly:text:59ebfcfd5ca08202": {
       "category": "passenger incident",
-      "first_seen": "2026-10-09T13:07:11Z",
-      "issue_key": "piccadilly:text:32167c7fed1240ee",
+      "first_seen": "2026-10-09T13:42:11Z",
+      "issue_key": "piccadilly:text:59ebfcfd5ca08202",
       "line_id": "piccadilly",
       "line_name": "Piccadilly",
-      "reason": "Piccadilly Line: Severe delays between Acton Town and Uxbridge and MINOR DELAYS between Cockfosters and Heathrow Terminals westbound only due to an earlier customer incident. Tickets are being accepted on London Buses and Great Northern services. GOOD SERVICE on the rest of the line.",
-      "severity": "Severe Delays",
+      "reason": "Piccadilly Line: Minor delays between Acton Town and Uxbridge due to an earlier customer incident. GOOD SERVICE on the rest of the line.",
+      "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
     "victoria:text:02e0850cdf11ef25": {
@@ -52,6 +62,42 @@
     }
   },
   "history": [
+    {
+      "category": "other",
+      "duration_seconds": 2100,
+      "first_seen": "2026-10-09T13:07:11Z",
+      "issue_key": "bakerloo:text:441236c7b38e407e",
+      "line_id": "bakerloo",
+      "line_name": "Bakerloo",
+      "reason": "Bakerloo Line: Severe delays due to train cancellations.",
+      "resolved_at": "2026-10-09T13:42:11Z",
+      "severity": "Severe Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "other",
+      "duration_seconds": 2100,
+      "first_seen": "2026-10-09T13:07:11Z",
+      "issue_key": "metropolitan:text:2df4e90708614385",
+      "line_id": "metropolitan",
+      "line_name": "Metropolitan",
+      "reason": "Metropolitan Line: Minor delays between Moor Park and Watford due to train cancellations. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-10-09T13:42:11Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "passenger incident",
+      "duration_seconds": 2100,
+      "first_seen": "2026-10-09T13:07:11Z",
+      "issue_key": "piccadilly:text:32167c7fed1240ee",
+      "line_id": "piccadilly",
+      "line_name": "Piccadilly",
+      "reason": "Piccadilly Line: Severe delays between Acton Town and Uxbridge and MINOR DELAYS between Cockfosters and Heathrow Terminals westbound only due to an earlier customer incident. Tickets are being accepted on London Buses and Great Northern services. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-10-09T13:42:11Z",
+      "severity": "Severe Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
     {
       "category": "passenger incident",
       "duration_seconds": 13165,
@@ -20357,6 +20403,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-10-09T13:07:11Z",
+  "updated_at": "2026-10-09T13:42:11Z",
   "version": 1
 }
