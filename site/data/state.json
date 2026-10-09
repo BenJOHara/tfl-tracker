@@ -1,27 +1,41 @@
 {
   "active": {
-    "central:text:6d0af7c9d44f714a": {
+    "district:text:1aa463099d7fae72": {
+      "category": "passenger incident",
+      "first_seen": "2026-10-09T22:58:32Z",
+      "issue_key": "district:text:1aa463099d7fae72",
+      "line_id": "district",
+      "line_name": "District",
+      "reason": "District Line: Severe delays between Earl's Court and Wimbledon due to an earlier customer incident. MINOR DELAYS on the rest of the line. Tickets are being accepted on London Buses, Mildmay Line, DLR, Elizabeth Line, and C2C services via any reasonable route.",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    }
+  },
+  "history": [
+    {
       "category": "other",
+      "duration_seconds": 61166,
       "first_seen": "2026-10-09T05:59:06Z",
       "issue_key": "central:text:6d0af7c9d44f714a",
       "line_id": "central",
       "line_name": "Central",
       "reason": "Central Line: Minor delays due to train cancellations.",
+      "resolved_at": "2026-10-09T22:58:32Z",
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "district:text:ccefd2a0c1d3ddb0": {
+    {
       "category": "passenger incident",
+      "duration_seconds": 6664,
       "first_seen": "2026-10-09T21:07:28Z",
       "issue_key": "district:text:ccefd2a0c1d3ddb0",
       "line_id": "district",
       "line_name": "District",
       "reason": "District Line: Severe delays due to an earlier customer incident. Tickets are being accepted on London Buses, Mildmay Line, DLR, Elizabeth Line, and C2C services via any reasonable route.",
+      "resolved_at": "2026-10-09T22:58:32Z",
       "severity": "Severe Delays",
       "source_created": "0001-01-01T00:00:00"
-    }
-  },
-  "history": [
+    },
     {
       "category": "other",
       "duration_seconds": 7414,
@@ -20459,6 +20473,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-10-09T21:07:28Z",
+  "updated_at": "2026-10-09T22:58:32Z",
   "version": 1
 }
