@@ -20,14 +20,24 @@
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "northern:text:dadef5adf8e5edcb": {
+    "metropolitan:text:009c65cfd8e9c6a1": {
+      "category": "other",
+      "first_seen": "2026-10-09T06:38:14Z",
+      "issue_key": "metropolitan:text:009c65cfd8e9c6a1",
+      "line_id": "metropolitan",
+      "line_name": "Metropolitan",
+      "reason": "Metropolitan Line: Minor delays between Moor Park and Amersham due to train cancellations. After the 07:21 departure from Amersham, the next southbound train will be at 07:52. GOOD SERVICE on the rest of the line.",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "northern:text:0a57d1ba4d133392": {
       "category": "planned engineering",
-      "first_seen": "2026-10-09T05:59:06Z",
-      "issue_key": "northern:text:dadef5adf8e5edcb",
+      "first_seen": "2026-10-09T06:38:14Z",
+      "issue_key": "northern:text:0a57d1ba4d133392",
       "line_id": "northern",
       "line_name": "Northern",
-      "reason": "Northern Line: Severe delays between High Barnet and Camden Town/Mill Hill East following a late finish of engineering work. London Underground tickets will be accepted on London buses. GOOD SERVICE on the rest of the line.",
-      "severity": "Severe Delays",
+      "reason": "Northern Line: Minor delays between High Barnet and Camden Town/Mill Hill East following a late finish of engineering work. GOOD SERVICE on the rest of the line.",
+      "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
     "victoria:text:02e0850cdf11ef25": {
@@ -42,6 +52,18 @@
     }
   },
   "history": [
+    {
+      "category": "planned engineering",
+      "duration_seconds": 2348,
+      "first_seen": "2026-10-09T05:59:06Z",
+      "issue_key": "northern:text:dadef5adf8e5edcb",
+      "line_id": "northern",
+      "line_name": "Northern",
+      "reason": "Northern Line: Severe delays between High Barnet and Camden Town/Mill Hill East following a late finish of engineering work. London Underground tickets will be accepted on London buses. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-10-09T06:38:14Z",
+      "severity": "Severe Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
     {
       "category": "other",
       "duration_seconds": 12832,
@@ -20263,6 +20285,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-10-09T05:59:06Z",
+  "updated_at": "2026-10-09T06:38:14Z",
   "version": 1
 }
