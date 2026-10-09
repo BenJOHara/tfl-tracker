@@ -1,13 +1,13 @@
 {
   "active": {
-    "bakerloo:text:c9deee89c1088787": {
+    "bakerloo:text:441236c7b38e407e": {
       "category": "other",
-      "first_seen": "2026-10-09T13:42:11Z",
-      "issue_key": "bakerloo:text:c9deee89c1088787",
+      "first_seen": "2026-10-09T16:27:32Z",
+      "issue_key": "bakerloo:text:441236c7b38e407e",
       "line_id": "bakerloo",
       "line_name": "Bakerloo",
-      "reason": "Bakerloo Line: Severe delays due to train cancellations. Tickets will be accepted on London Buses.",
-      "severity": "Severe Delays",
+      "reason": "Bakerloo Line: Minor delays due to train cancellations.",
+      "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
     "central:text:6d0af7c9d44f714a": {
@@ -19,49 +19,69 @@
       "reason": "Central Line: Minor delays due to train cancellations.",
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
-    },
-    "district:text:f6c0d66a893442ee": {
+    }
+  },
+  "history": [
+    {
       "category": "other",
+      "duration_seconds": 9921,
+      "first_seen": "2026-10-09T13:42:11Z",
+      "issue_key": "bakerloo:text:c9deee89c1088787",
+      "line_id": "bakerloo",
+      "line_name": "Bakerloo",
+      "reason": "Bakerloo Line: Severe delays due to train cancellations. Tickets will be accepted on London Buses.",
+      "resolved_at": "2026-10-09T16:27:32Z",
+      "severity": "Severe Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "other",
+      "duration_seconds": 9921,
       "first_seen": "2026-10-09T13:42:11Z",
       "issue_key": "district:text:f6c0d66a893442ee",
       "line_id": "district",
       "line_name": "District",
       "reason": "District Line: Severe delays between Earl's Court and Barking eastbound only while we help a person ill on a train. Tickets will be accepted on London Buses and C2C. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-10-09T16:27:32Z",
       "severity": "Severe Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "elizabeth:text:f12519c0977d4fe7": {
+    {
       "category": "signal failure",
+      "duration_seconds": 9921,
       "first_seen": "2026-10-09T13:42:11Z",
       "issue_key": "elizabeth:text:f12519c0977d4fe7",
       "line_id": "elizabeth",
       "line_name": "Elizabeth line",
       "reason": "Severe delays between Paddington and Heathrow Airport / Reading due to a signal failure in the Paddington area. GOOD SERVICE on the rest of the line. Tickets are being accepted on London Underground, London Buses, GWR and South Western Railway Services.",
+      "resolved_at": "2026-10-09T16:27:32Z",
       "severity": "Severe Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "piccadilly:text:59ebfcfd5ca08202": {
+    {
       "category": "passenger incident",
+      "duration_seconds": 9921,
       "first_seen": "2026-10-09T13:42:11Z",
       "issue_key": "piccadilly:text:59ebfcfd5ca08202",
       "line_id": "piccadilly",
       "line_name": "Piccadilly",
       "reason": "Piccadilly Line: Minor delays between Acton Town and Uxbridge due to an earlier customer incident. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-10-09T16:27:32Z",
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "victoria:text:02e0850cdf11ef25": {
+    {
       "category": "other",
+      "duration_seconds": 12021,
       "first_seen": "2026-10-09T13:07:11Z",
       "issue_key": "victoria:text:02e0850cdf11ef25",
       "line_id": "victoria",
       "line_name": "Victoria",
       "reason": "Victoria Line: Minor delays due to train cancellations.",
+      "resolved_at": "2026-10-09T16:27:32Z",
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
-    }
-  },
-  "history": [
+    },
     {
       "category": "other",
       "duration_seconds": 2100,
@@ -20403,6 +20423,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-10-09T13:42:11Z",
+  "updated_at": "2026-10-09T16:27:32Z",
   "version": 1
 }
