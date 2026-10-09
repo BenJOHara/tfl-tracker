@@ -1,15 +1,5 @@
 {
   "active": {
-    "bakerloo:text:441236c7b38e407e": {
-      "category": "other",
-      "first_seen": "2026-10-09T16:27:32Z",
-      "issue_key": "bakerloo:text:441236c7b38e407e",
-      "line_id": "bakerloo",
-      "line_name": "Bakerloo",
-      "reason": "Bakerloo Line: Minor delays due to train cancellations.",
-      "severity": "Minor Delays",
-      "source_created": "0001-01-01T00:00:00"
-    },
     "central:text:6d0af7c9d44f714a": {
       "category": "other",
       "first_seen": "2026-10-09T05:59:06Z",
@@ -19,9 +9,31 @@
       "reason": "Central Line: Minor delays due to train cancellations.",
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
+    },
+    "district:text:87b8850a9896eb9e": {
+      "category": "other",
+      "first_seen": "2026-10-09T18:51:47Z",
+      "issue_key": "district:text:87b8850a9896eb9e",
+      "line_id": "district",
+      "line_name": "District",
+      "reason": "District Line: No service between Wimbledon and Earl's Court and SEVERE DELAYS between Earl's Court and Edgware Road while emergency services deal with a casualty on the track. Tickets will be accepted on London Buses. GOOD SERVICE on the rest of the line.",
+      "severity": "Part Suspended",
+      "source_created": "0001-01-01T00:00:00"
     }
   },
   "history": [
+    {
+      "category": "other",
+      "duration_seconds": 8655,
+      "first_seen": "2026-10-09T16:27:32Z",
+      "issue_key": "bakerloo:text:441236c7b38e407e",
+      "line_id": "bakerloo",
+      "line_name": "Bakerloo",
+      "reason": "Bakerloo Line: Minor delays due to train cancellations.",
+      "resolved_at": "2026-10-09T18:51:47Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
     {
       "category": "other",
       "duration_seconds": 9921,
@@ -20423,6 +20435,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-10-09T16:27:32Z",
+  "updated_at": "2026-10-09T18:51:47Z",
   "version": 1
 }
