@@ -70,34 +70,24 @@
       "severity": "Reduced Service",
       "source_created": "0001-01-01T00:00:00"
     },
-    "metropolitan:text:05e92bf2ab4910eb": {
+    "metropolitan:text:3ba8771fd32f07bb": {
       "category": "other",
-      "first_seen": "2026-10-10T13:04:37Z",
-      "issue_key": "metropolitan:text:05e92bf2ab4910eb",
+      "first_seen": "2026-10-10T14:42:21Z",
+      "issue_key": "metropolitan:text:3ba8771fd32f07bb",
       "line_id": "metropolitan",
       "line_name": "Metropolitan",
-      "reason": "Metropolitan Line: Minor delays between Harrow-on-the-Hill and Uxbridge and between Moor Park and Amersham due to train cancellations. The next southbound train from Amersham will be at 14:48. GOOD SERVICE on the rest of the line.",
+      "reason": "Metropolitan Line: Minor delays between Harrow-on-the-Hill and Uxbridge due to train cancellations. GOOD SERVICE on the rest of the line.",
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "northern:text:2934bdacaa175c45": {
-      "category": "train fault",
-      "first_seen": "2026-10-10T13:04:37Z",
-      "issue_key": "northern:text:2934bdacaa175c45",
-      "line_id": "northern",
-      "line_name": "Northern",
-      "reason": "Northern Line: No service between Camden Town and Kennington via Bank southbound only, and SEVERE DELAYS between Kennington and Morden due to an earlier faulty train at Euston. Tickets will be accepted on London Buses via reasonable routes. GOOD SERVICE on the rest of the line.",
-      "severity": "Part Suspended",
-      "source_created": "0001-01-01T00:00:00"
-    },
-    "victoria:text:68052310cc7e4aa8": {
+    "victoria:text:4811862b88e67639": {
       "category": "fire alert",
-      "first_seen": "2026-10-10T13:04:37Z",
-      "issue_key": "victoria:text:68052310cc7e4aa8",
+      "first_seen": "2026-10-10T14:42:21Z",
+      "issue_key": "victoria:text:4811862b88e67639",
       "line_id": "victoria",
       "line_name": "Victoria",
-      "reason": "Victoria Line: No service between Seven Sisters and Walthamstow Central while we respond to a fire alert at Blackhorse Road. SEVERE DELAYS on the rest of the line. Tickets are being accepted on London Buses, Weaver line, Suffragette line, Great Northern, Thameslink, Greater Anglia and South Western Railway services via any reasonable route.",
-      "severity": "Part Suspended",
+      "reason": "Victoria Line: Severe delays due to an earlier fire alert at Blackhorse Road. Tickets are being accepted on London Buses, Weaver line, Suffragette line, Great Northern, Thameslink, Greater Anglia and South Western Railway services via any reasonable route.",
+      "severity": "Severe Delays",
       "source_created": "0001-01-01T00:00:00"
     },
     "waterloo-city:text:02da0890c7cbf303": {
@@ -112,6 +102,42 @@
     }
   },
   "history": [
+    {
+      "category": "other",
+      "duration_seconds": 5864,
+      "first_seen": "2026-10-10T13:04:37Z",
+      "issue_key": "metropolitan:text:05e92bf2ab4910eb",
+      "line_id": "metropolitan",
+      "line_name": "Metropolitan",
+      "reason": "Metropolitan Line: Minor delays between Harrow-on-the-Hill and Uxbridge and between Moor Park and Amersham due to train cancellations. The next southbound train from Amersham will be at 14:48. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-10-10T14:42:21Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "train fault",
+      "duration_seconds": 5864,
+      "first_seen": "2026-10-10T13:04:37Z",
+      "issue_key": "northern:text:2934bdacaa175c45",
+      "line_id": "northern",
+      "line_name": "Northern",
+      "reason": "Northern Line: No service between Camden Town and Kennington via Bank southbound only, and SEVERE DELAYS between Kennington and Morden due to an earlier faulty train at Euston. Tickets will be accepted on London Buses via reasonable routes. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-10-10T14:42:21Z",
+      "severity": "Part Suspended",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "fire alert",
+      "duration_seconds": 5864,
+      "first_seen": "2026-10-10T13:04:37Z",
+      "issue_key": "victoria:text:68052310cc7e4aa8",
+      "line_id": "victoria",
+      "line_name": "Victoria",
+      "reason": "Victoria Line: No service between Seven Sisters and Walthamstow Central while we respond to a fire alert at Blackhorse Road. SEVERE DELAYS on the rest of the line. Tickets are being accepted on London Buses, Weaver line, Suffragette line, Great Northern, Thameslink, Greater Anglia and South Western Railway services via any reasonable route.",
+      "resolved_at": "2026-10-10T14:42:21Z",
+      "severity": "Part Suspended",
+      "source_created": "0001-01-01T00:00:00"
+    },
     {
       "category": "fire alert",
       "duration_seconds": 15918,
@@ -20837,6 +20863,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-10-10T13:04:37Z",
+  "updated_at": "2026-10-10T14:42:21Z",
   "version": 1
 }
