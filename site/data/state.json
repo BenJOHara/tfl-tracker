@@ -1,147 +1,235 @@
 {
   "active": {
-    "bakerloo:text:975c88cf69561d0c": {
+    "circle:text:62cf5ec0ee681142": {
       "category": "other",
+      "first_seen": "2026-10-10T06:43:31Z",
+      "issue_key": "circle:text:62cf5ec0ee681142",
+      "line_id": "circle",
+      "line_name": "Circle",
+      "reason": "CIRCLE LINE: Saturday 10 and Sunday 11 October, no service between Edgware Road and Aldgate (via Victoria)",
+      "severity": "Part Closure",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "district:text:1ae40a9daa316ede": {
+      "category": "other",
+      "first_seen": "2026-10-10T06:43:31Z",
+      "issue_key": "district:text:1ae40a9daa316ede",
+      "line_id": "district",
+      "line_name": "District",
+      "reason": "DISTRICT LINE: Saturday 10 and Sunday 11 October, no service between Edgware Road / Tower Hill and Ealing Broadway / Kensington (Olympia) / Richmond / Wimbledon. Use MILDMAY LINE services between Gunnersbury, Kew Gardens and Richmond. Replacement bus services operate.",
+      "severity": "Part Closure",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "dlr:text:f833d355bce3d130": {
+      "category": "other",
+      "first_seen": "2026-10-10T06:43:31Z",
+      "issue_key": "dlr:text:f833d355bce3d130",
+      "line_id": "dlr",
+      "line_name": "DLR",
+      "reason": "DOCKLANDS LIGHT RAILWAY: Saturday 10 and Sunday 11 October, no service between Stratford International and Woolwich Arsenal. Please use local London Buses, London Underground and Elizabeth line services (for Woolwich) as no replacement bus services will operate.",
+      "severity": "Part Closure",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "lioness:text:6795a2a728b023ad": {
+      "category": "other",
+      "first_seen": "2026-10-10T06:43:31Z",
+      "issue_key": "lioness:text:6795a2a728b023ad",
+      "line_id": "lioness",
+      "line_name": "Lioness",
+      "reason": "LIONESS LINE: Saturday 10 and Sunday 11 October, a reduced service will run between Kilburn High Road and Euston. On Saturday, between 0630 and 2030, trains departing Watford Junction at 30 minutes past each hour will terminate at Kilburn High Road. From 0715 until 2115, trains departing Euston at 15 minutes past each hour will start from Kilburn High Road. On Sunday, between 1130 and 2030, trains departing Watford Junction at 30 minutes past each hour will terminate at Kilburn High Road. From 1215 until 2115, trains departing Euston at 15 minutes past each hour will start from Kilburn High Road",
+      "severity": "Reduced Service",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "metropolitan:text:3ba8771fd32f07bb": {
+      "category": "other",
+      "first_seen": "2026-10-10T06:43:31Z",
+      "issue_key": "metropolitan:text:3ba8771fd32f07bb",
+      "line_id": "metropolitan",
+      "line_name": "Metropolitan",
+      "reason": "Metropolitan Line: Minor delays between Harrow-on-the-Hill and Uxbridge due to train cancellations. GOOD SERVICE on the rest of the line.",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "waterloo-city:text:02da0890c7cbf303": {
+      "category": "other",
+      "first_seen": "2026-10-10T06:43:31Z",
+      "issue_key": "waterloo-city:text:02da0890c7cbf303",
+      "line_id": "waterloo-city",
+      "line_name": "Waterloo & City",
+      "reason": "Waterloo & City line: service operates 06:00 until 00:30, Monday to Friday only. There is no service on Saturdays, Sundays and on bank/public holidays.",
+      "severity": "Planned Closure",
+      "source_created": "0001-01-01T00:00:00"
+    }
+  },
+  "history": [
+    {
+      "category": "other",
+      "duration_seconds": 21114,
       "first_seen": "2026-10-10T00:51:37Z",
       "issue_key": "bakerloo:text:975c88cf69561d0c",
       "line_id": "bakerloo",
       "line_name": "Bakerloo",
       "reason": "Bakerloo Line: Service will resume later this morning.",
+      "resolved_at": "2026-10-10T06:43:31Z",
       "severity": "Service Closed",
       "source_created": "0001-01-01T00:00:00"
     },
-    "circle:text:a1099579f6415e8f": {
+    {
       "category": "other",
+      "duration_seconds": 21114,
       "first_seen": "2026-10-10T00:51:37Z",
       "issue_key": "circle:text:a1099579f6415e8f",
       "line_id": "circle",
       "line_name": "Circle",
       "reason": "Circle Line: Service will resume later this morning.",
+      "resolved_at": "2026-10-10T06:43:31Z",
       "severity": "Service Closed",
       "source_created": "0001-01-01T00:00:00"
     },
-    "district:text:468f4f04f34d8411": {
+    {
       "category": "other",
+      "duration_seconds": 21114,
       "first_seen": "2026-10-10T00:51:37Z",
       "issue_key": "district:text:468f4f04f34d8411",
       "line_id": "district",
       "line_name": "District",
       "reason": "District Line: Service will resume later this morning.",
+      "resolved_at": "2026-10-10T06:43:31Z",
       "severity": "Service Closed",
       "source_created": "0001-01-01T00:00:00"
     },
-    "dlr:text:fb244db083a3f0ff": {
+    {
       "category": "other",
+      "duration_seconds": 21114,
       "first_seen": "2026-10-10T00:51:37Z",
       "issue_key": "dlr:text:fb244db083a3f0ff",
       "line_id": "dlr",
       "line_name": "DLR",
       "reason": "Docklands Light Railway: Service will resume later this morning.",
+      "resolved_at": "2026-10-10T06:43:31Z",
       "severity": "Service Closed",
       "source_created": "0001-01-01T00:00:00"
     },
-    "elizabeth:text:85644759b2256fee": {
+    {
       "category": "other",
+      "duration_seconds": 21114,
       "first_seen": "2026-10-10T00:51:37Z",
       "issue_key": "elizabeth:text:85644759b2256fee",
       "line_id": "elizabeth",
       "line_name": "Elizabeth line",
       "reason": "Service will resume later this morning.",
+      "resolved_at": "2026-10-10T06:43:31Z",
       "severity": "Service Closed",
       "source_created": "0001-01-01T00:00:00"
     },
-    "hammersmith-city:text:b560078b35a5fd17": {
+    {
       "category": "other",
+      "duration_seconds": 21114,
       "first_seen": "2026-10-10T00:51:37Z",
       "issue_key": "hammersmith-city:text:b560078b35a5fd17",
       "line_id": "hammersmith-city",
       "line_name": "Hammersmith & City",
       "reason": "Hammersmith and City Line: Service will resume later this morning.",
+      "resolved_at": "2026-10-10T06:43:31Z",
       "severity": "Service Closed",
       "source_created": "0001-01-01T00:00:00"
     },
-    "liberty:text:19134079f5c98ab7": {
+    {
       "category": "other",
+      "duration_seconds": 21114,
       "first_seen": "2026-10-10T00:51:37Z",
       "issue_key": "liberty:text:19134079f5c98ab7",
       "line_id": "liberty",
       "line_name": "Liberty",
       "reason": "Liberty Line: Service will resume later this morning.",
+      "resolved_at": "2026-10-10T06:43:31Z",
       "severity": "Service Closed",
       "source_created": "0001-01-01T00:00:00"
     },
-    "lioness:text:edb0d527df87ed16": {
+    {
       "category": "other",
+      "duration_seconds": 21114,
       "first_seen": "2026-10-10T00:51:37Z",
       "issue_key": "lioness:text:edb0d527df87ed16",
       "line_id": "lioness",
       "line_name": "Lioness",
       "reason": "Lioness Line: Service will resume later this morning.",
+      "resolved_at": "2026-10-10T06:43:31Z",
       "severity": "Service Closed",
       "source_created": "0001-01-01T00:00:00"
     },
-    "metropolitan:text:4b366f757f8f5a28": {
+    {
       "category": "other",
+      "duration_seconds": 21114,
       "first_seen": "2026-10-10T00:51:37Z",
       "issue_key": "metropolitan:text:4b366f757f8f5a28",
       "line_id": "metropolitan",
       "line_name": "Metropolitan",
       "reason": "Metropolitan Line: Service will resume later this morning.",
+      "resolved_at": "2026-10-10T06:43:31Z",
       "severity": "Service Closed",
       "source_created": "0001-01-01T00:00:00"
     },
-    "mildmay:text:43f3ca710bb3792b": {
+    {
       "category": "other",
+      "duration_seconds": 21114,
       "first_seen": "2026-10-10T00:51:37Z",
       "issue_key": "mildmay:text:43f3ca710bb3792b",
       "line_id": "mildmay",
       "line_name": "Mildmay",
       "reason": "Mildmay Line: Service will resume later this morning.",
+      "resolved_at": "2026-10-10T06:43:31Z",
       "severity": "Service Closed",
       "source_created": "0001-01-01T00:00:00"
     },
-    "suffragette:text:774000467a2b26d3": {
+    {
       "category": "other",
+      "duration_seconds": 21114,
       "first_seen": "2026-10-10T00:51:37Z",
       "issue_key": "suffragette:text:774000467a2b26d3",
       "line_id": "suffragette",
       "line_name": "Suffragette",
       "reason": "Suffragette Line: Service will resume later this morning.",
+      "resolved_at": "2026-10-10T06:43:31Z",
       "severity": "Service Closed",
       "source_created": "0001-01-01T00:00:00"
     },
-    "tram:text:ab9d7a64f14b787b": {
+    {
       "category": "other",
+      "duration_seconds": 21114,
       "first_seen": "2026-10-10T00:51:37Z",
       "issue_key": "tram:text:ab9d7a64f14b787b",
       "line_id": "tram",
       "line_name": "Tram",
       "reason": "London Tramlink: Service will resume later this morning.",
+      "resolved_at": "2026-10-10T06:43:31Z",
       "severity": "Service Closed",
       "source_created": "0001-01-01T00:00:00"
     },
-    "waterloo-city:text:1bbcac27f282d0db": {
+    {
       "category": "other",
+      "duration_seconds": 21114,
       "first_seen": "2026-10-10T00:51:37Z",
       "issue_key": "waterloo-city:text:1bbcac27f282d0db",
       "line_id": "waterloo-city",
       "line_name": "Waterloo & City",
       "reason": "Waterloo and City Line: Service will resume at 06:00 on Monday.",
+      "resolved_at": "2026-10-10T06:43:31Z",
       "severity": "Service Closed",
       "source_created": "0001-01-01T00:00:00"
     },
-    "weaver:text:f2dc8c00c6757e13": {
+    {
       "category": "other",
+      "duration_seconds": 21114,
       "first_seen": "2026-10-10T00:51:37Z",
       "issue_key": "weaver:text:f2dc8c00c6757e13",
       "line_id": "weaver",
       "line_name": "Weaver",
       "reason": "Weaver Line: Service will resume later this morning.",
+      "resolved_at": "2026-10-10T06:43:31Z",
       "severity": "Service Closed",
       "source_created": "0001-01-01T00:00:00"
-    }
-  },
-  "history": [
+    },
     {
       "category": "passenger incident",
       "duration_seconds": 6785,
@@ -20615,6 +20703,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-10-10T00:51:37Z",
+  "updated_at": "2026-10-10T06:43:31Z",
   "version": 1
 }
