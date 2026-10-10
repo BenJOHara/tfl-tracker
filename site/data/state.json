@@ -1,5 +1,25 @@
 {
   "active": {
+    "bakerloo:text:441236c7b38e407e": {
+      "category": "other",
+      "first_seen": "2026-10-10T13:04:37Z",
+      "issue_key": "bakerloo:text:441236c7b38e407e",
+      "line_id": "bakerloo",
+      "line_name": "Bakerloo",
+      "reason": "Bakerloo Line: Minor delays due to train cancellations.",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "central:text:6d0af7c9d44f714a": {
+      "category": "other",
+      "first_seen": "2026-10-10T13:04:37Z",
+      "issue_key": "central:text:6d0af7c9d44f714a",
+      "line_id": "central",
+      "line_name": "Central",
+      "reason": "Central Line: Minor delays due to train cancellations.",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
     "circle:text:62cf5ec0ee681142": {
       "category": "other",
       "first_seen": "2026-10-10T06:43:31Z",
@@ -20,16 +40,6 @@
       "severity": "Part Closure",
       "source_created": "0001-01-01T00:00:00"
     },
-    "dlr:text:2ffa3a7b09b5b3dc": {
-      "category": "fire alert",
-      "first_seen": "2026-10-10T08:39:19Z",
-      "issue_key": "dlr:text:2ffa3a7b09b5b3dc",
-      "line_id": "dlr",
-      "line_name": "DLR",
-      "reason": "Docklands Light Railway: No service between Stratford International and Woolwich Arsenal due to planned engineering work. NO SERVICE between Shadwell and Bank while we respond to a fire alert at Bank. GOOD SERVICE on the rest of the line.",
-      "severity": "Part Suspended",
-      "source_created": "0001-01-01T00:00:00"
-    },
     "dlr:text:f833d355bce3d130": {
       "category": "other",
       "first_seen": "2026-10-10T06:43:31Z",
@@ -40,14 +50,14 @@
       "severity": "Part Closure",
       "source_created": "0001-01-01T00:00:00"
     },
-    "jubilee:text:14787a8016cf6bd5": {
+    "jubilee:text:baa0850cf9ac13f4": {
       "category": "train fault",
-      "first_seen": "2026-10-10T08:39:19Z",
-      "issue_key": "jubilee:text:14787a8016cf6bd5",
+      "first_seen": "2026-10-10T13:04:37Z",
+      "issue_key": "jubilee:text:baa0850cf9ac13f4",
       "line_id": "jubilee",
       "line_name": "Jubilee",
-      "reason": "Jubilee Line: No service between North Greenwich and Stratford and SEVERE DELAYS on the rest of the line while we fix a faulty train at West Ham. Tickets are being accepted on London Buses, Mildmay Line, Elizabeth Line and C2C services.",
-      "severity": "Part Suspended",
+      "reason": "Jubilee Line: Severe delays due to an earlier faulty train at West Ham. Tickets are being accepted on London Buses, Mildmay Line, Elizabeth Line and C2C services.",
+      "severity": "Severe Delays",
       "source_created": "0001-01-01T00:00:00"
     },
     "lioness:text:6795a2a728b023ad": {
@@ -60,44 +70,34 @@
       "severity": "Reduced Service",
       "source_created": "0001-01-01T00:00:00"
     },
-    "metropolitan:text:75f2120d140a5a19": {
+    "metropolitan:text:05e92bf2ab4910eb": {
       "category": "other",
-      "first_seen": "2026-10-10T08:39:19Z",
-      "issue_key": "metropolitan:text:75f2120d140a5a19",
+      "first_seen": "2026-10-10T13:04:37Z",
+      "issue_key": "metropolitan:text:05e92bf2ab4910eb",
       "line_id": "metropolitan",
       "line_name": "Metropolitan",
-      "reason": "Metropolitan Line: Severe delays between Harrow-on-the-Hill and Uxbridge, and MINOR DELAYS between Moor Park and Watford due to train cancellations. Tickets will be accepted on London Buses via reasonable routes. GOOD SERVICE on the rest of the line.",
+      "reason": "Metropolitan Line: Minor delays between Harrow-on-the-Hill and Uxbridge and between Moor Park and Amersham due to train cancellations. The next southbound train from Amersham will be at 14:48. GOOD SERVICE on the rest of the line.",
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "mildmay:text:009fd5ca35c73d5d": {
-      "category": "signal failure",
-      "first_seen": "2026-10-10T08:39:19Z",
-      "issue_key": "mildmay:text:009fd5ca35c73d5d",
-      "line_id": "mildmay",
-      "line_name": "Mildmay",
-      "reason": "Mildmay Line: No service between Willesden Junction and Richmond while we fix a signal failure at South Acton. GOOD SERVICE on the rest of the line.",
-      "severity": "Part Suspended",
-      "source_created": "0001-01-01T00:00:00"
-    },
-    "northern:text:17b9f1c3e68219fc": {
+    "northern:text:2934bdacaa175c45": {
       "category": "train fault",
-      "first_seen": "2026-10-10T08:39:19Z",
-      "issue_key": "northern:text:17b9f1c3e68219fc",
+      "first_seen": "2026-10-10T13:04:37Z",
+      "issue_key": "northern:text:2934bdacaa175c45",
       "line_id": "northern",
       "line_name": "Northern",
-      "reason": "Northern Line: No service between Camden Town and Kennington via Bank southbound only while we fix a faulty train at Euston. Tickets will be accepted on London Buses via reasonable routes. GOOD SERVICE on the rest of the line.",
+      "reason": "Northern Line: No service between Camden Town and Kennington via Bank southbound only, and SEVERE DELAYS between Kennington and Morden due to an earlier faulty train at Euston. Tickets will be accepted on London Buses via reasonable routes. GOOD SERVICE on the rest of the line.",
       "severity": "Part Suspended",
       "source_created": "0001-01-01T00:00:00"
     },
-    "victoria:text:02e0850cdf11ef25": {
-      "category": "other",
-      "first_seen": "2026-10-10T08:39:19Z",
-      "issue_key": "victoria:text:02e0850cdf11ef25",
+    "victoria:text:68052310cc7e4aa8": {
+      "category": "fire alert",
+      "first_seen": "2026-10-10T13:04:37Z",
+      "issue_key": "victoria:text:68052310cc7e4aa8",
       "line_id": "victoria",
       "line_name": "Victoria",
-      "reason": "Victoria Line: Minor delays due to train cancellations.",
-      "severity": "Minor Delays",
+      "reason": "Victoria Line: No service between Seven Sisters and Walthamstow Central while we respond to a fire alert at Blackhorse Road. SEVERE DELAYS on the rest of the line. Tickets are being accepted on London Buses, Weaver line, Suffragette line, Great Northern, Thameslink, Greater Anglia and South Western Railway services via any reasonable route.",
+      "severity": "Part Suspended",
       "source_created": "0001-01-01T00:00:00"
     },
     "waterloo-city:text:02da0890c7cbf303": {
@@ -112,6 +112,78 @@
     }
   },
   "history": [
+    {
+      "category": "fire alert",
+      "duration_seconds": 15918,
+      "first_seen": "2026-10-10T08:39:19Z",
+      "issue_key": "dlr:text:2ffa3a7b09b5b3dc",
+      "line_id": "dlr",
+      "line_name": "DLR",
+      "reason": "Docklands Light Railway: No service between Stratford International and Woolwich Arsenal due to planned engineering work. NO SERVICE between Shadwell and Bank while we respond to a fire alert at Bank. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-10-10T13:04:37Z",
+      "severity": "Part Suspended",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "train fault",
+      "duration_seconds": 15918,
+      "first_seen": "2026-10-10T08:39:19Z",
+      "issue_key": "jubilee:text:14787a8016cf6bd5",
+      "line_id": "jubilee",
+      "line_name": "Jubilee",
+      "reason": "Jubilee Line: No service between North Greenwich and Stratford and SEVERE DELAYS on the rest of the line while we fix a faulty train at West Ham. Tickets are being accepted on London Buses, Mildmay Line, Elizabeth Line and C2C services.",
+      "resolved_at": "2026-10-10T13:04:37Z",
+      "severity": "Part Suspended",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "other",
+      "duration_seconds": 15918,
+      "first_seen": "2026-10-10T08:39:19Z",
+      "issue_key": "metropolitan:text:75f2120d140a5a19",
+      "line_id": "metropolitan",
+      "line_name": "Metropolitan",
+      "reason": "Metropolitan Line: Severe delays between Harrow-on-the-Hill and Uxbridge, and MINOR DELAYS between Moor Park and Watford due to train cancellations. Tickets will be accepted on London Buses via reasonable routes. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-10-10T13:04:37Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "signal failure",
+      "duration_seconds": 15918,
+      "first_seen": "2026-10-10T08:39:19Z",
+      "issue_key": "mildmay:text:009fd5ca35c73d5d",
+      "line_id": "mildmay",
+      "line_name": "Mildmay",
+      "reason": "Mildmay Line: No service between Willesden Junction and Richmond while we fix a signal failure at South Acton. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-10-10T13:04:37Z",
+      "severity": "Part Suspended",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "train fault",
+      "duration_seconds": 15918,
+      "first_seen": "2026-10-10T08:39:19Z",
+      "issue_key": "northern:text:17b9f1c3e68219fc",
+      "line_id": "northern",
+      "line_name": "Northern",
+      "reason": "Northern Line: No service between Camden Town and Kennington via Bank southbound only while we fix a faulty train at Euston. Tickets will be accepted on London Buses via reasonable routes. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-10-10T13:04:37Z",
+      "severity": "Part Suspended",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "other",
+      "duration_seconds": 15918,
+      "first_seen": "2026-10-10T08:39:19Z",
+      "issue_key": "victoria:text:02e0850cdf11ef25",
+      "line_id": "victoria",
+      "line_name": "Victoria",
+      "reason": "Victoria Line: Minor delays due to train cancellations.",
+      "resolved_at": "2026-10-10T13:04:37Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
     {
       "category": "other",
       "duration_seconds": 6948,
@@ -20765,6 +20837,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-10-10T08:39:19Z",
+  "updated_at": "2026-10-10T13:04:37Z",
   "version": 1
 }
