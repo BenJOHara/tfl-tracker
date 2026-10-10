@@ -1,13 +1,13 @@
 {
   "active": {
-    "bakerloo:text:3e0c9c37a6c63665": {
+    "bakerloo:text:441236c7b38e407e": {
       "category": "other",
-      "first_seen": "2026-10-10T17:51:45Z",
-      "issue_key": "bakerloo:text:3e0c9c37a6c63665",
+      "first_seen": "2026-10-10T18:56:38Z",
+      "issue_key": "bakerloo:text:441236c7b38e407e",
       "line_id": "bakerloo",
       "line_name": "Bakerloo",
-      "reason": "Bakerloo Line: Severe delays between Queen's Park and Harrow & Wealdstone while we fix faulty communications equipment at Elephant & Castle. Tickets will be accepted on London Buses, Lioness line, London Northwestern Railway and Thameslink services via reasonable routes. MINOR DELAYS on the rest of the line.",
-      "severity": "Severe Delays",
+      "reason": "Bakerloo Line: Minor delays due to train cancellations.",
+      "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
     "circle:text:62cf5ec0ee681142": {
@@ -82,6 +82,18 @@
     }
   },
   "history": [
+    {
+      "category": "other",
+      "duration_seconds": 3893,
+      "first_seen": "2026-10-10T17:51:45Z",
+      "issue_key": "bakerloo:text:3e0c9c37a6c63665",
+      "line_id": "bakerloo",
+      "line_name": "Bakerloo",
+      "reason": "Bakerloo Line: Severe delays between Queen's Park and Harrow & Wealdstone while we fix faulty communications equipment at Elephant & Castle. Tickets will be accepted on London Buses, Lioness line, London Northwestern Railway and Thameslink services via reasonable routes. MINOR DELAYS on the rest of the line.",
+      "resolved_at": "2026-10-10T18:56:38Z",
+      "severity": "Severe Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
     {
       "category": "other",
       "duration_seconds": 17228,
@@ -20891,6 +20903,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-10-10T17:51:45Z",
+  "updated_at": "2026-10-10T18:56:38Z",
   "version": 1
 }
