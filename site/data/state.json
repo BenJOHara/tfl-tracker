@@ -10,6 +10,16 @@
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
+    "central:text:2a5b8146e7cd1311": {
+      "category": "passenger incident",
+      "first_seen": "2026-10-10T21:15:02Z",
+      "issue_key": "central:text:2a5b8146e7cd1311",
+      "line_id": "central",
+      "line_name": "Central",
+      "reason": "Central Line: Minor delays between North Acton and Ealing Broadway / West Ruislip and between Leytonstone and Epping / Hainault via Newbury Park due to an earlier customer incident at Bond Street. GOOD SERVICE on the rest of the line.",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
     "circle:text:62cf5ec0ee681142": {
       "category": "other",
       "first_seen": "2026-10-10T06:43:31Z",
@@ -38,16 +48,6 @@
       "line_name": "DLR",
       "reason": "DOCKLANDS LIGHT RAILWAY: Saturday 10 and Sunday 11 October, no service between Stratford International and Woolwich Arsenal. Please use local London Buses, London Underground and Elizabeth line services (for Woolwich) as no replacement bus services will operate.",
       "severity": "Part Closure",
-      "source_created": "0001-01-01T00:00:00"
-    },
-    "lioness:text:6795a2a728b023ad": {
-      "category": "other",
-      "first_seen": "2026-10-10T06:43:31Z",
-      "issue_key": "lioness:text:6795a2a728b023ad",
-      "line_id": "lioness",
-      "line_name": "Lioness",
-      "reason": "LIONESS LINE: Saturday 10 and Sunday 11 October, a reduced service will run between Kilburn High Road and Euston. On Saturday, between 0630 and 2030, trains departing Watford Junction at 30 minutes past each hour will terminate at Kilburn High Road. From 0715 until 2115, trains departing Euston at 15 minutes past each hour will start from Kilburn High Road. On Sunday, between 1130 and 2030, trains departing Watford Junction at 30 minutes past each hour will terminate at Kilburn High Road. From 1215 until 2115, trains departing Euston at 15 minutes past each hour will start from Kilburn High Road",
-      "severity": "Reduced Service",
       "source_created": "0001-01-01T00:00:00"
     },
     "victoria:text:4811862b88e67639": {
@@ -82,6 +82,18 @@
     }
   },
   "history": [
+    {
+      "category": "other",
+      "duration_seconds": 52291,
+      "first_seen": "2026-10-10T06:43:31Z",
+      "issue_key": "lioness:text:6795a2a728b023ad",
+      "line_id": "lioness",
+      "line_name": "Lioness",
+      "reason": "LIONESS LINE: Saturday 10 and Sunday 11 October, a reduced service will run between Kilburn High Road and Euston. On Saturday, between 0630 and 2030, trains departing Watford Junction at 30 minutes past each hour will terminate at Kilburn High Road. From 0715 until 2115, trains departing Euston at 15 minutes past each hour will start from Kilburn High Road. On Sunday, between 1130 and 2030, trains departing Watford Junction at 30 minutes past each hour will terminate at Kilburn High Road. From 1215 until 2115, trains departing Euston at 15 minutes past each hour will start from Kilburn High Road",
+      "resolved_at": "2026-10-10T21:15:02Z",
+      "severity": "Reduced Service",
+      "source_created": "0001-01-01T00:00:00"
+    },
     {
       "category": "other",
       "duration_seconds": 3893,
@@ -20903,6 +20915,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-10-10T18:56:38Z",
+  "updated_at": "2026-10-10T21:15:02Z",
   "version": 1
 }
