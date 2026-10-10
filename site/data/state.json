@@ -1,23 +1,13 @@
 {
   "active": {
-    "bakerloo:text:441236c7b38e407e": {
+    "bakerloo:text:3e0c9c37a6c63665": {
       "category": "other",
-      "first_seen": "2026-10-10T13:04:37Z",
-      "issue_key": "bakerloo:text:441236c7b38e407e",
+      "first_seen": "2026-10-10T17:51:45Z",
+      "issue_key": "bakerloo:text:3e0c9c37a6c63665",
       "line_id": "bakerloo",
       "line_name": "Bakerloo",
-      "reason": "Bakerloo Line: Minor delays due to train cancellations.",
-      "severity": "Minor Delays",
-      "source_created": "0001-01-01T00:00:00"
-    },
-    "central:text:6d0af7c9d44f714a": {
-      "category": "other",
-      "first_seen": "2026-10-10T13:04:37Z",
-      "issue_key": "central:text:6d0af7c9d44f714a",
-      "line_id": "central",
-      "line_name": "Central",
-      "reason": "Central Line: Minor delays due to train cancellations.",
-      "severity": "Minor Delays",
+      "reason": "Bakerloo Line: Severe delays between Queen's Park and Harrow & Wealdstone while we fix faulty communications equipment at Elephant & Castle. Tickets will be accepted on London Buses, Lioness line, London Northwestern Railway and Thameslink services via reasonable routes. MINOR DELAYS on the rest of the line.",
+      "severity": "Severe Delays",
       "source_created": "0001-01-01T00:00:00"
     },
     "circle:text:62cf5ec0ee681142": {
@@ -50,16 +40,6 @@
       "severity": "Part Closure",
       "source_created": "0001-01-01T00:00:00"
     },
-    "jubilee:text:baa0850cf9ac13f4": {
-      "category": "train fault",
-      "first_seen": "2026-10-10T13:04:37Z",
-      "issue_key": "jubilee:text:baa0850cf9ac13f4",
-      "line_id": "jubilee",
-      "line_name": "Jubilee",
-      "reason": "Jubilee Line: Severe delays due to an earlier faulty train at West Ham. Tickets are being accepted on London Buses, Mildmay Line, Elizabeth Line and C2C services.",
-      "severity": "Severe Delays",
-      "source_created": "0001-01-01T00:00:00"
-    },
     "lioness:text:6795a2a728b023ad": {
       "category": "other",
       "first_seen": "2026-10-10T06:43:31Z",
@@ -68,16 +48,6 @@
       "line_name": "Lioness",
       "reason": "LIONESS LINE: Saturday 10 and Sunday 11 October, a reduced service will run between Kilburn High Road and Euston. On Saturday, between 0630 and 2030, trains departing Watford Junction at 30 minutes past each hour will terminate at Kilburn High Road. From 0715 until 2115, trains departing Euston at 15 minutes past each hour will start from Kilburn High Road. On Sunday, between 1130 and 2030, trains departing Watford Junction at 30 minutes past each hour will terminate at Kilburn High Road. From 1215 until 2115, trains departing Euston at 15 minutes past each hour will start from Kilburn High Road",
       "severity": "Reduced Service",
-      "source_created": "0001-01-01T00:00:00"
-    },
-    "metropolitan:text:3ba8771fd32f07bb": {
-      "category": "other",
-      "first_seen": "2026-10-10T14:42:21Z",
-      "issue_key": "metropolitan:text:3ba8771fd32f07bb",
-      "line_id": "metropolitan",
-      "line_name": "Metropolitan",
-      "reason": "Metropolitan Line: Minor delays between Harrow-on-the-Hill and Uxbridge due to train cancellations. GOOD SERVICE on the rest of the line.",
-      "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
     "victoria:text:4811862b88e67639": {
@@ -99,9 +69,67 @@
       "reason": "Waterloo & City line: service operates 06:00 until 00:30, Monday to Friday only. There is no service on Saturdays, Sundays and on bank/public holidays.",
       "severity": "Planned Closure",
       "source_created": "0001-01-01T00:00:00"
+    },
+    "windrush:text:2b29017cebf8605f": {
+      "category": "other",
+      "first_seen": "2026-10-10T17:51:45Z",
+      "issue_key": "windrush:text:2b29017cebf8605f",
+      "line_id": "windrush",
+      "line_name": "Windrush",
+      "reason": "Windrush Line: Minor delays due to train cancellations.",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
     }
   },
   "history": [
+    {
+      "category": "other",
+      "duration_seconds": 17228,
+      "first_seen": "2026-10-10T13:04:37Z",
+      "issue_key": "bakerloo:text:441236c7b38e407e",
+      "line_id": "bakerloo",
+      "line_name": "Bakerloo",
+      "reason": "Bakerloo Line: Minor delays due to train cancellations.",
+      "resolved_at": "2026-10-10T17:51:45Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "other",
+      "duration_seconds": 17228,
+      "first_seen": "2026-10-10T13:04:37Z",
+      "issue_key": "central:text:6d0af7c9d44f714a",
+      "line_id": "central",
+      "line_name": "Central",
+      "reason": "Central Line: Minor delays due to train cancellations.",
+      "resolved_at": "2026-10-10T17:51:45Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "train fault",
+      "duration_seconds": 17228,
+      "first_seen": "2026-10-10T13:04:37Z",
+      "issue_key": "jubilee:text:baa0850cf9ac13f4",
+      "line_id": "jubilee",
+      "line_name": "Jubilee",
+      "reason": "Jubilee Line: Severe delays due to an earlier faulty train at West Ham. Tickets are being accepted on London Buses, Mildmay Line, Elizabeth Line and C2C services.",
+      "resolved_at": "2026-10-10T17:51:45Z",
+      "severity": "Severe Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "other",
+      "duration_seconds": 11364,
+      "first_seen": "2026-10-10T14:42:21Z",
+      "issue_key": "metropolitan:text:3ba8771fd32f07bb",
+      "line_id": "metropolitan",
+      "line_name": "Metropolitan",
+      "reason": "Metropolitan Line: Minor delays between Harrow-on-the-Hill and Uxbridge due to train cancellations. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-10-10T17:51:45Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
     {
       "category": "other",
       "duration_seconds": 5864,
@@ -20863,6 +20891,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-10-10T14:42:21Z",
+  "updated_at": "2026-10-10T17:51:45Z",
   "version": 1
 }
