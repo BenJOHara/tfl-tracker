@@ -70,6 +70,16 @@
       "severity": "Planned Closure",
       "source_created": "0001-01-01T00:00:00"
     },
+    "windrush:text:222a100186b530a0": {
+      "category": "train fault",
+      "first_seen": "2026-10-11T19:00:05Z",
+      "issue_key": "windrush:text:222a100186b530a0",
+      "line_id": "windrush",
+      "line_name": "Windrush",
+      "reason": "Windrush Line: No service between Wandsworth Road and Clapham Junction due to planned engineering work. MINOR DELAYS between Highbury & Islington and New Cross / New Cross Gate due to an earlier faulty train at Surrey Quays. GOOD SERVICE on the rest of the line.",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
     "windrush:text:3fcadacba9396624": {
       "category": "other",
       "first_seen": "2026-10-11T05:54:27Z",
@@ -21287,6 +21297,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-10-11T18:25:22Z",
+  "updated_at": "2026-10-11T19:00:05Z",
   "version": 1
 }
