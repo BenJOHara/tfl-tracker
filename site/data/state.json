@@ -1,5 +1,15 @@
 {
   "active": {
+    "bakerloo:text:757b41e4702608b5": {
+      "category": "passenger incident",
+      "first_seen": "2026-10-11T22:09:51Z",
+      "issue_key": "bakerloo:text:757b41e4702608b5",
+      "line_id": "bakerloo",
+      "line_name": "Bakerloo",
+      "reason": "Bakerloo Line: Severe delays due to an earlier customer incident. Tickets are being accepted on London Buses.",
+      "severity": "Severe Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
     "central:text:8acda17f7d3e2edc": {
       "category": "points failure",
       "first_seen": "2026-10-11T21:03:54Z",
@@ -40,6 +50,26 @@
       "severity": "Part Closure",
       "source_created": "0001-01-01T00:00:00"
     },
+    "lioness:text:dd307bd4059ce826": {
+      "category": "passenger incident",
+      "first_seen": "2026-10-11T22:09:51Z",
+      "issue_key": "lioness:text:dd307bd4059ce826",
+      "line_id": "lioness",
+      "line_name": "Lioness",
+      "reason": "Lioness Line: Minor delays due to an earlier customer incident at Willesden Junction.",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "mildmay:text:22f4f04e3b22e0df": {
+      "category": "other",
+      "first_seen": "2026-10-11T22:09:51Z",
+      "issue_key": "mildmay:text:22f4f04e3b22e0df",
+      "line_id": "mildmay",
+      "line_name": "Mildmay",
+      "reason": "MILDMAY LINE: Sunday 11 October, the 2201 train from Stratford to Richmond will terminate at Willesden Junction at 2241",
+      "severity": "Reduced Service",
+      "source_created": "0001-01-01T00:00:00"
+    },
     "mildmay:text:42fade78eb8ed58d": {
       "category": "other",
       "first_seen": "2026-10-11T05:54:27Z",
@@ -50,14 +80,14 @@
       "severity": "Reduced Service",
       "source_created": "0001-01-01T00:00:00"
     },
-    "suffragette:text:a0f4faf0ea9519c1": {
+    "suffragette:text:e16130fb49fa1a30": {
       "category": "other",
-      "first_seen": "2026-10-11T12:14:03Z",
-      "issue_key": "suffragette:text:a0f4faf0ea9519c1",
+      "first_seen": "2026-10-11T22:09:51Z",
+      "issue_key": "suffragette:text:e16130fb49fa1a30",
       "line_id": "suffragette",
       "line_name": "Suffragette",
-      "reason": "SUFFRAGETTE LINE: Sunday 11 October, between 0845 and 2300, no service between Barking and Barking Riverside, please use local London Buses services.",
-      "severity": "Part Closure",
+      "reason": "SUFFRAGETTE LINE: Sunday 11 October, until 0845 and after 2300, no service between Gospel Oak and Barking Riverside. Please use local London Buses and London Underground services as no replacement bus services will operate for this closure.",
+      "severity": "Planned Closure",
       "source_created": "0001-01-01T00:00:00"
     },
     "waterloo-city:text:02da0890c7cbf303": {
@@ -82,6 +112,18 @@
     }
   },
   "history": [
+    {
+      "category": "other",
+      "duration_seconds": 35748,
+      "first_seen": "2026-10-11T12:14:03Z",
+      "issue_key": "suffragette:text:a0f4faf0ea9519c1",
+      "line_id": "suffragette",
+      "line_name": "Suffragette",
+      "reason": "SUFFRAGETTE LINE: Sunday 11 October, between 0845 and 2300, no service between Barking and Barking Riverside, please use local London Buses services.",
+      "resolved_at": "2026-10-11T22:09:51Z",
+      "severity": "Part Closure",
+      "source_created": "0001-01-01T00:00:00"
+    },
     {
       "category": "other",
       "duration_seconds": 31791,
@@ -21311,6 +21353,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-10-11T21:03:54Z",
+  "updated_at": "2026-10-11T22:09:51Z",
   "version": 1
 }
