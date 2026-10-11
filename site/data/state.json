@@ -60,16 +60,6 @@
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "mildmay:text:22f4f04e3b22e0df": {
-      "category": "other",
-      "first_seen": "2026-10-11T22:09:51Z",
-      "issue_key": "mildmay:text:22f4f04e3b22e0df",
-      "line_id": "mildmay",
-      "line_name": "Mildmay",
-      "reason": "MILDMAY LINE: Sunday 11 October, the 2201 train from Stratford to Richmond will terminate at Willesden Junction at 2241",
-      "severity": "Reduced Service",
-      "source_created": "0001-01-01T00:00:00"
-    },
     "mildmay:text:42fade78eb8ed58d": {
       "category": "other",
       "first_seen": "2026-10-11T05:54:27Z",
@@ -77,6 +67,16 @@
       "line_id": "mildmay",
       "line_name": "Mildmay",
       "reason": "MILDMAY LINE: Sunday 11 October, a reduced service will run between Kensington (Olympia) and Clapham Junction. Trains will use platform 17 at Clapham Junction. Southern Railway services will not operate between Shepherds Bush and Watford Junction until 1200.",
+      "severity": "Reduced Service",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "suffragette:text:b90e784d7662ccdb": {
+      "category": "other",
+      "first_seen": "2026-10-11T22:48:55Z",
+      "issue_key": "suffragette:text:b90e784d7662ccdb",
+      "line_id": "suffragette",
+      "line_name": "Suffragette",
+      "reason": "SUFFRAGETTE LINE: Sunday 11 October, the 2310 train from Gospel Oak to Barking Riverside will not run",
       "severity": "Reduced Service",
       "source_created": "0001-01-01T00:00:00"
     },
@@ -112,6 +112,18 @@
     }
   },
   "history": [
+    {
+      "category": "other",
+      "duration_seconds": 2344,
+      "first_seen": "2026-10-11T22:09:51Z",
+      "issue_key": "mildmay:text:22f4f04e3b22e0df",
+      "line_id": "mildmay",
+      "line_name": "Mildmay",
+      "reason": "MILDMAY LINE: Sunday 11 October, the 2201 train from Stratford to Richmond will terminate at Willesden Junction at 2241",
+      "resolved_at": "2026-10-11T22:48:55Z",
+      "severity": "Reduced Service",
+      "source_created": "0001-01-01T00:00:00"
+    },
     {
       "category": "other",
       "duration_seconds": 35748,
@@ -21353,6 +21365,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-10-11T22:09:51Z",
+  "updated_at": "2026-10-11T22:48:55Z",
   "version": 1
 }
