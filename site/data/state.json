@@ -40,16 +40,6 @@
       "severity": "Reduced Service",
       "source_created": "0001-01-01T00:00:00"
     },
-    "metropolitan:text:1fd4e4826dae248f": {
-      "category": "other",
-      "first_seen": "2026-10-11T14:12:23Z",
-      "issue_key": "metropolitan:text:1fd4e4826dae248f",
-      "line_id": "metropolitan",
-      "line_name": "Metropolitan",
-      "reason": "Metropolitan Line: Minor delays between Moor Park and Watford due to train cancellations. GOOD SERIVCE on the rest of the line.",
-      "severity": "Minor Delays",
-      "source_created": "0001-01-01T00:00:00"
-    },
     "mildmay:text:42fade78eb8ed58d": {
       "category": "other",
       "first_seen": "2026-10-11T05:54:27Z",
@@ -68,16 +58,6 @@
       "line_name": "Suffragette",
       "reason": "SUFFRAGETTE LINE: Sunday 11 October, between 0845 and 2300, no service between Barking and Barking Riverside, please use local London Buses services.",
       "severity": "Part Closure",
-      "source_created": "0001-01-01T00:00:00"
-    },
-    "suffragette:text:df58d6cd107893f8": {
-      "category": "person on track",
-      "first_seen": "2026-10-11T17:41:52Z",
-      "issue_key": "suffragette:text:df58d6cd107893f8",
-      "line_id": "suffragette",
-      "line_name": "Suffragette",
-      "reason": "Suffragette Line: No service between Barking and Barking Riverside due to planned engineering work. SEVERE DELAYS between Barking and Gospel Oak due to an earlier trespasser on the track at Harringay Green Lanes. London Underground are accepting tickets via any reasonable route.",
-      "severity": "Severe Delays",
       "source_created": "0001-01-01T00:00:00"
     },
     "waterloo-city:text:02da0890c7cbf303": {
@@ -102,6 +82,30 @@
     }
   },
   "history": [
+    {
+      "category": "other",
+      "duration_seconds": 15179,
+      "first_seen": "2026-10-11T14:12:23Z",
+      "issue_key": "metropolitan:text:1fd4e4826dae248f",
+      "line_id": "metropolitan",
+      "line_name": "Metropolitan",
+      "reason": "Metropolitan Line: Minor delays between Moor Park and Watford due to train cancellations. GOOD SERIVCE on the rest of the line.",
+      "resolved_at": "2026-10-11T18:25:22Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "person on track",
+      "duration_seconds": 2610,
+      "first_seen": "2026-10-11T17:41:52Z",
+      "issue_key": "suffragette:text:df58d6cd107893f8",
+      "line_id": "suffragette",
+      "line_name": "Suffragette",
+      "reason": "Suffragette Line: No service between Barking and Barking Riverside due to planned engineering work. SEVERE DELAYS between Barking and Gospel Oak due to an earlier trespasser on the track at Harringay Green Lanes. London Underground are accepting tickets via any reasonable route.",
+      "resolved_at": "2026-10-11T18:25:22Z",
+      "severity": "Severe Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
     {
       "category": "passenger incident",
       "duration_seconds": 15269,
@@ -21283,6 +21287,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-10-11T17:41:52Z",
+  "updated_at": "2026-10-11T18:25:22Z",
   "version": 1
 }
