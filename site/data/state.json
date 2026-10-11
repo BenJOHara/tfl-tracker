@@ -10,16 +10,6 @@
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "central:text:2a5b8146e7cd1311": {
-      "category": "passenger incident",
-      "first_seen": "2026-10-10T21:15:02Z",
-      "issue_key": "central:text:2a5b8146e7cd1311",
-      "line_id": "central",
-      "line_name": "Central",
-      "reason": "Central Line: Minor delays between North Acton and Ealing Broadway / West Ruislip and between Leytonstone and Epping / Hainault via Newbury Park due to an earlier customer incident at Bond Street. GOOD SERVICE on the rest of the line.",
-      "severity": "Minor Delays",
-      "source_created": "0001-01-01T00:00:00"
-    },
     "circle:text:62cf5ec0ee681142": {
       "category": "other",
       "first_seen": "2026-10-10T06:43:31Z",
@@ -50,13 +40,13 @@
       "severity": "Part Closure",
       "source_created": "0001-01-01T00:00:00"
     },
-    "victoria:text:4811862b88e67639": {
-      "category": "fire alert",
-      "first_seen": "2026-10-10T14:42:21Z",
-      "issue_key": "victoria:text:4811862b88e67639",
-      "line_id": "victoria",
-      "line_name": "Victoria",
-      "reason": "Victoria Line: Severe delays due to an earlier fire alert at Blackhorse Road. Tickets are being accepted on London Buses, Weaver line, Suffragette line, Great Northern, Thameslink, Greater Anglia and South Western Railway services via any reasonable route.",
+    "piccadilly:text:2866c5de21cbcc64": {
+      "category": "other",
+      "first_seen": "2026-10-11T00:15:12Z",
+      "issue_key": "piccadilly:text:2866c5de21cbcc64",
+      "line_id": "piccadilly",
+      "line_name": "Piccadilly",
+      "reason": "Piccadilly Line: Severe delays due to an earlier signalling problem at King's Cross St. Pancras.",
       "severity": "Severe Delays",
       "source_created": "0001-01-01T00:00:00"
     },
@@ -82,6 +72,30 @@
     }
   },
   "history": [
+    {
+      "category": "passenger incident",
+      "duration_seconds": 10810,
+      "first_seen": "2026-10-10T21:15:02Z",
+      "issue_key": "central:text:2a5b8146e7cd1311",
+      "line_id": "central",
+      "line_name": "Central",
+      "reason": "Central Line: Minor delays between North Acton and Ealing Broadway / West Ruislip and between Leytonstone and Epping / Hainault via Newbury Park due to an earlier customer incident at Bond Street. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-10-11T00:15:12Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "fire alert",
+      "duration_seconds": 34371,
+      "first_seen": "2026-10-10T14:42:21Z",
+      "issue_key": "victoria:text:4811862b88e67639",
+      "line_id": "victoria",
+      "line_name": "Victoria",
+      "reason": "Victoria Line: Severe delays due to an earlier fire alert at Blackhorse Road. Tickets are being accepted on London Buses, Weaver line, Suffragette line, Great Northern, Thameslink, Greater Anglia and South Western Railway services via any reasonable route.",
+      "resolved_at": "2026-10-11T00:15:12Z",
+      "severity": "Severe Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
     {
       "category": "other",
       "duration_seconds": 52291,
@@ -20915,6 +20929,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-10-10T21:15:02Z",
+  "updated_at": "2026-10-11T00:15:12Z",
   "version": 1
 }
