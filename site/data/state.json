@@ -1,12 +1,12 @@
 {
   "active": {
-    "bakerloo:text:9196a5d9403c95de": {
-      "category": "train fault",
-      "first_seen": "2026-10-11T12:14:03Z",
-      "issue_key": "bakerloo:text:9196a5d9403c95de",
+    "bakerloo:text:be0dac3e25d41c50": {
+      "category": "passenger incident",
+      "first_seen": "2026-10-11T13:27:23Z",
+      "issue_key": "bakerloo:text:be0dac3e25d41c50",
       "line_id": "bakerloo",
       "line_name": "Bakerloo",
-      "reason": "Bakerloo Line: Minor delays between Queen's Park and Elephant & Castle southbound only while we fix a faulty train at Warwick Avenue. GOOD SERVICE on the rest of the line.",
+      "reason": "Bakerloo Line: Minor delays between Queen's Park and Harrow & Wealdstone due to an earlier customer incident at Warwick Avenue. GOOD SERVICE on the rest of the line.",
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
@@ -48,16 +48,6 @@
       "line_name": "Lioness",
       "reason": "LIONESS LINE: Saturday 10 and Sunday 11 October, a reduced service will run between Kilburn High Road and Euston. On Saturday, between 0630 and 2030, trains departing Watford Junction at 30 minutes past each hour will terminate at Kilburn High Road. From 0715 until 2115, trains departing Euston at 15 minutes past each hour will start from Kilburn High Road. On Sunday, between 1130 and 2030, trains departing Watford Junction at 30 minutes past each hour will terminate at Kilburn High Road. From 1215 until 2115, trains departing Euston at 15 minutes past each hour will start from Kilburn High Road",
       "severity": "Reduced Service",
-      "source_created": "0001-01-01T00:00:00"
-    },
-    "metropolitan:text:05e92bf2ab4910eb": {
-      "category": "other",
-      "first_seen": "2026-10-11T12:14:03Z",
-      "issue_key": "metropolitan:text:05e92bf2ab4910eb",
-      "line_id": "metropolitan",
-      "line_name": "Metropolitan",
-      "reason": "Metropolitan Line: Minor delays between Harrow-on-the-Hill and Uxbridge and between Moor Park and Amersham due to train cancellations. The next southbound train from Amersham will be at 13:48. GOOD SERVICE on the rest of the line.",
-      "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
     "mildmay:text:42fade78eb8ed58d": {
@@ -112,6 +102,30 @@
     }
   },
   "history": [
+    {
+      "category": "train fault",
+      "duration_seconds": 4400,
+      "first_seen": "2026-10-11T12:14:03Z",
+      "issue_key": "bakerloo:text:9196a5d9403c95de",
+      "line_id": "bakerloo",
+      "line_name": "Bakerloo",
+      "reason": "Bakerloo Line: Minor delays between Queen's Park and Elephant & Castle southbound only while we fix a faulty train at Warwick Avenue. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-10-11T13:27:23Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "other",
+      "duration_seconds": 4400,
+      "first_seen": "2026-10-11T12:14:03Z",
+      "issue_key": "metropolitan:text:05e92bf2ab4910eb",
+      "line_id": "metropolitan",
+      "line_name": "Metropolitan",
+      "reason": "Metropolitan Line: Minor delays between Harrow-on-the-Hill and Uxbridge and between Moor Park and Amersham due to train cancellations. The next southbound train from Amersham will be at 13:48. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-10-11T13:27:23Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
     {
       "category": "other",
       "duration_seconds": 17680,
@@ -21233,6 +21247,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-10-11T12:14:03Z",
+  "updated_at": "2026-10-11T13:27:23Z",
   "version": 1
 }
