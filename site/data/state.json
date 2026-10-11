@@ -30,16 +30,6 @@
       "severity": "Part Closure",
       "source_created": "0001-01-01T00:00:00"
     },
-    "elizabeth:text:4372683b8d7f5ffb": {
-      "category": "planned engineering",
-      "first_seen": "2026-10-11T05:54:27Z",
-      "issue_key": "elizabeth:text:4372683b8d7f5ffb",
-      "line_id": "elizabeth",
-      "line_name": "Elizabeth line",
-      "reason": "Minor delays between Paddington and Heathrow Terminals following a late finish of engineering work. London. NO SERVICE between West Drayton and Slough due to planned engineering work. GOOD SERVICE on the rest of the line.",
-      "severity": "Minor Delays",
-      "source_created": "0001-01-01T00:00:00"
-    },
     "elizabeth:text:af2682d17d6c5ea6": {
       "category": "other",
       "first_seen": "2026-10-11T05:54:27Z",
@@ -68,6 +58,16 @@
       "line_name": "Suffragette",
       "reason": "SUFFRAGETTE LINE: Sunday 11 October, until 0945 and after 2300, no service between Gospel Oak and Barking Riverside. Please use local London Buses and London Underground services as no replacement bus services will operate for this closure.",
       "severity": "Planned Closure",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "victoria:text:02e0850cdf11ef25": {
+      "category": "other",
+      "first_seen": "2026-10-11T06:33:55Z",
+      "issue_key": "victoria:text:02e0850cdf11ef25",
+      "line_id": "victoria",
+      "line_name": "Victoria",
+      "reason": "Victoria Line: Minor delays due to train cancellations.",
+      "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
     "waterloo-city:text:02da0890c7cbf303": {
@@ -99,19 +99,33 @@
       "reason": "WINDRUSH LINE: Sunday 11 October, no service between Wandsworth Road and Clapham Junction. Trains are diverted to/from Battersea Park for SOUTHERN services to/from Clapham Junction.",
       "severity": "Part Closure",
       "source_created": "0001-01-01T00:00:00"
+    }
+  },
+  "history": [
+    {
+      "category": "planned engineering",
+      "duration_seconds": 2368,
+      "first_seen": "2026-10-11T05:54:27Z",
+      "issue_key": "elizabeth:text:4372683b8d7f5ffb",
+      "line_id": "elizabeth",
+      "line_name": "Elizabeth line",
+      "reason": "Minor delays between Paddington and Heathrow Terminals following a late finish of engineering work. London. NO SERVICE between West Drayton and Slough due to planned engineering work. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-10-11T06:33:55Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
     },
-    "windrush:text:479af51db4c0fe60": {
+    {
       "category": "other",
+      "duration_seconds": 2368,
       "first_seen": "2026-10-11T05:54:27Z",
       "issue_key": "windrush:text:479af51db4c0fe60",
       "line_id": "windrush",
       "line_name": "Windrush",
       "reason": "WINDRUSH LINE: Sunday 11 October, until 07:20 no service between New Cross Gate and West Croydon/Crystal Palace.",
+      "resolved_at": "2026-10-11T06:33:55Z",
       "severity": "Part Closure",
       "source_created": "0001-01-01T00:00:00"
-    }
-  },
-  "history": [
+    },
     {
       "category": "other",
       "duration_seconds": 17995,
@@ -21161,6 +21175,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-10-11T05:54:27Z",
+  "updated_at": "2026-10-11T06:33:55Z",
   "version": 1
 }
