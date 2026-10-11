@@ -1,25 +1,5 @@
 {
   "active": {
-    "bakerloo:text:be0dac3e25d41c50": {
-      "category": "passenger incident",
-      "first_seen": "2026-10-11T13:27:23Z",
-      "issue_key": "bakerloo:text:be0dac3e25d41c50",
-      "line_id": "bakerloo",
-      "line_name": "Bakerloo",
-      "reason": "Bakerloo Line: Minor delays between Queen's Park and Harrow & Wealdstone due to an earlier customer incident at Warwick Avenue. GOOD SERVICE on the rest of the line.",
-      "severity": "Minor Delays",
-      "source_created": "0001-01-01T00:00:00"
-    },
-    "central:text:7edbf6c9b1d4c554": {
-      "category": "person on track",
-      "first_seen": "2026-10-11T14:12:23Z",
-      "issue_key": "central:text:7edbf6c9b1d4c554",
-      "line_id": "central",
-      "line_name": "Central",
-      "reason": "Central Line: Severe delays due to an earlier trespasser on the track at Leyton. Tickets will be accepted on London Buses, Elizabeth line, Chiltern Railways and Greater Anglia services via reasonable routes.",
-      "severity": "Severe Delays",
-      "source_created": "0001-01-01T00:00:00"
-    },
     "circle:text:62cf5ec0ee681142": {
       "category": "other",
       "first_seen": "2026-10-10T06:43:31Z",
@@ -90,14 +70,14 @@
       "severity": "Part Closure",
       "source_created": "0001-01-01T00:00:00"
     },
-    "victoria:text:02e0850cdf11ef25": {
-      "category": "other",
-      "first_seen": "2026-10-11T06:33:55Z",
-      "issue_key": "victoria:text:02e0850cdf11ef25",
-      "line_id": "victoria",
-      "line_name": "Victoria",
-      "reason": "Victoria Line: Minor delays due to train cancellations.",
-      "severity": "Minor Delays",
+    "suffragette:text:df58d6cd107893f8": {
+      "category": "person on track",
+      "first_seen": "2026-10-11T17:41:52Z",
+      "issue_key": "suffragette:text:df58d6cd107893f8",
+      "line_id": "suffragette",
+      "line_name": "Suffragette",
+      "reason": "Suffragette Line: No service between Barking and Barking Riverside due to planned engineering work. SEVERE DELAYS between Barking and Gospel Oak due to an earlier trespasser on the track at Harringay Green Lanes. London Underground are accepting tickets via any reasonable route.",
+      "severity": "Severe Delays",
       "source_created": "0001-01-01T00:00:00"
     },
     "waterloo-city:text:02da0890c7cbf303": {
@@ -122,6 +102,42 @@
     }
   },
   "history": [
+    {
+      "category": "passenger incident",
+      "duration_seconds": 15269,
+      "first_seen": "2026-10-11T13:27:23Z",
+      "issue_key": "bakerloo:text:be0dac3e25d41c50",
+      "line_id": "bakerloo",
+      "line_name": "Bakerloo",
+      "reason": "Bakerloo Line: Minor delays between Queen's Park and Harrow & Wealdstone due to an earlier customer incident at Warwick Avenue. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-10-11T17:41:52Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "person on track",
+      "duration_seconds": 12569,
+      "first_seen": "2026-10-11T14:12:23Z",
+      "issue_key": "central:text:7edbf6c9b1d4c554",
+      "line_id": "central",
+      "line_name": "Central",
+      "reason": "Central Line: Severe delays due to an earlier trespasser on the track at Leyton. Tickets will be accepted on London Buses, Elizabeth line, Chiltern Railways and Greater Anglia services via reasonable routes.",
+      "resolved_at": "2026-10-11T17:41:52Z",
+      "severity": "Severe Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "other",
+      "duration_seconds": 40077,
+      "first_seen": "2026-10-11T06:33:55Z",
+      "issue_key": "victoria:text:02e0850cdf11ef25",
+      "line_id": "victoria",
+      "line_name": "Victoria",
+      "reason": "Victoria Line: Minor delays due to train cancellations.",
+      "resolved_at": "2026-10-11T17:41:52Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
     {
       "category": "train fault",
       "duration_seconds": 4400,
@@ -21267,6 +21283,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-10-11T14:12:23Z",
+  "updated_at": "2026-10-11T17:41:52Z",
   "version": 1
 }
