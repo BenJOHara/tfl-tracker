@@ -1,17 +1,29 @@
 {
   "active": {
-    "piccadilly:text:83d11726ad0e2ff5": {
+    "piccadilly:text:a57c7340655e52ad": {
       "category": "points failure",
-      "first_seen": "2026-10-12T16:08:52Z",
-      "issue_key": "piccadilly:text:83d11726ad0e2ff5",
+      "first_seen": "2026-10-12T16:58:02Z",
+      "issue_key": "piccadilly:text:a57c7340655e52ad",
       "line_id": "piccadilly",
       "line_name": "Piccadilly",
-      "reason": "Piccadilly Line: Minor delays between Acton Town and Heathrow Airport while we fix a points failure at Northfields. GOOD SERVICE on the rest of the line.",
+      "reason": "Piccadilly Line: Minor delays between Acton Town and Heathrow Airport due to an earlier points failure at Northfields. GOOD SERVICE on the rest of the line.",
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     }
   },
   "history": [
+    {
+      "category": "points failure",
+      "duration_seconds": 2950,
+      "first_seen": "2026-10-12T16:08:52Z",
+      "issue_key": "piccadilly:text:83d11726ad0e2ff5",
+      "line_id": "piccadilly",
+      "line_name": "Piccadilly",
+      "reason": "Piccadilly Line: Minor delays between Acton Town and Heathrow Airport while we fix a points failure at Northfields. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-10-12T16:58:02Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
     {
       "category": "points failure",
       "duration_seconds": 31238,
@@ -21661,6 +21673,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-10-12T16:08:52Z",
+  "updated_at": "2026-10-12T16:58:02Z",
   "version": 1
 }
