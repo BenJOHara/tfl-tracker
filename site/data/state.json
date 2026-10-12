@@ -1,5 +1,36 @@
 {
-  "active": {},
+  "active": {
+    "elizabeth:text:df19b56ca451bd6f": {
+      "category": "person on track",
+      "first_seen": "2026-10-12T22:59:46Z",
+      "issue_key": "elizabeth:text:df19b56ca451bd6f",
+      "line_id": "elizabeth",
+      "line_name": "Elizabeth line",
+      "reason": "No service between Whitechapel and Shenfield while we deal with trespassers on the track at Romford. GOOD SERVICE on the rest of the line. Tickets are being accepted on London Buses, London Underground, C2C and Greater Anglia.",
+      "severity": "Part Suspended",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "hammersmith-city:text:004129bf5e441754": {
+      "category": "other",
+      "first_seen": "2026-10-12T22:59:46Z",
+      "issue_key": "hammersmith-city:text:004129bf5e441754",
+      "line_id": "hammersmith-city",
+      "line_name": "Hammersmith & City",
+      "reason": "Hammersmith and City Line: Minor delays due to train cancellations.",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "weaver:text:7c1157eea7dc47fb": {
+      "category": "other",
+      "first_seen": "2026-10-12T22:59:46Z",
+      "issue_key": "weaver:text:7c1157eea7dc47fb",
+      "line_id": "weaver",
+      "line_name": "Weaver",
+      "reason": "WEAVER LINE: Monday 12, Tuesday 13, Wednesday 14 and Thursday 15 October, after 2245 each evening, no service between Hackney Downs and Cheshunt / Enfield Town. Use London Underground connections between Central London and Seven Sisters, and for Rectory Road and Stoke Newington, use Clapton station. Last trains operate at 2243 from Liverpool Street to Cheshunt, 2250 from Enfield Town to Liverpool Street, 2258 from Liverpool Street to Enfield Town and 2259 from Cheshunt to Liverpool Street. Replacement buses operate.",
+      "severity": "Part Closure",
+      "source_created": "0001-01-01T00:00:00"
+    }
+  },
   "history": [
     {
       "category": "points failure",
@@ -21674,6 +21705,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-10-12T18:03:06Z",
+  "updated_at": "2026-10-12T22:59:46Z",
   "version": 1
 }
