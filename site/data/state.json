@@ -1,27 +1,41 @@
 {
   "active": {
-    "metropolitan:text:0651514cf8888105": {
+    "piccadilly:text:83d11726ad0e2ff5": {
       "category": "points failure",
-      "first_seen": "2026-10-12T07:28:14Z",
-      "issue_key": "metropolitan:text:0651514cf8888105",
-      "line_id": "metropolitan",
-      "line_name": "Metropolitan",
-      "reason": "Metropolitan Line: Severe delays due to a points failure at Harrow-on-the-Hill. Tickets are being accepted on London Buses, Lioness Line, London Northwestern Railway, Chiltern Railways and Thameslink via any reasonable routes.",
-      "severity": "Severe Delays",
-      "source_created": "0001-01-01T00:00:00"
-    },
-    "victoria:text:02e0850cdf11ef25": {
-      "category": "other",
-      "first_seen": "2026-10-12T07:28:14Z",
-      "issue_key": "victoria:text:02e0850cdf11ef25",
-      "line_id": "victoria",
-      "line_name": "Victoria",
-      "reason": "Victoria Line: Minor delays due to train cancellations.",
+      "first_seen": "2026-10-12T16:08:52Z",
+      "issue_key": "piccadilly:text:83d11726ad0e2ff5",
+      "line_id": "piccadilly",
+      "line_name": "Piccadilly",
+      "reason": "Piccadilly Line: Minor delays between Acton Town and Heathrow Airport while we fix a points failure at Northfields. GOOD SERVICE on the rest of the line.",
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     }
   },
   "history": [
+    {
+      "category": "points failure",
+      "duration_seconds": 31238,
+      "first_seen": "2026-10-12T07:28:14Z",
+      "issue_key": "metropolitan:text:0651514cf8888105",
+      "line_id": "metropolitan",
+      "line_name": "Metropolitan",
+      "reason": "Metropolitan Line: Severe delays due to a points failure at Harrow-on-the-Hill. Tickets are being accepted on London Buses, Lioness Line, London Northwestern Railway, Chiltern Railways and Thameslink via any reasonable routes.",
+      "resolved_at": "2026-10-12T16:08:52Z",
+      "severity": "Severe Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "other",
+      "duration_seconds": 31238,
+      "first_seen": "2026-10-12T07:28:14Z",
+      "issue_key": "victoria:text:02e0850cdf11ef25",
+      "line_id": "victoria",
+      "line_name": "Victoria",
+      "reason": "Victoria Line: Minor delays due to train cancellations.",
+      "resolved_at": "2026-10-12T16:08:52Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
     {
       "category": "other",
       "duration_seconds": 21682,
@@ -21647,6 +21661,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-10-12T07:28:14Z",
+  "updated_at": "2026-10-12T16:08:52Z",
   "version": 1
 }
