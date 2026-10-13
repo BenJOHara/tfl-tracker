@@ -16,22 +16,24 @@
       "issue_key": "dlr:text:8eac2cdfd73d7b3e",
       "line_id": "dlr",
       "line_name": "DLR",
-      "reason": "Docklands Light Railway: Minor delays between Stratford International and Bank / Woolwich Arsenal while we fix a faulty train at West Silvertown. GOOD SERVICE on the rest of the line.",
-      "severity": "Minor Delays",
+      "reason": "Docklands Light Railway: Severe delays between Stratford International and Bank / Woolwich Arsenal while we fix a faulty train at West Silvertown. GOOD SERVICE on the rest of the line.",
+      "severity": "Severe Delays",
       "source_created": "0001-01-01T00:00:00"
-    },
-    "metropolitan:text:d2879685e28de6cf": {
+    }
+  },
+  "history": [
+    {
       "category": "other",
+      "duration_seconds": 893,
       "first_seen": "2026-10-13T10:57:05Z",
       "issue_key": "metropolitan:text:d2879685e28de6cf",
       "line_id": "metropolitan",
       "line_name": "Metropolitan",
       "reason": "Metropolitan Line: Minor delays between Harrow-on-the-Hill and Uxbridge due to an earlier signalling problem. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-10-13T11:11:58Z",
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
-    }
-  },
-  "history": [
+    },
     {
       "category": "other",
       "duration_seconds": 13999,
@@ -22005,6 +22007,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-10-13T10:57:05Z",
+  "updated_at": "2026-10-13T11:11:58Z",
   "version": 1
 }
