@@ -20,14 +20,14 @@
       "severity": "Severe Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "jubilee:text:9936af9b0ce733d3": {
+    "jubilee:text:6cfffb5a29a23e47": {
       "category": "signal failure",
-      "first_seen": "2026-10-13T17:58:17Z",
-      "issue_key": "jubilee:text:9936af9b0ce733d3",
+      "first_seen": "2026-10-13T18:15:46Z",
+      "issue_key": "jubilee:text:6cfffb5a29a23e47",
       "line_id": "jubilee",
       "line_name": "Jubilee",
-      "reason": "Jubilee Line: No service between London Bridge and North Greenwich while we fix a signal failure at Canary Wharf. SEVERE DELAYS on the rest of the line. Tickets will be accepted on London Buses, London Overground, DLR, Elizabeth Line, C2C, South Eastern and Thameslink via any reasonable route.",
-      "severity": "Part Suspended",
+      "reason": "Jubilee Line: Severe delays due to an earlier signal failure at Canary Wharf. Tickets will be accepted on London Buses, London Overground, DLR, Elizabeth Line, C2C, South Eastern and Thameslink via any reasonable route.",
+      "severity": "Severe Delays",
       "source_created": "0001-01-01T00:00:00"
     },
     "windrush:text:77274e1210019569": {
@@ -42,6 +42,18 @@
     }
   },
   "history": [
+    {
+      "category": "signal failure",
+      "duration_seconds": 1049,
+      "first_seen": "2026-10-13T17:58:17Z",
+      "issue_key": "jubilee:text:9936af9b0ce733d3",
+      "line_id": "jubilee",
+      "line_name": "Jubilee",
+      "reason": "Jubilee Line: No service between London Bridge and North Greenwich while we fix a signal failure at Canary Wharf. SEVERE DELAYS on the rest of the line. Tickets will be accepted on London Buses, London Overground, DLR, Elizabeth Line, C2C, South Eastern and Thameslink via any reasonable route.",
+      "resolved_at": "2026-10-13T18:15:46Z",
+      "severity": "Part Suspended",
+      "source_created": "0001-01-01T00:00:00"
+    },
     {
       "category": "other",
       "duration_seconds": 10800,
@@ -22063,6 +22075,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-10-13T17:58:17Z",
+  "updated_at": "2026-10-13T18:15:46Z",
   "version": 1
 }
