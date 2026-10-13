@@ -1,27 +1,41 @@
 {
   "active": {
-    "central:text:9673c44c11c7ae4f": {
+    "central:text:21e943619c257782": {
       "category": "other",
+      "first_seen": "2026-10-13T14:58:17Z",
+      "issue_key": "central:text:21e943619c257782",
+      "line_id": "central",
+      "line_name": "Central",
+      "reason": "Central Line: Severe delays between North Acton and Ealing Broadway/West Ruislip and between Leytonstone and Epping/Hainault via Newbury Park due to train cancellations. Tickets are being accepted on London Buses, Liberty line, Chiltern Railways and Great Western Railway. MINOR DELAYS on the rest of the line.",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    }
+  },
+  "history": [
+    {
+      "category": "other",
+      "duration_seconds": 14472,
       "first_seen": "2026-10-13T10:57:05Z",
       "issue_key": "central:text:9673c44c11c7ae4f",
       "line_id": "central",
       "line_name": "Central",
       "reason": "Central Line: Severe delays between White City and Ealing Broadway/West Ruislip and between Leytonstone and Epping/Hainault via Newbury Park due to train cancellations. Tickets are being accepted on London Buses, Liberty line, Chiltern Railways and Great Western Railway. MINOR DELAYS on the rest of the line.",
+      "resolved_at": "2026-10-13T14:58:17Z",
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "dlr:text:8eac2cdfd73d7b3e": {
+    {
       "category": "train fault",
+      "duration_seconds": 14472,
       "first_seen": "2026-10-13T10:57:05Z",
       "issue_key": "dlr:text:8eac2cdfd73d7b3e",
       "line_id": "dlr",
       "line_name": "DLR",
       "reason": "Docklands Light Railway: Severe delays between Stratford International and Bank / Woolwich Arsenal while we fix a faulty train at West Silvertown. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-10-13T14:58:17Z",
       "severity": "Severe Delays",
       "source_created": "0001-01-01T00:00:00"
-    }
-  },
-  "history": [
+    },
     {
       "category": "other",
       "duration_seconds": 893,
@@ -22007,6 +22021,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-10-13T11:11:58Z",
+  "updated_at": "2026-10-13T14:58:17Z",
   "version": 1
 }
