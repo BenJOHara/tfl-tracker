@@ -1,17 +1,59 @@
 {
   "active": {
-    "central:text:21e943619c257782": {
+    "bakerloo:text:441236c7b38e407e": {
       "category": "other",
-      "first_seen": "2026-10-13T14:58:17Z",
-      "issue_key": "central:text:21e943619c257782",
+      "first_seen": "2026-10-13T17:58:17Z",
+      "issue_key": "bakerloo:text:441236c7b38e407e",
+      "line_id": "bakerloo",
+      "line_name": "Bakerloo",
+      "reason": "Bakerloo Line: Minor delays due to train cancellations.",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "central:text:e521208ae1f57066": {
+      "category": "person on track",
+      "first_seen": "2026-10-13T17:58:17Z",
+      "issue_key": "central:text:e521208ae1f57066",
       "line_id": "central",
       "line_name": "Central",
-      "reason": "Central Line: Severe delays between North Acton and Ealing Broadway/West Ruislip and between Leytonstone and Epping/Hainault via Newbury Park due to train cancellations. Tickets are being accepted on London Buses, Liberty line, Chiltern Railways and Great Western Railway. MINOR DELAYS on the rest of the line.",
+      "reason": "Central Line: Severe delays due to an earlier trespasser on the track at Snaresbrook. Tickets are being accepted on London Buses, Liberty line, Chiltern Railways, Elizabeth Line and Greater Anglia and Great Western Railway.",
+      "severity": "Severe Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "jubilee:text:9936af9b0ce733d3": {
+      "category": "signal failure",
+      "first_seen": "2026-10-13T17:58:17Z",
+      "issue_key": "jubilee:text:9936af9b0ce733d3",
+      "line_id": "jubilee",
+      "line_name": "Jubilee",
+      "reason": "Jubilee Line: No service between London Bridge and North Greenwich while we fix a signal failure at Canary Wharf. SEVERE DELAYS on the rest of the line. Tickets will be accepted on London Buses, London Overground, DLR, Elizabeth Line, C2C, South Eastern and Thameslink via any reasonable route.",
+      "severity": "Part Suspended",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "windrush:text:77274e1210019569": {
+      "category": "other",
+      "first_seen": "2026-10-13T17:58:17Z",
+      "issue_key": "windrush:text:77274e1210019569",
+      "line_id": "windrush",
+      "line_name": "Windrush",
+      "reason": "Windrush Line: Minor delays between Sydenham and West Croydon while we conduct a safety inspection of the track. GOOD SERVICE on the rest of the line.",
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     }
   },
   "history": [
+    {
+      "category": "other",
+      "duration_seconds": 10800,
+      "first_seen": "2026-10-13T14:58:17Z",
+      "issue_key": "central:text:21e943619c257782",
+      "line_id": "central",
+      "line_name": "Central",
+      "reason": "Central Line: Severe delays between North Acton and Ealing Broadway/West Ruislip and between Leytonstone and Epping/Hainault via Newbury Park due to train cancellations. Tickets are being accepted on London Buses, Liberty line, Chiltern Railways and Great Western Railway. MINOR DELAYS on the rest of the line.",
+      "resolved_at": "2026-10-13T17:58:17Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
     {
       "category": "other",
       "duration_seconds": 14472,
@@ -22021,6 +22063,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-10-13T14:58:17Z",
+  "updated_at": "2026-10-13T17:58:17Z",
   "version": 1
 }
