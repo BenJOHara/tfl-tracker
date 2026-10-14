@@ -1,5 +1,26 @@
 {
-  "active": {},
+  "active": {
+    "central:text:6d0af7c9d44f714a": {
+      "category": "other",
+      "first_seen": "2026-10-14T09:46:52Z",
+      "issue_key": "central:text:6d0af7c9d44f714a",
+      "line_id": "central",
+      "line_name": "Central",
+      "reason": "Central Line: Minor delays due to train cancellations.",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "victoria:text:02e0850cdf11ef25": {
+      "category": "other",
+      "first_seen": "2026-10-14T09:46:52Z",
+      "issue_key": "victoria:text:02e0850cdf11ef25",
+      "line_id": "victoria",
+      "line_name": "Victoria",
+      "reason": "Victoria Line: Minor delays due to train cancellations.",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    }
+  },
   "history": [
     {
       "category": "other",
@@ -22418,6 +22439,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-10-14T06:31:32Z",
+  "updated_at": "2026-10-14T09:46:52Z",
   "version": 1
 }
