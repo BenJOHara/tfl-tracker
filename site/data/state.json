@@ -10,28 +10,62 @@
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "suffragette:text:76c552948d3c6923": {
+    "elizabeth:text:8c8864690867c3fe": {
       "category": "other",
+      "first_seen": "2026-10-14T17:21:14Z",
+      "issue_key": "elizabeth:text:8c8864690867c3fe",
+      "line_id": "elizabeth",
+      "line_name": "Elizabeth line",
+      "reason": "Severe delays between Abbey Wood and Heathrow Terminals/Reading due to an earlier obstruction on the track at Southall. London Underground are accepting tickets via any reasonable route. GOOD SERVICE on the rest of the line.",
+      "severity": "Severe Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "metropolitan:text:3555c6a8542d62ef": {
+      "category": "train fault",
+      "first_seen": "2026-10-14T17:21:14Z",
+      "issue_key": "metropolitan:text:3555c6a8542d62ef",
+      "line_id": "metropolitan",
+      "line_name": "Metropolitan",
+      "reason": "Metropolitan Line: Minor delays between Wembley Park and Aldgate due to an earlier faulty train. GOOD SERVICE on the rest of the line.",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "piccadilly:text:d455f080eac587b6": {
+      "category": "points failure",
+      "first_seen": "2026-10-14T17:21:14Z",
+      "issue_key": "piccadilly:text:d455f080eac587b6",
+      "line_id": "piccadilly",
+      "line_name": "Piccadilly",
+      "reason": "Piccadilly Line: Severe delays between Acton Town and Heathrow Terminals due to an earlier points failure at Hatton Cross. GOOD SERVICE on the rest of the line. Tickets are being accepted on London Buses and the Elizabeth Line.",
+      "severity": "Severe Delays",
+      "source_created": "0001-01-01T00:00:00"
+    }
+  },
+  "history": [
+    {
+      "category": "other",
+      "duration_seconds": 9536,
       "first_seen": "2026-10-14T14:42:18Z",
       "issue_key": "suffragette:text:76c552948d3c6923",
       "line_id": "suffragette",
       "line_name": "Suffragette",
       "reason": "Suffragette Line: Severe delays due to an earlier faulty freight train at Upper Holloway. Tickets will be accepted on London Underground via any reasonable route.",
+      "resolved_at": "2026-10-14T17:21:14Z",
       "severity": "Severe Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "tram:text:95de880f7786c607": {
+    {
       "category": "power failure",
+      "duration_seconds": 9536,
       "first_seen": "2026-10-14T14:42:18Z",
       "issue_key": "tram:text:95de880f7786c607",
       "line_id": "tram",
       "line_name": "Tram",
       "reason": "London Tramlink: Minor delays due to an earlier power failure.",
+      "resolved_at": "2026-10-14T17:21:14Z",
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
-    }
-  },
-  "history": [
+    },
     {
       "category": "other",
       "duration_seconds": 8697,
@@ -22473,6 +22507,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-10-14T14:42:18Z",
+  "updated_at": "2026-10-14T17:21:14Z",
   "version": 1
 }
