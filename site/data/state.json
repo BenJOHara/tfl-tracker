@@ -10,18 +10,40 @@
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "suffragette:text:81ca248e27f945ff": {
+    "suffragette:text:76c552948d3c6923": {
       "category": "other",
+      "first_seen": "2026-10-14T14:42:18Z",
+      "issue_key": "suffragette:text:76c552948d3c6923",
+      "line_id": "suffragette",
+      "line_name": "Suffragette",
+      "reason": "Suffragette Line: Severe delays due to an earlier faulty freight train at Upper Holloway. Tickets will be accepted on London Underground via any reasonable route.",
+      "severity": "Severe Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "tram:text:95de880f7786c607": {
+      "category": "power failure",
+      "first_seen": "2026-10-14T14:42:18Z",
+      "issue_key": "tram:text:95de880f7786c607",
+      "line_id": "tram",
+      "line_name": "Tram",
+      "reason": "London Tramlink: Minor delays due to an earlier power failure.",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    }
+  },
+  "history": [
+    {
+      "category": "other",
+      "duration_seconds": 8697,
       "first_seen": "2026-10-14T12:17:21Z",
       "issue_key": "suffragette:text:81ca248e27f945ff",
       "line_id": "suffragette",
       "line_name": "Suffragette",
       "reason": "Suffragette Line: No service between Gospel Oak and South Tottenham while we fix a faulty freight train at Upper Holloway. MINOR DELAYS on the rest of the line.",
+      "resolved_at": "2026-10-14T14:42:18Z",
       "severity": "Part Suspended",
       "source_created": "0001-01-01T00:00:00"
-    }
-  },
-  "history": [
+    },
     {
       "category": "other",
       "duration_seconds": 9029,
@@ -22451,6 +22473,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-10-14T12:20:12Z",
+  "updated_at": "2026-10-14T14:42:18Z",
   "version": 1
 }
