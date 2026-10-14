@@ -10,26 +10,6 @@
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "dlr:text:5b3969278f00db4e": {
-      "category": "train fault",
-      "first_seen": "2026-10-14T22:14:29Z",
-      "issue_key": "dlr:text:5b3969278f00db4e",
-      "line_id": "dlr",
-      "line_name": "DLR",
-      "reason": "Docklands Light Railway: Minor delays between Stratford International and Woolwich Arsenal while we fix a faulty train at London City Airport. GOOD SERVICE on other DLR routes.",
-      "severity": "Minor Delays",
-      "source_created": "0001-01-01T00:00:00"
-    },
-    "metropolitan:text:2df4e90708614385": {
-      "category": "other",
-      "first_seen": "2026-10-14T22:14:29Z",
-      "issue_key": "metropolitan:text:2df4e90708614385",
-      "line_id": "metropolitan",
-      "line_name": "Metropolitan",
-      "reason": "Metropolitan Line: Minor delays between Moor Park and Watford due to train cancellations. GOOD SERVICE on the rest of the line.",
-      "severity": "Minor Delays",
-      "source_created": "0001-01-01T00:00:00"
-    },
     "weaver:text:7c1157eea7dc47fb": {
       "category": "other",
       "first_seen": "2026-10-14T22:14:29Z",
@@ -42,6 +22,30 @@
     }
   },
   "history": [
+    {
+      "category": "train fault",
+      "duration_seconds": 4535,
+      "first_seen": "2026-10-14T22:14:29Z",
+      "issue_key": "dlr:text:5b3969278f00db4e",
+      "line_id": "dlr",
+      "line_name": "DLR",
+      "reason": "Docklands Light Railway: Minor delays between Stratford International and Woolwich Arsenal while we fix a faulty train at London City Airport. GOOD SERVICE on other DLR routes.",
+      "resolved_at": "2026-10-14T23:30:04Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "other",
+      "duration_seconds": 4535,
+      "first_seen": "2026-10-14T22:14:29Z",
+      "issue_key": "metropolitan:text:2df4e90708614385",
+      "line_id": "metropolitan",
+      "line_name": "Metropolitan",
+      "reason": "Metropolitan Line: Minor delays between Moor Park and Watford due to train cancellations. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-10-14T23:30:04Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
     {
       "category": "signal failure",
       "duration_seconds": 6436,
@@ -22555,6 +22559,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-10-14T22:14:29Z",
+  "updated_at": "2026-10-14T23:30:04Z",
   "version": 1
 }
