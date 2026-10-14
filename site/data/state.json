@@ -17,7 +17,7 @@
       "line_id": "suffragette",
       "line_name": "Suffragette",
       "reason": "Suffragette Line: No service between Gospel Oak and South Tottenham while we fix a faulty freight train at Upper Holloway. MINOR DELAYS on the rest of the line.",
-      "severity": "Minor Delays",
+      "severity": "Part Suspended",
       "source_created": "0001-01-01T00:00:00"
     }
   },
@@ -22451,6 +22451,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-10-14T12:17:21Z",
+  "updated_at": "2026-10-14T12:20:12Z",
   "version": 1
 }
