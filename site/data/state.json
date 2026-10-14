@@ -9,6 +9,36 @@
       "reason": "Central Line: Minor delays due to train cancellations.",
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
+    },
+    "dlr:text:5b3969278f00db4e": {
+      "category": "train fault",
+      "first_seen": "2026-10-14T22:14:29Z",
+      "issue_key": "dlr:text:5b3969278f00db4e",
+      "line_id": "dlr",
+      "line_name": "DLR",
+      "reason": "Docklands Light Railway: Minor delays between Stratford International and Woolwich Arsenal while we fix a faulty train at London City Airport. GOOD SERVICE on other DLR routes.",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "metropolitan:text:2df4e90708614385": {
+      "category": "other",
+      "first_seen": "2026-10-14T22:14:29Z",
+      "issue_key": "metropolitan:text:2df4e90708614385",
+      "line_id": "metropolitan",
+      "line_name": "Metropolitan",
+      "reason": "Metropolitan Line: Minor delays between Moor Park and Watford due to train cancellations. GOOD SERVICE on the rest of the line.",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "weaver:text:7c1157eea7dc47fb": {
+      "category": "other",
+      "first_seen": "2026-10-14T22:14:29Z",
+      "issue_key": "weaver:text:7c1157eea7dc47fb",
+      "line_id": "weaver",
+      "line_name": "Weaver",
+      "reason": "WEAVER LINE: Monday 12, Tuesday 13, Wednesday 14 and Thursday 15 October, after 2245 each evening, no service between Hackney Downs and Cheshunt / Enfield Town. Use London Underground connections between Central London and Seven Sisters, and for Rectory Road and Stoke Newington, use Clapton station. Last trains operate at 2243 from Liverpool Street to Cheshunt, 2250 from Enfield Town to Liverpool Street, 2258 from Liverpool Street to Enfield Town and 2259 from Cheshunt to Liverpool Street. Replacement buses operate.",
+      "severity": "Part Closure",
+      "source_created": "0001-01-01T00:00:00"
     }
   },
   "history": [
@@ -22525,6 +22555,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-10-14T20:46:59Z",
+  "updated_at": "2026-10-14T22:14:29Z",
   "version": 1
 }
