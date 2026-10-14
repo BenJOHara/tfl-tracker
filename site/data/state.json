@@ -9,19 +9,21 @@
       "reason": "Central Line: Minor delays due to train cancellations.",
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
-    },
-    "piccadilly:text:3827fe0866dffe37": {
+    }
+  },
+  "history": [
+    {
       "category": "signal failure",
+      "duration_seconds": 6436,
       "first_seen": "2026-10-14T18:59:43Z",
       "issue_key": "piccadilly:text:3827fe0866dffe37",
       "line_id": "piccadilly",
       "line_name": "Piccadilly",
       "reason": "Piccadilly Line: Minor delays due to an earlier signal failure at Hatton Cross.",
+      "resolved_at": "2026-10-14T20:46:59Z",
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
-    }
-  },
-  "history": [
+    },
     {
       "category": "other",
       "duration_seconds": 5909,
@@ -22523,6 +22525,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-10-14T18:59:43Z",
+  "updated_at": "2026-10-14T20:46:59Z",
   "version": 1
 }
