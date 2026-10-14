@@ -20,16 +20,6 @@
       "severity": "Severe Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "metropolitan:text:3555c6a8542d62ef": {
-      "category": "train fault",
-      "first_seen": "2026-10-14T17:21:14Z",
-      "issue_key": "metropolitan:text:3555c6a8542d62ef",
-      "line_id": "metropolitan",
-      "line_name": "Metropolitan",
-      "reason": "Metropolitan Line: Minor delays between Wembley Park and Aldgate due to an earlier faulty train. GOOD SERVICE on the rest of the line.",
-      "severity": "Minor Delays",
-      "source_created": "0001-01-01T00:00:00"
-    },
     "piccadilly:text:d455f080eac587b6": {
       "category": "points failure",
       "first_seen": "2026-10-14T17:21:14Z",
@@ -42,6 +32,18 @@
     }
   },
   "history": [
+    {
+      "category": "train fault",
+      "duration_seconds": 417,
+      "first_seen": "2026-10-14T17:21:14Z",
+      "issue_key": "metropolitan:text:3555c6a8542d62ef",
+      "line_id": "metropolitan",
+      "line_name": "Metropolitan",
+      "reason": "Metropolitan Line: Minor delays between Wembley Park and Aldgate due to an earlier faulty train. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-10-14T17:28:11Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
     {
       "category": "other",
       "duration_seconds": 9536,
@@ -22507,6 +22509,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-10-14T17:21:14Z",
+  "updated_at": "2026-10-14T17:28:11Z",
   "version": 1
 }
