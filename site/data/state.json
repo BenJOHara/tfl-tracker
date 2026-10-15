@@ -10,18 +10,30 @@
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "weaver:text:31a9d11c2a6730bd": {
+    "weaver:text:b38445d34d7929e3": {
       "category": "other",
+      "first_seen": "2026-10-15T12:39:28Z",
+      "issue_key": "weaver:text:b38445d34d7929e3",
+      "line_id": "weaver",
+      "line_name": "Weaver",
+      "reason": "Weaver Line: Severe delays between Hackney Downs and Liverpool Street due to an earlier operational incident at Liverpool Street. Tickets will be accepted on London Underground via any reasonable route. GOOD SERVICE on the rest of the line.",
+      "severity": "Severe Delays",
+      "source_created": "0001-01-01T00:00:00"
+    }
+  },
+  "history": [
+    {
+      "category": "other",
+      "duration_seconds": 2214,
       "first_seen": "2026-10-15T12:02:34Z",
       "issue_key": "weaver:text:31a9d11c2a6730bd",
       "line_id": "weaver",
       "line_name": "Weaver",
       "reason": "Weaver Line: Part suspended between Enfield Town and Edmonton Green. SEVERE DELAYS between Hackney Downs and Liverpool Street due to an operational incident at Liverpool Street. Tickets will be accepted on London Underground via any reasonable route. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-10-15T12:39:28Z",
       "severity": "Part Suspended",
       "source_created": "0001-01-01T00:00:00"
-    }
-  },
-  "history": [
+    },
     {
       "category": "other",
       "duration_seconds": 7073,
@@ -22967,6 +22979,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-10-15T12:02:34Z",
+  "updated_at": "2026-10-15T12:39:28Z",
   "version": 1
 }
