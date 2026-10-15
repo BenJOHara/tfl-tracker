@@ -1,37 +1,93 @@
 {
   "active": {
-    "district:text:7a8df36ccf15a483": {
+    "central:text:b4afb0429dcef65e": {
       "category": "other",
+      "first_seen": "2026-10-15T07:02:55Z",
+      "issue_key": "central:text:b4afb0429dcef65e",
+      "line_id": "central",
+      "line_name": "Central",
+      "reason": "Central Line: Severe delays between North Acton and Ealing Broadway / West Ruislip and between Leytonstone and Epping / Hainault via Newbury Park due to train cancellations. Tickets will be accepted on London Buses, Elizabeth Line, Liberty line, Chiltern Railways and Great Western Railways. GOOD SERVICE on the rest of the line.",
+      "severity": "Severe Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "district:text:b672194d5c3508bc": {
+      "category": "other",
+      "first_seen": "2026-10-15T07:02:55Z",
+      "issue_key": "district:text:b672194d5c3508bc",
+      "line_id": "district",
+      "line_name": "District",
+      "reason": "District Line: Severe delays between Earl's Court and Ealing Broadway / Edgware Road / Richmond, and between Earl's Court and Tower Hill eastbound only. MINOR DELAYS between Earl's Court and Wimbledon and between Tower Hill and Upminster due to a signal system failure. Tickets are being accepted on London Buses, Elizabeth Line and South Western Railway.",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "northern:text:eda13c3b0a68a063": {
+      "category": "signal failure",
+      "first_seen": "2026-10-15T07:02:55Z",
+      "issue_key": "northern:text:eda13c3b0a68a063",
+      "line_id": "northern",
+      "line_name": "Northern",
+      "reason": "Northern Line: Minor delays between Camden Town and Battersea Power Station via Charing Cross due to an earlier signal failure at Kentish Town. GOOD SERVICE on the rest of the line.",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "victoria:text:02e0850cdf11ef25": {
+      "category": "other",
+      "first_seen": "2026-10-15T07:02:55Z",
+      "issue_key": "victoria:text:02e0850cdf11ef25",
+      "line_id": "victoria",
+      "line_name": "Victoria",
+      "reason": "Victoria Line: Minor delays due to train cancellations",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "weaver:text:0fd48d28035e432d": {
+      "category": "other",
+      "first_seen": "2026-10-15T07:02:55Z",
+      "issue_key": "weaver:text:0fd48d28035e432d",
+      "line_id": "weaver",
+      "line_name": "Weaver",
+      "reason": "Weaver Line: Severe delays between Hackney Downs and Liverpool Street due to an operation incident at Liverpool Street. Tickets will be accepted on London Underground via any reasonable route. MINOR DELAYS on the rest of the line.",
+      "severity": "Severe Delays",
+      "source_created": "0001-01-01T00:00:00"
+    }
+  },
+  "history": [
+    {
+      "category": "other",
+      "duration_seconds": 1767,
       "first_seen": "2026-10-15T06:33:28Z",
       "issue_key": "district:text:7a8df36ccf15a483",
       "line_id": "district",
       "line_name": "District",
       "reason": "District Line: Severe delays between Earl's Court and Ealing Broadway / Edgware Road / Richmond, and between Earl's Court and Tower Hill eastbound only. MINOR DELAYS between Earl's Court and Wimbledon and between Tower Hill and Upminster while we fix a signal system failure. Tickets are being accepted on London Buses and South Western Railway.",
+      "resolved_at": "2026-10-15T07:02:55Z",
       "severity": "Severe Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "northern:text:e5376e17df07472c": {
+    {
       "category": "signal failure",
+      "duration_seconds": 1767,
       "first_seen": "2026-10-15T06:33:28Z",
       "issue_key": "northern:text:e5376e17df07472c",
       "line_id": "northern",
       "line_name": "Northern",
       "reason": "Northern Line: Severe delays between Camden Town and High Barnet due to an earlier signal failure at Kentish Town. MINOR DELAYS between Camden Town and Kennington via Charing Cross due to an earlier faulty train at Nine Elms. Tickets are being accepted on London Buses. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-10-15T07:02:55Z",
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "weaver:text:63a2fd39fad605f5": {
+    {
       "category": "other",
+      "duration_seconds": 1767,
       "first_seen": "2026-10-15T06:33:28Z",
       "issue_key": "weaver:text:63a2fd39fad605f5",
       "line_id": "weaver",
       "line_name": "Weaver",
       "reason": "Weaver Line: Minor delays between Hackney Downs and Liverpool Street due to an operation incident at Liverpool Street. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-10-15T07:02:55Z",
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
-    }
-  },
-  "history": [
+    },
     {
       "category": "other",
       "duration_seconds": 4952,
@@ -22869,6 +22925,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-10-15T06:33:28Z",
+  "updated_at": "2026-10-15T07:02:55Z",
   "version": 1
 }
