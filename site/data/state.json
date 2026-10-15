@@ -1,12 +1,52 @@
 {
   "active": {
-    "central:text:5b3eaf350f906389": {
+    "central:text:6d0af7c9d44f714a": {
       "category": "other",
-      "first_seen": "2026-10-15T10:04:41Z",
-      "issue_key": "central:text:5b3eaf350f906389",
+      "first_seen": "2026-10-15T16:52:24Z",
+      "issue_key": "central:text:6d0af7c9d44f714a",
       "line_id": "central",
       "line_name": "Central",
-      "reason": "Central Line: Minor between North Acton and Ealing Broadway / West Ruislip and between Leytonstone and Epping / Hainault via Newbury Park due to train cancellations. Railways. GOOD SERVICE on the rest of the line.",
+      "reason": "Central Line: Minor delays due to train cancellations.",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "circle:text:c426d3ee5347fac0": {
+      "category": "train fault",
+      "first_seen": "2026-10-15T16:52:24Z",
+      "issue_key": "circle:text:c426d3ee5347fac0",
+      "line_id": "circle",
+      "line_name": "Circle",
+      "reason": "Circle Line: Minor delays anti-clockwise due to an earlier faulty train at South Kensington. GOOD SERVICE on the rest of the line.",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "district:text:7087ebc1d960d62c": {
+      "category": "train fault",
+      "first_seen": "2026-10-15T16:52:24Z",
+      "issue_key": "district:text:7087ebc1d960d62c",
+      "line_id": "district",
+      "line_name": "District",
+      "reason": "District Line: Minor delays between Earls Court and Tower Hill eastbound only due to an earlier faulty train. GOOD SERVICE on the rest of the line.",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "hammersmith-city:text:004129bf5e441754": {
+      "category": "other",
+      "first_seen": "2026-10-15T16:52:24Z",
+      "issue_key": "hammersmith-city:text:004129bf5e441754",
+      "line_id": "hammersmith-city",
+      "line_name": "Hammersmith & City",
+      "reason": "Hammersmith and City Line: Minor delays due to train cancellations.",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "victoria:text:02e0850cdf11ef25": {
+      "category": "other",
+      "first_seen": "2026-10-15T16:52:24Z",
+      "issue_key": "victoria:text:02e0850cdf11ef25",
+      "line_id": "victoria",
+      "line_name": "Victoria",
+      "reason": "Victoria Line: Minor delays due to train cancellations.",
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
@@ -22,6 +62,18 @@
     }
   },
   "history": [
+    {
+      "category": "other",
+      "duration_seconds": 24463,
+      "first_seen": "2026-10-15T10:04:41Z",
+      "issue_key": "central:text:5b3eaf350f906389",
+      "line_id": "central",
+      "line_name": "Central",
+      "reason": "Central Line: Minor between North Acton and Ealing Broadway / West Ruislip and between Leytonstone and Epping / Hainault via Newbury Park due to train cancellations. Railways. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-10-15T16:52:24Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
     {
       "category": "other",
       "duration_seconds": 2214,
@@ -22979,6 +23031,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-10-15T12:39:28Z",
+  "updated_at": "2026-10-15T16:52:24Z",
   "version": 1
 }
