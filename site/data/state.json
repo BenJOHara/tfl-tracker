@@ -40,14 +40,14 @@
       "severity": "Part Suspended",
       "source_created": "0001-01-01T00:00:00"
     },
-    "northern:text:e29b3244df9a4b56": {
+    "northern:text:c45c775805aab64e": {
       "category": "points failure",
-      "first_seen": "2026-10-15T20:04:24Z",
-      "issue_key": "northern:text:e29b3244df9a4b56",
+      "first_seen": "2026-10-15T20:28:06Z",
+      "issue_key": "northern:text:c45c775805aab64e",
       "line_id": "northern",
       "line_name": "Northern",
-      "reason": "Northern Line: Severe delays between Camden Town and Battersea Power Station via Charing cross and between Finchley Central and Mill Hill East while we fix a points failure at Camden Town. Tickets are being accepted on London Buses, London Trams, Thameslink and South Western railway Services. MINOR DELAYS on the rest of the line.",
-      "severity": "Minor Delays",
+      "reason": "Northern Line: No service between Camden Town and Kennington via Charing Cross southbound only, and SEVERE DELAYS between Kenning and Battersea Power Station while we fix a points failure at Camden Town. Tickets are being accepted on London Buses, London Trams, Thameslink and South Western railway Services. MINOR DELAYS on the rest of the line.",
+      "severity": "Part Suspended",
       "source_created": "0001-01-01T00:00:00"
     },
     "victoria:text:02e0850cdf11ef25": {
@@ -62,6 +62,18 @@
     }
   },
   "history": [
+    {
+      "category": "points failure",
+      "duration_seconds": 1422,
+      "first_seen": "2026-10-15T20:04:24Z",
+      "issue_key": "northern:text:e29b3244df9a4b56",
+      "line_id": "northern",
+      "line_name": "Northern",
+      "reason": "Northern Line: Severe delays between Camden Town and Battersea Power Station via Charing cross and between Finchley Central and Mill Hill East while we fix a points failure at Camden Town. Tickets are being accepted on London Buses, London Trams, Thameslink and South Western railway Services. MINOR DELAYS on the rest of the line.",
+      "resolved_at": "2026-10-15T20:28:06Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
     {
       "category": "other",
       "duration_seconds": 11520,
@@ -23127,6 +23139,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-10-15T20:04:24Z",
+  "updated_at": "2026-10-15T20:28:06Z",
   "version": 1
 }
