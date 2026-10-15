@@ -1,47 +1,85 @@
 {
   "active": {
-    "circle:text:1a073b9d9af5ada4": {
+    "district:text:7a8df36ccf15a483": {
       "category": "other",
+      "first_seen": "2026-10-15T06:33:28Z",
+      "issue_key": "district:text:7a8df36ccf15a483",
+      "line_id": "district",
+      "line_name": "District",
+      "reason": "District Line: Severe delays between Earl's Court and Ealing Broadway / Edgware Road / Richmond, and between Earl's Court and Tower Hill eastbound only. MINOR DELAYS between Earl's Court and Wimbledon and between Tower Hill and Upminster while we fix a signal system failure. Tickets are being accepted on London Buses and South Western Railway.",
+      "severity": "Severe Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "northern:text:e5376e17df07472c": {
+      "category": "signal failure",
+      "first_seen": "2026-10-15T06:33:28Z",
+      "issue_key": "northern:text:e5376e17df07472c",
+      "line_id": "northern",
+      "line_name": "Northern",
+      "reason": "Northern Line: Severe delays between Camden Town and High Barnet due to an earlier signal failure at Kentish Town. MINOR DELAYS between Camden Town and Kennington via Charing Cross due to an earlier faulty train at Nine Elms. Tickets are being accepted on London Buses. GOOD SERVICE on the rest of the line.",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "weaver:text:63a2fd39fad605f5": {
+      "category": "other",
+      "first_seen": "2026-10-15T06:33:28Z",
+      "issue_key": "weaver:text:63a2fd39fad605f5",
+      "line_id": "weaver",
+      "line_name": "Weaver",
+      "reason": "Weaver Line: Minor delays between Hackney Downs and Liverpool Street due to an operation incident at Liverpool Street. GOOD SERVICE on the rest of the line.",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    }
+  },
+  "history": [
+    {
+      "category": "other",
+      "duration_seconds": 4952,
       "first_seen": "2026-10-15T05:10:56Z",
       "issue_key": "circle:text:1a073b9d9af5ada4",
       "line_id": "circle",
       "line_name": "Circle",
       "reason": "Circle Line: Minor delays due to an earlier signal system failure.",
+      "resolved_at": "2026-10-15T06:33:28Z",
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "district:text:a63e24bc30ca47b6": {
+    {
       "category": "other",
+      "duration_seconds": 4952,
       "first_seen": "2026-10-15T05:10:56Z",
       "issue_key": "district:text:a63e24bc30ca47b6",
       "line_id": "district",
       "line_name": "District",
       "reason": "District Line: Severe delays between Earl's Court and Ealing Broadway / Edgware Road / Wimbledon/ Richmond, and between Earl's Court and Tower Hill eastbound only while we fix a signal system failure. Tickets are being accepted on London Buses and South Western Railway. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-10-15T06:33:28Z",
       "severity": "Severe Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "northern:text:6d5b0fa3755635ca": {
+    {
       "category": "signal failure",
+      "duration_seconds": 4952,
       "first_seen": "2026-10-15T05:10:56Z",
       "issue_key": "northern:text:6d5b0fa3755635ca",
       "line_id": "northern",
       "line_name": "Northern",
       "reason": "Northern Line: No service between Kennington and Battersea Power Station while we fix a faulty train at Nine Elms. NO SERVICE between Camden Town and Finchley Central northbound only while we fix a signal failure at Kentish Town. GOOD SERVICE on the rest of the line. Tickets are being accepted on London Buses.",
+      "resolved_at": "2026-10-15T06:33:28Z",
       "severity": "Part Suspended",
       "source_created": "0001-01-01T00:00:00"
     },
-    "waterloo-city:text:0faebd0ea99ebd1b": {
+    {
       "category": "other",
+      "duration_seconds": 24566,
       "first_seen": "2026-10-14T23:44:02Z",
       "issue_key": "waterloo-city:text:0faebd0ea99ebd1b",
       "line_id": "waterloo-city",
       "line_name": "Waterloo & City",
       "reason": "Waterloo and City Line: Service will resume at 06:00.",
+      "resolved_at": "2026-10-15T06:33:28Z",
       "severity": "Service Closed",
       "source_created": "0001-01-01T00:00:00"
-    }
-  },
-  "history": [
+    },
     {
       "category": "other",
       "duration_seconds": 16494,
@@ -22831,6 +22869,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-10-15T05:10:56Z",
+  "updated_at": "2026-10-15T06:33:28Z",
   "version": 1
 }
