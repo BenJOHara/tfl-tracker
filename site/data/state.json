@@ -20,14 +20,24 @@
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "district:text:7087ebc1d960d62c": {
+    "district:text:404fe2001db10fa6": {
       "category": "train fault",
-      "first_seen": "2026-10-15T16:52:24Z",
-      "issue_key": "district:text:7087ebc1d960d62c",
+      "first_seen": "2026-10-15T17:22:17Z",
+      "issue_key": "district:text:404fe2001db10fa6",
       "line_id": "district",
       "line_name": "District",
-      "reason": "District Line: Minor delays between Earls Court and Tower Hill eastbound only due to an earlier faulty train. GOOD SERVICE on the rest of the line.",
+      "reason": "District Line: Minor delays between Tower Hill and Earl's Court westbound only due to an earlier faulty train at South Kensington. MINOR DELAYS between Earl's Court and Wimbledon while we fix a track fault at Southfields. GOOD SERVICE on the rest of the line.",
       "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "dlr:text:67c8473cbab65618": {
+      "category": "passenger incident",
+      "first_seen": "2026-10-15T17:22:17Z",
+      "issue_key": "dlr:text:67c8473cbab65618",
+      "line_id": "dlr",
+      "line_name": "DLR",
+      "reason": "Docklands Light Railway: Severe delays between Bank/Tower Gateway and Poplar/Canary Wharf while we deal with a customer incident at Shadwell. GOOD SERVICE on all other DLR routes.",
+      "severity": "Severe Delays",
       "source_created": "0001-01-01T00:00:00"
     },
     "hammersmith-city:text:004129bf5e441754": {
@@ -62,6 +72,18 @@
     }
   },
   "history": [
+    {
+      "category": "train fault",
+      "duration_seconds": 1793,
+      "first_seen": "2026-10-15T16:52:24Z",
+      "issue_key": "district:text:7087ebc1d960d62c",
+      "line_id": "district",
+      "line_name": "District",
+      "reason": "District Line: Minor delays between Earls Court and Tower Hill eastbound only due to an earlier faulty train. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-10-15T17:22:17Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
     {
       "category": "other",
       "duration_seconds": 24463,
@@ -23031,6 +23053,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-10-15T16:52:24Z",
+  "updated_at": "2026-10-15T17:22:17Z",
   "version": 1
 }
