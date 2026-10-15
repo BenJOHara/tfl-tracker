@@ -1,15 +1,5 @@
 {
   "active": {
-    "circle:text:2f5ddd36d23731bf": {
-      "category": "other",
-      "first_seen": "2026-10-15T20:04:24Z",
-      "issue_key": "circle:text:2f5ddd36d23731bf",
-      "line_id": "circle",
-      "line_name": "Circle",
-      "reason": "Circle Line: Minor delays between Edgware Road and Hammersmith due to train cancellations. GOOD SERVICE on the rest of the line.",
-      "severity": "Minor Delays",
-      "source_created": "0001-01-01T00:00:00"
-    },
     "district:text:b967c2854b537ad8": {
       "category": "track fault",
       "first_seen": "2026-10-15T19:03:57Z",
@@ -30,24 +20,24 @@
       "severity": "Severe Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "jubilee:text:ab3fa6dba9e86c4a": {
+    "jubilee:text:7ed6f26f1c081e2e": {
       "category": "points failure",
-      "first_seen": "2026-10-15T19:03:57Z",
-      "issue_key": "jubilee:text:ab3fa6dba9e86c4a",
+      "first_seen": "2026-10-15T22:11:30Z",
+      "issue_key": "jubilee:text:7ed6f26f1c081e2e",
       "line_id": "jubilee",
       "line_name": "Jubilee",
-      "reason": "Jubilee Line: No service between Stratford and London Bridge and SEVERE DELAYS on the rest of the line while we fix a points failure at North Greenwich. Tickets will be accepted on London Buses, Elizabeth Line, Mildmay line, C2C and Thameslink services.",
-      "severity": "Part Suspended",
+      "reason": "Jubilee Line: Severe delays due to earlier points failures at North Greenwich and Canary Wharf. Tickets will be accepted on London Buses, Elizabeth Line, Mildmay line, C2C and Thameslink services.",
+      "severity": "Severe Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "northern:text:c45c775805aab64e": {
+    "northern:text:8a87a22cf3a974c8": {
       "category": "points failure",
-      "first_seen": "2026-10-15T20:28:06Z",
-      "issue_key": "northern:text:c45c775805aab64e",
+      "first_seen": "2026-10-15T22:11:30Z",
+      "issue_key": "northern:text:8a87a22cf3a974c8",
       "line_id": "northern",
       "line_name": "Northern",
-      "reason": "Northern Line: No service between Camden Town and Kennington via Charing Cross southbound only, and SEVERE DELAYS between Kenning and Battersea Power Station while we fix a points failure at Camden Town. Tickets are being accepted on London Buses, London Trams, Thameslink and South Western railway Services. MINOR DELAYS on the rest of the line.",
-      "severity": "Part Suspended",
+      "reason": "Northern Line: Minor delays due to an earlier points failure at Camden Town. All southbound trains from High Barnet will run via Bank, take the first train and change at Camden Town for the Charing Cross branch.",
+      "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
     "victoria:text:02e0850cdf11ef25": {
@@ -59,9 +49,55 @@
       "reason": "Victoria Line: Minor delays due to train cancellations.",
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
+    },
+    "weaver:text:7c1157eea7dc47fb": {
+      "category": "other",
+      "first_seen": "2026-10-15T22:11:30Z",
+      "issue_key": "weaver:text:7c1157eea7dc47fb",
+      "line_id": "weaver",
+      "line_name": "Weaver",
+      "reason": "WEAVER LINE: Monday 12, Tuesday 13, Wednesday 14 and Thursday 15 October, after 2245 each evening, no service between Hackney Downs and Cheshunt / Enfield Town. Use London Underground connections between Central London and Seven Sisters, and for Rectory Road and Stoke Newington, use Clapton station. Last trains operate at 2243 from Liverpool Street to Cheshunt, 2250 from Enfield Town to Liverpool Street, 2258 from Liverpool Street to Enfield Town and 2259 from Cheshunt to Liverpool Street. Replacement buses operate.",
+      "severity": "Part Closure",
+      "source_created": "0001-01-01T00:00:00"
     }
   },
   "history": [
+    {
+      "category": "other",
+      "duration_seconds": 7626,
+      "first_seen": "2026-10-15T20:04:24Z",
+      "issue_key": "circle:text:2f5ddd36d23731bf",
+      "line_id": "circle",
+      "line_name": "Circle",
+      "reason": "Circle Line: Minor delays between Edgware Road and Hammersmith due to train cancellations. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-10-15T22:11:30Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "points failure",
+      "duration_seconds": 11253,
+      "first_seen": "2026-10-15T19:03:57Z",
+      "issue_key": "jubilee:text:ab3fa6dba9e86c4a",
+      "line_id": "jubilee",
+      "line_name": "Jubilee",
+      "reason": "Jubilee Line: No service between Stratford and London Bridge and SEVERE DELAYS on the rest of the line while we fix a points failure at North Greenwich. Tickets will be accepted on London Buses, Elizabeth Line, Mildmay line, C2C and Thameslink services.",
+      "resolved_at": "2026-10-15T22:11:30Z",
+      "severity": "Part Suspended",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "points failure",
+      "duration_seconds": 6204,
+      "first_seen": "2026-10-15T20:28:06Z",
+      "issue_key": "northern:text:c45c775805aab64e",
+      "line_id": "northern",
+      "line_name": "Northern",
+      "reason": "Northern Line: No service between Camden Town and Kennington via Charing Cross southbound only, and SEVERE DELAYS between Kenning and Battersea Power Station while we fix a points failure at Camden Town. Tickets are being accepted on London Buses, London Trams, Thameslink and South Western railway Services. MINOR DELAYS on the rest of the line.",
+      "resolved_at": "2026-10-15T22:11:30Z",
+      "severity": "Part Suspended",
+      "source_created": "0001-01-01T00:00:00"
+    },
     {
       "category": "points failure",
       "duration_seconds": 1422,
@@ -23139,6 +23175,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-10-15T20:28:06Z",
+  "updated_at": "2026-10-15T22:11:30Z",
   "version": 1
 }
