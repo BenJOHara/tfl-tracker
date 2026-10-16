@@ -1,5 +1,15 @@
 {
   "active": {
+    "central:text:515ec04cf0a543ca": {
+      "category": "other",
+      "first_seen": "2026-10-16T11:24:53Z",
+      "issue_key": "central:text:515ec04cf0a543ca",
+      "line_id": "central",
+      "line_name": "Central",
+      "reason": "Central Line: Minor delays between Leytonstone and Epping/Hainault via Newbury Park and MINOR DELAYS between White City and Ealing Broadway/ West Ruislip due to train cancellations.",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
     "elizabeth:text:8b5218e4c401f0d6": {
       "category": "person on track",
       "first_seen": "2026-10-16T09:41:29Z",
@@ -8,6 +18,16 @@
       "line_name": "Elizabeth line",
       "reason": "Severe delays between Whitechapel and Shenfield and MINOR DELAYS between Whitechapel and Paddington due to an earlier trespasser on the track in the Chadwell Heath area. GOOD SERVICE on the rest of the line.",
       "severity": "Severe Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "piccadilly:text:cb6ec773b17da286": {
+      "category": "fire alert",
+      "first_seen": "2026-10-16T11:24:53Z",
+      "issue_key": "piccadilly:text:cb6ec773b17da286",
+      "line_id": "piccadilly",
+      "line_name": "Piccadilly",
+      "reason": "Piccadilly Line: No service between Arnos Grove and Cockfosters while we respond to a fire alert at Oakwood. Tickets are being accepted on London Buses. GOOD SERVICE on the rest of the line.",
+      "severity": "Part Suspended",
       "source_created": "0001-01-01T00:00:00"
     },
     "tram:text:92472e92cde26409": {
@@ -19,19 +39,21 @@
       "reason": "London Tramlink: No service between Elmers End and Arena while we fix a track fault at Lebanon Road. GOOD SERVICE on other Tram routes.",
       "severity": "Part Suspended",
       "source_created": "0001-01-01T00:00:00"
-    },
-    "windrush:text:399e8903ce7b2ec7": {
+    }
+  },
+  "history": [
+    {
       "category": "signal failure",
+      "duration_seconds": 3691,
       "first_seen": "2026-10-16T10:23:22Z",
       "issue_key": "windrush:text:399e8903ce7b2ec7",
       "line_id": "windrush",
       "line_name": "Windrush",
       "reason": "Windrush Line: Severe delays between West Croydon and Sydenham due to an earlier signal failure at Norwood Junction. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-10-16T11:24:53Z",
       "severity": "Severe Delays",
       "source_created": "0001-01-01T00:00:00"
-    }
-  },
-  "history": [
+    },
     {
       "category": "signal failure",
       "duration_seconds": 2513,
@@ -23493,6 +23515,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-10-16T10:23:22Z",
+  "updated_at": "2026-10-16T11:24:53Z",
   "version": 1
 }
