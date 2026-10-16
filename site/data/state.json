@@ -10,16 +10,6 @@
       "severity": "Severe Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "victoria:text:7aa308ebaa082f6d": {
-      "category": "fire alert",
-      "first_seen": "2026-10-16T21:22:42Z",
-      "issue_key": "victoria:text:7aa308ebaa082f6d",
-      "line_id": "victoria",
-      "line_name": "Victoria",
-      "reason": "Victoria Line: Minor delays due to an earlier fire alert at King's Cross St. Pancras.",
-      "severity": "Minor Delays",
-      "source_created": "0001-01-01T00:00:00"
-    },
     "waterloo-city:text:1bbcac27f282d0db": {
       "category": "other",
       "first_seen": "2026-10-16T23:50:16Z",
@@ -32,6 +22,18 @@
     }
   },
   "history": [
+    {
+      "category": "fire alert",
+      "duration_seconds": 8920,
+      "first_seen": "2026-10-16T21:22:42Z",
+      "issue_key": "victoria:text:7aa308ebaa082f6d",
+      "line_id": "victoria",
+      "line_name": "Victoria",
+      "reason": "Victoria Line: Minor delays due to an earlier fire alert at King's Cross St. Pancras.",
+      "resolved_at": "2026-10-16T23:51:22Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
     {
       "category": "other",
       "duration_seconds": 8854,
@@ -23745,6 +23747,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-10-16T23:50:16Z",
+  "updated_at": "2026-10-16T23:51:22Z",
   "version": 1
 }
