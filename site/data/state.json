@@ -10,13 +10,13 @@
       "severity": "Reduced Service",
       "source_created": "0001-01-01T00:00:00"
     },
-    "piccadilly:text:3fe255305aa60643": {
-      "category": "other",
-      "first_seen": "2026-10-16T21:22:42Z",
-      "issue_key": "piccadilly:text:3fe255305aa60643",
+    "piccadilly:text:64678428794707c2": {
+      "category": "passenger incident",
+      "first_seen": "2026-10-16T21:56:03Z",
+      "issue_key": "piccadilly:text:64678428794707c2",
       "line_id": "piccadilly",
       "line_name": "Piccadilly",
-      "reason": "Piccadilly Line: Severe delays while we help a person ill on a train at Arnos Grove. Tickets are being accepted on, London Buses, Elizabeth line, Weaver line and Great Northern services.",
+      "reason": "Piccadilly Line: Severe delays due to a customer incident at Arnos Grove. Tickets are being accepted on, London Buses, Elizabeth line, Weaver line and Great Northern services.",
       "severity": "Severe Delays",
       "source_created": "0001-01-01T00:00:00"
     },
@@ -32,6 +32,18 @@
     }
   },
   "history": [
+    {
+      "category": "other",
+      "duration_seconds": 2001,
+      "first_seen": "2026-10-16T21:22:42Z",
+      "issue_key": "piccadilly:text:3fe255305aa60643",
+      "line_id": "piccadilly",
+      "line_name": "Piccadilly",
+      "reason": "Piccadilly Line: Severe delays while we help a person ill on a train at Arnos Grove. Tickets are being accepted on, London Buses, Elizabeth line, Weaver line and Great Northern services.",
+      "resolved_at": "2026-10-16T21:56:03Z",
+      "severity": "Severe Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
     {
       "category": "other",
       "duration_seconds": 8856,
@@ -23721,6 +23733,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-10-16T21:22:42Z",
+  "updated_at": "2026-10-16T21:56:03Z",
   "version": 1
 }
