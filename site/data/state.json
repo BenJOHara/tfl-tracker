@@ -1,5 +1,15 @@
 {
   "active": {
+    "elizabeth:text:8b5218e4c401f0d6": {
+      "category": "person on track",
+      "first_seen": "2026-10-16T09:41:29Z",
+      "issue_key": "elizabeth:text:8b5218e4c401f0d6",
+      "line_id": "elizabeth",
+      "line_name": "Elizabeth line",
+      "reason": "Severe delays between Whitechapel and Shenfield and MINOR DELAYS between Whitechapel and Paddington due to an earlier trespasser on the track in the Chadwell Heath area. GOOD SERVICE on the rest of the line.",
+      "severity": "Severe Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
     "tram:text:92472e92cde26409": {
       "category": "track fault",
       "first_seen": "2026-10-16T04:56:08Z",
@@ -7,6 +17,16 @@
       "line_id": "tram",
       "line_name": "Tram",
       "reason": "London Tramlink: No service between Elmers End and Arena while we fix a track fault at Lebanon Road. GOOD SERVICE on other Tram routes.",
+      "severity": "Part Suspended",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "windrush:text:53b9bafb09b454c6": {
+      "category": "signal failure",
+      "first_seen": "2026-10-16T09:41:29Z",
+      "issue_key": "windrush:text:53b9bafb09b454c6",
+      "line_id": "windrush",
+      "line_name": "Windrush",
+      "reason": "Windrush Line: No service between West Croydon and Sydenham while we fix a signal failure at Norwood Junction. GOOD SERVICE on the rest of the line.",
       "severity": "Part Suspended",
       "source_created": "0001-01-01T00:00:00"
     }
@@ -23461,6 +23481,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-10-16T05:56:30Z",
+  "updated_at": "2026-10-16T09:41:29Z",
   "version": 1
 }
