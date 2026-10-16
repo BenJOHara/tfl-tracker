@@ -1,33 +1,33 @@
 {
   "active": {
-    "circle:text:4143e93fcd9c62e4": {
-      "category": "train fault",
-      "first_seen": "2026-10-16T18:13:17Z",
-      "issue_key": "circle:text:4143e93fcd9c62e4",
+    "circle:text:2267800d2cb8b305": {
+      "category": "other",
+      "first_seen": "2026-10-16T18:30:37Z",
+      "issue_key": "circle:text:2267800d2cb8b305",
       "line_id": "circle",
       "line_name": "Circle",
-      "reason": "Circle Line: Minor delays clockwise only while we fix a faulty train at Farringdon.",
+      "reason": "Circle Line: Minor delays clockwise only due to train cancellations.",
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "hammersmith-city:text:306b77e951836749": {
-      "category": "train fault",
-      "first_seen": "2026-10-16T18:13:17Z",
-      "issue_key": "hammersmith-city:text:306b77e951836749",
-      "line_id": "hammersmith-city",
-      "line_name": "Hammersmith & City",
-      "reason": "Hammersmith and City Line: Minor delays eastbound only while we fix a faulty train at Farringdon.",
+    "district:text:9b6e9456414311f5": {
+      "category": "other",
+      "first_seen": "2026-10-16T18:30:37Z",
+      "issue_key": "district:text:9b6e9456414311f5",
+      "line_id": "district",
+      "line_name": "District",
+      "reason": "District Line: Minor delays between Earl's Court and Tower Hill due to train cancellations. GOOD SERVICE on the rest of the line.",
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "metropolitan:text:f3d6b99b396729f9": {
+    "metropolitan:text:ac06a5e297ed9ace": {
       "category": "train fault",
-      "first_seen": "2026-10-16T18:13:17Z",
-      "issue_key": "metropolitan:text:f3d6b99b396729f9",
+      "first_seen": "2026-10-16T18:30:37Z",
+      "issue_key": "metropolitan:text:ac06a5e297ed9ace",
       "line_id": "metropolitan",
       "line_name": "Metropolitan",
-      "reason": "Metropolitan Line: Severe delays between Harrow-on-the-Hill and Aldgate while we fix a faulty train at Farringdon. Tickets are being accepted on London Buses. GOOD SERVICE on the rest of the line.",
-      "severity": "Severe Delays",
+      "reason": "Metropolitan Line: Minor delays between Harrow-on-the-Hill and Aldgate while we fix a faulty train at Farringdon. GOOD SERVICE on the rest of the line.",
+      "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
     "mildmay:text:d432e602daec49d6": {
@@ -36,17 +36,17 @@
       "issue_key": "mildmay:text:d432e602daec49d6",
       "line_id": "mildmay",
       "line_name": "Mildmay",
-      "reason": "Mildmay Line: Severe delays due to an earlier fault with the overhead power lines at Hackney Central.",
-      "severity": "Severe Delays",
+      "reason": "Mildmay Line: Minor delays due to an earlier fault with the overhead power lines at Hackney Central.",
+      "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "piccadilly:text:a64be996dd585810": {
+    "piccadilly:text:2ea5ada2ef21b3b4": {
       "category": "other",
-      "first_seen": "2026-10-16T18:13:17Z",
-      "issue_key": "piccadilly:text:a64be996dd585810",
+      "first_seen": "2026-10-16T18:30:37Z",
+      "issue_key": "piccadilly:text:2ea5ada2ef21b3b4",
       "line_id": "piccadilly",
       "line_name": "Piccadilly",
-      "reason": "Piccadilly Line: Severe delays between Acton Town and Uxbridge, and MINOR DELAYS between Acton Town and Heathrow Terminals due to a person taken ill on a train earlier at Piccadilly Circus. GOOD SERVICE on the rest of the line.",
+      "reason": "Piccadilly Line: Severe delays between Acton Town and Uxbridge, and MINOR DELAYS between Acton Town and Heathrow Terminals due to a person taken ill on a train earlier at Piccadilly Circus. Tickets are being accepted on London Buses. GOOD SERVICE on the rest of the line.",
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
@@ -82,6 +82,54 @@
     }
   },
   "history": [
+    {
+      "category": "train fault",
+      "duration_seconds": 1040,
+      "first_seen": "2026-10-16T18:13:17Z",
+      "issue_key": "circle:text:4143e93fcd9c62e4",
+      "line_id": "circle",
+      "line_name": "Circle",
+      "reason": "Circle Line: Minor delays clockwise only while we fix a faulty train at Farringdon.",
+      "resolved_at": "2026-10-16T18:30:37Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "train fault",
+      "duration_seconds": 1040,
+      "first_seen": "2026-10-16T18:13:17Z",
+      "issue_key": "hammersmith-city:text:306b77e951836749",
+      "line_id": "hammersmith-city",
+      "line_name": "Hammersmith & City",
+      "reason": "Hammersmith and City Line: Minor delays eastbound only while we fix a faulty train at Farringdon.",
+      "resolved_at": "2026-10-16T18:30:37Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "train fault",
+      "duration_seconds": 1040,
+      "first_seen": "2026-10-16T18:13:17Z",
+      "issue_key": "metropolitan:text:f3d6b99b396729f9",
+      "line_id": "metropolitan",
+      "line_name": "Metropolitan",
+      "reason": "Metropolitan Line: Severe delays between Harrow-on-the-Hill and Aldgate while we fix a faulty train at Farringdon. Tickets are being accepted on London Buses. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-10-16T18:30:37Z",
+      "severity": "Severe Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "other",
+      "duration_seconds": 1040,
+      "first_seen": "2026-10-16T18:13:17Z",
+      "issue_key": "piccadilly:text:a64be996dd585810",
+      "line_id": "piccadilly",
+      "line_name": "Piccadilly",
+      "reason": "Piccadilly Line: Severe delays between Acton Town and Uxbridge, and MINOR DELAYS between Acton Town and Heathrow Terminals due to a person taken ill on a train earlier at Piccadilly Circus. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-10-16T18:30:37Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
     {
       "category": "other",
       "duration_seconds": 13924,
@@ -23603,6 +23651,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-10-16T18:13:17Z",
+  "updated_at": "2026-10-16T18:30:37Z",
   "version": 1
 }
