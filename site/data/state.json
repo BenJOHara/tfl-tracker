@@ -1,5 +1,55 @@
 {
   "active": {
+    "circle:text:4143e93fcd9c62e4": {
+      "category": "train fault",
+      "first_seen": "2026-10-16T18:13:17Z",
+      "issue_key": "circle:text:4143e93fcd9c62e4",
+      "line_id": "circle",
+      "line_name": "Circle",
+      "reason": "Circle Line: Minor delays clockwise only while we fix a faulty train at Farringdon.",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "hammersmith-city:text:306b77e951836749": {
+      "category": "train fault",
+      "first_seen": "2026-10-16T18:13:17Z",
+      "issue_key": "hammersmith-city:text:306b77e951836749",
+      "line_id": "hammersmith-city",
+      "line_name": "Hammersmith & City",
+      "reason": "Hammersmith and City Line: Minor delays eastbound only while we fix a faulty train at Farringdon.",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "metropolitan:text:f3d6b99b396729f9": {
+      "category": "train fault",
+      "first_seen": "2026-10-16T18:13:17Z",
+      "issue_key": "metropolitan:text:f3d6b99b396729f9",
+      "line_id": "metropolitan",
+      "line_name": "Metropolitan",
+      "reason": "Metropolitan Line: Severe delays between Harrow-on-the-Hill and Aldgate while we fix a faulty train at Farringdon. Tickets are being accepted on London Buses. GOOD SERVICE on the rest of the line.",
+      "severity": "Severe Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "mildmay:text:d432e602daec49d6": {
+      "category": "other",
+      "first_seen": "2026-10-16T18:13:17Z",
+      "issue_key": "mildmay:text:d432e602daec49d6",
+      "line_id": "mildmay",
+      "line_name": "Mildmay",
+      "reason": "Mildmay Line: Severe delays due to an earlier fault with the overhead power lines at Hackney Central.",
+      "severity": "Severe Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "piccadilly:text:a64be996dd585810": {
+      "category": "other",
+      "first_seen": "2026-10-16T18:13:17Z",
+      "issue_key": "piccadilly:text:a64be996dd585810",
+      "line_id": "piccadilly",
+      "line_name": "Piccadilly",
+      "reason": "Piccadilly Line: Severe delays between Acton Town and Uxbridge, and MINOR DELAYS between Acton Town and Heathrow Terminals due to a person taken ill on a train earlier at Piccadilly Circus. GOOD SERVICE on the rest of the line.",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
     "tram:text:92472e92cde26409": {
       "category": "track fault",
       "first_seen": "2026-10-16T04:56:08Z",
@@ -10,18 +60,40 @@
       "severity": "Part Suspended",
       "source_created": "0001-01-01T00:00:00"
     },
-    "victoria:text:02e0850cdf11ef25": {
+    "victoria:text:fd3fbd176fcfe8e3": {
+      "category": "fire alert",
+      "first_seen": "2026-10-16T18:13:17Z",
+      "issue_key": "victoria:text:fd3fbd176fcfe8e3",
+      "line_id": "victoria",
+      "line_name": "Victoria",
+      "reason": "Victoria Line: Severe delays due to an earlier fire alert at King's Cross St. Pancras. Tickets are being accepted on London Buses, London Overground, Great Northern, Thameslink, Greater Anglia, South Western Railway and Southeastern services.",
+      "severity": "Severe Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "weaver:text:434d874dcc92f094": {
       "category": "other",
+      "first_seen": "2026-10-16T18:13:17Z",
+      "issue_key": "weaver:text:434d874dcc92f094",
+      "line_id": "weaver",
+      "line_name": "Weaver",
+      "reason": "Weaver Line: Reduced service due to an earlier operational incident.",
+      "severity": "Reduced Service",
+      "source_created": "0001-01-01T00:00:00"
+    }
+  },
+  "history": [
+    {
+      "category": "other",
+      "duration_seconds": 13924,
       "first_seen": "2026-10-16T14:21:13Z",
       "issue_key": "victoria:text:02e0850cdf11ef25",
       "line_id": "victoria",
       "line_name": "Victoria",
       "reason": "Victoria Line: Minor delays due to train cancellations.",
+      "resolved_at": "2026-10-16T18:13:17Z",
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
-    }
-  },
-  "history": [
+    },
     {
       "category": "other",
       "duration_seconds": 10580,
@@ -23531,6 +23603,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-10-16T14:21:13Z",
+  "updated_at": "2026-10-16T18:13:17Z",
   "version": 1
 }
