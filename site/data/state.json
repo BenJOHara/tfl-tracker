@@ -20,18 +20,30 @@
       "severity": "Part Suspended",
       "source_created": "0001-01-01T00:00:00"
     },
-    "windrush:text:53b9bafb09b454c6": {
+    "windrush:text:399e8903ce7b2ec7": {
       "category": "signal failure",
+      "first_seen": "2026-10-16T10:23:22Z",
+      "issue_key": "windrush:text:399e8903ce7b2ec7",
+      "line_id": "windrush",
+      "line_name": "Windrush",
+      "reason": "Windrush Line: Severe delays between West Croydon and Sydenham due to an earlier signal failure at Norwood Junction. GOOD SERVICE on the rest of the line.",
+      "severity": "Severe Delays",
+      "source_created": "0001-01-01T00:00:00"
+    }
+  },
+  "history": [
+    {
+      "category": "signal failure",
+      "duration_seconds": 2513,
       "first_seen": "2026-10-16T09:41:29Z",
       "issue_key": "windrush:text:53b9bafb09b454c6",
       "line_id": "windrush",
       "line_name": "Windrush",
       "reason": "Windrush Line: No service between West Croydon and Sydenham while we fix a signal failure at Norwood Junction. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-10-16T10:23:22Z",
       "severity": "Part Suspended",
       "source_created": "0001-01-01T00:00:00"
-    }
-  },
-  "history": [
+    },
     {
       "category": "planned engineering",
       "duration_seconds": 3622,
@@ -23481,6 +23493,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-10-16T09:41:29Z",
+  "updated_at": "2026-10-16T10:23:22Z",
   "version": 1
 }
