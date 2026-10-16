@@ -1,15 +1,5 @@
 {
   "active": {
-    "mildmay:text:347e9b7b5010a57f": {
-      "category": "other",
-      "first_seen": "2026-10-16T21:22:42Z",
-      "issue_key": "mildmay:text:347e9b7b5010a57f",
-      "line_id": "mildmay",
-      "line_name": "Mildmay",
-      "reason": "MILDMAY LINE: Friday 16 October, the 2159 train from Stratford to Richmond will terminate at Camden Road at 2219. The 2318 train from Richmond to Willesden Junction will not run",
-      "severity": "Reduced Service",
-      "source_created": "0001-01-01T00:00:00"
-    },
     "piccadilly:text:64678428794707c2": {
       "category": "passenger incident",
       "first_seen": "2026-10-16T21:56:03Z",
@@ -29,9 +19,31 @@
       "reason": "Victoria Line: Minor delays due to an earlier fire alert at King's Cross St. Pancras.",
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
+    },
+    "waterloo-city:text:1bbcac27f282d0db": {
+      "category": "other",
+      "first_seen": "2026-10-16T23:50:16Z",
+      "issue_key": "waterloo-city:text:1bbcac27f282d0db",
+      "line_id": "waterloo-city",
+      "line_name": "Waterloo & City",
+      "reason": "Waterloo and City Line: Service will resume at 06:00 on Monday.",
+      "severity": "Service Closed",
+      "source_created": "0001-01-01T00:00:00"
     }
   },
   "history": [
+    {
+      "category": "other",
+      "duration_seconds": 8854,
+      "first_seen": "2026-10-16T21:22:42Z",
+      "issue_key": "mildmay:text:347e9b7b5010a57f",
+      "line_id": "mildmay",
+      "line_name": "Mildmay",
+      "reason": "MILDMAY LINE: Friday 16 October, the 2159 train from Stratford to Richmond will terminate at Camden Road at 2219. The 2318 train from Richmond to Willesden Junction will not run",
+      "resolved_at": "2026-10-16T23:50:16Z",
+      "severity": "Reduced Service",
+      "source_created": "0001-01-01T00:00:00"
+    },
     {
       "category": "other",
       "duration_seconds": 2001,
@@ -23733,6 +23745,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-10-16T21:56:03Z",
+  "updated_at": "2026-10-16T23:50:16Z",
   "version": 1
 }
