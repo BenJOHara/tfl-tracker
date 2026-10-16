@@ -180,16 +180,6 @@
       "severity": "Service Closed",
       "source_created": "0001-01-01T00:00:00"
     },
-    "weaver:text:7c1157eea7dc47fb": {
-      "category": "other",
-      "first_seen": "2026-10-15T22:11:30Z",
-      "issue_key": "weaver:text:7c1157eea7dc47fb",
-      "line_id": "weaver",
-      "line_name": "Weaver",
-      "reason": "WEAVER LINE: Monday 12, Tuesday 13, Wednesday 14 and Thursday 15 October, after 2245 each evening, no service between Hackney Downs and Cheshunt / Enfield Town. Use London Underground connections between Central London and Seven Sisters, and for Rectory Road and Stoke Newington, use Clapton station. Last trains operate at 2243 from Liverpool Street to Cheshunt, 2250 from Enfield Town to Liverpool Street, 2258 from Liverpool Street to Enfield Town and 2259 from Cheshunt to Liverpool Street. Replacement buses operate.",
-      "severity": "Part Closure",
-      "source_created": "0001-01-01T00:00:00"
-    },
     "weaver:text:f2dc8c00c6757e13": {
       "category": "other",
       "first_seen": "2026-10-16T00:29:12Z",
@@ -212,6 +202,18 @@
     }
   },
   "history": [
+    {
+      "category": "other",
+      "duration_seconds": 10964,
+      "first_seen": "2026-10-15T22:11:30Z",
+      "issue_key": "weaver:text:7c1157eea7dc47fb",
+      "line_id": "weaver",
+      "line_name": "Weaver",
+      "reason": "WEAVER LINE: Monday 12, Tuesday 13, Wednesday 14 and Thursday 15 October, after 2245 each evening, no service between Hackney Downs and Cheshunt / Enfield Town. Use London Underground connections between Central London and Seven Sisters, and for Rectory Road and Stoke Newington, use Clapton station. Last trains operate at 2243 from Liverpool Street to Cheshunt, 2250 from Enfield Town to Liverpool Street, 2258 from Liverpool Street to Enfield Town and 2259 from Cheshunt to Liverpool Street. Replacement buses operate.",
+      "resolved_at": "2026-10-16T01:14:14Z",
+      "severity": "Part Closure",
+      "source_created": "0001-01-01T00:00:00"
+    },
     {
       "category": "track fault",
       "duration_seconds": 19515,
@@ -23385,6 +23387,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-10-16T00:29:12Z",
+  "updated_at": "2026-10-16T01:14:14Z",
   "version": 1
 }
