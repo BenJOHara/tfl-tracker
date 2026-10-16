@@ -1,12 +1,12 @@
 {
   "active": {
-    "circle:text:2267800d2cb8b305": {
+    "circle:text:bf9bb7504db7ea4d": {
       "category": "other",
-      "first_seen": "2026-10-16T18:30:37Z",
-      "issue_key": "circle:text:2267800d2cb8b305",
+      "first_seen": "2026-10-16T18:55:06Z",
+      "issue_key": "circle:text:bf9bb7504db7ea4d",
       "line_id": "circle",
       "line_name": "Circle",
-      "reason": "Circle Line: Minor delays clockwise only due to train cancellations.",
+      "reason": "Circle Line: Minor delays due to train cancellations.",
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
@@ -40,14 +40,14 @@
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "piccadilly:text:2ea5ada2ef21b3b4": {
+    "piccadilly:text:241ee21fef4e7776": {
       "category": "other",
-      "first_seen": "2026-10-16T18:30:37Z",
-      "issue_key": "piccadilly:text:2ea5ada2ef21b3b4",
+      "first_seen": "2026-10-16T18:55:06Z",
+      "issue_key": "piccadilly:text:241ee21fef4e7776",
       "line_id": "piccadilly",
       "line_name": "Piccadilly",
-      "reason": "Piccadilly Line: Severe delays between Acton Town and Uxbridge, and MINOR DELAYS between Acton Town and Heathrow Terminals due to a person taken ill on a train earlier at Piccadilly Circus. Tickets are being accepted on London Buses. GOOD SERVICE on the rest of the line.",
-      "severity": "Minor Delays",
+      "reason": "Piccadilly Line: Severe delays between Acton Town and Uxbridge due to a person taken ill on a train earlier at Piccadilly Circus. Tickets are being accepted on London Buses. GOOD SERVICE on the rest of the line.",
+      "severity": "Severe Delays",
       "source_created": "0001-01-01T00:00:00"
     },
     "tram:text:92472e92cde26409": {
@@ -82,6 +82,30 @@
     }
   },
   "history": [
+    {
+      "category": "other",
+      "duration_seconds": 1469,
+      "first_seen": "2026-10-16T18:30:37Z",
+      "issue_key": "circle:text:2267800d2cb8b305",
+      "line_id": "circle",
+      "line_name": "Circle",
+      "reason": "Circle Line: Minor delays clockwise only due to train cancellations.",
+      "resolved_at": "2026-10-16T18:55:06Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "other",
+      "duration_seconds": 1469,
+      "first_seen": "2026-10-16T18:30:37Z",
+      "issue_key": "piccadilly:text:2ea5ada2ef21b3b4",
+      "line_id": "piccadilly",
+      "line_name": "Piccadilly",
+      "reason": "Piccadilly Line: Severe delays between Acton Town and Uxbridge, and MINOR DELAYS between Acton Town and Heathrow Terminals due to a person taken ill on a train earlier at Piccadilly Circus. Tickets are being accepted on London Buses. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-10-16T18:55:06Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
     {
       "category": "train fault",
       "duration_seconds": 1040,
@@ -23651,6 +23675,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-10-16T18:30:37Z",
+  "updated_at": "2026-10-16T18:55:06Z",
   "version": 1
 }
