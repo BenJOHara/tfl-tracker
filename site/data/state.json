@@ -30,24 +30,24 @@
       "severity": "Severe Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "hammersmith-city:text:004129bf5e441754": {
+    "hammersmith-city:text:da02d169a8176fd5": {
       "category": "other",
-      "first_seen": "2026-10-17T15:48:58Z",
-      "issue_key": "hammersmith-city:text:004129bf5e441754",
+      "first_seen": "2026-10-17T20:37:49Z",
+      "issue_key": "hammersmith-city:text:da02d169a8176fd5",
       "line_id": "hammersmith-city",
       "line_name": "Hammersmith & City",
-      "reason": "Hammersmith and City Line: Minor delays due to train cancellations.",
-      "severity": "Minor Delays",
+      "reason": "Hammersmith and City Line: Severe delays due to train cancellations. Tickets are being accepted on, London Buses, Mildmay line, DLR, Elizabeth line, C2C and South Western Railway service via any reasonable route.",
+      "severity": "Severe Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "lioness:text:6795a2a728b023ad": {
-      "category": "other",
-      "first_seen": "2026-10-17T06:06:49Z",
-      "issue_key": "lioness:text:6795a2a728b023ad",
-      "line_id": "lioness",
-      "line_name": "Lioness",
-      "reason": "LIONESS LINE: Saturday 17 and Sunday 18 October, a reduced service will run between Kilburn High Road and Euston. On Saturday, between 0630 and 2030, trains departing Watford Junction at 30 minutes past each hour will terminate at Kilburn High Road. From 0715 until 2115, trains departing Euston at 15 minutes past each hour will start from Kilburn High Road. On Sunday, between 1130 and 2030, trains departing Watford Junction at 30 minutes past each hour will terminate at Kilburn High Road. From 1215 until 2115, trains departing Euston at 15 minutes past each hour will start from Kilburn High Road",
-      "severity": "Reduced Service",
+    "jubilee:text:e96e98a8666432a5": {
+      "category": "train fault",
+      "first_seen": "2026-10-17T20:37:49Z",
+      "issue_key": "jubilee:text:e96e98a8666432a5",
+      "line_id": "jubilee",
+      "line_name": "Jubilee",
+      "reason": "Jubilee Line: Minor delays, southbound only, due to an earlier faulty train at Willesden Green.",
+      "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
     "metropolitan:text:69f3b344e5382cef": {
@@ -112,6 +112,30 @@
     }
   },
   "history": [
+    {
+      "category": "other",
+      "duration_seconds": 17331,
+      "first_seen": "2026-10-17T15:48:58Z",
+      "issue_key": "hammersmith-city:text:004129bf5e441754",
+      "line_id": "hammersmith-city",
+      "line_name": "Hammersmith & City",
+      "reason": "Hammersmith and City Line: Minor delays due to train cancellations.",
+      "resolved_at": "2026-10-17T20:37:49Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "other",
+      "duration_seconds": 52260,
+      "first_seen": "2026-10-17T06:06:49Z",
+      "issue_key": "lioness:text:6795a2a728b023ad",
+      "line_id": "lioness",
+      "line_name": "Lioness",
+      "reason": "LIONESS LINE: Saturday 17 and Sunday 18 October, a reduced service will run between Kilburn High Road and Euston. On Saturday, between 0630 and 2030, trains departing Watford Junction at 30 minutes past each hour will terminate at Kilburn High Road. From 0715 until 2115, trains departing Euston at 15 minutes past each hour will start from Kilburn High Road. On Sunday, between 1130 and 2030, trains departing Watford Junction at 30 minutes past each hour will terminate at Kilburn High Road. From 1215 until 2115, trains departing Euston at 15 minutes past each hour will start from Kilburn High Road",
+      "resolved_at": "2026-10-17T20:37:49Z",
+      "severity": "Reduced Service",
+      "source_created": "0001-01-01T00:00:00"
+    },
     {
       "category": "other",
       "duration_seconds": 4740,
@@ -24113,6 +24137,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-10-17T19:31:48Z",
+  "updated_at": "2026-10-17T20:37:49Z",
   "version": 1
 }
