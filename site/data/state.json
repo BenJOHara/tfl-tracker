@@ -1,5 +1,15 @@
 {
   "active": {
+    "district:text:1913fd54042bdf4b": {
+      "category": "planned engineering",
+      "first_seen": "2026-10-17T06:06:49Z",
+      "issue_key": "district:text:1913fd54042bdf4b",
+      "line_id": "district",
+      "line_name": "District",
+      "reason": "District Line: No service between Turnham Green and Ealing Broadway due to planned engineering work. SEVERE DELAYS between Earl's Court and Kensington (Olympia) due to train cancellations. GOOD SERIVCE on the rest of the line. Tickets are being accepted on London Buses.",
+      "severity": "Severe Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
     "district:text:45019538d4342210": {
       "category": "other",
       "first_seen": "2026-10-17T04:26:41Z",
@@ -8,6 +18,16 @@
       "line_name": "District",
       "reason": "DISTRICT LINE: Saturday 17 and Sunday 18 October, no service between Turnham Green and Ealing Broadway. Replacement bus services operate.",
       "severity": "Part Closure",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "lioness:text:6795a2a728b023ad": {
+      "category": "other",
+      "first_seen": "2026-10-17T06:06:49Z",
+      "issue_key": "lioness:text:6795a2a728b023ad",
+      "line_id": "lioness",
+      "line_name": "Lioness",
+      "reason": "LIONESS LINE: Saturday 17 and Sunday 18 October, a reduced service will run between Kilburn High Road and Euston. On Saturday, between 0630 and 2030, trains departing Watford Junction at 30 minutes past each hour will terminate at Kilburn High Road. From 0715 until 2115, trains departing Euston at 15 minutes past each hour will start from Kilburn High Road. On Sunday, between 1130 and 2030, trains departing Watford Junction at 30 minutes past each hour will terminate at Kilburn High Road. From 1215 until 2115, trains departing Euston at 15 minutes past each hour will start from Kilburn High Road",
+      "severity": "Reduced Service",
       "source_created": "0001-01-01T00:00:00"
     },
     "piccadilly:text:c5f7a1b586bc973a": {
@@ -23957,6 +23977,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-10-17T04:26:41Z",
+  "updated_at": "2026-10-17T06:06:49Z",
   "version": 1
 }
