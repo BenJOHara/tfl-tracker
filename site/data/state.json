@@ -40,6 +40,16 @@
       "severity": "Reduced Service",
       "source_created": "0001-01-01T00:00:00"
     },
+    "metropolitan:text:a95655b595ce3093": {
+      "category": "other",
+      "first_seen": "2026-10-17T17:18:48Z",
+      "issue_key": "metropolitan:text:a95655b595ce3093",
+      "line_id": "metropolitan",
+      "line_name": "Metropolitan",
+      "reason": "Metropolitan Line: Minor delays between Harrow-on-the-Hill and Watford due to train cancellations.",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
     "piccadilly:text:c5f7a1b586bc973a": {
       "category": "other",
       "first_seen": "2026-10-17T00:10:30Z",
@@ -24069,6 +24079,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-10-17T15:48:58Z",
+  "updated_at": "2026-10-17T17:18:48Z",
   "version": 1
 }
