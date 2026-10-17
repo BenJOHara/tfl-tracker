@@ -10,6 +10,16 @@
       "severity": "Severe Delays",
       "source_created": "0001-01-01T00:00:00"
     },
+    "piccadilly:text:c5f7a1b586bc973a": {
+      "category": "other",
+      "first_seen": "2026-10-17T00:10:30Z",
+      "issue_key": "piccadilly:text:c5f7a1b586bc973a",
+      "line_id": "piccadilly",
+      "line_name": "Piccadilly",
+      "reason": "PICCADILLY LINE: Saturday 17, from 0100, and all day Sunday 18 October, including Friday and Saturday Night Tube, no service between Hammersmith and Heathrow (all terminals) / Uxbridge. Use METROPOLITAN LINE services between Rayners Lane and Uxbridge, and ELIZABETH LINE services between Central London and Heathrow, and for connections between terminals. Replacement bus services operate.",
+      "severity": "Part Closure",
+      "source_created": "0001-01-01T00:00:00"
+    },
     "waterloo-city:text:1bbcac27f282d0db": {
       "category": "other",
       "first_seen": "2026-10-16T23:50:16Z",
@@ -23747,6 +23757,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-10-16T23:51:22Z",
+  "updated_at": "2026-10-17T00:10:30Z",
   "version": 1
 }
