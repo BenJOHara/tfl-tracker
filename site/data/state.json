@@ -40,16 +40,6 @@
       "severity": "Reduced Service",
       "source_created": "0001-01-01T00:00:00"
     },
-    "northern:text:faeefd4ac020c6f5": {
-      "category": "other",
-      "first_seen": "2026-10-17T10:57:03Z",
-      "issue_key": "northern:text:faeefd4ac020c6f5",
-      "line_id": "northern",
-      "line_name": "Northern",
-      "reason": "Northern Line: Minor delays between Camden Town and High Barnet/Mill Hill East while we conduct a track inspection in the Archway area. GOOD SERVICE on the rest of the line.",
-      "severity": "Minor Delays",
-      "source_created": "0001-01-01T00:00:00"
-    },
     "piccadilly:text:c5f7a1b586bc973a": {
       "category": "other",
       "first_seen": "2026-10-17T00:10:30Z",
@@ -70,14 +60,14 @@
       "severity": "Part Closure",
       "source_created": "0001-01-01T00:00:00"
     },
-    "victoria:text:8e582ae736e97583": {
-      "category": "passenger incident",
-      "first_seen": "2026-10-17T10:33:09Z",
-      "issue_key": "victoria:text:8e582ae736e97583",
+    "victoria:text:33fb6e75c42aa110": {
+      "category": "other",
+      "first_seen": "2026-10-17T12:26:51Z",
+      "issue_key": "victoria:text:33fb6e75c42aa110",
       "line_id": "victoria",
       "line_name": "Victoria",
-      "reason": "Victoria Line: Minor delays due to an earlier customer incident at Blackhorse Road",
-      "severity": "Minor Delays",
+      "reason": "Victoria Line: Severe delays due to train cancellations. Tickets will be accepted on London Buses, Weaver line, Suffragette line, Great Northern, Thameslink, Greater Anglia, South Western Railway and Southeastern services.",
+      "severity": "Severe Delays",
       "source_created": "0001-01-01T00:00:00"
     },
     "waterloo-city:text:02da0890c7cbf303": {
@@ -102,6 +92,30 @@
     }
   },
   "history": [
+    {
+      "category": "other",
+      "duration_seconds": 5388,
+      "first_seen": "2026-10-17T10:57:03Z",
+      "issue_key": "northern:text:faeefd4ac020c6f5",
+      "line_id": "northern",
+      "line_name": "Northern",
+      "reason": "Northern Line: Minor delays between Camden Town and High Barnet/Mill Hill East while we conduct a track inspection in the Archway area. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-10-17T12:26:51Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "passenger incident",
+      "duration_seconds": 6822,
+      "first_seen": "2026-10-17T10:33:09Z",
+      "issue_key": "victoria:text:8e582ae736e97583",
+      "line_id": "victoria",
+      "line_name": "Victoria",
+      "reason": "Victoria Line: Minor delays due to an earlier customer incident at Blackhorse Road",
+      "resolved_at": "2026-10-17T12:26:51Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
     {
       "category": "other",
       "duration_seconds": 10155,
@@ -24007,6 +24021,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-10-17T10:57:03Z",
+  "updated_at": "2026-10-17T12:26:51Z",
   "version": 1
 }
