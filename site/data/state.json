@@ -1,12 +1,12 @@
 {
   "active": {
-    "circle:text:2f5ddd36d23731bf": {
+    "circle:text:bf9bb7504db7ea4d": {
       "category": "other",
-      "first_seen": "2026-10-17T19:31:48Z",
-      "issue_key": "circle:text:2f5ddd36d23731bf",
+      "first_seen": "2026-10-17T21:03:01Z",
+      "issue_key": "circle:text:bf9bb7504db7ea4d",
       "line_id": "circle",
       "line_name": "Circle",
-      "reason": "Circle Line: Minor delays between Edgware Road and Hammersmith due to train cancellations. GOOD SERVICE on the rest of the line.",
+      "reason": "Circle Line: Minor delays due to train cancellations.",
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
@@ -38,16 +38,6 @@
       "line_name": "Hammersmith & City",
       "reason": "Hammersmith and City Line: Severe delays due to train cancellations. Tickets are being accepted on, London Buses, Mildmay line, DLR, Elizabeth line, C2C and South Western Railway service via any reasonable route.",
       "severity": "Severe Delays",
-      "source_created": "0001-01-01T00:00:00"
-    },
-    "jubilee:text:e96e98a8666432a5": {
-      "category": "train fault",
-      "first_seen": "2026-10-17T20:37:49Z",
-      "issue_key": "jubilee:text:e96e98a8666432a5",
-      "line_id": "jubilee",
-      "line_name": "Jubilee",
-      "reason": "Jubilee Line: Minor delays, southbound only, due to an earlier faulty train at Willesden Green.",
-      "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
     "metropolitan:text:69f3b344e5382cef": {
@@ -112,6 +102,30 @@
     }
   },
   "history": [
+    {
+      "category": "other",
+      "duration_seconds": 5473,
+      "first_seen": "2026-10-17T19:31:48Z",
+      "issue_key": "circle:text:2f5ddd36d23731bf",
+      "line_id": "circle",
+      "line_name": "Circle",
+      "reason": "Circle Line: Minor delays between Edgware Road and Hammersmith due to train cancellations. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-10-17T21:03:01Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "train fault",
+      "duration_seconds": 1512,
+      "first_seen": "2026-10-17T20:37:49Z",
+      "issue_key": "jubilee:text:e96e98a8666432a5",
+      "line_id": "jubilee",
+      "line_name": "Jubilee",
+      "reason": "Jubilee Line: Minor delays, southbound only, due to an earlier faulty train at Willesden Green.",
+      "resolved_at": "2026-10-17T21:03:01Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
     {
       "category": "other",
       "duration_seconds": 17331,
@@ -24137,6 +24151,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-10-17T20:37:49Z",
+  "updated_at": "2026-10-17T21:03:01Z",
   "version": 1
 }
