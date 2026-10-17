@@ -1,12 +1,12 @@
 {
   "active": {
-    "circle:text:bf9bb7504db7ea4d": {
+    "circle:text:2f5ddd36d23731bf": {
       "category": "other",
-      "first_seen": "2026-10-17T18:12:48Z",
-      "issue_key": "circle:text:bf9bb7504db7ea4d",
+      "first_seen": "2026-10-17T19:31:48Z",
+      "issue_key": "circle:text:2f5ddd36d23731bf",
       "line_id": "circle",
       "line_name": "Circle",
-      "reason": "Circle Line: Minor delays due to train cancellations.",
+      "reason": "Circle Line: Minor delays between Edgware Road and Hammersmith due to train cancellations. GOOD SERVICE on the rest of the line.",
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
@@ -112,6 +112,18 @@
     }
   },
   "history": [
+    {
+      "category": "other",
+      "duration_seconds": 4740,
+      "first_seen": "2026-10-17T18:12:48Z",
+      "issue_key": "circle:text:bf9bb7504db7ea4d",
+      "line_id": "circle",
+      "line_name": "Circle",
+      "reason": "Circle Line: Minor delays due to train cancellations.",
+      "resolved_at": "2026-10-17T19:31:48Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
     {
       "category": "other",
       "duration_seconds": 3240,
@@ -24101,6 +24113,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-10-17T18:12:48Z",
+  "updated_at": "2026-10-17T19:31:48Z",
   "version": 1
 }
