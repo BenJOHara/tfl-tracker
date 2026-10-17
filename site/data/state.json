@@ -70,14 +70,14 @@
       "severity": "Part Closure",
       "source_created": "0001-01-01T00:00:00"
     },
-    "victoria:text:33fb6e75c42aa110": {
+    "victoria:text:02e0850cdf11ef25": {
       "category": "other",
-      "first_seen": "2026-10-17T12:26:51Z",
-      "issue_key": "victoria:text:33fb6e75c42aa110",
+      "first_seen": "2026-10-17T22:40:11Z",
+      "issue_key": "victoria:text:02e0850cdf11ef25",
       "line_id": "victoria",
       "line_name": "Victoria",
-      "reason": "Victoria Line: Severe delays due to train cancellations. Tickets will be accepted on London Buses, Weaver line, Suffragette line, Great Northern, Thameslink, Greater Anglia, South Western Railway and Southeastern services.",
-      "severity": "Severe Delays",
+      "reason": "Victoria Line: Minor delays due to train cancellations.",
+      "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
     "waterloo-city:text:02da0890c7cbf303": {
@@ -102,6 +102,18 @@
     }
   },
   "history": [
+    {
+      "category": "other",
+      "duration_seconds": 36800,
+      "first_seen": "2026-10-17T12:26:51Z",
+      "issue_key": "victoria:text:33fb6e75c42aa110",
+      "line_id": "victoria",
+      "line_name": "Victoria",
+      "reason": "Victoria Line: Severe delays due to train cancellations. Tickets will be accepted on London Buses, Weaver line, Suffragette line, Great Northern, Thameslink, Greater Anglia, South Western Railway and Southeastern services.",
+      "resolved_at": "2026-10-17T22:40:11Z",
+      "severity": "Severe Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
     {
       "category": "other",
       "duration_seconds": 5473,
@@ -24151,6 +24163,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-10-17T21:03:01Z",
+  "updated_at": "2026-10-17T22:40:11Z",
   "version": 1
 }
