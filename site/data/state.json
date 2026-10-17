@@ -1,12 +1,12 @@
 {
   "active": {
-    "district:text:1913fd54042bdf4b": {
-      "category": "planned engineering",
-      "first_seen": "2026-10-17T06:06:49Z",
-      "issue_key": "district:text:1913fd54042bdf4b",
+    "district:text:2e1bea50cd9b173d": {
+      "category": "train fault",
+      "first_seen": "2026-10-17T13:53:48Z",
+      "issue_key": "district:text:2e1bea50cd9b173d",
       "line_id": "district",
       "line_name": "District",
-      "reason": "District Line: No service between Turnham Green and Ealing Broadway due to planned engineering work. SEVERE DELAYS between Earl's Court and Kensington (Olympia) due to train cancellations. GOOD SERIVCE on the rest of the line. Tickets are being accepted on London Buses.",
+      "reason": "District Line: No service between Turnham Green and Ealing Broadway due to planned engineering work. SEVERE DELAYS between Earl's Court and Kensington (Olympia) due to train cancellations. SEVERE DELAYS between Upminster and Barking, and MINOR delays between Barking and Earl's Court westbound only due to an earlier faulty train at Upminster Bridge. Tickets are being accepted on C2C and London Buses. GOOD SERIVCE on the rest of the line.",
       "severity": "Severe Delays",
       "source_created": "0001-01-01T00:00:00"
     },
@@ -89,9 +89,31 @@
       "reason": "WEAVER LINE: Saturday 17 and Sunday 18 October, no service between Edmonton Green and Cheshunt. Replacement bus service L2 operates between Enfield Town and Cheshunt via Southbury, Turkey Street (Hertford Road), Waltham Cross (for Greater Anglia) and Theobalds Grove.",
       "severity": "Part Closure",
       "source_created": "0001-01-01T00:00:00"
+    },
+    "windrush:text:36b0285dfe3d3fa2": {
+      "category": "other",
+      "first_seen": "2026-10-17T13:53:48Z",
+      "issue_key": "windrush:text:36b0285dfe3d3fa2",
+      "line_id": "windrush",
+      "line_name": "Windrush",
+      "reason": "Windrush Line: No service between Surrey Quays and Clapham Junction due to an earlier obstruction on the track at Denmark Hill. GOOD SERVICE on the rest of the line.",
+      "severity": "Part Suspended",
+      "source_created": "0001-01-01T00:00:00"
     }
   },
   "history": [
+    {
+      "category": "planned engineering",
+      "duration_seconds": 28019,
+      "first_seen": "2026-10-17T06:06:49Z",
+      "issue_key": "district:text:1913fd54042bdf4b",
+      "line_id": "district",
+      "line_name": "District",
+      "reason": "District Line: No service between Turnham Green and Ealing Broadway due to planned engineering work. SEVERE DELAYS between Earl's Court and Kensington (Olympia) due to train cancellations. GOOD SERIVCE on the rest of the line. Tickets are being accepted on London Buses.",
+      "resolved_at": "2026-10-17T13:53:48Z",
+      "severity": "Severe Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
     {
       "category": "other",
       "duration_seconds": 5388,
@@ -24021,6 +24043,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-10-17T12:26:51Z",
+  "updated_at": "2026-10-17T13:53:48Z",
   "version": 1
 }
