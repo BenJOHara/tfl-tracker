@@ -1,15 +1,5 @@
 {
   "active": {
-    "district:text:2e1bea50cd9b173d": {
-      "category": "train fault",
-      "first_seen": "2026-10-17T13:53:48Z",
-      "issue_key": "district:text:2e1bea50cd9b173d",
-      "line_id": "district",
-      "line_name": "District",
-      "reason": "District Line: No service between Turnham Green and Ealing Broadway due to planned engineering work. SEVERE DELAYS between Earl's Court and Kensington (Olympia) due to train cancellations. SEVERE DELAYS between Upminster and Barking, and MINOR delays between Barking and Earl's Court westbound only due to an earlier faulty train at Upminster Bridge. Tickets are being accepted on C2C and London Buses. GOOD SERVICE on the rest of the line.",
-      "severity": "Minor Delays",
-      "source_created": "0001-01-01T00:00:00"
-    },
     "district:text:45019538d4342210": {
       "category": "other",
       "first_seen": "2026-10-17T04:26:41Z",
@@ -18,6 +8,26 @@
       "line_name": "District",
       "reason": "DISTRICT LINE: Saturday 17 and Sunday 18 October, no service between Turnham Green and Ealing Broadway. Replacement bus services operate.",
       "severity": "Part Closure",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "district:text:6c1c0d567149de5e": {
+      "category": "planned engineering",
+      "first_seen": "2026-10-17T15:48:58Z",
+      "issue_key": "district:text:6c1c0d567149de5e",
+      "line_id": "district",
+      "line_name": "District",
+      "reason": "District Line: No service between Turnham Green and Ealing Broadway due to planned engineering work. SEVERE DELAYS between Earl's Court and Kensington (Olympia) due to train cancellations. GOOD SERVICE on the rest of the line.",
+      "severity": "Severe Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "hammersmith-city:text:004129bf5e441754": {
+      "category": "other",
+      "first_seen": "2026-10-17T15:48:58Z",
+      "issue_key": "hammersmith-city:text:004129bf5e441754",
+      "line_id": "hammersmith-city",
+      "line_name": "Hammersmith & City",
+      "reason": "Hammersmith and City Line: Minor delays due to train cancellations.",
+      "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
     "lioness:text:6795a2a728b023ad": {
@@ -79,19 +89,33 @@
       "reason": "WEAVER LINE: Saturday 17 and Sunday 18 October, no service between Edmonton Green and Cheshunt. Replacement bus service L2 operates between Enfield Town and Cheshunt via Southbury, Turkey Street (Hertford Road), Waltham Cross (for Greater Anglia) and Theobalds Grove.",
       "severity": "Part Closure",
       "source_created": "0001-01-01T00:00:00"
+    }
+  },
+  "history": [
+    {
+      "category": "train fault",
+      "duration_seconds": 6910,
+      "first_seen": "2026-10-17T13:53:48Z",
+      "issue_key": "district:text:2e1bea50cd9b173d",
+      "line_id": "district",
+      "line_name": "District",
+      "reason": "District Line: No service between Turnham Green and Ealing Broadway due to planned engineering work. SEVERE DELAYS between Earl's Court and Kensington (Olympia) due to train cancellations. SEVERE DELAYS between Upminster and Barking, and MINOR delays between Barking and Earl's Court westbound only due to an earlier faulty train at Upminster Bridge. Tickets are being accepted on C2C and London Buses. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-10-17T15:48:58Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
     },
-    "windrush:text:36b0285dfe3d3fa2": {
+    {
       "category": "other",
+      "duration_seconds": 6910,
       "first_seen": "2026-10-17T13:53:48Z",
       "issue_key": "windrush:text:36b0285dfe3d3fa2",
       "line_id": "windrush",
       "line_name": "Windrush",
       "reason": "Windrush Line: No service between Surrey Quays and Clapham Junction due to an earlier obstruction on the track at Denmark Hill. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-10-17T15:48:58Z",
       "severity": "Part Suspended",
       "source_created": "0001-01-01T00:00:00"
-    }
-  },
-  "history": [
+    },
     {
       "category": "other",
       "duration_seconds": 13020,
@@ -24045,6 +24069,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-10-17T14:10:09Z",
+  "updated_at": "2026-10-17T15:48:58Z",
   "version": 1
 }
