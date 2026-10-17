@@ -20,6 +20,16 @@
       "severity": "Part Closure",
       "source_created": "0001-01-01T00:00:00"
     },
+    "hammersmith-city:text:004129bf5e441754": {
+      "category": "other",
+      "first_seen": "2026-10-17T10:33:09Z",
+      "issue_key": "hammersmith-city:text:004129bf5e441754",
+      "line_id": "hammersmith-city",
+      "line_name": "Hammersmith & City",
+      "reason": "Hammersmith and City Line: Minor delays due to train cancellations.",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
     "lioness:text:6795a2a728b023ad": {
       "category": "other",
       "first_seen": "2026-10-17T06:06:49Z",
@@ -48,6 +58,16 @@
       "line_name": "Tram",
       "reason": "LONDON TRAMS: Saturday 17 and Sunday 18 October, no service between Sandilands and New Addington. No Tram Replacement Buses will operate.",
       "severity": "Part Closure",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "victoria:text:8e582ae736e97583": {
+      "category": "passenger incident",
+      "first_seen": "2026-10-17T10:33:09Z",
+      "issue_key": "victoria:text:8e582ae736e97583",
+      "line_id": "victoria",
+      "line_name": "Victoria",
+      "reason": "Victoria Line: Minor delays due to an earlier customer incident at Blackhorse Road",
+      "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
     "waterloo-city:text:02da0890c7cbf303": {
@@ -23977,6 +23997,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-10-17T06:06:49Z",
+  "updated_at": "2026-10-17T10:33:09Z",
   "version": 1
 }
