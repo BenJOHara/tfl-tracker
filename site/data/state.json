@@ -1,13 +1,23 @@
 {
   "active": {
-    "circle:text:bf9bb7504db7ea4d": {
+    "bakerloo:text:975c88cf69561d0c": {
       "category": "other",
-      "first_seen": "2026-10-17T21:03:01Z",
-      "issue_key": "circle:text:bf9bb7504db7ea4d",
+      "first_seen": "2026-10-18T00:21:50Z",
+      "issue_key": "bakerloo:text:975c88cf69561d0c",
+      "line_id": "bakerloo",
+      "line_name": "Bakerloo",
+      "reason": "Bakerloo Line: Service will resume later this morning.",
+      "severity": "Service Closed",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "circle:text:a1099579f6415e8f": {
+      "category": "other",
+      "first_seen": "2026-10-18T00:21:50Z",
+      "issue_key": "circle:text:a1099579f6415e8f",
       "line_id": "circle",
       "line_name": "Circle",
-      "reason": "Circle Line: Minor delays due to train cancellations.",
-      "severity": "Minor Delays",
+      "reason": "Circle Line: Service will resume later this morning.",
+      "severity": "Service Closed",
       "source_created": "0001-01-01T00:00:00"
     },
     "district:text:45019538d4342210": {
@@ -60,13 +70,13 @@
       "severity": "Part Closure",
       "source_created": "0001-01-01T00:00:00"
     },
-    "tram:text:829c62fccc4101a7": {
+    "tram:text:3d9119eb24c043df": {
       "category": "planned engineering",
-      "first_seen": "2026-10-17T23:30:46Z",
-      "issue_key": "tram:text:829c62fccc4101a7",
+      "first_seen": "2026-10-18T00:21:50Z",
+      "issue_key": "tram:text:3d9119eb24c043df",
       "line_id": "tram",
       "line_name": "Tram",
-      "reason": "London Tramlink: No service between Sandilands and New Addington due to planned engineering work. NO SERVICE between Mitcham Junction and Wimbledon while we fix a faulty tram at Mitcham Junction. GOOD SERVICE on other tram routes.",
+      "reason": "London Tramlink: No service between Mitcham Junction and Wimbledon while we fix a faulty tram at Mitcham Junction. NO SERVICE between Sandilands and New Addington due to planned engineering work. GOOD SERVICE on other tram routes.",
       "severity": "Part Suspended",
       "source_created": "0001-01-01T00:00:00"
     },
@@ -78,26 +88,6 @@
       "line_name": "Tram",
       "reason": "LONDON TRAMS: Saturday 17 and Sunday 18 October, no service between Sandilands and New Addington. No Tram Replacement Buses will operate.",
       "severity": "Part Closure",
-      "source_created": "0001-01-01T00:00:00"
-    },
-    "victoria:text:02e0850cdf11ef25": {
-      "category": "other",
-      "first_seen": "2026-10-17T22:40:11Z",
-      "issue_key": "victoria:text:02e0850cdf11ef25",
-      "line_id": "victoria",
-      "line_name": "Victoria",
-      "reason": "Victoria Line: Minor delays due to train cancellations.",
-      "severity": "Minor Delays",
-      "source_created": "0001-01-01T00:00:00"
-    },
-    "waterloo-city:text:02da0890c7cbf303": {
-      "category": "other",
-      "first_seen": "2026-10-17T04:26:41Z",
-      "issue_key": "waterloo-city:text:02da0890c7cbf303",
-      "line_id": "waterloo-city",
-      "line_name": "Waterloo & City",
-      "reason": "Waterloo & City line: service operates 06:00 until 00:30, Monday to Friday only. There is no service on Saturdays, Sundays and on bank/public holidays.",
-      "severity": "Planned Closure",
       "source_created": "0001-01-01T00:00:00"
     },
     "weaver:text:a5cd1b7bfdf793d6": {
@@ -112,6 +102,54 @@
     }
   },
   "history": [
+    {
+      "category": "other",
+      "duration_seconds": 11929,
+      "first_seen": "2026-10-17T21:03:01Z",
+      "issue_key": "circle:text:bf9bb7504db7ea4d",
+      "line_id": "circle",
+      "line_name": "Circle",
+      "reason": "Circle Line: Minor delays due to train cancellations.",
+      "resolved_at": "2026-10-18T00:21:50Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "planned engineering",
+      "duration_seconds": 3064,
+      "first_seen": "2026-10-17T23:30:46Z",
+      "issue_key": "tram:text:829c62fccc4101a7",
+      "line_id": "tram",
+      "line_name": "Tram",
+      "reason": "London Tramlink: No service between Sandilands and New Addington due to planned engineering work. NO SERVICE between Mitcham Junction and Wimbledon while we fix a faulty tram at Mitcham Junction. GOOD SERVICE on other tram routes.",
+      "resolved_at": "2026-10-18T00:21:50Z",
+      "severity": "Part Suspended",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "other",
+      "duration_seconds": 6099,
+      "first_seen": "2026-10-17T22:40:11Z",
+      "issue_key": "victoria:text:02e0850cdf11ef25",
+      "line_id": "victoria",
+      "line_name": "Victoria",
+      "reason": "Victoria Line: Minor delays due to train cancellations.",
+      "resolved_at": "2026-10-18T00:21:50Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "other",
+      "duration_seconds": 71709,
+      "first_seen": "2026-10-17T04:26:41Z",
+      "issue_key": "waterloo-city:text:02da0890c7cbf303",
+      "line_id": "waterloo-city",
+      "line_name": "Waterloo & City",
+      "reason": "Waterloo & City line: service operates 06:00 until 00:30, Monday to Friday only. There is no service on Saturdays, Sundays and on bank/public holidays.",
+      "resolved_at": "2026-10-18T00:21:50Z",
+      "severity": "Planned Closure",
+      "source_created": "0001-01-01T00:00:00"
+    },
     {
       "category": "other",
       "duration_seconds": 36800,
@@ -24173,6 +24211,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-10-17T23:30:46Z",
+  "updated_at": "2026-10-18T00:21:50Z",
   "version": 1
 }
