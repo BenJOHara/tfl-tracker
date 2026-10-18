@@ -60,13 +60,13 @@
       "severity": "Reduced Service",
       "source_created": "0001-01-01T00:00:00"
     },
-    "metropolitan:text:3ba8771fd32f07bb": {
+    "metropolitan:text:9c7e1722ac722ad0": {
       "category": "other",
-      "first_seen": "2026-10-18T14:53:33Z",
-      "issue_key": "metropolitan:text:3ba8771fd32f07bb",
+      "first_seen": "2026-10-18T18:02:02Z",
+      "issue_key": "metropolitan:text:9c7e1722ac722ad0",
       "line_id": "metropolitan",
       "line_name": "Metropolitan",
-      "reason": "Metropolitan Line: Minor delays between Harrow-on-the-hill and Uxbridge due to train cancellations. GOOD SERVICE on the rest of the line.",
+      "reason": "Metropolitan Line: Minor delays between Harrow-on-the-hill and Uxbridge/ Watford due to train cancellations. GOOD SERVICE on the rest of the line.",
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
@@ -122,6 +122,18 @@
     }
   },
   "history": [
+    {
+      "category": "other",
+      "duration_seconds": 11309,
+      "first_seen": "2026-10-18T14:53:33Z",
+      "issue_key": "metropolitan:text:3ba8771fd32f07bb",
+      "line_id": "metropolitan",
+      "line_name": "Metropolitan",
+      "reason": "Metropolitan Line: Minor delays between Harrow-on-the-hill and Uxbridge due to train cancellations. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-10-18T18:02:02Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
     {
       "category": "other",
       "duration_seconds": 5248,
@@ -24507,6 +24519,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-10-18T14:53:33Z",
+  "updated_at": "2026-10-18T18:02:02Z",
   "version": 1
 }
