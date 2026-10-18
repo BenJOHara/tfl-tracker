@@ -1,25 +1,5 @@
 {
   "active": {
-    "bakerloo:text:975c88cf69561d0c": {
-      "category": "other",
-      "first_seen": "2026-10-18T00:21:50Z",
-      "issue_key": "bakerloo:text:975c88cf69561d0c",
-      "line_id": "bakerloo",
-      "line_name": "Bakerloo",
-      "reason": "Bakerloo Line: Service will resume later this morning.",
-      "severity": "Service Closed",
-      "source_created": "0001-01-01T00:00:00"
-    },
-    "circle:text:a1099579f6415e8f": {
-      "category": "other",
-      "first_seen": "2026-10-18T00:21:50Z",
-      "issue_key": "circle:text:a1099579f6415e8f",
-      "line_id": "circle",
-      "line_name": "Circle",
-      "reason": "Circle Line: Service will resume later this morning.",
-      "severity": "Service Closed",
-      "source_created": "0001-01-01T00:00:00"
-    },
     "district:text:45019538d4342210": {
       "category": "other",
       "first_seen": "2026-10-17T04:26:41Z",
@@ -30,84 +10,34 @@
       "severity": "Part Closure",
       "source_created": "0001-01-01T00:00:00"
     },
-    "district:text:5599b927245f9df6": {
-      "category": "planned engineering",
-      "first_seen": "2026-10-18T00:55:34Z",
-      "issue_key": "district:text:5599b927245f9df6",
-      "line_id": "district",
-      "line_name": "District",
-      "reason": "District Line: Service will resume later this morning. There will be no service between Turnham Green and Ealing Broadway due to planned engineering work.",
-      "severity": "Service Closed",
-      "source_created": "0001-01-01T00:00:00"
-    },
-    "dlr:text:665033ae8c9c0e54": {
-      "category": "planned engineering",
-      "first_seen": "2026-10-18T00:55:34Z",
-      "issue_key": "dlr:text:665033ae8c9c0e54",
+    "dlr:text:9830f0585bec28a8": {
+      "category": "other",
+      "first_seen": "2026-10-18T04:56:21Z",
+      "issue_key": "dlr:text:9830f0585bec28a8",
       "line_id": "dlr",
       "line_name": "DLR",
-      "reason": "Docklands Light Railway: Service will resume later this morning. There will be no service between Tower Gateway and Shadwell due to planned engineering work.",
-      "severity": "Service Closed",
+      "reason": "DOCKLANDS LIGHT RAILWAY: Sunday 18 October, no service between Shadwell and Tower Gateway.",
+      "severity": "Part Closure",
       "source_created": "0001-01-01T00:00:00"
     },
-    "elizabeth:text:85644759b2256fee": {
+    "elizabeth:text:b8f6f5ed40600f15": {
       "category": "other",
-      "first_seen": "2026-10-18T00:55:34Z",
-      "issue_key": "elizabeth:text:85644759b2256fee",
+      "first_seen": "2026-10-18T04:56:21Z",
+      "issue_key": "elizabeth:text:b8f6f5ed40600f15",
       "line_id": "elizabeth",
       "line_name": "Elizabeth line",
-      "reason": "Service will resume later this morning.",
-      "severity": "Service Closed",
+      "reason": "ELIZABETH LINE: Sunday 18 October, a reduced service operates between Paddington and Heathrow Terminal 4 / Maidenhead. Two trains an hour serve Heathrow Terminal 4, West Drayton, Langley, Slough, Burnham and Maidenhead. Four trains an hour serve Heathrow Terminals 2 and 3. Six trains an hour serve Ealing Broadway, Southall and Hayes & Harlington. Acton Main Line, Hanwell and West Ealing stations are CLOSED.",
+      "severity": "Reduced Service",
       "source_created": "0001-01-01T00:00:00"
     },
-    "hammersmith-city:text:b560078b35a5fd17": {
+    "mildmay:text:67216e3d333e1516": {
       "category": "other",
-      "first_seen": "2026-10-18T00:55:34Z",
-      "issue_key": "hammersmith-city:text:b560078b35a5fd17",
-      "line_id": "hammersmith-city",
-      "line_name": "Hammersmith & City",
-      "reason": "Hammersmith and City Line: Service will resume later this morning.",
-      "severity": "Service Closed",
-      "source_created": "0001-01-01T00:00:00"
-    },
-    "liberty:text:19134079f5c98ab7": {
-      "category": "other",
-      "first_seen": "2026-10-18T00:55:34Z",
-      "issue_key": "liberty:text:19134079f5c98ab7",
-      "line_id": "liberty",
-      "line_name": "Liberty",
-      "reason": "Liberty Line: Service will resume later this morning.",
-      "severity": "Service Closed",
-      "source_created": "0001-01-01T00:00:00"
-    },
-    "lioness:text:edb0d527df87ed16": {
-      "category": "other",
-      "first_seen": "2026-10-18T00:55:34Z",
-      "issue_key": "lioness:text:edb0d527df87ed16",
-      "line_id": "lioness",
-      "line_name": "Lioness",
-      "reason": "Lioness Line: Service will resume later this morning.",
-      "severity": "Service Closed",
-      "source_created": "0001-01-01T00:00:00"
-    },
-    "metropolitan:text:4b366f757f8f5a28": {
-      "category": "other",
-      "first_seen": "2026-10-18T00:55:34Z",
-      "issue_key": "metropolitan:text:4b366f757f8f5a28",
-      "line_id": "metropolitan",
-      "line_name": "Metropolitan",
-      "reason": "Metropolitan Line: Service will resume later this morning.",
-      "severity": "Service Closed",
-      "source_created": "0001-01-01T00:00:00"
-    },
-    "mildmay:text:0491fa7fe14961ca": {
-      "category": "planned engineering",
-      "first_seen": "2026-10-18T00:55:34Z",
-      "issue_key": "mildmay:text:0491fa7fe14961ca",
+      "first_seen": "2026-10-18T04:56:21Z",
+      "issue_key": "mildmay:text:67216e3d333e1516",
       "line_id": "mildmay",
       "line_name": "Mildmay",
-      "reason": "Mildmay Line: Service will resume later this morning. Until 11:15 there will be no service between Gospel Oak and Stratford due to planned engineering work.",
-      "severity": "Service Closed",
+      "reason": "MILDMAY LINE: Sunday 18 October, until 1115, no service between Gospel Oak and Stratford. Replacement bus service S operates between Gospel Oak (Southampton Road / Agincourt Road) and Stratford via Kentish Town West, Camden Road, Holloway Road (Piccadilly line), Highbury & Islington (for Caledonian Road & Barnsbury), Canonbury (St Pauls Road), Dalston Junction (for Dalston Kingsland), Hackney Central, Homerton and Hackney Wick.",
+      "severity": "Part Closure",
       "source_created": "0001-01-01T00:00:00"
     },
     "piccadilly:text:c5f7a1b586bc973a": {
@@ -120,14 +50,14 @@
       "severity": "Part Closure",
       "source_created": "0001-01-01T00:00:00"
     },
-    "suffragette:text:0730d84ac69c322b": {
-      "category": "planned engineering",
-      "first_seen": "2026-10-18T00:55:34Z",
-      "issue_key": "suffragette:text:0730d84ac69c322b",
+    "suffragette:text:713c8563dff904ae": {
+      "category": "other",
+      "first_seen": "2026-10-18T04:56:21Z",
+      "issue_key": "suffragette:text:713c8563dff904ae",
       "line_id": "suffragette",
       "line_name": "Suffragette",
-      "reason": "Suffragette Line: Service will resume later this morning. There will be no service between Barking and Barking Riverside due to planned engineering work.",
-      "severity": "Service Closed",
+      "reason": "SUFFRAGETTE LINE: Sunday 18 October, no service between Barking and Barking Riverside, please use local London Buses services.",
+      "severity": "Part Closure",
       "source_created": "0001-01-01T00:00:00"
     },
     "tram:text:abcbb55a765db608": {
@@ -140,24 +70,14 @@
       "severity": "Part Closure",
       "source_created": "0001-01-01T00:00:00"
     },
-    "tram:text:c0dc2b70269f257f": {
-      "category": "planned engineering",
-      "first_seen": "2026-10-18T00:55:34Z",
-      "issue_key": "tram:text:c0dc2b70269f257f",
-      "line_id": "tram",
-      "line_name": "Tram",
-      "reason": "London Tramlink: Service will resume later this morning. There will be no service between Sandilands and New Addington due to planned engineering work.",
-      "severity": "Service Closed",
-      "source_created": "0001-01-01T00:00:00"
-    },
-    "weaver:text:45b8b9abb5a2f3bf": {
-      "category": "planned engineering",
-      "first_seen": "2026-10-18T00:55:34Z",
-      "issue_key": "weaver:text:45b8b9abb5a2f3bf",
-      "line_id": "weaver",
-      "line_name": "Weaver",
-      "reason": "Weaver Line: Service will resume later this morning. There will be no service between Edmonton Green and Cheshunt due to planned engineering work.",
-      "severity": "Service Closed",
+    "waterloo-city:text:02da0890c7cbf303": {
+      "category": "other",
+      "first_seen": "2026-10-18T04:56:21Z",
+      "issue_key": "waterloo-city:text:02da0890c7cbf303",
+      "line_id": "waterloo-city",
+      "line_name": "Waterloo & City",
+      "reason": "Waterloo & City line: service operates 06:00 until 00:30, Monday to Friday only. There is no service on Saturdays, Sundays and on bank/public holidays.",
+      "severity": "Planned Closure",
       "source_created": "0001-01-01T00:00:00"
     },
     "weaver:text:a5cd1b7bfdf793d6": {
@@ -172,6 +92,162 @@
     }
   },
   "history": [
+    {
+      "category": "other",
+      "duration_seconds": 16471,
+      "first_seen": "2026-10-18T00:21:50Z",
+      "issue_key": "bakerloo:text:975c88cf69561d0c",
+      "line_id": "bakerloo",
+      "line_name": "Bakerloo",
+      "reason": "Bakerloo Line: Service will resume later this morning.",
+      "resolved_at": "2026-10-18T04:56:21Z",
+      "severity": "Service Closed",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "other",
+      "duration_seconds": 16471,
+      "first_seen": "2026-10-18T00:21:50Z",
+      "issue_key": "circle:text:a1099579f6415e8f",
+      "line_id": "circle",
+      "line_name": "Circle",
+      "reason": "Circle Line: Service will resume later this morning.",
+      "resolved_at": "2026-10-18T04:56:21Z",
+      "severity": "Service Closed",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "planned engineering",
+      "duration_seconds": 14447,
+      "first_seen": "2026-10-18T00:55:34Z",
+      "issue_key": "district:text:5599b927245f9df6",
+      "line_id": "district",
+      "line_name": "District",
+      "reason": "District Line: Service will resume later this morning. There will be no service between Turnham Green and Ealing Broadway due to planned engineering work.",
+      "resolved_at": "2026-10-18T04:56:21Z",
+      "severity": "Service Closed",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "planned engineering",
+      "duration_seconds": 14447,
+      "first_seen": "2026-10-18T00:55:34Z",
+      "issue_key": "dlr:text:665033ae8c9c0e54",
+      "line_id": "dlr",
+      "line_name": "DLR",
+      "reason": "Docklands Light Railway: Service will resume later this morning. There will be no service between Tower Gateway and Shadwell due to planned engineering work.",
+      "resolved_at": "2026-10-18T04:56:21Z",
+      "severity": "Service Closed",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "other",
+      "duration_seconds": 14447,
+      "first_seen": "2026-10-18T00:55:34Z",
+      "issue_key": "elizabeth:text:85644759b2256fee",
+      "line_id": "elizabeth",
+      "line_name": "Elizabeth line",
+      "reason": "Service will resume later this morning.",
+      "resolved_at": "2026-10-18T04:56:21Z",
+      "severity": "Service Closed",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "other",
+      "duration_seconds": 14447,
+      "first_seen": "2026-10-18T00:55:34Z",
+      "issue_key": "hammersmith-city:text:b560078b35a5fd17",
+      "line_id": "hammersmith-city",
+      "line_name": "Hammersmith & City",
+      "reason": "Hammersmith and City Line: Service will resume later this morning.",
+      "resolved_at": "2026-10-18T04:56:21Z",
+      "severity": "Service Closed",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "other",
+      "duration_seconds": 14447,
+      "first_seen": "2026-10-18T00:55:34Z",
+      "issue_key": "liberty:text:19134079f5c98ab7",
+      "line_id": "liberty",
+      "line_name": "Liberty",
+      "reason": "Liberty Line: Service will resume later this morning.",
+      "resolved_at": "2026-10-18T04:56:21Z",
+      "severity": "Service Closed",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "other",
+      "duration_seconds": 14447,
+      "first_seen": "2026-10-18T00:55:34Z",
+      "issue_key": "lioness:text:edb0d527df87ed16",
+      "line_id": "lioness",
+      "line_name": "Lioness",
+      "reason": "Lioness Line: Service will resume later this morning.",
+      "resolved_at": "2026-10-18T04:56:21Z",
+      "severity": "Service Closed",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "other",
+      "duration_seconds": 14447,
+      "first_seen": "2026-10-18T00:55:34Z",
+      "issue_key": "metropolitan:text:4b366f757f8f5a28",
+      "line_id": "metropolitan",
+      "line_name": "Metropolitan",
+      "reason": "Metropolitan Line: Service will resume later this morning.",
+      "resolved_at": "2026-10-18T04:56:21Z",
+      "severity": "Service Closed",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "planned engineering",
+      "duration_seconds": 14447,
+      "first_seen": "2026-10-18T00:55:34Z",
+      "issue_key": "mildmay:text:0491fa7fe14961ca",
+      "line_id": "mildmay",
+      "line_name": "Mildmay",
+      "reason": "Mildmay Line: Service will resume later this morning. Until 11:15 there will be no service between Gospel Oak and Stratford due to planned engineering work.",
+      "resolved_at": "2026-10-18T04:56:21Z",
+      "severity": "Service Closed",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "planned engineering",
+      "duration_seconds": 14447,
+      "first_seen": "2026-10-18T00:55:34Z",
+      "issue_key": "suffragette:text:0730d84ac69c322b",
+      "line_id": "suffragette",
+      "line_name": "Suffragette",
+      "reason": "Suffragette Line: Service will resume later this morning. There will be no service between Barking and Barking Riverside due to planned engineering work.",
+      "resolved_at": "2026-10-18T04:56:21Z",
+      "severity": "Service Closed",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "planned engineering",
+      "duration_seconds": 14447,
+      "first_seen": "2026-10-18T00:55:34Z",
+      "issue_key": "tram:text:c0dc2b70269f257f",
+      "line_id": "tram",
+      "line_name": "Tram",
+      "reason": "London Tramlink: Service will resume later this morning. There will be no service between Sandilands and New Addington due to planned engineering work.",
+      "resolved_at": "2026-10-18T04:56:21Z",
+      "severity": "Service Closed",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "planned engineering",
+      "duration_seconds": 14447,
+      "first_seen": "2026-10-18T00:55:34Z",
+      "issue_key": "weaver:text:45b8b9abb5a2f3bf",
+      "line_id": "weaver",
+      "line_name": "Weaver",
+      "reason": "Weaver Line: Service will resume later this morning. There will be no service between Edmonton Green and Cheshunt due to planned engineering work.",
+      "resolved_at": "2026-10-18T04:56:21Z",
+      "severity": "Service Closed",
+      "source_created": "0001-01-01T00:00:00"
+    },
     {
       "category": "planned engineering",
       "duration_seconds": 32796,
@@ -24329,6 +24405,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-10-18T00:55:34Z",
+  "updated_at": "2026-10-18T04:56:21Z",
   "version": 1
 }
