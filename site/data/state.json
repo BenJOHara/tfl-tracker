@@ -10,6 +10,16 @@
       "severity": "Severe Delays",
       "source_created": "0001-01-01T00:00:00"
     },
+    "central:text:cb15ff2732aae5a4": {
+      "category": "other",
+      "first_seen": "2026-10-18T11:39:00Z",
+      "issue_key": "central:text:cb15ff2732aae5a4",
+      "line_id": "central",
+      "line_name": "Central",
+      "reason": "Central Line: Minor delays between North Acton and West Ruislip/ Ealing Broadway and MINOR DELAYS between Leytonstone and Epping/ Hainault via Newbury Park due to train cancellations. GOOD SERVICE on the rest of the line.",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
     "district:text:45019538d4342210": {
       "category": "other",
       "first_seen": "2026-10-17T04:26:41Z",
@@ -18,16 +28,6 @@
       "line_name": "District",
       "reason": "DISTRICT LINE: Saturday 17 and Sunday 18 October, no service between Turnham Green and Ealing Broadway. Replacement bus services operate.",
       "severity": "Part Closure",
-      "source_created": "0001-01-01T00:00:00"
-    },
-    "district:text:6cd1453d2327e15b": {
-      "category": "train fault",
-      "first_seen": "2026-10-18T09:21:12Z",
-      "issue_key": "district:text:6cd1453d2327e15b",
-      "line_id": "district",
-      "line_name": "District",
-      "reason": "District Line: No service between Turnham Green and Ealing Broadway due to planned engineering work. MINOR DELAYS between Barking and Upminster due to an earlier faulty train at Becontree. GOOD SERVICE on the rest of the line.",
-      "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
     "dlr:text:9830f0585bec28a8": {
@@ -50,24 +50,14 @@
       "severity": "Reduced Service",
       "source_created": "0001-01-01T00:00:00"
     },
-    "hammersmith-city:text:004129bf5e441754": {
+    "lioness:text:6795a2a728b023ad": {
       "category": "other",
-      "first_seen": "2026-10-18T09:21:12Z",
-      "issue_key": "hammersmith-city:text:004129bf5e441754",
-      "line_id": "hammersmith-city",
-      "line_name": "Hammersmith & City",
-      "reason": "Hammersmith and City Line: Minor delays due to train cancellations.",
-      "severity": "Minor Delays",
-      "source_created": "0001-01-01T00:00:00"
-    },
-    "mildmay:text:67216e3d333e1516": {
-      "category": "other",
-      "first_seen": "2026-10-18T04:56:21Z",
-      "issue_key": "mildmay:text:67216e3d333e1516",
-      "line_id": "mildmay",
-      "line_name": "Mildmay",
-      "reason": "MILDMAY LINE: Sunday 18 October, until 1115, no service between Gospel Oak and Stratford. Replacement bus service S operates between Gospel Oak (Southampton Road / Agincourt Road) and Stratford via Kentish Town West, Camden Road, Holloway Road (Piccadilly line), Highbury & Islington (for Caledonian Road & Barnsbury), Canonbury (St Pauls Road), Dalston Junction (for Dalston Kingsland), Hackney Central, Homerton and Hackney Wick.",
-      "severity": "Part Closure",
+      "first_seen": "2026-10-18T11:39:00Z",
+      "issue_key": "lioness:text:6795a2a728b023ad",
+      "line_id": "lioness",
+      "line_name": "Lioness",
+      "reason": "LIONESS LINE: Saturday 17 and Sunday 18 October, a reduced service will run between Kilburn High Road and Euston. On Saturday, between 0630 and 2030, trains departing Watford Junction at 30 minutes past each hour will terminate at Kilburn High Road. From 0715 until 2115, trains departing Euston at 15 minutes past each hour will start from Kilburn High Road. On Sunday, between 1130 and 2030, trains departing Watford Junction at 30 minutes past each hour will terminate at Kilburn High Road. From 1215 until 2115, trains departing Euston at 15 minutes past each hour will start from Kilburn High Road",
+      "severity": "Reduced Service",
       "source_created": "0001-01-01T00:00:00"
     },
     "piccadilly:text:c5f7a1b586bc973a": {
@@ -132,6 +122,42 @@
     }
   },
   "history": [
+    {
+      "category": "train fault",
+      "duration_seconds": 8268,
+      "first_seen": "2026-10-18T09:21:12Z",
+      "issue_key": "district:text:6cd1453d2327e15b",
+      "line_id": "district",
+      "line_name": "District",
+      "reason": "District Line: No service between Turnham Green and Ealing Broadway due to planned engineering work. MINOR DELAYS between Barking and Upminster due to an earlier faulty train at Becontree. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-10-18T11:39:00Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "other",
+      "duration_seconds": 8268,
+      "first_seen": "2026-10-18T09:21:12Z",
+      "issue_key": "hammersmith-city:text:004129bf5e441754",
+      "line_id": "hammersmith-city",
+      "line_name": "Hammersmith & City",
+      "reason": "Hammersmith and City Line: Minor delays due to train cancellations.",
+      "resolved_at": "2026-10-18T11:39:00Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "other",
+      "duration_seconds": 24159,
+      "first_seen": "2026-10-18T04:56:21Z",
+      "issue_key": "mildmay:text:67216e3d333e1516",
+      "line_id": "mildmay",
+      "line_name": "Mildmay",
+      "reason": "MILDMAY LINE: Sunday 18 October, until 1115, no service between Gospel Oak and Stratford. Replacement bus service S operates between Gospel Oak (Southampton Road / Agincourt Road) and Stratford via Kentish Town West, Camden Road, Holloway Road (Piccadilly line), Highbury & Islington (for Caledonian Road & Barnsbury), Canonbury (St Pauls Road), Dalston Junction (for Dalston Kingsland), Hackney Central, Homerton and Hackney Wick.",
+      "resolved_at": "2026-10-18T11:39:00Z",
+      "severity": "Part Closure",
+      "source_created": "0001-01-01T00:00:00"
+    },
     {
       "category": "train fault",
       "duration_seconds": 10101,
@@ -24457,6 +24483,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-10-18T09:21:12Z",
+  "updated_at": "2026-10-18T11:39:00Z",
   "version": 1
 }
