@@ -50,24 +50,14 @@
       "severity": "Reduced Service",
       "source_created": "0001-01-01T00:00:00"
     },
-    "lioness:text:6795a2a728b023ad": {
+    "metropolitan:text:9c7e1722ac722ad0": {
       "category": "other",
-      "first_seen": "2026-10-18T11:39:00Z",
-      "issue_key": "lioness:text:6795a2a728b023ad",
-      "line_id": "lioness",
-      "line_name": "Lioness",
-      "reason": "LIONESS LINE: Saturday 17 and Sunday 18 October, a reduced service will run between Kilburn High Road and Euston. On Saturday, between 0630 and 2030, trains departing Watford Junction at 30 minutes past each hour will terminate at Kilburn High Road. From 0715 until 2115, trains departing Euston at 15 minutes past each hour will start from Kilburn High Road. On Sunday, between 1130 and 2030, trains departing Watford Junction at 30 minutes past each hour will terminate at Kilburn High Road. From 1215 until 2115, trains departing Euston at 15 minutes past each hour will start from Kilburn High Road",
-      "severity": "Reduced Service",
-      "source_created": "0001-01-01T00:00:00"
-    },
-    "metropolitan:text:cf2d1104803c452b": {
-      "category": "other",
-      "first_seen": "2026-10-18T18:57:59Z",
-      "issue_key": "metropolitan:text:cf2d1104803c452b",
+      "first_seen": "2026-10-18T20:33:54Z",
+      "issue_key": "metropolitan:text:9c7e1722ac722ad0",
       "line_id": "metropolitan",
       "line_name": "Metropolitan",
-      "reason": "Metropolitan Line: Severe delays between Harrow-on-the-Hill and Uxbridge, MINOR DELAYS between Harrow-on the-Hill and Watford due to train cancellations. Tickets are being accepted on London Buses, the Lioness line and London Northwestern. GOOD SERVICE on the rest of the line.",
-      "severity": "Severe Delays",
+      "reason": "Metropolitan Line: Minor delays between Harrow-on-the-Hill and Uxbridge / Watford due to train cancellations. GOOD SERVICE on the rest of the line.",
+      "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
     "piccadilly:text:c5f7a1b586bc973a": {
@@ -122,6 +112,30 @@
     }
   },
   "history": [
+    {
+      "category": "other",
+      "duration_seconds": 32094,
+      "first_seen": "2026-10-18T11:39:00Z",
+      "issue_key": "lioness:text:6795a2a728b023ad",
+      "line_id": "lioness",
+      "line_name": "Lioness",
+      "reason": "LIONESS LINE: Saturday 17 and Sunday 18 October, a reduced service will run between Kilburn High Road and Euston. On Saturday, between 0630 and 2030, trains departing Watford Junction at 30 minutes past each hour will terminate at Kilburn High Road. From 0715 until 2115, trains departing Euston at 15 minutes past each hour will start from Kilburn High Road. On Sunday, between 1130 and 2030, trains departing Watford Junction at 30 minutes past each hour will terminate at Kilburn High Road. From 1215 until 2115, trains departing Euston at 15 minutes past each hour will start from Kilburn High Road",
+      "resolved_at": "2026-10-18T20:33:54Z",
+      "severity": "Reduced Service",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "other",
+      "duration_seconds": 5755,
+      "first_seen": "2026-10-18T18:57:59Z",
+      "issue_key": "metropolitan:text:cf2d1104803c452b",
+      "line_id": "metropolitan",
+      "line_name": "Metropolitan",
+      "reason": "Metropolitan Line: Severe delays between Harrow-on-the-Hill and Uxbridge, MINOR DELAYS between Harrow-on the-Hill and Watford due to train cancellations. Tickets are being accepted on London Buses, the Lioness line and London Northwestern. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-10-18T20:33:54Z",
+      "severity": "Severe Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
     {
       "category": "other",
       "duration_seconds": 3357,
@@ -24531,6 +24545,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-10-18T18:57:59Z",
+  "updated_at": "2026-10-18T20:33:54Z",
   "version": 1
 }
