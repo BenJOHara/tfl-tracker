@@ -60,14 +60,14 @@
       "severity": "Reduced Service",
       "source_created": "0001-01-01T00:00:00"
     },
-    "metropolitan:text:9c7e1722ac722ad0": {
+    "metropolitan:text:cf2d1104803c452b": {
       "category": "other",
-      "first_seen": "2026-10-18T18:02:02Z",
-      "issue_key": "metropolitan:text:9c7e1722ac722ad0",
+      "first_seen": "2026-10-18T18:57:59Z",
+      "issue_key": "metropolitan:text:cf2d1104803c452b",
       "line_id": "metropolitan",
       "line_name": "Metropolitan",
-      "reason": "Metropolitan Line: Minor delays between Harrow-on-the-hill and Uxbridge/ Watford due to train cancellations. GOOD SERVICE on the rest of the line.",
-      "severity": "Minor Delays",
+      "reason": "Metropolitan Line: Severe delays between Harrow-on-the-Hill and Uxbridge, MINOR DELAYS between Harrow-on the-Hill and Watford due to train cancellations. Tickets are being accepted on London Buses, the Lioness line and London Northwestern. GOOD SERVICE on the rest of the line.",
+      "severity": "Severe Delays",
       "source_created": "0001-01-01T00:00:00"
     },
     "piccadilly:text:c5f7a1b586bc973a": {
@@ -122,6 +122,18 @@
     }
   },
   "history": [
+    {
+      "category": "other",
+      "duration_seconds": 3357,
+      "first_seen": "2026-10-18T18:02:02Z",
+      "issue_key": "metropolitan:text:9c7e1722ac722ad0",
+      "line_id": "metropolitan",
+      "line_name": "Metropolitan",
+      "reason": "Metropolitan Line: Minor delays between Harrow-on-the-hill and Uxbridge/ Watford due to train cancellations. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-10-18T18:57:59Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
     {
       "category": "other",
       "duration_seconds": 11309,
@@ -24519,6 +24531,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-10-18T18:02:02Z",
+  "updated_at": "2026-10-18T18:57:59Z",
   "version": 1
 }
