@@ -30,6 +30,16 @@
       "severity": "Reduced Service",
       "source_created": "0001-01-01T00:00:00"
     },
+    "metropolitan:text:065042989f9859a6": {
+      "category": "train fault",
+      "first_seen": "2026-10-18T06:32:51Z",
+      "issue_key": "metropolitan:text:065042989f9859a6",
+      "line_id": "metropolitan",
+      "line_name": "Metropolitan",
+      "reason": "Metropolitan Line: Minor delays between Harrow-on-the-Hill and Uxbridge due to an earlier faulty train at Preston Road. GOOD SERVICE on the rest of the line.",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
     "mildmay:text:67216e3d333e1516": {
       "category": "other",
       "first_seen": "2026-10-18T04:56:21Z",
@@ -24405,6 +24415,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-10-18T04:56:21Z",
+  "updated_at": "2026-10-18T06:32:51Z",
   "version": 1
 }
