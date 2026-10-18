@@ -40,16 +40,6 @@
       "severity": "Part Closure",
       "source_created": "0001-01-01T00:00:00"
     },
-    "elizabeth:text:949b0fcad51ebf78": {
-      "category": "other",
-      "first_seen": "2026-10-18T22:34:28Z",
-      "issue_key": "elizabeth:text:949b0fcad51ebf78",
-      "line_id": "elizabeth",
-      "line_name": "Elizabeth line",
-      "reason": "Minor delays between Paddington and Heathrow Terminals / Reading due to an earlier fault with the signalling system at Acton Mainline. GOOD SERVICE on the rest of the line.",
-      "severity": "Minor Delays",
-      "source_created": "0001-01-01T00:00:00"
-    },
     "elizabeth:text:b8f6f5ed40600f15": {
       "category": "other",
       "first_seen": "2026-10-18T04:56:21Z",
@@ -152,6 +142,18 @@
     }
   },
   "history": [
+    {
+      "category": "other",
+      "duration_seconds": 3046,
+      "first_seen": "2026-10-18T22:34:28Z",
+      "issue_key": "elizabeth:text:949b0fcad51ebf78",
+      "line_id": "elizabeth",
+      "line_name": "Elizabeth line",
+      "reason": "Minor delays between Paddington and Heathrow Terminals / Reading due to an earlier fault with the signalling system at Acton Mainline. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-10-18T23:25:14Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
     {
       "category": "other",
       "duration_seconds": 4528,
@@ -24609,6 +24611,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-10-18T22:34:28Z",
+  "updated_at": "2026-10-18T23:25:14Z",
   "version": 1
 }
