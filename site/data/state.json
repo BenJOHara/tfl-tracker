@@ -1,13 +1,13 @@
 {
   "active": {
-    "bakerloo:text:ef0dac2fdaf6f824": {
+    "bakerloo:text:441236c7b38e407e": {
       "category": "other",
-      "first_seen": "2026-10-18T09:21:12Z",
-      "issue_key": "bakerloo:text:ef0dac2fdaf6f824",
+      "first_seen": "2026-10-18T21:19:00Z",
+      "issue_key": "bakerloo:text:441236c7b38e407e",
       "line_id": "bakerloo",
       "line_name": "Bakerloo",
-      "reason": "Bakerloo Line: Severe delays due to train cancellations. Tickets will be accepted on London Buses, Lioness Line, London Northwestern Railway and Thameslink.",
-      "severity": "Severe Delays",
+      "reason": "Bakerloo Line: Minor delays due to train cancellations.",
+      "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
     "central:text:cb15ff2732aae5a4": {
@@ -40,6 +40,16 @@
       "severity": "Part Closure",
       "source_created": "0001-01-01T00:00:00"
     },
+    "elizabeth:text:9d1f14d853eaa5d3": {
+      "category": "other",
+      "first_seen": "2026-10-18T21:19:00Z",
+      "issue_key": "elizabeth:text:9d1f14d853eaa5d3",
+      "line_id": "elizabeth",
+      "line_name": "Elizabeth line",
+      "reason": "Severe delays between Paddington and Heathrow Terminals / Reading while we fix a fault with the signalling system at Acton Mainline. Tickets are being accepted on London Underground, London Buses, South Western Railway, Great Western Railway and Chiltern Railway services via any reasonable route. GOOD SERVICE on the rest of the line.",
+      "severity": "Severe Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
     "elizabeth:text:b8f6f5ed40600f15": {
       "category": "other",
       "first_seen": "2026-10-18T04:56:21Z",
@@ -58,6 +68,16 @@
       "line_name": "Metropolitan",
       "reason": "Metropolitan Line: Minor delays between Harrow-on-the-Hill and Uxbridge / Watford due to train cancellations. GOOD SERVICE on the rest of the line.",
       "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "mildmay:text:d390916a4b07daa4": {
+      "category": "other",
+      "first_seen": "2026-10-18T21:19:00Z",
+      "issue_key": "mildmay:text:d390916a4b07daa4",
+      "line_id": "mildmay",
+      "line_name": "Mildmay",
+      "reason": "MILDMAY LINE: Sunday 18 October, after 2215, no service between Camden Road and Stratford. Rail replacement buses will run as follows: Service S: Camden Road - Holloway Road (Piccadilly line) - Highbury & Islington - Canonbury - Dalston Junction (for Dalston Kingsland) - Hackney Central - Homerton - Hackney Wick - Stratford. For Caledonian Road & Barnsbury use local bus route 274 to/from Camden Road or walk to/from Highbury & Islington. Some buses continue on request westbound only from Camden Road as follows: Camden Road - Kentish Town West - Gospel Oak (bus stop in Southampton Road) - Hampstead Heath - Finchley Road Tube (for Finchley Road & Frognal) - West Hampstead - Brondesbury (bus stops in Kilburn High Road) - Queen's Park (walk/local buses for Brondesbury Park) - Kensal Rise - Willesden Junction - Acton Central - South Acton - Gunnersbury - Kew Gardens (Royal Botanic Gardens) - Richmond. Last through trains: Richmond to Stratford 2110; Camden Road to Stratford 2203; Stratford to Richmond 2201; Stratford to Clapham Junction 22:08",
+      "severity": "Part Closure",
       "source_created": "0001-01-01T00:00:00"
     },
     "piccadilly:text:c5f7a1b586bc973a": {
@@ -109,9 +129,41 @@
       "reason": "WEAVER LINE: Saturday 17 and Sunday 18 October, no service between Edmonton Green and Cheshunt. Replacement bus service L2 operates between Enfield Town and Cheshunt via Southbury, Turkey Street (Hertford Road), Waltham Cross (for Greater Anglia) and Theobalds Grove.",
       "severity": "Part Closure",
       "source_created": "0001-01-01T00:00:00"
+    },
+    "windrush:text:5697b8bdd2fb81d2": {
+      "category": "other",
+      "first_seen": "2026-10-18T21:19:00Z",
+      "issue_key": "windrush:text:5697b8bdd2fb81d2",
+      "line_id": "windrush",
+      "line_name": "Windrush",
+      "reason": "WINDRUSH LINE: Sunday 18 October, from 2215, no service between Dalston Junction and Highbury & Islington. Replacement bus service S operates between Stratford and Camden Road via Dalston Junction, Canonbury (St Pauls Road) and Highbury & Islington. In addition, the 2149 Crystal Palace to Highbury & Islington train will not run.",
+      "severity": "Part Closure",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "windrush:text:58b0ccb3011509fe": {
+      "category": "other",
+      "first_seen": "2026-10-18T21:19:00Z",
+      "issue_key": "windrush:text:58b0ccb3011509fe",
+      "line_id": "windrush",
+      "line_name": "Windrush",
+      "reason": "WINDRUSH LINE: Sunday 18 October, from 2200, no service between Surrey Quays and New Cross.",
+      "severity": "Part Closure",
+      "source_created": "0001-01-01T00:00:00"
     }
   },
   "history": [
+    {
+      "category": "other",
+      "duration_seconds": 43068,
+      "first_seen": "2026-10-18T09:21:12Z",
+      "issue_key": "bakerloo:text:ef0dac2fdaf6f824",
+      "line_id": "bakerloo",
+      "line_name": "Bakerloo",
+      "reason": "Bakerloo Line: Severe delays due to train cancellations. Tickets will be accepted on London Buses, Lioness Line, London Northwestern Railway and Thameslink.",
+      "resolved_at": "2026-10-18T21:19:00Z",
+      "severity": "Severe Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
     {
       "category": "other",
       "duration_seconds": 32094,
@@ -24545,6 +24597,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-10-18T20:33:54Z",
+  "updated_at": "2026-10-18T21:19:00Z",
   "version": 1
 }
