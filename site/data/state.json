@@ -1,12 +1,22 @@
 {
   "active": {
-    "central:text:4e5abc6e7ba4cabc": {
+    "district:text:059161ccc32eec0d": {
       "category": "train fault",
-      "first_seen": "2026-10-19T06:52:40Z",
-      "issue_key": "central:text:4e5abc6e7ba4cabc",
-      "line_id": "central",
-      "line_name": "Central",
-      "reason": "Central Line: Minor delays between Liverpool Street and Leytonstone eastbound while we fix a faulty train at Stratford. GOOD SERVICE on the rest of the line.",
+      "first_seen": "2026-10-19T10:55:57Z",
+      "issue_key": "district:text:059161ccc32eec0d",
+      "line_id": "district",
+      "line_name": "District",
+      "reason": "District Line: Severe delays between Barking and Upminster while we fix a faulty train at Becontree. GOOD SERVICE on the rest of the line. Tickets are being accepted on London Buses and c2c services via any reasonable route.",
+      "severity": "Severe Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "elizabeth:text:a15c784321b83e91": {
+      "category": "other",
+      "first_seen": "2026-10-19T10:55:57Z",
+      "issue_key": "elizabeth:text:a15c784321b83e91",
+      "line_id": "elizabeth",
+      "line_name": "Elizabeth line",
+      "reason": "Minor delays between Shenfield/Abbey Wood and Heathrow Terminals while we fix a signal system failure. GOOD SERVICE on the rest of the line.",
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
@@ -19,9 +29,31 @@
       "reason": "London Tramlink: No service between Arena and Elmers End and MINOR DELAYS on the rest of the tram routes due to a track fault at Lebanon Road.",
       "severity": "Part Suspended",
       "source_created": "0001-01-01T00:00:00"
+    },
+    "weaver:text:6250f452c40438a2": {
+      "category": "points failure",
+      "first_seen": "2026-10-19T10:55:57Z",
+      "issue_key": "weaver:text:6250f452c40438a2",
+      "line_id": "weaver",
+      "line_name": "Weaver",
+      "reason": "Weaver Line: No service while we fix a points failure at Clapton. London Underground are accepting tickets via any reasonable route.",
+      "severity": "Suspended",
+      "source_created": "0001-01-01T00:00:00"
     }
   },
   "history": [
+    {
+      "category": "train fault",
+      "duration_seconds": 14597,
+      "first_seen": "2026-10-19T06:52:40Z",
+      "issue_key": "central:text:4e5abc6e7ba4cabc",
+      "line_id": "central",
+      "line_name": "Central",
+      "reason": "Central Line: Minor delays between Liverpool Street and Leytonstone eastbound while we fix a faulty train at Stratford. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-10-19T10:55:57Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
     {
       "category": "train fault",
       "duration_seconds": 1729,
@@ -24911,6 +24943,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-10-19T06:52:40Z",
+  "updated_at": "2026-10-19T10:55:57Z",
   "version": 1
 }
