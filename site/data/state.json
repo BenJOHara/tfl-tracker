@@ -1,25 +1,5 @@
 {
   "active": {
-    "district:text:059161ccc32eec0d": {
-      "category": "train fault",
-      "first_seen": "2026-10-19T10:55:57Z",
-      "issue_key": "district:text:059161ccc32eec0d",
-      "line_id": "district",
-      "line_name": "District",
-      "reason": "District Line: Severe delays between Barking and Upminster while we fix a faulty train at Becontree. GOOD SERVICE on the rest of the line. Tickets are being accepted on London Buses and c2c services via any reasonable route.",
-      "severity": "Severe Delays",
-      "source_created": "0001-01-01T00:00:00"
-    },
-    "elizabeth:text:a15c784321b83e91": {
-      "category": "other",
-      "first_seen": "2026-10-19T10:55:57Z",
-      "issue_key": "elizabeth:text:a15c784321b83e91",
-      "line_id": "elizabeth",
-      "line_name": "Elizabeth line",
-      "reason": "Minor delays between Shenfield/Abbey Wood and Heathrow Terminals while we fix a signal system failure. GOOD SERVICE on the rest of the line.",
-      "severity": "Minor Delays",
-      "source_created": "0001-01-01T00:00:00"
-    },
     "tram:text:ddf42980c8547669": {
       "category": "track fault",
       "first_seen": "2026-10-19T05:14:27Z",
@@ -42,6 +22,30 @@
     }
   },
   "history": [
+    {
+      "category": "train fault",
+      "duration_seconds": 9843,
+      "first_seen": "2026-10-19T10:55:57Z",
+      "issue_key": "district:text:059161ccc32eec0d",
+      "line_id": "district",
+      "line_name": "District",
+      "reason": "District Line: Severe delays between Barking and Upminster while we fix a faulty train at Becontree. GOOD SERVICE on the rest of the line. Tickets are being accepted on London Buses and c2c services via any reasonable route.",
+      "resolved_at": "2026-10-19T13:40:00Z",
+      "severity": "Severe Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "other",
+      "duration_seconds": 9843,
+      "first_seen": "2026-10-19T10:55:57Z",
+      "issue_key": "elizabeth:text:a15c784321b83e91",
+      "line_id": "elizabeth",
+      "line_name": "Elizabeth line",
+      "reason": "Minor delays between Shenfield/Abbey Wood and Heathrow Terminals while we fix a signal system failure. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-10-19T13:40:00Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
     {
       "category": "train fault",
       "duration_seconds": 14597,
@@ -24943,6 +24947,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-10-19T10:55:57Z",
+  "updated_at": "2026-10-19T13:40:00Z",
   "version": 1
 }
