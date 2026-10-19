@@ -10,6 +10,16 @@
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
+    "metropolitan:text:e2ad35e56efacf1a": {
+      "category": "other",
+      "first_seen": "2026-10-19T20:05:53Z",
+      "issue_key": "metropolitan:text:e2ad35e56efacf1a",
+      "line_id": "metropolitan",
+      "line_name": "Metropolitan",
+      "reason": "Metropolitan Line: Minor delays between Moor Park and Watford / Harrow-on-the-Hill and Uxbridge due to train cancellations. GOOD SERVICE on the rest of the line.",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
     "tram:text:d106b97860bdf105": {
       "category": "track fault",
       "first_seen": "2026-10-19T17:25:50Z",
@@ -24983,6 +24993,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-10-19T19:27:52Z",
+  "updated_at": "2026-10-19T20:05:53Z",
   "version": 1
 }
