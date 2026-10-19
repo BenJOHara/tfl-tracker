@@ -20,6 +20,16 @@
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
+    "mildmay:text:7cb67bb36080e0b0": {
+      "category": "other",
+      "first_seen": "2026-10-19T23:03:11Z",
+      "issue_key": "mildmay:text:7cb67bb36080e0b0",
+      "line_id": "mildmay",
+      "line_name": "Mildmay",
+      "reason": "Mildmay Line: No service between Highbury & Islington and Stratford due to a faulty freight train at Hackney Central. London Underground are accepting tickets via any reasonable route. SEVERE DELAYS on the rest of the line.",
+      "severity": "Part Suspended",
+      "source_created": "0001-01-01T00:00:00"
+    },
     "tram:text:d106b97860bdf105": {
       "category": "track fault",
       "first_seen": "2026-10-19T17:25:50Z",
@@ -24993,6 +25003,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-10-19T20:05:53Z",
+  "updated_at": "2026-10-19T23:03:11Z",
   "version": 1
 }
