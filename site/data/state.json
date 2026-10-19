@@ -10,28 +10,52 @@
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "tram:text:ddf42980c8547669": {
+    "northern:text:82cfeccb1c4abfec": {
+      "category": "other",
+      "first_seen": "2026-10-19T17:25:50Z",
+      "issue_key": "northern:text:82cfeccb1c4abfec",
+      "line_id": "northern",
+      "line_name": "Northern",
+      "reason": "Northern Line: Minor delays due to train cancellations.",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "tram:text:d106b97860bdf105": {
       "category": "track fault",
+      "first_seen": "2026-10-19T17:25:50Z",
+      "issue_key": "tram:text:d106b97860bdf105",
+      "line_id": "tram",
+      "line_name": "Tram",
+      "reason": "London Tramlink: No service between Arena and Elmers End due to a track fault at Lebanon Road. GOOD SERVICE on the rest of the line.",
+      "severity": "Part Suspended",
+      "source_created": "0001-01-01T00:00:00"
+    }
+  },
+  "history": [
+    {
+      "category": "track fault",
+      "duration_seconds": 43883,
       "first_seen": "2026-10-19T05:14:27Z",
       "issue_key": "tram:text:ddf42980c8547669",
       "line_id": "tram",
       "line_name": "Tram",
       "reason": "London Tramlink: No service between Arena and Elmers End and MINOR DELAYS on the rest of the tram routes due to a track fault at Lebanon Road.",
+      "resolved_at": "2026-10-19T17:25:50Z",
       "severity": "Part Suspended",
       "source_created": "0001-01-01T00:00:00"
     },
-    "weaver:text:6250f452c40438a2": {
+    {
       "category": "points failure",
+      "duration_seconds": 23393,
       "first_seen": "2026-10-19T10:55:57Z",
       "issue_key": "weaver:text:6250f452c40438a2",
       "line_id": "weaver",
       "line_name": "Weaver",
       "reason": "Weaver Line: No service while we fix a points failure at Clapton. London Underground are accepting tickets via any reasonable route.",
+      "resolved_at": "2026-10-19T17:25:50Z",
       "severity": "Suspended",
       "source_created": "0001-01-01T00:00:00"
-    }
-  },
-  "history": [
+    },
     {
       "category": "train fault",
       "duration_seconds": 9843,
@@ -24957,6 +24981,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-10-19T14:23:50Z",
+  "updated_at": "2026-10-19T17:25:50Z",
   "version": 1
 }
