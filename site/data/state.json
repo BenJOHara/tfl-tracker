@@ -10,16 +10,6 @@
       "severity": "Severe Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "circle:text:9d6d2512adab3df8": {
-      "category": "signal failure",
-      "first_seen": "2026-10-20T17:20:15Z",
-      "issue_key": "circle:text:9d6d2512adab3df8",
-      "line_id": "circle",
-      "line_name": "Circle",
-      "reason": "Circle Line: Severe delays Clockwise and MINOR DELAYS Anticlockwise due to an earlier signal failure at Mansion House. Tickets will be accepted on London buses, C2C, Elizabeth Line, DLR, and Mildmay Line.",
-      "severity": "Minor Delays",
-      "source_created": "0001-01-01T00:00:00"
-    },
     "district:text:761dc870a43d7a47": {
       "category": "signal failure",
       "first_seen": "2026-10-20T17:20:15Z",
@@ -30,14 +20,14 @@
       "severity": "Severe Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "hammersmith-city:text:004129bf5e441754": {
+    "elizabeth:text:c305f9655f1819d6": {
       "category": "other",
-      "first_seen": "2026-10-20T17:20:15Z",
-      "issue_key": "hammersmith-city:text:004129bf5e441754",
-      "line_id": "hammersmith-city",
-      "line_name": "Hammersmith & City",
-      "reason": "Hammersmith and City Line: Minor delays due to train cancellations.",
-      "severity": "Minor Delays",
+      "first_seen": "2026-10-20T17:54:28Z",
+      "issue_key": "elizabeth:text:c305f9655f1819d6",
+      "line_id": "elizabeth",
+      "line_name": "Elizabeth line",
+      "reason": "Severe delays between Paddington and Abbey Wood / Shenfield due to an earlier person ill on a train. Tickets are being accepted on London Underground, London Overground, DLR, London Buses, Great Northern, Southern, Thameslink, C2C, Greater Anglia and Southeastern Railway via any reasonable route.",
+      "severity": "Severe Delays",
       "source_created": "0001-01-01T00:00:00"
     },
     "jubilee:text:57925a2ef9e26722": {
@@ -82,6 +72,30 @@
     }
   },
   "history": [
+    {
+      "category": "signal failure",
+      "duration_seconds": 2053,
+      "first_seen": "2026-10-20T17:20:15Z",
+      "issue_key": "circle:text:9d6d2512adab3df8",
+      "line_id": "circle",
+      "line_name": "Circle",
+      "reason": "Circle Line: Severe delays Clockwise and MINOR DELAYS Anticlockwise due to an earlier signal failure at Mansion House. Tickets will be accepted on London buses, C2C, Elizabeth Line, DLR, and Mildmay Line.",
+      "resolved_at": "2026-10-20T17:54:28Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "other",
+      "duration_seconds": 2053,
+      "first_seen": "2026-10-20T17:20:15Z",
+      "issue_key": "hammersmith-city:text:004129bf5e441754",
+      "line_id": "hammersmith-city",
+      "line_name": "Hammersmith & City",
+      "reason": "Hammersmith and City Line: Minor delays due to train cancellations.",
+      "resolved_at": "2026-10-20T17:54:28Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
     {
       "category": "signal failure",
       "duration_seconds": 7178,
@@ -25535,6 +25549,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-10-20T17:20:15Z",
+  "updated_at": "2026-10-20T17:54:28Z",
   "version": 1
 }
