@@ -1,33 +1,33 @@
 {
   "active": {
-    "district:text:0a1bfdd23836fbc8": {
+    "district:text:aad91497cba276db": {
       "category": "other",
-      "first_seen": "2026-10-20T05:25:46Z",
-      "issue_key": "district:text:0a1bfdd23836fbc8",
+      "first_seen": "2026-10-20T06:43:14Z",
+      "issue_key": "district:text:aad91497cba276db",
       "line_id": "district",
       "line_name": "District",
-      "reason": "District Line: Severe delays between Earls Court and Wimbledon, SEVERE DELAYS between Earl's Court and Barking eastbound only due to train cancellations. Tickets will be accepted on London Buses and South Western Railway. GOOD SERVICE on the rest of the line.",
-      "severity": "Severe Delays",
+      "reason": "District Line: Minor delays between Earl's Court and Wimbledon due to train cancellations. GOOD SERVICE on the rest of the line.",
+      "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "elizabeth:text:c408453190eecb55": {
+    "elizabeth:text:95cd5d70c6770676": {
       "category": "signal failure",
-      "first_seen": "2026-10-20T05:25:46Z",
-      "issue_key": "elizabeth:text:c408453190eecb55",
+      "first_seen": "2026-10-20T06:43:14Z",
+      "issue_key": "elizabeth:text:95cd5d70c6770676",
       "line_id": "elizabeth",
       "line_name": "Elizabeth line",
-      "reason": "Severe delays between Paddington and Heathrow Terminals / Reading while we fix a signal failure. Tickets will be accepted on London Underground via any reasonable route. GOOD SERVICE on the rest of the line.",
-      "severity": "Severe Delays",
+      "reason": "Minor delays between Reading and Hayes and Harlington eastbound only while we fix a track fault at Langley. MINOR DELAYS between Abbey Wood and Whitechapel due to an earlier signal failure at Paddington. GOOD SERVICE on the rest of the line.",
+      "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "metropolitan:text:ab25d9693f8dbec4": {
-      "category": "other",
-      "first_seen": "2026-10-20T05:25:46Z",
-      "issue_key": "metropolitan:text:ab25d9693f8dbec4",
-      "line_id": "metropolitan",
-      "line_name": "Metropolitan",
-      "reason": "Metropolitan Line: Severe delays between Moor Park and Amersham and MINOR DELAYS between Moor Park and Watford. due to train cancellations. GOOD SERVICE on the rest of line.",
-      "severity": "Minor Delays",
+    "piccadilly:text:6861f0ef6479ac86": {
+      "category": "train fault",
+      "first_seen": "2026-10-20T06:43:14Z",
+      "issue_key": "piccadilly:text:6861f0ef6479ac86",
+      "line_id": "piccadilly",
+      "line_name": "Piccadilly",
+      "reason": "Piccadilly Line: Severe Delays between King's Cross St. Pancras and Acton Town westbound only due to an earlier faulty train. GOOD SERVICE on the rest of the line. Tickets will be accepted on London Buses, Elizabeth line and Great Northern Railway.",
+      "severity": "Severe Delays",
       "source_created": "0001-01-01T00:00:00"
     },
     "tram:text:259ee1afa575c655": {
@@ -42,6 +42,42 @@
     }
   },
   "history": [
+    {
+      "category": "other",
+      "duration_seconds": 4648,
+      "first_seen": "2026-10-20T05:25:46Z",
+      "issue_key": "district:text:0a1bfdd23836fbc8",
+      "line_id": "district",
+      "line_name": "District",
+      "reason": "District Line: Severe delays between Earls Court and Wimbledon, SEVERE DELAYS between Earl's Court and Barking eastbound only due to train cancellations. Tickets will be accepted on London Buses and South Western Railway. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-10-20T06:43:14Z",
+      "severity": "Severe Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "signal failure",
+      "duration_seconds": 4648,
+      "first_seen": "2026-10-20T05:25:46Z",
+      "issue_key": "elizabeth:text:c408453190eecb55",
+      "line_id": "elizabeth",
+      "line_name": "Elizabeth line",
+      "reason": "Severe delays between Paddington and Heathrow Terminals / Reading while we fix a signal failure. Tickets will be accepted on London Underground via any reasonable route. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-10-20T06:43:14Z",
+      "severity": "Severe Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "other",
+      "duration_seconds": 4648,
+      "first_seen": "2026-10-20T05:25:46Z",
+      "issue_key": "metropolitan:text:ab25d9693f8dbec4",
+      "line_id": "metropolitan",
+      "line_name": "Metropolitan",
+      "reason": "Metropolitan Line: Severe delays between Moor Park and Amersham and MINOR DELAYS between Moor Park and Watford. due to train cancellations. GOOD SERVICE on the rest of line.",
+      "resolved_at": "2026-10-20T06:43:14Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
     {
       "category": "other",
       "duration_seconds": 16885,
@@ -25291,6 +25327,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-10-20T05:25:46Z",
+  "updated_at": "2026-10-20T06:43:14Z",
   "version": 1
 }
