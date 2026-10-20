@@ -10,13 +10,13 @@
       "severity": "Severe Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "district:text:761dc870a43d7a47": {
+    "district:text:3116e9d372e4758c": {
       "category": "signal failure",
-      "first_seen": "2026-10-20T17:20:15Z",
-      "issue_key": "district:text:761dc870a43d7a47",
+      "first_seen": "2026-10-20T21:19:44Z",
+      "issue_key": "district:text:3116e9d372e4758c",
       "line_id": "district",
       "line_name": "District",
-      "reason": "District Line: Severe delays due to an earlier signal fault at Mansion House. Tickets will be accepted on London buses, C2C, Elizabeth Line, DLR, South Western Railway and Mildmay Line.",
+      "reason": "District Line: Severe delays between Ealing Broadway and Upminster and MINOR DELAYS between Earl's Court and Wimbledon and between Turnham Green and Richmond due to an earlier signal fault at Mansion House. Tickets will be accepted on London buses, C2C, Elizabeth Line, DLR, South Western Railway and Mildmay Line. GOOD SERVICE on the rest of the line.",
       "severity": "Severe Delays",
       "source_created": "0001-01-01T00:00:00"
     },
@@ -62,6 +62,18 @@
     }
   },
   "history": [
+    {
+      "category": "signal failure",
+      "duration_seconds": 14369,
+      "first_seen": "2026-10-20T17:20:15Z",
+      "issue_key": "district:text:761dc870a43d7a47",
+      "line_id": "district",
+      "line_name": "District",
+      "reason": "District Line: Severe delays due to an earlier signal fault at Mansion House. Tickets will be accepted on London buses, C2C, Elizabeth Line, DLR, South Western Railway and Mildmay Line.",
+      "resolved_at": "2026-10-20T21:19:44Z",
+      "severity": "Severe Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
     {
       "category": "signal failure",
       "duration_seconds": 4636,
@@ -25611,6 +25623,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-10-20T20:41:49Z",
+  "updated_at": "2026-10-20T21:19:44Z",
   "version": 1
 }
