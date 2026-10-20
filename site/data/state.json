@@ -10,24 +10,14 @@
       "severity": "Severe Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "district:text:3116e9d372e4758c": {
+    "district:text:df4f2b0789d38aad": {
       "category": "signal failure",
-      "first_seen": "2026-10-20T21:19:44Z",
-      "issue_key": "district:text:3116e9d372e4758c",
+      "first_seen": "2026-10-20T23:23:35Z",
+      "issue_key": "district:text:df4f2b0789d38aad",
       "line_id": "district",
       "line_name": "District",
-      "reason": "District Line: Severe delays between Ealing Broadway and Upminster and MINOR DELAYS between Earl's Court and Wimbledon and between Turnham Green and Richmond due to an earlier signal fault at Mansion House. Tickets will be accepted on London buses, C2C, Elizabeth Line, DLR, South Western Railway and Mildmay Line. GOOD SERVICE on the rest of the line.",
+      "reason": "District Line: Severe delays between Tower Hill and Upminster eastbound only, MINOR DELAYS between Tower Hill and Ealing Broadway / Richmond / Wimbledon due to an earlier signal fault at Mansion House. Tickets will be accepted on London buses, C2C, Elizabeth Line, DLR, South Western Railway and Mildmay Line. GOOD SERVICE on the rest of the line.",
       "severity": "Severe Delays",
-      "source_created": "0001-01-01T00:00:00"
-    },
-    "elizabeth:text:e5e001e80b562a81": {
-      "category": "other",
-      "first_seen": "2026-10-20T22:36:11Z",
-      "issue_key": "elizabeth:text:e5e001e80b562a81",
-      "line_id": "elizabeth",
-      "line_name": "Elizabeth line",
-      "reason": "ELIZABETH LINE: Monday 19, Tuesday 20, Wednesday 21 and Thursday 22 October, the 2217 Abbey Wood to Reading train will terminate at Maidenhead. Customers travelling to Twyford and Reading should change at Maidenhead to the 2338 GWR service to Twyford and Reading. At Maidenhead, connecting westbound GWR trains to Twyford and Reading use Platform 1. For step-free interchange from platform 3 to platform 1, please use the lift to the main entrance, and then continue at street level under the railway bridge and up Shoppenhangers Road to the car park. Please ask staff to open the gate to platform 1, and allow extra time for your journey. The 2317 Reading to Paddington train is revised to start at Maidenhead at 2333, a later GWR service operates at 2350 from Reading to Paddington calling at Twyford, Reading and Slough",
-      "severity": "Reduced Service",
       "source_created": "0001-01-01T00:00:00"
     },
     "mildmay:text:068adb68c6cc1ed7": {
@@ -40,13 +30,13 @@
       "severity": "Part Suspended",
       "source_created": "0001-01-01T00:00:00"
     },
-    "piccadilly:text:fbe9b32b96851021": {
+    "piccadilly:text:9c538a4baa794c11": {
       "category": "other",
-      "first_seen": "2026-10-20T22:36:11Z",
-      "issue_key": "piccadilly:text:fbe9b32b96851021",
+      "first_seen": "2026-10-20T23:23:35Z",
+      "issue_key": "piccadilly:text:9c538a4baa794c11",
       "line_id": "piccadilly",
       "line_name": "Piccadilly",
-      "reason": "Piccadilly Line: Severe delays between Acton Town and Uxbridge / Heathrow Terminals due to an earlier security alert. Tickets are being accepted on London Buses, Elizabeth line, Weaver Line, Great Northern and South Western Railway. MINOR DELAYS on the rest of the line.",
+      "reason": "Piccadilly Line: Minor delays due to an earlier security alert.",
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
@@ -62,6 +52,42 @@
     }
   },
   "history": [
+    {
+      "category": "signal failure",
+      "duration_seconds": 7431,
+      "first_seen": "2026-10-20T21:19:44Z",
+      "issue_key": "district:text:3116e9d372e4758c",
+      "line_id": "district",
+      "line_name": "District",
+      "reason": "District Line: Severe delays between Ealing Broadway and Upminster and MINOR DELAYS between Earl's Court and Wimbledon and between Turnham Green and Richmond due to an earlier signal fault at Mansion House. Tickets will be accepted on London buses, C2C, Elizabeth Line, DLR, South Western Railway and Mildmay Line. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-10-20T23:23:35Z",
+      "severity": "Severe Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "other",
+      "duration_seconds": 2844,
+      "first_seen": "2026-10-20T22:36:11Z",
+      "issue_key": "elizabeth:text:e5e001e80b562a81",
+      "line_id": "elizabeth",
+      "line_name": "Elizabeth line",
+      "reason": "ELIZABETH LINE: Monday 19, Tuesday 20, Wednesday 21 and Thursday 22 October, the 2217 Abbey Wood to Reading train will terminate at Maidenhead. Customers travelling to Twyford and Reading should change at Maidenhead to the 2338 GWR service to Twyford and Reading. At Maidenhead, connecting westbound GWR trains to Twyford and Reading use Platform 1. For step-free interchange from platform 3 to platform 1, please use the lift to the main entrance, and then continue at street level under the railway bridge and up Shoppenhangers Road to the car park. Please ask staff to open the gate to platform 1, and allow extra time for your journey. The 2317 Reading to Paddington train is revised to start at Maidenhead at 2333, a later GWR service operates at 2350 from Reading to Paddington calling at Twyford, Reading and Slough",
+      "resolved_at": "2026-10-20T23:23:35Z",
+      "severity": "Reduced Service",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "other",
+      "duration_seconds": 2844,
+      "first_seen": "2026-10-20T22:36:11Z",
+      "issue_key": "piccadilly:text:fbe9b32b96851021",
+      "line_id": "piccadilly",
+      "line_name": "Piccadilly",
+      "reason": "Piccadilly Line: Severe delays between Acton Town and Uxbridge / Heathrow Terminals due to an earlier security alert. Tickets are being accepted on London Buses, Elizabeth line, Weaver Line, Great Northern and South Western Railway. MINOR DELAYS on the rest of the line.",
+      "resolved_at": "2026-10-20T23:23:35Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
     {
       "category": "other",
       "duration_seconds": 6862,
@@ -25647,6 +25673,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-10-20T22:36:11Z",
+  "updated_at": "2026-10-20T23:23:35Z",
   "version": 1
 }
