@@ -10,24 +10,54 @@
       "severity": "Severe Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "circle:text:69e3ffda09c4e744": {
+    "circle:text:9d6d2512adab3df8": {
       "category": "signal failure",
-      "first_seen": "2026-10-20T15:20:37Z",
-      "issue_key": "circle:text:69e3ffda09c4e744",
+      "first_seen": "2026-10-20T17:20:15Z",
+      "issue_key": "circle:text:9d6d2512adab3df8",
       "line_id": "circle",
       "line_name": "Circle",
-      "reason": "Circle Line: No service between Aldgate and Edgware Road via Embankment and SEVERE DELAYS between Hammersmith and Aldgate while we fix a signal failure at Mansion House. Tickets will be accepted on London buses, C2C, Elizabeth Line, DLR, and Mildmay Line.",
-      "severity": "Part Suspended",
+      "reason": "Circle Line: Severe delays Clockwise and MINOR DELAYS Anticlockwise due to an earlier signal failure at Mansion House. Tickets will be accepted on London buses, C2C, Elizabeth Line, DLR, and Mildmay Line.",
+      "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "district:text:52235439c3cef0de": {
+    "district:text:761dc870a43d7a47": {
       "category": "signal failure",
-      "first_seen": "2026-10-20T15:20:37Z",
-      "issue_key": "district:text:52235439c3cef0de",
+      "first_seen": "2026-10-20T17:20:15Z",
+      "issue_key": "district:text:761dc870a43d7a47",
       "line_id": "district",
       "line_name": "District",
-      "reason": "District Line: No service between Tower Hill and Earl's Court while we fix a signal fault at Mansion House. SEVERE DELAYS on the rest of the line. Tickets will be accepted on London buses, C2C, Elizabeth Line, DLR, South Western Railway and Mildmay Line.",
-      "severity": "Part Suspended",
+      "reason": "District Line: Severe delays due to an earlier signal fault at Mansion House. Tickets will be accepted on London buses, C2C, Elizabeth Line, DLR, South Western Railway and Mildmay Line.",
+      "severity": "Severe Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "hammersmith-city:text:004129bf5e441754": {
+      "category": "other",
+      "first_seen": "2026-10-20T17:20:15Z",
+      "issue_key": "hammersmith-city:text:004129bf5e441754",
+      "line_id": "hammersmith-city",
+      "line_name": "Hammersmith & City",
+      "reason": "Hammersmith and City Line: Minor delays due to train cancellations.",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "jubilee:text:57925a2ef9e26722": {
+      "category": "other",
+      "first_seen": "2026-10-20T17:20:15Z",
+      "issue_key": "jubilee:text:57925a2ef9e26722",
+      "line_id": "jubilee",
+      "line_name": "Jubilee",
+      "reason": "Jubilee Line: Minor delays due to train cancellations.",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "metropolitan:text:583142ed3172da55": {
+      "category": "train fault",
+      "first_seen": "2026-10-20T17:20:15Z",
+      "issue_key": "metropolitan:text:583142ed3172da55",
+      "line_id": "metropolitan",
+      "line_name": "Metropolitan",
+      "reason": "Metropolitan Line: Minor delays due to an earlier faulty train at Baker Street.",
+      "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
     "tram:text:259ee1afa575c655": {
@@ -52,6 +82,30 @@
     }
   },
   "history": [
+    {
+      "category": "signal failure",
+      "duration_seconds": 7178,
+      "first_seen": "2026-10-20T15:20:37Z",
+      "issue_key": "circle:text:69e3ffda09c4e744",
+      "line_id": "circle",
+      "line_name": "Circle",
+      "reason": "Circle Line: No service between Aldgate and Edgware Road via Embankment and SEVERE DELAYS between Hammersmith and Aldgate while we fix a signal failure at Mansion House. Tickets will be accepted on London buses, C2C, Elizabeth Line, DLR, and Mildmay Line.",
+      "resolved_at": "2026-10-20T17:20:15Z",
+      "severity": "Part Suspended",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "signal failure",
+      "duration_seconds": 7178,
+      "first_seen": "2026-10-20T15:20:37Z",
+      "issue_key": "district:text:52235439c3cef0de",
+      "line_id": "district",
+      "line_name": "District",
+      "reason": "District Line: No service between Tower Hill and Earl's Court while we fix a signal fault at Mansion House. SEVERE DELAYS on the rest of the line. Tickets will be accepted on London buses, C2C, Elizabeth Line, DLR, South Western Railway and Mildmay Line.",
+      "resolved_at": "2026-10-20T17:20:15Z",
+      "severity": "Part Suspended",
+      "source_created": "0001-01-01T00:00:00"
+    },
     {
       "category": "other",
       "duration_seconds": 17862,
@@ -25481,6 +25535,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-10-20T15:20:37Z",
+  "updated_at": "2026-10-20T17:20:15Z",
   "version": 1
 }
