@@ -10,23 +10,13 @@
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "elizabeth:text:95cd5d70c6770676": {
-      "category": "signal failure",
-      "first_seen": "2026-10-20T06:43:14Z",
-      "issue_key": "elizabeth:text:95cd5d70c6770676",
+    "elizabeth:text:68a58d729ed630cd": {
+      "category": "track fault",
+      "first_seen": "2026-10-20T07:34:48Z",
+      "issue_key": "elizabeth:text:68a58d729ed630cd",
       "line_id": "elizabeth",
       "line_name": "Elizabeth line",
-      "reason": "Minor delays between Reading and Hayes and Harlington eastbound only while we fix a track fault at Langley. MINOR DELAYS between Abbey Wood and Whitechapel due to an earlier signal failure at Paddington. GOOD SERVICE on the rest of the line.",
-      "severity": "Minor Delays",
-      "source_created": "0001-01-01T00:00:00"
-    },
-    "piccadilly:text:6861f0ef6479ac86": {
-      "category": "train fault",
-      "first_seen": "2026-10-20T06:43:14Z",
-      "issue_key": "piccadilly:text:6861f0ef6479ac86",
-      "line_id": "piccadilly",
-      "line_name": "Piccadilly",
-      "reason": "Piccadilly Line: Severe Delays between King's Cross St. Pancras and Acton Town westbound only due to an earlier faulty train. GOOD SERVICE on the rest of the line. Tickets will be accepted on London Buses, Elizabeth line and Great Northern Railway.",
+      "reason": "Severe delays between Paddington and Heathrow Terminals /Reading while we fix a track fault at Langley. GOOD SERVICE on the rest of the line.",
       "severity": "Severe Delays",
       "source_created": "0001-01-01T00:00:00"
     },
@@ -42,6 +32,30 @@
     }
   },
   "history": [
+    {
+      "category": "signal failure",
+      "duration_seconds": 3094,
+      "first_seen": "2026-10-20T06:43:14Z",
+      "issue_key": "elizabeth:text:95cd5d70c6770676",
+      "line_id": "elizabeth",
+      "line_name": "Elizabeth line",
+      "reason": "Minor delays between Reading and Hayes and Harlington eastbound only while we fix a track fault at Langley. MINOR DELAYS between Abbey Wood and Whitechapel due to an earlier signal failure at Paddington. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-10-20T07:34:48Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "train fault",
+      "duration_seconds": 3094,
+      "first_seen": "2026-10-20T06:43:14Z",
+      "issue_key": "piccadilly:text:6861f0ef6479ac86",
+      "line_id": "piccadilly",
+      "line_name": "Piccadilly",
+      "reason": "Piccadilly Line: Severe Delays between King's Cross St. Pancras and Acton Town westbound only due to an earlier faulty train. GOOD SERVICE on the rest of the line. Tickets will be accepted on London Buses, Elizabeth line and Great Northern Railway.",
+      "resolved_at": "2026-10-20T07:34:48Z",
+      "severity": "Severe Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
     {
       "category": "other",
       "duration_seconds": 4648,
@@ -25327,6 +25341,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-10-20T06:43:14Z",
+  "updated_at": "2026-10-20T07:34:48Z",
   "version": 1
 }
