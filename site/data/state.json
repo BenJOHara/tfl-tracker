@@ -20,44 +20,24 @@
       "severity": "Part Suspended",
       "source_created": "0001-01-01T00:00:00"
     },
-    "district:text:eee19a09800376ba": {
+    "district:text:ef6bf53a5e036c83": {
       "category": "signal failure",
-      "first_seen": "2026-10-20T10:22:55Z",
-      "issue_key": "district:text:eee19a09800376ba",
+      "first_seen": "2026-10-20T12:19:34Z",
+      "issue_key": "district:text:ef6bf53a5e036c83",
       "line_id": "district",
       "line_name": "District",
-      "reason": "District Line: Severe delays due to an earlier signal fault at Mansion House. Tickets will be accepted on London buses, C2C, Elizabeth Line, DLR, and Mildmay Line.",
-      "severity": "Severe Delays",
-      "source_created": "0001-01-01T00:00:00"
-    },
-    "elizabeth:text:8f79264306dd1822": {
-      "category": "train fault",
-      "first_seen": "2026-10-20T10:22:55Z",
-      "issue_key": "elizabeth:text:8f79264306dd1822",
-      "line_id": "elizabeth",
-      "line_name": "Elizabeth line",
-      "reason": "Severe delays between Paddington and Heathrow Terminals/Reading due to an earlier faulty train at Hayes & Harlington. GOOD SERVICE on the rest of the line. Tickets are being accepted on London Underground, London Buses, Great Western Railway and South Western Railway services via any reasonable route.",
-      "severity": "Severe Delays",
-      "source_created": "0001-01-01T00:00:00"
-    },
-    "hammersmith-city:text:0b70e32bae6dc42f": {
-      "category": "signal failure",
-      "first_seen": "2026-10-20T10:22:55Z",
-      "issue_key": "hammersmith-city:text:0b70e32bae6dc42f",
-      "line_id": "hammersmith-city",
-      "line_name": "Hammersmith & City",
-      "reason": "Hammersmith and City Line: No service between Liverpool Street and Barking and SEVERE DELAYS on the rest of the line while we fix a signal failure at Mansion House. Tickets will be accepted on London buses, C2C, Elizabeth Line, DLR, and Mildmay Line.",
+      "reason": "District Line: No service between Tower Hill and Earl's Court and SEVERE DELAYS on the rest of the line while we fix a signal fault at Mansion House. Tickets will be accepted on London buses, C2C, Elizabeth Line, DLR, and Mildmay Line.",
       "severity": "Part Suspended",
       "source_created": "0001-01-01T00:00:00"
     },
-    "metropolitan:text:d7e3cbb9fc506b34": {
+    "hammersmith-city:text:24d84a20cd1a56b6": {
       "category": "signal failure",
-      "first_seen": "2026-10-20T10:22:55Z",
-      "issue_key": "metropolitan:text:d7e3cbb9fc506b34",
-      "line_id": "metropolitan",
-      "line_name": "Metropolitan",
-      "reason": "Metropolitan Line: Minor delays between Harrow-on-the-Hill and Uxbridge while we fix a signal failure at Rayners Lane. GOOD SERVICE on the rest of the line.",
-      "severity": "Minor Delays",
+      "first_seen": "2026-10-20T12:19:34Z",
+      "issue_key": "hammersmith-city:text:24d84a20cd1a56b6",
+      "line_id": "hammersmith-city",
+      "line_name": "Hammersmith & City",
+      "reason": "Hammersmith and City Line: No service between Paddington and Barking and SEVERE DELAYS on the rest of the line while we fix a signal failure at Mansion House. Tickets will be accepted on London buses, C2C, Elizabeth Line, DLR, and Mildmay Line.",
+      "severity": "Part Suspended",
       "source_created": "0001-01-01T00:00:00"
     },
     "tram:text:259ee1afa575c655": {
@@ -72,6 +52,54 @@
     }
   },
   "history": [
+    {
+      "category": "signal failure",
+      "duration_seconds": 6999,
+      "first_seen": "2026-10-20T10:22:55Z",
+      "issue_key": "district:text:eee19a09800376ba",
+      "line_id": "district",
+      "line_name": "District",
+      "reason": "District Line: Severe delays due to an earlier signal fault at Mansion House. Tickets will be accepted on London buses, C2C, Elizabeth Line, DLR, and Mildmay Line.",
+      "resolved_at": "2026-10-20T12:19:34Z",
+      "severity": "Severe Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "train fault",
+      "duration_seconds": 6999,
+      "first_seen": "2026-10-20T10:22:55Z",
+      "issue_key": "elizabeth:text:8f79264306dd1822",
+      "line_id": "elizabeth",
+      "line_name": "Elizabeth line",
+      "reason": "Severe delays between Paddington and Heathrow Terminals/Reading due to an earlier faulty train at Hayes & Harlington. GOOD SERVICE on the rest of the line. Tickets are being accepted on London Underground, London Buses, Great Western Railway and South Western Railway services via any reasonable route.",
+      "resolved_at": "2026-10-20T12:19:34Z",
+      "severity": "Severe Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "signal failure",
+      "duration_seconds": 6999,
+      "first_seen": "2026-10-20T10:22:55Z",
+      "issue_key": "hammersmith-city:text:0b70e32bae6dc42f",
+      "line_id": "hammersmith-city",
+      "line_name": "Hammersmith & City",
+      "reason": "Hammersmith and City Line: No service between Liverpool Street and Barking and SEVERE DELAYS on the rest of the line while we fix a signal failure at Mansion House. Tickets will be accepted on London buses, C2C, Elizabeth Line, DLR, and Mildmay Line.",
+      "resolved_at": "2026-10-20T12:19:34Z",
+      "severity": "Part Suspended",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "signal failure",
+      "duration_seconds": 6999,
+      "first_seen": "2026-10-20T10:22:55Z",
+      "issue_key": "metropolitan:text:d7e3cbb9fc506b34",
+      "line_id": "metropolitan",
+      "line_name": "Metropolitan",
+      "reason": "Metropolitan Line: Minor delays between Harrow-on-the-Hill and Uxbridge while we fix a signal failure at Rayners Lane. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-10-20T12:19:34Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
     {
       "category": "other",
       "duration_seconds": 13181,
@@ -25405,6 +25433,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-10-20T10:22:55Z",
+  "updated_at": "2026-10-20T12:19:34Z",
   "version": 1
 }
