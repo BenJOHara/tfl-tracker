@@ -1,23 +1,63 @@
 {
   "active": {
-    "district:text:aad91497cba276db": {
+    "central:text:6d0af7c9d44f714a": {
       "category": "other",
-      "first_seen": "2026-10-20T06:43:14Z",
-      "issue_key": "district:text:aad91497cba276db",
-      "line_id": "district",
-      "line_name": "District",
-      "reason": "District Line: Minor delays between Earl's Court and Wimbledon due to train cancellations. GOOD SERVICE on the rest of the line.",
+      "first_seen": "2026-10-20T10:22:55Z",
+      "issue_key": "central:text:6d0af7c9d44f714a",
+      "line_id": "central",
+      "line_name": "Central",
+      "reason": "Central Line: Minor delays due to train cancellations.",
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "elizabeth:text:68a58d729ed630cd": {
-      "category": "track fault",
-      "first_seen": "2026-10-20T07:34:48Z",
-      "issue_key": "elizabeth:text:68a58d729ed630cd",
+    "circle:text:6f30a80d288917d7": {
+      "category": "signal failure",
+      "first_seen": "2026-10-20T10:22:55Z",
+      "issue_key": "circle:text:6f30a80d288917d7",
+      "line_id": "circle",
+      "line_name": "Circle",
+      "reason": "Circle Line: No service clockwise only while we fix a signal failure at Mansion House. GOOD SERVICE anticlockwise. Tickets will be accepted on London buses, C2C, Elizabeth Line, DLR, and Mildmay Line.",
+      "severity": "Part Suspended",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "district:text:eee19a09800376ba": {
+      "category": "signal failure",
+      "first_seen": "2026-10-20T10:22:55Z",
+      "issue_key": "district:text:eee19a09800376ba",
+      "line_id": "district",
+      "line_name": "District",
+      "reason": "District Line: Severe delays due to an earlier signal fault at Mansion House. Tickets will be accepted on London buses, C2C, Elizabeth Line, DLR, and Mildmay Line.",
+      "severity": "Severe Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "elizabeth:text:8f79264306dd1822": {
+      "category": "train fault",
+      "first_seen": "2026-10-20T10:22:55Z",
+      "issue_key": "elizabeth:text:8f79264306dd1822",
       "line_id": "elizabeth",
       "line_name": "Elizabeth line",
-      "reason": "Severe delays between Paddington and Heathrow Terminals /Reading while we fix a track fault at Langley. GOOD SERVICE on the rest of the line.",
+      "reason": "Severe delays between Paddington and Heathrow Terminals/Reading due to an earlier faulty train at Hayes & Harlington. GOOD SERVICE on the rest of the line. Tickets are being accepted on London Underground, London Buses, Great Western Railway and South Western Railway services via any reasonable route.",
       "severity": "Severe Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "hammersmith-city:text:0b70e32bae6dc42f": {
+      "category": "signal failure",
+      "first_seen": "2026-10-20T10:22:55Z",
+      "issue_key": "hammersmith-city:text:0b70e32bae6dc42f",
+      "line_id": "hammersmith-city",
+      "line_name": "Hammersmith & City",
+      "reason": "Hammersmith and City Line: No service between Liverpool Street and Barking and SEVERE DELAYS on the rest of the line while we fix a signal failure at Mansion House. Tickets will be accepted on London buses, C2C, Elizabeth Line, DLR, and Mildmay Line.",
+      "severity": "Part Suspended",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "metropolitan:text:d7e3cbb9fc506b34": {
+      "category": "signal failure",
+      "first_seen": "2026-10-20T10:22:55Z",
+      "issue_key": "metropolitan:text:d7e3cbb9fc506b34",
+      "line_id": "metropolitan",
+      "line_name": "Metropolitan",
+      "reason": "Metropolitan Line: Minor delays between Harrow-on-the-Hill and Uxbridge while we fix a signal failure at Rayners Lane. GOOD SERVICE on the rest of the line.",
+      "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
     "tram:text:259ee1afa575c655": {
@@ -32,6 +72,30 @@
     }
   },
   "history": [
+    {
+      "category": "other",
+      "duration_seconds": 13181,
+      "first_seen": "2026-10-20T06:43:14Z",
+      "issue_key": "district:text:aad91497cba276db",
+      "line_id": "district",
+      "line_name": "District",
+      "reason": "District Line: Minor delays between Earl's Court and Wimbledon due to train cancellations. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-10-20T10:22:55Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "track fault",
+      "duration_seconds": 10087,
+      "first_seen": "2026-10-20T07:34:48Z",
+      "issue_key": "elizabeth:text:68a58d729ed630cd",
+      "line_id": "elizabeth",
+      "line_name": "Elizabeth line",
+      "reason": "Severe delays between Paddington and Heathrow Terminals /Reading while we fix a track fault at Langley. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-10-20T10:22:55Z",
+      "severity": "Severe Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
     {
       "category": "signal failure",
       "duration_seconds": 3094,
@@ -25341,6 +25405,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-10-20T07:34:48Z",
+  "updated_at": "2026-10-20T10:22:55Z",
   "version": 1
 }
