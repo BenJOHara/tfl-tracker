@@ -20,6 +20,16 @@
       "severity": "Severe Delays",
       "source_created": "0001-01-01T00:00:00"
     },
+    "elizabeth:text:e5e001e80b562a81": {
+      "category": "other",
+      "first_seen": "2026-10-20T22:36:11Z",
+      "issue_key": "elizabeth:text:e5e001e80b562a81",
+      "line_id": "elizabeth",
+      "line_name": "Elizabeth line",
+      "reason": "ELIZABETH LINE: Monday 19, Tuesday 20, Wednesday 21 and Thursday 22 October, the 2217 Abbey Wood to Reading train will terminate at Maidenhead. Customers travelling to Twyford and Reading should change at Maidenhead to the 2338 GWR service to Twyford and Reading. At Maidenhead, connecting westbound GWR trains to Twyford and Reading use Platform 1. For step-free interchange from platform 3 to platform 1, please use the lift to the main entrance, and then continue at street level under the railway bridge and up Shoppenhangers Road to the car park. Please ask staff to open the gate to platform 1, and allow extra time for your journey. The 2317 Reading to Paddington train is revised to start at Maidenhead at 2333, a later GWR service operates at 2350 from Reading to Paddington calling at Twyford, Reading and Slough",
+      "severity": "Reduced Service",
+      "source_created": "0001-01-01T00:00:00"
+    },
     "mildmay:text:068adb68c6cc1ed7": {
       "category": "points failure",
       "first_seen": "2026-10-20T20:41:49Z",
@@ -30,14 +40,14 @@
       "severity": "Part Suspended",
       "source_created": "0001-01-01T00:00:00"
     },
-    "piccadilly:text:c097921a0d520f8a": {
+    "piccadilly:text:fbe9b32b96851021": {
       "category": "other",
-      "first_seen": "2026-10-20T20:41:49Z",
-      "issue_key": "piccadilly:text:c097921a0d520f8a",
+      "first_seen": "2026-10-20T22:36:11Z",
+      "issue_key": "piccadilly:text:fbe9b32b96851021",
       "line_id": "piccadilly",
       "line_name": "Piccadilly",
-      "reason": "Piccadilly Line: Severe delays due to an earlier security alert. Tickets are being accepted on London Buses, Elizabeth line, Weaver Line, Great Northern and South Western Railway.",
-      "severity": "Severe Delays",
+      "reason": "Piccadilly Line: Severe delays between Acton Town and Uxbridge / Heathrow Terminals due to an earlier security alert. Tickets are being accepted on London Buses, Elizabeth line, Weaver Line, Great Northern and South Western Railway. MINOR DELAYS on the rest of the line.",
+      "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
     "tram:text:259ee1afa575c655": {
@@ -49,19 +59,33 @@
       "reason": "London Tramlink: No service between Arena and Elmers End all day due to a track fault at Lebanon Road. GOOD SERVICE on other tram routes.",
       "severity": "Part Suspended",
       "source_created": "0001-01-01T00:00:00"
-    },
-    "victoria:text:02e0850cdf11ef25": {
+    }
+  },
+  "history": [
+    {
       "category": "other",
+      "duration_seconds": 6862,
+      "first_seen": "2026-10-20T20:41:49Z",
+      "issue_key": "piccadilly:text:c097921a0d520f8a",
+      "line_id": "piccadilly",
+      "line_name": "Piccadilly",
+      "reason": "Piccadilly Line: Severe delays due to an earlier security alert. Tickets are being accepted on London Buses, Elizabeth line, Weaver Line, Great Northern and South Western Railway.",
+      "resolved_at": "2026-10-20T22:36:11Z",
+      "severity": "Severe Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "other",
+      "duration_seconds": 6862,
       "first_seen": "2026-10-20T20:41:49Z",
       "issue_key": "victoria:text:02e0850cdf11ef25",
       "line_id": "victoria",
       "line_name": "Victoria",
       "reason": "Victoria Line: Minor delays due to train cancellations.",
+      "resolved_at": "2026-10-20T22:36:11Z",
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
-    }
-  },
-  "history": [
+    },
     {
       "category": "signal failure",
       "duration_seconds": 14369,
@@ -25623,6 +25647,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-10-20T21:19:44Z",
+  "updated_at": "2026-10-20T22:36:11Z",
   "version": 1
 }
