@@ -1,5 +1,15 @@
 {
   "active": {
+    "bakerloo:text:e624ce9efb545e7d": {
+      "category": "track fault",
+      "first_seen": "2026-10-21T16:08:10Z",
+      "issue_key": "bakerloo:text:e624ce9efb545e7d",
+      "line_id": "bakerloo",
+      "line_name": "Bakerloo",
+      "reason": "Bakerloo Line: No service between Harrow & Wealdstone and Stonebridge Park while we fix a track fault at Kenton. Tickets are being accepted on London Buses and the Lioness line. GOOD SERVICE on the rest of the line.",
+      "severity": "Part Suspended",
+      "source_created": "0001-01-01T00:00:00"
+    },
     "central:text:6d0af7c9d44f714a": {
       "category": "other",
       "first_seen": "2026-10-21T14:40:46Z",
@@ -7,6 +17,26 @@
       "line_id": "central",
       "line_name": "Central",
       "reason": "Central Line: Minor delays due to train cancellations.",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "jubilee:text:c91ff8ec6af6325f": {
+      "category": "fire alert",
+      "first_seen": "2026-10-21T16:08:10Z",
+      "issue_key": "jubilee:text:c91ff8ec6af6325f",
+      "line_id": "jubilee",
+      "line_name": "Jubilee",
+      "reason": "Jubilee Line: Severe delays due to an earlier fire alert in the London Bridge area. Tickets will be accepted on London Buses. Mildmay line, DLR, Elizabeth line, C2C, and Thameslink services via any reasonable route.",
+      "severity": "Severe Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "mildmay:text:aebb89b2d809f842": {
+      "category": "train fault",
+      "first_seen": "2026-10-21T16:08:10Z",
+      "issue_key": "mildmay:text:aebb89b2d809f842",
+      "line_id": "mildmay",
+      "line_name": "Mildmay",
+      "reason": "Mildmay Line: Minor delays due to an earlier faulty train at Highbury & Islington.",
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
@@ -26085,6 +26115,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-10-21T14:40:46Z",
+  "updated_at": "2026-10-21T16:08:10Z",
   "version": 1
 }
