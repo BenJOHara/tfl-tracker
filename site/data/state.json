@@ -10,14 +10,14 @@
       "severity": "Severe Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "district:text:df4f2b0789d38aad": {
+    "district:text:98ced896920dd42c": {
       "category": "signal failure",
-      "first_seen": "2026-10-20T23:23:35Z",
-      "issue_key": "district:text:df4f2b0789d38aad",
+      "first_seen": "2026-10-21T00:01:36Z",
+      "issue_key": "district:text:98ced896920dd42c",
       "line_id": "district",
       "line_name": "District",
-      "reason": "District Line: Severe delays between Tower Hill and Upminster eastbound only, MINOR DELAYS between Tower Hill and Ealing Broadway / Richmond / Wimbledon due to an earlier signal fault at Mansion House. Tickets will be accepted on London buses, C2C, Elizabeth Line, DLR, South Western Railway and Mildmay Line. GOOD SERVICE on the rest of the line.",
-      "severity": "Severe Delays",
+      "reason": "District Line: Minor delays between Tower Hill and Upminster eastbound only due to an earlier signal fault at Mansion House. GOOD SERVICE on the rest of the line.",
+      "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
     "mildmay:text:068adb68c6cc1ed7": {
@@ -30,13 +30,13 @@
       "severity": "Part Suspended",
       "source_created": "0001-01-01T00:00:00"
     },
-    "piccadilly:text:9c538a4baa794c11": {
+    "piccadilly:text:8331c0e38b0b8108": {
       "category": "other",
-      "first_seen": "2026-10-20T23:23:35Z",
-      "issue_key": "piccadilly:text:9c538a4baa794c11",
+      "first_seen": "2026-10-21T00:01:36Z",
+      "issue_key": "piccadilly:text:8331c0e38b0b8108",
       "line_id": "piccadilly",
       "line_name": "Piccadilly",
-      "reason": "Piccadilly Line: Minor delays due to an earlier security alert.",
+      "reason": "Piccadilly Line: Minor delays between Acton Town and Rayners Lane eastbound only due to an earlier security alert. GOOD SERVICE on the rest of the line.",
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
@@ -49,9 +49,43 @@
       "reason": "London Tramlink: No service between Arena and Elmers End all day due to a track fault at Lebanon Road. GOOD SERVICE on other tram routes.",
       "severity": "Part Suspended",
       "source_created": "0001-01-01T00:00:00"
+    },
+    "waterloo-city:text:0faebd0ea99ebd1b": {
+      "category": "other",
+      "first_seen": "2026-10-21T00:01:36Z",
+      "issue_key": "waterloo-city:text:0faebd0ea99ebd1b",
+      "line_id": "waterloo-city",
+      "line_name": "Waterloo & City",
+      "reason": "Waterloo and City Line: Service will resume at 06:00.",
+      "severity": "Service Closed",
+      "source_created": "0001-01-01T00:00:00"
     }
   },
   "history": [
+    {
+      "category": "signal failure",
+      "duration_seconds": 2281,
+      "first_seen": "2026-10-20T23:23:35Z",
+      "issue_key": "district:text:df4f2b0789d38aad",
+      "line_id": "district",
+      "line_name": "District",
+      "reason": "District Line: Severe delays between Tower Hill and Upminster eastbound only, MINOR DELAYS between Tower Hill and Ealing Broadway / Richmond / Wimbledon due to an earlier signal fault at Mansion House. Tickets will be accepted on London buses, C2C, Elizabeth Line, DLR, South Western Railway and Mildmay Line. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-10-21T00:01:36Z",
+      "severity": "Severe Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "other",
+      "duration_seconds": 2281,
+      "first_seen": "2026-10-20T23:23:35Z",
+      "issue_key": "piccadilly:text:9c538a4baa794c11",
+      "line_id": "piccadilly",
+      "line_name": "Piccadilly",
+      "reason": "Piccadilly Line: Minor delays due to an earlier security alert.",
+      "resolved_at": "2026-10-21T00:01:36Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
     {
       "category": "signal failure",
       "duration_seconds": 7431,
@@ -25673,6 +25707,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-10-20T23:23:35Z",
+  "updated_at": "2026-10-21T00:01:36Z",
   "version": 1
 }
