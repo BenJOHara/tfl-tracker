@@ -1,15 +1,5 @@
 {
   "active": {
-    "bakerloo:text:2998b727ba5a5aa3": {
-      "category": "track fault",
-      "first_seen": "2026-10-21T20:14:16Z",
-      "issue_key": "bakerloo:text:2998b727ba5a5aa3",
-      "line_id": "bakerloo",
-      "line_name": "Bakerloo",
-      "reason": "Bakerloo Line: Severe delays between Harrow & Wealdstone and Stonebridge Park due to an earlier track fault at Kenton. GOOD SERVICE on the rest of the line. Tickets are being accepted on London Buses and the Lioness line.",
-      "severity": "Severe Delays",
-      "source_created": "0001-01-01T00:00:00"
-    },
     "central:text:918a42b44b2b0fa2": {
       "category": "other",
       "first_seen": "2026-10-21T17:22:41Z",
@@ -20,14 +10,14 @@
       "severity": "Severe Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "elizabeth:text:bce811e9cd925533": {
+    "elizabeth:text:99060657fae3bd25": {
       "category": "other",
-      "first_seen": "2026-10-21T20:14:16Z",
-      "issue_key": "elizabeth:text:bce811e9cd925533",
+      "first_seen": "2026-10-21T20:42:44Z",
+      "issue_key": "elizabeth:text:99060657fae3bd25",
       "line_id": "elizabeth",
       "line_name": "Elizabeth line",
-      "reason": "Severe delays between Whitechapel and Shenfield due to an earlier signal system failure at Ilford. GOOD SERVICE on the rest of the line. Tickets will be accepted on Liberty Line, London Buses Greater Anglia, London Overground and C2C services via any reasonable route.",
-      "severity": "Severe Delays",
+      "reason": "Minor delays between Whitechapel and Shenfield due to an earlier signal system failure at Ilford. GOOD SERVICE on the rest of the line.",
+      "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
     "jubilee:text:517ca09c31355946": {
@@ -62,6 +52,30 @@
     }
   },
   "history": [
+    {
+      "category": "track fault",
+      "duration_seconds": 1708,
+      "first_seen": "2026-10-21T20:14:16Z",
+      "issue_key": "bakerloo:text:2998b727ba5a5aa3",
+      "line_id": "bakerloo",
+      "line_name": "Bakerloo",
+      "reason": "Bakerloo Line: Severe delays between Harrow & Wealdstone and Stonebridge Park due to an earlier track fault at Kenton. GOOD SERVICE on the rest of the line. Tickets are being accepted on London Buses and the Lioness line.",
+      "resolved_at": "2026-10-21T20:42:44Z",
+      "severity": "Severe Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "other",
+      "duration_seconds": 1708,
+      "first_seen": "2026-10-21T20:14:16Z",
+      "issue_key": "elizabeth:text:bce811e9cd925533",
+      "line_id": "elizabeth",
+      "line_name": "Elizabeth line",
+      "reason": "Severe delays between Whitechapel and Shenfield due to an earlier signal system failure at Ilford. GOOD SERVICE on the rest of the line. Tickets will be accepted on Liberty Line, London Buses Greater Anglia, London Overground and C2C services via any reasonable route.",
+      "resolved_at": "2026-10-21T20:42:44Z",
+      "severity": "Severe Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
     {
       "category": "track fault",
       "duration_seconds": 14766,
@@ -26175,6 +26189,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-10-21T20:14:16Z",
+  "updated_at": "2026-10-21T20:42:44Z",
   "version": 1
 }
