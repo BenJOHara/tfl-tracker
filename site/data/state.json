@@ -20,14 +20,24 @@
       "severity": "Severe Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "jubilee:text:c91ff8ec6af6325f": {
+    "elizabeth:text:4c731ab3b18ba417": {
+      "category": "other",
+      "first_seen": "2026-10-21T18:56:42Z",
+      "issue_key": "elizabeth:text:4c731ab3b18ba417",
+      "line_id": "elizabeth",
+      "line_name": "Elizabeth line",
+      "reason": "Severe delays between Whitechapel and Shenfield while we fix a signal system failure at Ilford. GOOD SERVICE on the rest of the line. Tickets will be accepted on Liberty Line, London Buses Greater Anglia, London Overground and C2C services via any reasonable route.",
+      "severity": "Severe Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "jubilee:text:517ca09c31355946": {
       "category": "fire alert",
-      "first_seen": "2026-10-21T16:08:10Z",
-      "issue_key": "jubilee:text:c91ff8ec6af6325f",
+      "first_seen": "2026-10-21T18:56:42Z",
+      "issue_key": "jubilee:text:517ca09c31355946",
       "line_id": "jubilee",
       "line_name": "Jubilee",
-      "reason": "Jubilee Line: Severe delays due to an earlier fire alert in the London Bridge area. Tickets will be accepted on London Buses, Mildmay line, DLR, Elizabeth line, C2C, and Thameslink services via any reasonable route.",
-      "severity": "Severe Delays",
+      "reason": "Jubilee Line: Minor delays due to an earlier fire alert in the London Bridge area.",
+      "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
     "mildmay:text:aebb89b2d809f842": {
@@ -36,8 +46,8 @@
       "issue_key": "mildmay:text:aebb89b2d809f842",
       "line_id": "mildmay",
       "line_name": "Mildmay",
-      "reason": "Mildmay Line: Severe delays due to an earlier faulty train at Highbury & Islington.",
-      "severity": "Severe Delays",
+      "reason": "Mildmay Line: Minor delays due to an earlier faulty train at Highbury & Islington.",
+      "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
     "tram:text:4813601950765480": {
@@ -62,6 +72,18 @@
     }
   },
   "history": [
+    {
+      "category": "fire alert",
+      "duration_seconds": 10112,
+      "first_seen": "2026-10-21T16:08:10Z",
+      "issue_key": "jubilee:text:c91ff8ec6af6325f",
+      "line_id": "jubilee",
+      "line_name": "Jubilee",
+      "reason": "Jubilee Line: Severe delays due to an earlier fire alert in the London Bridge area. Tickets will be accepted on London Buses, Mildmay line, DLR, Elizabeth line, C2C, and Thameslink services via any reasonable route.",
+      "resolved_at": "2026-10-21T18:56:42Z",
+      "severity": "Severe Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
     {
       "category": "other",
       "duration_seconds": 9715,
@@ -26127,6 +26149,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-10-21T17:22:41Z",
+  "updated_at": "2026-10-21T18:56:42Z",
   "version": 1
 }
