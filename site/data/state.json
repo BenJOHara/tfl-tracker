@@ -1,13 +1,13 @@
 {
   "active": {
-    "metropolitan:text:57a432b0b70fda64": {
+    "central:text:6d0af7c9d44f714a": {
       "category": "other",
-      "first_seen": "2026-10-21T12:20:09Z",
-      "issue_key": "metropolitan:text:57a432b0b70fda64",
-      "line_id": "metropolitan",
-      "line_name": "Metropolitan",
-      "reason": "Metropolitan Line: Severe delays between Rickmansworth and Amersham/Chesham due to an earlier obstruction on the track at Chalfont & Latimer. London Buses are accepting tickets via any reasonable route. GOOD SERVICE on the rest of the line.",
-      "severity": "Severe Delays",
+      "first_seen": "2026-10-21T14:40:46Z",
+      "issue_key": "central:text:6d0af7c9d44f714a",
+      "line_id": "central",
+      "line_name": "Central",
+      "reason": "Central Line: Minor delays due to train cancellations.",
+      "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
     "tram:text:4813601950765480": {
@@ -32,6 +32,18 @@
     }
   },
   "history": [
+    {
+      "category": "other",
+      "duration_seconds": 8437,
+      "first_seen": "2026-10-21T12:20:09Z",
+      "issue_key": "metropolitan:text:57a432b0b70fda64",
+      "line_id": "metropolitan",
+      "line_name": "Metropolitan",
+      "reason": "Metropolitan Line: Severe delays between Rickmansworth and Amersham/Chesham due to an earlier obstruction on the track at Chalfont & Latimer. London Buses are accepting tickets via any reasonable route. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-10-21T14:40:46Z",
+      "severity": "Severe Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
     {
       "category": "other",
       "duration_seconds": 2436,
@@ -26073,6 +26085,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-10-21T12:20:09Z",
+  "updated_at": "2026-10-21T14:40:46Z",
   "version": 1
 }
