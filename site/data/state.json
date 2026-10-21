@@ -10,26 +10,6 @@
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "elizabeth:text:26e1475a4c5d1969": {
-      "category": "person on track",
-      "first_seen": "2026-10-21T22:09:16Z",
-      "issue_key": "elizabeth:text:26e1475a4c5d1969",
-      "line_id": "elizabeth",
-      "line_name": "Elizabeth line",
-      "reason": "Minor delays between Maidenhead and Reading due to an earlier trespasser on the track at Reading. GOOD SERVICE on the rest of the line.",
-      "severity": "Minor Delays",
-      "source_created": "0001-01-01T00:00:00"
-    },
-    "elizabeth:text:e5e001e80b562a81": {
-      "category": "other",
-      "first_seen": "2026-10-21T22:09:16Z",
-      "issue_key": "elizabeth:text:e5e001e80b562a81",
-      "line_id": "elizabeth",
-      "line_name": "Elizabeth line",
-      "reason": "ELIZABETH LINE: Monday 19, Tuesday 20, Wednesday 21 and Thursday 22 October, the 2217 Abbey Wood to Reading train will terminate at Maidenhead. Customers travelling to Twyford and Reading should change at Maidenhead to the 2338 GWR service to Twyford and Reading. At Maidenhead, connecting westbound GWR trains to Twyford and Reading use Platform 1. For step-free interchange from platform 3 to platform 1, please use the lift to the main entrance, and then continue at street level under the railway bridge and up Shoppenhangers Road to the car park. Please ask staff to open the gate to platform 1, and allow extra time for your journey. The 2317 Reading to Paddington train is revised to start at Maidenhead at 2333, a later GWR service operates at 2350 from Reading to Paddington calling at Twyford, Reading and Slough",
-      "severity": "Reduced Service",
-      "source_created": "0001-01-01T00:00:00"
-    },
     "jubilee:text:517ca09c31355946": {
       "category": "fire alert",
       "first_seen": "2026-10-21T18:56:42Z",
@@ -37,16 +17,6 @@
       "line_id": "jubilee",
       "line_name": "Jubilee",
       "reason": "Jubilee Line: Minor delays due to an earlier fire alert in the London Bridge area.",
-      "severity": "Minor Delays",
-      "source_created": "0001-01-01T00:00:00"
-    },
-    "metropolitan:text:2df4e90708614385": {
-      "category": "other",
-      "first_seen": "2026-10-21T22:09:16Z",
-      "issue_key": "metropolitan:text:2df4e90708614385",
-      "line_id": "metropolitan",
-      "line_name": "Metropolitan",
-      "reason": "Metropolitan Line: Minor delays between Moor Park and Watford due to train cancellations. GOOD SERVICE on the rest of the line.",
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
@@ -59,19 +29,57 @@
       "reason": "London Tramlink: No service between Arena and Elmers End due to a track fault at Lebanon Road. GOOD SERVICE on other Tram routes.",
       "severity": "Part Suspended",
       "source_created": "0001-01-01T00:00:00"
+    }
+  },
+  "history": [
+    {
+      "category": "person on track",
+      "duration_seconds": 4672,
+      "first_seen": "2026-10-21T22:09:16Z",
+      "issue_key": "elizabeth:text:26e1475a4c5d1969",
+      "line_id": "elizabeth",
+      "line_name": "Elizabeth line",
+      "reason": "Minor delays between Maidenhead and Reading due to an earlier trespasser on the track at Reading. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-10-21T23:27:08Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
     },
-    "victoria:text:02e0850cdf11ef25": {
+    {
       "category": "other",
+      "duration_seconds": 4672,
+      "first_seen": "2026-10-21T22:09:16Z",
+      "issue_key": "elizabeth:text:e5e001e80b562a81",
+      "line_id": "elizabeth",
+      "line_name": "Elizabeth line",
+      "reason": "ELIZABETH LINE: Monday 19, Tuesday 20, Wednesday 21 and Thursday 22 October, the 2217 Abbey Wood to Reading train will terminate at Maidenhead. Customers travelling to Twyford and Reading should change at Maidenhead to the 2338 GWR service to Twyford and Reading. At Maidenhead, connecting westbound GWR trains to Twyford and Reading use Platform 1. For step-free interchange from platform 3 to platform 1, please use the lift to the main entrance, and then continue at street level under the railway bridge and up Shoppenhangers Road to the car park. Please ask staff to open the gate to platform 1, and allow extra time for your journey. The 2317 Reading to Paddington train is revised to start at Maidenhead at 2333, a later GWR service operates at 2350 from Reading to Paddington calling at Twyford, Reading and Slough",
+      "resolved_at": "2026-10-21T23:27:08Z",
+      "severity": "Reduced Service",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "other",
+      "duration_seconds": 4672,
+      "first_seen": "2026-10-21T22:09:16Z",
+      "issue_key": "metropolitan:text:2df4e90708614385",
+      "line_id": "metropolitan",
+      "line_name": "Metropolitan",
+      "reason": "Metropolitan Line: Minor delays between Moor Park and Watford due to train cancellations. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-10-21T23:27:08Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "other",
+      "duration_seconds": 42455,
       "first_seen": "2026-10-21T11:39:33Z",
       "issue_key": "victoria:text:02e0850cdf11ef25",
       "line_id": "victoria",
       "line_name": "Victoria",
       "reason": "Victoria Line: Minor delays due to train cancellations.",
+      "resolved_at": "2026-10-21T23:27:08Z",
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
-    }
-  },
-  "history": [
+    },
     {
       "category": "other",
       "duration_seconds": 17195,
@@ -26233,6 +26241,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-10-21T22:09:16Z",
+  "updated_at": "2026-10-21T23:27:08Z",
   "version": 1
 }
