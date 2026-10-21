@@ -1,13 +1,13 @@
 {
   "active": {
-    "central:text:6d0af7c9d44f714a": {
+    "metropolitan:text:886b999cf5680916": {
       "category": "other",
-      "first_seen": "2026-10-21T09:32:16Z",
-      "issue_key": "central:text:6d0af7c9d44f714a",
-      "line_id": "central",
-      "line_name": "Central",
-      "reason": "Central Line: Minor delays due to train cancellations.",
-      "severity": "Minor Delays",
+      "first_seen": "2026-10-21T11:39:33Z",
+      "issue_key": "metropolitan:text:886b999cf5680916",
+      "line_id": "metropolitan",
+      "line_name": "Metropolitan",
+      "reason": "Metropolitan Line: No service between Rickmansworth and Amersham/Chesham while we remove an obstruction from the track at Chalfont & Latimer. London Buses are accepting tickets via any reasonable route. GOOD SERVICE on the rest of the line.",
+      "severity": "Part Suspended",
       "source_created": "0001-01-01T00:00:00"
     },
     "tram:text:4813601950765480": {
@@ -19,9 +19,31 @@
       "reason": "London Tramlink: No service between Arena and Elmers End due to a track fault at Lebanon Road. GOOD SERVICE on other Tram routes.",
       "severity": "Part Suspended",
       "source_created": "0001-01-01T00:00:00"
+    },
+    "victoria:text:02e0850cdf11ef25": {
+      "category": "other",
+      "first_seen": "2026-10-21T11:39:33Z",
+      "issue_key": "victoria:text:02e0850cdf11ef25",
+      "line_id": "victoria",
+      "line_name": "Victoria",
+      "reason": "Victoria Line: Minor delays due to train cancellations.",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
     }
   },
   "history": [
+    {
+      "category": "other",
+      "duration_seconds": 7637,
+      "first_seen": "2026-10-21T09:32:16Z",
+      "issue_key": "central:text:6d0af7c9d44f714a",
+      "line_id": "central",
+      "line_name": "Central",
+      "reason": "Central Line: Minor delays due to train cancellations.",
+      "resolved_at": "2026-10-21T11:39:33Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
     {
       "category": "other",
       "duration_seconds": 10415,
@@ -26039,6 +26061,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-10-21T09:32:16Z",
+  "updated_at": "2026-10-21T11:39:33Z",
   "version": 1
 }
