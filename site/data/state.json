@@ -1,32 +1,22 @@
 {
   "active": {
-    "district:text:e5db1f8c71731fd6": {
-      "category": "train fault",
-      "first_seen": "2026-10-21T05:57:28Z",
-      "issue_key": "district:text:e5db1f8c71731fd6",
+    "district:text:e979a4f24eb95500": {
+      "category": "other",
+      "first_seen": "2026-10-21T06:38:41Z",
+      "issue_key": "district:text:e979a4f24eb95500",
       "line_id": "district",
       "line_name": "District",
-      "reason": "District Line: Severe delays between Earl's Court and Tower Hill westbound only due to an earlier faulty train at Plaistow. GOOD SERVICE on the rest of the line.",
-      "severity": "Severe Delays",
+      "reason": "District Line: Minor delays between Earl's Court and Ealing Broadway/Richmond westbound only due to train cancellations. GOOD SERVICE on the rest of the line.",
+      "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "mildmay:text:0d406189c5dbb203": {
+    "mildmay:text:ab76f8967fb02492": {
       "category": "other",
-      "first_seen": "2026-10-21T05:57:28Z",
-      "issue_key": "mildmay:text:0d406189c5dbb203",
+      "first_seen": "2026-10-21T06:38:41Z",
+      "issue_key": "mildmay:text:ab76f8967fb02492",
       "line_id": "mildmay",
       "line_name": "Mildmay",
-      "reason": "Mildmay Line: Severe delays while we fix a signal system failure at Willesden Junction. London Underground are accepting tickets via any reasonable route.",
-      "severity": "Severe Delays",
-      "source_created": "0001-01-01T00:00:00"
-    },
-    "piccadilly:text:ac1d8a4e37ad73cb": {
-      "category": "points failure",
-      "first_seen": "2026-10-21T05:57:28Z",
-      "issue_key": "piccadilly:text:ac1d8a4e37ad73cb",
-      "line_id": "piccadilly",
-      "line_name": "Piccadilly",
-      "reason": "Piccadilly Line: Minor delays between Acton Town and Rayners Lane due to an earlier points failure at Northfields. GOOD SERVICE on the rest of the line.",
+      "reason": "Mildmay Line: Minor delays due to an earlier signal system failure at Willesden Junction.",
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
@@ -42,6 +32,42 @@
     }
   },
   "history": [
+    {
+      "category": "train fault",
+      "duration_seconds": 2473,
+      "first_seen": "2026-10-21T05:57:28Z",
+      "issue_key": "district:text:e5db1f8c71731fd6",
+      "line_id": "district",
+      "line_name": "District",
+      "reason": "District Line: Severe delays between Earl's Court and Tower Hill westbound only due to an earlier faulty train at Plaistow. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-10-21T06:38:41Z",
+      "severity": "Severe Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "other",
+      "duration_seconds": 2473,
+      "first_seen": "2026-10-21T05:57:28Z",
+      "issue_key": "mildmay:text:0d406189c5dbb203",
+      "line_id": "mildmay",
+      "line_name": "Mildmay",
+      "reason": "Mildmay Line: Severe delays while we fix a signal system failure at Willesden Junction. London Underground are accepting tickets via any reasonable route.",
+      "resolved_at": "2026-10-21T06:38:41Z",
+      "severity": "Severe Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "points failure",
+      "duration_seconds": 2473,
+      "first_seen": "2026-10-21T05:57:28Z",
+      "issue_key": "piccadilly:text:ac1d8a4e37ad73cb",
+      "line_id": "piccadilly",
+      "line_name": "Piccadilly",
+      "reason": "Piccadilly Line: Minor delays between Acton Town and Rayners Lane due to an earlier points failure at Northfields. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-10-21T06:38:41Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
     {
       "category": "other",
       "duration_seconds": 5219,
@@ -25999,6 +26025,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-10-21T05:57:28Z",
+  "updated_at": "2026-10-21T06:38:41Z",
   "version": 1
 }
