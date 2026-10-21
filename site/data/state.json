@@ -10,14 +10,14 @@
       "severity": "Part Suspended",
       "source_created": "0001-01-01T00:00:00"
     },
-    "central:text:6d0af7c9d44f714a": {
+    "central:text:918a42b44b2b0fa2": {
       "category": "other",
-      "first_seen": "2026-10-21T14:40:46Z",
-      "issue_key": "central:text:6d0af7c9d44f714a",
+      "first_seen": "2026-10-21T17:22:41Z",
+      "issue_key": "central:text:918a42b44b2b0fa2",
       "line_id": "central",
       "line_name": "Central",
-      "reason": "Central Line: Minor delays due to train cancellations.",
-      "severity": "Minor Delays",
+      "reason": "Central Line: Severe delays due to train cancellations. Tickets will be accepted on London Buses, liberty line, Elizabeth line, Chiltern railways, Great Western railway and Great Anglia services via any reasonable route.",
+      "severity": "Severe Delays",
       "source_created": "0001-01-01T00:00:00"
     },
     "jubilee:text:c91ff8ec6af6325f": {
@@ -26,7 +26,7 @@
       "issue_key": "jubilee:text:c91ff8ec6af6325f",
       "line_id": "jubilee",
       "line_name": "Jubilee",
-      "reason": "Jubilee Line: Severe delays due to an earlier fire alert in the London Bridge area. Tickets will be accepted on London Buses. Mildmay line, DLR, Elizabeth line, C2C, and Thameslink services via any reasonable route.",
+      "reason": "Jubilee Line: Severe delays due to an earlier fire alert in the London Bridge area. Tickets will be accepted on London Buses, Mildmay line, DLR, Elizabeth line, C2C, and Thameslink services via any reasonable route.",
       "severity": "Severe Delays",
       "source_created": "0001-01-01T00:00:00"
     },
@@ -36,8 +36,8 @@
       "issue_key": "mildmay:text:aebb89b2d809f842",
       "line_id": "mildmay",
       "line_name": "Mildmay",
-      "reason": "Mildmay Line: Minor delays due to an earlier faulty train at Highbury & Islington.",
-      "severity": "Minor Delays",
+      "reason": "Mildmay Line: Severe delays due to an earlier faulty train at Highbury & Islington.",
+      "severity": "Severe Delays",
       "source_created": "0001-01-01T00:00:00"
     },
     "tram:text:4813601950765480": {
@@ -62,6 +62,18 @@
     }
   },
   "history": [
+    {
+      "category": "other",
+      "duration_seconds": 9715,
+      "first_seen": "2026-10-21T14:40:46Z",
+      "issue_key": "central:text:6d0af7c9d44f714a",
+      "line_id": "central",
+      "line_name": "Central",
+      "reason": "Central Line: Minor delays due to train cancellations.",
+      "resolved_at": "2026-10-21T17:22:41Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
     {
       "category": "other",
       "duration_seconds": 8437,
@@ -26115,6 +26127,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-10-21T16:08:10Z",
+  "updated_at": "2026-10-21T17:22:41Z",
   "version": 1
 }
