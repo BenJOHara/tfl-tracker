@@ -1,13 +1,13 @@
 {
   "active": {
-    "metropolitan:text:886b999cf5680916": {
+    "metropolitan:text:57a432b0b70fda64": {
       "category": "other",
-      "first_seen": "2026-10-21T11:39:33Z",
-      "issue_key": "metropolitan:text:886b999cf5680916",
+      "first_seen": "2026-10-21T12:20:09Z",
+      "issue_key": "metropolitan:text:57a432b0b70fda64",
       "line_id": "metropolitan",
       "line_name": "Metropolitan",
-      "reason": "Metropolitan Line: No service between Rickmansworth and Amersham/Chesham while we remove an obstruction from the track at Chalfont & Latimer. London Buses are accepting tickets via any reasonable route. GOOD SERVICE on the rest of the line.",
-      "severity": "Part Suspended",
+      "reason": "Metropolitan Line: Severe delays between Rickmansworth and Amersham/Chesham due to an earlier obstruction on the track at Chalfont & Latimer. London Buses are accepting tickets via any reasonable route. GOOD SERVICE on the rest of the line.",
+      "severity": "Severe Delays",
       "source_created": "0001-01-01T00:00:00"
     },
     "tram:text:4813601950765480": {
@@ -32,6 +32,18 @@
     }
   },
   "history": [
+    {
+      "category": "other",
+      "duration_seconds": 2436,
+      "first_seen": "2026-10-21T11:39:33Z",
+      "issue_key": "metropolitan:text:886b999cf5680916",
+      "line_id": "metropolitan",
+      "line_name": "Metropolitan",
+      "reason": "Metropolitan Line: No service between Rickmansworth and Amersham/Chesham while we remove an obstruction from the track at Chalfont & Latimer. London Buses are accepting tickets via any reasonable route. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-10-21T12:20:09Z",
+      "severity": "Part Suspended",
+      "source_created": "0001-01-01T00:00:00"
+    },
     {
       "category": "other",
       "duration_seconds": 7637,
@@ -26061,6 +26073,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-10-21T11:39:33Z",
+  "updated_at": "2026-10-21T12:20:09Z",
   "version": 1
 }
