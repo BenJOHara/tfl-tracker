@@ -1,23 +1,23 @@
 {
   "active": {
-    "bakerloo:text:d3320b7e5af05f75": {
+    "bakerloo:text:506882b9e2994513": {
       "category": "passenger incident",
-      "first_seen": "2026-10-22T12:31:35Z",
-      "issue_key": "bakerloo:text:d3320b7e5af05f75",
+      "first_seen": "2026-10-22T13:10:11Z",
+      "issue_key": "bakerloo:text:506882b9e2994513",
       "line_id": "bakerloo",
       "line_name": "Bakerloo",
-      "reason": "Bakerloo Line: No service northbound only and MINOR DELAYS on the rest of the line due to a customer incident at Kilburn Park.",
+      "reason": "Bakerloo Line: Minor delays due to an earlier customer incident at Maida Vale.",
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "piccadilly:text:17c14d771a6ca947": {
+    "piccadilly:text:47ef17391724d363": {
       "category": "signal failure",
-      "first_seen": "2026-10-22T12:31:35Z",
-      "issue_key": "piccadilly:text:17c14d771a6ca947",
+      "first_seen": "2026-10-22T13:10:11Z",
+      "issue_key": "piccadilly:text:47ef17391724d363",
       "line_id": "piccadilly",
       "line_name": "Piccadilly",
-      "reason": "Piccadilly Line: Minor delays between Acton Town and Cockfosters eastbound only while we fix a signal failure at Leicester Square. GOOD SERVICE on the rest of the line.",
-      "severity": "Minor Delays",
+      "reason": "Piccadilly Line: Severe delays while we fix signal failure at Leicester Square. Tickets are being accepted on London Buses, Elizabeth Line, Great Northern and Weaver line via any reasonable route.",
+      "severity": "Severe Delays",
       "source_created": "0001-01-01T00:00:00"
     },
     "tram:text:259ee1afa575c655": {
@@ -32,6 +32,30 @@
     }
   },
   "history": [
+    {
+      "category": "passenger incident",
+      "duration_seconds": 2316,
+      "first_seen": "2026-10-22T12:31:35Z",
+      "issue_key": "bakerloo:text:d3320b7e5af05f75",
+      "line_id": "bakerloo",
+      "line_name": "Bakerloo",
+      "reason": "Bakerloo Line: No service northbound only and MINOR DELAYS on the rest of the line due to a customer incident at Kilburn Park.",
+      "resolved_at": "2026-10-22T13:10:11Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "signal failure",
+      "duration_seconds": 2316,
+      "first_seen": "2026-10-22T12:31:35Z",
+      "issue_key": "piccadilly:text:17c14d771a6ca947",
+      "line_id": "piccadilly",
+      "line_name": "Piccadilly",
+      "reason": "Piccadilly Line: Minor delays between Acton Town and Cockfosters eastbound only while we fix a signal failure at Leicester Square. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-10-22T13:10:11Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
     {
       "category": "other",
       "duration_seconds": 10675,
@@ -26565,6 +26589,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-10-22T12:31:35Z",
+  "updated_at": "2026-10-22T13:10:11Z",
   "version": 1
 }
