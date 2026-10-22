@@ -1,23 +1,23 @@
 {
   "active": {
-    "elizabeth:text:49a6f75e6c854ed4": {
+    "elizabeth:text:b7056b62a25dd96b": {
       "category": "passenger incident",
-      "first_seen": "2026-10-22T17:57:06Z",
-      "issue_key": "elizabeth:text:49a6f75e6c854ed4",
+      "first_seen": "2026-10-22T19:22:22Z",
+      "issue_key": "elizabeth:text:b7056b62a25dd96b",
       "line_id": "elizabeth",
       "line_name": "Elizabeth line",
-      "reason": "Minor delays between Paddington and Abbey Wood while we deal with a customer incident. GOOD SERVICE on the rest of the line.",
-      "severity": "Minor Delays",
+      "reason": "Severe delays between Abbey Wood and Reading/Heathrow Airport and MINOR DELAYS between Whitechapel and Shenfield due to an earlier customer incident. Tickets will be accepted on London Underground, London Buses, DLR, Thameslink, Great Western Railways and Southeastern services via any reasonable route.",
+      "severity": "Severe Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "piccadilly:text:d2784f5f3f2ce224": {
+    "piccadilly:text:06b3664c44689772": {
       "category": "signal failure",
-      "first_seen": "2026-10-22T17:35:00Z",
-      "issue_key": "piccadilly:text:d2784f5f3f2ce224",
+      "first_seen": "2026-10-22T19:22:22Z",
+      "issue_key": "piccadilly:text:06b3664c44689772",
       "line_id": "piccadilly",
       "line_name": "Piccadilly",
-      "reason": "Piccadilly Line: Severe delays while we fix a signal failure in the Leicester Square area. Tickets are being accepted on London buses, Elizabeth line, Great Northern and Weaver line via any reasonable route.",
-      "severity": "Severe Delays",
+      "reason": "Piccadilly Line: No service between Hammersmith and King's Cross St. Pancras Eastbound only and SEVERE DELAYS on the rest of the line while we fix a signal failure at Leicester Square. Tickets are being accepted on London Buses, Elizabeth Line, Great Northern and Weaver line services via any reasonable route.",
+      "severity": "Part Suspended",
       "source_created": "0001-01-01T00:00:00"
     },
     "tram:text:259ee1afa575c655": {
@@ -32,6 +32,30 @@
     }
   },
   "history": [
+    {
+      "category": "passenger incident",
+      "duration_seconds": 5116,
+      "first_seen": "2026-10-22T17:57:06Z",
+      "issue_key": "elizabeth:text:49a6f75e6c854ed4",
+      "line_id": "elizabeth",
+      "line_name": "Elizabeth line",
+      "reason": "Minor delays between Paddington and Abbey Wood while we deal with a customer incident. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-10-22T19:22:22Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "signal failure",
+      "duration_seconds": 6442,
+      "first_seen": "2026-10-22T17:35:00Z",
+      "issue_key": "piccadilly:text:d2784f5f3f2ce224",
+      "line_id": "piccadilly",
+      "line_name": "Piccadilly",
+      "reason": "Piccadilly Line: Severe delays while we fix a signal failure in the Leicester Square area. Tickets are being accepted on London buses, Elizabeth line, Great Northern and Weaver line via any reasonable route.",
+      "resolved_at": "2026-10-22T19:22:22Z",
+      "severity": "Severe Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
     {
       "category": "other",
       "duration_seconds": 1326,
@@ -26649,6 +26673,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-10-22T17:57:06Z",
+  "updated_at": "2026-10-22T19:22:22Z",
   "version": 1
 }
