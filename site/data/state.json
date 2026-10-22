@@ -1,22 +1,22 @@
 {
   "active": {
-    "bakerloo:text:506882b9e2994513": {
+    "bakerloo:text:d251efdb1931ec89": {
       "category": "passenger incident",
-      "first_seen": "2026-10-22T13:10:11Z",
-      "issue_key": "bakerloo:text:506882b9e2994513",
+      "first_seen": "2026-10-22T15:29:12Z",
+      "issue_key": "bakerloo:text:d251efdb1931ec89",
       "line_id": "bakerloo",
       "line_name": "Bakerloo",
-      "reason": "Bakerloo Line: Minor delays due to an earlier customer incident at Maida Vale.",
+      "reason": "Bakerloo Line: Minor delays between Harrow and Wealdstone and Queen's Park due to an earlier customer incident at Maida Vale. GOOD SERVICE on the rest of the line.",
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "piccadilly:text:47ef17391724d363": {
+    "piccadilly:text:af6b6f18341796d5": {
       "category": "signal failure",
-      "first_seen": "2026-10-22T13:10:11Z",
-      "issue_key": "piccadilly:text:47ef17391724d363",
+      "first_seen": "2026-10-22T15:29:12Z",
+      "issue_key": "piccadilly:text:af6b6f18341796d5",
       "line_id": "piccadilly",
       "line_name": "Piccadilly",
-      "reason": "Piccadilly Line: Severe delays while we fix signal failure at Leicester Square. Tickets are being accepted on London Buses, Elizabeth Line, Great Northern and Weaver line via any reasonable route.",
+      "reason": "Piccadilly Line: SEVERE DELAYS while we fix a signal failure at Leicester Square. Tickets are being accepted on London Buses, Elizabeth Line, Great Northern and Weaver line via any reasonable route.",
       "severity": "Severe Delays",
       "source_created": "0001-01-01T00:00:00"
     },
@@ -32,6 +32,30 @@
     }
   },
   "history": [
+    {
+      "category": "passenger incident",
+      "duration_seconds": 8341,
+      "first_seen": "2026-10-22T13:10:11Z",
+      "issue_key": "bakerloo:text:506882b9e2994513",
+      "line_id": "bakerloo",
+      "line_name": "Bakerloo",
+      "reason": "Bakerloo Line: Minor delays due to an earlier customer incident at Maida Vale.",
+      "resolved_at": "2026-10-22T15:29:12Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "signal failure",
+      "duration_seconds": 8341,
+      "first_seen": "2026-10-22T13:10:11Z",
+      "issue_key": "piccadilly:text:47ef17391724d363",
+      "line_id": "piccadilly",
+      "line_name": "Piccadilly",
+      "reason": "Piccadilly Line: Severe delays while we fix signal failure at Leicester Square. Tickets are being accepted on London Buses, Elizabeth Line, Great Northern and Weaver line via any reasonable route.",
+      "resolved_at": "2026-10-22T15:29:12Z",
+      "severity": "Severe Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
     {
       "category": "passenger incident",
       "duration_seconds": 2316,
@@ -26589,6 +26613,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-10-22T13:10:11Z",
+  "updated_at": "2026-10-22T15:29:12Z",
   "version": 1
 }
