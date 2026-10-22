@@ -1,23 +1,13 @@
 {
   "active": {
-    "elizabeth:text:5c937fee35f67c0c": {
+    "elizabeth:text:7ac177c250d59764": {
       "category": "train fault",
-      "first_seen": "2026-10-22T05:23:45Z",
-      "issue_key": "elizabeth:text:5c937fee35f67c0c",
+      "first_seen": "2026-10-22T06:39:17Z",
+      "issue_key": "elizabeth:text:7ac177c250d59764",
       "line_id": "elizabeth",
       "line_name": "Elizabeth line",
-      "reason": "Minor delays between Abbey Wood and Whitechapel while we fix a faulty train at Custom House. GOOD SERVICE on the rest of the line.",
-      "severity": "Minor Delays",
-      "source_created": "0001-01-01T00:00:00"
-    },
-    "metropolitan:text:258811d1ca84140d": {
-      "category": "other",
-      "first_seen": "2026-10-22T05:23:45Z",
-      "issue_key": "metropolitan:text:258811d1ca84140d",
-      "line_id": "metropolitan",
-      "line_name": "Metropolitan",
-      "reason": "Metropolitan Line: Minor delays between Moor Park and Amersham due to train cancellations. The next southbound Amersham departure will be at 07:21. GOOD SERVICE on the rest of the line.",
-      "severity": "Minor Delays",
+      "reason": "No service between Abbey Wood and Whitechapel, and SEVERE DELAYS between Whitechapel and Heathrow/Reading while we fix a faulty train at Custom House. London Underground are accepting tickets via any reasonable route. GOOD SERVICE on the rest of the line.",
+      "severity": "Part Suspended",
       "source_created": "0001-01-01T00:00:00"
     },
     "tram:text:259ee1afa575c655": {
@@ -32,6 +22,30 @@
     }
   },
   "history": [
+    {
+      "category": "train fault",
+      "duration_seconds": 4532,
+      "first_seen": "2026-10-22T05:23:45Z",
+      "issue_key": "elizabeth:text:5c937fee35f67c0c",
+      "line_id": "elizabeth",
+      "line_name": "Elizabeth line",
+      "reason": "Minor delays between Abbey Wood and Whitechapel while we fix a faulty train at Custom House. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-10-22T06:39:17Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "other",
+      "duration_seconds": 4532,
+      "first_seen": "2026-10-22T05:23:45Z",
+      "issue_key": "metropolitan:text:258811d1ca84140d",
+      "line_id": "metropolitan",
+      "line_name": "Metropolitan",
+      "reason": "Metropolitan Line: Minor delays between Moor Park and Amersham due to train cancellations. The next southbound Amersham departure will be at 07:21. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-10-22T06:39:17Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
     {
       "category": "other",
       "duration_seconds": 16939,
@@ -26517,6 +26531,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-10-22T05:23:45Z",
+  "updated_at": "2026-10-22T06:39:17Z",
   "version": 1
 }
