@@ -1,25 +1,5 @@
 {
   "active": {
-    "central:text:6d0af7c9d44f714a": {
-      "category": "other",
-      "first_seen": "2026-10-22T07:28:55Z",
-      "issue_key": "central:text:6d0af7c9d44f714a",
-      "line_id": "central",
-      "line_name": "Central",
-      "reason": "Central Line: Minor delays due to train cancellations.",
-      "severity": "Minor Delays",
-      "source_created": "0001-01-01T00:00:00"
-    },
-    "elizabeth:text:7ac177c250d59764": {
-      "category": "train fault",
-      "first_seen": "2026-10-22T06:39:17Z",
-      "issue_key": "elizabeth:text:7ac177c250d59764",
-      "line_id": "elizabeth",
-      "line_name": "Elizabeth line",
-      "reason": "No service between Abbey Wood and Whitechapel, and SEVERE DELAYS between Whitechapel and Heathrow/Reading while we fix a faulty train at Custom House. London Underground are accepting tickets via any reasonable route. GOOD SERVICE on the rest of the line.",
-      "severity": "Part Suspended",
-      "source_created": "0001-01-01T00:00:00"
-    },
     "tram:text:259ee1afa575c655": {
       "category": "track fault",
       "first_seen": "2026-10-22T05:23:45Z",
@@ -32,6 +12,30 @@
     }
   },
   "history": [
+    {
+      "category": "other",
+      "duration_seconds": 10675,
+      "first_seen": "2026-10-22T07:28:55Z",
+      "issue_key": "central:text:6d0af7c9d44f714a",
+      "line_id": "central",
+      "line_name": "Central",
+      "reason": "Central Line: Minor delays due to train cancellations.",
+      "resolved_at": "2026-10-22T10:26:50Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "train fault",
+      "duration_seconds": 13653,
+      "first_seen": "2026-10-22T06:39:17Z",
+      "issue_key": "elizabeth:text:7ac177c250d59764",
+      "line_id": "elizabeth",
+      "line_name": "Elizabeth line",
+      "reason": "No service between Abbey Wood and Whitechapel, and SEVERE DELAYS between Whitechapel and Heathrow/Reading while we fix a faulty train at Custom House. London Underground are accepting tickets via any reasonable route. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-10-22T10:26:50Z",
+      "severity": "Part Suspended",
+      "source_created": "0001-01-01T00:00:00"
+    },
     {
       "category": "train fault",
       "duration_seconds": 4532,
@@ -26541,6 +26545,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-10-22T07:28:55Z",
+  "updated_at": "2026-10-22T10:26:50Z",
   "version": 1
 }
