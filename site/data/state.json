@@ -10,34 +10,34 @@
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "northern:text:eb226c26f9aa56d7": {
+    "northern:text:49cc1795a8b14597": {
       "category": "signal failure",
-      "first_seen": "2026-10-23T11:07:50Z",
-      "issue_key": "northern:text:eb226c26f9aa56d7",
+      "first_seen": "2026-10-23T14:23:51Z",
+      "issue_key": "northern:text:49cc1795a8b14597",
       "line_id": "northern",
       "line_name": "Northern",
-      "reason": "Northern Line: Severe delays due to an earlier signal failure at Archway. Tickets are being accepted on London Buses, London Trams, Southeastern, Thameslink and South Western Railway via any reasonable route.",
-      "severity": "Severe Delays",
+      "reason": "Northern Line: Minor delays due to an earlier signal failure at Archway.",
+      "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "piccadilly:text:3462d5b773798dac": {
+    "piccadilly:text:3d16566caa3d7252": {
       "category": "signal failure",
-      "first_seen": "2026-10-23T09:32:02Z",
-      "issue_key": "piccadilly:text:3462d5b773798dac",
+      "first_seen": "2026-10-23T14:23:51Z",
+      "issue_key": "piccadilly:text:3d16566caa3d7252",
       "line_id": "piccadilly",
       "line_name": "Piccadilly",
-      "reason": "Piccadilly Line: Severe delays while we fix a signal failure at Leicester Square. Please avoid the Piccadilly line where possible. Tickets are being accepted on London Buses, Elizabeth Line, Great Northern, Weaver Line and South Western Railway.",
-      "severity": "Severe Delays",
+      "reason": "Piccadilly Line: Minor delays while we fix a signal failure at Leicester Square.",
+      "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "suffragette:text:e73d709e56eefeea": {
+    "suffragette:text:1c742129c66b1c53": {
       "category": "other",
-      "first_seen": "2026-10-23T12:50:14Z",
-      "issue_key": "suffragette:text:e73d709e56eefeea",
+      "first_seen": "2026-10-23T14:23:51Z",
+      "issue_key": "suffragette:text:1c742129c66b1c53",
       "line_id": "suffragette",
       "line_name": "Suffragette",
-      "reason": "Suffragette Line: No service due to an operational incident. London Underground are accepting tickets via any reasonable route.",
-      "severity": "Suspended",
+      "reason": "Suffragette Line: No service between South Tottenham and Barking Riverside due to an operational incident. GOOD SERVICE on the rest of the line. London Underground are accepting tickets via any reasonable route.",
+      "severity": "Part Suspended",
       "source_created": "0001-01-01T00:00:00"
     },
     "tram:text:259ee1afa575c655": {
@@ -49,9 +49,55 @@
       "reason": "London Tramlink: No service between Arena and Elmers End all day due to a track fault at Lebanon Road. GOOD SERVICE on other tram routes.",
       "severity": "Part Suspended",
       "source_created": "0001-01-01T00:00:00"
+    },
+    "windrush:text:68f5285e7cb42967": {
+      "category": "other",
+      "first_seen": "2026-10-23T14:23:51Z",
+      "issue_key": "windrush:text:68f5285e7cb42967",
+      "line_id": "windrush",
+      "line_name": "Windrush",
+      "reason": "Windrush Line: Minor delays due to a track Circuit Failure at Norwood Junction. Good service on the rest of the line.",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
     }
   },
   "history": [
+    {
+      "category": "signal failure",
+      "duration_seconds": 11761,
+      "first_seen": "2026-10-23T11:07:50Z",
+      "issue_key": "northern:text:eb226c26f9aa56d7",
+      "line_id": "northern",
+      "line_name": "Northern",
+      "reason": "Northern Line: Severe delays due to an earlier signal failure at Archway. Tickets are being accepted on London Buses, London Trams, Southeastern, Thameslink and South Western Railway via any reasonable route.",
+      "resolved_at": "2026-10-23T14:23:51Z",
+      "severity": "Severe Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "signal failure",
+      "duration_seconds": 17509,
+      "first_seen": "2026-10-23T09:32:02Z",
+      "issue_key": "piccadilly:text:3462d5b773798dac",
+      "line_id": "piccadilly",
+      "line_name": "Piccadilly",
+      "reason": "Piccadilly Line: Severe delays while we fix a signal failure at Leicester Square. Please avoid the Piccadilly line where possible. Tickets are being accepted on London Buses, Elizabeth Line, Great Northern, Weaver Line and South Western Railway.",
+      "resolved_at": "2026-10-23T14:23:51Z",
+      "severity": "Severe Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "other",
+      "duration_seconds": 5617,
+      "first_seen": "2026-10-23T12:50:14Z",
+      "issue_key": "suffragette:text:e73d709e56eefeea",
+      "line_id": "suffragette",
+      "line_name": "Suffragette",
+      "reason": "Suffragette Line: No service due to an operational incident. London Underground are accepting tickets via any reasonable route.",
+      "resolved_at": "2026-10-23T14:23:51Z",
+      "severity": "Suspended",
+      "source_created": "0001-01-01T00:00:00"
+    },
     {
       "category": "signal failure",
       "duration_seconds": 11892,
@@ -27233,6 +27279,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-10-23T12:50:14Z",
+  "updated_at": "2026-10-23T14:23:51Z",
   "version": 1
 }
