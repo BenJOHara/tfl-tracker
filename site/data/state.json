@@ -1,53 +1,23 @@
 {
   "active": {
-    "central:text:f0e1585bf6265625": {
-      "category": "train fault",
-      "first_seen": "2026-10-23T07:22:41Z",
-      "issue_key": "central:text:f0e1585bf6265625",
-      "line_id": "central",
-      "line_name": "Central",
-      "reason": "Central Line: Minor delays due to an earlier faulty train at Perivale and following a late finish of engineering work.",
-      "severity": "Minor Delays",
-      "source_created": "0001-01-01T00:00:00"
-    },
-    "circle:text:2eca350a07e2a1df": {
-      "category": "train fault",
-      "first_seen": "2026-10-23T09:32:02Z",
-      "issue_key": "circle:text:2eca350a07e2a1df",
-      "line_id": "circle",
-      "line_name": "Circle",
-      "reason": "Circle Line: Minor delays due to an earlier faulty train at Euston Square.",
-      "severity": "Minor Delays",
-      "source_created": "0001-01-01T00:00:00"
-    },
-    "hammersmith-city:text:a9b8f6dbc6f45998": {
-      "category": "train fault",
-      "first_seen": "2026-10-23T09:32:02Z",
-      "issue_key": "hammersmith-city:text:a9b8f6dbc6f45998",
-      "line_id": "hammersmith-city",
-      "line_name": "Hammersmith & City",
-      "reason": "Hammersmith and City Line: Minor delays due to an earlier faulty train at Euston Square.",
-      "severity": "Minor Delays",
-      "source_created": "0001-01-01T00:00:00"
-    },
     "metropolitan:text:6060ea77f0ea4e36": {
       "category": "signal failure",
       "first_seen": "2026-10-23T09:32:02Z",
       "issue_key": "metropolitan:text:6060ea77f0ea4e36",
       "line_id": "metropolitan",
       "line_name": "Metropolitan",
-      "reason": "Metropolitan Line: Severe delays due to an earlier signal failure at Harrow-on-the-Hill and an earlier faulty train at Euston Square. Tickets are being accepted on London Buses, Lioness Line, London Northwestern Railway, Chiltern Railways and Thameslink via any reasonable route.",
-      "severity": "Severe Delays",
+      "reason": "Metropolitan Line: Minor delays due to an earlier signal failure at Harrow-on-the-Hill and an earlier faulty train at Euston Square. Tickets are being accepted on London Buses, Lioness Line, London Northwestern Railway, Chiltern Railways and Thameslink via any reasonable route.",
+      "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "northern:text:e387fb73dcb049ac": {
+    "northern:text:eb226c26f9aa56d7": {
       "category": "signal failure",
-      "first_seen": "2026-10-23T09:32:02Z",
-      "issue_key": "northern:text:e387fb73dcb049ac",
+      "first_seen": "2026-10-23T11:07:50Z",
+      "issue_key": "northern:text:eb226c26f9aa56d7",
       "line_id": "northern",
       "line_name": "Northern",
-      "reason": "Northern Line: No service between High Barnet and Camden Town southbound only due to an earlier signal failure at Archway. SEVERE DELAYS on the rest of the line. Tickets are being accepted on London Buses via any reasonable route.",
-      "severity": "Part Suspended",
+      "reason": "Northern Line: Severe delays due to an earlier signal failure at Archway. Tickets are being accepted on London Buses, London Trams, Southeastern, Thameslink and South Western Railway via any reasonable route.",
+      "severity": "Severe Delays",
       "source_created": "0001-01-01T00:00:00"
     },
     "piccadilly:text:3462d5b773798dac": {
@@ -72,6 +42,54 @@
     }
   },
   "history": [
+    {
+      "category": "train fault",
+      "duration_seconds": 13509,
+      "first_seen": "2026-10-23T07:22:41Z",
+      "issue_key": "central:text:f0e1585bf6265625",
+      "line_id": "central",
+      "line_name": "Central",
+      "reason": "Central Line: Minor delays due to an earlier faulty train at Perivale and following a late finish of engineering work.",
+      "resolved_at": "2026-10-23T11:07:50Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "train fault",
+      "duration_seconds": 5748,
+      "first_seen": "2026-10-23T09:32:02Z",
+      "issue_key": "circle:text:2eca350a07e2a1df",
+      "line_id": "circle",
+      "line_name": "Circle",
+      "reason": "Circle Line: Minor delays due to an earlier faulty train at Euston Square.",
+      "resolved_at": "2026-10-23T11:07:50Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "train fault",
+      "duration_seconds": 5748,
+      "first_seen": "2026-10-23T09:32:02Z",
+      "issue_key": "hammersmith-city:text:a9b8f6dbc6f45998",
+      "line_id": "hammersmith-city",
+      "line_name": "Hammersmith & City",
+      "reason": "Hammersmith and City Line: Minor delays due to an earlier faulty train at Euston Square.",
+      "resolved_at": "2026-10-23T11:07:50Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "signal failure",
+      "duration_seconds": 5748,
+      "first_seen": "2026-10-23T09:32:02Z",
+      "issue_key": "northern:text:e387fb73dcb049ac",
+      "line_id": "northern",
+      "line_name": "Northern",
+      "reason": "Northern Line: No service between High Barnet and Camden Town southbound only due to an earlier signal failure at Archway. SEVERE DELAYS on the rest of the line. Tickets are being accepted on London Buses via any reasonable route.",
+      "resolved_at": "2026-10-23T11:07:50Z",
+      "severity": "Part Suspended",
+      "source_created": "0001-01-01T00:00:00"
+    },
     {
       "category": "train fault",
       "duration_seconds": 7761,
@@ -27193,6 +27211,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-10-23T09:32:02Z",
+  "updated_at": "2026-10-23T11:07:50Z",
   "version": 1
 }
