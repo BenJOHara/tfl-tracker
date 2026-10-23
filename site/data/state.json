@@ -1,12 +1,12 @@
 {
   "active": {
-    "metropolitan:text:6060ea77f0ea4e36": {
+    "metropolitan:text:785a3fa167a26eed": {
       "category": "signal failure",
-      "first_seen": "2026-10-23T09:32:02Z",
-      "issue_key": "metropolitan:text:6060ea77f0ea4e36",
+      "first_seen": "2026-10-23T12:50:14Z",
+      "issue_key": "metropolitan:text:785a3fa167a26eed",
       "line_id": "metropolitan",
       "line_name": "Metropolitan",
-      "reason": "Metropolitan Line: Minor delays due to an earlier signal failure at Harrow-on-the-Hill and an earlier faulty train at Euston Square. Tickets are being accepted on London Buses, Lioness Line, London Northwestern Railway, Chiltern Railways and Thameslink via any reasonable route.",
+      "reason": "Metropolitan Line: Minor delays between Harrow-on-the-Hill and Watford due to an earlier signal failure at Harrow-on-the-Hill. GOOD SERVICE on the rest of the line.",
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
@@ -30,6 +30,16 @@
       "severity": "Severe Delays",
       "source_created": "0001-01-01T00:00:00"
     },
+    "suffragette:text:e73d709e56eefeea": {
+      "category": "other",
+      "first_seen": "2026-10-23T12:50:14Z",
+      "issue_key": "suffragette:text:e73d709e56eefeea",
+      "line_id": "suffragette",
+      "line_name": "Suffragette",
+      "reason": "Suffragette Line: No service due to an operational incident. London Underground are accepting tickets via any reasonable route.",
+      "severity": "Suspended",
+      "source_created": "0001-01-01T00:00:00"
+    },
     "tram:text:259ee1afa575c655": {
       "category": "track fault",
       "first_seen": "2026-10-23T05:50:02Z",
@@ -42,6 +52,18 @@
     }
   },
   "history": [
+    {
+      "category": "signal failure",
+      "duration_seconds": 11892,
+      "first_seen": "2026-10-23T09:32:02Z",
+      "issue_key": "metropolitan:text:6060ea77f0ea4e36",
+      "line_id": "metropolitan",
+      "line_name": "Metropolitan",
+      "reason": "Metropolitan Line: Minor delays due to an earlier signal failure at Harrow-on-the-Hill and an earlier faulty train at Euston Square. Tickets are being accepted on London Buses, Lioness Line, London Northwestern Railway, Chiltern Railways and Thameslink via any reasonable route.",
+      "resolved_at": "2026-10-23T12:50:14Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
     {
       "category": "train fault",
       "duration_seconds": 13509,
@@ -27211,6 +27233,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-10-23T11:07:50Z",
+  "updated_at": "2026-10-23T12:50:14Z",
   "version": 1
 }
