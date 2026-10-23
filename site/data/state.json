@@ -1,47 +1,105 @@
 {
   "active": {
-    "central:text:bef1d10cb6f1077f": {
+    "central:text:1372ddab647a0306": {
       "category": "train fault",
+      "first_seen": "2026-10-23T05:50:02Z",
+      "issue_key": "central:text:1372ddab647a0306",
+      "line_id": "central",
+      "line_name": "Central",
+      "reason": "Central Line: Severe delays between North Acton and West Ruislip due to an earlier faulty train at Perivale. SEVERE DELAYS between Hainault and Leytonstone following a late finish of engineering work. Tickets are being accepted on London Buses, Elizabeth Line, Chiltern Railways and Great Western Railway services via any reasonable routes. GOOD SERVICE on the rest of the line.",
+      "severity": "Severe Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "metropolitan:text:2df4e90708614385": {
+      "category": "other",
+      "first_seen": "2026-10-23T05:50:02Z",
+      "issue_key": "metropolitan:text:2df4e90708614385",
+      "line_id": "metropolitan",
+      "line_name": "Metropolitan",
+      "reason": "Metropolitan Line: Minor delays between Moor Park and Watford due to train cancellations. GOOD SERVICE on the rest of the line.",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "mildmay:text:d44f8b983ff9825b": {
+      "category": "signal failure",
+      "first_seen": "2026-10-23T05:50:02Z",
+      "issue_key": "mildmay:text:d44f8b983ff9825b",
+      "line_id": "mildmay",
+      "line_name": "Mildmay",
+      "reason": "Mildmay Line: Severe delays while we fix a signal failure at Stratford.",
+      "severity": "Severe Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "piccadilly:text:d35d1feddfb510a3": {
+      "category": "signal failure",
+      "first_seen": "2026-10-23T05:50:02Z",
+      "issue_key": "piccadilly:text:d35d1feddfb510a3",
+      "line_id": "piccadilly",
+      "line_name": "Piccadilly",
+      "reason": "Piccadilly Line: No service between Rayners Lane and Uxbridge due to a signal failure at Leicester Square. Please use the Metropolitan line between Rayners Lane and Uxbridge. Tickets are being accepted on London Buses. MINOR DELAYS on the rest of the line.",
+      "severity": "Part Suspended",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "tram:text:259ee1afa575c655": {
+      "category": "track fault",
+      "first_seen": "2026-10-23T05:50:02Z",
+      "issue_key": "tram:text:259ee1afa575c655",
+      "line_id": "tram",
+      "line_name": "Tram",
+      "reason": "London Tramlink: No service between Arena and Elmers End all day due to a track fault at Lebanon Road. GOOD SERVICE on other tram routes.",
+      "severity": "Part Suspended",
+      "source_created": "0001-01-01T00:00:00"
+    }
+  },
+  "history": [
+    {
+      "category": "train fault",
+      "duration_seconds": 4312,
       "first_seen": "2026-10-23T04:38:10Z",
       "issue_key": "central:text:bef1d10cb6f1077f",
       "line_id": "central",
       "line_name": "Central",
       "reason": "Central Line: No service between Hainault and Leytonstone westbound only due to a late finish of engineering work and no service between North Acton and West Ruislip due to a faulty train at Perivale. Tickets are being accepted on London Buses, Elizabeth Line, Chiltern Railways and Great Western Railway services via any reasonable routes. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-10-23T05:50:02Z",
       "severity": "Part Suspended",
       "source_created": "0001-01-01T00:00:00"
     },
-    "metropolitan:text:47394cf81bec6866": {
+    {
       "category": "other",
+      "duration_seconds": 4312,
       "first_seen": "2026-10-23T04:38:10Z",
       "issue_key": "metropolitan:text:47394cf81bec6866",
       "line_id": "metropolitan",
       "line_name": "Metropolitan",
       "reason": "Metropolitan Line: Minor delays between Moor Park and Amersham due to train cancellations. The next southbound train from Amersham will be at 05:43. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-10-23T05:50:02Z",
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "piccadilly:text:b9cabf257e4b5051": {
+    {
       "category": "signal failure",
+      "duration_seconds": 4312,
       "first_seen": "2026-10-23T04:38:10Z",
       "issue_key": "piccadilly:text:b9cabf257e4b5051",
       "line_id": "piccadilly",
       "line_name": "Piccadilly",
       "reason": "Piccadilly Line: No service between Rayners Lane and Uxbridge and MINOR DELAYS on the rest of the line due to a signal failure at Leicester Square. Please use the Metropolitan line between Rayners Lane and Uxbridge. Tickets are being accepted on London Buses.",
+      "resolved_at": "2026-10-23T05:50:02Z",
       "severity": "Part Suspended",
       "source_created": "0001-01-01T00:00:00"
     },
-    "waterloo-city:text:0faebd0ea99ebd1b": {
+    {
       "category": "other",
+      "duration_seconds": 22180,
       "first_seen": "2026-10-22T23:40:22Z",
       "issue_key": "waterloo-city:text:0faebd0ea99ebd1b",
       "line_id": "waterloo-city",
       "line_name": "Waterloo & City",
       "reason": "Waterloo and City Line: Service will resume at 06:00.",
+      "resolved_at": "2026-10-23T05:50:02Z",
       "severity": "Service Closed",
       "source_created": "0001-01-01T00:00:00"
-    }
-  },
-  "history": [
+    },
     {
       "category": "other",
       "duration_seconds": 13201,
@@ -27019,6 +27077,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-10-23T04:38:10Z",
+  "updated_at": "2026-10-23T05:50:02Z",
   "version": 1
 }
