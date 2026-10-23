@@ -10,6 +10,16 @@
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
+    "district:text:07a91eabf332de4c": {
+      "category": "points failure",
+      "first_seen": "2026-10-23T17:32:31Z",
+      "issue_key": "district:text:07a91eabf332de4c",
+      "line_id": "district",
+      "line_name": "District",
+      "reason": "District Line: Severe delays between High Street Kensington and Edgware Road due to an earlier points failure at High Street Kensington. GOOD SERVICE on the rest of the line.",
+      "severity": "Severe Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
     "elizabeth:text:9bfb202244d18c8e": {
       "category": "other",
       "first_seen": "2026-10-23T15:44:45Z",
@@ -20,23 +30,33 @@
       "severity": "Severe Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "northern:text:96cf752dcc745a73": {
-      "category": "signal failure",
-      "first_seen": "2026-10-23T15:44:45Z",
-      "issue_key": "northern:text:96cf752dcc745a73",
-      "line_id": "northern",
-      "line_name": "Northern",
-      "reason": "Northern Line: Severe delays between Camden Town and High Barnet due to an obstruction on the track at East Finchley. MINOR DELAYS on the rest of the line due to an earlier signal failure at Archway.",
-      "severity": "Severe Delays",
+    "mildmay:text:3c32e128e76fdf23": {
+      "category": "train fault",
+      "first_seen": "2026-10-23T17:32:31Z",
+      "issue_key": "mildmay:text:3c32e128e76fdf23",
+      "line_id": "mildmay",
+      "line_name": "Mildmay",
+      "reason": "Mildmay Line: Minor delays due to an earlier faulty train at Dalston Kingsland.",
+      "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "piccadilly:text:3d16566caa3d7252": {
+    "northern:text:8cdc9cc54b4213d7": {
+      "category": "person on track",
+      "first_seen": "2026-10-23T17:32:31Z",
+      "issue_key": "northern:text:8cdc9cc54b4213d7",
+      "line_id": "northern",
+      "line_name": "Northern",
+      "reason": "Northern Line: Minor delays due to an earlier trespasser on the track at Golders Green.",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "piccadilly:text:77c52b499c2e549f": {
       "category": "signal failure",
-      "first_seen": "2026-10-23T14:23:51Z",
-      "issue_key": "piccadilly:text:3d16566caa3d7252",
+      "first_seen": "2026-10-23T17:32:31Z",
+      "issue_key": "piccadilly:text:77c52b499c2e549f",
       "line_id": "piccadilly",
       "line_name": "Piccadilly",
-      "reason": "Piccadilly Line: Minor delays while we fix a signal failure at Leicester Square.",
+      "reason": "Piccadilly Line: Minor delays between Acton Town and Heathrow Terminals/Uxbridge while we fix a signal failure at Leicester Square. GOOD SERVICE on the rest of the line.",
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
@@ -50,13 +70,13 @@
       "severity": "Suspended",
       "source_created": "0001-01-01T00:00:00"
     },
-    "tram:text:259ee1afa575c655": {
+    "tram:text:d6db9c0aea3e3320": {
       "category": "track fault",
-      "first_seen": "2026-10-23T05:50:02Z",
-      "issue_key": "tram:text:259ee1afa575c655",
+      "first_seen": "2026-10-23T17:32:31Z",
+      "issue_key": "tram:text:d6db9c0aea3e3320",
       "line_id": "tram",
       "line_name": "Tram",
-      "reason": "London Tramlink: No service between Arena and Elmers End all day due to a track fault at Lebanon Road. GOOD SERVICE on other tram routes.",
+      "reason": "London Tramlink: No service between Arena and Elmers End all day due to a track fault at Lebanon Road. NO SERIVCE between New Addington and Sandilands while we fix a fault with the overhead powerlines. GOOD SERVICE on other tram routes.",
       "severity": "Part Suspended",
       "source_created": "0001-01-01T00:00:00"
     },
@@ -82,6 +102,42 @@
     }
   },
   "history": [
+    {
+      "category": "signal failure",
+      "duration_seconds": 6466,
+      "first_seen": "2026-10-23T15:44:45Z",
+      "issue_key": "northern:text:96cf752dcc745a73",
+      "line_id": "northern",
+      "line_name": "Northern",
+      "reason": "Northern Line: Severe delays between Camden Town and High Barnet due to an obstruction on the track at East Finchley. MINOR DELAYS on the rest of the line due to an earlier signal failure at Archway.",
+      "resolved_at": "2026-10-23T17:32:31Z",
+      "severity": "Severe Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "signal failure",
+      "duration_seconds": 11320,
+      "first_seen": "2026-10-23T14:23:51Z",
+      "issue_key": "piccadilly:text:3d16566caa3d7252",
+      "line_id": "piccadilly",
+      "line_name": "Piccadilly",
+      "reason": "Piccadilly Line: Minor delays while we fix a signal failure at Leicester Square.",
+      "resolved_at": "2026-10-23T17:32:31Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "track fault",
+      "duration_seconds": 42149,
+      "first_seen": "2026-10-23T05:50:02Z",
+      "issue_key": "tram:text:259ee1afa575c655",
+      "line_id": "tram",
+      "line_name": "Tram",
+      "reason": "London Tramlink: No service between Arena and Elmers End all day due to a track fault at Lebanon Road. GOOD SERVICE on other tram routes.",
+      "resolved_at": "2026-10-23T17:32:31Z",
+      "severity": "Part Suspended",
+      "source_created": "0001-01-01T00:00:00"
+    },
     {
       "category": "signal failure",
       "duration_seconds": 10471,
@@ -27347,6 +27403,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-10-23T15:44:45Z",
+  "updated_at": "2026-10-23T17:32:31Z",
   "version": 1
 }
