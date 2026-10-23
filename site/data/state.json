@@ -10,24 +10,34 @@
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "dlr:text:577c7ef1d10bde1a": {
-      "category": "train fault",
-      "first_seen": "2026-10-23T18:30:04Z",
-      "issue_key": "dlr:text:577c7ef1d10bde1a",
-      "line_id": "dlr",
-      "line_name": "DLR",
-      "reason": "Docklands Light Railway: Minor delays between Stratford International and Woolwich Arsenal due to a faulty train at Canning Town. GOOD SERVICE rest of the line.",
+    "district:text:efd9515ba13ca843": {
+      "category": "points failure",
+      "first_seen": "2026-10-23T19:33:09Z",
+      "issue_key": "district:text:efd9515ba13ca843",
+      "line_id": "district",
+      "line_name": "District",
+      "reason": "District Line: No service between High Street Kensington and Edgware Road while we fix a points failure at High Street Kensington. Tickets will be accepted on London Buses via any reasonable route. GOOD SERVICE on the rest of the line.",
+      "severity": "Part Suspended",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "elizabeth:text:70ef32694c0174fb": {
+      "category": "other",
+      "first_seen": "2026-10-23T19:33:09Z",
+      "issue_key": "elizabeth:text:70ef32694c0174fb",
+      "line_id": "elizabeth",
+      "line_name": "Elizabeth line",
+      "reason": "Minor delays between Paddington and Heathrow Airport/Reading while we fix an infrastructure defect at Southall. GOOD SERVICE on the rest of the line.",
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "elizabeth:text:9bfb202244d18c8e": {
-      "category": "other",
-      "first_seen": "2026-10-23T15:44:45Z",
-      "issue_key": "elizabeth:text:9bfb202244d18c8e",
-      "line_id": "elizabeth",
-      "line_name": "Elizabeth line",
-      "reason": "Severe delays between Paddington and Heathrow/Reading while we fix an infrastructure defect at Southall. GOOD SERVICE on the rest of the line.",
-      "severity": "Severe Delays",
+    "jubilee:text:4f59b3fd4f3fc332": {
+      "category": "passenger incident",
+      "first_seen": "2026-10-23T19:33:09Z",
+      "issue_key": "jubilee:text:4f59b3fd4f3fc332",
+      "line_id": "jubilee",
+      "line_name": "Jubilee",
+      "reason": "Jubilee Line: Minor delays while we deal with a customer incident at Canary Wharf.",
+      "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
     "metropolitan:text:d135156386256353": {
@@ -50,16 +60,6 @@
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "northern:text:4131d23c04a85491": {
-      "category": "points failure",
-      "first_seen": "2026-10-23T18:30:04Z",
-      "issue_key": "northern:text:4131d23c04a85491",
-      "line_id": "northern",
-      "line_name": "Northern",
-      "reason": "Northern Line: No service between Morden and Tooting Broadway while we fix a points failure at Morden. SEVERE DELAYS on the rest of the line. Tickets will be accepted on London Buses, Southeastern, Thameslink and South Western Railway via reasonable routes.",
-      "severity": "Part Suspended",
-      "source_created": "0001-01-01T00:00:00"
-    },
     "northern:text:476ee6c77a882f7c": {
       "category": "points failure",
       "first_seen": "2026-10-23T18:30:04Z",
@@ -80,13 +80,13 @@
       "severity": "Suspended",
       "source_created": "0001-01-01T00:00:00"
     },
-    "tram:text:2d46d783e5c66ffb": {
+    "tram:text:259ee1afa575c655": {
       "category": "track fault",
-      "first_seen": "2026-10-23T18:30:04Z",
-      "issue_key": "tram:text:2d46d783e5c66ffb",
+      "first_seen": "2026-10-23T19:33:09Z",
+      "issue_key": "tram:text:259ee1afa575c655",
       "line_id": "tram",
       "line_name": "Tram",
-      "reason": "London Tramlink: No service between Arena and Elmers End all day due to a track fault at Lebanon Road. SEVERE DELAYS between New Addington and Sandilands due to an earlier fault with the overhead powerlines. GOOD SERVICE on other tram routes.",
+      "reason": "London Tramlink: No service between Arena and Elmers End all day due to a track fault at Lebanon Road. GOOD SERVICE on other tram routes.",
       "severity": "Part Suspended",
       "source_created": "0001-01-01T00:00:00"
     },
@@ -112,6 +112,54 @@
     }
   },
   "history": [
+    {
+      "category": "train fault",
+      "duration_seconds": 3785,
+      "first_seen": "2026-10-23T18:30:04Z",
+      "issue_key": "dlr:text:577c7ef1d10bde1a",
+      "line_id": "dlr",
+      "line_name": "DLR",
+      "reason": "Docklands Light Railway: Minor delays between Stratford International and Woolwich Arsenal due to a faulty train at Canning Town. GOOD SERVICE rest of the line.",
+      "resolved_at": "2026-10-23T19:33:09Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "other",
+      "duration_seconds": 13704,
+      "first_seen": "2026-10-23T15:44:45Z",
+      "issue_key": "elizabeth:text:9bfb202244d18c8e",
+      "line_id": "elizabeth",
+      "line_name": "Elizabeth line",
+      "reason": "Severe delays between Paddington and Heathrow/Reading while we fix an infrastructure defect at Southall. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-10-23T19:33:09Z",
+      "severity": "Severe Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "points failure",
+      "duration_seconds": 3785,
+      "first_seen": "2026-10-23T18:30:04Z",
+      "issue_key": "northern:text:4131d23c04a85491",
+      "line_id": "northern",
+      "line_name": "Northern",
+      "reason": "Northern Line: No service between Morden and Tooting Broadway while we fix a points failure at Morden. SEVERE DELAYS on the rest of the line. Tickets will be accepted on London Buses, Southeastern, Thameslink and South Western Railway via reasonable routes.",
+      "resolved_at": "2026-10-23T19:33:09Z",
+      "severity": "Part Suspended",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "track fault",
+      "duration_seconds": 3785,
+      "first_seen": "2026-10-23T18:30:04Z",
+      "issue_key": "tram:text:2d46d783e5c66ffb",
+      "line_id": "tram",
+      "line_name": "Tram",
+      "reason": "London Tramlink: No service between Arena and Elmers End all day due to a track fault at Lebanon Road. SEVERE DELAYS between New Addington and Sandilands due to an earlier fault with the overhead powerlines. GOOD SERVICE on other tram routes.",
+      "resolved_at": "2026-10-23T19:33:09Z",
+      "severity": "Part Suspended",
+      "source_created": "0001-01-01T00:00:00"
+    },
     {
       "category": "points failure",
       "duration_seconds": 3453,
@@ -27461,6 +27509,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-10-23T18:30:04Z",
+  "updated_at": "2026-10-23T19:33:09Z",
   "version": 1
 }
