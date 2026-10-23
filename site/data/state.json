@@ -1,23 +1,33 @@
 {
   "active": {
-    "central:text:1372ddab647a0306": {
+    "central:text:f0e1585bf6265625": {
       "category": "train fault",
-      "first_seen": "2026-10-23T05:50:02Z",
-      "issue_key": "central:text:1372ddab647a0306",
+      "first_seen": "2026-10-23T07:22:41Z",
+      "issue_key": "central:text:f0e1585bf6265625",
       "line_id": "central",
       "line_name": "Central",
-      "reason": "Central Line: Severe delays between North Acton and West Ruislip due to an earlier faulty train at Perivale. SEVERE DELAYS between Hainault and Leytonstone following a late finish of engineering work. Tickets are being accepted on London Buses, Elizabeth Line, Chiltern Railways and Great Western Railway services via any reasonable routes. GOOD SERVICE on the rest of the line.",
-      "severity": "Severe Delays",
+      "reason": "Central Line: Minor delays due to an earlier faulty train at Perivale and following a late finish of engineering work.",
+      "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "metropolitan:text:2df4e90708614385": {
-      "category": "other",
-      "first_seen": "2026-10-23T05:50:02Z",
-      "issue_key": "metropolitan:text:2df4e90708614385",
+    "circle:text:4a684602afc33142": {
+      "category": "train fault",
+      "first_seen": "2026-10-23T07:22:41Z",
+      "issue_key": "circle:text:4a684602afc33142",
+      "line_id": "circle",
+      "line_name": "Circle",
+      "reason": "Circle Line: Minor delays Anticlockwise only while we fix a faulty train at Edgware Road. GOOD SERVICE Clockwise.",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "metropolitan:text:fe19fed6ae1799e7": {
+      "category": "signal failure",
+      "first_seen": "2026-10-23T07:22:41Z",
+      "issue_key": "metropolitan:text:fe19fed6ae1799e7",
       "line_id": "metropolitan",
       "line_name": "Metropolitan",
-      "reason": "Metropolitan Line: Minor delays between Moor Park and Watford due to train cancellations. GOOD SERVICE on the rest of the line.",
-      "severity": "Minor Delays",
+      "reason": "Metropolitan Line: Severe delays while we fix a signal failure at Harrow-on-the-Hill.",
+      "severity": "Severe Delays",
       "source_created": "0001-01-01T00:00:00"
     },
     "mildmay:text:d44f8b983ff9825b": {
@@ -30,13 +40,13 @@
       "severity": "Severe Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "piccadilly:text:d35d1feddfb510a3": {
+    "piccadilly:text:653a1244bcfff562": {
       "category": "signal failure",
-      "first_seen": "2026-10-23T05:50:02Z",
-      "issue_key": "piccadilly:text:d35d1feddfb510a3",
+      "first_seen": "2026-10-23T07:22:41Z",
+      "issue_key": "piccadilly:text:653a1244bcfff562",
       "line_id": "piccadilly",
       "line_name": "Piccadilly",
-      "reason": "Piccadilly Line: No service between Rayners Lane and Uxbridge due to a signal failure at Leicester Square. Please use the Metropolitan line between Rayners Lane and Uxbridge. Tickets are being accepted on London Buses. MINOR DELAYS on the rest of the line.",
+      "reason": "Piccadilly Line: No service between Rayners Lane and Uxbridge while we fix a signal failure. Please use the Metropolitan line between Rayners Lane and Uxbridge. SEVERE DELAYS on the rest of the line. Tickets are being accepted on London Buses and Elizabeth Line.",
       "severity": "Part Suspended",
       "source_created": "0001-01-01T00:00:00"
     },
@@ -49,9 +59,55 @@
       "reason": "London Tramlink: No service between Arena and Elmers End all day due to a track fault at Lebanon Road. GOOD SERVICE on other tram routes.",
       "severity": "Part Suspended",
       "source_created": "0001-01-01T00:00:00"
+    },
+    "victoria:text:02e0850cdf11ef25": {
+      "category": "other",
+      "first_seen": "2026-10-23T07:22:41Z",
+      "issue_key": "victoria:text:02e0850cdf11ef25",
+      "line_id": "victoria",
+      "line_name": "Victoria",
+      "reason": "Victoria Line: Minor delays due to train cancellations.",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
     }
   },
   "history": [
+    {
+      "category": "train fault",
+      "duration_seconds": 5559,
+      "first_seen": "2026-10-23T05:50:02Z",
+      "issue_key": "central:text:1372ddab647a0306",
+      "line_id": "central",
+      "line_name": "Central",
+      "reason": "Central Line: Severe delays between North Acton and West Ruislip due to an earlier faulty train at Perivale. SEVERE DELAYS between Hainault and Leytonstone following a late finish of engineering work. Tickets are being accepted on London Buses, Elizabeth Line, Chiltern Railways and Great Western Railway services via any reasonable routes. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-10-23T07:22:41Z",
+      "severity": "Severe Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "other",
+      "duration_seconds": 5559,
+      "first_seen": "2026-10-23T05:50:02Z",
+      "issue_key": "metropolitan:text:2df4e90708614385",
+      "line_id": "metropolitan",
+      "line_name": "Metropolitan",
+      "reason": "Metropolitan Line: Minor delays between Moor Park and Watford due to train cancellations. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-10-23T07:22:41Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "signal failure",
+      "duration_seconds": 5559,
+      "first_seen": "2026-10-23T05:50:02Z",
+      "issue_key": "piccadilly:text:d35d1feddfb510a3",
+      "line_id": "piccadilly",
+      "line_name": "Piccadilly",
+      "reason": "Piccadilly Line: No service between Rayners Lane and Uxbridge due to a signal failure at Leicester Square. Please use the Metropolitan line between Rayners Lane and Uxbridge. Tickets are being accepted on London Buses. MINOR DELAYS on the rest of the line.",
+      "resolved_at": "2026-10-23T07:22:41Z",
+      "severity": "Part Suspended",
+      "source_created": "0001-01-01T00:00:00"
+    },
     {
       "category": "train fault",
       "duration_seconds": 4312,
@@ -27077,6 +27133,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-10-23T05:50:02Z",
+  "updated_at": "2026-10-23T07:22:41Z",
   "version": 1
 }
