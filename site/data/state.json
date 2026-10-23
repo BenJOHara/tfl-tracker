@@ -10,14 +10,14 @@
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "district:text:07a91eabf332de4c": {
-      "category": "points failure",
-      "first_seen": "2026-10-23T17:32:31Z",
-      "issue_key": "district:text:07a91eabf332de4c",
-      "line_id": "district",
-      "line_name": "District",
-      "reason": "District Line: Severe delays between High Street Kensington and Edgware Road due to an earlier points failure at High Street Kensington. GOOD SERVICE on the rest of the line.",
-      "severity": "Severe Delays",
+    "dlr:text:577c7ef1d10bde1a": {
+      "category": "train fault",
+      "first_seen": "2026-10-23T18:30:04Z",
+      "issue_key": "dlr:text:577c7ef1d10bde1a",
+      "line_id": "dlr",
+      "line_name": "DLR",
+      "reason": "Docklands Light Railway: Minor delays between Stratford International and Woolwich Arsenal due to a faulty train at Canning Town. GOOD SERVICE rest of the line.",
+      "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
     "elizabeth:text:9bfb202244d18c8e": {
@@ -30,6 +30,16 @@
       "severity": "Severe Delays",
       "source_created": "0001-01-01T00:00:00"
     },
+    "metropolitan:text:d135156386256353": {
+      "category": "signal failure",
+      "first_seen": "2026-10-23T18:30:04Z",
+      "issue_key": "metropolitan:text:d135156386256353",
+      "line_id": "metropolitan",
+      "line_name": "Metropolitan",
+      "reason": "Metropolitan Line: No service between Chalfont & Latimer and Amersham, and MINOR DELAYS between Rickmansworth and Chesham while we fix a signal failure at Chorleywood. Tickets are being accepted on Chiltern services. GOOD SERVICE on the rest of the line.",
+      "severity": "Part Suspended",
+      "source_created": "0001-01-01T00:00:00"
+    },
     "mildmay:text:3c32e128e76fdf23": {
       "category": "train fault",
       "first_seen": "2026-10-23T17:32:31Z",
@@ -40,24 +50,24 @@
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "northern:text:8cdc9cc54b4213d7": {
-      "category": "person on track",
-      "first_seen": "2026-10-23T17:32:31Z",
-      "issue_key": "northern:text:8cdc9cc54b4213d7",
+    "northern:text:4131d23c04a85491": {
+      "category": "points failure",
+      "first_seen": "2026-10-23T18:30:04Z",
+      "issue_key": "northern:text:4131d23c04a85491",
       "line_id": "northern",
       "line_name": "Northern",
-      "reason": "Northern Line: Minor delays due to an earlier trespasser on the track at Golders Green.",
-      "severity": "Minor Delays",
+      "reason": "Northern Line: No service between Morden and Tooting Broadway while we fix a points failure at Morden. SEVERE DELAYS on the rest of the line. Tickets will be accepted on London Buses, Southeastern, Thameslink and South Western Railway via reasonable routes.",
+      "severity": "Part Suspended",
       "source_created": "0001-01-01T00:00:00"
     },
-    "piccadilly:text:77c52b499c2e549f": {
-      "category": "signal failure",
-      "first_seen": "2026-10-23T17:32:31Z",
-      "issue_key": "piccadilly:text:77c52b499c2e549f",
-      "line_id": "piccadilly",
-      "line_name": "Piccadilly",
-      "reason": "Piccadilly Line: Minor delays between Acton Town and Heathrow Terminals/Uxbridge while we fix a signal failure at Leicester Square. GOOD SERVICE on the rest of the line.",
-      "severity": "Minor Delays",
+    "northern:text:476ee6c77a882f7c": {
+      "category": "points failure",
+      "first_seen": "2026-10-23T18:30:04Z",
+      "issue_key": "northern:text:476ee6c77a882f7c",
+      "line_id": "northern",
+      "line_name": "Northern",
+      "reason": "Northern Line: Severe delays due to an earlier points failure at Morden. Tickets will be accepted on London Buses, Southeastern, Thameslink and South Western Railway via any reasonable routes.",
+      "severity": "Severe Delays",
       "source_created": "0001-01-01T00:00:00"
     },
     "suffragette:text:9a32c000ad157d1d": {
@@ -70,13 +80,13 @@
       "severity": "Suspended",
       "source_created": "0001-01-01T00:00:00"
     },
-    "tram:text:d6db9c0aea3e3320": {
+    "tram:text:2d46d783e5c66ffb": {
       "category": "track fault",
-      "first_seen": "2026-10-23T17:32:31Z",
-      "issue_key": "tram:text:d6db9c0aea3e3320",
+      "first_seen": "2026-10-23T18:30:04Z",
+      "issue_key": "tram:text:2d46d783e5c66ffb",
       "line_id": "tram",
       "line_name": "Tram",
-      "reason": "London Tramlink: No service between Arena and Elmers End all day due to a track fault at Lebanon Road. NO SERIVCE between New Addington and Sandilands while we fix a fault with the overhead powerlines. GOOD SERVICE on other tram routes.",
+      "reason": "London Tramlink: No service between Arena and Elmers End all day due to a track fault at Lebanon Road. SEVERE DELAYS between New Addington and Sandilands due to an earlier fault with the overhead powerlines. GOOD SERVICE on other tram routes.",
       "severity": "Part Suspended",
       "source_created": "0001-01-01T00:00:00"
     },
@@ -102,6 +112,54 @@
     }
   },
   "history": [
+    {
+      "category": "points failure",
+      "duration_seconds": 3453,
+      "first_seen": "2026-10-23T17:32:31Z",
+      "issue_key": "district:text:07a91eabf332de4c",
+      "line_id": "district",
+      "line_name": "District",
+      "reason": "District Line: Severe delays between High Street Kensington and Edgware Road due to an earlier points failure at High Street Kensington. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-10-23T18:30:04Z",
+      "severity": "Severe Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "person on track",
+      "duration_seconds": 3453,
+      "first_seen": "2026-10-23T17:32:31Z",
+      "issue_key": "northern:text:8cdc9cc54b4213d7",
+      "line_id": "northern",
+      "line_name": "Northern",
+      "reason": "Northern Line: Minor delays due to an earlier trespasser on the track at Golders Green.",
+      "resolved_at": "2026-10-23T18:30:04Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "signal failure",
+      "duration_seconds": 3453,
+      "first_seen": "2026-10-23T17:32:31Z",
+      "issue_key": "piccadilly:text:77c52b499c2e549f",
+      "line_id": "piccadilly",
+      "line_name": "Piccadilly",
+      "reason": "Piccadilly Line: Minor delays between Acton Town and Heathrow Terminals/Uxbridge while we fix a signal failure at Leicester Square. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-10-23T18:30:04Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "track fault",
+      "duration_seconds": 3453,
+      "first_seen": "2026-10-23T17:32:31Z",
+      "issue_key": "tram:text:d6db9c0aea3e3320",
+      "line_id": "tram",
+      "line_name": "Tram",
+      "reason": "London Tramlink: No service between Arena and Elmers End all day due to a track fault at Lebanon Road. NO SERIVCE between New Addington and Sandilands while we fix a fault with the overhead powerlines. GOOD SERVICE on other tram routes.",
+      "resolved_at": "2026-10-23T18:30:04Z",
+      "severity": "Part Suspended",
+      "source_created": "0001-01-01T00:00:00"
+    },
     {
       "category": "signal failure",
       "duration_seconds": 6466,
@@ -27403,6 +27461,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-10-23T17:32:31Z",
+  "updated_at": "2026-10-23T18:30:04Z",
   "version": 1
 }
