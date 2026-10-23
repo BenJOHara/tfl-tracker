@@ -1,33 +1,13 @@
 {
   "active": {
-    "central:text:6d0af7c9d44f714a": {
-      "category": "other",
-      "first_seen": "2026-10-23T15:44:45Z",
-      "issue_key": "central:text:6d0af7c9d44f714a",
-      "line_id": "central",
-      "line_name": "Central",
-      "reason": "Central Line: Minor delays due to train cancellations.",
-      "severity": "Minor Delays",
-      "source_created": "0001-01-01T00:00:00"
-    },
-    "district:text:ca791317a8a6bffb": {
-      "category": "points failure",
-      "first_seen": "2026-10-23T21:37:22Z",
-      "issue_key": "district:text:ca791317a8a6bffb",
-      "line_id": "district",
-      "line_name": "District",
-      "reason": "District Line: Severe delays between Barking and Upminster due to an earlier points failure at High Street Kensington. Tickets will be accepted on London Buses via any reasonable route. GOOD SERVICE on the rest of the line.",
-      "severity": "Severe Delays",
-      "source_created": "0001-01-01T00:00:00"
-    },
     "metropolitan:text:ac506614fc15fb49": {
       "category": "other",
       "first_seen": "2026-10-23T21:37:22Z",
       "issue_key": "metropolitan:text:ac506614fc15fb49",
       "line_id": "metropolitan",
       "line_name": "Metropolitan",
-      "reason": "Metropolitan Line: Severe delays between Harrow on-the-Hill and Uxbridge, and MINOR DELAYS between Watford and Moor Park due to train cancellations. GOOD SERVICE on the rest of the line.",
-      "severity": "Severe Delays",
+      "reason": "Metropolitan Line: Minor delays between Harrow on-the-Hill and Uxbridge, and between Watford and Moor Park due to train cancellations. GOOD SERVICE on the rest of the line.",
+      "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
     "northern:text:1d85ead18577c75b": {
@@ -82,6 +62,30 @@
     }
   },
   "history": [
+    {
+      "category": "other",
+      "duration_seconds": 24848,
+      "first_seen": "2026-10-23T15:44:45Z",
+      "issue_key": "central:text:6d0af7c9d44f714a",
+      "line_id": "central",
+      "line_name": "Central",
+      "reason": "Central Line: Minor delays due to train cancellations.",
+      "resolved_at": "2026-10-23T22:38:53Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "points failure",
+      "duration_seconds": 3691,
+      "first_seen": "2026-10-23T21:37:22Z",
+      "issue_key": "district:text:ca791317a8a6bffb",
+      "line_id": "district",
+      "line_name": "District",
+      "reason": "District Line: Severe delays between Barking and Upminster due to an earlier points failure at High Street Kensington. Tickets will be accepted on London Buses via any reasonable route. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-10-23T22:38:53Z",
+      "severity": "Severe Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
     {
       "category": "points failure",
       "duration_seconds": 3615,
@@ -27575,6 +27579,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-10-23T21:37:22Z",
+  "updated_at": "2026-10-23T22:38:53Z",
   "version": 1
 }
