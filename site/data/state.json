@@ -10,16 +10,6 @@
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "northern:text:1d85ead18577c75b": {
-      "category": "points failure",
-      "first_seen": "2026-10-23T20:37:07Z",
-      "issue_key": "northern:text:1d85ead18577c75b",
-      "line_id": "northern",
-      "line_name": "Northern",
-      "reason": "Northern Line: Minor delays due to an earlier points failure at Morden.",
-      "severity": "Minor Delays",
-      "source_created": "0001-01-01T00:00:00"
-    },
     "suffragette:text:9a32c000ad157d1d": {
       "category": "power failure",
       "first_seen": "2026-10-23T15:44:45Z",
@@ -40,14 +30,14 @@
       "severity": "Part Suspended",
       "source_created": "0001-01-01T00:00:00"
     },
-    "victoria:text:02e0850cdf11ef25": {
+    "waterloo-city:text:1bbcac27f282d0db": {
       "category": "other",
-      "first_seen": "2026-10-23T15:44:45Z",
-      "issue_key": "victoria:text:02e0850cdf11ef25",
-      "line_id": "victoria",
-      "line_name": "Victoria",
-      "reason": "Victoria Line: Minor delays due to train cancellations.",
-      "severity": "Minor Delays",
+      "first_seen": "2026-10-23T23:34:21Z",
+      "issue_key": "waterloo-city:text:1bbcac27f282d0db",
+      "line_id": "waterloo-city",
+      "line_name": "Waterloo & City",
+      "reason": "Waterloo and City Line: Service will resume at 06:00 on Monday.",
+      "severity": "Service Closed",
       "source_created": "0001-01-01T00:00:00"
     },
     "windrush:text:885ac32163fa3071": {
@@ -62,6 +52,30 @@
     }
   },
   "history": [
+    {
+      "category": "points failure",
+      "duration_seconds": 10634,
+      "first_seen": "2026-10-23T20:37:07Z",
+      "issue_key": "northern:text:1d85ead18577c75b",
+      "line_id": "northern",
+      "line_name": "Northern",
+      "reason": "Northern Line: Minor delays due to an earlier points failure at Morden.",
+      "resolved_at": "2026-10-23T23:34:21Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "other",
+      "duration_seconds": 28176,
+      "first_seen": "2026-10-23T15:44:45Z",
+      "issue_key": "victoria:text:02e0850cdf11ef25",
+      "line_id": "victoria",
+      "line_name": "Victoria",
+      "reason": "Victoria Line: Minor delays due to train cancellations.",
+      "resolved_at": "2026-10-23T23:34:21Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
     {
       "category": "other",
       "duration_seconds": 24848,
@@ -27579,6 +27593,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-10-23T22:38:53Z",
+  "updated_at": "2026-10-23T23:34:21Z",
   "version": 1
 }
