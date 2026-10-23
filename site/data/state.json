@@ -10,64 +10,34 @@
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "district:text:efd9515ba13ca843": {
+    "district:text:60394c7a298f5690": {
       "category": "points failure",
-      "first_seen": "2026-10-23T19:33:09Z",
-      "issue_key": "district:text:efd9515ba13ca843",
+      "first_seen": "2026-10-23T20:37:07Z",
+      "issue_key": "district:text:60394c7a298f5690",
       "line_id": "district",
       "line_name": "District",
-      "reason": "District Line: No service between High Street Kensington and Edgware Road while we fix a points failure at High Street Kensington. Tickets will be accepted on London Buses via any reasonable route. GOOD SERVICE on the rest of the line.",
-      "severity": "Part Suspended",
+      "reason": "District Line: Severe delays between High Street Kensington and Edgware Road while we fix a points failure at High Street Kensington. Tickets will be accepted on London Buses via any reasonable route. GOOD SERVICE on the rest of the line.",
+      "severity": "Severe Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "elizabeth:text:70ef32694c0174fb": {
-      "category": "other",
-      "first_seen": "2026-10-23T19:33:09Z",
-      "issue_key": "elizabeth:text:70ef32694c0174fb",
-      "line_id": "elizabeth",
-      "line_name": "Elizabeth line",
-      "reason": "Minor delays between Paddington and Heathrow Airport/Reading while we fix an infrastructure defect at Southall. GOOD SERVICE on the rest of the line.",
-      "severity": "Minor Delays",
-      "source_created": "0001-01-01T00:00:00"
-    },
-    "jubilee:text:4f59b3fd4f3fc332": {
-      "category": "passenger incident",
-      "first_seen": "2026-10-23T19:33:09Z",
-      "issue_key": "jubilee:text:4f59b3fd4f3fc332",
-      "line_id": "jubilee",
-      "line_name": "Jubilee",
-      "reason": "Jubilee Line: Minor delays while we deal with a customer incident at Canary Wharf.",
-      "severity": "Minor Delays",
-      "source_created": "0001-01-01T00:00:00"
-    },
-    "metropolitan:text:d135156386256353": {
+    "metropolitan:text:61bcabbe73ca2dbe": {
       "category": "signal failure",
-      "first_seen": "2026-10-23T18:30:04Z",
-      "issue_key": "metropolitan:text:d135156386256353",
+      "first_seen": "2026-10-23T20:37:07Z",
+      "issue_key": "metropolitan:text:61bcabbe73ca2dbe",
       "line_id": "metropolitan",
       "line_name": "Metropolitan",
-      "reason": "Metropolitan Line: No service between Chalfont & Latimer and Amersham, and MINOR DELAYS between Rickmansworth and Chesham while we fix a signal failure at Chorleywood. Tickets are being accepted on Chiltern services. GOOD SERVICE on the rest of the line.",
-      "severity": "Part Suspended",
+      "reason": "Metropolitan Line: Severe delays between Watford and Moor Park, and MINOR DELAYS between Rickmansworth and Amersham / Chesham due to an earlier signal failure at Chorleywood. GOOD SERVICE on the rest of the line.",
+      "severity": "Severe Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "mildmay:text:3c32e128e76fdf23": {
-      "category": "train fault",
-      "first_seen": "2026-10-23T17:32:31Z",
-      "issue_key": "mildmay:text:3c32e128e76fdf23",
-      "line_id": "mildmay",
-      "line_name": "Mildmay",
-      "reason": "Mildmay Line: Minor delays due to an earlier faulty train at Dalston Kingsland.",
-      "severity": "Minor Delays",
-      "source_created": "0001-01-01T00:00:00"
-    },
-    "northern:text:476ee6c77a882f7c": {
+    "northern:text:1d85ead18577c75b": {
       "category": "points failure",
-      "first_seen": "2026-10-23T18:30:04Z",
-      "issue_key": "northern:text:476ee6c77a882f7c",
+      "first_seen": "2026-10-23T20:37:07Z",
+      "issue_key": "northern:text:1d85ead18577c75b",
       "line_id": "northern",
       "line_name": "Northern",
-      "reason": "Northern Line: Severe delays due to an earlier points failure at Morden. Tickets will be accepted on London Buses, Southeastern, Thameslink and South Western Railway via any reasonable routes.",
-      "severity": "Severe Delays",
+      "reason": "Northern Line: Minor delays due to an earlier points failure at Morden.",
+      "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
     "suffragette:text:9a32c000ad157d1d": {
@@ -112,6 +82,78 @@
     }
   },
   "history": [
+    {
+      "category": "points failure",
+      "duration_seconds": 3838,
+      "first_seen": "2026-10-23T19:33:09Z",
+      "issue_key": "district:text:efd9515ba13ca843",
+      "line_id": "district",
+      "line_name": "District",
+      "reason": "District Line: No service between High Street Kensington and Edgware Road while we fix a points failure at High Street Kensington. Tickets will be accepted on London Buses via any reasonable route. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-10-23T20:37:07Z",
+      "severity": "Part Suspended",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "other",
+      "duration_seconds": 3838,
+      "first_seen": "2026-10-23T19:33:09Z",
+      "issue_key": "elizabeth:text:70ef32694c0174fb",
+      "line_id": "elizabeth",
+      "line_name": "Elizabeth line",
+      "reason": "Minor delays between Paddington and Heathrow Airport/Reading while we fix an infrastructure defect at Southall. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-10-23T20:37:07Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "passenger incident",
+      "duration_seconds": 3838,
+      "first_seen": "2026-10-23T19:33:09Z",
+      "issue_key": "jubilee:text:4f59b3fd4f3fc332",
+      "line_id": "jubilee",
+      "line_name": "Jubilee",
+      "reason": "Jubilee Line: Minor delays while we deal with a customer incident at Canary Wharf.",
+      "resolved_at": "2026-10-23T20:37:07Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "signal failure",
+      "duration_seconds": 7623,
+      "first_seen": "2026-10-23T18:30:04Z",
+      "issue_key": "metropolitan:text:d135156386256353",
+      "line_id": "metropolitan",
+      "line_name": "Metropolitan",
+      "reason": "Metropolitan Line: No service between Chalfont & Latimer and Amersham, and MINOR DELAYS between Rickmansworth and Chesham while we fix a signal failure at Chorleywood. Tickets are being accepted on Chiltern services. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-10-23T20:37:07Z",
+      "severity": "Part Suspended",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "train fault",
+      "duration_seconds": 11076,
+      "first_seen": "2026-10-23T17:32:31Z",
+      "issue_key": "mildmay:text:3c32e128e76fdf23",
+      "line_id": "mildmay",
+      "line_name": "Mildmay",
+      "reason": "Mildmay Line: Minor delays due to an earlier faulty train at Dalston Kingsland.",
+      "resolved_at": "2026-10-23T20:37:07Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "points failure",
+      "duration_seconds": 7623,
+      "first_seen": "2026-10-23T18:30:04Z",
+      "issue_key": "northern:text:476ee6c77a882f7c",
+      "line_id": "northern",
+      "line_name": "Northern",
+      "reason": "Northern Line: Severe delays due to an earlier points failure at Morden. Tickets will be accepted on London Buses, Southeastern, Thameslink and South Western Railway via any reasonable routes.",
+      "resolved_at": "2026-10-23T20:37:07Z",
+      "severity": "Severe Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
     {
       "category": "train fault",
       "duration_seconds": 3785,
@@ -27509,6 +27551,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-10-23T19:33:09Z",
+  "updated_at": "2026-10-23T20:37:07Z",
   "version": 1
 }
