@@ -10,44 +10,54 @@
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "circle:text:4a684602afc33142": {
+    "circle:text:2eca350a07e2a1df": {
       "category": "train fault",
-      "first_seen": "2026-10-23T07:22:41Z",
-      "issue_key": "circle:text:4a684602afc33142",
+      "first_seen": "2026-10-23T09:32:02Z",
+      "issue_key": "circle:text:2eca350a07e2a1df",
       "line_id": "circle",
       "line_name": "Circle",
-      "reason": "Circle Line: Minor delays Anticlockwise only while we fix a faulty train at Edgware Road. GOOD SERVICE Clockwise.",
+      "reason": "Circle Line: Minor delays due to an earlier faulty train at Euston Square.",
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "metropolitan:text:fe19fed6ae1799e7": {
+    "hammersmith-city:text:a9b8f6dbc6f45998": {
+      "category": "train fault",
+      "first_seen": "2026-10-23T09:32:02Z",
+      "issue_key": "hammersmith-city:text:a9b8f6dbc6f45998",
+      "line_id": "hammersmith-city",
+      "line_name": "Hammersmith & City",
+      "reason": "Hammersmith and City Line: Minor delays due to an earlier faulty train at Euston Square.",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "metropolitan:text:6060ea77f0ea4e36": {
       "category": "signal failure",
-      "first_seen": "2026-10-23T07:22:41Z",
-      "issue_key": "metropolitan:text:fe19fed6ae1799e7",
+      "first_seen": "2026-10-23T09:32:02Z",
+      "issue_key": "metropolitan:text:6060ea77f0ea4e36",
       "line_id": "metropolitan",
       "line_name": "Metropolitan",
-      "reason": "Metropolitan Line: Severe delays while we fix a signal failure at Harrow-on-the-Hill.",
+      "reason": "Metropolitan Line: Severe delays due to an earlier signal failure at Harrow-on-the-Hill and an earlier faulty train at Euston Square. Tickets are being accepted on London Buses, Lioness Line, London Northwestern Railway, Chiltern Railways and Thameslink via any reasonable route.",
       "severity": "Severe Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "mildmay:text:d44f8b983ff9825b": {
+    "northern:text:e387fb73dcb049ac": {
       "category": "signal failure",
-      "first_seen": "2026-10-23T05:50:02Z",
-      "issue_key": "mildmay:text:d44f8b983ff9825b",
-      "line_id": "mildmay",
-      "line_name": "Mildmay",
-      "reason": "Mildmay Line: Severe delays while we fix a signal failure at Stratford.",
-      "severity": "Severe Delays",
+      "first_seen": "2026-10-23T09:32:02Z",
+      "issue_key": "northern:text:e387fb73dcb049ac",
+      "line_id": "northern",
+      "line_name": "Northern",
+      "reason": "Northern Line: No service between High Barnet and Camden Town southbound only due to an earlier signal failure at Archway. SEVERE DELAYS on the rest of the line. Tickets are being accepted on London Buses via any reasonable route.",
+      "severity": "Part Suspended",
       "source_created": "0001-01-01T00:00:00"
     },
-    "piccadilly:text:653a1244bcfff562": {
+    "piccadilly:text:3462d5b773798dac": {
       "category": "signal failure",
-      "first_seen": "2026-10-23T07:22:41Z",
-      "issue_key": "piccadilly:text:653a1244bcfff562",
+      "first_seen": "2026-10-23T09:32:02Z",
+      "issue_key": "piccadilly:text:3462d5b773798dac",
       "line_id": "piccadilly",
       "line_name": "Piccadilly",
-      "reason": "Piccadilly Line: No service between Rayners Lane and Uxbridge while we fix a signal failure. Please use the Metropolitan line between Rayners Lane and Uxbridge. SEVERE DELAYS on the rest of the line. Tickets are being accepted on London Buses and Elizabeth Line.",
-      "severity": "Part Suspended",
+      "reason": "Piccadilly Line: Severe delays while we fix a signal failure at Leicester Square. Please avoid the Piccadilly line where possible. Tickets are being accepted on London Buses, Elizabeth Line, Great Northern, Weaver Line and South Western Railway.",
+      "severity": "Severe Delays",
       "source_created": "0001-01-01T00:00:00"
     },
     "tram:text:259ee1afa575c655": {
@@ -59,19 +69,69 @@
       "reason": "London Tramlink: No service between Arena and Elmers End all day due to a track fault at Lebanon Road. GOOD SERVICE on other tram routes.",
       "severity": "Part Suspended",
       "source_created": "0001-01-01T00:00:00"
+    }
+  },
+  "history": [
+    {
+      "category": "train fault",
+      "duration_seconds": 7761,
+      "first_seen": "2026-10-23T07:22:41Z",
+      "issue_key": "circle:text:4a684602afc33142",
+      "line_id": "circle",
+      "line_name": "Circle",
+      "reason": "Circle Line: Minor delays Anticlockwise only while we fix a faulty train at Edgware Road. GOOD SERVICE Clockwise.",
+      "resolved_at": "2026-10-23T09:32:02Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
     },
-    "victoria:text:02e0850cdf11ef25": {
+    {
+      "category": "signal failure",
+      "duration_seconds": 7761,
+      "first_seen": "2026-10-23T07:22:41Z",
+      "issue_key": "metropolitan:text:fe19fed6ae1799e7",
+      "line_id": "metropolitan",
+      "line_name": "Metropolitan",
+      "reason": "Metropolitan Line: Severe delays while we fix a signal failure at Harrow-on-the-Hill.",
+      "resolved_at": "2026-10-23T09:32:02Z",
+      "severity": "Severe Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "signal failure",
+      "duration_seconds": 13320,
+      "first_seen": "2026-10-23T05:50:02Z",
+      "issue_key": "mildmay:text:d44f8b983ff9825b",
+      "line_id": "mildmay",
+      "line_name": "Mildmay",
+      "reason": "Mildmay Line: Severe delays while we fix a signal failure at Stratford.",
+      "resolved_at": "2026-10-23T09:32:02Z",
+      "severity": "Severe Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "signal failure",
+      "duration_seconds": 7761,
+      "first_seen": "2026-10-23T07:22:41Z",
+      "issue_key": "piccadilly:text:653a1244bcfff562",
+      "line_id": "piccadilly",
+      "line_name": "Piccadilly",
+      "reason": "Piccadilly Line: No service between Rayners Lane and Uxbridge while we fix a signal failure. Please use the Metropolitan line between Rayners Lane and Uxbridge. SEVERE DELAYS on the rest of the line. Tickets are being accepted on London Buses and Elizabeth Line.",
+      "resolved_at": "2026-10-23T09:32:02Z",
+      "severity": "Part Suspended",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
       "category": "other",
+      "duration_seconds": 7761,
       "first_seen": "2026-10-23T07:22:41Z",
       "issue_key": "victoria:text:02e0850cdf11ef25",
       "line_id": "victoria",
       "line_name": "Victoria",
       "reason": "Victoria Line: Minor delays due to train cancellations.",
+      "resolved_at": "2026-10-23T09:32:02Z",
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
-    }
-  },
-  "history": [
+    },
     {
       "category": "train fault",
       "duration_seconds": 5559,
@@ -27133,6 +27193,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-10-23T07:22:41Z",
+  "updated_at": "2026-10-23T09:32:02Z",
   "version": 1
 }
