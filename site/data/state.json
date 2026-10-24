@@ -36,8 +36,8 @@
       "issue_key": "dlr:text:72d95bc32dd94cb1",
       "line_id": "dlr",
       "line_name": "DLR",
-      "reason": "Docklands Light Railway: Minor delays between Bank and Woolwich Arsenal, and between Tower Gateway and Beckton while we fix a points failure at Canning Town. GOOD SERVICE on other DLR routes.",
-      "severity": "Minor Delays",
+      "reason": "Docklands Light Railway: Severe delays between Bank and Woolwich Arsenal, and between Tower Gateway and Beckton while we fix a points failure at Canning Town. GOOD SERVICE on other DLR routes.",
+      "severity": "Severe Delays",
       "source_created": "0001-01-01T00:00:00"
     },
     "jubilee:text:ccf8593c757cea28": {
@@ -50,24 +50,14 @@
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "metropolitan:text:58dcfdd96b414135": {
+    "metropolitan:text:1b3d41de1d5f2a5d": {
       "category": "other",
-      "first_seen": "2026-10-24T21:08:26Z",
-      "issue_key": "metropolitan:text:58dcfdd96b414135",
+      "first_seen": "2026-10-24T21:32:52Z",
+      "issue_key": "metropolitan:text:1b3d41de1d5f2a5d",
       "line_id": "metropolitan",
       "line_name": "Metropolitan",
-      "reason": "Metropolitan Line: No service between Harrow-on-the-Hill and Baker Street southbound only while we remove a tree from the track at Neasden. SEVERE DELAYS between Moor Park and Watford due to train cancellations. The next southbound train from Watford will be at 22:08. GOOD SERVICE on the rest of the line.",
+      "reason": "Metropolitan Line: No service between Harrow-on-the-Hill and Aldgate southbound only and SEVERE DELAYS on the rest of the line while we remove a tree from the track at Neasden. London Buses, Chiltern Railways, Lioness line and Thameslink are accepting valid tickets via any reasonable route.",
       "severity": "Part Suspended",
-      "source_created": "0001-01-01T00:00:00"
-    },
-    "mildmay:text:05a2bee98e3c4a88": {
-      "category": "planned engineering",
-      "first_seen": "2026-10-24T19:39:40Z",
-      "issue_key": "mildmay:text:05a2bee98e3c4a88",
-      "line_id": "mildmay",
-      "line_name": "Mildmay",
-      "reason": "Mildmay Line: No service between Richmond and Stratford due to an earlier obstruction from the overhead power lines at West Hampstead. NO SERVICE between Willesden Junction and Shepherd's Bush due to planned engineering work. Tickets are being accepted on London Underground. GOOD SERVICE on the rest of the line.",
-      "severity": "Severe Delays",
       "source_created": "0001-01-01T00:00:00"
     },
     "mildmay:text:1b30f53a3ffce6d1": {
@@ -122,6 +112,30 @@
     }
   },
   "history": [
+    {
+      "category": "other",
+      "duration_seconds": 1466,
+      "first_seen": "2026-10-24T21:08:26Z",
+      "issue_key": "metropolitan:text:58dcfdd96b414135",
+      "line_id": "metropolitan",
+      "line_name": "Metropolitan",
+      "reason": "Metropolitan Line: No service between Harrow-on-the-Hill and Baker Street southbound only while we remove a tree from the track at Neasden. SEVERE DELAYS between Moor Park and Watford due to train cancellations. The next southbound train from Watford will be at 22:08. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-10-24T21:32:52Z",
+      "severity": "Part Suspended",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "planned engineering",
+      "duration_seconds": 6792,
+      "first_seen": "2026-10-24T19:39:40Z",
+      "issue_key": "mildmay:text:05a2bee98e3c4a88",
+      "line_id": "mildmay",
+      "line_name": "Mildmay",
+      "reason": "Mildmay Line: No service between Richmond and Stratford due to an earlier obstruction from the overhead power lines at West Hampstead. NO SERVICE between Willesden Junction and Shepherd's Bush due to planned engineering work. Tickets are being accepted on London Underground. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-10-24T21:32:52Z",
+      "severity": "Severe Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
     {
       "category": "other",
       "duration_seconds": 28353,
@@ -28131,6 +28145,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-10-24T21:08:26Z",
+  "updated_at": "2026-10-24T21:32:52Z",
   "version": 1
 }
