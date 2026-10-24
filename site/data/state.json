@@ -20,13 +20,13 @@
       "severity": "Part Closure",
       "source_created": "0001-01-01T00:00:00"
     },
-    "metropolitan:text:a8f510bb7f37cd6d": {
+    "metropolitan:text:caa087d97bd04b97": {
       "category": "other",
-      "first_seen": "2026-10-24T07:12:47Z",
-      "issue_key": "metropolitan:text:a8f510bb7f37cd6d",
+      "first_seen": "2026-10-24T12:04:48Z",
+      "issue_key": "metropolitan:text:caa087d97bd04b97",
       "line_id": "metropolitan",
       "line_name": "Metropolitan",
-      "reason": "Metropolitan Line: Minor delays between Harrow-on-the-Hill and Uxbridge and between Moor Park and Watford due to train cancellations. GOOD SERVICE on the rest of the line.",
+      "reason": "Metropolitan Line: Minor delays between Moor Park and Watford/Amersham/Chesham due to train cancellations. GOOD SERVICE on the rest of the line.",
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
@@ -72,6 +72,18 @@
     }
   },
   "history": [
+    {
+      "category": "other",
+      "duration_seconds": 17521,
+      "first_seen": "2026-10-24T07:12:47Z",
+      "issue_key": "metropolitan:text:a8f510bb7f37cd6d",
+      "line_id": "metropolitan",
+      "line_name": "Metropolitan",
+      "reason": "Metropolitan Line: Minor delays between Harrow-on-the-Hill and Uxbridge and between Moor Park and Watford due to train cancellations. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-10-24T12:04:48Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
     {
       "category": "train fault",
       "duration_seconds": 4722,
@@ -27901,6 +27913,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-10-24T07:12:47Z",
+  "updated_at": "2026-10-24T12:04:48Z",
   "version": 1
 }
