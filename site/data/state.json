@@ -50,13 +50,13 @@
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "metropolitan:text:1b3d41de1d5f2a5d": {
+    "metropolitan:text:ca6c487f9db085d0": {
       "category": "other",
-      "first_seen": "2026-10-24T21:32:52Z",
-      "issue_key": "metropolitan:text:1b3d41de1d5f2a5d",
+      "first_seen": "2026-10-24T21:54:40Z",
+      "issue_key": "metropolitan:text:ca6c487f9db085d0",
       "line_id": "metropolitan",
       "line_name": "Metropolitan",
-      "reason": "Metropolitan Line: No service between Harrow-on-the-Hill and Aldgate southbound only and SEVERE DELAYS on the rest of the line while we remove a tree from the track at Neasden. London Buses, Chiltern Railways, Lioness line and Thameslink are accepting valid tickets via any reasonable route.",
+      "reason": "Metropolitan Line: No service between Harrow-on-the-Hill and Aldgate southbound only and SEVERE DELAYS on the rest of the line while we remove a tree from the track at Neasden. London Buses, London Northwestern Railway, Chiltern Railways, Lioness line and Thameslink are accepting valid tickets via any reasonable route.",
       "severity": "Part Suspended",
       "source_created": "0001-01-01T00:00:00"
     },
@@ -112,6 +112,18 @@
     }
   },
   "history": [
+    {
+      "category": "other",
+      "duration_seconds": 1308,
+      "first_seen": "2026-10-24T21:32:52Z",
+      "issue_key": "metropolitan:text:1b3d41de1d5f2a5d",
+      "line_id": "metropolitan",
+      "line_name": "Metropolitan",
+      "reason": "Metropolitan Line: No service between Harrow-on-the-Hill and Aldgate southbound only and SEVERE DELAYS on the rest of the line while we remove a tree from the track at Neasden. London Buses, Chiltern Railways, Lioness line and Thameslink are accepting valid tickets via any reasonable route.",
+      "resolved_at": "2026-10-24T21:54:40Z",
+      "severity": "Part Suspended",
+      "source_created": "0001-01-01T00:00:00"
+    },
     {
       "category": "other",
       "duration_seconds": 1466,
@@ -28145,6 +28157,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-10-24T21:32:52Z",
+  "updated_at": "2026-10-24T21:54:40Z",
   "version": 1
 }
