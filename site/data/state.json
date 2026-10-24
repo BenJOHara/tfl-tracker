@@ -1,13 +1,13 @@
 {
   "active": {
-    "central:text:d80c519088e5cf43": {
+    "central:text:6d0af7c9d44f714a": {
       "category": "other",
-      "first_seen": "2026-10-24T13:15:53Z",
-      "issue_key": "central:text:d80c519088e5cf43",
+      "first_seen": "2026-10-24T21:08:26Z",
+      "issue_key": "central:text:6d0af7c9d44f714a",
       "line_id": "central",
       "line_name": "Central",
-      "reason": "Central Line: Severe delays due to train cancellations. Tickets are being accepted on London Buses, Liberty Line, Elizabeth line, Chiltern Railways, Greater Anglia and Great Western Railway.",
-      "severity": "Severe Delays",
+      "reason": "Central Line: Minor delays due to train cancellations.",
+      "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
     "circle:text:b4c2958bc40a4e7e": {
@@ -30,24 +30,34 @@
       "severity": "Part Closure",
       "source_created": "0001-01-01T00:00:00"
     },
-    "jubilee:text:24506b4af1d1870a": {
-      "category": "train fault",
-      "first_seen": "2026-10-24T19:39:40Z",
-      "issue_key": "jubilee:text:24506b4af1d1870a",
-      "line_id": "jubilee",
-      "line_name": "Jubilee",
-      "reason": "Jubilee Line: Severe delays west/northbound only due to an earlier faulty train at Westminster. MINOR DELAYS on the rest of the line due to an earlier faulty train at Finchley Road. London Buses, Elizabeth line, Thameslink and DLR are accepting valid tickets via any reasonable route.",
-      "severity": "Severe Delays",
+    "dlr:text:72d95bc32dd94cb1": {
+      "category": "points failure",
+      "first_seen": "2026-10-24T21:08:26Z",
+      "issue_key": "dlr:text:72d95bc32dd94cb1",
+      "line_id": "dlr",
+      "line_name": "DLR",
+      "reason": "Docklands Light Railway: Minor delays between Bank and Woolwich Arsenal, and between Tower Gateway and Beckton while we fix a points failure at Canning Town. GOOD SERVICE on other DLR routes.",
+      "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "metropolitan:text:09872e1b7ca0ec63": {
+    "jubilee:text:ccf8593c757cea28": {
+      "category": "train fault",
+      "first_seen": "2026-10-24T21:08:26Z",
+      "issue_key": "jubilee:text:ccf8593c757cea28",
+      "line_id": "jubilee",
+      "line_name": "Jubilee",
+      "reason": "Jubilee Line: Minor delays due to an earlier faulty train at Westminster and Finchley Road.",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "metropolitan:text:58dcfdd96b414135": {
       "category": "other",
-      "first_seen": "2026-10-24T19:05:03Z",
-      "issue_key": "metropolitan:text:09872e1b7ca0ec63",
+      "first_seen": "2026-10-24T21:08:26Z",
+      "issue_key": "metropolitan:text:58dcfdd96b414135",
       "line_id": "metropolitan",
       "line_name": "Metropolitan",
-      "reason": "Metropolitan Line: Severe delays between Moor Park and Watford, and MINOR DELAYS between Moor Park and Chesham due to train cancellations. The next southbound train from Watford will be at 20:38. The next southbound train from Chesham will be at 20:26. GOOD SERVICE on the rest of the line.",
-      "severity": "Minor Delays",
+      "reason": "Metropolitan Line: No service between Harrow-on-the-Hill and Baker Street southbound only while we remove a tree from the track at Neasden. SEVERE DELAYS between Moor Park and Watford due to train cancellations. The next southbound train from Watford will be at 22:08. GOOD SERVICE on the rest of the line.",
+      "severity": "Part Suspended",
       "source_created": "0001-01-01T00:00:00"
     },
     "mildmay:text:05a2bee98e3c4a88": {
@@ -78,16 +88,6 @@
       "line_name": "Mildmay",
       "reason": "MILDMAY LINE: From 1930 Saturday 24 until 1200 Sunday 25 October, no service between Willesden Junction and Shepherds Bush. There will also be no SOUTHERN services between Watford Junction and Shepherds Bush at these times. Please use local London Buses connections on Routes 220 and 228.",
       "severity": "Part Closure",
-      "source_created": "0001-01-01T00:00:00"
-    },
-    "northern:text:0f0093664a5f15c4": {
-      "category": "other",
-      "first_seen": "2026-10-24T19:39:40Z",
-      "issue_key": "northern:text:0f0093664a5f15c4",
-      "line_id": "northern",
-      "line_name": "Northern",
-      "reason": "Northern Line: Minor delays between Morden and Camden Town via Bank only due to train cancellations. GOOD SERVICE on the rest of the line.",
-      "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
     "suffragette:text:cb90fb7599ab69cb": {
@@ -122,6 +122,54 @@
     }
   },
   "history": [
+    {
+      "category": "other",
+      "duration_seconds": 28353,
+      "first_seen": "2026-10-24T13:15:53Z",
+      "issue_key": "central:text:d80c519088e5cf43",
+      "line_id": "central",
+      "line_name": "Central",
+      "reason": "Central Line: Severe delays due to train cancellations. Tickets are being accepted on London Buses, Liberty Line, Elizabeth line, Chiltern Railways, Greater Anglia and Great Western Railway.",
+      "resolved_at": "2026-10-24T21:08:26Z",
+      "severity": "Severe Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "train fault",
+      "duration_seconds": 5326,
+      "first_seen": "2026-10-24T19:39:40Z",
+      "issue_key": "jubilee:text:24506b4af1d1870a",
+      "line_id": "jubilee",
+      "line_name": "Jubilee",
+      "reason": "Jubilee Line: Severe delays west/northbound only due to an earlier faulty train at Westminster. MINOR DELAYS on the rest of the line due to an earlier faulty train at Finchley Road. London Buses, Elizabeth line, Thameslink and DLR are accepting valid tickets via any reasonable route.",
+      "resolved_at": "2026-10-24T21:08:26Z",
+      "severity": "Severe Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "other",
+      "duration_seconds": 7403,
+      "first_seen": "2026-10-24T19:05:03Z",
+      "issue_key": "metropolitan:text:09872e1b7ca0ec63",
+      "line_id": "metropolitan",
+      "line_name": "Metropolitan",
+      "reason": "Metropolitan Line: Severe delays between Moor Park and Watford, and MINOR DELAYS between Moor Park and Chesham due to train cancellations. The next southbound train from Watford will be at 20:38. The next southbound train from Chesham will be at 20:26. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-10-24T21:08:26Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "other",
+      "duration_seconds": 5326,
+      "first_seen": "2026-10-24T19:39:40Z",
+      "issue_key": "northern:text:0f0093664a5f15c4",
+      "line_id": "northern",
+      "line_name": "Northern",
+      "reason": "Northern Line: Minor delays between Morden and Camden Town via Bank only due to train cancellations. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-10-24T21:08:26Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
     {
       "category": "train fault",
       "duration_seconds": 2077,
@@ -28083,6 +28131,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-10-24T19:39:40Z",
+  "updated_at": "2026-10-24T21:08:26Z",
   "version": 1
 }
