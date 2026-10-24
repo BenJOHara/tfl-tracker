@@ -20,23 +20,23 @@
       "severity": "Part Closure",
       "source_created": "0001-01-01T00:00:00"
     },
-    "northern:text:0ddca3d8b6d236d9": {
-      "category": "train fault",
-      "first_seen": "2026-10-24T05:54:05Z",
-      "issue_key": "northern:text:0ddca3d8b6d236d9",
-      "line_id": "northern",
-      "line_name": "Northern",
-      "reason": "Northern Line: Minor delays between Edgware and Camden Town due to an earlier faulty train at Golders Green. GOOD SERVICE on the rest of the line.",
+    "metropolitan:text:a8f510bb7f37cd6d": {
+      "category": "other",
+      "first_seen": "2026-10-24T07:12:47Z",
+      "issue_key": "metropolitan:text:a8f510bb7f37cd6d",
+      "line_id": "metropolitan",
+      "line_name": "Metropolitan",
+      "reason": "Metropolitan Line: Minor delays between Harrow-on-the-Hill and Uxbridge and between Moor Park and Watford due to train cancellations. GOOD SERVICE on the rest of the line.",
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "suffragette:text:1da6736e59da93ec": {
+    "suffragette:text:cb90fb7599ab69cb": {
       "category": "other",
-      "first_seen": "2026-10-24T04:27:15Z",
-      "issue_key": "suffragette:text:1da6736e59da93ec",
+      "first_seen": "2026-10-24T07:12:47Z",
+      "issue_key": "suffragette:text:cb90fb7599ab69cb",
       "line_id": "suffragette",
       "line_name": "Suffragette",
-      "reason": "Suffragette Line: No service between Barking Riverside and Barking and MINOR DELAYS on the rest of the line due to an operational incident.",
+      "reason": "Suffragette Line: No service between Barking Riverside and Barking due to an operational incident. MINOR DELAYS on the rest of the line",
       "severity": "Part Suspended",
       "source_created": "0001-01-01T00:00:00"
     },
@@ -72,6 +72,30 @@
     }
   },
   "history": [
+    {
+      "category": "train fault",
+      "duration_seconds": 4722,
+      "first_seen": "2026-10-24T05:54:05Z",
+      "issue_key": "northern:text:0ddca3d8b6d236d9",
+      "line_id": "northern",
+      "line_name": "Northern",
+      "reason": "Northern Line: Minor delays between Edgware and Camden Town due to an earlier faulty train at Golders Green. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-10-24T07:12:47Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "other",
+      "duration_seconds": 9932,
+      "first_seen": "2026-10-24T04:27:15Z",
+      "issue_key": "suffragette:text:1da6736e59da93ec",
+      "line_id": "suffragette",
+      "line_name": "Suffragette",
+      "reason": "Suffragette Line: No service between Barking Riverside and Barking and MINOR DELAYS on the rest of the line due to an operational incident.",
+      "resolved_at": "2026-10-24T07:12:47Z",
+      "severity": "Part Suspended",
+      "source_created": "0001-01-01T00:00:00"
+    },
     {
       "category": "train fault",
       "duration_seconds": 5210,
@@ -27877,6 +27901,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-10-24T05:54:05Z",
+  "updated_at": "2026-10-24T07:12:47Z",
   "version": 1
 }
