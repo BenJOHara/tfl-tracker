@@ -60,13 +60,13 @@
       "severity": "Part Closure",
       "source_created": "0001-01-01T00:00:00"
     },
-    "piccadilly:text:b984fbf5266ee956": {
+    "piccadilly:text:b93f062ea06e963d": {
       "category": "other",
-      "first_seen": "2026-10-24T23:23:41Z",
-      "issue_key": "piccadilly:text:b984fbf5266ee956",
+      "first_seen": "2026-10-24T23:39:35Z",
+      "issue_key": "piccadilly:text:b93f062ea06e963d",
       "line_id": "piccadilly",
       "line_name": "Piccadilly",
-      "reason": "Piccadilly Line: Severe delays between Acton Town and Heathrow Terminals due to an earlier tree on the track at Hounslow West. London Buses and Elizabeth line are accepting valid tickets. GOOD SERVICE on the rest of the line.",
+      "reason": "Piccadilly Line: Severe delays between Acton Town and Heathrow Terminals due to an earlier tree on the track at Hounslow West. London Buses are accepting valid tickets. GOOD SERVICE on the rest of the line.",
       "severity": "Severe Delays",
       "source_created": "0001-01-01T00:00:00"
     },
@@ -102,6 +102,18 @@
     }
   },
   "history": [
+    {
+      "category": "other",
+      "duration_seconds": 954,
+      "first_seen": "2026-10-24T23:23:41Z",
+      "issue_key": "piccadilly:text:b984fbf5266ee956",
+      "line_id": "piccadilly",
+      "line_name": "Piccadilly",
+      "reason": "Piccadilly Line: Severe delays between Acton Town and Heathrow Terminals due to an earlier tree on the track at Hounslow West. London Buses and Elizabeth line are accepting valid tickets. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-10-24T23:39:35Z",
+      "severity": "Severe Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
     {
       "category": "other",
       "duration_seconds": 8115,
@@ -28183,6 +28195,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-10-24T23:23:41Z",
+  "updated_at": "2026-10-24T23:39:35Z",
   "version": 1
 }
