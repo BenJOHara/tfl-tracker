@@ -30,13 +30,13 @@
       "severity": "Part Closure",
       "source_created": "0001-01-01T00:00:00"
     },
-    "jubilee:text:a8dd7c5c047ffc48": {
+    "jubilee:text:24506b4af1d1870a": {
       "category": "train fault",
-      "first_seen": "2026-10-24T19:05:03Z",
-      "issue_key": "jubilee:text:a8dd7c5c047ffc48",
+      "first_seen": "2026-10-24T19:39:40Z",
+      "issue_key": "jubilee:text:24506b4af1d1870a",
       "line_id": "jubilee",
       "line_name": "Jubilee",
-      "reason": "Jubilee Line: Severe delays south/eastbound only due to an earlier faulty train at Westminster. MINOR DELAYS on the rest of the line due to an earlier faulty train at Finchley Road. London Buses, Elizabeth line, Thameslink and DLR are accepting valid tickets via any reasonable route.",
+      "reason": "Jubilee Line: Severe delays west/northbound only due to an earlier faulty train at Westminster. MINOR DELAYS on the rest of the line due to an earlier faulty train at Finchley Road. London Buses, Elizabeth line, Thameslink and DLR are accepting valid tickets via any reasonable route.",
       "severity": "Severe Delays",
       "source_created": "0001-01-01T00:00:00"
     },
@@ -46,7 +46,17 @@
       "issue_key": "metropolitan:text:09872e1b7ca0ec63",
       "line_id": "metropolitan",
       "line_name": "Metropolitan",
-      "reason": "Metropolitan Line: Severe delays between Moor Park and Watford, and MINOR DELAYS between Moor Park and Chesham due to train cancellations. The next southbound train from Watford will be at 20:23. The next southbound train from Chesham will be at 20:26. GOOD SERVICE on the rest of the line.",
+      "reason": "Metropolitan Line: Severe delays between Moor Park and Watford, and MINOR DELAYS between Moor Park and Chesham due to train cancellations. The next southbound train from Watford will be at 20:38. The next southbound train from Chesham will be at 20:26. GOOD SERVICE on the rest of the line.",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "mildmay:text:05a2bee98e3c4a88": {
+      "category": "planned engineering",
+      "first_seen": "2026-10-24T19:39:40Z",
+      "issue_key": "mildmay:text:05a2bee98e3c4a88",
+      "line_id": "mildmay",
+      "line_name": "Mildmay",
+      "reason": "Mildmay Line: No service between Richmond and Stratford due to an earlier obstruction from the overhead power lines at West Hampstead. NO SERVICE between Willesden Junction and Shepherd's Bush due to planned engineering work. Tickets are being accepted on London Underground. GOOD SERVICE on the rest of the line.",
       "severity": "Severe Delays",
       "source_created": "0001-01-01T00:00:00"
     },
@@ -70,23 +80,13 @@
       "severity": "Part Closure",
       "source_created": "0001-01-01T00:00:00"
     },
-    "mildmay:text:bb69ebaeec283824": {
+    "northern:text:0f0093664a5f15c4": {
       "category": "other",
-      "first_seen": "2026-10-24T17:27:14Z",
-      "issue_key": "mildmay:text:bb69ebaeec283824",
-      "line_id": "mildmay",
-      "line_name": "Mildmay",
-      "reason": "Mildmay Line: No service while we remove an obstruction from the overhead power lines at West Hampstead. Tickets are being accepted on London Underground.",
-      "severity": "Suspended",
-      "source_created": "0001-01-01T00:00:00"
-    },
-    "northern:text:83f200e2b5da9c16": {
-      "category": "other",
-      "first_seen": "2026-10-24T19:05:03Z",
-      "issue_key": "northern:text:83f200e2b5da9c16",
+      "first_seen": "2026-10-24T19:39:40Z",
+      "issue_key": "northern:text:0f0093664a5f15c4",
       "line_id": "northern",
       "line_name": "Northern",
-      "reason": "Northern Line: Minor delays between Morden and Camden Town via Bank due to train cancellations. GOOD SERVICE on the rest of the line.",
+      "reason": "Northern Line: Minor delays between Morden and Camden Town via Bank only due to train cancellations. GOOD SERVICE on the rest of the line.",
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
@@ -119,19 +119,57 @@
       "reason": "Waterloo & City line: service operates 06:00 until 00:30, Monday to Friday only. There is no service on Saturdays, Sundays and on bank/public holidays.",
       "severity": "Planned Closure",
       "source_created": "0001-01-01T00:00:00"
+    }
+  },
+  "history": [
+    {
+      "category": "train fault",
+      "duration_seconds": 2077,
+      "first_seen": "2026-10-24T19:05:03Z",
+      "issue_key": "jubilee:text:a8dd7c5c047ffc48",
+      "line_id": "jubilee",
+      "line_name": "Jubilee",
+      "reason": "Jubilee Line: Severe delays south/eastbound only due to an earlier faulty train at Westminster. MINOR DELAYS on the rest of the line due to an earlier faulty train at Finchley Road. London Buses, Elizabeth line, Thameslink and DLR are accepting valid tickets via any reasonable route.",
+      "resolved_at": "2026-10-24T19:39:40Z",
+      "severity": "Severe Delays",
+      "source_created": "0001-01-01T00:00:00"
     },
-    "waterloo-city:text:1bbcac27f282d0db": {
+    {
       "category": "other",
+      "duration_seconds": 7946,
+      "first_seen": "2026-10-24T17:27:14Z",
+      "issue_key": "mildmay:text:bb69ebaeec283824",
+      "line_id": "mildmay",
+      "line_name": "Mildmay",
+      "reason": "Mildmay Line: No service while we remove an obstruction from the overhead power lines at West Hampstead. Tickets are being accepted on London Underground.",
+      "resolved_at": "2026-10-24T19:39:40Z",
+      "severity": "Suspended",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "other",
+      "duration_seconds": 2077,
+      "first_seen": "2026-10-24T19:05:03Z",
+      "issue_key": "northern:text:83f200e2b5da9c16",
+      "line_id": "northern",
+      "line_name": "Northern",
+      "reason": "Northern Line: Minor delays between Morden and Camden Town via Bank due to train cancellations. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-10-24T19:39:40Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "other",
+      "duration_seconds": 72319,
       "first_seen": "2026-10-23T23:34:21Z",
       "issue_key": "waterloo-city:text:1bbcac27f282d0db",
       "line_id": "waterloo-city",
       "line_name": "Waterloo & City",
       "reason": "Waterloo and City Line: Service will resume at 06:00 on Monday.",
+      "resolved_at": "2026-10-24T19:39:40Z",
       "severity": "Service Closed",
       "source_created": "0001-01-01T00:00:00"
-    }
-  },
-  "history": [
+    },
     {
       "category": "train fault",
       "duration_seconds": 5869,
@@ -28045,6 +28083,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-10-24T19:05:03Z",
+  "updated_at": "2026-10-24T19:39:40Z",
   "version": 1
 }
