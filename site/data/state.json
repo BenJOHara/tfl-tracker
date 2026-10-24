@@ -20,24 +20,14 @@
       "severity": "Part Closure",
       "source_created": "0001-01-01T00:00:00"
     },
-    "northern:text:58dc25999bb63ea9": {
+    "northern:text:0ddca3d8b6d236d9": {
       "category": "train fault",
-      "first_seen": "2026-10-24T04:27:15Z",
-      "issue_key": "northern:text:58dc25999bb63ea9",
+      "first_seen": "2026-10-24T05:54:05Z",
+      "issue_key": "northern:text:0ddca3d8b6d236d9",
       "line_id": "northern",
       "line_name": "Northern",
-      "reason": "Northern Line: No service between Golders Green and Camden Town while we fix a faulty train at Golders Green. GOOD SERVICE on the rest of the line.",
-      "severity": "Part Suspended",
-      "source_created": "0001-01-01T00:00:00"
-    },
-    "piccadilly:text:b749ba89d24ce3e0": {
-      "category": "signal failure",
-      "first_seen": "2026-10-24T04:27:15Z",
-      "issue_key": "piccadilly:text:b749ba89d24ce3e0",
-      "line_id": "piccadilly",
-      "line_name": "Piccadilly",
-      "reason": "Piccadilly Line: Severe delays due to earlier emergency engineering work to fix a signal fault at Leicester Square. London Buses are accepting tickets via any reasonable route. GOOD SERVICE on the rest of the line.",
-      "severity": "Severe Delays",
+      "reason": "Northern Line: Minor delays between Edgware and Camden Town due to an earlier faulty train at Golders Green. GOOD SERVICE on the rest of the line.",
+      "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
     "suffragette:text:1da6736e59da93ec": {
@@ -79,19 +69,45 @@
       "reason": "Waterloo and City Line: Service will resume at 06:00 on Monday.",
       "severity": "Service Closed",
       "source_created": "0001-01-01T00:00:00"
+    }
+  },
+  "history": [
+    {
+      "category": "train fault",
+      "duration_seconds": 5210,
+      "first_seen": "2026-10-24T04:27:15Z",
+      "issue_key": "northern:text:58dc25999bb63ea9",
+      "line_id": "northern",
+      "line_name": "Northern",
+      "reason": "Northern Line: No service between Golders Green and Camden Town while we fix a faulty train at Golders Green. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-10-24T05:54:05Z",
+      "severity": "Part Suspended",
+      "source_created": "0001-01-01T00:00:00"
     },
-    "windrush:text:4c8aa7364699e8c8": {
+    {
       "category": "signal failure",
+      "duration_seconds": 5210,
+      "first_seen": "2026-10-24T04:27:15Z",
+      "issue_key": "piccadilly:text:b749ba89d24ce3e0",
+      "line_id": "piccadilly",
+      "line_name": "Piccadilly",
+      "reason": "Piccadilly Line: Severe delays due to earlier emergency engineering work to fix a signal fault at Leicester Square. London Buses are accepting tickets via any reasonable route. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-10-24T05:54:05Z",
+      "severity": "Severe Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "signal failure",
+      "duration_seconds": 5210,
       "first_seen": "2026-10-24T04:27:15Z",
       "issue_key": "windrush:text:4c8aa7364699e8c8",
       "line_id": "windrush",
       "line_name": "Windrush",
       "reason": "Windrush Line: No service between Sydenham and West Croydon while we fix a signal failure at Norwood Junction. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-10-24T05:54:05Z",
       "severity": "Part Suspended",
       "source_created": "0001-01-01T00:00:00"
-    }
-  },
-  "history": [
+    },
     {
       "category": "other",
       "duration_seconds": 11948,
@@ -27861,6 +27877,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-10-24T04:27:15Z",
+  "updated_at": "2026-10-24T05:54:05Z",
   "version": 1
 }
