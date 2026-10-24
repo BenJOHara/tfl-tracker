@@ -100,6 +100,16 @@
       "severity": "Service Closed",
       "source_created": "0001-01-01T00:00:00"
     },
+    "piccadilly:text:545273884bbc153f": {
+      "category": "signal failure",
+      "first_seen": "2026-10-24T01:56:14Z",
+      "issue_key": "piccadilly:text:545273884bbc153f",
+      "line_id": "piccadilly",
+      "line_name": "Piccadilly",
+      "reason": "Piccadilly Line: No service between Hammersmith and King's Cross St. Pancras due to emergency engineering work to fix a signal fault at Leicester Square. London Buses are accepting tickets via any reasonable route. GOOD SERVICE on the rest of the line",
+      "severity": "Part Suspended",
+      "source_created": "0001-01-01T00:00:00"
+    },
     "piccadilly:text:ce37c52b697563ef": {
       "category": "planned engineering",
       "first_seen": "2026-10-24T01:08:07Z",
@@ -149,19 +159,21 @@
       "reason": "Weaver Line: Service will resume later this morning.",
       "severity": "Service Closed",
       "source_created": "0001-01-01T00:00:00"
-    },
-    "windrush:text:885ac32163fa3071": {
+    }
+  },
+  "history": [
+    {
       "category": "other",
+      "duration_seconds": 36689,
       "first_seen": "2026-10-23T15:44:45Z",
       "issue_key": "windrush:text:885ac32163fa3071",
       "line_id": "windrush",
       "line_name": "Windrush",
       "reason": "Windrush Line: No service between West Croydon and Sydenham due to a track circuit failure at Norwood Junction. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-10-24T01:56:14Z",
       "severity": "Part Suspended",
       "source_created": "0001-01-01T00:00:00"
-    }
-  },
-  "history": [
+    },
     {
       "category": "other",
       "duration_seconds": 12645,
@@ -27739,6 +27751,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-10-24T01:08:07Z",
+  "updated_at": "2026-10-24T01:56:14Z",
   "version": 1
 }
