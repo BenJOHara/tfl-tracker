@@ -30,6 +30,36 @@
       "severity": "Part Closure",
       "source_created": "0001-01-01T00:00:00"
     },
+    "jubilee:text:e0d825b55703ec91": {
+      "category": "train fault",
+      "first_seen": "2026-10-24T17:27:14Z",
+      "issue_key": "jubilee:text:e0d825b55703ec91",
+      "line_id": "jubilee",
+      "line_name": "Jubilee",
+      "reason": "Jubilee Line: Minor delays due to an earlier faulty train at Finchley Road.",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "metropolitan:text:46aaa8f0acc70b13": {
+      "category": "other",
+      "first_seen": "2026-10-24T17:27:14Z",
+      "issue_key": "metropolitan:text:46aaa8f0acc70b13",
+      "line_id": "metropolitan",
+      "line_name": "Metropolitan",
+      "reason": "Metropolitan Line: Minor delays between Moor Park and Amersham due to train cancellations. GOOD SERVICE on the rest of the line.",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "mildmay:text:bb69ebaeec283824": {
+      "category": "other",
+      "first_seen": "2026-10-24T17:27:14Z",
+      "issue_key": "mildmay:text:bb69ebaeec283824",
+      "line_id": "mildmay",
+      "line_name": "Mildmay",
+      "reason": "Mildmay Line: No service while we remove an obstruction from the overhead power lines at West Hampstead. Tickets are being accepted on London Underground.",
+      "severity": "Suspended",
+      "source_created": "0001-01-01T00:00:00"
+    },
     "suffragette:text:cb90fb7599ab69cb": {
       "category": "other",
       "first_seen": "2026-10-24T07:12:47Z",
@@ -27949,6 +27979,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-10-24T16:42:31Z",
+  "updated_at": "2026-10-24T17:27:14Z",
   "version": 1
 }
