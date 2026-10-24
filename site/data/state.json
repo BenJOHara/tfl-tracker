@@ -1,15 +1,5 @@
 {
   "active": {
-    "central:text:6d0af7c9d44f714a": {
-      "category": "other",
-      "first_seen": "2026-10-24T21:08:26Z",
-      "issue_key": "central:text:6d0af7c9d44f714a",
-      "line_id": "central",
-      "line_name": "Central",
-      "reason": "Central Line: Minor delays due to train cancellations.",
-      "severity": "Minor Delays",
-      "source_created": "0001-01-01T00:00:00"
-    },
     "circle:text:b4c2958bc40a4e7e": {
       "category": "other",
       "first_seen": "2026-10-24T04:27:15Z",
@@ -30,16 +20,6 @@
       "severity": "Part Closure",
       "source_created": "0001-01-01T00:00:00"
     },
-    "dlr:text:72d95bc32dd94cb1": {
-      "category": "points failure",
-      "first_seen": "2026-10-24T21:08:26Z",
-      "issue_key": "dlr:text:72d95bc32dd94cb1",
-      "line_id": "dlr",
-      "line_name": "DLR",
-      "reason": "Docklands Light Railway: Severe delays between Bank and Woolwich Arsenal, and between Tower Gateway and Beckton while we fix a points failure at Canning Town. GOOD SERVICE on other DLR routes.",
-      "severity": "Severe Delays",
-      "source_created": "0001-01-01T00:00:00"
-    },
     "jubilee:text:ccf8593c757cea28": {
       "category": "train fault",
       "first_seen": "2026-10-24T21:08:26Z",
@@ -50,14 +30,14 @@
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "metropolitan:text:ca6c487f9db085d0": {
+    "metropolitan:text:91717121a2bf0e2f": {
       "category": "other",
-      "first_seen": "2026-10-24T21:54:40Z",
-      "issue_key": "metropolitan:text:ca6c487f9db085d0",
+      "first_seen": "2026-10-24T23:23:41Z",
+      "issue_key": "metropolitan:text:91717121a2bf0e2f",
       "line_id": "metropolitan",
       "line_name": "Metropolitan",
-      "reason": "Metropolitan Line: No service between Harrow-on-the-Hill and Aldgate southbound only and SEVERE DELAYS on the rest of the line while we remove a tree from the track at Neasden. London Buses, London Northwestern Railway, Chiltern Railways, Lioness line and Thameslink are accepting valid tickets via any reasonable route.",
-      "severity": "Part Suspended",
+      "reason": "Metropolitan Line: Severe delays due to an earlier tree on the track at Neasden. London Buses, London Northwestern Railway, Chiltern Railways, Lioness line and Thameslink are accepting valid tickets via any reasonable route.",
+      "severity": "Severe Delays",
       "source_created": "0001-01-01T00:00:00"
     },
     "mildmay:text:1b30f53a3ffce6d1": {
@@ -78,6 +58,16 @@
       "line_name": "Mildmay",
       "reason": "MILDMAY LINE: From 1930 Saturday 24 until 1200 Sunday 25 October, no service between Willesden Junction and Shepherds Bush. There will also be no SOUTHERN services between Watford Junction and Shepherds Bush at these times. Please use local London Buses connections on Routes 220 and 228.",
       "severity": "Part Closure",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "piccadilly:text:b984fbf5266ee956": {
+      "category": "other",
+      "first_seen": "2026-10-24T23:23:41Z",
+      "issue_key": "piccadilly:text:b984fbf5266ee956",
+      "line_id": "piccadilly",
+      "line_name": "Piccadilly",
+      "reason": "Piccadilly Line: Severe delays between Acton Town and Heathrow Terminals due to an earlier tree on the track at Hounslow West. London Buses and Elizabeth line are accepting valid tickets. GOOD SERVICE on the rest of the line.",
+      "severity": "Severe Delays",
       "source_created": "0001-01-01T00:00:00"
     },
     "suffragette:text:cb90fb7599ab69cb": {
@@ -112,6 +102,42 @@
     }
   },
   "history": [
+    {
+      "category": "other",
+      "duration_seconds": 8115,
+      "first_seen": "2026-10-24T21:08:26Z",
+      "issue_key": "central:text:6d0af7c9d44f714a",
+      "line_id": "central",
+      "line_name": "Central",
+      "reason": "Central Line: Minor delays due to train cancellations.",
+      "resolved_at": "2026-10-24T23:23:41Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "points failure",
+      "duration_seconds": 8115,
+      "first_seen": "2026-10-24T21:08:26Z",
+      "issue_key": "dlr:text:72d95bc32dd94cb1",
+      "line_id": "dlr",
+      "line_name": "DLR",
+      "reason": "Docklands Light Railway: Severe delays between Bank and Woolwich Arsenal, and between Tower Gateway and Beckton while we fix a points failure at Canning Town. GOOD SERVICE on other DLR routes.",
+      "resolved_at": "2026-10-24T23:23:41Z",
+      "severity": "Severe Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "other",
+      "duration_seconds": 5341,
+      "first_seen": "2026-10-24T21:54:40Z",
+      "issue_key": "metropolitan:text:ca6c487f9db085d0",
+      "line_id": "metropolitan",
+      "line_name": "Metropolitan",
+      "reason": "Metropolitan Line: No service between Harrow-on-the-Hill and Aldgate southbound only and SEVERE DELAYS on the rest of the line while we remove a tree from the track at Neasden. London Buses, London Northwestern Railway, Chiltern Railways, Lioness line and Thameslink are accepting valid tickets via any reasonable route.",
+      "resolved_at": "2026-10-24T23:23:41Z",
+      "severity": "Part Suspended",
+      "source_created": "0001-01-01T00:00:00"
+    },
     {
       "category": "other",
       "duration_seconds": 1308,
@@ -28157,6 +28183,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-10-24T21:54:40Z",
+  "updated_at": "2026-10-24T23:23:41Z",
   "version": 1
 }
