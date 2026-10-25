@@ -1,5 +1,15 @@
 {
   "active": {
+    "central:text:23c62521d4237097": {
+      "category": "other",
+      "first_seen": "2026-10-25T12:06:35Z",
+      "issue_key": "central:text:23c62521d4237097",
+      "line_id": "central",
+      "line_name": "Central",
+      "reason": "Central Line: Minor delays between North Acton and Ealing Broadway / West Ruislip, and between Leytonstone and Epping / Hainault via Newbury Park due to train cancellations. GOOD SERVICE on the rest of the line.",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
     "circle:text:b4c2958bc40a4e7e": {
       "category": "other",
       "first_seen": "2026-10-24T04:27:15Z",
@@ -18,16 +28,6 @@
       "line_name": "District",
       "reason": "DISTRICT LINE: Saturday 24 and Sunday 25 October, no service between Edgware Road / Embankment and Ealing Broadway / Kensington (Olympia) / Richmond / Wimbledon. Use MILDMAY LINE services between Gunnersbury, Kew Gardens and Richmond. Replacement bus services operate. If travelling to Chelsea vs Tottenham Hotspur on Saturday evening, please use the PICCADILLY LINE to/from Earls Court and continue at street level.",
       "severity": "Part Closure",
-      "source_created": "0001-01-01T00:00:00"
-    },
-    "dlr:text:783ecdecc4e22f47": {
-      "category": "signal failure",
-      "first_seen": "2026-10-25T09:18:28Z",
-      "issue_key": "dlr:text:783ecdecc4e22f47",
-      "line_id": "dlr",
-      "line_name": "DLR",
-      "reason": "Docklands Light Railway: No service between Tower Gateway and Shadwell due to planned engineering work. MINOR DELAYS between Bank and Canning Town/Canary Wharf while we fix a signal failure at Westferry. GOOD SERVICE on other DLR routes.",
-      "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
     "dlr:text:9830f0585bec28a8": {
@@ -50,44 +50,24 @@
       "severity": "Reduced Service",
       "source_created": "0001-01-01T00:00:00"
     },
-    "jubilee:text:639e13d767a5f807": {
-      "category": "signal failure",
-      "first_seen": "2026-10-25T09:18:28Z",
-      "issue_key": "jubilee:text:639e13d767a5f807",
-      "line_id": "jubilee",
-      "line_name": "Jubilee",
-      "reason": "Jubilee Line: Severe delays due to an earlier signal failure at London Bridge. Tickets are being accepted on London Buses, Lioness line, DLR, Elizabeth line and Thameslink.",
-      "severity": "Severe Delays",
-      "source_created": "0001-01-01T00:00:00"
-    },
-    "metropolitan:text:49689cfc6b8f415c": {
+    "metropolitan:text:3ba8771fd32f07bb": {
       "category": "other",
-      "first_seen": "2026-10-25T09:18:28Z",
-      "issue_key": "metropolitan:text:49689cfc6b8f415c",
+      "first_seen": "2026-10-25T12:06:35Z",
+      "issue_key": "metropolitan:text:3ba8771fd32f07bb",
       "line_id": "metropolitan",
       "line_name": "Metropolitan",
-      "reason": "Metropolitan Line: Minor delays between Watford and Moor Park due to train cancellations. GOOD SERVICE on the rest of the line.",
+      "reason": "Metropolitan Line: Minor delays between Harrow-on-the-Hill and Uxbridge due to train cancellations. GOOD SERVICE on the rest of the line.",
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "mildmay:text:1b30f53a3ffce6d1": {
-      "category": "other",
-      "first_seen": "2026-10-24T19:05:03Z",
-      "issue_key": "mildmay:text:1b30f53a3ffce6d1",
+    "mildmay:text:112818c289c8227c": {
+      "category": "planned engineering",
+      "first_seen": "2026-10-25T12:06:35Z",
+      "issue_key": "mildmay:text:112818c289c8227c",
       "line_id": "mildmay",
       "line_name": "Mildmay",
-      "reason": "MILDMAY LINE: From 1930 Saturday 24 until 1200 Sunday 25 October, there will be a reduced service between Shepherds Bush and Clapham Junction.",
-      "severity": "Reduced Service",
-      "source_created": "0001-01-01T00:00:00"
-    },
-    "mildmay:text:63a04e23ff7b432f": {
-      "category": "other",
-      "first_seen": "2026-10-24T19:05:03Z",
-      "issue_key": "mildmay:text:63a04e23ff7b432f",
-      "line_id": "mildmay",
-      "line_name": "Mildmay",
-      "reason": "MILDMAY LINE: From 1930 Saturday 24 until 1200 Sunday 25 October, no service between Willesden Junction and Shepherds Bush. There will also be no SOUTHERN services between Watford Junction and Shepherds Bush at these times. Please use local London Buses connections on Routes 220 and 228.",
-      "severity": "Part Closure",
+      "reason": "Mildmay Line: No service between Gunnersbury and Richmond, and SEVERE DELAYS between Gunnersbury and Stratford while we remove an obstruction from the track at Kew Gardens. NO SERVICE between Willesden Junction and Shepherd's Bush due to planned engineering work. GOOD SERVICE on the rest of the line.",
+      "severity": "Part Suspended",
       "source_created": "0001-01-01T00:00:00"
     },
     "suffragette:text:8f9c0b3afce51209": {
@@ -132,6 +112,66 @@
     }
   },
   "history": [
+    {
+      "category": "signal failure",
+      "duration_seconds": 10087,
+      "first_seen": "2026-10-25T09:18:28Z",
+      "issue_key": "dlr:text:783ecdecc4e22f47",
+      "line_id": "dlr",
+      "line_name": "DLR",
+      "reason": "Docklands Light Railway: No service between Tower Gateway and Shadwell due to planned engineering work. MINOR DELAYS between Bank and Canning Town/Canary Wharf while we fix a signal failure at Westferry. GOOD SERVICE on other DLR routes.",
+      "resolved_at": "2026-10-25T12:06:35Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "signal failure",
+      "duration_seconds": 10087,
+      "first_seen": "2026-10-25T09:18:28Z",
+      "issue_key": "jubilee:text:639e13d767a5f807",
+      "line_id": "jubilee",
+      "line_name": "Jubilee",
+      "reason": "Jubilee Line: Severe delays due to an earlier signal failure at London Bridge. Tickets are being accepted on London Buses, Lioness line, DLR, Elizabeth line and Thameslink.",
+      "resolved_at": "2026-10-25T12:06:35Z",
+      "severity": "Severe Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "other",
+      "duration_seconds": 10087,
+      "first_seen": "2026-10-25T09:18:28Z",
+      "issue_key": "metropolitan:text:49689cfc6b8f415c",
+      "line_id": "metropolitan",
+      "line_name": "Metropolitan",
+      "reason": "Metropolitan Line: Minor delays between Watford and Moor Park due to train cancellations. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-10-25T12:06:35Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "other",
+      "duration_seconds": 61292,
+      "first_seen": "2026-10-24T19:05:03Z",
+      "issue_key": "mildmay:text:1b30f53a3ffce6d1",
+      "line_id": "mildmay",
+      "line_name": "Mildmay",
+      "reason": "MILDMAY LINE: From 1930 Saturday 24 until 1200 Sunday 25 October, there will be a reduced service between Shepherds Bush and Clapham Junction.",
+      "resolved_at": "2026-10-25T12:06:35Z",
+      "severity": "Reduced Service",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "other",
+      "duration_seconds": 61292,
+      "first_seen": "2026-10-24T19:05:03Z",
+      "issue_key": "mildmay:text:63a04e23ff7b432f",
+      "line_id": "mildmay",
+      "line_name": "Mildmay",
+      "reason": "MILDMAY LINE: From 1930 Saturday 24 until 1200 Sunday 25 October, no service between Willesden Junction and Shepherds Bush. There will also be no SOUTHERN services between Watford Junction and Shepherds Bush at these times. Please use local London Buses connections on Routes 220 and 228.",
+      "resolved_at": "2026-10-25T12:06:35Z",
+      "severity": "Part Closure",
+      "source_created": "0001-01-01T00:00:00"
+    },
     {
       "category": "other",
       "duration_seconds": 8295,
@@ -28465,6 +28505,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-10-25T09:18:28Z",
+  "updated_at": "2026-10-25T12:06:35Z",
   "version": 1
 }
