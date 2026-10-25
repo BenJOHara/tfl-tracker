@@ -20,6 +20,16 @@
       "severity": "Part Closure",
       "source_created": "0001-01-01T00:00:00"
     },
+    "dlr:text:783ecdecc4e22f47": {
+      "category": "signal failure",
+      "first_seen": "2026-10-25T09:18:28Z",
+      "issue_key": "dlr:text:783ecdecc4e22f47",
+      "line_id": "dlr",
+      "line_name": "DLR",
+      "reason": "Docklands Light Railway: No service between Tower Gateway and Shadwell due to planned engineering work. MINOR DELAYS between Bank and Canning Town/Canary Wharf while we fix a signal failure at Westferry. GOOD SERVICE on other DLR routes.",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
     "dlr:text:9830f0585bec28a8": {
       "category": "other",
       "first_seen": "2026-10-25T06:46:35Z",
@@ -38,6 +48,26 @@
       "line_name": "Elizabeth line",
       "reason": "ELIZABETH LINE: Sunday 25 October, a reduced service operates between Hayes & Harlington and Maidenhead. Two trains an hour serve West Drayton, Langley, Slough, Burnham and Maidenhead. From 1100 until 1900, westbound trains will not call at Burnham or Taplow, and after 1900, no trains call at Burnham or Taplow. Replacement bus service W3 operates between Slough and Maidenhead via Burnham and Taplow. At Maidenhead, from 1100, westbound trains to Twyford and Reading use Platform 1. For step-free interchange from platform 3 to platform 1, please use the lift to the main entrance, and then continue at street level under the railway bridge and up Shoppenhangers Road to the car park. Please ask staff to open the gate to platform 1, and allow extra time for your journey",
       "severity": "Reduced Service",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "jubilee:text:639e13d767a5f807": {
+      "category": "signal failure",
+      "first_seen": "2026-10-25T09:18:28Z",
+      "issue_key": "jubilee:text:639e13d767a5f807",
+      "line_id": "jubilee",
+      "line_name": "Jubilee",
+      "reason": "Jubilee Line: Severe delays due to an earlier signal failure at London Bridge. Tickets are being accepted on London Buses, Lioness line, DLR, Elizabeth line and Thameslink.",
+      "severity": "Severe Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "metropolitan:text:49689cfc6b8f415c": {
+      "category": "other",
+      "first_seen": "2026-10-25T09:18:28Z",
+      "issue_key": "metropolitan:text:49689cfc6b8f415c",
+      "line_id": "metropolitan",
+      "line_name": "Metropolitan",
+      "reason": "Metropolitan Line: Minor delays between Watford and Moor Park due to train cancellations. GOOD SERVICE on the rest of the line.",
+      "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
     "mildmay:text:1b30f53a3ffce6d1": {
@@ -28435,6 +28465,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-10-25T06:46:35Z",
+  "updated_at": "2026-10-25T09:18:28Z",
   "version": 1
 }
