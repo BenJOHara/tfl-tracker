@@ -50,14 +50,14 @@
       "severity": "Reduced Service",
       "source_created": "0001-01-01T00:00:00"
     },
-    "jubilee:text:1e0e36bbe8826357": {
+    "jubilee:text:4dfb334da99c7b6d": {
       "category": "other",
-      "first_seen": "2026-10-25T18:57:21Z",
-      "issue_key": "jubilee:text:1e0e36bbe8826357",
+      "first_seen": "2026-10-25T22:20:11Z",
+      "issue_key": "jubilee:text:4dfb334da99c7b6d",
       "line_id": "jubilee",
       "line_name": "Jubilee",
-      "reason": "Jubilee Line: Severe delays due to an earlier obstruction on the track at Queensbury.Tickets are being accepted on London Buses, Mildmay Line, DLR Elizabeth Line, C2C, Southeastern and Thameslink services via any reasonable route.",
-      "severity": "Severe Delays",
+      "reason": "Jubilee Line: Minor delays due to an earlier obstruction on the track at Queensbury.",
+      "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
     "suffragette:text:fc1b762ceba77f92": {
@@ -102,6 +102,18 @@
     }
   },
   "history": [
+    {
+      "category": "other",
+      "duration_seconds": 12170,
+      "first_seen": "2026-10-25T18:57:21Z",
+      "issue_key": "jubilee:text:1e0e36bbe8826357",
+      "line_id": "jubilee",
+      "line_name": "Jubilee",
+      "reason": "Jubilee Line: Severe delays due to an earlier obstruction on the track at Queensbury.Tickets are being accepted on London Buses, Mildmay Line, DLR Elizabeth Line, C2C, Southeastern and Thameslink services via any reasonable route.",
+      "resolved_at": "2026-10-25T22:20:11Z",
+      "severity": "Severe Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
     {
       "category": "other",
       "duration_seconds": 54437,
@@ -28627,6 +28639,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-10-25T21:53:52Z",
+  "updated_at": "2026-10-25T22:20:11Z",
   "version": 1
 }
