@@ -20,6 +20,26 @@
       "severity": "Part Closure",
       "source_created": "0001-01-01T00:00:00"
     },
+    "dlr:text:9830f0585bec28a8": {
+      "category": "other",
+      "first_seen": "2026-10-25T06:46:35Z",
+      "issue_key": "dlr:text:9830f0585bec28a8",
+      "line_id": "dlr",
+      "line_name": "DLR",
+      "reason": "DOCKLANDS LIGHT RAILWAY: Sunday 25 October, no service between Shadwell and Tower Gateway.",
+      "severity": "Part Closure",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "elizabeth:text:c8e5cd927f7c41b8": {
+      "category": "other",
+      "first_seen": "2026-10-25T06:46:35Z",
+      "issue_key": "elizabeth:text:c8e5cd927f7c41b8",
+      "line_id": "elizabeth",
+      "line_name": "Elizabeth line",
+      "reason": "ELIZABETH LINE: Sunday 25 October, a reduced service operates between Hayes & Harlington and Maidenhead. Two trains an hour serve West Drayton, Langley, Slough, Burnham and Maidenhead. From 1100 until 1900, westbound trains will not call at Burnham or Taplow, and after 1900, no trains call at Burnham or Taplow. Replacement bus service W3 operates between Slough and Maidenhead via Burnham and Taplow. At Maidenhead, from 1100, westbound trains to Twyford and Reading use Platform 1. For step-free interchange from platform 3 to platform 1, please use the lift to the main entrance, and then continue at street level under the railway bridge and up Shoppenhangers Road to the car park. Please ask staff to open the gate to platform 1, and allow extra time for your journey",
+      "severity": "Reduced Service",
+      "source_created": "0001-01-01T00:00:00"
+    },
     "mildmay:text:1b30f53a3ffce6d1": {
       "category": "other",
       "first_seen": "2026-10-24T19:05:03Z",
@@ -40,13 +60,13 @@
       "severity": "Part Closure",
       "source_created": "0001-01-01T00:00:00"
     },
-    "suffragette:text:23637bdcbecba7f2": {
+    "suffragette:text:8f9c0b3afce51209": {
       "category": "other",
-      "first_seen": "2026-10-25T04:28:20Z",
-      "issue_key": "suffragette:text:23637bdcbecba7f2",
+      "first_seen": "2026-10-25T06:46:35Z",
+      "issue_key": "suffragette:text:8f9c0b3afce51209",
       "line_id": "suffragette",
       "line_name": "Suffragette",
-      "reason": "Suffragette Line: No service between Barking Riverside and Barking due to an operational incident. GOOD SERVICE on the rest of the line.",
+      "reason": "Suffragette Line: No service between Barking Riverside and Woodgrange Park, and MINOR DELAYS on the rest of the line due to an operational incident.",
       "severity": "Part Suspended",
       "source_created": "0001-01-01T00:00:00"
     },
@@ -69,9 +89,31 @@
       "reason": "Waterloo & City line: service operates 06:00 until 00:30, Monday to Friday only. There is no service on Saturdays, Sundays and on bank/public holidays.",
       "severity": "Planned Closure",
       "source_created": "0001-01-01T00:00:00"
+    },
+    "windrush:text:10114ca878a59404": {
+      "category": "other",
+      "first_seen": "2026-10-25T06:46:35Z",
+      "issue_key": "windrush:text:10114ca878a59404",
+      "line_id": "windrush",
+      "line_name": "Windrush",
+      "reason": "WINDRUSH LINE: Sunday 25 October, no service between Sydenham and Crystal Palace. Please use local London Buses connections between Anerley and Crystal Palace.",
+      "severity": "Part Closure",
+      "source_created": "0001-01-01T00:00:00"
     }
   },
   "history": [
+    {
+      "category": "other",
+      "duration_seconds": 8295,
+      "first_seen": "2026-10-25T04:28:20Z",
+      "issue_key": "suffragette:text:23637bdcbecba7f2",
+      "line_id": "suffragette",
+      "line_name": "Suffragette",
+      "reason": "Suffragette Line: No service between Barking Riverside and Barking due to an operational incident. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-10-25T06:46:35Z",
+      "severity": "Part Suspended",
+      "source_created": "0001-01-01T00:00:00"
+    },
     {
       "category": "other",
       "duration_seconds": 10523,
@@ -28393,6 +28435,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-10-25T04:28:20Z",
+  "updated_at": "2026-10-25T06:46:35Z",
   "version": 1
 }
