@@ -1,13 +1,13 @@
 {
   "active": {
-    "bakerloo:text:1fe728fe4f7c671c": {
+    "bakerloo:text:cb05d060f6463773": {
       "category": "signal failure",
-      "first_seen": "2026-10-25T16:04:13Z",
-      "issue_key": "bakerloo:text:1fe728fe4f7c671c",
+      "first_seen": "2026-10-25T17:26:36Z",
+      "issue_key": "bakerloo:text:cb05d060f6463773",
       "line_id": "bakerloo",
       "line_name": "Bakerloo",
-      "reason": "Bakerloo Line: Minor delays between Queen's Park and Stonebridge Park while we fix a signal failure at Kensal Green. GOOD SERVICE on the rest of the line.",
-      "severity": "Minor Delays",
+      "reason": "Bakerloo Line: Severe delays while we fix a signal failure at Kensal Green. Tickets will be accepted on London Buses, Lioness Line, London Northwestern Railway and Thameslink services via any reasonable route.",
+      "severity": "Severe Delays",
       "source_created": "0001-01-01T00:00:00"
     },
     "circle:text:b4c2958bc40a4e7e": {
@@ -110,6 +110,16 @@
       "severity": "Planned Closure",
       "source_created": "0001-01-01T00:00:00"
     },
+    "weaver:text:b3cf527689a7a154": {
+      "category": "track fault",
+      "first_seen": "2026-10-25T17:26:36Z",
+      "issue_key": "weaver:text:b3cf527689a7a154",
+      "line_id": "weaver",
+      "line_name": "Weaver",
+      "reason": "Weaver Line: No service between Hackney Downs and Chingford while we fix a track fault between Highams Park and Chingford. SEVERE DELAYS on the rest of the line.",
+      "severity": "Part Suspended",
+      "source_created": "0001-01-01T00:00:00"
+    },
     "windrush:text:10114ca878a59404": {
       "category": "other",
       "first_seen": "2026-10-25T06:46:35Z",
@@ -122,6 +132,18 @@
     }
   },
   "history": [
+    {
+      "category": "signal failure",
+      "duration_seconds": 4943,
+      "first_seen": "2026-10-25T16:04:13Z",
+      "issue_key": "bakerloo:text:1fe728fe4f7c671c",
+      "line_id": "bakerloo",
+      "line_name": "Bakerloo",
+      "reason": "Bakerloo Line: Minor delays between Queen's Park and Stonebridge Park while we fix a signal failure at Kensal Green. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-10-25T17:26:36Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
     {
       "category": "other",
       "duration_seconds": 14258,
@@ -28551,6 +28573,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-10-25T16:04:13Z",
+  "updated_at": "2026-10-25T17:26:36Z",
   "version": 1
 }
