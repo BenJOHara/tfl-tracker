@@ -50,24 +50,14 @@
       "severity": "Reduced Service",
       "source_created": "0001-01-01T00:00:00"
     },
-    "jubilee:text:5aaed31161f9be16": {
+    "jubilee:text:1e0e36bbe8826357": {
       "category": "other",
-      "first_seen": "2026-10-25T16:04:13Z",
-      "issue_key": "jubilee:text:5aaed31161f9be16",
+      "first_seen": "2026-10-25T18:57:21Z",
+      "issue_key": "jubilee:text:1e0e36bbe8826357",
       "line_id": "jubilee",
       "line_name": "Jubilee",
-      "reason": "Jubilee Line: No service between Wembley Park and Stanmore, and SEVERE DELAYS on the rest of the line while we remove an obstruction from the track at Queensbury. Tickets are being accepted on London Buses.",
-      "severity": "Part Suspended",
-      "source_created": "0001-01-01T00:00:00"
-    },
-    "metropolitan:text:2df4e90708614385": {
-      "category": "other",
-      "first_seen": "2026-10-25T16:04:13Z",
-      "issue_key": "metropolitan:text:2df4e90708614385",
-      "line_id": "metropolitan",
-      "line_name": "Metropolitan",
-      "reason": "Metropolitan Line: Minor delays between Moor Park and Watford due to train cancellations. GOOD SERVICE on the rest of the line.",
-      "severity": "Minor Delays",
+      "reason": "Jubilee Line: Severe delays due to an earlier obstruction on the track at Queensbury. Tickets are being accepted on London Buses, Mildmay Line, DLR, Elizabeth Line, C2C, Southeastern and Thameslink services via any reasonable route.",
+      "severity": "Severe Delays",
       "source_created": "0001-01-01T00:00:00"
     },
     "suffragette:text:8f9c0b3afce51209": {
@@ -90,16 +80,6 @@
       "severity": "Part Closure",
       "source_created": "0001-01-01T00:00:00"
     },
-    "victoria:text:02e0850cdf11ef25": {
-      "category": "other",
-      "first_seen": "2026-10-25T13:50:46Z",
-      "issue_key": "victoria:text:02e0850cdf11ef25",
-      "line_id": "victoria",
-      "line_name": "Victoria",
-      "reason": "Victoria Line: Minor delays due to train cancellations",
-      "severity": "Minor Delays",
-      "source_created": "0001-01-01T00:00:00"
-    },
     "waterloo-city:text:02da0890c7cbf303": {
       "category": "other",
       "first_seen": "2026-10-25T04:28:20Z",
@@ -110,14 +90,14 @@
       "severity": "Planned Closure",
       "source_created": "0001-01-01T00:00:00"
     },
-    "weaver:text:b3cf527689a7a154": {
+    "weaver:text:20f166186ce9f7c6": {
       "category": "track fault",
-      "first_seen": "2026-10-25T17:26:36Z",
-      "issue_key": "weaver:text:b3cf527689a7a154",
+      "first_seen": "2026-10-25T18:57:21Z",
+      "issue_key": "weaver:text:20f166186ce9f7c6",
       "line_id": "weaver",
       "line_name": "Weaver",
-      "reason": "Weaver Line: No service between Hackney Downs and Chingford while we fix a track fault between Highams Park and Chingford. SEVERE DELAYS on the rest of the line.",
-      "severity": "Part Suspended",
+      "reason": "Weaver Line: Severe delays while we fix a track fault between Highams Park and Chingford. .",
+      "severity": "Severe Delays",
       "source_created": "0001-01-01T00:00:00"
     },
     "windrush:text:10114ca878a59404": {
@@ -132,6 +112,54 @@
     }
   },
   "history": [
+    {
+      "category": "other",
+      "duration_seconds": 10388,
+      "first_seen": "2026-10-25T16:04:13Z",
+      "issue_key": "jubilee:text:5aaed31161f9be16",
+      "line_id": "jubilee",
+      "line_name": "Jubilee",
+      "reason": "Jubilee Line: No service between Wembley Park and Stanmore, and SEVERE DELAYS on the rest of the line while we remove an obstruction from the track at Queensbury. Tickets are being accepted on London Buses.",
+      "resolved_at": "2026-10-25T18:57:21Z",
+      "severity": "Part Suspended",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "other",
+      "duration_seconds": 10388,
+      "first_seen": "2026-10-25T16:04:13Z",
+      "issue_key": "metropolitan:text:2df4e90708614385",
+      "line_id": "metropolitan",
+      "line_name": "Metropolitan",
+      "reason": "Metropolitan Line: Minor delays between Moor Park and Watford due to train cancellations. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-10-25T18:57:21Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "other",
+      "duration_seconds": 18395,
+      "first_seen": "2026-10-25T13:50:46Z",
+      "issue_key": "victoria:text:02e0850cdf11ef25",
+      "line_id": "victoria",
+      "line_name": "Victoria",
+      "reason": "Victoria Line: Minor delays due to train cancellations",
+      "resolved_at": "2026-10-25T18:57:21Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "track fault",
+      "duration_seconds": 5445,
+      "first_seen": "2026-10-25T17:26:36Z",
+      "issue_key": "weaver:text:b3cf527689a7a154",
+      "line_id": "weaver",
+      "line_name": "Weaver",
+      "reason": "Weaver Line: No service between Hackney Downs and Chingford while we fix a track fault between Highams Park and Chingford. SEVERE DELAYS on the rest of the line.",
+      "resolved_at": "2026-10-25T18:57:21Z",
+      "severity": "Part Suspended",
+      "source_created": "0001-01-01T00:00:00"
+    },
     {
       "category": "signal failure",
       "duration_seconds": 4943,
@@ -28573,6 +28601,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-10-25T17:26:36Z",
+  "updated_at": "2026-10-25T18:57:21Z",
   "version": 1
 }
