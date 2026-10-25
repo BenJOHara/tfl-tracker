@@ -1,13 +1,13 @@
 {
   "active": {
-    "bakerloo:text:cb05d060f6463773": {
+    "bakerloo:text:e491c6f5d9480c3c": {
       "category": "signal failure",
-      "first_seen": "2026-10-25T17:26:36Z",
-      "issue_key": "bakerloo:text:cb05d060f6463773",
+      "first_seen": "2026-10-25T21:41:26Z",
+      "issue_key": "bakerloo:text:e491c6f5d9480c3c",
       "line_id": "bakerloo",
       "line_name": "Bakerloo",
-      "reason": "Bakerloo Line: Severe delays while we fix a signal failure at Kensal Green. Tickets will be accepted on London Buses, Lioness Line, London Northwestern Railway and Thameslink services via any reasonable route.",
-      "severity": "Severe Delays",
+      "reason": "Bakerloo Line: Minor delays due to an earlier signal failure at Kensal Green.",
+      "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
     "circle:text:b4c2958bc40a4e7e": {
@@ -56,7 +56,7 @@
       "issue_key": "jubilee:text:1e0e36bbe8826357",
       "line_id": "jubilee",
       "line_name": "Jubilee",
-      "reason": "Jubilee Line: Severe delays due to an earlier obstruction on the track at Queensbury. Tickets are being accepted on London Buses, Mildmay Line, DLR, Elizabeth Line, C2C, Southeastern and Thameslink services via any reasonable route.",
+      "reason": "Jubilee Line: Severe delays due to an earlier obstruction on the track at Queensbury.Tickets are being accepted on London Buses, Mildmay Line, DLR Elizabeth Line, C2C, Southeastern and Thameslink services via any reasonable route.",
       "severity": "Severe Delays",
       "source_created": "0001-01-01T00:00:00"
     },
@@ -90,16 +90,6 @@
       "severity": "Planned Closure",
       "source_created": "0001-01-01T00:00:00"
     },
-    "weaver:text:20f166186ce9f7c6": {
-      "category": "track fault",
-      "first_seen": "2026-10-25T18:57:21Z",
-      "issue_key": "weaver:text:20f166186ce9f7c6",
-      "line_id": "weaver",
-      "line_name": "Weaver",
-      "reason": "Weaver Line: Severe delays while we fix a track fault between Highams Park and Chingford. .",
-      "severity": "Severe Delays",
-      "source_created": "0001-01-01T00:00:00"
-    },
     "windrush:text:10114ca878a59404": {
       "category": "other",
       "first_seen": "2026-10-25T06:46:35Z",
@@ -112,6 +102,30 @@
     }
   },
   "history": [
+    {
+      "category": "signal failure",
+      "duration_seconds": 15290,
+      "first_seen": "2026-10-25T17:26:36Z",
+      "issue_key": "bakerloo:text:cb05d060f6463773",
+      "line_id": "bakerloo",
+      "line_name": "Bakerloo",
+      "reason": "Bakerloo Line: Severe delays while we fix a signal failure at Kensal Green. Tickets will be accepted on London Buses, Lioness Line, London Northwestern Railway and Thameslink services via any reasonable route.",
+      "resolved_at": "2026-10-25T21:41:26Z",
+      "severity": "Severe Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "track fault",
+      "duration_seconds": 9845,
+      "first_seen": "2026-10-25T18:57:21Z",
+      "issue_key": "weaver:text:20f166186ce9f7c6",
+      "line_id": "weaver",
+      "line_name": "Weaver",
+      "reason": "Weaver Line: Severe delays while we fix a track fault between Highams Park and Chingford. .",
+      "resolved_at": "2026-10-25T21:41:26Z",
+      "severity": "Severe Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
     {
       "category": "other",
       "duration_seconds": 10388,
@@ -28601,6 +28615,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-10-25T18:57:21Z",
+  "updated_at": "2026-10-25T21:41:26Z",
   "version": 1
 }
