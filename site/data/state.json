@@ -1,5 +1,15 @@
 {
   "active": {
+    "bakerloo:text:975c88cf69561d0c": {
+      "category": "other",
+      "first_seen": "2026-10-25T01:32:57Z",
+      "issue_key": "bakerloo:text:975c88cf69561d0c",
+      "line_id": "bakerloo",
+      "line_name": "Bakerloo",
+      "reason": "Bakerloo Line: Service will resume later this morning.",
+      "severity": "Service Closed",
+      "source_created": "0001-01-01T00:00:00"
+    },
     "circle:text:b4c2958bc40a4e7e": {
       "category": "other",
       "first_seen": "2026-10-24T04:27:15Z",
@@ -8,6 +18,16 @@
       "line_name": "Circle",
       "reason": "CIRCLE LINE: Saturday 24 and Sunday 25 October, no service between Edgware Road and Tower Hill (via Victoria)",
       "severity": "Part Closure",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "circle:text:d3ea07ff86864c80": {
+      "category": "planned engineering",
+      "first_seen": "2026-10-25T01:32:57Z",
+      "issue_key": "circle:text:d3ea07ff86864c80",
+      "line_id": "circle",
+      "line_name": "Circle",
+      "reason": "Circle Line: Service will resume later this morning. There will be no service between Edgware Road and Tower Hill via Victoria due to planned engineering work",
+      "severity": "Service Closed",
       "source_created": "0001-01-01T00:00:00"
     },
     "district:text:6cfc9b541356349e": {
@@ -20,24 +40,74 @@
       "severity": "Part Closure",
       "source_created": "0001-01-01T00:00:00"
     },
-    "jubilee:text:ccf8593c757cea28": {
-      "category": "train fault",
-      "first_seen": "2026-10-24T21:08:26Z",
-      "issue_key": "jubilee:text:ccf8593c757cea28",
-      "line_id": "jubilee",
-      "line_name": "Jubilee",
-      "reason": "Jubilee Line: Minor delays due to an earlier faulty train at Westminster and Finchley Road.",
-      "severity": "Minor Delays",
+    "district:text:7872317bdb17ff17": {
+      "category": "planned engineering",
+      "first_seen": "2026-10-25T01:32:57Z",
+      "issue_key": "district:text:7872317bdb17ff17",
+      "line_id": "district",
+      "line_name": "District",
+      "reason": "District Line: Service will resume later this morning. There will be no service between Edgware Road and Embankment to Ealing Broadway / Kensington (Olympia) / Richmond / Wimbledon due to planned engineering work.",
+      "severity": "Service Closed",
       "source_created": "0001-01-01T00:00:00"
     },
-    "metropolitan:text:91717121a2bf0e2f": {
+    "dlr:text:665033ae8c9c0e54": {
+      "category": "planned engineering",
+      "first_seen": "2026-10-25T01:32:57Z",
+      "issue_key": "dlr:text:665033ae8c9c0e54",
+      "line_id": "dlr",
+      "line_name": "DLR",
+      "reason": "Docklands Light Railway: Service will resume later this morning. There will be no service between Tower Gateway and Shadwell due to planned engineering work.",
+      "severity": "Service Closed",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "elizabeth:text:85644759b2256fee": {
       "category": "other",
-      "first_seen": "2026-10-24T23:23:41Z",
-      "issue_key": "metropolitan:text:91717121a2bf0e2f",
+      "first_seen": "2026-10-25T01:32:57Z",
+      "issue_key": "elizabeth:text:85644759b2256fee",
+      "line_id": "elizabeth",
+      "line_name": "Elizabeth line",
+      "reason": "Service will resume later this morning.",
+      "severity": "Service Closed",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "hammersmith-city:text:b560078b35a5fd17": {
+      "category": "other",
+      "first_seen": "2026-10-25T01:32:57Z",
+      "issue_key": "hammersmith-city:text:b560078b35a5fd17",
+      "line_id": "hammersmith-city",
+      "line_name": "Hammersmith & City",
+      "reason": "Hammersmith and City Line: Service will resume later this morning.",
+      "severity": "Service Closed",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "liberty:text:19134079f5c98ab7": {
+      "category": "other",
+      "first_seen": "2026-10-25T01:32:57Z",
+      "issue_key": "liberty:text:19134079f5c98ab7",
+      "line_id": "liberty",
+      "line_name": "Liberty",
+      "reason": "Liberty Line: Service will resume later this morning.",
+      "severity": "Service Closed",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "lioness:text:edb0d527df87ed16": {
+      "category": "other",
+      "first_seen": "2026-10-25T01:32:57Z",
+      "issue_key": "lioness:text:edb0d527df87ed16",
+      "line_id": "lioness",
+      "line_name": "Lioness",
+      "reason": "Lioness Line: Service will resume later this morning.",
+      "severity": "Service Closed",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "metropolitan:text:4b366f757f8f5a28": {
+      "category": "other",
+      "first_seen": "2026-10-25T01:32:57Z",
+      "issue_key": "metropolitan:text:4b366f757f8f5a28",
       "line_id": "metropolitan",
       "line_name": "Metropolitan",
-      "reason": "Metropolitan Line: Severe delays due to an earlier tree on the track at Neasden. London Buses, London Northwestern Railway, Chiltern Railways, Lioness line and Thameslink are accepting valid tickets via any reasonable route.",
-      "severity": "Severe Delays",
+      "reason": "Metropolitan Line: Service will resume later this morning.",
+      "severity": "Service Closed",
       "source_created": "0001-01-01T00:00:00"
     },
     "mildmay:text:1b30f53a3ffce6d1": {
@@ -60,24 +130,34 @@
       "severity": "Part Closure",
       "source_created": "0001-01-01T00:00:00"
     },
-    "piccadilly:text:b93f062ea06e963d": {
-      "category": "other",
-      "first_seen": "2026-10-24T23:39:35Z",
-      "issue_key": "piccadilly:text:b93f062ea06e963d",
-      "line_id": "piccadilly",
-      "line_name": "Piccadilly",
-      "reason": "Piccadilly Line: Severe delays between Acton Town and Heathrow Terminals due to an earlier tree on the track at Hounslow West. London Buses are accepting valid tickets. GOOD SERVICE on the rest of the line.",
-      "severity": "Severe Delays",
+    "mildmay:text:7ed7337ded305a4a": {
+      "category": "planned engineering",
+      "first_seen": "2026-10-25T01:32:57Z",
+      "issue_key": "mildmay:text:7ed7337ded305a4a",
+      "line_id": "mildmay",
+      "line_name": "Mildmay",
+      "reason": "Mildmay Line: Service will resume later this morning. There will be no service between Willesden Junction and Shepherd's Bush due to planned engineering work.",
+      "severity": "Service Closed",
       "source_created": "0001-01-01T00:00:00"
     },
-    "suffragette:text:cb90fb7599ab69cb": {
+    "suffragette:text:304c3f56ab0f8a7b": {
       "category": "other",
-      "first_seen": "2026-10-24T07:12:47Z",
-      "issue_key": "suffragette:text:cb90fb7599ab69cb",
+      "first_seen": "2026-10-25T01:32:57Z",
+      "issue_key": "suffragette:text:304c3f56ab0f8a7b",
       "line_id": "suffragette",
       "line_name": "Suffragette",
-      "reason": "Suffragette Line: No service between Barking Riverside and Barking due to an operational incident. MINOR DELAYS on the rest of the line",
-      "severity": "Part Suspended",
+      "reason": "Suffragette Line: Service will resume later this morning. There will be no service between Barking Riverside and Barking due to an operational incident.",
+      "severity": "Service Closed",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "tram:text:c55c4dc7edb86ce4": {
+      "category": "planned engineering",
+      "first_seen": "2026-10-25T01:32:57Z",
+      "issue_key": "tram:text:c55c4dc7edb86ce4",
+      "line_id": "tram",
+      "line_name": "Tram",
+      "reason": "London Tramlink: Service will resume later this morning. There will be no service between East Croydon and Beckenham Junction / Elmers End / New Addington due to planned engineering work.",
+      "severity": "Service Closed",
       "source_created": "0001-01-01T00:00:00"
     },
     "tram:text:ed05a4073ee33d15": {
@@ -90,18 +170,88 @@
       "severity": "Part Closure",
       "source_created": "0001-01-01T00:00:00"
     },
-    "waterloo-city:text:02da0890c7cbf303": {
+    "waterloo-city:text:1bbcac27f282d0db": {
       "category": "other",
+      "first_seen": "2026-10-25T01:32:57Z",
+      "issue_key": "waterloo-city:text:1bbcac27f282d0db",
+      "line_id": "waterloo-city",
+      "line_name": "Waterloo & City",
+      "reason": "Waterloo and City Line: Service will resume at 06:00 on Monday.",
+      "severity": "Service Closed",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "weaver:text:f2dc8c00c6757e13": {
+      "category": "other",
+      "first_seen": "2026-10-25T01:32:57Z",
+      "issue_key": "weaver:text:f2dc8c00c6757e13",
+      "line_id": "weaver",
+      "line_name": "Weaver",
+      "reason": "Weaver Line: Service will resume later this morning.",
+      "severity": "Service Closed",
+      "source_created": "0001-01-01T00:00:00"
+    }
+  },
+  "history": [
+    {
+      "category": "train fault",
+      "duration_seconds": 15871,
+      "first_seen": "2026-10-24T21:08:26Z",
+      "issue_key": "jubilee:text:ccf8593c757cea28",
+      "line_id": "jubilee",
+      "line_name": "Jubilee",
+      "reason": "Jubilee Line: Minor delays due to an earlier faulty train at Westminster and Finchley Road.",
+      "resolved_at": "2026-10-25T01:32:57Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "other",
+      "duration_seconds": 7756,
+      "first_seen": "2026-10-24T23:23:41Z",
+      "issue_key": "metropolitan:text:91717121a2bf0e2f",
+      "line_id": "metropolitan",
+      "line_name": "Metropolitan",
+      "reason": "Metropolitan Line: Severe delays due to an earlier tree on the track at Neasden. London Buses, London Northwestern Railway, Chiltern Railways, Lioness line and Thameslink are accepting valid tickets via any reasonable route.",
+      "resolved_at": "2026-10-25T01:32:57Z",
+      "severity": "Severe Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "other",
+      "duration_seconds": 6802,
+      "first_seen": "2026-10-24T23:39:35Z",
+      "issue_key": "piccadilly:text:b93f062ea06e963d",
+      "line_id": "piccadilly",
+      "line_name": "Piccadilly",
+      "reason": "Piccadilly Line: Severe delays between Acton Town and Heathrow Terminals due to an earlier tree on the track at Hounslow West. London Buses are accepting valid tickets. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-10-25T01:32:57Z",
+      "severity": "Severe Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "other",
+      "duration_seconds": 66010,
+      "first_seen": "2026-10-24T07:12:47Z",
+      "issue_key": "suffragette:text:cb90fb7599ab69cb",
+      "line_id": "suffragette",
+      "line_name": "Suffragette",
+      "reason": "Suffragette Line: No service between Barking Riverside and Barking due to an operational incident. MINOR DELAYS on the rest of the line",
+      "resolved_at": "2026-10-25T01:32:57Z",
+      "severity": "Part Suspended",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "other",
+      "duration_seconds": 75942,
       "first_seen": "2026-10-24T04:27:15Z",
       "issue_key": "waterloo-city:text:02da0890c7cbf303",
       "line_id": "waterloo-city",
       "line_name": "Waterloo & City",
       "reason": "Waterloo & City line: service operates 06:00 until 00:30, Monday to Friday only. There is no service on Saturdays, Sundays and on bank/public holidays.",
+      "resolved_at": "2026-10-25T01:32:57Z",
       "severity": "Planned Closure",
       "source_created": "0001-01-01T00:00:00"
-    }
-  },
-  "history": [
+    },
     {
       "category": "other",
       "duration_seconds": 954,
@@ -28195,6 +28345,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-10-24T23:39:35Z",
+  "updated_at": "2026-10-25T01:32:57Z",
   "version": 1
 }
