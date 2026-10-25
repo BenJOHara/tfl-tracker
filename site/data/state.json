@@ -60,13 +60,13 @@
       "severity": "Severe Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "suffragette:text:8f9c0b3afce51209": {
+    "suffragette:text:fc1b762ceba77f92": {
       "category": "other",
-      "first_seen": "2026-10-25T06:46:35Z",
-      "issue_key": "suffragette:text:8f9c0b3afce51209",
+      "first_seen": "2026-10-25T21:53:52Z",
+      "issue_key": "suffragette:text:fc1b762ceba77f92",
       "line_id": "suffragette",
       "line_name": "Suffragette",
-      "reason": "Suffragette Line: No service between Barking Riverside and Woodgrange Park, and MINOR DELAYS on the rest of the line due to an operational incident.",
+      "reason": "Suffragette Line: No service between Barking Riverside and Woodgrange Park, and MINOR DELAYS on the rest of the line due to an operational incident. There is a Thirty minute shuttle in operation between Woodgrange Park and Gospel Oak.",
       "severity": "Part Suspended",
       "source_created": "0001-01-01T00:00:00"
     },
@@ -102,6 +102,18 @@
     }
   },
   "history": [
+    {
+      "category": "other",
+      "duration_seconds": 54437,
+      "first_seen": "2026-10-25T06:46:35Z",
+      "issue_key": "suffragette:text:8f9c0b3afce51209",
+      "line_id": "suffragette",
+      "line_name": "Suffragette",
+      "reason": "Suffragette Line: No service between Barking Riverside and Woodgrange Park, and MINOR DELAYS on the rest of the line due to an operational incident.",
+      "resolved_at": "2026-10-25T21:53:52Z",
+      "severity": "Part Suspended",
+      "source_created": "0001-01-01T00:00:00"
+    },
     {
       "category": "signal failure",
       "duration_seconds": 15290,
@@ -28615,6 +28627,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-10-25T21:41:26Z",
+  "updated_at": "2026-10-25T21:53:52Z",
   "version": 1
 }
