@@ -10,14 +10,24 @@
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "metropolitan:text:f284543852304561": {
+    "metropolitan:text:ab7e00ca1b0fabbc": {
       "category": "signal failure",
-      "first_seen": "2026-10-26T21:40:36Z",
-      "issue_key": "metropolitan:text:f284543852304561",
+      "first_seen": "2026-10-26T21:52:57Z",
+      "issue_key": "metropolitan:text:ab7e00ca1b0fabbc",
       "line_id": "metropolitan",
       "line_name": "Metropolitan",
-      "reason": "Metropolitan Line: No service between Harrow-on-the-Hill and Uxbridge while we fix a signal failure at Ruislip. MINOR DELAYS between Moor Park and Watford due to train cancellations. GOOD SERVICE on the rest of the line. Tickets are being accepted on London Buses.",
+      "reason": "Metropolitan Line: No service between Harrow-on-the-Hill and Uxbridge while we fix a signal failure at Ruislip. MINOR DELAYS between Moor Park and Watford / Amersham due to train cancellations. GOOD SERVICE on the rest of the line. Tickets are being accepted on London Buses.",
       "severity": "Part Suspended",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "mildmay:text:1a32dbf6845b02a7": {
+      "category": "other",
+      "first_seen": "2026-10-26T21:52:57Z",
+      "issue_key": "mildmay:text:1a32dbf6845b02a7",
+      "line_id": "mildmay",
+      "line_name": "Mildmay",
+      "reason": "MILDMAY LINE: Monday 26, Tuesday 27, Wednesday 28 and Thursday 29 October, the 2147 Clapham Junction to Stratford train will not run. The 2203 and 2234 Clapham Junction to Stratford trains terminate at Willesden Junction. The 2249 train from Richmond to Stratford will terminate at Willesden Junction at 2306",
+      "severity": "Reduced Service",
       "source_created": "0001-01-01T00:00:00"
     },
     "piccadilly:text:5f046a298ef88de8": {
@@ -62,6 +72,18 @@
     }
   },
   "history": [
+    {
+      "category": "signal failure",
+      "duration_seconds": 741,
+      "first_seen": "2026-10-26T21:40:36Z",
+      "issue_key": "metropolitan:text:f284543852304561",
+      "line_id": "metropolitan",
+      "line_name": "Metropolitan",
+      "reason": "Metropolitan Line: No service between Harrow-on-the-Hill and Uxbridge while we fix a signal failure at Ruislip. MINOR DELAYS between Moor Park and Watford due to train cancellations. GOOD SERVICE on the rest of the line. Tickets are being accepted on London Buses.",
+      "resolved_at": "2026-10-26T21:52:57Z",
+      "severity": "Part Suspended",
+      "source_created": "0001-01-01T00:00:00"
+    },
     {
       "category": "other",
       "duration_seconds": 7756,
@@ -29151,6 +29173,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-10-26T21:40:36Z",
+  "updated_at": "2026-10-26T21:52:57Z",
   "version": 1
 }
