@@ -10,13 +10,13 @@
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "suffragette:text:8963b29b1329993a": {
+    "suffragette:text:a01c23945cc31b4d": {
       "category": "other",
-      "first_seen": "2026-10-26T04:59:19Z",
-      "issue_key": "suffragette:text:8963b29b1329993a",
+      "first_seen": "2026-10-26T11:23:41Z",
+      "issue_key": "suffragette:text:a01c23945cc31b4d",
       "line_id": "suffragette",
       "line_name": "Suffragette",
-      "reason": "Suffragette Line: No service between South Tottenham and Barking Riverside, and MINOR DELAYS on the rest of the line due to an operational incident. Trains between Gospel Oak and South Tottenham are running every 30 minutes.",
+      "reason": "Suffragette Line: No service between Upper Holloway and Barking Riverside, and MINOR DELAYS on the rest of the line due to an operational incident. Tickets are being accepted on London Underground and London Buses.",
       "severity": "Part Suspended",
       "source_created": "0001-01-01T00:00:00"
     },
@@ -42,6 +42,18 @@
     }
   },
   "history": [
+    {
+      "category": "other",
+      "duration_seconds": 23062,
+      "first_seen": "2026-10-26T04:59:19Z",
+      "issue_key": "suffragette:text:8963b29b1329993a",
+      "line_id": "suffragette",
+      "line_name": "Suffragette",
+      "reason": "Suffragette Line: No service between South Tottenham and Barking Riverside, and MINOR DELAYS on the rest of the line due to an operational incident. Trains between Gospel Oak and South Tottenham are running every 30 minutes.",
+      "resolved_at": "2026-10-26T11:23:41Z",
+      "severity": "Part Suspended",
+      "source_created": "0001-01-01T00:00:00"
+    },
     {
       "category": "planned engineering",
       "duration_seconds": 21607,
@@ -29011,6 +29023,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-10-26T10:59:26Z",
+  "updated_at": "2026-10-26T11:23:41Z",
   "version": 1
 }
