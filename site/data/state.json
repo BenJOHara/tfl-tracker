@@ -10,13 +10,13 @@
       "severity": "Part Suspended",
       "source_created": "0001-01-01T00:00:00"
     },
-    "district:text:2fffad6e03d07c48": {
+    "district:text:16ebd1a339e78dc3": {
       "category": "planned engineering",
-      "first_seen": "2026-10-26T04:59:19Z",
-      "issue_key": "district:text:2fffad6e03d07c48",
+      "first_seen": "2026-10-26T05:20:28Z",
+      "issue_key": "district:text:16ebd1a339e78dc3",
       "line_id": "district",
       "line_name": "District",
-      "reason": "District Line: No service between Embankment and Ealing Broadway / Edgware Road / Kensington (Olympia) / Richmond / Wimbledon due to a late finish to engineering work. MINOR DELAYS on the rest of the line.",
+      "reason": "District Line: No service between Embankment and Ealing Broadway / Edgware Road / Kensington (Olympia) / Richmond / Wimbledon due to a late finish to engineering work. London Buses, Mildmay line, Elizabeth line and South Western Railway are accepting tickets. MINOR DELAYS on the rest of the line.",
       "severity": "Part Suspended",
       "source_created": "0001-01-01T00:00:00"
     },
@@ -52,6 +52,18 @@
     }
   },
   "history": [
+    {
+      "category": "planned engineering",
+      "duration_seconds": 1269,
+      "first_seen": "2026-10-26T04:59:19Z",
+      "issue_key": "district:text:2fffad6e03d07c48",
+      "line_id": "district",
+      "line_name": "District",
+      "reason": "District Line: No service between Embankment and Ealing Broadway / Edgware Road / Kensington (Olympia) / Richmond / Wimbledon due to a late finish to engineering work. MINOR DELAYS on the rest of the line.",
+      "resolved_at": "2026-10-26T05:20:28Z",
+      "severity": "Part Suspended",
+      "source_created": "0001-01-01T00:00:00"
+    },
     {
       "category": "other",
       "duration_seconds": 12082,
@@ -28937,6 +28949,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-10-26T04:59:19Z",
+  "updated_at": "2026-10-26T05:20:28Z",
   "version": 1
 }
