@@ -50,16 +50,6 @@
       "severity": "Reduced Service",
       "source_created": "0001-01-01T00:00:00"
     },
-    "jubilee:text:6cd766f5fed8abc2": {
-      "category": "other",
-      "first_seen": "2026-10-26T00:11:49Z",
-      "issue_key": "jubilee:text:6cd766f5fed8abc2",
-      "line_id": "jubilee",
-      "line_name": "Jubilee",
-      "reason": "Jubilee Line: Severe delays between Wembley Park and Stratford southbound/eastbound only and MINOR DELAYS on the rest of the line due to an earlier obstruction on the track at Queensbury.",
-      "severity": "Severe Delays",
-      "source_created": "0001-01-01T00:00:00"
-    },
     "suffragette:text:fc1b762ceba77f92": {
       "category": "other",
       "first_seen": "2026-10-25T21:53:52Z",
@@ -102,6 +92,18 @@
     }
   },
   "history": [
+    {
+      "category": "other",
+      "duration_seconds": 1345,
+      "first_seen": "2026-10-26T00:11:49Z",
+      "issue_key": "jubilee:text:6cd766f5fed8abc2",
+      "line_id": "jubilee",
+      "line_name": "Jubilee",
+      "reason": "Jubilee Line: Severe delays between Wembley Park and Stratford southbound/eastbound only and MINOR DELAYS on the rest of the line due to an earlier obstruction on the track at Queensbury.",
+      "resolved_at": "2026-10-26T00:34:14Z",
+      "severity": "Severe Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
     {
       "category": "other",
       "duration_seconds": 6698,
@@ -28651,6 +28653,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-10-26T00:11:49Z",
+  "updated_at": "2026-10-26T00:34:14Z",
   "version": 1
 }
