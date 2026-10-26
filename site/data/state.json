@@ -50,14 +50,14 @@
       "severity": "Reduced Service",
       "source_created": "0001-01-01T00:00:00"
     },
-    "jubilee:text:4dfb334da99c7b6d": {
+    "jubilee:text:6cd766f5fed8abc2": {
       "category": "other",
-      "first_seen": "2026-10-25T22:20:11Z",
-      "issue_key": "jubilee:text:4dfb334da99c7b6d",
+      "first_seen": "2026-10-26T00:11:49Z",
+      "issue_key": "jubilee:text:6cd766f5fed8abc2",
       "line_id": "jubilee",
       "line_name": "Jubilee",
-      "reason": "Jubilee Line: Minor delays due to an earlier obstruction on the track at Queensbury.",
-      "severity": "Minor Delays",
+      "reason": "Jubilee Line: Severe delays between Wembley Park and Stratford southbound/eastbound only and MINOR DELAYS on the rest of the line due to an earlier obstruction on the track at Queensbury.",
+      "severity": "Severe Delays",
       "source_created": "0001-01-01T00:00:00"
     },
     "suffragette:text:fc1b762ceba77f92": {
@@ -102,6 +102,18 @@
     }
   },
   "history": [
+    {
+      "category": "other",
+      "duration_seconds": 6698,
+      "first_seen": "2026-10-25T22:20:11Z",
+      "issue_key": "jubilee:text:4dfb334da99c7b6d",
+      "line_id": "jubilee",
+      "line_name": "Jubilee",
+      "reason": "Jubilee Line: Minor delays due to an earlier obstruction on the track at Queensbury.",
+      "resolved_at": "2026-10-26T00:11:49Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
     {
       "category": "other",
       "duration_seconds": 12170,
@@ -28639,6 +28651,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-10-25T22:20:11Z",
+  "updated_at": "2026-10-26T00:11:49Z",
   "version": 1
 }
