@@ -1,32 +1,42 @@
 {
   "active": {
-    "central:text:6d3adc15d3ab5f03": {
+    "central:text:6d0af7c9d44f714a": {
       "category": "other",
-      "first_seen": "2026-10-26T19:31:20Z",
-      "issue_key": "central:text:6d3adc15d3ab5f03",
+      "first_seen": "2026-10-26T21:40:36Z",
+      "issue_key": "central:text:6d0af7c9d44f714a",
       "line_id": "central",
       "line_name": "Central",
-      "reason": "Central Line: Severe delays between White City and Ealing Broadway/West Ruislip and between Leytonstone and Epping/Hainault via Newbury Park. MINOR DELAYS on the rest of the line due to train cancellations. London Buses are accepting tickets via any reasonable route.",
+      "reason": "Central Line: Minor delays due to train cancellations.",
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "jubilee:text:c82c571ec9943f7b": {
-      "category": "other",
-      "first_seen": "2026-10-26T19:31:20Z",
-      "issue_key": "jubilee:text:c82c571ec9943f7b",
-      "line_id": "jubilee",
-      "line_name": "Jubilee",
-      "reason": "Jubilee Line: Minor delays due to earlier faulty platform edge doors at Canary Wharf.",
-      "severity": "Minor Delays",
+    "metropolitan:text:f284543852304561": {
+      "category": "signal failure",
+      "first_seen": "2026-10-26T21:40:36Z",
+      "issue_key": "metropolitan:text:f284543852304561",
+      "line_id": "metropolitan",
+      "line_name": "Metropolitan",
+      "reason": "Metropolitan Line: No service between Harrow-on-the-Hill and Uxbridge while we fix a signal failure at Ruislip. MINOR DELAYS between Moor Park and Watford due to train cancellations. GOOD SERVICE on the rest of the line. Tickets are being accepted on London Buses.",
+      "severity": "Part Suspended",
       "source_created": "0001-01-01T00:00:00"
     },
-    "suffragette:text:5592843517565955": {
+    "piccadilly:text:5f046a298ef88de8": {
+      "category": "signal failure",
+      "first_seen": "2026-10-26T21:40:36Z",
+      "issue_key": "piccadilly:text:5f046a298ef88de8",
+      "line_id": "piccadilly",
+      "line_name": "Piccadilly",
+      "reason": "Piccadilly Line: No service between Rayners Lane and Uxbridge while we fix a signal failure at Ruislip. SEVERE DELAYS between Acton Town and Rayners Lane. GOOD SERVICE on the rest of the line. London Buses are accepting tickets via any reasonable route.",
+      "severity": "Part Suspended",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "suffragette:text:260aa62e212922d9": {
       "category": "other",
-      "first_seen": "2026-10-26T17:17:13Z",
-      "issue_key": "suffragette:text:5592843517565955",
+      "first_seen": "2026-10-26T21:40:36Z",
+      "issue_key": "suffragette:text:260aa62e212922d9",
       "line_id": "suffragette",
       "line_name": "Suffragette",
-      "reason": "Suffragette Line: No service between South Tottenham and Barking Riverside due to a operational incident. MINOR DELAYS on the rest of the line. London Underground accepting tickets via any reasonable routes.",
+      "reason": "Suffragette Line: No service between South Tottenham and Barking Riverside due to a operational incident. MINOR DELAYS on the rest of the line. London Underground accepting tickets via any reasonable routes. Disruption expected until the end of the week.",
       "severity": "Part Suspended",
       "source_created": "0001-01-01T00:00:00"
     },
@@ -52,6 +62,42 @@
     }
   },
   "history": [
+    {
+      "category": "other",
+      "duration_seconds": 7756,
+      "first_seen": "2026-10-26T19:31:20Z",
+      "issue_key": "central:text:6d3adc15d3ab5f03",
+      "line_id": "central",
+      "line_name": "Central",
+      "reason": "Central Line: Severe delays between White City and Ealing Broadway/West Ruislip and between Leytonstone and Epping/Hainault via Newbury Park. MINOR DELAYS on the rest of the line due to train cancellations. London Buses are accepting tickets via any reasonable route.",
+      "resolved_at": "2026-10-26T21:40:36Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "other",
+      "duration_seconds": 7756,
+      "first_seen": "2026-10-26T19:31:20Z",
+      "issue_key": "jubilee:text:c82c571ec9943f7b",
+      "line_id": "jubilee",
+      "line_name": "Jubilee",
+      "reason": "Jubilee Line: Minor delays due to earlier faulty platform edge doors at Canary Wharf.",
+      "resolved_at": "2026-10-26T21:40:36Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "other",
+      "duration_seconds": 15803,
+      "first_seen": "2026-10-26T17:17:13Z",
+      "issue_key": "suffragette:text:5592843517565955",
+      "line_id": "suffragette",
+      "line_name": "Suffragette",
+      "reason": "Suffragette Line: No service between South Tottenham and Barking Riverside due to a operational incident. MINOR DELAYS on the rest of the line. London Underground accepting tickets via any reasonable routes.",
+      "resolved_at": "2026-10-26T21:40:36Z",
+      "severity": "Part Suspended",
+      "source_created": "0001-01-01T00:00:00"
+    },
     {
       "category": "other",
       "duration_seconds": 30714,
@@ -29105,6 +29151,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-10-26T19:31:20Z",
+  "updated_at": "2026-10-26T21:40:36Z",
   "version": 1
 }
