@@ -10,14 +10,24 @@
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "metropolitan:text:ab7e00ca1b0fabbc": {
+    "district:text:5568092af5183cd0": {
+      "category": "points failure",
+      "first_seen": "2026-10-26T23:18:18Z",
+      "issue_key": "district:text:5568092af5183cd0",
+      "line_id": "district",
+      "line_name": "District",
+      "reason": "District Line: Minor delays between High Street Kensington and Edgware Road while we fix a points failure at High Street Kensington. GOOD SERVICE on the rest of the line.",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "metropolitan:text:5cb7d2c049e09095": {
       "category": "signal failure",
-      "first_seen": "2026-10-26T21:52:57Z",
-      "issue_key": "metropolitan:text:ab7e00ca1b0fabbc",
+      "first_seen": "2026-10-26T23:18:18Z",
+      "issue_key": "metropolitan:text:5cb7d2c049e09095",
       "line_id": "metropolitan",
       "line_name": "Metropolitan",
-      "reason": "Metropolitan Line: No service between Harrow-on-the-Hill and Uxbridge while we fix a signal failure at Ruislip. MINOR DELAYS between Moor Park and Watford / Amersham due to train cancellations. GOOD SERVICE on the rest of the line. Tickets are being accepted on London Buses.",
-      "severity": "Part Suspended",
+      "reason": "Metropolitan Line: Severe delays between Harrow-on-the-Hill and Uxbridge while we fix a signal failure at Ruislip. GOOD SERVICE on the rest of the line. Tickets are being accepted on London Buses.",
+      "severity": "Severe Delays",
       "source_created": "0001-01-01T00:00:00"
     },
     "mildmay:text:1a32dbf6845b02a7": {
@@ -28,6 +38,16 @@
       "line_name": "Mildmay",
       "reason": "MILDMAY LINE: Monday 26, Tuesday 27, Wednesday 28 and Thursday 29 October, the 2147 Clapham Junction to Stratford train will not run. The 2203 and 2234 Clapham Junction to Stratford trains terminate at Willesden Junction. The 2249 train from Richmond to Stratford will terminate at Willesden Junction at 2306",
       "severity": "Reduced Service",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "northern:text:e56f765354da44de": {
+      "category": "person on track",
+      "first_seen": "2026-10-26T23:18:18Z",
+      "issue_key": "northern:text:e56f765354da44de",
+      "line_id": "northern",
+      "line_name": "Northern",
+      "reason": "Northern Line: Severe delays between High Barnet and Camden Town due to an earlier trespasser on the track at East Finchley. GOOD SERVICE on the rest of the line.",
+      "severity": "Severe Delays",
       "source_created": "0001-01-01T00:00:00"
     },
     "piccadilly:text:5f046a298ef88de8": {
@@ -48,6 +68,16 @@
       "line_name": "Suffragette",
       "reason": "Suffragette Line: No service between South Tottenham and Barking Riverside due to a operational incident. MINOR DELAYS on the rest of the line. London Underground accepting tickets via any reasonable routes. Disruption expected until the end of the week.",
       "severity": "Part Suspended",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "suffragette:text:a00820c332e7b4c6": {
+      "category": "other",
+      "first_seen": "2026-10-26T23:18:18Z",
+      "issue_key": "suffragette:text:a00820c332e7b4c6",
+      "line_id": "suffragette",
+      "line_name": "Suffragette",
+      "reason": "SUFFRAGETTE LINE: Monday 26, Tuesday 27, Wednesday 28, Thursday 29 and Friday 30 October, the 2303 train from Barking Riverside to Gospel Oak will terminate at Upper Holloway at 2338",
+      "severity": "Reduced Service",
       "source_created": "0001-01-01T00:00:00"
     },
     "tram:text:e96964e5082c0fca": {
@@ -72,6 +102,18 @@
     }
   },
   "history": [
+    {
+      "category": "signal failure",
+      "duration_seconds": 5121,
+      "first_seen": "2026-10-26T21:52:57Z",
+      "issue_key": "metropolitan:text:ab7e00ca1b0fabbc",
+      "line_id": "metropolitan",
+      "line_name": "Metropolitan",
+      "reason": "Metropolitan Line: No service between Harrow-on-the-Hill and Uxbridge while we fix a signal failure at Ruislip. MINOR DELAYS between Moor Park and Watford / Amersham due to train cancellations. GOOD SERVICE on the rest of the line. Tickets are being accepted on London Buses.",
+      "resolved_at": "2026-10-26T23:18:18Z",
+      "severity": "Part Suspended",
+      "source_created": "0001-01-01T00:00:00"
+    },
     {
       "category": "signal failure",
       "duration_seconds": 741,
@@ -29173,6 +29215,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-10-26T21:52:57Z",
+  "updated_at": "2026-10-26T23:18:18Z",
   "version": 1
 }
