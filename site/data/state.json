@@ -10,13 +10,23 @@
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "suffragette:text:a01c23945cc31b4d": {
+    "jubilee:text:912ea5dad87c92c8": {
       "category": "other",
-      "first_seen": "2026-10-26T11:23:41Z",
-      "issue_key": "suffragette:text:a01c23945cc31b4d",
+      "first_seen": "2026-10-26T17:17:13Z",
+      "issue_key": "jubilee:text:912ea5dad87c92c8",
+      "line_id": "jubilee",
+      "line_name": "Jubilee",
+      "reason": "Jubilee Line: Minor delays between Green Park and Stratford due to earlier faulty platform edge doors. GOOD SERVICE on the rest of the line.",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "suffragette:text:5592843517565955": {
+      "category": "other",
+      "first_seen": "2026-10-26T17:17:13Z",
+      "issue_key": "suffragette:text:5592843517565955",
       "line_id": "suffragette",
       "line_name": "Suffragette",
-      "reason": "Suffragette Line: No service between Upper Holloway and Barking Riverside, and MINOR DELAYS on the rest of the line due to an operational incident. Tickets are being accepted on London Underground and London Buses.",
+      "reason": "Suffragette Line: No service between South Tottenham and Barking Riverside due to a operational incident. MINOR DELAYS on the rest of the line. London Underground accepting tickets via any reasonable routes.",
       "severity": "Part Suspended",
       "source_created": "0001-01-01T00:00:00"
     },
@@ -30,18 +40,42 @@
       "severity": "Part Closure",
       "source_created": "0001-01-01T00:00:00"
     },
-    "windrush:text:585fbfb2cb7d2825": {
+    "victoria:text:02e0850cdf11ef25": {
+      "category": "other",
+      "first_seen": "2026-10-26T17:17:13Z",
+      "issue_key": "victoria:text:02e0850cdf11ef25",
+      "line_id": "victoria",
+      "line_name": "Victoria",
+      "reason": "Victoria Line: Minor delays due to train cancellations.",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    }
+  },
+  "history": [
+    {
+      "category": "other",
+      "duration_seconds": 21212,
+      "first_seen": "2026-10-26T11:23:41Z",
+      "issue_key": "suffragette:text:a01c23945cc31b4d",
+      "line_id": "suffragette",
+      "line_name": "Suffragette",
+      "reason": "Suffragette Line: No service between Upper Holloway and Barking Riverside, and MINOR DELAYS on the rest of the line due to an operational incident. Tickets are being accepted on London Underground and London Buses.",
+      "resolved_at": "2026-10-26T17:17:13Z",
+      "severity": "Part Suspended",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
       "category": "signal failure",
+      "duration_seconds": 13119,
       "first_seen": "2026-10-26T13:38:34Z",
       "issue_key": "windrush:text:585fbfb2cb7d2825",
       "line_id": "windrush",
       "line_name": "Windrush",
       "reason": "Windrush Line: No service between New Cross Gate and West Croydon / Crystal Palace while we fix a signal failure at Honor Oak Park. MINOR DELAYS on the rest of the line.",
+      "resolved_at": "2026-10-26T17:17:13Z",
       "severity": "Part Suspended",
       "source_created": "0001-01-01T00:00:00"
-    }
-  },
-  "history": [
+    },
     {
       "category": "signal failure",
       "duration_seconds": 9548,
@@ -29035,6 +29069,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-10-26T13:38:34Z",
+  "updated_at": "2026-10-26T17:17:13Z",
   "version": 1
 }
