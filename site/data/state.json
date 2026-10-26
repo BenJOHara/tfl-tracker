@@ -1,22 +1,22 @@
 {
   "active": {
-    "central:text:6d0af7c9d44f714a": {
+    "central:text:6d3adc15d3ab5f03": {
       "category": "other",
-      "first_seen": "2026-10-26T10:59:26Z",
-      "issue_key": "central:text:6d0af7c9d44f714a",
+      "first_seen": "2026-10-26T19:31:20Z",
+      "issue_key": "central:text:6d3adc15d3ab5f03",
       "line_id": "central",
       "line_name": "Central",
-      "reason": "Central Line: Minor delays due to train cancellations.",
+      "reason": "Central Line: Severe delays between White City and Ealing Broadway/West Ruislip and between Leytonstone and Epping/Hainault via Newbury Park. MINOR DELAYS on the rest of the line due to train cancellations. London Buses are accepting tickets via any reasonable route.",
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "jubilee:text:e866dbf1804d1234": {
+    "jubilee:text:c82c571ec9943f7b": {
       "category": "other",
-      "first_seen": "2026-10-26T17:32:16Z",
-      "issue_key": "jubilee:text:e866dbf1804d1234",
+      "first_seen": "2026-10-26T19:31:20Z",
+      "issue_key": "jubilee:text:c82c571ec9943f7b",
       "line_id": "jubilee",
       "line_name": "Jubilee",
-      "reason": "Jubilee Line: Minor delays due to earlier faulty platform edge doors.",
+      "reason": "Jubilee Line: Minor delays due to earlier faulty platform edge doors at Canary Wharf.",
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
@@ -52,6 +52,30 @@
     }
   },
   "history": [
+    {
+      "category": "other",
+      "duration_seconds": 30714,
+      "first_seen": "2026-10-26T10:59:26Z",
+      "issue_key": "central:text:6d0af7c9d44f714a",
+      "line_id": "central",
+      "line_name": "Central",
+      "reason": "Central Line: Minor delays due to train cancellations.",
+      "resolved_at": "2026-10-26T19:31:20Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "other",
+      "duration_seconds": 7144,
+      "first_seen": "2026-10-26T17:32:16Z",
+      "issue_key": "jubilee:text:e866dbf1804d1234",
+      "line_id": "jubilee",
+      "line_name": "Jubilee",
+      "reason": "Jubilee Line: Minor delays due to earlier faulty platform edge doors.",
+      "resolved_at": "2026-10-26T19:31:20Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
     {
       "category": "other",
       "duration_seconds": 903,
@@ -29081,6 +29105,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-10-26T17:32:16Z",
+  "updated_at": "2026-10-26T19:31:20Z",
   "version": 1
 }
