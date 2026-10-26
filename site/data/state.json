@@ -1,33 +1,13 @@
 {
   "active": {
-    "circle:text:65325215fd815ee7": {
-      "category": "planned engineering",
-      "first_seen": "2026-10-26T04:59:19Z",
-      "issue_key": "circle:text:65325215fd815ee7",
-      "line_id": "circle",
-      "line_name": "Circle",
-      "reason": "Circle Line: No service between Aldgate and Edgware Road via Victoria due to a late finish to engineering work. SEVERE DELAYS on the rest of the line.",
-      "severity": "Part Suspended",
-      "source_created": "0001-01-01T00:00:00"
-    },
-    "district:text:a6d8cd5b94d1dced": {
-      "category": "planned engineering",
-      "first_seen": "2026-10-26T06:54:27Z",
-      "issue_key": "district:text:a6d8cd5b94d1dced",
-      "line_id": "district",
-      "line_name": "District",
-      "reason": "District Line: No service between Embankment and Ealing Broadway / Edgware Road / Kensington (Olympia) / Richmond / Wimbledon due to a late finish of engineering work. London Buses, DLR, Mildmay line, Elizabeth line and South Western Railway are accepting tickets. SEVERE DELAYS on the rest of the line.",
-      "severity": "Part Suspended",
-      "source_created": "0001-01-01T00:00:00"
-    },
-    "northern:text:61e383362a009a65": {
-      "category": "signal failure",
-      "first_seen": "2026-10-26T06:54:27Z",
-      "issue_key": "northern:text:61e383362a009a65",
-      "line_id": "northern",
-      "line_name": "Northern",
-      "reason": "Northern Line: Severe delays between Camden Town and High Barnet while we fix a signal failure at Totteridge & Whetstone. Tickets are being accepted on London Buses. GOOD SERVICE on the rest of the line.",
-      "severity": "Severe Delays",
+    "central:text:6d0af7c9d44f714a": {
+      "category": "other",
+      "first_seen": "2026-10-26T10:59:26Z",
+      "issue_key": "central:text:6d0af7c9d44f714a",
+      "line_id": "central",
+      "line_name": "Central",
+      "reason": "Central Line: Minor delays due to train cancellations.",
+      "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
     "suffragette:text:8963b29b1329993a": {
@@ -40,18 +20,76 @@
       "severity": "Part Suspended",
       "source_created": "0001-01-01T00:00:00"
     },
-    "tram:text:ed05a4073ee33d15": {
+    "tram:text:e96964e5082c0fca": {
+      "category": "planned engineering",
+      "first_seen": "2026-10-26T10:59:26Z",
+      "issue_key": "tram:text:e96964e5082c0fca",
+      "line_id": "tram",
+      "line_name": "Tram",
+      "reason": "LONDON TRAMS: Saturday 24 October to Thursday 5 November, no service between East Croydon and Beckenham Junction / Elmers End / New Addington due to planned engineering work. SOUTHERN services continue to serve Birkbeck, except on Sundays. Replacement bus services operate",
+      "severity": "Part Closure",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "windrush:text:a1a7f3592dc635e2": {
+      "category": "signal failure",
+      "first_seen": "2026-10-26T10:59:26Z",
+      "issue_key": "windrush:text:a1a7f3592dc635e2",
+      "line_id": "windrush",
+      "line_name": "Windrush",
+      "reason": "Windrush Line: Minor delays between Sydenham and West Croydon while we fix a signal failure at Honor Oak Park. GOOD SERVICE on the rest of the line.",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    }
+  },
+  "history": [
+    {
+      "category": "planned engineering",
+      "duration_seconds": 21607,
+      "first_seen": "2026-10-26T04:59:19Z",
+      "issue_key": "circle:text:65325215fd815ee7",
+      "line_id": "circle",
+      "line_name": "Circle",
+      "reason": "Circle Line: No service between Aldgate and Edgware Road via Victoria due to a late finish to engineering work. SEVERE DELAYS on the rest of the line.",
+      "resolved_at": "2026-10-26T10:59:26Z",
+      "severity": "Part Suspended",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "planned engineering",
+      "duration_seconds": 14699,
+      "first_seen": "2026-10-26T06:54:27Z",
+      "issue_key": "district:text:a6d8cd5b94d1dced",
+      "line_id": "district",
+      "line_name": "District",
+      "reason": "District Line: No service between Embankment and Ealing Broadway / Edgware Road / Kensington (Olympia) / Richmond / Wimbledon due to a late finish of engineering work. London Buses, DLR, Mildmay line, Elizabeth line and South Western Railway are accepting tickets. SEVERE DELAYS on the rest of the line.",
+      "resolved_at": "2026-10-26T10:59:26Z",
+      "severity": "Part Suspended",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "signal failure",
+      "duration_seconds": 14699,
+      "first_seen": "2026-10-26T06:54:27Z",
+      "issue_key": "northern:text:61e383362a009a65",
+      "line_id": "northern",
+      "line_name": "Northern",
+      "reason": "Northern Line: Severe delays between Camden Town and High Barnet while we fix a signal failure at Totteridge & Whetstone. Tickets are being accepted on London Buses. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-10-26T10:59:26Z",
+      "severity": "Severe Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
       "category": "other",
+      "duration_seconds": 196331,
       "first_seen": "2026-10-24T04:27:15Z",
       "issue_key": "tram:text:ed05a4073ee33d15",
       "line_id": "tram",
       "line_name": "Tram",
       "reason": "LONDON TRAMS: Saturday 24 October to Thursday 5 November, no service between East Croydon and Beckenham Junction / Elmers End / New Addington. SOUTHERN services continue to serve Birkbeck, except on Sundays. Replacement bus services operate",
+      "resolved_at": "2026-10-26T10:59:26Z",
       "severity": "Part Closure",
       "source_created": "0001-01-01T00:00:00"
-    }
-  },
-  "history": [
+    },
     {
       "category": "planned engineering",
       "duration_seconds": 5639,
@@ -28973,6 +29011,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-10-26T06:54:27Z",
+  "updated_at": "2026-10-26T10:59:26Z",
   "version": 1
 }
