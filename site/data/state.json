@@ -10,13 +10,33 @@
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "northern:text:36a669e64a2cc94a": {
-      "category": "signal failure",
-      "first_seen": "2026-10-27T12:26:39Z",
-      "issue_key": "northern:text:36a669e64a2cc94a",
-      "line_id": "northern",
-      "line_name": "Northern",
-      "reason": "Northern Line: Minor delays due to an earlier signal failure at Balham.",
+    "elizabeth:text:44404839d43ae83c": {
+      "category": "person on track",
+      "first_seen": "2026-10-27T18:13:03Z",
+      "issue_key": "elizabeth:text:44404839d43ae83c",
+      "line_id": "elizabeth",
+      "line_name": "Elizabeth line",
+      "reason": "No service between Paddington and Heathrow Airport/Reading due to a trespasser at Acton Main Line. SEVERE DELAYS on the rest of the line.",
+      "severity": "Part Suspended",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "hammersmith-city:text:eddc8b895f833eca": {
+      "category": "points failure",
+      "first_seen": "2026-10-27T18:13:03Z",
+      "issue_key": "hammersmith-city:text:eddc8b895f833eca",
+      "line_id": "hammersmith-city",
+      "line_name": "Hammersmith & City",
+      "reason": "Hammersmith and City Line: Minor delays between Edgware Road and Hammersmith due to an earlier points failure at Hammersmith. GOOD SERVICE on the rest of the line.",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "piccadilly:text:f1ecae86afc44d45": {
+      "category": "other",
+      "first_seen": "2026-10-27T18:13:03Z",
+      "issue_key": "piccadilly:text:f1ecae86afc44d45",
+      "line_id": "piccadilly",
+      "line_name": "Piccadilly",
+      "reason": "Piccadilly Line: Minor delays between Acton Town and Heathrow Terminals due to temporary unavailability of train operators. Good service rest of the line.",
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
@@ -42,6 +62,18 @@
     }
   },
   "history": [
+    {
+      "category": "signal failure",
+      "duration_seconds": 20784,
+      "first_seen": "2026-10-27T12:26:39Z",
+      "issue_key": "northern:text:36a669e64a2cc94a",
+      "line_id": "northern",
+      "line_name": "Northern",
+      "reason": "Northern Line: Minor delays due to an earlier signal failure at Balham.",
+      "resolved_at": "2026-10-27T18:13:03Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
     {
       "category": "other",
       "duration_seconds": 4330,
@@ -29707,6 +29739,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-10-27T13:38:49Z",
+  "updated_at": "2026-10-27T18:13:03Z",
   "version": 1
 }
