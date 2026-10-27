@@ -1,22 +1,42 @@
 {
   "active": {
-    "central:text:6d0af7c9d44f714a": {
-      "category": "other",
-      "first_seen": "2026-10-27T12:26:39Z",
-      "issue_key": "central:text:6d0af7c9d44f714a",
+    "central:text:7d0b285a47a6d1f0": {
+      "category": "signal failure",
+      "first_seen": "2026-10-27T18:56:06Z",
+      "issue_key": "central:text:7d0b285a47a6d1f0",
       "line_id": "central",
       "line_name": "Central",
-      "reason": "Central Line: Minor delays due to train cancellations.",
+      "reason": "Central Line: Severe delays between White City and Ealing Broadway/ West Ruislip and MINOR DELAYS on the rest of the line while we fix a signal failure at North Acton. Tickets will be accepted on London Buses.",
+      "severity": "Severe Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "circle:text:a5feea99ca2670b7": {
+      "category": "train fault",
+      "first_seen": "2026-10-27T18:56:06Z",
+      "issue_key": "circle:text:a5feea99ca2670b7",
+      "line_id": "circle",
+      "line_name": "Circle",
+      "reason": "Circle Line: Severe delays due to an earlier faulty train at Monument. Tickets will be accepted on London Buses via any reasonable route.",
+      "severity": "Severe Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "district:text:4ea3c097cb5e666c": {
+      "category": "train fault",
+      "first_seen": "2026-10-27T18:56:06Z",
+      "issue_key": "district:text:4ea3c097cb5e666c",
+      "line_id": "district",
+      "line_name": "District",
+      "reason": "District Line: Minor delays between Tower Hill and Ealing Broadway/Richmond/ Wimbledon due to an earlier faulty train at Monument. GOOD SERVICE on the rest of the line.",
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "elizabeth:text:44404839d43ae83c": {
+    "elizabeth:text:aa5b9ba60a75a9f1": {
       "category": "person on track",
-      "first_seen": "2026-10-27T18:13:03Z",
-      "issue_key": "elizabeth:text:44404839d43ae83c",
+      "first_seen": "2026-10-27T18:56:06Z",
+      "issue_key": "elizabeth:text:aa5b9ba60a75a9f1",
       "line_id": "elizabeth",
       "line_name": "Elizabeth line",
-      "reason": "No service between Paddington and Heathrow Airport/Reading due to a trespasser at Acton Main Line. SEVERE DELAYS on the rest of the line.",
+      "reason": "No service between Paddington and Heathrow Airport/Reading due to an earlier trespasser at Acton Main Line. SEVERE DELAYS on the rest of the line.",
       "severity": "Part Suspended",
       "source_created": "0001-01-01T00:00:00"
     },
@@ -27,16 +47,6 @@
       "line_id": "hammersmith-city",
       "line_name": "Hammersmith & City",
       "reason": "Hammersmith and City Line: Minor delays between Edgware Road and Hammersmith due to an earlier points failure at Hammersmith. GOOD SERVICE on the rest of the line.",
-      "severity": "Minor Delays",
-      "source_created": "0001-01-01T00:00:00"
-    },
-    "piccadilly:text:f1ecae86afc44d45": {
-      "category": "other",
-      "first_seen": "2026-10-27T18:13:03Z",
-      "issue_key": "piccadilly:text:f1ecae86afc44d45",
-      "line_id": "piccadilly",
-      "line_name": "Piccadilly",
-      "reason": "Piccadilly Line: Minor delays between Acton Town and Heathrow Terminals due to temporary unavailability of train operators. Good service rest of the line.",
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
@@ -59,9 +69,55 @@
       "reason": "LONDON TRAMS: Saturday 24 October to Thursday 5 November, no service between East Croydon and Beckenham Junction / Elmers End / New Addington due to planned engineering work. SOUTHERN services continue to serve Birkbeck, except on Sundays. Replacement bus services operate",
       "severity": "Part Closure",
       "source_created": "0001-01-01T00:00:00"
+    },
+    "victoria:text:02e0850cdf11ef25": {
+      "category": "other",
+      "first_seen": "2026-10-27T18:56:06Z",
+      "issue_key": "victoria:text:02e0850cdf11ef25",
+      "line_id": "victoria",
+      "line_name": "Victoria",
+      "reason": "Victoria Line: Minor delays due to train cancellations.",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
     }
   },
   "history": [
+    {
+      "category": "other",
+      "duration_seconds": 23367,
+      "first_seen": "2026-10-27T12:26:39Z",
+      "issue_key": "central:text:6d0af7c9d44f714a",
+      "line_id": "central",
+      "line_name": "Central",
+      "reason": "Central Line: Minor delays due to train cancellations.",
+      "resolved_at": "2026-10-27T18:56:06Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "person on track",
+      "duration_seconds": 2583,
+      "first_seen": "2026-10-27T18:13:03Z",
+      "issue_key": "elizabeth:text:44404839d43ae83c",
+      "line_id": "elizabeth",
+      "line_name": "Elizabeth line",
+      "reason": "No service between Paddington and Heathrow Airport/Reading due to a trespasser at Acton Main Line. SEVERE DELAYS on the rest of the line.",
+      "resolved_at": "2026-10-27T18:56:06Z",
+      "severity": "Part Suspended",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "other",
+      "duration_seconds": 2583,
+      "first_seen": "2026-10-27T18:13:03Z",
+      "issue_key": "piccadilly:text:f1ecae86afc44d45",
+      "line_id": "piccadilly",
+      "line_name": "Piccadilly",
+      "reason": "Piccadilly Line: Minor delays between Acton Town and Heathrow Terminals due to temporary unavailability of train operators. Good service rest of the line.",
+      "resolved_at": "2026-10-27T18:56:06Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
     {
       "category": "signal failure",
       "duration_seconds": 20784,
@@ -29739,6 +29795,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-10-27T18:13:03Z",
+  "updated_at": "2026-10-27T18:56:06Z",
   "version": 1
 }
