@@ -10,16 +10,6 @@
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "central:text:6d0af7c9d44f714a": {
-      "category": "other",
-      "first_seen": "2026-10-27T22:24:59Z",
-      "issue_key": "central:text:6d0af7c9d44f714a",
-      "line_id": "central",
-      "line_name": "Central",
-      "reason": "Central Line: Minor delays due to train cancellations.",
-      "severity": "Minor Delays",
-      "source_created": "0001-01-01T00:00:00"
-    },
     "elizabeth:text:3d089c31670d79f3": {
       "category": "person on track",
       "first_seen": "2026-10-27T22:24:59Z",
@@ -69,9 +59,31 @@
       "reason": "LONDON TRAMS: Saturday 24 October to Thursday 5 November, no service between East Croydon and Beckenham Junction / Elmers End / New Addington due to planned engineering work. SOUTHERN services continue to serve Birkbeck, except on Sundays. Replacement bus services operate",
       "severity": "Part Closure",
       "source_created": "0001-01-01T00:00:00"
+    },
+    "victoria:text:9ffa284db0ddaf51": {
+      "category": "train fault",
+      "first_seen": "2026-10-27T22:45:01Z",
+      "issue_key": "victoria:text:9ffa284db0ddaf51",
+      "line_id": "victoria",
+      "line_name": "Victoria",
+      "reason": "Victoria Line: Minor delays due to an earlier faulty train at Vauxhall.",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
     }
   },
   "history": [
+    {
+      "category": "other",
+      "duration_seconds": 1202,
+      "first_seen": "2026-10-27T22:24:59Z",
+      "issue_key": "central:text:6d0af7c9d44f714a",
+      "line_id": "central",
+      "line_name": "Central",
+      "reason": "Central Line: Minor delays due to train cancellations.",
+      "resolved_at": "2026-10-27T22:45:01Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
     {
       "category": "train fault",
       "duration_seconds": 270,
@@ -29869,6 +29881,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-10-27T22:29:29Z",
+  "updated_at": "2026-10-27T22:45:01Z",
   "version": 1
 }
