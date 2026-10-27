@@ -1,12 +1,12 @@
 {
   "active": {
-    "northern:text:8fdd7004aaf2653e": {
+    "northern:text:75dd5eda4957aa5d": {
       "category": "signal failure",
-      "first_seen": "2026-10-27T06:12:10Z",
-      "issue_key": "northern:text:8fdd7004aaf2653e",
+      "first_seen": "2026-10-27T06:18:01Z",
+      "issue_key": "northern:text:75dd5eda4957aa5d",
       "line_id": "northern",
       "line_name": "Northern",
-      "reason": "Northern Line: No service between Stockwell and Morden while we fix a signal failure at Balham. Tickets are being accepted on London Buses. GOOD SERVICE on the rest of the line.",
+      "reason": "Northern Line: No service between Stockwell and Morden southbound only while we fix a signal failure at Balham. Tickets are being accepted on London Buses. GOOD SERVICE on the rest of the line.",
       "severity": "Part Suspended",
       "source_created": "0001-01-01T00:00:00"
     },
@@ -32,6 +32,18 @@
     }
   },
   "history": [
+    {
+      "category": "signal failure",
+      "duration_seconds": 351,
+      "first_seen": "2026-10-27T06:12:10Z",
+      "issue_key": "northern:text:8fdd7004aaf2653e",
+      "line_id": "northern",
+      "line_name": "Northern",
+      "reason": "Northern Line: No service between Stockwell and Morden while we fix a signal failure at Balham. Tickets are being accepted on London Buses. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-10-27T06:18:01Z",
+      "severity": "Part Suspended",
+      "source_created": "0001-01-01T00:00:00"
+    },
     {
       "category": "other",
       "duration_seconds": 14535,
@@ -29565,6 +29577,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-10-27T06:12:10Z",
+  "updated_at": "2026-10-27T06:18:01Z",
   "version": 1
 }
