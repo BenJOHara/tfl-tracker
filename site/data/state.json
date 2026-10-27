@@ -1,62 +1,32 @@
 {
   "active": {
-    "central:text:6d0af7c9d44f714a": {
-      "category": "other",
-      "first_seen": "2026-10-26T21:40:36Z",
-      "issue_key": "central:text:6d0af7c9d44f714a",
-      "line_id": "central",
-      "line_name": "Central",
-      "reason": "Central Line: Minor delays due to train cancellations.",
-      "severity": "Minor Delays",
-      "source_created": "0001-01-01T00:00:00"
-    },
-    "district:text:5568092af5183cd0": {
-      "category": "points failure",
-      "first_seen": "2026-10-26T23:18:18Z",
-      "issue_key": "district:text:5568092af5183cd0",
-      "line_id": "district",
-      "line_name": "District",
-      "reason": "District Line: Minor delays between High Street Kensington and Edgware Road while we fix a points failure at High Street Kensington. GOOD SERVICE on the rest of the line.",
-      "severity": "Minor Delays",
-      "source_created": "0001-01-01T00:00:00"
-    },
-    "metropolitan:text:5cb7d2c049e09095": {
+    "metropolitan:text:90652947ebea6849": {
       "category": "signal failure",
-      "first_seen": "2026-10-26T23:18:18Z",
-      "issue_key": "metropolitan:text:5cb7d2c049e09095",
+      "first_seen": "2026-10-27T00:54:24Z",
+      "issue_key": "metropolitan:text:90652947ebea6849",
       "line_id": "metropolitan",
       "line_name": "Metropolitan",
-      "reason": "Metropolitan Line: Severe delays between Harrow-on-the-Hill and Uxbridge while we fix a signal failure at Ruislip. GOOD SERVICE on the rest of the line. Tickets are being accepted on London Buses.",
-      "severity": "Severe Delays",
+      "reason": "Metropolitan Line: No service between Harrow-on-the-Hill and Uxbridge, and MINOR DELAYS on the rest of the line while we fix a signal failure at Ruislip. Tickets are being accepted on London Buses.",
+      "severity": "Part Suspended",
       "source_created": "0001-01-01T00:00:00"
     },
-    "mildmay:text:1a32dbf6845b02a7": {
+    "mildmay:text:66310bce1d17b216": {
       "category": "other",
-      "first_seen": "2026-10-26T21:52:57Z",
-      "issue_key": "mildmay:text:1a32dbf6845b02a7",
+      "first_seen": "2026-10-27T00:54:24Z",
+      "issue_key": "mildmay:text:66310bce1d17b216",
       "line_id": "mildmay",
       "line_name": "Mildmay",
-      "reason": "MILDMAY LINE: Monday 26, Tuesday 27, Wednesday 28 and Thursday 29 October, the 2147 Clapham Junction to Stratford train will not run. The 2203 and 2234 Clapham Junction to Stratford trains terminate at Willesden Junction. The 2249 train from Richmond to Stratford will terminate at Willesden Junction at 2306",
-      "severity": "Reduced Service",
+      "reason": "MILDMAY LINE: Monday 26, Tuesday 27, Wednesday 28 and Thursday 29 October, from 2345 each evening, no westbound service from Stratford to Camden Road. The 2359 and 0015 services from Stratford will start from Camden Road at 0018 and 0035. Customers should use the last westbound service from Stratford at 2344, or local bus routes 30, 274, 388, 393 or 488.",
+      "severity": "Part Closure",
       "source_created": "0001-01-01T00:00:00"
     },
-    "northern:text:e56f765354da44de": {
-      "category": "person on track",
-      "first_seen": "2026-10-26T23:18:18Z",
-      "issue_key": "northern:text:e56f765354da44de",
-      "line_id": "northern",
-      "line_name": "Northern",
-      "reason": "Northern Line: Severe delays between High Barnet and Camden Town due to an earlier trespasser on the track at East Finchley. GOOD SERVICE on the rest of the line.",
-      "severity": "Severe Delays",
-      "source_created": "0001-01-01T00:00:00"
-    },
-    "piccadilly:text:5f046a298ef88de8": {
+    "piccadilly:text:9e23664aaf3ceb4b": {
       "category": "signal failure",
-      "first_seen": "2026-10-26T21:40:36Z",
-      "issue_key": "piccadilly:text:5f046a298ef88de8",
+      "first_seen": "2026-10-27T00:54:24Z",
+      "issue_key": "piccadilly:text:9e23664aaf3ceb4b",
       "line_id": "piccadilly",
       "line_name": "Piccadilly",
-      "reason": "Piccadilly Line: No service between Rayners Lane and Uxbridge while we fix a signal failure at Ruislip. SEVERE DELAYS between Acton Town and Rayners Lane. GOOD SERVICE on the rest of the line. London Buses are accepting tickets via any reasonable route.",
+      "reason": "Piccadilly Line: No service between Rayners Lane and Uxbridge while we fix a signal failure at Ruislip. GOOD SERVICE on the rest of the line. London Buses are accepting tickets via any reasonable route.",
       "severity": "Part Suspended",
       "source_created": "0001-01-01T00:00:00"
     },
@@ -70,16 +40,6 @@
       "severity": "Part Suspended",
       "source_created": "0001-01-01T00:00:00"
     },
-    "suffragette:text:a00820c332e7b4c6": {
-      "category": "other",
-      "first_seen": "2026-10-26T23:18:18Z",
-      "issue_key": "suffragette:text:a00820c332e7b4c6",
-      "line_id": "suffragette",
-      "line_name": "Suffragette",
-      "reason": "SUFFRAGETTE LINE: Monday 26, Tuesday 27, Wednesday 28, Thursday 29 and Friday 30 October, the 2303 train from Barking Riverside to Gospel Oak will terminate at Upper Holloway at 2338",
-      "severity": "Reduced Service",
-      "source_created": "0001-01-01T00:00:00"
-    },
     "tram:text:e96964e5082c0fca": {
       "category": "planned engineering",
       "first_seen": "2026-10-26T10:59:26Z",
@@ -90,18 +50,124 @@
       "severity": "Part Closure",
       "source_created": "0001-01-01T00:00:00"
     },
-    "victoria:text:02e0850cdf11ef25": {
+    "waterloo-city:text:f1aea1ab3097cdd1": {
       "category": "other",
+      "first_seen": "2026-10-27T00:54:24Z",
+      "issue_key": "waterloo-city:text:f1aea1ab3097cdd1",
+      "line_id": "waterloo-city",
+      "line_name": "Waterloo & City",
+      "reason": "Waterloo and City Line: Service will resume later this morning.",
+      "severity": "Service Closed",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "windrush:text:875f981b2158e913": {
+      "category": "other",
+      "first_seen": "2026-10-27T00:54:24Z",
+      "issue_key": "windrush:text:875f981b2158e913",
+      "line_id": "windrush",
+      "line_name": "Windrush",
+      "reason": "WINDRUSH LINE: Monday 26, Tuesday 27, Wednesday 28 and Thursday 29 October, after 2330 each evening, no service between New Cross Gate and West Croydon / Crystal Palace. Rail replacement buses will run as follows: The bus for Crystal Palace will depart London Bridge at 2358 calling at New Cross Gate, Brockley, Honor Oak Park, Forest Hill, Sydenham, Crystal Palace, Gipsy Hill, West Norwood, Tulse Hill and Streatham Hill. The bus for East Croydon will depart London Bridge at 0035 calling at New Cross Gate, Brockley, Honor Oak Park, Forest Hill, Sydenham, Norwood Junction and East Croydon (Arr 01:27). One return bus from Crystal Palace departs at 2359, calling at all stations to London Bridge via New Cross Gate. Alternatively, use local buses or trams via any reasonable route. The 2232 and 2247 trains from Highbury & Islington to West Croydon will both divert to Crystal Palace. The 2338 train from Dalston Junction to New Cross Gate will not run",
+      "severity": "Part Closure",
+      "source_created": "0001-01-01T00:00:00"
+    }
+  },
+  "history": [
+    {
+      "category": "other",
+      "duration_seconds": 11628,
+      "first_seen": "2026-10-26T21:40:36Z",
+      "issue_key": "central:text:6d0af7c9d44f714a",
+      "line_id": "central",
+      "line_name": "Central",
+      "reason": "Central Line: Minor delays due to train cancellations.",
+      "resolved_at": "2026-10-27T00:54:24Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "points failure",
+      "duration_seconds": 5766,
+      "first_seen": "2026-10-26T23:18:18Z",
+      "issue_key": "district:text:5568092af5183cd0",
+      "line_id": "district",
+      "line_name": "District",
+      "reason": "District Line: Minor delays between High Street Kensington and Edgware Road while we fix a points failure at High Street Kensington. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-10-27T00:54:24Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "signal failure",
+      "duration_seconds": 5766,
+      "first_seen": "2026-10-26T23:18:18Z",
+      "issue_key": "metropolitan:text:5cb7d2c049e09095",
+      "line_id": "metropolitan",
+      "line_name": "Metropolitan",
+      "reason": "Metropolitan Line: Severe delays between Harrow-on-the-Hill and Uxbridge while we fix a signal failure at Ruislip. GOOD SERVICE on the rest of the line. Tickets are being accepted on London Buses.",
+      "resolved_at": "2026-10-27T00:54:24Z",
+      "severity": "Severe Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "other",
+      "duration_seconds": 10887,
+      "first_seen": "2026-10-26T21:52:57Z",
+      "issue_key": "mildmay:text:1a32dbf6845b02a7",
+      "line_id": "mildmay",
+      "line_name": "Mildmay",
+      "reason": "MILDMAY LINE: Monday 26, Tuesday 27, Wednesday 28 and Thursday 29 October, the 2147 Clapham Junction to Stratford train will not run. The 2203 and 2234 Clapham Junction to Stratford trains terminate at Willesden Junction. The 2249 train from Richmond to Stratford will terminate at Willesden Junction at 2306",
+      "resolved_at": "2026-10-27T00:54:24Z",
+      "severity": "Reduced Service",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "person on track",
+      "duration_seconds": 5766,
+      "first_seen": "2026-10-26T23:18:18Z",
+      "issue_key": "northern:text:e56f765354da44de",
+      "line_id": "northern",
+      "line_name": "Northern",
+      "reason": "Northern Line: Severe delays between High Barnet and Camden Town due to an earlier trespasser on the track at East Finchley. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-10-27T00:54:24Z",
+      "severity": "Severe Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "signal failure",
+      "duration_seconds": 11628,
+      "first_seen": "2026-10-26T21:40:36Z",
+      "issue_key": "piccadilly:text:5f046a298ef88de8",
+      "line_id": "piccadilly",
+      "line_name": "Piccadilly",
+      "reason": "Piccadilly Line: No service between Rayners Lane and Uxbridge while we fix a signal failure at Ruislip. SEVERE DELAYS between Acton Town and Rayners Lane. GOOD SERVICE on the rest of the line. London Buses are accepting tickets via any reasonable route.",
+      "resolved_at": "2026-10-27T00:54:24Z",
+      "severity": "Part Suspended",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "other",
+      "duration_seconds": 5766,
+      "first_seen": "2026-10-26T23:18:18Z",
+      "issue_key": "suffragette:text:a00820c332e7b4c6",
+      "line_id": "suffragette",
+      "line_name": "Suffragette",
+      "reason": "SUFFRAGETTE LINE: Monday 26, Tuesday 27, Wednesday 28, Thursday 29 and Friday 30 October, the 2303 train from Barking Riverside to Gospel Oak will terminate at Upper Holloway at 2338",
+      "resolved_at": "2026-10-27T00:54:24Z",
+      "severity": "Reduced Service",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "other",
+      "duration_seconds": 27431,
       "first_seen": "2026-10-26T17:17:13Z",
       "issue_key": "victoria:text:02e0850cdf11ef25",
       "line_id": "victoria",
       "line_name": "Victoria",
       "reason": "Victoria Line: Minor delays due to train cancellations.",
+      "resolved_at": "2026-10-27T00:54:24Z",
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
-    }
-  },
-  "history": [
+    },
     {
       "category": "signal failure",
       "duration_seconds": 5121,
@@ -29215,6 +29281,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-10-26T23:18:18Z",
+  "updated_at": "2026-10-27T00:54:24Z",
   "version": 1
 }
