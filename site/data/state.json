@@ -1,52 +1,62 @@
 {
   "active": {
-    "central:text:7d0b285a47a6d1f0": {
+    "bakerloo:text:6028e02486ff2705": {
       "category": "signal failure",
-      "first_seen": "2026-10-27T18:56:06Z",
-      "issue_key": "central:text:7d0b285a47a6d1f0",
-      "line_id": "central",
-      "line_name": "Central",
-      "reason": "Central Line: Severe delays between White City and Ealing Broadway/ West Ruislip and MINOR DELAYS on the rest of the line while we fix a signal failure at North Acton. Tickets will be accepted on London Buses.",
-      "severity": "Severe Delays",
-      "source_created": "0001-01-01T00:00:00"
-    },
-    "circle:text:a5feea99ca2670b7": {
-      "category": "train fault",
-      "first_seen": "2026-10-27T18:56:06Z",
-      "issue_key": "circle:text:a5feea99ca2670b7",
-      "line_id": "circle",
-      "line_name": "Circle",
-      "reason": "Circle Line: Severe delays due to an earlier faulty train at Monument. Tickets will be accepted on London Buses via any reasonable route.",
-      "severity": "Severe Delays",
-      "source_created": "0001-01-01T00:00:00"
-    },
-    "district:text:4ea3c097cb5e666c": {
-      "category": "train fault",
-      "first_seen": "2026-10-27T18:56:06Z",
-      "issue_key": "district:text:4ea3c097cb5e666c",
-      "line_id": "district",
-      "line_name": "District",
-      "reason": "District Line: Minor delays between Tower Hill and Ealing Broadway/Richmond/ Wimbledon due to an earlier faulty train at Monument. GOOD SERVICE on the rest of the line.",
+      "first_seen": "2026-10-27T22:24:59Z",
+      "issue_key": "bakerloo:text:6028e02486ff2705",
+      "line_id": "bakerloo",
+      "line_name": "Bakerloo",
+      "reason": "Bakerloo Line: Minor delays while we fix a signal failure in the Kensal green area.",
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "elizabeth:text:aa5b9ba60a75a9f1": {
-      "category": "person on track",
-      "first_seen": "2026-10-27T18:56:06Z",
-      "issue_key": "elizabeth:text:aa5b9ba60a75a9f1",
-      "line_id": "elizabeth",
-      "line_name": "Elizabeth line",
-      "reason": "No service between Paddington and Heathrow Airport/Reading due to an earlier trespasser at Acton Main Line. SEVERE DELAYS on the rest of the line.",
-      "severity": "Part Suspended",
+    "central:text:6d0af7c9d44f714a": {
+      "category": "other",
+      "first_seen": "2026-10-27T22:24:59Z",
+      "issue_key": "central:text:6d0af7c9d44f714a",
+      "line_id": "central",
+      "line_name": "Central",
+      "reason": "Central Line: Minor delays due to train cancellations.",
+      "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "hammersmith-city:text:eddc8b895f833eca": {
+    "district:text:8fd3458b9c944dd5": {
+      "category": "train fault",
+      "first_seen": "2026-10-27T22:24:59Z",
+      "issue_key": "district:text:8fd3458b9c944dd5",
+      "line_id": "district",
+      "line_name": "District",
+      "reason": "District Line: Minor delays between Earl's Court and Upminster due to an earlier faulty train at Monument. GOOD SERVICE on the rest of the line.",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "elizabeth:text:3d089c31670d79f3": {
+      "category": "person on track",
+      "first_seen": "2026-10-27T22:24:59Z",
+      "issue_key": "elizabeth:text:3d089c31670d79f3",
+      "line_id": "elizabeth",
+      "line_name": "Elizabeth line",
+      "reason": "Severe delays due to an earlier trespasser at Acton Main Line. London Underground accepting tickets via any reasonable route.",
+      "severity": "Severe Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "mildmay:text:1a32dbf6845b02a7": {
+      "category": "other",
+      "first_seen": "2026-10-27T22:24:59Z",
+      "issue_key": "mildmay:text:1a32dbf6845b02a7",
+      "line_id": "mildmay",
+      "line_name": "Mildmay",
+      "reason": "MILDMAY LINE: Monday 26, Tuesday 27, Wednesday 28 and Thursday 29 October, the 2147 Clapham Junction to Stratford train will not run. The 2203 and 2234 Clapham Junction to Stratford trains terminate at Willesden Junction. The 2249 train from Richmond to Stratford will terminate at Willesden Junction at 2306",
+      "severity": "Reduced Service",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "piccadilly:text:9f32f7b4f60574c2": {
       "category": "points failure",
-      "first_seen": "2026-10-27T18:13:03Z",
-      "issue_key": "hammersmith-city:text:eddc8b895f833eca",
-      "line_id": "hammersmith-city",
-      "line_name": "Hammersmith & City",
-      "reason": "Hammersmith and City Line: Minor delays between Edgware Road and Hammersmith due to an earlier points failure at Hammersmith. GOOD SERVICE on the rest of the line.",
+      "first_seen": "2026-10-27T22:24:59Z",
+      "issue_key": "piccadilly:text:9f32f7b4f60574c2",
+      "line_id": "piccadilly",
+      "line_name": "Piccadilly",
+      "reason": "Piccadilly Line: Minor delays while we fix a points failure at Acton Town.",
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
@@ -69,19 +79,81 @@
       "reason": "LONDON TRAMS: Saturday 24 October to Thursday 5 November, no service between East Croydon and Beckenham Junction / Elmers End / New Addington due to planned engineering work. SOUTHERN services continue to serve Birkbeck, except on Sundays. Replacement bus services operate",
       "severity": "Part Closure",
       "source_created": "0001-01-01T00:00:00"
+    }
+  },
+  "history": [
+    {
+      "category": "signal failure",
+      "duration_seconds": 12533,
+      "first_seen": "2026-10-27T18:56:06Z",
+      "issue_key": "central:text:7d0b285a47a6d1f0",
+      "line_id": "central",
+      "line_name": "Central",
+      "reason": "Central Line: Severe delays between White City and Ealing Broadway/ West Ruislip and MINOR DELAYS on the rest of the line while we fix a signal failure at North Acton. Tickets will be accepted on London Buses.",
+      "resolved_at": "2026-10-27T22:24:59Z",
+      "severity": "Severe Delays",
+      "source_created": "0001-01-01T00:00:00"
     },
-    "victoria:text:02e0850cdf11ef25": {
+    {
+      "category": "train fault",
+      "duration_seconds": 12533,
+      "first_seen": "2026-10-27T18:56:06Z",
+      "issue_key": "circle:text:a5feea99ca2670b7",
+      "line_id": "circle",
+      "line_name": "Circle",
+      "reason": "Circle Line: Severe delays due to an earlier faulty train at Monument. Tickets will be accepted on London Buses via any reasonable route.",
+      "resolved_at": "2026-10-27T22:24:59Z",
+      "severity": "Severe Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "train fault",
+      "duration_seconds": 12533,
+      "first_seen": "2026-10-27T18:56:06Z",
+      "issue_key": "district:text:4ea3c097cb5e666c",
+      "line_id": "district",
+      "line_name": "District",
+      "reason": "District Line: Minor delays between Tower Hill and Ealing Broadway/Richmond/ Wimbledon due to an earlier faulty train at Monument. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-10-27T22:24:59Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "person on track",
+      "duration_seconds": 12533,
+      "first_seen": "2026-10-27T18:56:06Z",
+      "issue_key": "elizabeth:text:aa5b9ba60a75a9f1",
+      "line_id": "elizabeth",
+      "line_name": "Elizabeth line",
+      "reason": "No service between Paddington and Heathrow Airport/Reading due to an earlier trespasser at Acton Main Line. SEVERE DELAYS on the rest of the line.",
+      "resolved_at": "2026-10-27T22:24:59Z",
+      "severity": "Part Suspended",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "points failure",
+      "duration_seconds": 15116,
+      "first_seen": "2026-10-27T18:13:03Z",
+      "issue_key": "hammersmith-city:text:eddc8b895f833eca",
+      "line_id": "hammersmith-city",
+      "line_name": "Hammersmith & City",
+      "reason": "Hammersmith and City Line: Minor delays between Edgware Road and Hammersmith due to an earlier points failure at Hammersmith. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-10-27T22:24:59Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
       "category": "other",
+      "duration_seconds": 12533,
       "first_seen": "2026-10-27T18:56:06Z",
       "issue_key": "victoria:text:02e0850cdf11ef25",
       "line_id": "victoria",
       "line_name": "Victoria",
       "reason": "Victoria Line: Minor delays due to train cancellations.",
+      "resolved_at": "2026-10-27T22:24:59Z",
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
-    }
-  },
-  "history": [
+    },
     {
       "category": "other",
       "duration_seconds": 23367,
@@ -29795,6 +29867,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-10-27T18:56:06Z",
+  "updated_at": "2026-10-27T22:24:59Z",
   "version": 1
 }
