@@ -20,33 +20,13 @@
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "piccadilly:text:a0e2904ec946dbfa": {
+    "suffragette:text:28ed55b756d509c3": {
       "category": "other",
-      "first_seen": "2026-10-27T12:26:39Z",
-      "issue_key": "piccadilly:text:a0e2904ec946dbfa",
-      "line_id": "piccadilly",
-      "line_name": "Piccadilly",
-      "reason": "Piccadilly Line: Minor delays between Acton Town and Uxbridge / Heathrow Terminals due to an earlier signalling problem at Hammersmith. GOOD SERVICE on the rest of the line.",
-      "severity": "Minor Delays",
-      "source_created": "0001-01-01T00:00:00"
-    },
-    "suffragette:text:260aa62e212922d9": {
-      "category": "other",
-      "first_seen": "2026-10-27T06:12:10Z",
-      "issue_key": "suffragette:text:260aa62e212922d9",
+      "first_seen": "2026-10-27T13:38:49Z",
+      "issue_key": "suffragette:text:28ed55b756d509c3",
       "line_id": "suffragette",
       "line_name": "Suffragette",
-      "reason": "Suffragette Line: No service between South Tottenham and Barking Riverside due to a operational incident. MINOR DELAYS on the rest of the line. London Underground accepting tickets via any reasonable routes. Disruption expected until the end of the week.",
-      "severity": "Minor Delays",
-      "source_created": "0001-01-01T00:00:00"
-    },
-    "suffragette:text:9ad7d8fb481b6b86": {
-      "category": "other",
-      "first_seen": "2026-10-27T12:26:39Z",
-      "issue_key": "suffragette:text:9ad7d8fb481b6b86",
-      "line_id": "suffragette",
-      "line_name": "Suffragette",
-      "reason": "SUFFRAGETTE LINE: No service between South Tottenham and Barking Riverside until further notice. Please use local London Underground and London Buses services.",
+      "reason": "Suffragette Line: No service between South Tottenham and Barking Riverside due to a operational incident. MINOR DELAYS on the rest of the line. London Underground and London Buses are accepting tickets via any reasonable routes. Disruption is expected until the end of the week.",
       "severity": "Part Closure",
       "source_created": "0001-01-01T00:00:00"
     },
@@ -62,6 +42,42 @@
     }
   },
   "history": [
+    {
+      "category": "other",
+      "duration_seconds": 4330,
+      "first_seen": "2026-10-27T12:26:39Z",
+      "issue_key": "piccadilly:text:a0e2904ec946dbfa",
+      "line_id": "piccadilly",
+      "line_name": "Piccadilly",
+      "reason": "Piccadilly Line: Minor delays between Acton Town and Uxbridge / Heathrow Terminals due to an earlier signalling problem at Hammersmith. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-10-27T13:38:49Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "other",
+      "duration_seconds": 26799,
+      "first_seen": "2026-10-27T06:12:10Z",
+      "issue_key": "suffragette:text:260aa62e212922d9",
+      "line_id": "suffragette",
+      "line_name": "Suffragette",
+      "reason": "Suffragette Line: No service between South Tottenham and Barking Riverside due to a operational incident. MINOR DELAYS on the rest of the line. London Underground accepting tickets via any reasonable routes. Disruption expected until the end of the week.",
+      "resolved_at": "2026-10-27T13:38:49Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "other",
+      "duration_seconds": 4330,
+      "first_seen": "2026-10-27T12:26:39Z",
+      "issue_key": "suffragette:text:9ad7d8fb481b6b86",
+      "line_id": "suffragette",
+      "line_name": "Suffragette",
+      "reason": "SUFFRAGETTE LINE: No service between South Tottenham and Barking Riverside until further notice. Please use local London Underground and London Buses services.",
+      "resolved_at": "2026-10-27T13:38:49Z",
+      "severity": "Part Closure",
+      "source_created": "0001-01-01T00:00:00"
+    },
     {
       "category": "other",
       "duration_seconds": 16890,
@@ -29691,6 +29707,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-10-27T12:26:39Z",
+  "updated_at": "2026-10-27T13:38:49Z",
   "version": 1
 }
