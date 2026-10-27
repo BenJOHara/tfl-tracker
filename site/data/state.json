@@ -1,53 +1,33 @@
 {
   "active": {
-    "bakerloo:text:441236c7b38e407e": {
+    "central:text:6d0af7c9d44f714a": {
       "category": "other",
-      "first_seen": "2026-10-27T07:45:09Z",
-      "issue_key": "bakerloo:text:441236c7b38e407e",
-      "line_id": "bakerloo",
-      "line_name": "Bakerloo",
-      "reason": "Bakerloo Line: Minor delays due to train cancellations.",
+      "first_seen": "2026-10-27T12:26:39Z",
+      "issue_key": "central:text:6d0af7c9d44f714a",
+      "line_id": "central",
+      "line_name": "Central",
+      "reason": "Central Line: Minor delays due to train cancellations.",
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "district:text:9c09d477e2a85811": {
-      "category": "other",
-      "first_seen": "2026-10-27T07:45:09Z",
-      "issue_key": "district:text:9c09d477e2a85811",
-      "line_id": "district",
-      "line_name": "District",
-      "reason": "District Line: Minor delays due to train cancellations.",
-      "severity": "Minor Delays",
-      "source_created": "0001-01-01T00:00:00"
-    },
-    "dlr:text:af4e76cdc77e7399": {
-      "category": "train fault",
-      "first_seen": "2026-10-27T07:45:09Z",
-      "issue_key": "dlr:text:af4e76cdc77e7399",
-      "line_id": "dlr",
-      "line_name": "DLR",
-      "reason": "Docklands Light Railway: Minor delays between Beckton and Tower Gateway while we fix a faulty train at Royal Albert. GOOD SERVICE on the rest of the line.",
-      "severity": "Minor Delays",
-      "source_created": "0001-01-01T00:00:00"
-    },
-    "elizabeth:text:f6c1da13e8bbb702": {
-      "category": "other",
-      "first_seen": "2026-10-27T07:45:09Z",
-      "issue_key": "elizabeth:text:f6c1da13e8bbb702",
-      "line_id": "elizabeth",
-      "line_name": "Elizabeth line",
-      "reason": "No service between Paddington and Heathrow Terminals / Reading and SEVERE DELAYS between Abbey Wood and Paddington while emergency services deal with a casualty on the track. GOOD SERVICE on the rest of the line. Tickets are being accepted on London Underground, London Buses, Southwestern, Thameslink, DLR, South Western Railways and Chiltern Railway services.",
-      "severity": "Part Suspended",
-      "source_created": "0001-01-01T00:00:00"
-    },
-    "northern:text:7ce0b2f694f09e3e": {
+    "northern:text:36a669e64a2cc94a": {
       "category": "signal failure",
-      "first_seen": "2026-10-27T07:45:09Z",
-      "issue_key": "northern:text:7ce0b2f694f09e3e",
+      "first_seen": "2026-10-27T12:26:39Z",
+      "issue_key": "northern:text:36a669e64a2cc94a",
       "line_id": "northern",
       "line_name": "Northern",
-      "reason": "Northern Line: No service between Stockwell and Morden while we fix a signal failure at Balham.MINOR DELAYS on the rest of the line. Tickets are being accepted on London Buses, London Trams,, Southeastern, Thameslink and South Western Railway Services.",
-      "severity": "Part Suspended",
+      "reason": "Northern Line: Minor delays due to an earlier signal failure at Balham.",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "piccadilly:text:a0e2904ec946dbfa": {
+      "category": "other",
+      "first_seen": "2026-10-27T12:26:39Z",
+      "issue_key": "piccadilly:text:a0e2904ec946dbfa",
+      "line_id": "piccadilly",
+      "line_name": "Piccadilly",
+      "reason": "Piccadilly Line: Minor delays between Acton Town and Uxbridge / Heathrow Terminals due to an earlier signalling problem at Hammersmith. GOOD SERVICE on the rest of the line.",
+      "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
     "suffragette:text:260aa62e212922d9": {
@@ -57,7 +37,17 @@
       "line_id": "suffragette",
       "line_name": "Suffragette",
       "reason": "Suffragette Line: No service between South Tottenham and Barking Riverside due to a operational incident. MINOR DELAYS on the rest of the line. London Underground accepting tickets via any reasonable routes. Disruption expected until the end of the week.",
-      "severity": "Part Suspended",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "suffragette:text:9ad7d8fb481b6b86": {
+      "category": "other",
+      "first_seen": "2026-10-27T12:26:39Z",
+      "issue_key": "suffragette:text:9ad7d8fb481b6b86",
+      "line_id": "suffragette",
+      "line_name": "Suffragette",
+      "reason": "SUFFRAGETTE LINE: No service between South Tottenham and Barking Riverside until further notice. Please use local London Underground and London Buses services.",
+      "severity": "Part Closure",
       "source_created": "0001-01-01T00:00:00"
     },
     "tram:text:e96964e5082c0fca": {
@@ -69,19 +59,81 @@
       "reason": "LONDON TRAMS: Saturday 24 October to Thursday 5 November, no service between East Croydon and Beckenham Junction / Elmers End / New Addington due to planned engineering work. SOUTHERN services continue to serve Birkbeck, except on Sundays. Replacement bus services operate",
       "severity": "Part Closure",
       "source_created": "0001-01-01T00:00:00"
-    },
-    "victoria:text:02e0850cdf11ef25": {
+    }
+  },
+  "history": [
+    {
       "category": "other",
+      "duration_seconds": 16890,
+      "first_seen": "2026-10-27T07:45:09Z",
+      "issue_key": "bakerloo:text:441236c7b38e407e",
+      "line_id": "bakerloo",
+      "line_name": "Bakerloo",
+      "reason": "Bakerloo Line: Minor delays due to train cancellations.",
+      "resolved_at": "2026-10-27T12:26:39Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "other",
+      "duration_seconds": 16890,
+      "first_seen": "2026-10-27T07:45:09Z",
+      "issue_key": "district:text:9c09d477e2a85811",
+      "line_id": "district",
+      "line_name": "District",
+      "reason": "District Line: Minor delays due to train cancellations.",
+      "resolved_at": "2026-10-27T12:26:39Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "train fault",
+      "duration_seconds": 16890,
+      "first_seen": "2026-10-27T07:45:09Z",
+      "issue_key": "dlr:text:af4e76cdc77e7399",
+      "line_id": "dlr",
+      "line_name": "DLR",
+      "reason": "Docklands Light Railway: Minor delays between Beckton and Tower Gateway while we fix a faulty train at Royal Albert. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-10-27T12:26:39Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "other",
+      "duration_seconds": 16890,
+      "first_seen": "2026-10-27T07:45:09Z",
+      "issue_key": "elizabeth:text:f6c1da13e8bbb702",
+      "line_id": "elizabeth",
+      "line_name": "Elizabeth line",
+      "reason": "No service between Paddington and Heathrow Terminals / Reading and SEVERE DELAYS between Abbey Wood and Paddington while emergency services deal with a casualty on the track. GOOD SERVICE on the rest of the line. Tickets are being accepted on London Underground, London Buses, Southwestern, Thameslink, DLR, South Western Railways and Chiltern Railway services.",
+      "resolved_at": "2026-10-27T12:26:39Z",
+      "severity": "Part Suspended",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "signal failure",
+      "duration_seconds": 16890,
+      "first_seen": "2026-10-27T07:45:09Z",
+      "issue_key": "northern:text:7ce0b2f694f09e3e",
+      "line_id": "northern",
+      "line_name": "Northern",
+      "reason": "Northern Line: No service between Stockwell and Morden while we fix a signal failure at Balham.MINOR DELAYS on the rest of the line. Tickets are being accepted on London Buses, London Trams,, Southeastern, Thameslink and South Western Railway Services.",
+      "resolved_at": "2026-10-27T12:26:39Z",
+      "severity": "Part Suspended",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "other",
+      "duration_seconds": 16890,
       "first_seen": "2026-10-27T07:45:09Z",
       "issue_key": "victoria:text:02e0850cdf11ef25",
       "line_id": "victoria",
       "line_name": "Victoria",
       "reason": "Victoria Line: Minor delays due to train cancellations.",
+      "resolved_at": "2026-10-27T12:26:39Z",
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
-    }
-  },
-  "history": [
+    },
     {
       "category": "signal failure",
       "duration_seconds": 5228,
@@ -29639,6 +29691,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-10-27T07:45:09Z",
+  "updated_at": "2026-10-27T12:26:39Z",
   "version": 1
 }
