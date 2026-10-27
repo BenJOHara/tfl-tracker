@@ -1,12 +1,52 @@
 {
   "active": {
-    "northern:text:75dd5eda4957aa5d": {
+    "bakerloo:text:441236c7b38e407e": {
+      "category": "other",
+      "first_seen": "2026-10-27T07:45:09Z",
+      "issue_key": "bakerloo:text:441236c7b38e407e",
+      "line_id": "bakerloo",
+      "line_name": "Bakerloo",
+      "reason": "Bakerloo Line: Minor delays due to train cancellations.",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "district:text:9c09d477e2a85811": {
+      "category": "other",
+      "first_seen": "2026-10-27T07:45:09Z",
+      "issue_key": "district:text:9c09d477e2a85811",
+      "line_id": "district",
+      "line_name": "District",
+      "reason": "District Line: Minor delays due to train cancellations.",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "dlr:text:af4e76cdc77e7399": {
+      "category": "train fault",
+      "first_seen": "2026-10-27T07:45:09Z",
+      "issue_key": "dlr:text:af4e76cdc77e7399",
+      "line_id": "dlr",
+      "line_name": "DLR",
+      "reason": "Docklands Light Railway: Minor delays between Beckton and Tower Gateway while we fix a faulty train at Royal Albert. GOOD SERVICE on the rest of the line.",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "elizabeth:text:f6c1da13e8bbb702": {
+      "category": "other",
+      "first_seen": "2026-10-27T07:45:09Z",
+      "issue_key": "elizabeth:text:f6c1da13e8bbb702",
+      "line_id": "elizabeth",
+      "line_name": "Elizabeth line",
+      "reason": "No service between Paddington and Heathrow Terminals / Reading and SEVERE DELAYS between Abbey Wood and Paddington while emergency services deal with a casualty on the track. GOOD SERVICE on the rest of the line. Tickets are being accepted on London Underground, London Buses, Southwestern, Thameslink, DLR, South Western Railways and Chiltern Railway services.",
+      "severity": "Part Suspended",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "northern:text:7ce0b2f694f09e3e": {
       "category": "signal failure",
-      "first_seen": "2026-10-27T06:18:01Z",
-      "issue_key": "northern:text:75dd5eda4957aa5d",
+      "first_seen": "2026-10-27T07:45:09Z",
+      "issue_key": "northern:text:7ce0b2f694f09e3e",
       "line_id": "northern",
       "line_name": "Northern",
-      "reason": "Northern Line: No service between Stockwell and Morden southbound only while we fix a signal failure at Balham. Tickets are being accepted on London Buses. GOOD SERVICE on the rest of the line.",
+      "reason": "Northern Line: No service between Stockwell and Morden while we fix a signal failure at Balham.MINOR DELAYS on the rest of the line. Tickets are being accepted on London Buses, London Trams,, Southeastern, Thameslink and South Western Railway Services.",
       "severity": "Part Suspended",
       "source_created": "0001-01-01T00:00:00"
     },
@@ -29,9 +69,31 @@
       "reason": "LONDON TRAMS: Saturday 24 October to Thursday 5 November, no service between East Croydon and Beckenham Junction / Elmers End / New Addington due to planned engineering work. SOUTHERN services continue to serve Birkbeck, except on Sundays. Replacement bus services operate",
       "severity": "Part Closure",
       "source_created": "0001-01-01T00:00:00"
+    },
+    "victoria:text:02e0850cdf11ef25": {
+      "category": "other",
+      "first_seen": "2026-10-27T07:45:09Z",
+      "issue_key": "victoria:text:02e0850cdf11ef25",
+      "line_id": "victoria",
+      "line_name": "Victoria",
+      "reason": "Victoria Line: Minor delays due to train cancellations.",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
     }
   },
   "history": [
+    {
+      "category": "signal failure",
+      "duration_seconds": 5228,
+      "first_seen": "2026-10-27T06:18:01Z",
+      "issue_key": "northern:text:75dd5eda4957aa5d",
+      "line_id": "northern",
+      "line_name": "Northern",
+      "reason": "Northern Line: No service between Stockwell and Morden southbound only while we fix a signal failure at Balham. Tickets are being accepted on London Buses. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-10-27T07:45:09Z",
+      "severity": "Part Suspended",
+      "source_created": "0001-01-01T00:00:00"
+    },
     {
       "category": "signal failure",
       "duration_seconds": 351,
@@ -29577,6 +29639,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-10-27T06:18:01Z",
+  "updated_at": "2026-10-27T07:45:09Z",
   "version": 1
 }
