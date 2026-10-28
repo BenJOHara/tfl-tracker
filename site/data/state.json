@@ -40,14 +40,14 @@
       "severity": "Severe Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "hammersmith-city:text:98bc538ba4d9b609": {
-      "category": "other",
-      "first_seen": "2026-10-28T19:42:36Z",
-      "issue_key": "hammersmith-city:text:98bc538ba4d9b609",
+    "hammersmith-city:text:20ec26fa481083ff": {
+      "category": "passenger incident",
+      "first_seen": "2026-10-28T19:49:47Z",
+      "issue_key": "hammersmith-city:text:20ec26fa481083ff",
       "line_id": "hammersmith-city",
       "line_name": "Hammersmith & City",
-      "reason": "Hammersmith and City Line: Severe delays while emergency services deal with a casualty on the track. Tickets will be accepted on London Buses, London Overground, DLR, Elizabeth line, C2C and South Western Railway.",
-      "severity": "Severe Delays",
+      "reason": "Hammersmith and City Line: Minor delays due to an earlier customer incident.",
+      "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
     "mildmay:text:0e4dc6f86cd964b5": {
@@ -112,6 +112,18 @@
     }
   },
   "history": [
+    {
+      "category": "other",
+      "duration_seconds": 431,
+      "first_seen": "2026-10-28T19:42:36Z",
+      "issue_key": "hammersmith-city:text:98bc538ba4d9b609",
+      "line_id": "hammersmith-city",
+      "line_name": "Hammersmith & City",
+      "reason": "Hammersmith and City Line: Severe delays while emergency services deal with a casualty on the track. Tickets will be accepted on London Buses, London Overground, DLR, Elizabeth line, C2C and South Western Railway.",
+      "resolved_at": "2026-10-28T19:49:47Z",
+      "severity": "Severe Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
     {
       "category": "planned engineering",
       "duration_seconds": 24710,
@@ -30281,6 +30293,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-10-28T19:42:36Z",
+  "updated_at": "2026-10-28T19:49:47Z",
   "version": 1
 }
