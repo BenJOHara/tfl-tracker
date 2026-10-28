@@ -1,5 +1,15 @@
 {
   "active": {
+    "bakerloo:text:441236c7b38e407e": {
+      "category": "other",
+      "first_seen": "2026-10-28T19:42:36Z",
+      "issue_key": "bakerloo:text:441236c7b38e407e",
+      "line_id": "bakerloo",
+      "line_name": "Bakerloo",
+      "reason": "Bakerloo Line: Minor delays due to train cancellations.",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
     "central:text:6d0af7c9d44f714a": {
       "category": "other",
       "first_seen": "2026-10-28T07:27:33Z",
@@ -8,6 +18,36 @@
       "line_name": "Central",
       "reason": "Central Line: Minor delays due to train cancellations.",
       "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "circle:text:94d630f0b2e4e43a": {
+      "category": "passenger incident",
+      "first_seen": "2026-10-28T19:42:36Z",
+      "issue_key": "circle:text:94d630f0b2e4e43a",
+      "line_id": "circle",
+      "line_name": "Circle",
+      "reason": "Circle Line: Severe delays due to an earlier customer incident. London Buses, Mildmay line, DLR, Elizabeth line and South Western Railway are accepting valid tickets via any reasonable route.",
+      "severity": "Severe Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "district:text:7e2c56f991ece5f1": {
+      "category": "passenger incident",
+      "first_seen": "2026-10-28T19:42:36Z",
+      "issue_key": "district:text:7e2c56f991ece5f1",
+      "line_id": "district",
+      "line_name": "District",
+      "reason": "District Line: Severe delays due to an earlier customer incident. London Buses, Mildmay line, DLR, Elizabeth line and South Western Railway are accepting valid tickets via any reasonable route.",
+      "severity": "Severe Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "hammersmith-city:text:98bc538ba4d9b609": {
+      "category": "other",
+      "first_seen": "2026-10-28T19:42:36Z",
+      "issue_key": "hammersmith-city:text:98bc538ba4d9b609",
+      "line_id": "hammersmith-city",
+      "line_name": "Hammersmith & City",
+      "reason": "Hammersmith and City Line: Severe delays while emergency services deal with a casualty on the track. Tickets will be accepted on London Buses, London Overground, DLR, Elizabeth line, C2C and South Western Railway.",
+      "severity": "Severe Delays",
       "source_created": "0001-01-01T00:00:00"
     },
     "mildmay:text:0e4dc6f86cd964b5": {
@@ -48,6 +88,16 @@
       "line_name": "Suffragette",
       "reason": "Suffragette Line: No service between South Tottenham and Barking Riverside due to a operational incident. MINOR DELAYS on the rest of the line. London Underground, London Buses and Elizabeth Line are accepting tickets via any reasonable routes. Disruption is expected until the end of the week.",
       "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "tram:text:d0950e99feed6c00": {
+      "category": "planned engineering",
+      "first_seen": "2026-10-28T19:42:36Z",
+      "issue_key": "tram:text:d0950e99feed6c00",
+      "line_id": "tram",
+      "line_name": "Tram",
+      "reason": "London Tramlink: No service between Phipps Bridge and Wimbledon while we remove an obstruction from the track at Dundonald Road. NO SERVICE between East Croydon and Beckenham Junction/Elmers End/New Addington due to planned engineering work. GOOD SERVICE on the rest of the line.",
+      "severity": "Part Suspended",
       "source_created": "0001-01-01T00:00:00"
     },
     "tram:text:e96964e5082c0fca": {
@@ -30231,6 +30281,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-10-28T14:19:23Z",
+  "updated_at": "2026-10-28T19:42:36Z",
   "version": 1
 }
