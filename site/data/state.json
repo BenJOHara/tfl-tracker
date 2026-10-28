@@ -10,13 +10,13 @@
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "district:text:7e2c56f991ece5f1": {
+    "district:text:af0a9241b05673b0": {
       "category": "passenger incident",
-      "first_seen": "2026-10-28T19:42:36Z",
-      "issue_key": "district:text:7e2c56f991ece5f1",
+      "first_seen": "2026-10-28T23:39:55Z",
+      "issue_key": "district:text:af0a9241b05673b0",
       "line_id": "district",
       "line_name": "District",
-      "reason": "District Line: Minor delays due to an earlier customer incident. London Buses, Mildmay line, DLR, Elizabeth line and South Western Railway are accepting valid tickets via any reasonable route.",
+      "reason": "District Line: Minor delays due to an earlier customer incident.",
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
@@ -102,6 +102,18 @@
     }
   },
   "history": [
+    {
+      "category": "passenger incident",
+      "duration_seconds": 14239,
+      "first_seen": "2026-10-28T19:42:36Z",
+      "issue_key": "district:text:7e2c56f991ece5f1",
+      "line_id": "district",
+      "line_name": "District",
+      "reason": "District Line: Minor delays due to an earlier customer incident. London Buses, Mildmay line, DLR, Elizabeth line and South Western Railway are accepting valid tickets via any reasonable route.",
+      "resolved_at": "2026-10-28T23:39:55Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
     {
       "category": "other",
       "duration_seconds": 14071,
@@ -30331,6 +30343,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-10-28T23:37:07Z",
+  "updated_at": "2026-10-28T23:39:55Z",
   "version": 1
 }
