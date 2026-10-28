@@ -1,15 +1,5 @@
 {
   "active": {
-    "bakerloo:text:441236c7b38e407e": {
-      "category": "other",
-      "first_seen": "2026-10-28T19:42:36Z",
-      "issue_key": "bakerloo:text:441236c7b38e407e",
-      "line_id": "bakerloo",
-      "line_name": "Bakerloo",
-      "reason": "Bakerloo Line: Minor delays due to train cancellations.",
-      "severity": "Minor Delays",
-      "source_created": "0001-01-01T00:00:00"
-    },
     "central:text:6d0af7c9d44f714a": {
       "category": "other",
       "first_seen": "2026-10-28T07:27:33Z",
@@ -20,44 +10,24 @@
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "circle:text:94d630f0b2e4e43a": {
-      "category": "passenger incident",
-      "first_seen": "2026-10-28T19:42:36Z",
-      "issue_key": "circle:text:94d630f0b2e4e43a",
-      "line_id": "circle",
-      "line_name": "Circle",
-      "reason": "Circle Line: Severe delays due to an earlier customer incident. London Buses, Mildmay line, DLR, Elizabeth line and South Western Railway are accepting valid tickets via any reasonable route.",
-      "severity": "Severe Delays",
-      "source_created": "0001-01-01T00:00:00"
-    },
     "district:text:7e2c56f991ece5f1": {
       "category": "passenger incident",
       "first_seen": "2026-10-28T19:42:36Z",
       "issue_key": "district:text:7e2c56f991ece5f1",
       "line_id": "district",
       "line_name": "District",
-      "reason": "District Line: Severe delays due to an earlier customer incident. London Buses, Mildmay line, DLR, Elizabeth line and South Western Railway are accepting valid tickets via any reasonable route.",
-      "severity": "Severe Delays",
-      "source_created": "0001-01-01T00:00:00"
-    },
-    "hammersmith-city:text:20ec26fa481083ff": {
-      "category": "passenger incident",
-      "first_seen": "2026-10-28T19:49:47Z",
-      "issue_key": "hammersmith-city:text:20ec26fa481083ff",
-      "line_id": "hammersmith-city",
-      "line_name": "Hammersmith & City",
-      "reason": "Hammersmith and City Line: Minor delays due to an earlier customer incident.",
+      "reason": "District Line: Minor delays due to an earlier customer incident. London Buses, Mildmay line, DLR, Elizabeth line and South Western Railway are accepting valid tickets via any reasonable route.",
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "mildmay:text:0e4dc6f86cd964b5": {
-      "category": "train fault",
-      "first_seen": "2026-10-28T14:19:23Z",
-      "issue_key": "mildmay:text:0e4dc6f86cd964b5",
+    "mildmay:text:1a32dbf6845b02a7": {
+      "category": "other",
+      "first_seen": "2026-10-28T23:37:07Z",
+      "issue_key": "mildmay:text:1a32dbf6845b02a7",
       "line_id": "mildmay",
       "line_name": "Mildmay",
-      "reason": "Mildmay Line: Severe delays due to an earlier faulty train at Willesden Junction. London Underground are accepting tickets via any reasonable route.",
-      "severity": "Severe Delays",
+      "reason": "MILDMAY LINE: Monday 26, Tuesday 27, Wednesday 28 and Thursday 29 October, the 2147 Clapham Junction to Stratford train will not run. The 2203 and 2234 Clapham Junction to Stratford trains terminate at Willesden Junction. The 2249 train from Richmond to Stratford will terminate at Willesden Junction at 2306",
+      "severity": "Reduced Service",
       "source_created": "0001-01-01T00:00:00"
     },
     "piccadilly:text:99f28e07539b9cbe": {
@@ -78,6 +48,16 @@
       "line_name": "Suffragette",
       "reason": "Suffragette Line: No service between South Tottenham and Barking Riverside due to a operational incident. MINOR DELAYS on the rest of the line. London Underground and London Buses are accepting tickets via any reasonable routes. Disruption is expected until the end of the week.",
       "severity": "Part Closure",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "suffragette:text:a00820c332e7b4c6": {
+      "category": "other",
+      "first_seen": "2026-10-28T23:37:07Z",
+      "issue_key": "suffragette:text:a00820c332e7b4c6",
+      "line_id": "suffragette",
+      "line_name": "Suffragette",
+      "reason": "SUFFRAGETTE LINE: Monday 26, Tuesday 27, Wednesday 28, Thursday 29 and Friday 30 October, the 2303 train from Barking Riverside to Gospel Oak will terminate at Upper Holloway at 2338",
+      "severity": "Reduced Service",
       "source_created": "0001-01-01T00:00:00"
     },
     "suffragette:text:a06372f67b6d4fa3": {
@@ -109,9 +89,67 @@
       "reason": "LONDON TRAMS: Saturday 24 October to Thursday 5 November, no service between East Croydon and Beckenham Junction / Elmers End / New Addington due to planned engineering work. SOUTHERN services continue to serve Birkbeck, except on Sundays. Replacement bus services operate",
       "severity": "Part Closure",
       "source_created": "0001-01-01T00:00:00"
+    },
+    "windrush:text:875f981b2158e913": {
+      "category": "other",
+      "first_seen": "2026-10-28T23:37:07Z",
+      "issue_key": "windrush:text:875f981b2158e913",
+      "line_id": "windrush",
+      "line_name": "Windrush",
+      "reason": "WINDRUSH LINE: Monday 26, Tuesday 27, Wednesday 28 and Thursday 29 October, after 2330 each evening, no service between New Cross Gate and West Croydon / Crystal Palace. Rail replacement buses will run as follows: The bus for Crystal Palace will depart London Bridge at 2358 calling at New Cross Gate, Brockley, Honor Oak Park, Forest Hill, Sydenham, Crystal Palace, Gipsy Hill, West Norwood, Tulse Hill and Streatham Hill. The bus for East Croydon will depart London Bridge at 0035 calling at New Cross Gate, Brockley, Honor Oak Park, Forest Hill, Sydenham, Norwood Junction and East Croydon (Arr 01:27). One return bus from Crystal Palace departs at 2359, calling at all stations to London Bridge via New Cross Gate. Alternatively, use local buses or trams via any reasonable route. The 2232 and 2247 trains from Highbury & Islington to West Croydon will both divert to Crystal Palace. The 2338 train from Dalston Junction to New Cross Gate will not run",
+      "severity": "Part Closure",
+      "source_created": "0001-01-01T00:00:00"
     }
   },
   "history": [
+    {
+      "category": "other",
+      "duration_seconds": 14071,
+      "first_seen": "2026-10-28T19:42:36Z",
+      "issue_key": "bakerloo:text:441236c7b38e407e",
+      "line_id": "bakerloo",
+      "line_name": "Bakerloo",
+      "reason": "Bakerloo Line: Minor delays due to train cancellations.",
+      "resolved_at": "2026-10-28T23:37:07Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "passenger incident",
+      "duration_seconds": 14071,
+      "first_seen": "2026-10-28T19:42:36Z",
+      "issue_key": "circle:text:94d630f0b2e4e43a",
+      "line_id": "circle",
+      "line_name": "Circle",
+      "reason": "Circle Line: Severe delays due to an earlier customer incident. London Buses, Mildmay line, DLR, Elizabeth line and South Western Railway are accepting valid tickets via any reasonable route.",
+      "resolved_at": "2026-10-28T23:37:07Z",
+      "severity": "Severe Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "passenger incident",
+      "duration_seconds": 13640,
+      "first_seen": "2026-10-28T19:49:47Z",
+      "issue_key": "hammersmith-city:text:20ec26fa481083ff",
+      "line_id": "hammersmith-city",
+      "line_name": "Hammersmith & City",
+      "reason": "Hammersmith and City Line: Minor delays due to an earlier customer incident.",
+      "resolved_at": "2026-10-28T23:37:07Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "train fault",
+      "duration_seconds": 33464,
+      "first_seen": "2026-10-28T14:19:23Z",
+      "issue_key": "mildmay:text:0e4dc6f86cd964b5",
+      "line_id": "mildmay",
+      "line_name": "Mildmay",
+      "reason": "Mildmay Line: Severe delays due to an earlier faulty train at Willesden Junction. London Underground are accepting tickets via any reasonable route.",
+      "resolved_at": "2026-10-28T23:37:07Z",
+      "severity": "Severe Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
     {
       "category": "other",
       "duration_seconds": 431,
@@ -30293,6 +30331,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-10-28T19:49:47Z",
+  "updated_at": "2026-10-28T23:37:07Z",
   "version": 1
 }
