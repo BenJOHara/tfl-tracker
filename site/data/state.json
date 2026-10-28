@@ -10,14 +10,14 @@
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "jubilee:text:52d1b60a1db0e81e": {
-      "category": "planned engineering",
-      "first_seen": "2026-10-28T07:27:33Z",
-      "issue_key": "jubilee:text:52d1b60a1db0e81e",
-      "line_id": "jubilee",
-      "line_name": "Jubilee",
-      "reason": "Jubilee Line: Minor delays following a late finish of engineering work at Stratford and Wembley Park.",
-      "severity": "Minor Delays",
+    "mildmay:text:0e4dc6f86cd964b5": {
+      "category": "train fault",
+      "first_seen": "2026-10-28T14:19:23Z",
+      "issue_key": "mildmay:text:0e4dc6f86cd964b5",
+      "line_id": "mildmay",
+      "line_name": "Mildmay",
+      "reason": "Mildmay Line: Severe delays due to an earlier faulty train at Willesden Junction. London Underground are accepting tickets via any reasonable route.",
+      "severity": "Severe Delays",
       "source_created": "0001-01-01T00:00:00"
     },
     "piccadilly:text:99f28e07539b9cbe": {
@@ -50,16 +50,6 @@
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "tram:text:53d1ac2826fb7cbf": {
-      "category": "power failure",
-      "first_seen": "2026-10-28T07:27:33Z",
-      "issue_key": "tram:text:53d1ac2826fb7cbf",
-      "line_id": "tram",
-      "line_name": "Tram",
-      "reason": "London Tramlink: No service between Therapia Lane and East Croydon due to a local power failure and NO SERVICE between East Croydon and Beckenham Junction/Elmers End/New Addington due to planned engineering work. GOOD SERVICE on the rest of the line.",
-      "severity": "Part Suspended",
-      "source_created": "0001-01-01T00:00:00"
-    },
     "tram:text:e96964e5082c0fca": {
       "category": "planned engineering",
       "first_seen": "2026-10-28T07:27:33Z",
@@ -69,19 +59,45 @@
       "reason": "LONDON TRAMS: Saturday 24 October to Thursday 5 November, no service between East Croydon and Beckenham Junction / Elmers End / New Addington due to planned engineering work. SOUTHERN services continue to serve Birkbeck, except on Sundays. Replacement bus services operate",
       "severity": "Part Closure",
       "source_created": "0001-01-01T00:00:00"
+    }
+  },
+  "history": [
+    {
+      "category": "planned engineering",
+      "duration_seconds": 24710,
+      "first_seen": "2026-10-28T07:27:33Z",
+      "issue_key": "jubilee:text:52d1b60a1db0e81e",
+      "line_id": "jubilee",
+      "line_name": "Jubilee",
+      "reason": "Jubilee Line: Minor delays following a late finish of engineering work at Stratford and Wembley Park.",
+      "resolved_at": "2026-10-28T14:19:23Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
     },
-    "victoria:text:02e0850cdf11ef25": {
+    {
+      "category": "power failure",
+      "duration_seconds": 24710,
+      "first_seen": "2026-10-28T07:27:33Z",
+      "issue_key": "tram:text:53d1ac2826fb7cbf",
+      "line_id": "tram",
+      "line_name": "Tram",
+      "reason": "London Tramlink: No service between Therapia Lane and East Croydon due to a local power failure and NO SERVICE between East Croydon and Beckenham Junction/Elmers End/New Addington due to planned engineering work. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-10-28T14:19:23Z",
+      "severity": "Part Suspended",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
       "category": "other",
+      "duration_seconds": 24710,
       "first_seen": "2026-10-28T07:27:33Z",
       "issue_key": "victoria:text:02e0850cdf11ef25",
       "line_id": "victoria",
       "line_name": "Victoria",
       "reason": "Victoria Line: Minor delays due to train cancellations.",
+      "resolved_at": "2026-10-28T14:19:23Z",
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
-    }
-  },
-  "history": [
+    },
     {
       "category": "train fault",
       "duration_seconds": 325,
@@ -30215,6 +30231,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-10-28T07:32:58Z",
+  "updated_at": "2026-10-28T14:19:23Z",
   "version": 1
 }
