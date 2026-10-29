@@ -1,22 +1,32 @@
 {
   "active": {
-    "central:text:5e7726428fa4ca6b": {
-      "category": "other",
-      "first_seen": "2026-10-29T08:58:41Z",
-      "issue_key": "central:text:5e7726428fa4ca6b",
-      "line_id": "central",
-      "line_name": "Central",
-      "reason": "Central Line: Minor delays between White City and Ealing Broadway/West Ruislip and between Leytonstone and Epping/Hainault via Newbury Park due to train cancellations.",
+    "bakerloo:text:e7fdad3e9e275040": {
+      "category": "train fault",
+      "first_seen": "2026-10-29T16:01:28Z",
+      "issue_key": "bakerloo:text:e7fdad3e9e275040",
+      "line_id": "bakerloo",
+      "line_name": "Bakerloo",
+      "reason": "Bakerloo Line: Minor delays due to an earlier faulty train at Charing Cross.",
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "metropolitan:text:a535e39777862129": {
+    "central:text:6d0af7c9d44f714a": {
       "category": "other",
-      "first_seen": "2026-10-29T09:49:16Z",
-      "issue_key": "metropolitan:text:a535e39777862129",
-      "line_id": "metropolitan",
-      "line_name": "Metropolitan",
-      "reason": "Metropolitan Line: Minor delays between Harrow-on-the-Hill and Baker Street due to train cancellations. GOOD SERVICE on the rest of the line.",
+      "first_seen": "2026-10-29T16:01:28Z",
+      "issue_key": "central:text:6d0af7c9d44f714a",
+      "line_id": "central",
+      "line_name": "Central",
+      "reason": "Central Line: Minor delays due to train cancellations.",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "district:text:846c2e7ebd1fa2e5": {
+      "category": "other",
+      "first_seen": "2026-10-29T16:01:28Z",
+      "issue_key": "district:text:846c2e7ebd1fa2e5",
+      "line_id": "district",
+      "line_name": "District",
+      "reason": "District Line: Minor delays between Barking and Upminster and between Turnham Green and Richmond due to train cancellations. GOOD SERVICE on the rest of the line.",
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
@@ -36,7 +46,7 @@
       "issue_key": "suffragette:text:28ed55b756d509c3",
       "line_id": "suffragette",
       "line_name": "Suffragette",
-      "reason": "Suffragette Line: No service between South Tottenham and Barking Riverside due to a operational incident. MINOR DELAYS on the rest of the line. London Underground and London Buses are accepting tickets via any reasonable routes. Disruption is expected until the end of the week.",
+      "reason": "Suffragette Line: No service between South Tottenham and Barking Riverside due to a operational incident. MINOR DELAYS on the rest of the line. London Underground and London Buses are accepting tickets via any reasonable routes. Disruption is expected until early next week.",
       "severity": "Part Closure",
       "source_created": "0001-01-01T00:00:00"
     },
@@ -49,19 +59,45 @@
       "reason": "LONDON TRAMS: Saturday 24 October to Thursday 5 November, no service between East Croydon and Beckenham Junction / Elmers End / New Addington due to planned engineering work. SOUTHERN services continue to serve Birkbeck, except on Sundays. Replacement bus services operate",
       "severity": "Part Closure",
       "source_created": "0001-01-01T00:00:00"
-    },
-    "victoria:text:02e0850cdf11ef25": {
+    }
+  },
+  "history": [
+    {
       "category": "other",
+      "duration_seconds": 25367,
+      "first_seen": "2026-10-29T08:58:41Z",
+      "issue_key": "central:text:5e7726428fa4ca6b",
+      "line_id": "central",
+      "line_name": "Central",
+      "reason": "Central Line: Minor delays between White City and Ealing Broadway/West Ruislip and between Leytonstone and Epping/Hainault via Newbury Park due to train cancellations.",
+      "resolved_at": "2026-10-29T16:01:28Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "other",
+      "duration_seconds": 22332,
+      "first_seen": "2026-10-29T09:49:16Z",
+      "issue_key": "metropolitan:text:a535e39777862129",
+      "line_id": "metropolitan",
+      "line_name": "Metropolitan",
+      "reason": "Metropolitan Line: Minor delays between Harrow-on-the-Hill and Baker Street due to train cancellations. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-10-29T16:01:28Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "other",
+      "duration_seconds": 25367,
       "first_seen": "2026-10-29T08:58:41Z",
       "issue_key": "victoria:text:02e0850cdf11ef25",
       "line_id": "victoria",
       "line_name": "Victoria",
       "reason": "Victoria Line: Minor delays due to train cancellations.",
+      "resolved_at": "2026-10-29T16:01:28Z",
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
-    }
-  },
-  "history": [
+    },
     {
       "category": "other",
       "duration_seconds": 3035,
@@ -30651,6 +30687,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-10-29T09:49:16Z",
+  "updated_at": "2026-10-29T16:01:28Z",
   "version": 1
 }
