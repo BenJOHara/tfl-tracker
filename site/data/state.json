@@ -10,16 +10,6 @@
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "dlr:text:04ecb476f84246ae": {
-      "category": "points failure",
-      "first_seen": "2026-10-29T21:01:58Z",
-      "issue_key": "dlr:text:04ecb476f84246ae",
-      "line_id": "dlr",
-      "line_name": "DLR",
-      "reason": "Docklands Light Railway: Minor delays between Canning Town and Woolwich Arsenal due to an earlier fix a points failure at Woolwich Arsenal. GOOD SERVICE on the rest of the line.",
-      "severity": "Minor Delays",
-      "source_created": "0001-01-01T00:00:00"
-    },
     "jubilee:text:57925a2ef9e26722": {
       "category": "other",
       "first_seen": "2026-10-29T21:01:58Z",
@@ -38,6 +28,16 @@
       "line_name": "Metropolitan",
       "reason": "Metropolitan Line: No service between Harrow-on-the-Hill and Uxbridge and MINOR DELAYS between Harrow-on-the-Hill and Aldgate while we fix a signal failure at Harrow-on-the-Hill and NO SERVICE between Moor Park and Watford while we deal with a signalling problem at Croxley. GOOD SERVICE on the rest of the line. Tickets are being accepted on London Buses.",
       "severity": "Part Suspended",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "mildmay:text:d39aa3592b9f8b7e": {
+      "category": "other",
+      "first_seen": "2026-10-29T21:19:37Z",
+      "issue_key": "mildmay:text:d39aa3592b9f8b7e",
+      "line_id": "mildmay",
+      "line_name": "Mildmay",
+      "reason": "MILDMAY LINE: Wednesday 28 and Thursday 29 October, The 2129 and 2159 trains from Stratford to Richmond and 2135 train from Stratford to Clapham Junction will terminate at Camden Road.",
+      "severity": "Reduced Service",
       "source_created": "0001-01-01T00:00:00"
     },
     "piccadilly:text:99f28e07539b9cbe": {
@@ -82,6 +82,18 @@
     }
   },
   "history": [
+    {
+      "category": "points failure",
+      "duration_seconds": 1059,
+      "first_seen": "2026-10-29T21:01:58Z",
+      "issue_key": "dlr:text:04ecb476f84246ae",
+      "line_id": "dlr",
+      "line_name": "DLR",
+      "reason": "Docklands Light Railway: Minor delays between Canning Town and Woolwich Arsenal due to an earlier fix a points failure at Woolwich Arsenal. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-10-29T21:19:37Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
     {
       "category": "other",
       "duration_seconds": 16801,
@@ -30755,6 +30767,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-10-29T21:01:58Z",
+  "updated_at": "2026-10-29T21:19:37Z",
   "version": 1
 }
