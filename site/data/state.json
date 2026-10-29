@@ -1,12 +1,12 @@
 {
   "active": {
-    "bakerloo:text:e7fdad3e9e275040": {
-      "category": "train fault",
-      "first_seen": "2026-10-29T16:01:28Z",
-      "issue_key": "bakerloo:text:e7fdad3e9e275040",
+    "bakerloo:text:baafa637e53a518b": {
+      "category": "other",
+      "first_seen": "2026-10-29T16:21:57Z",
+      "issue_key": "bakerloo:text:baafa637e53a518b",
       "line_id": "bakerloo",
       "line_name": "Bakerloo",
-      "reason": "Bakerloo Line: Minor delays due to an earlier faulty train at Charing Cross.",
+      "reason": "Bakerloo Line: Minor delays due to train cancellation.",
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
@@ -17,16 +17,6 @@
       "line_id": "central",
       "line_name": "Central",
       "reason": "Central Line: Minor delays due to train cancellations.",
-      "severity": "Minor Delays",
-      "source_created": "0001-01-01T00:00:00"
-    },
-    "district:text:846c2e7ebd1fa2e5": {
-      "category": "other",
-      "first_seen": "2026-10-29T16:01:28Z",
-      "issue_key": "district:text:846c2e7ebd1fa2e5",
-      "line_id": "district",
-      "line_name": "District",
-      "reason": "District Line: Minor delays between Barking and Upminster and between Turnham Green and Richmond due to train cancellations. GOOD SERVICE on the rest of the line.",
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
@@ -59,9 +49,43 @@
       "reason": "LONDON TRAMS: Saturday 24 October to Thursday 5 November, no service between East Croydon and Beckenham Junction / Elmers End / New Addington due to planned engineering work. SOUTHERN services continue to serve Birkbeck, except on Sundays. Replacement bus services operate",
       "severity": "Part Closure",
       "source_created": "0001-01-01T00:00:00"
+    },
+    "victoria:text:02e0850cdf11ef25": {
+      "category": "other",
+      "first_seen": "2026-10-29T16:21:57Z",
+      "issue_key": "victoria:text:02e0850cdf11ef25",
+      "line_id": "victoria",
+      "line_name": "Victoria",
+      "reason": "Victoria Line: Minor delays due to train cancellations.",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
     }
   },
   "history": [
+    {
+      "category": "train fault",
+      "duration_seconds": 1229,
+      "first_seen": "2026-10-29T16:01:28Z",
+      "issue_key": "bakerloo:text:e7fdad3e9e275040",
+      "line_id": "bakerloo",
+      "line_name": "Bakerloo",
+      "reason": "Bakerloo Line: Minor delays due to an earlier faulty train at Charing Cross.",
+      "resolved_at": "2026-10-29T16:21:57Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "other",
+      "duration_seconds": 1229,
+      "first_seen": "2026-10-29T16:01:28Z",
+      "issue_key": "district:text:846c2e7ebd1fa2e5",
+      "line_id": "district",
+      "line_name": "District",
+      "reason": "District Line: Minor delays between Barking and Upminster and between Turnham Green and Richmond due to train cancellations. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-10-29T16:21:57Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
     {
       "category": "other",
       "duration_seconds": 25367,
@@ -30687,6 +30711,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-10-29T16:01:28Z",
+  "updated_at": "2026-10-29T16:21:57Z",
   "version": 1
 }
