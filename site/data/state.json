@@ -1,13 +1,23 @@
 {
   "active": {
-    "elizabeth:text:6bc7e13dae740bbc": {
+    "bakerloo:text:2f8d0cf427bbb36b": {
+      "category": "other",
+      "first_seen": "2026-10-30T07:14:53Z",
+      "issue_key": "bakerloo:text:2f8d0cf427bbb36b",
+      "line_id": "bakerloo",
+      "line_name": "Bakerloo",
+      "reason": "Bakerloo Line: Severe delays between Queen's Park and Harrow & Wealdstone due to a person ill on a train earlier at Queen's Park. MINOR DELAYS on the rest of the line. Tickets being accepted on London Buses, Lioness line, Thameslink and London Northwestern.",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "elizabeth:text:39497a082edc10a5": {
       "category": "power failure",
-      "first_seen": "2026-10-30T06:32:14Z",
-      "issue_key": "elizabeth:text:6bc7e13dae740bbc",
+      "first_seen": "2026-10-30T07:14:53Z",
+      "issue_key": "elizabeth:text:39497a082edc10a5",
       "line_id": "elizabeth",
       "line_name": "Elizabeth line",
-      "reason": "No service between Paddington and Abbey Wood, SEVERE DELAYS between Paddington and Reading/Heathrow Terminals and MINOR DELAYS on the rest of the line due to an earlier power supply failure. London Underground are accepting tickets via any reasonable route.",
-      "severity": "Part Suspended",
+      "reason": "Severe delays between Abbey Wood and Heathrow Airport / Reading and MINOR DELAYS on the rest of the line due to an earlier power supply failure. London Underground is accepting tickets via any reasonable route.",
+      "severity": "Severe Delays",
       "source_created": "0001-01-01T00:00:00"
     },
     "piccadilly:text:99f28e07539b9cbe": {
@@ -42,6 +52,18 @@
     }
   },
   "history": [
+    {
+      "category": "power failure",
+      "duration_seconds": 2559,
+      "first_seen": "2026-10-30T06:32:14Z",
+      "issue_key": "elizabeth:text:6bc7e13dae740bbc",
+      "line_id": "elizabeth",
+      "line_name": "Elizabeth line",
+      "reason": "No service between Paddington and Abbey Wood, SEVERE DELAYS between Paddington and Reading/Heathrow Terminals and MINOR DELAYS on the rest of the line due to an earlier power supply failure. London Underground are accepting tickets via any reasonable route.",
+      "resolved_at": "2026-10-30T07:14:53Z",
+      "severity": "Part Suspended",
+      "source_created": "0001-01-01T00:00:00"
+    },
     {
       "category": "other",
       "duration_seconds": 18974,
@@ -31003,6 +31025,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-10-30T06:32:14Z",
+  "updated_at": "2026-10-30T07:14:53Z",
   "version": 1
 }
