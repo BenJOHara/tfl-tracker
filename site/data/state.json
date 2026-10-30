@@ -70,6 +70,26 @@
       "severity": "Service Closed",
       "source_created": "0001-01-01T00:00:00"
     },
+    "liberty:text:19134079f5c98ab7": {
+      "category": "other",
+      "first_seen": "2026-10-30T01:19:13Z",
+      "issue_key": "liberty:text:19134079f5c98ab7",
+      "line_id": "liberty",
+      "line_name": "Liberty",
+      "reason": "Liberty Line: Service will resume later this morning.",
+      "severity": "Service Closed",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "lioness:text:edb0d527df87ed16": {
+      "category": "other",
+      "first_seen": "2026-10-30T01:19:13Z",
+      "issue_key": "lioness:text:edb0d527df87ed16",
+      "line_id": "lioness",
+      "line_name": "Lioness",
+      "reason": "Lioness Line: Service will resume later this morning.",
+      "severity": "Service Closed",
+      "source_created": "0001-01-01T00:00:00"
+    },
     "metropolitan:text:4b366f757f8f5a28": {
       "category": "other",
       "first_seen": "2026-10-30T01:16:00Z",
@@ -100,6 +120,16 @@
       "severity": "Part Closure",
       "source_created": "0001-01-01T00:00:00"
     },
+    "northern:text:82bd4c50fdf4647c": {
+      "category": "other",
+      "first_seen": "2026-10-30T01:19:13Z",
+      "issue_key": "northern:text:82bd4c50fdf4647c",
+      "line_id": "northern",
+      "line_name": "Northern",
+      "reason": "Northern Line: Service will resume later this morning.",
+      "severity": "Service Closed",
+      "source_created": "0001-01-01T00:00:00"
+    },
     "piccadilly:text:99f28e07539b9cbe": {
       "category": "other",
       "first_seen": "2026-10-28T07:27:33Z",
@@ -108,16 +138,6 @@
       "line_name": "Piccadilly",
       "reason": "PICCADILLY LINE: Wednesday 28, Thursday 29 and Friday 30 October, no service between Cockfosters and Uxbridge. Trains continue to operate between Acton Town and Heathrow, all terminals. Use the METROPOLITAN LINE between Rayners Lane and Uxbridge, and ELIZABETH LINE services between Central London and Heathrow. Replacement bus services operate.",
       "severity": "Part Closure",
-      "source_created": "0001-01-01T00:00:00"
-    },
-    "suffragette:text:260aa62e212922d9": {
-      "category": "other",
-      "first_seen": "2026-10-29T21:01:58Z",
-      "issue_key": "suffragette:text:260aa62e212922d9",
-      "line_id": "suffragette",
-      "line_name": "Suffragette",
-      "reason": "Suffragette Line: No service between South Tottenham and Barking Riverside due to a operational incident. MINOR DELAYS on the rest of the line. London Underground accepting tickets via any reasonable routes. Disruption expected until the end of the week.",
-      "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
     "suffragette:text:28ed55b756d509c3": {
@@ -130,14 +150,14 @@
       "severity": "Part Closure",
       "source_created": "0001-01-01T00:00:00"
     },
-    "tram:text:e96964e5082c0fca": {
-      "category": "planned engineering",
-      "first_seen": "2026-10-29T08:58:41Z",
-      "issue_key": "tram:text:e96964e5082c0fca",
-      "line_id": "tram",
-      "line_name": "Tram",
-      "reason": "LONDON TRAMS: Saturday 24 October to Thursday 5 November, no service between East Croydon and Beckenham Junction / Elmers End / New Addington due to planned engineering work. SOUTHERN services continue to serve Birkbeck, except on Sundays. Replacement bus services operate",
-      "severity": "Part Closure",
+    "suffragette:text:6bd6fd379c3b1744": {
+      "category": "other",
+      "first_seen": "2026-10-30T01:19:13Z",
+      "issue_key": "suffragette:text:6bd6fd379c3b1744",
+      "line_id": "suffragette",
+      "line_name": "Suffragette",
+      "reason": "Suffragette Line: Service will resume later this morning. There will be no service between South Tottenham and Barking Riverside due to an operational incident.",
+      "severity": "Service Closed",
       "source_created": "0001-01-01T00:00:00"
     },
     "waterloo-city:text:0faebd0ea99ebd1b": {
@@ -162,6 +182,30 @@
     }
   },
   "history": [
+    {
+      "category": "other",
+      "duration_seconds": 15435,
+      "first_seen": "2026-10-29T21:01:58Z",
+      "issue_key": "suffragette:text:260aa62e212922d9",
+      "line_id": "suffragette",
+      "line_name": "Suffragette",
+      "reason": "Suffragette Line: No service between South Tottenham and Barking Riverside due to a operational incident. MINOR DELAYS on the rest of the line. London Underground accepting tickets via any reasonable routes. Disruption expected until the end of the week.",
+      "resolved_at": "2026-10-30T01:19:13Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "planned engineering",
+      "duration_seconds": 58832,
+      "first_seen": "2026-10-29T08:58:41Z",
+      "issue_key": "tram:text:e96964e5082c0fca",
+      "line_id": "tram",
+      "line_name": "Tram",
+      "reason": "LONDON TRAMS: Saturday 24 October to Thursday 5 November, no service between East Croydon and Beckenham Junction / Elmers End / New Addington due to planned engineering work. SOUTHERN services continue to serve Birkbeck, except on Sundays. Replacement bus services operate",
+      "resolved_at": "2026-10-30T01:19:13Z",
+      "severity": "Part Closure",
+      "source_created": "0001-01-01T00:00:00"
+    },
     {
       "category": "other",
       "duration_seconds": 15242,
@@ -30907,6 +30951,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-10-30T01:16:00Z",
+  "updated_at": "2026-10-30T01:19:13Z",
   "version": 1
 }
