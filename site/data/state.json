@@ -40,6 +40,16 @@
       "severity": "Reduced Service",
       "source_created": "0001-01-01T00:00:00"
     },
+    "mildmay:text:7cdc4f3af7a1fc98": {
+      "category": "other",
+      "first_seen": "2026-10-30T23:06:05Z",
+      "issue_key": "mildmay:text:7cdc4f3af7a1fc98",
+      "line_id": "mildmay",
+      "line_name": "Mildmay",
+      "reason": "MILDMAY LINE: Wednesday 28 and Thursday 29 October, after 2300 each evening, no eastbound service from Willesden Junction to Stratford. Customers should use the last eastbound services detailed or London Overground services to Euston. Last through trains: Clapham Junction to Stratford 2218; Richmond to Stratford 2232; Willesden Junction to Stratford 2252. In addition, the 2249 train from Richmond to Stratford will not run, the 2302 train from Richmond to Stratford will terminate at Willesden Junction and the 2318 train from Richmond to Willesden Junction will not run",
+      "severity": "Part Closure",
+      "source_created": "0001-01-01T00:00:00"
+    },
     "piccadilly:text:99f28e07539b9cbe": {
       "category": "other",
       "first_seen": "2026-10-28T07:27:33Z",
@@ -48,6 +58,16 @@
       "line_name": "Piccadilly",
       "reason": "PICCADILLY LINE: Wednesday 28, Thursday 29 and Friday 30 October, no service between Cockfosters and Uxbridge. Trains continue to operate between Acton Town and Heathrow, all terminals. Use the METROPOLITAN LINE between Rayners Lane and Uxbridge, and ELIZABETH LINE services between Central London and Heathrow. Replacement bus services operate.",
       "severity": "Part Closure",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "suffragette:text:a00820c332e7b4c6": {
+      "category": "other",
+      "first_seen": "2026-10-30T23:06:05Z",
+      "issue_key": "suffragette:text:a00820c332e7b4c6",
+      "line_id": "suffragette",
+      "line_name": "Suffragette",
+      "reason": "SUFFRAGETTE LINE: Monday 26, Tuesday 27, Wednesday 28, Thursday 29 and Friday 30 October, the 2303 train from Barking Riverside to Gospel Oak will terminate at Upper Holloway at 2338",
+      "severity": "Reduced Service",
       "source_created": "0001-01-01T00:00:00"
     },
     "suffragette:text:b0fd216cd39c4f03": {
@@ -31163,6 +31183,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-10-30T22:40:48Z",
+  "updated_at": "2026-10-30T23:06:05Z",
   "version": 1
 }
