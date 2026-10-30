@@ -1,15 +1,5 @@
 {
   "active": {
-    "central:text:6d0af7c9d44f714a": {
-      "category": "other",
-      "first_seen": "2026-10-29T16:01:28Z",
-      "issue_key": "central:text:6d0af7c9d44f714a",
-      "line_id": "central",
-      "line_name": "Central",
-      "reason": "Central Line: Minor delays due to train cancellations.",
-      "severity": "Minor Delays",
-      "source_created": "0001-01-01T00:00:00"
-    },
     "jubilee:text:57925a2ef9e26722": {
       "category": "other",
       "first_seen": "2026-10-29T21:01:58Z",
@@ -20,24 +10,34 @@
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "metropolitan:text:e8be6a4e470d5e6f": {
+    "metropolitan:text:264a3f374e311a78": {
       "category": "signal failure",
-      "first_seen": "2026-10-29T21:01:58Z",
-      "issue_key": "metropolitan:text:e8be6a4e470d5e6f",
+      "first_seen": "2026-10-30T00:51:06Z",
+      "issue_key": "metropolitan:text:264a3f374e311a78",
       "line_id": "metropolitan",
       "line_name": "Metropolitan",
-      "reason": "Metropolitan Line: No service between Harrow-on-the-Hill and Uxbridge and MINOR DELAYS between Harrow-on-the-Hill and Aldgate while we fix a signal failure at Harrow-on-the-Hill and NO SERVICE between Moor Park and Watford while we deal with a signalling problem at Croxley. GOOD SERVICE on the rest of the line. Tickets are being accepted on London Buses.",
-      "severity": "Part Suspended",
+      "reason": "Metropolitan Line: Severe delays due to an earlier signal failure at Harrow-on-the Hill. Tickets are being accepted on London Buses, London Overground, London Northwestern Railway, Chiltern Railways and Thameslink services.",
+      "severity": "Severe Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "mildmay:text:d39aa3592b9f8b7e": {
+    "mildmay:text:66310bce1d17b216": {
       "category": "other",
-      "first_seen": "2026-10-29T21:19:37Z",
-      "issue_key": "mildmay:text:d39aa3592b9f8b7e",
+      "first_seen": "2026-10-30T00:51:06Z",
+      "issue_key": "mildmay:text:66310bce1d17b216",
       "line_id": "mildmay",
       "line_name": "Mildmay",
-      "reason": "MILDMAY LINE: Wednesday 28 and Thursday 29 October, The 2129 and 2159 trains from Stratford to Richmond and 2135 train from Stratford to Clapham Junction will terminate at Camden Road.",
-      "severity": "Reduced Service",
+      "reason": "MILDMAY LINE: Monday 26, Tuesday 27, Wednesday 28 and Thursday 29 October, from 2345 each evening, no westbound service from Stratford to Camden Road. The 2359 and 0015 services from Stratford will start from Camden Road at 0018 and 0035. Customers should use the last westbound service from Stratford at 2344, or local bus routes 30, 274, 388, 393 or 488.",
+      "severity": "Part Closure",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "mildmay:text:7cdc4f3af7a1fc98": {
+      "category": "other",
+      "first_seen": "2026-10-30T00:51:06Z",
+      "issue_key": "mildmay:text:7cdc4f3af7a1fc98",
+      "line_id": "mildmay",
+      "line_name": "Mildmay",
+      "reason": "MILDMAY LINE: Wednesday 28 and Thursday 29 October, after 2300 each evening, no eastbound service from Willesden Junction to Stratford. Customers should use the last eastbound services detailed or London Overground services to Euston. Last through trains: Clapham Junction to Stratford 2218; Richmond to Stratford 2232; Willesden Junction to Stratford 2252. In addition, the 2249 train from Richmond to Stratford will not run, the 2302 train from Richmond to Stratford will terminate at Willesden Junction and the 2318 train from Richmond to Willesden Junction will not run",
+      "severity": "Part Closure",
       "source_created": "0001-01-01T00:00:00"
     },
     "piccadilly:text:99f28e07539b9cbe": {
@@ -79,9 +79,65 @@
       "reason": "LONDON TRAMS: Saturday 24 October to Thursday 5 November, no service between East Croydon and Beckenham Junction / Elmers End / New Addington due to planned engineering work. SOUTHERN services continue to serve Birkbeck, except on Sundays. Replacement bus services operate",
       "severity": "Part Closure",
       "source_created": "0001-01-01T00:00:00"
+    },
+    "waterloo-city:text:0faebd0ea99ebd1b": {
+      "category": "other",
+      "first_seen": "2026-10-30T00:51:06Z",
+      "issue_key": "waterloo-city:text:0faebd0ea99ebd1b",
+      "line_id": "waterloo-city",
+      "line_name": "Waterloo & City",
+      "reason": "Waterloo and City Line: Service will resume at 06:00.",
+      "severity": "Service Closed",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "windrush:text:875f981b2158e913": {
+      "category": "other",
+      "first_seen": "2026-10-30T00:51:06Z",
+      "issue_key": "windrush:text:875f981b2158e913",
+      "line_id": "windrush",
+      "line_name": "Windrush",
+      "reason": "WINDRUSH LINE: Monday 26, Tuesday 27, Wednesday 28 and Thursday 29 October, after 2330 each evening, no service between New Cross Gate and West Croydon / Crystal Palace. Rail replacement buses will run as follows: The bus for Crystal Palace will depart London Bridge at 2358 calling at New Cross Gate, Brockley, Honor Oak Park, Forest Hill, Sydenham, Crystal Palace, Gipsy Hill, West Norwood, Tulse Hill and Streatham Hill. The bus for East Croydon will depart London Bridge at 0035 calling at New Cross Gate, Brockley, Honor Oak Park, Forest Hill, Sydenham, Norwood Junction and East Croydon (Arr 01:27). One return bus from Crystal Palace departs at 2359, calling at all stations to London Bridge via New Cross Gate. Alternatively, use local buses or trams via any reasonable route. The 2232 and 2247 trains from Highbury & Islington to West Croydon will both divert to Crystal Palace. The 2338 train from Dalston Junction to New Cross Gate will not run",
+      "severity": "Part Closure",
+      "source_created": "0001-01-01T00:00:00"
     }
   },
   "history": [
+    {
+      "category": "other",
+      "duration_seconds": 31778,
+      "first_seen": "2026-10-29T16:01:28Z",
+      "issue_key": "central:text:6d0af7c9d44f714a",
+      "line_id": "central",
+      "line_name": "Central",
+      "reason": "Central Line: Minor delays due to train cancellations.",
+      "resolved_at": "2026-10-30T00:51:06Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "signal failure",
+      "duration_seconds": 13748,
+      "first_seen": "2026-10-29T21:01:58Z",
+      "issue_key": "metropolitan:text:e8be6a4e470d5e6f",
+      "line_id": "metropolitan",
+      "line_name": "Metropolitan",
+      "reason": "Metropolitan Line: No service between Harrow-on-the-Hill and Uxbridge and MINOR DELAYS between Harrow-on-the-Hill and Aldgate while we fix a signal failure at Harrow-on-the-Hill and NO SERVICE between Moor Park and Watford while we deal with a signalling problem at Croxley. GOOD SERVICE on the rest of the line. Tickets are being accepted on London Buses.",
+      "resolved_at": "2026-10-30T00:51:06Z",
+      "severity": "Part Suspended",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "other",
+      "duration_seconds": 12689,
+      "first_seen": "2026-10-29T21:19:37Z",
+      "issue_key": "mildmay:text:d39aa3592b9f8b7e",
+      "line_id": "mildmay",
+      "line_name": "Mildmay",
+      "reason": "MILDMAY LINE: Wednesday 28 and Thursday 29 October, The 2129 and 2159 trains from Stratford to Richmond and 2135 train from Stratford to Clapham Junction will terminate at Camden Road.",
+      "resolved_at": "2026-10-30T00:51:06Z",
+      "severity": "Reduced Service",
+      "source_created": "0001-01-01T00:00:00"
+    },
     {
       "category": "points failure",
       "duration_seconds": 1059,
@@ -30767,6 +30823,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-10-29T21:19:37Z",
+  "updated_at": "2026-10-30T00:51:06Z",
   "version": 1
 }
