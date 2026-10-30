@@ -1,23 +1,83 @@
 {
   "active": {
-    "jubilee:text:57925a2ef9e26722": {
+    "bakerloo:text:975c88cf69561d0c": {
       "category": "other",
-      "first_seen": "2026-10-29T21:01:58Z",
-      "issue_key": "jubilee:text:57925a2ef9e26722",
-      "line_id": "jubilee",
-      "line_name": "Jubilee",
-      "reason": "Jubilee Line: Minor delays due to train cancellations.",
-      "severity": "Minor Delays",
+      "first_seen": "2026-10-30T01:16:00Z",
+      "issue_key": "bakerloo:text:975c88cf69561d0c",
+      "line_id": "bakerloo",
+      "line_name": "Bakerloo",
+      "reason": "Bakerloo Line: Service will resume later this morning.",
+      "severity": "Service Closed",
       "source_created": "0001-01-01T00:00:00"
     },
-    "metropolitan:text:264a3f374e311a78": {
-      "category": "signal failure",
-      "first_seen": "2026-10-30T00:51:06Z",
-      "issue_key": "metropolitan:text:264a3f374e311a78",
+    "central:text:8dadc0a1b9047d57": {
+      "category": "other",
+      "first_seen": "2026-10-30T01:16:00Z",
+      "issue_key": "central:text:8dadc0a1b9047d57",
+      "line_id": "central",
+      "line_name": "Central",
+      "reason": "Central Line: Service will resume later this morning.",
+      "severity": "Service Closed",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "circle:text:a1099579f6415e8f": {
+      "category": "other",
+      "first_seen": "2026-10-30T01:16:00Z",
+      "issue_key": "circle:text:a1099579f6415e8f",
+      "line_id": "circle",
+      "line_name": "Circle",
+      "reason": "Circle Line: Service will resume later this morning.",
+      "severity": "Service Closed",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "district:text:468f4f04f34d8411": {
+      "category": "other",
+      "first_seen": "2026-10-30T01:16:00Z",
+      "issue_key": "district:text:468f4f04f34d8411",
+      "line_id": "district",
+      "line_name": "District",
+      "reason": "District Line: Service will resume later this morning.",
+      "severity": "Service Closed",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "dlr:text:fb244db083a3f0ff": {
+      "category": "other",
+      "first_seen": "2026-10-30T01:16:00Z",
+      "issue_key": "dlr:text:fb244db083a3f0ff",
+      "line_id": "dlr",
+      "line_name": "DLR",
+      "reason": "Docklands Light Railway: Service will resume later this morning.",
+      "severity": "Service Closed",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "hammersmith-city:text:b560078b35a5fd17": {
+      "category": "other",
+      "first_seen": "2026-10-30T01:16:00Z",
+      "issue_key": "hammersmith-city:text:b560078b35a5fd17",
+      "line_id": "hammersmith-city",
+      "line_name": "Hammersmith & City",
+      "reason": "Hammersmith and City Line: Service will resume later this morning.",
+      "severity": "Service Closed",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "jubilee:text:41cf503738f881df": {
+      "category": "other",
+      "first_seen": "2026-10-30T01:16:00Z",
+      "issue_key": "jubilee:text:41cf503738f881df",
+      "line_id": "jubilee",
+      "line_name": "Jubilee",
+      "reason": "Jubilee Line: Service will resume later this morning.",
+      "severity": "Service Closed",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "metropolitan:text:4b366f757f8f5a28": {
+      "category": "other",
+      "first_seen": "2026-10-30T01:16:00Z",
+      "issue_key": "metropolitan:text:4b366f757f8f5a28",
       "line_id": "metropolitan",
       "line_name": "Metropolitan",
-      "reason": "Metropolitan Line: Severe delays due to an earlier signal failure at Harrow-on-the Hill. Tickets are being accepted on London Buses, London Overground, London Northwestern Railway, Chiltern Railways and Thameslink services.",
-      "severity": "Severe Delays",
+      "reason": "Metropolitan Line: Service will resume later this morning.",
+      "severity": "Service Closed",
       "source_created": "0001-01-01T00:00:00"
     },
     "mildmay:text:66310bce1d17b216": {
@@ -102,6 +162,30 @@
     }
   },
   "history": [
+    {
+      "category": "other",
+      "duration_seconds": 15242,
+      "first_seen": "2026-10-29T21:01:58Z",
+      "issue_key": "jubilee:text:57925a2ef9e26722",
+      "line_id": "jubilee",
+      "line_name": "Jubilee",
+      "reason": "Jubilee Line: Minor delays due to train cancellations.",
+      "resolved_at": "2026-10-30T01:16:00Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "signal failure",
+      "duration_seconds": 1494,
+      "first_seen": "2026-10-30T00:51:06Z",
+      "issue_key": "metropolitan:text:264a3f374e311a78",
+      "line_id": "metropolitan",
+      "line_name": "Metropolitan",
+      "reason": "Metropolitan Line: Severe delays due to an earlier signal failure at Harrow-on-the Hill. Tickets are being accepted on London Buses, London Overground, London Northwestern Railway, Chiltern Railways and Thameslink services.",
+      "resolved_at": "2026-10-30T01:16:00Z",
+      "severity": "Severe Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
     {
       "category": "other",
       "duration_seconds": 31778,
@@ -30823,6 +30907,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-10-30T00:51:06Z",
+  "updated_at": "2026-10-30T01:16:00Z",
   "version": 1
 }
