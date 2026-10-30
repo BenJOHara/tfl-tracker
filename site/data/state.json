@@ -1,32 +1,22 @@
 {
   "active": {
-    "central:text:6ad279a74939bea1": {
+    "central:text:b57ca67cc36c99e6": {
       "category": "signal failure",
-      "first_seen": "2026-10-30T14:15:16Z",
-      "issue_key": "central:text:6ad279a74939bea1",
+      "first_seen": "2026-10-30T18:48:40Z",
+      "issue_key": "central:text:b57ca67cc36c99e6",
       "line_id": "central",
       "line_name": "Central",
-      "reason": "Central Line: Minor delays while we fix a signal failure at Bond Street.",
-      "severity": "Minor Delays",
+      "reason": "Central Line: Severe delays while we fix a signal failure at Bond Street. Please board the first train and change at Leytonstone or North Acton to continue your journey. Tickets are being accepted on London Buses, London Overground, Elizabeth line and Chiltern Railways via any reasonable route.",
+      "severity": "Severe Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "metropolitan:text:18bdd722a28b710b": {
+    "mildmay:text:a66dfdeb0dee5ac4": {
       "category": "other",
-      "first_seen": "2026-10-30T13:28:18Z",
-      "issue_key": "metropolitan:text:18bdd722a28b710b",
-      "line_id": "metropolitan",
-      "line_name": "Metropolitan",
-      "reason": "Metropolitan Line: Minor delays between Harrow-on-the-Hill and Watford due to a train cancellation. The next southbound departure from Watford will be at 13:23. GOOD SERVICE on the rest of the line.",
-      "severity": "Minor Delays",
-      "source_created": "0001-01-01T00:00:00"
-    },
-    "mildmay:text:a0384762468b093f": {
-      "category": "other",
-      "first_seen": "2026-10-30T14:15:16Z",
-      "issue_key": "mildmay:text:a0384762468b093f",
+      "first_seen": "2026-10-30T18:48:40Z",
+      "issue_key": "mildmay:text:a66dfdeb0dee5ac4",
       "line_id": "mildmay",
       "line_name": "Mildmay",
-      "reason": "Mildmay Line: Severe delays due to an earlier faulty freight train at Hackney Central. London Underground are accepting tickets via any reasonable route.",
+      "reason": "Mildmay Line: Severe delays while we fix a points a failure at Shepherd's Bush. London Underground are accepting tickets via any reasonable route.",
       "severity": "Severe Delays",
       "source_created": "0001-01-01T00:00:00"
     },
@@ -40,13 +30,13 @@
       "severity": "Part Closure",
       "source_created": "0001-01-01T00:00:00"
     },
-    "suffragette:text:28ed55b756d509c3": {
+    "suffragette:text:b0fd216cd39c4f03": {
       "category": "other",
-      "first_seen": "2026-10-27T13:38:49Z",
-      "issue_key": "suffragette:text:28ed55b756d509c3",
+      "first_seen": "2026-10-30T18:48:40Z",
+      "issue_key": "suffragette:text:b0fd216cd39c4f03",
       "line_id": "suffragette",
       "line_name": "Suffragette",
-      "reason": "Suffragette Line: No service between South Tottenham and Barking Riverside due to a operational incident. MINOR DELAYS on the rest of the line. London Underground and London Buses are accepting tickets via any reasonable routes. Disruption is expected until early next week.",
+      "reason": "Suffragette Line: No service between South Tottenham and Barking Riverside, until the end of service on Tuesday 10 November, due to a operational incident. MINOR DELAYS on the rest of the line. London Underground and London Buses are accepting tickets via any reasonable routes.",
       "severity": "Part Closure",
       "source_created": "0001-01-01T00:00:00"
     },
@@ -59,9 +49,67 @@
       "reason": "LONDON TRAMS: Saturday 24 October to Thursday 5 November, no service between East Croydon and Beckenham Junction / Elmers End / New Addington due to planned engineering work. SOUTHERN services continue to serve Birkbeck, except on Sundays. Replacement bus services operate",
       "severity": "Part Closure",
       "source_created": "0001-01-01T00:00:00"
+    },
+    "victoria:text:02e0850cdf11ef25": {
+      "category": "other",
+      "first_seen": "2026-10-30T18:48:40Z",
+      "issue_key": "victoria:text:02e0850cdf11ef25",
+      "line_id": "victoria",
+      "line_name": "Victoria",
+      "reason": "Victoria Line: Minor delays due to train cancellations.",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
     }
   },
   "history": [
+    {
+      "category": "signal failure",
+      "duration_seconds": 16404,
+      "first_seen": "2026-10-30T14:15:16Z",
+      "issue_key": "central:text:6ad279a74939bea1",
+      "line_id": "central",
+      "line_name": "Central",
+      "reason": "Central Line: Minor delays while we fix a signal failure at Bond Street.",
+      "resolved_at": "2026-10-30T18:48:40Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "other",
+      "duration_seconds": 19222,
+      "first_seen": "2026-10-30T13:28:18Z",
+      "issue_key": "metropolitan:text:18bdd722a28b710b",
+      "line_id": "metropolitan",
+      "line_name": "Metropolitan",
+      "reason": "Metropolitan Line: Minor delays between Harrow-on-the-Hill and Watford due to a train cancellation. The next southbound departure from Watford will be at 13:23. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-10-30T18:48:40Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "other",
+      "duration_seconds": 16404,
+      "first_seen": "2026-10-30T14:15:16Z",
+      "issue_key": "mildmay:text:a0384762468b093f",
+      "line_id": "mildmay",
+      "line_name": "Mildmay",
+      "reason": "Mildmay Line: Severe delays due to an earlier faulty freight train at Hackney Central. London Underground are accepting tickets via any reasonable route.",
+      "resolved_at": "2026-10-30T18:48:40Z",
+      "severity": "Severe Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "other",
+      "duration_seconds": 277791,
+      "first_seen": "2026-10-27T13:38:49Z",
+      "issue_key": "suffragette:text:28ed55b756d509c3",
+      "line_id": "suffragette",
+      "line_name": "Suffragette",
+      "reason": "Suffragette Line: No service between South Tottenham and Barking Riverside due to a operational incident. MINOR DELAYS on the rest of the line. London Underground and London Buses are accepting tickets via any reasonable routes. Disruption is expected until early next week.",
+      "resolved_at": "2026-10-30T18:48:40Z",
+      "severity": "Part Closure",
+      "source_created": "0001-01-01T00:00:00"
+    },
     {
       "category": "other",
       "duration_seconds": 2818,
@@ -31071,6 +31119,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-10-30T14:15:16Z",
+  "updated_at": "2026-10-30T18:48:40Z",
   "version": 1
 }
