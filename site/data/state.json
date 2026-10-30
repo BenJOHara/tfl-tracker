@@ -1,23 +1,43 @@
 {
   "active": {
-    "central:text:b57ca67cc36c99e6": {
+    "central:text:6be15de4a6a5d33b": {
       "category": "signal failure",
-      "first_seen": "2026-10-30T18:48:40Z",
-      "issue_key": "central:text:b57ca67cc36c99e6",
+      "first_seen": "2026-10-30T22:40:48Z",
+      "issue_key": "central:text:6be15de4a6a5d33b",
       "line_id": "central",
       "line_name": "Central",
-      "reason": "Central Line: Severe delays while we fix a signal failure at Bond Street. Please board the first train and change at Leytonstone or North Acton to continue your journey. Tickets are being accepted on London Buses, London Overground, Elizabeth line and Chiltern Railways via any reasonable route.",
+      "reason": "Central Line: Severe delays due to an earlier signal failure at Bond Street. Please board the first train and change at Leytonstone or North Acton to continue your journey. Tickets are being accepted on London Buses, London Overground, Elizabeth line and Chiltern Railways via any reasonable route.",
       "severity": "Severe Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "mildmay:text:a66dfdeb0dee5ac4": {
+    "district:text:9c09d477e2a85811": {
       "category": "other",
-      "first_seen": "2026-10-30T18:48:40Z",
-      "issue_key": "mildmay:text:a66dfdeb0dee5ac4",
+      "first_seen": "2026-10-30T22:40:48Z",
+      "issue_key": "district:text:9c09d477e2a85811",
+      "line_id": "district",
+      "line_name": "District",
+      "reason": "District Line: Minor delays due to train cancellations.",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "metropolitan:text:59217bd98c618483": {
+      "category": "person on track",
+      "first_seen": "2026-10-30T22:40:48Z",
+      "issue_key": "metropolitan:text:59217bd98c618483",
+      "line_id": "metropolitan",
+      "line_name": "Metropolitan",
+      "reason": "Metropolitan Line: Minor delays between Baker Street and Aldgate due to an earlier trespasser on the track at Northwood Hills. GOOD SERVICE on the rest of the line.",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "mildmay:text:347e9b7b5010a57f": {
+      "category": "other",
+      "first_seen": "2026-10-30T22:40:48Z",
+      "issue_key": "mildmay:text:347e9b7b5010a57f",
       "line_id": "mildmay",
       "line_name": "Mildmay",
-      "reason": "Mildmay Line: Severe delays while we fix a points a failure at Shepherd's Bush. London Underground are accepting tickets via any reasonable route.",
-      "severity": "Severe Delays",
+      "reason": "MILDMAY LINE: Friday 30 October, the 2159 train from Stratford to Richmond will terminate at Camden Road at 2219. The 2318 train from Richmond to Willesden Junction will not run",
+      "severity": "Reduced Service",
       "source_created": "0001-01-01T00:00:00"
     },
     "piccadilly:text:99f28e07539b9cbe": {
@@ -62,6 +82,30 @@
     }
   },
   "history": [
+    {
+      "category": "signal failure",
+      "duration_seconds": 13928,
+      "first_seen": "2026-10-30T18:48:40Z",
+      "issue_key": "central:text:b57ca67cc36c99e6",
+      "line_id": "central",
+      "line_name": "Central",
+      "reason": "Central Line: Severe delays while we fix a signal failure at Bond Street. Please board the first train and change at Leytonstone or North Acton to continue your journey. Tickets are being accepted on London Buses, London Overground, Elizabeth line and Chiltern Railways via any reasonable route.",
+      "resolved_at": "2026-10-30T22:40:48Z",
+      "severity": "Severe Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "other",
+      "duration_seconds": 13928,
+      "first_seen": "2026-10-30T18:48:40Z",
+      "issue_key": "mildmay:text:a66dfdeb0dee5ac4",
+      "line_id": "mildmay",
+      "line_name": "Mildmay",
+      "reason": "Mildmay Line: Severe delays while we fix a points a failure at Shepherd's Bush. London Underground are accepting tickets via any reasonable route.",
+      "resolved_at": "2026-10-30T22:40:48Z",
+      "severity": "Severe Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
     {
       "category": "signal failure",
       "duration_seconds": 16404,
@@ -31119,6 +31163,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-10-30T18:48:40Z",
+  "updated_at": "2026-10-30T22:40:48Z",
   "version": 1
 }
