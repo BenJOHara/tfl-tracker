@@ -30,13 +30,13 @@
       "severity": "Severe Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "elizabeth:text:5c7024064706c42b": {
+    "elizabeth:text:1151cfb46fcfe05a": {
       "category": "points failure",
-      "first_seen": "2026-10-31T21:26:42Z",
-      "issue_key": "elizabeth:text:5c7024064706c42b",
+      "first_seen": "2026-10-31T22:15:01Z",
+      "issue_key": "elizabeth:text:1151cfb46fcfe05a",
       "line_id": "elizabeth",
       "line_name": "Elizabeth line",
-      "reason": "Severe delays between Reading and Maidenhead, and MINOR DELAYS between Abbey Wood and Maidenhead due to an earlier points failure at Whitechapel. GOOD SERVICE on the rest of the line. London Underground are accepting tickets via any reasonable route.",
+      "reason": "Minor delays between Paddington and Reading due to an earlier points failure at Whitechapel. GOOD SERVICE on the rest of the line.",
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
@@ -48,16 +48,6 @@
       "line_name": "Lioness",
       "reason": "Lioness Line: No service between Kilburn High Road and Euston while we fix a signal failure at Euston. GOOD SERVICE on the rest of the line. Tickets are being accepted on London Underground.",
       "severity": "Part Suspended",
-      "source_created": "0001-01-01T00:00:00"
-    },
-    "metropolitan:text:a3d04cd760ea6a94": {
-      "category": "other",
-      "first_seen": "2026-10-31T21:26:42Z",
-      "issue_key": "metropolitan:text:a3d04cd760ea6a94",
-      "line_id": "metropolitan",
-      "line_name": "Metropolitan",
-      "reason": "Metropolitan Line: Minor delays between Moor Park and Chesham due to train cancellations. After the 21:18 departure from Chesham, the next southbound train will be at 21:56. GOOD SERVICE on the rest of the line.",
-      "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
     "piccadilly:text:00dae87d38df3bb5": {
@@ -142,6 +132,30 @@
     }
   },
   "history": [
+    {
+      "category": "points failure",
+      "duration_seconds": 2899,
+      "first_seen": "2026-10-31T21:26:42Z",
+      "issue_key": "elizabeth:text:5c7024064706c42b",
+      "line_id": "elizabeth",
+      "line_name": "Elizabeth line",
+      "reason": "Severe delays between Reading and Maidenhead, and MINOR DELAYS between Abbey Wood and Maidenhead due to an earlier points failure at Whitechapel. GOOD SERVICE on the rest of the line. London Underground are accepting tickets via any reasonable route.",
+      "resolved_at": "2026-10-31T22:15:01Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "other",
+      "duration_seconds": 2899,
+      "first_seen": "2026-10-31T21:26:42Z",
+      "issue_key": "metropolitan:text:a3d04cd760ea6a94",
+      "line_id": "metropolitan",
+      "line_name": "Metropolitan",
+      "reason": "Metropolitan Line: Minor delays between Moor Park and Chesham due to train cancellations. After the 21:18 departure from Chesham, the next southbound train will be at 21:56. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-10-31T22:15:01Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
     {
       "category": "points failure",
       "duration_seconds": 9453,
@@ -31655,6 +31669,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-10-31T21:26:42Z",
+  "updated_at": "2026-10-31T22:15:01Z",
   "version": 1
 }
