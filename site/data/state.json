@@ -1,5 +1,25 @@
 {
   "active": {
+    "bakerloo:text:7509ba8190aba377": {
+      "category": "points failure",
+      "first_seen": "2026-10-31T17:58:41Z",
+      "issue_key": "bakerloo:text:7509ba8190aba377",
+      "line_id": "bakerloo",
+      "line_name": "Bakerloo",
+      "reason": "Bakerloo Line: No service between Harrow & Wealdstone and Stonebridge Park while we fix a points failure at Elephant & Castle. SEVERE DELAYS on the rest of the line. Tickets are being accepted on London Buses.",
+      "severity": "Part Suspended",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "central:text:6d0af7c9d44f714a": {
+      "category": "other",
+      "first_seen": "2026-10-31T17:58:41Z",
+      "issue_key": "central:text:6d0af7c9d44f714a",
+      "line_id": "central",
+      "line_name": "Central",
+      "reason": "Central Line: Minor delays due to train cancellations.",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
     "district:text:9306dab0ee394f79": {
       "category": "other",
       "first_seen": "2026-10-31T14:46:14Z",
@@ -10,14 +30,24 @@
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "metropolitan:text:a3d04cd760ea6a94": {
-      "category": "other",
-      "first_seen": "2026-10-31T14:46:14Z",
-      "issue_key": "metropolitan:text:a3d04cd760ea6a94",
-      "line_id": "metropolitan",
-      "line_name": "Metropolitan",
-      "reason": "Metropolitan Line: Minor delays between Moor Park and Chesham due to train cancellations. After the 13:53 departure from Chesham, the next southbound train will be at 14:26. GOOD SERVICE on the rest of the line.",
-      "severity": "Minor Delays",
+    "elizabeth:text:414a86c3a5f1c1bf": {
+      "category": "points failure",
+      "first_seen": "2026-10-31T17:58:41Z",
+      "issue_key": "elizabeth:text:414a86c3a5f1c1bf",
+      "line_id": "elizabeth",
+      "line_name": "Elizabeth line",
+      "reason": "No service between Abbey Wood and Whitechapel, SEVERE DELAYS between Paddington and Heathrow / Reading and MINOR DELAYS between Paddington and Whitechapel, this is while we fix a points failure at Whitechapel. GOOD SERVICE on the rest of the line.",
+      "severity": "Part Suspended",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "lioness:text:176ea96b4eb0d4bb": {
+      "category": "signal failure",
+      "first_seen": "2026-10-31T17:58:41Z",
+      "issue_key": "lioness:text:176ea96b4eb0d4bb",
+      "line_id": "lioness",
+      "line_name": "Lioness",
+      "reason": "Lioness Line: No service between Kilburn High Road and Euston while we fix a signal failure at Euston. GOOD SERVICE on the rest of the line. Tickets are being accepted on London Underground.",
+      "severity": "Part Suspended",
       "source_created": "0001-01-01T00:00:00"
     },
     "northern:text:82cfeccb1c4abfec": {
@@ -102,6 +132,18 @@
     }
   },
   "history": [
+    {
+      "category": "other",
+      "duration_seconds": 11547,
+      "first_seen": "2026-10-31T14:46:14Z",
+      "issue_key": "metropolitan:text:a3d04cd760ea6a94",
+      "line_id": "metropolitan",
+      "line_name": "Metropolitan",
+      "reason": "Metropolitan Line: Minor delays between Moor Park and Chesham due to train cancellations. After the 13:53 departure from Chesham, the next southbound train will be at 14:26. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-10-31T17:58:41Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
     {
       "category": "other",
       "duration_seconds": 3347,
@@ -31495,6 +31537,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-10-31T14:46:14Z",
+  "updated_at": "2026-10-31T17:58:41Z",
   "version": 1
 }
