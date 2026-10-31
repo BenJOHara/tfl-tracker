@@ -1,13 +1,13 @@
 {
   "active": {
-    "bakerloo:text:7509ba8190aba377": {
+    "bakerloo:text:23996e9b46971d3f": {
       "category": "points failure",
-      "first_seen": "2026-10-31T17:58:41Z",
-      "issue_key": "bakerloo:text:7509ba8190aba377",
+      "first_seen": "2026-10-31T18:49:09Z",
+      "issue_key": "bakerloo:text:23996e9b46971d3f",
       "line_id": "bakerloo",
       "line_name": "Bakerloo",
-      "reason": "Bakerloo Line: No service between Harrow & Wealdstone and Stonebridge Park while we fix a points failure at Elephant & Castle. SEVERE DELAYS on the rest of the line. Tickets are being accepted on London Buses.",
-      "severity": "Part Suspended",
+      "reason": "Bakerloo Line: Severe delays while we fix a points failure at Elephant & Castle. Tickets are being accepted on London Buses.",
+      "severity": "Severe Delays",
       "source_created": "0001-01-01T00:00:00"
     },
     "central:text:6d0af7c9d44f714a": {
@@ -20,24 +20,24 @@
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "district:text:9306dab0ee394f79": {
+    "district:text:457060ebe49ee6f6": {
       "category": "other",
-      "first_seen": "2026-10-31T14:46:14Z",
-      "issue_key": "district:text:9306dab0ee394f79",
+      "first_seen": "2026-10-31T18:49:09Z",
+      "issue_key": "district:text:457060ebe49ee6f6",
       "line_id": "district",
       "line_name": "District",
-      "reason": "District Line: Severe delays between Earl's Court and Kensington Olympia due to train cancellations. MINOR DELAYS on the rest of the line.",
+      "reason": "District Line: Severe delays between Earl's Court and Tower Hill eastbound only and SEVERE DELAYS between Earl's Court and Kensington Olympia due to train cancellations. MINOR DELAYS on the rest of the line.",
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "elizabeth:text:414a86c3a5f1c1bf": {
+    "elizabeth:text:17afbc5da99b54be": {
       "category": "points failure",
-      "first_seen": "2026-10-31T17:58:41Z",
-      "issue_key": "elizabeth:text:414a86c3a5f1c1bf",
+      "first_seen": "2026-10-31T18:49:09Z",
+      "issue_key": "elizabeth:text:17afbc5da99b54be",
       "line_id": "elizabeth",
       "line_name": "Elizabeth line",
-      "reason": "No service between Abbey Wood and Whitechapel, SEVERE DELAYS between Paddington and Heathrow / Reading and MINOR DELAYS between Paddington and Whitechapel, this is while we fix a points failure at Whitechapel. GOOD SERVICE on the rest of the line.",
-      "severity": "Part Suspended",
+      "reason": "Severe delays between Abbey Wood and Heathrow/Reading due to an earlier points failure at Whitechapel. GOOD SERVICE on the rest of the line. Tickets are being accepted on London Underground, London Buses, DLR, Thameslink, South Eastern Railway, South Western Railway and Great Western Railway.",
+      "severity": "Severe Delays",
       "source_created": "0001-01-01T00:00:00"
     },
     "lioness:text:176ea96b4eb0d4bb": {
@@ -48,6 +48,16 @@
       "line_name": "Lioness",
       "reason": "Lioness Line: No service between Kilburn High Road and Euston while we fix a signal failure at Euston. GOOD SERVICE on the rest of the line. Tickets are being accepted on London Underground.",
       "severity": "Part Suspended",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "metropolitan:text:3ba8771fd32f07bb": {
+      "category": "other",
+      "first_seen": "2026-10-31T18:49:09Z",
+      "issue_key": "metropolitan:text:3ba8771fd32f07bb",
+      "line_id": "metropolitan",
+      "line_name": "Metropolitan",
+      "reason": "Metropolitan Line: Minor delays Between Harrow-on-the-Hill and Uxbridge due to train cancellations. GOOD SERVICE on the rest of the line.",
+      "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
     "northern:text:82cfeccb1c4abfec": {
@@ -120,6 +130,16 @@
       "severity": "Service Closed",
       "source_created": "0001-01-01T00:00:00"
     },
+    "weaver:text:0a03e7b621ce0fc6": {
+      "category": "person on track",
+      "first_seen": "2026-10-31T18:49:09Z",
+      "issue_key": "weaver:text:0a03e7b621ce0fc6",
+      "line_id": "weaver",
+      "line_name": "Weaver",
+      "reason": "Weaver Line: No service between Hackney Downs and Chingford while we deal with a trespasser at Wood Street. SEVERE DELAYS on the rest of the line.",
+      "severity": "Part Suspended",
+      "source_created": "0001-01-01T00:00:00"
+    },
     "windrush:text:e5c3a33b82c3d401": {
       "category": "other",
       "first_seen": "2026-10-31T07:34:08Z",
@@ -132,6 +152,42 @@
     }
   },
   "history": [
+    {
+      "category": "points failure",
+      "duration_seconds": 3028,
+      "first_seen": "2026-10-31T17:58:41Z",
+      "issue_key": "bakerloo:text:7509ba8190aba377",
+      "line_id": "bakerloo",
+      "line_name": "Bakerloo",
+      "reason": "Bakerloo Line: No service between Harrow & Wealdstone and Stonebridge Park while we fix a points failure at Elephant & Castle. SEVERE DELAYS on the rest of the line. Tickets are being accepted on London Buses.",
+      "resolved_at": "2026-10-31T18:49:09Z",
+      "severity": "Part Suspended",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "other",
+      "duration_seconds": 14575,
+      "first_seen": "2026-10-31T14:46:14Z",
+      "issue_key": "district:text:9306dab0ee394f79",
+      "line_id": "district",
+      "line_name": "District",
+      "reason": "District Line: Severe delays between Earl's Court and Kensington Olympia due to train cancellations. MINOR DELAYS on the rest of the line.",
+      "resolved_at": "2026-10-31T18:49:09Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "points failure",
+      "duration_seconds": 3028,
+      "first_seen": "2026-10-31T17:58:41Z",
+      "issue_key": "elizabeth:text:414a86c3a5f1c1bf",
+      "line_id": "elizabeth",
+      "line_name": "Elizabeth line",
+      "reason": "No service between Abbey Wood and Whitechapel, SEVERE DELAYS between Paddington and Heathrow / Reading and MINOR DELAYS between Paddington and Whitechapel, this is while we fix a points failure at Whitechapel. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-10-31T18:49:09Z",
+      "severity": "Part Suspended",
+      "source_created": "0001-01-01T00:00:00"
+    },
     {
       "category": "other",
       "duration_seconds": 11547,
@@ -31537,6 +31593,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-10-31T17:58:41Z",
+  "updated_at": "2026-10-31T18:49:09Z",
   "version": 1
 }
