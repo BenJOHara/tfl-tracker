@@ -1,33 +1,23 @@
 {
   "active": {
-    "district:text:9c09d477e2a85811": {
+    "district:text:c5c2f7ea8f985622": {
       "category": "other",
-      "first_seen": "2026-10-31T07:34:08Z",
-      "issue_key": "district:text:9c09d477e2a85811",
+      "first_seen": "2026-10-31T13:50:27Z",
+      "issue_key": "district:text:c5c2f7ea8f985622",
       "line_id": "district",
       "line_name": "District",
-      "reason": "District Line: Minor delays due to train cancellations.",
-      "severity": "Minor Delays",
-      "source_created": "0001-01-01T00:00:00"
-    },
-    "jubilee:text:7b753986287e0ce9": {
-      "category": "passenger incident",
-      "first_seen": "2026-10-31T07:34:08Z",
-      "issue_key": "jubilee:text:7b753986287e0ce9",
-      "line_id": "jubilee",
-      "line_name": "Jubilee",
-      "reason": "Jubilee Line: Severe delays due to an earlier customer incident at Willesden Green. Tickets will be accepted on London Buses.",
+      "reason": "District Line: Severe delays between Earl's Court and Kensington Olympia and MINOR DEAYS between Earls Court and Ealing Broadway / Richmond and between Edgware Road and Wimbledon due to train cancellations. GOOD SERVICE on the rest of the line.",
       "severity": "Severe Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "northern:text:7bc689728eedb3ac": {
+    "northern:text:82cfeccb1c4abfec": {
       "category": "other",
-      "first_seen": "2026-10-31T07:34:08Z",
-      "issue_key": "northern:text:7bc689728eedb3ac",
+      "first_seen": "2026-10-31T13:50:27Z",
+      "issue_key": "northern:text:82cfeccb1c4abfec",
       "line_id": "northern",
       "line_name": "Northern",
-      "reason": "Northern Line: Severe delays due to train cancellations. Tickets will be accepted on London Buses, London trams, Southeastern, Thameslink and South Western Railway services.",
-      "severity": "Severe Delays",
+      "reason": "Northern Line: Minor delays due to train cancellations.",
+      "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
     "piccadilly:text:00dae87d38df3bb5": {
@@ -92,6 +82,42 @@
     }
   },
   "history": [
+    {
+      "category": "other",
+      "duration_seconds": 22579,
+      "first_seen": "2026-10-31T07:34:08Z",
+      "issue_key": "district:text:9c09d477e2a85811",
+      "line_id": "district",
+      "line_name": "District",
+      "reason": "District Line: Minor delays due to train cancellations.",
+      "resolved_at": "2026-10-31T13:50:27Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "passenger incident",
+      "duration_seconds": 22579,
+      "first_seen": "2026-10-31T07:34:08Z",
+      "issue_key": "jubilee:text:7b753986287e0ce9",
+      "line_id": "jubilee",
+      "line_name": "Jubilee",
+      "reason": "Jubilee Line: Severe delays due to an earlier customer incident at Willesden Green. Tickets will be accepted on London Buses.",
+      "resolved_at": "2026-10-31T13:50:27Z",
+      "severity": "Severe Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "other",
+      "duration_seconds": 22579,
+      "first_seen": "2026-10-31T07:34:08Z",
+      "issue_key": "northern:text:7bc689728eedb3ac",
+      "line_id": "northern",
+      "line_name": "Northern",
+      "reason": "Northern Line: Severe delays due to train cancellations. Tickets will be accepted on London Buses, London trams, Southeastern, Thameslink and South Western Railway services.",
+      "resolved_at": "2026-10-31T13:50:27Z",
+      "severity": "Severe Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
     {
       "category": "other",
       "duration_seconds": 20819,
@@ -31437,6 +31463,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-10-31T07:34:08Z",
+  "updated_at": "2026-10-31T13:50:27Z",
   "version": 1
 }
