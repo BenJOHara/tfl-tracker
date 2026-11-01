@@ -30,16 +30,6 @@
       "severity": "Severe Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "elizabeth:text:1151cfb46fcfe05a": {
-      "category": "points failure",
-      "first_seen": "2026-10-31T22:15:01Z",
-      "issue_key": "elizabeth:text:1151cfb46fcfe05a",
-      "line_id": "elizabeth",
-      "line_name": "Elizabeth line",
-      "reason": "Minor delays between Paddington and Reading due to an earlier points failure at Whitechapel. GOOD SERVICE on the rest of the line.",
-      "severity": "Minor Delays",
-      "source_created": "0001-01-01T00:00:00"
-    },
     "lioness:text:176ea96b4eb0d4bb": {
       "category": "signal failure",
       "first_seen": "2026-10-31T17:58:41Z",
@@ -48,6 +38,16 @@
       "line_name": "Lioness",
       "reason": "Lioness Line: No service between Kilburn High Road and Euston while we fix a signal failure at Euston. GOOD SERVICE on the rest of the line. Tickets are being accepted on London Underground.",
       "severity": "Part Suspended",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "metropolitan:text:a511c46358193a00": {
+      "category": "other",
+      "first_seen": "2026-11-01T00:14:55Z",
+      "issue_key": "metropolitan:text:a511c46358193a00",
+      "line_id": "metropolitan",
+      "line_name": "Metropolitan",
+      "reason": "Metropolitan Line: Minor delays due to train cancellations. GOOD SERVICE on the rest of the line.",
+      "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
     "piccadilly:text:00dae87d38df3bb5": {
@@ -80,16 +80,6 @@
       "severity": "Part Closure",
       "source_created": "0001-01-01T00:00:00"
     },
-    "victoria:text:02e0850cdf11ef25": {
-      "category": "other",
-      "first_seen": "2026-10-31T14:46:14Z",
-      "issue_key": "victoria:text:02e0850cdf11ef25",
-      "line_id": "victoria",
-      "line_name": "Victoria",
-      "reason": "Victoria Line: Minor delays due to train cancellations.",
-      "severity": "Minor Delays",
-      "source_created": "0001-01-01T00:00:00"
-    },
     "waterloo-city:text:02da0890c7cbf303": {
       "category": "other",
       "first_seen": "2026-10-31T07:34:08Z",
@@ -110,16 +100,6 @@
       "severity": "Service Closed",
       "source_created": "0001-01-01T00:00:00"
     },
-    "weaver:text:3e01877fde707582": {
-      "category": "track fault",
-      "first_seen": "2026-10-31T21:26:42Z",
-      "issue_key": "weaver:text:3e01877fde707582",
-      "line_id": "weaver",
-      "line_name": "Weaver",
-      "reason": "Weaver Line: Minor delays due to an earlier a trespasser at Wood Street and a track fault at Cambridge Heath.",
-      "severity": "Minor Delays",
-      "source_created": "0001-01-01T00:00:00"
-    },
     "windrush:text:e5c3a33b82c3d401": {
       "category": "other",
       "first_seen": "2026-10-31T07:34:08Z",
@@ -132,6 +112,42 @@
     }
   },
   "history": [
+    {
+      "category": "points failure",
+      "duration_seconds": 7194,
+      "first_seen": "2026-10-31T22:15:01Z",
+      "issue_key": "elizabeth:text:1151cfb46fcfe05a",
+      "line_id": "elizabeth",
+      "line_name": "Elizabeth line",
+      "reason": "Minor delays between Paddington and Reading due to an earlier points failure at Whitechapel. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-11-01T00:14:55Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "other",
+      "duration_seconds": 34121,
+      "first_seen": "2026-10-31T14:46:14Z",
+      "issue_key": "victoria:text:02e0850cdf11ef25",
+      "line_id": "victoria",
+      "line_name": "Victoria",
+      "reason": "Victoria Line: Minor delays due to train cancellations.",
+      "resolved_at": "2026-11-01T00:14:55Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "track fault",
+      "duration_seconds": 10093,
+      "first_seen": "2026-10-31T21:26:42Z",
+      "issue_key": "weaver:text:3e01877fde707582",
+      "line_id": "weaver",
+      "line_name": "Weaver",
+      "reason": "Weaver Line: Minor delays due to an earlier a trespasser at Wood Street and a track fault at Cambridge Heath.",
+      "resolved_at": "2026-11-01T00:14:55Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
     {
       "category": "points failure",
       "duration_seconds": 2899,
@@ -31669,6 +31685,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-10-31T22:15:01Z",
+  "updated_at": "2026-11-01T00:14:55Z",
   "version": 1
 }
