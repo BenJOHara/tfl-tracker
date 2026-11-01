@@ -50,13 +50,13 @@
       "severity": "Reduced Service",
       "source_created": "0001-01-01T00:00:00"
     },
-    "elizabeth:text:e1261f911537aedd": {
+    "elizabeth:text:ee6d9ddb52b28b7a": {
       "category": "train fault",
-      "first_seen": "2026-11-01T18:32:19Z",
-      "issue_key": "elizabeth:text:e1261f911537aedd",
+      "first_seen": "2026-11-01T19:07:12Z",
+      "issue_key": "elizabeth:text:ee6d9ddb52b28b7a",
       "line_id": "elizabeth",
       "line_name": "Elizabeth line",
-      "reason": "Minor delays between Whitechapel and Paddington while we fix a faulty train at Paddington. GOOD SERVICE on the rest of the line.",
+      "reason": "Severe delays between Paddington and Heathrow / Reading and MINOR DELAYS between Paddington and Whitechapel while we fix a an earlier faulty train at Paddington. GOOD SERVICE on the rest of the line.",
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
@@ -132,6 +132,18 @@
     }
   },
   "history": [
+    {
+      "category": "train fault",
+      "duration_seconds": 2093,
+      "first_seen": "2026-11-01T18:32:19Z",
+      "issue_key": "elizabeth:text:e1261f911537aedd",
+      "line_id": "elizabeth",
+      "line_name": "Elizabeth line",
+      "reason": "Minor delays between Whitechapel and Paddington while we fix a faulty train at Paddington. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-11-01T19:07:12Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
     {
       "category": "other",
       "duration_seconds": 17572,
@@ -32125,6 +32137,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-11-01T18:32:19Z",
+  "updated_at": "2026-11-01T19:07:12Z",
   "version": 1
 }
