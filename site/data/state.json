@@ -1,12 +1,12 @@
 {
   "active": {
-    "bakerloo:text:dc294e7e013c8e07": {
+    "bakerloo:text:908cc869a67c70b3": {
       "category": "points failure",
-      "first_seen": "2026-11-01T14:30:55Z",
-      "issue_key": "bakerloo:text:dc294e7e013c8e07",
+      "first_seen": "2026-11-01T15:01:25Z",
+      "issue_key": "bakerloo:text:908cc869a67c70b3",
       "line_id": "bakerloo",
       "line_name": "Bakerloo",
-      "reason": "Bakerloo Line: Severe delays due to a points failure at Elephant & Castle. Tickets being accepted on London Buses, Lioness line, London Northwestern and Thameslink services.",
+      "reason": "Bakerloo Line: Severe delays due to a points failure at Elephant & Castle. If you are travelling beyond Queen's Park, take the first train and change there. Tickets being accepted on London Buses, Lioness line, London Northwestern and Thameslink services.",
       "severity": "Severe Delays",
       "source_created": "0001-01-01T00:00:00"
     },
@@ -20,6 +20,16 @@
       "severity": "Severe Delays",
       "source_created": "0001-01-01T00:00:00"
     },
+    "dlr:text:29e92fc83dd6a356": {
+      "category": "train fault",
+      "first_seen": "2026-11-01T15:01:25Z",
+      "issue_key": "dlr:text:29e92fc83dd6a356",
+      "line_id": "dlr",
+      "line_name": "DLR",
+      "reason": "Docklands Light Railway: No service between Tower Gateway and Shadwell due to planned engineering work and MINOR DELAYS between Bank and Woolwich Arsenal and between Stratford International and Woolwich Arsenal while we fix a faulty train at Pontoon Dock. GOOD SERIVICE on the rest of the line.",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
     "dlr:text:69e644ae38c517b7": {
       "category": "other",
       "first_seen": "2026-11-01T06:25:48Z",
@@ -28,16 +38,6 @@
       "line_name": "DLR",
       "reason": "DOCKLANDS LIGHT RAILWAY: Sunday 1 November, no service between Shadwell and Tower Gateway.",
       "severity": "Part Closure",
-      "source_created": "0001-01-01T00:00:00"
-    },
-    "dlr:text:e1188e613aa2352f": {
-      "category": "train fault",
-      "first_seen": "2026-11-01T14:30:55Z",
-      "issue_key": "dlr:text:e1188e613aa2352f",
-      "line_id": "dlr",
-      "line_name": "DLR",
-      "reason": "Docklands Light Railway: No service between Tower Gateway and Shadwell due to planned engineering work and MINOR DELAYS between Woolwich Arsenal and Canning Town while we fix a faulty train at London City Airport. GOOD SERIVICE on the rest of the line.",
-      "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
     "elizabeth:text:d3cedecbde5c9e59": {
@@ -112,6 +112,30 @@
     }
   },
   "history": [
+    {
+      "category": "points failure",
+      "duration_seconds": 1830,
+      "first_seen": "2026-11-01T14:30:55Z",
+      "issue_key": "bakerloo:text:dc294e7e013c8e07",
+      "line_id": "bakerloo",
+      "line_name": "Bakerloo",
+      "reason": "Bakerloo Line: Severe delays due to a points failure at Elephant & Castle. Tickets being accepted on London Buses, Lioness line, London Northwestern and Thameslink services.",
+      "resolved_at": "2026-11-01T15:01:25Z",
+      "severity": "Severe Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "train fault",
+      "duration_seconds": 1830,
+      "first_seen": "2026-11-01T14:30:55Z",
+      "issue_key": "dlr:text:e1188e613aa2352f",
+      "line_id": "dlr",
+      "line_name": "DLR",
+      "reason": "Docklands Light Railway: No service between Tower Gateway and Shadwell due to planned engineering work and MINOR DELAYS between Woolwich Arsenal and Canning Town while we fix a faulty train at London City Airport. GOOD SERIVICE on the rest of the line.",
+      "resolved_at": "2026-11-01T15:01:25Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
     {
       "category": "points failure",
       "duration_seconds": 3088,
@@ -32057,6 +32081,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-11-01T14:30:55Z",
+  "updated_at": "2026-11-01T15:01:25Z",
   "version": 1
 }
