@@ -1,5 +1,25 @@
 {
   "active": {
+    "bakerloo:text:2cc67222e0cee553": {
+      "category": "points failure",
+      "first_seen": "2026-11-01T07:37:01Z",
+      "issue_key": "bakerloo:text:2cc67222e0cee553",
+      "line_id": "bakerloo",
+      "line_name": "Bakerloo",
+      "reason": "Bakerloo Line: Severe delays between Queen's Park and Harrow & Wealdstone while we fix a points failure at Elephant & Castle. MINOR DELAYS on the rest of the line. Tickets being accepted on London Buses, Lioness line and Thameslink services.",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "district:text:aad91497cba276db": {
+      "category": "other",
+      "first_seen": "2026-11-01T07:37:01Z",
+      "issue_key": "district:text:aad91497cba276db",
+      "line_id": "district",
+      "line_name": "District",
+      "reason": "District Line: Minor delays between Earl's Court and Wimbledon due to train cancellations. GOOD SERVICE on the rest of the line.",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
     "dlr:text:69e644ae38c517b7": {
       "category": "other",
       "first_seen": "2026-11-01T06:25:48Z",
@@ -30,16 +50,6 @@
       "severity": "Part Closure",
       "source_created": "0001-01-01T00:00:00"
     },
-    "northern:text:0ecd1e3b164862e4": {
-      "category": "other",
-      "first_seen": "2026-11-01T06:25:48Z",
-      "issue_key": "northern:text:0ecd1e3b164862e4",
-      "line_id": "northern",
-      "line_name": "Northern",
-      "reason": "Northern Line: Minor delays between High Barnet/ Edgware and Camden Town due to train cancellations. GOOD SERVICE on the rest of the line.",
-      "severity": "Minor Delays",
-      "source_created": "0001-01-01T00:00:00"
-    },
     "piccadilly:text:00dae87d38df3bb5": {
       "category": "other",
       "first_seen": "2026-10-31T01:47:09Z",
@@ -58,16 +68,6 @@
       "line_name": "Suffragette",
       "reason": "SUFFRAGETTE LINE: Sunday 1 November, until 0945, no service between Gospel Oak and Barking Riverside. The line then remains suspended between South Tottenham and Barking Riverside after 0945. Use local buses via all reasonable routes or London Underground Victoria line (entrance/exit at Seven Sisters, Tottenham Hale, Blackhorse Road and Walthamstow Central stations) via any reasonable route; London Underground Central line (entrance/exit at Leyton and Leytonstone stations) via any reasonable route; or London Underground District / Hammersmith & City line (entrance/exit at East Ham and Barking) via any reasonable route. First through trains: Gospel Oak to South Tottenham 1022; South Tottenham to Gospel Oak 1043",
       "severity": "Planned Closure",
-      "source_created": "0001-01-01T00:00:00"
-    },
-    "suffragette:text:b0fd216cd39c4f03": {
-      "category": "other",
-      "first_seen": "2026-10-30T18:48:40Z",
-      "issue_key": "suffragette:text:b0fd216cd39c4f03",
-      "line_id": "suffragette",
-      "line_name": "Suffragette",
-      "reason": "Suffragette Line: No service between South Tottenham and Barking Riverside, until the end of service on Tuesday 10 November, due to a operational incident. MINOR DELAYS on the rest of the line. London Underground and London Buses are accepting tickets via any reasonable routes.",
-      "severity": "Part Closure",
       "source_created": "0001-01-01T00:00:00"
     },
     "tram:text:e96964e5082c0fca": {
@@ -102,6 +102,30 @@
     }
   },
   "history": [
+    {
+      "category": "other",
+      "duration_seconds": 4273,
+      "first_seen": "2026-11-01T06:25:48Z",
+      "issue_key": "northern:text:0ecd1e3b164862e4",
+      "line_id": "northern",
+      "line_name": "Northern",
+      "reason": "Northern Line: Minor delays between High Barnet/ Edgware and Camden Town due to train cancellations. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-11-01T07:37:01Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "other",
+      "duration_seconds": 132501,
+      "first_seen": "2026-10-30T18:48:40Z",
+      "issue_key": "suffragette:text:b0fd216cd39c4f03",
+      "line_id": "suffragette",
+      "line_name": "Suffragette",
+      "reason": "Suffragette Line: No service between South Tottenham and Barking Riverside, until the end of service on Tuesday 10 November, due to a operational incident. MINOR DELAYS on the rest of the line. London Underground and London Buses are accepting tickets via any reasonable routes.",
+      "resolved_at": "2026-11-01T07:37:01Z",
+      "severity": "Part Closure",
+      "source_created": "0001-01-01T00:00:00"
+    },
     {
       "category": "other",
       "duration_seconds": 18020,
@@ -31951,6 +31975,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-11-01T06:25:48Z",
+  "updated_at": "2026-11-01T07:37:01Z",
   "version": 1
 }
