@@ -1,15 +1,5 @@
 {
   "active": {
-    "bakerloo:text:82a8714738c2a80f": {
-      "category": "points failure",
-      "first_seen": "2026-10-31T21:26:42Z",
-      "issue_key": "bakerloo:text:82a8714738c2a80f",
-      "line_id": "bakerloo",
-      "line_name": "Bakerloo",
-      "reason": "Bakerloo Line: Minor delays due to an earlier points failure at Elephant & Castle.",
-      "severity": "Minor Delays",
-      "source_created": "0001-01-01T00:00:00"
-    },
     "central:text:6d0af7c9d44f714a": {
       "category": "other",
       "first_seen": "2026-10-31T17:58:41Z",
@@ -20,33 +10,13 @@
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "district:text:9c09d477e2a85811": {
+    "metropolitan:text:305dd461877c7bb7": {
       "category": "other",
-      "first_seen": "2026-10-31T21:26:42Z",
-      "issue_key": "district:text:9c09d477e2a85811",
-      "line_id": "district",
-      "line_name": "District",
-      "reason": "District Line: Severe delays due to train cancellations.",
-      "severity": "Severe Delays",
-      "source_created": "0001-01-01T00:00:00"
-    },
-    "lioness:text:176ea96b4eb0d4bb": {
-      "category": "signal failure",
-      "first_seen": "2026-10-31T17:58:41Z",
-      "issue_key": "lioness:text:176ea96b4eb0d4bb",
-      "line_id": "lioness",
-      "line_name": "Lioness",
-      "reason": "Lioness Line: No service between Kilburn High Road and Euston while we fix a signal failure at Euston. GOOD SERVICE on the rest of the line. Tickets are being accepted on London Underground.",
-      "severity": "Part Suspended",
-      "source_created": "0001-01-01T00:00:00"
-    },
-    "metropolitan:text:a511c46358193a00": {
-      "category": "other",
-      "first_seen": "2026-11-01T00:14:55Z",
-      "issue_key": "metropolitan:text:a511c46358193a00",
+      "first_seen": "2026-11-01T01:15:38Z",
+      "issue_key": "metropolitan:text:305dd461877c7bb7",
       "line_id": "metropolitan",
       "line_name": "Metropolitan",
-      "reason": "Metropolitan Line: Minor delays due to train cancellations. GOOD SERVICE on the rest of the line.",
+      "reason": "Metropolitan Line: Minor delays due to train cancellations.",
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
@@ -90,16 +60,6 @@
       "severity": "Planned Closure",
       "source_created": "0001-01-01T00:00:00"
     },
-    "waterloo-city:text:1bbcac27f282d0db": {
-      "category": "other",
-      "first_seen": "2026-10-31T01:47:09Z",
-      "issue_key": "waterloo-city:text:1bbcac27f282d0db",
-      "line_id": "waterloo-city",
-      "line_name": "Waterloo & City",
-      "reason": "Waterloo and City Line: Service will resume at 06:00 on Monday.",
-      "severity": "Service Closed",
-      "source_created": "0001-01-01T00:00:00"
-    },
     "windrush:text:e5c3a33b82c3d401": {
       "category": "other",
       "first_seen": "2026-10-31T07:34:08Z",
@@ -112,6 +72,66 @@
     }
   },
   "history": [
+    {
+      "category": "points failure",
+      "duration_seconds": 13736,
+      "first_seen": "2026-10-31T21:26:42Z",
+      "issue_key": "bakerloo:text:82a8714738c2a80f",
+      "line_id": "bakerloo",
+      "line_name": "Bakerloo",
+      "reason": "Bakerloo Line: Minor delays due to an earlier points failure at Elephant & Castle.",
+      "resolved_at": "2026-11-01T01:15:38Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "other",
+      "duration_seconds": 13736,
+      "first_seen": "2026-10-31T21:26:42Z",
+      "issue_key": "district:text:9c09d477e2a85811",
+      "line_id": "district",
+      "line_name": "District",
+      "reason": "District Line: Severe delays due to train cancellations.",
+      "resolved_at": "2026-11-01T01:15:38Z",
+      "severity": "Severe Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "signal failure",
+      "duration_seconds": 26217,
+      "first_seen": "2026-10-31T17:58:41Z",
+      "issue_key": "lioness:text:176ea96b4eb0d4bb",
+      "line_id": "lioness",
+      "line_name": "Lioness",
+      "reason": "Lioness Line: No service between Kilburn High Road and Euston while we fix a signal failure at Euston. GOOD SERVICE on the rest of the line. Tickets are being accepted on London Underground.",
+      "resolved_at": "2026-11-01T01:15:38Z",
+      "severity": "Part Suspended",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "other",
+      "duration_seconds": 3643,
+      "first_seen": "2026-11-01T00:14:55Z",
+      "issue_key": "metropolitan:text:a511c46358193a00",
+      "line_id": "metropolitan",
+      "line_name": "Metropolitan",
+      "reason": "Metropolitan Line: Minor delays due to train cancellations. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-11-01T01:15:38Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "other",
+      "duration_seconds": 84509,
+      "first_seen": "2026-10-31T01:47:09Z",
+      "issue_key": "waterloo-city:text:1bbcac27f282d0db",
+      "line_id": "waterloo-city",
+      "line_name": "Waterloo & City",
+      "reason": "Waterloo and City Line: Service will resume at 06:00 on Monday.",
+      "resolved_at": "2026-11-01T01:15:38Z",
+      "severity": "Service Closed",
+      "source_created": "0001-01-01T00:00:00"
+    },
     {
       "category": "points failure",
       "duration_seconds": 7194,
@@ -31685,6 +31705,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-11-01T00:14:55Z",
+  "updated_at": "2026-11-01T01:15:38Z",
   "version": 1
 }
