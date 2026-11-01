@@ -10,24 +10,24 @@
       "severity": "Severe Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "district:text:4f8ee81478d071c4": {
+    "central:text:23c62521d4237097": {
       "category": "other",
-      "first_seen": "2026-11-01T13:39:27Z",
-      "issue_key": "district:text:4f8ee81478d071c4",
-      "line_id": "district",
-      "line_name": "District",
-      "reason": "District Line: Severe delays between Kensington (Olympia) and Earl's Court due to train cancellations. Tickets being accepted on London Buses. MINOR DELAYS on the rest the line.",
-      "severity": "Severe Delays",
+      "first_seen": "2026-11-01T18:32:19Z",
+      "issue_key": "central:text:23c62521d4237097",
+      "line_id": "central",
+      "line_name": "Central",
+      "reason": "Central Line: Minor delays between North Acton and Ealing Broadway/West Ruislip and between Leytonstone and Epping/Hainault via Newbury Park due to train cancellations. GOOD SERVICE on the rest of the line.",
+      "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "dlr:text:29e92fc83dd6a356": {
-      "category": "train fault",
-      "first_seen": "2026-11-01T15:01:25Z",
-      "issue_key": "dlr:text:29e92fc83dd6a356",
-      "line_id": "dlr",
-      "line_name": "DLR",
-      "reason": "Docklands Light Railway: No service between Tower Gateway and Shadwell due to planned engineering work and MINOR DELAYS between Bank and Woolwich Arsenal and between Stratford International and Woolwich Arsenal while we fix a faulty train at Pontoon Dock. GOOD SERIVICE on the rest of the line.",
-      "severity": "Minor Delays",
+    "district:text:0763e2733d0deaed": {
+      "category": "other",
+      "first_seen": "2026-11-01T18:32:19Z",
+      "issue_key": "district:text:0763e2733d0deaed",
+      "line_id": "district",
+      "line_name": "District",
+      "reason": "District Line: No service between Kensington (Olympia) and Earl's Court and MINOR DELAYS on the rest the line due to train cancellations. Tickets being accepted on London Buses.",
+      "severity": "Part Suspended",
       "source_created": "0001-01-01T00:00:00"
     },
     "dlr:text:69e644ae38c517b7": {
@@ -48,6 +48,26 @@
       "line_name": "Elizabeth line",
       "reason": "ELIZABETH LINE: Sunday 1 November, a reduced service operates between Paddington and Heathrow Terminal 4 / Maidenhead. Two trains an hour serve Heathrow Terminal 4, West Drayton, Langley, Slough, Burnham and Maidenhead. Four trains an hour serve Heathrow Terminals 2 and 3. Six trains an hour serve Ealing Broadway, Southall and Hayes & Harlington. Acton Main Line, Hanwell and West Ealing stations are CLOSED.",
       "severity": "Reduced Service",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "elizabeth:text:e1261f911537aedd": {
+      "category": "train fault",
+      "first_seen": "2026-11-01T18:32:19Z",
+      "issue_key": "elizabeth:text:e1261f911537aedd",
+      "line_id": "elizabeth",
+      "line_name": "Elizabeth line",
+      "reason": "Minor delays between Whitechapel and Paddington while we fix a faulty train at Paddington. GOOD SERVICE on the rest of the line.",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "metropolitan:text:72fe47ae8a122ad7": {
+      "category": "other",
+      "first_seen": "2026-11-01T18:32:19Z",
+      "issue_key": "metropolitan:text:72fe47ae8a122ad7",
+      "line_id": "metropolitan",
+      "line_name": "Metropolitan",
+      "reason": "Metropolitan Line: Minor delays between Harrow-on-the-Hill and Watford due to train cancellations. GOOD SERVICE on the rest of line.",
+      "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
     "mildmay:text:2e9dece20ed0d074": {
@@ -112,6 +132,30 @@
     }
   },
   "history": [
+    {
+      "category": "other",
+      "duration_seconds": 17572,
+      "first_seen": "2026-11-01T13:39:27Z",
+      "issue_key": "district:text:4f8ee81478d071c4",
+      "line_id": "district",
+      "line_name": "District",
+      "reason": "District Line: Severe delays between Kensington (Olympia) and Earl's Court due to train cancellations. Tickets being accepted on London Buses. MINOR DELAYS on the rest the line.",
+      "resolved_at": "2026-11-01T18:32:19Z",
+      "severity": "Severe Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "train fault",
+      "duration_seconds": 12654,
+      "first_seen": "2026-11-01T15:01:25Z",
+      "issue_key": "dlr:text:29e92fc83dd6a356",
+      "line_id": "dlr",
+      "line_name": "DLR",
+      "reason": "Docklands Light Railway: No service between Tower Gateway and Shadwell due to planned engineering work and MINOR DELAYS between Bank and Woolwich Arsenal and between Stratford International and Woolwich Arsenal while we fix a faulty train at Pontoon Dock. GOOD SERIVICE on the rest of the line.",
+      "resolved_at": "2026-11-01T18:32:19Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
     {
       "category": "points failure",
       "duration_seconds": 1830,
@@ -32081,6 +32125,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-11-01T15:01:25Z",
+  "updated_at": "2026-11-01T18:32:19Z",
   "version": 1
 }
