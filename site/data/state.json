@@ -40,6 +40,16 @@
       "severity": "Part Closure",
       "source_created": "0001-01-01T00:00:00"
     },
+    "elizabeth:text:8199b4fc1443189d": {
+      "category": "train fault",
+      "first_seen": "2026-11-01T19:33:49Z",
+      "issue_key": "elizabeth:text:8199b4fc1443189d",
+      "line_id": "elizabeth",
+      "line_name": "Elizabeth line",
+      "reason": "Minor delays between Paddington and Heathrow Terminals / Reading due to an earlier faulty train at Paddington. GOOD SERVICE on the rest of the line.",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
     "elizabeth:text:d3cedecbde5c9e59": {
       "category": "other",
       "first_seen": "2026-11-01T06:25:48Z",
@@ -50,23 +60,13 @@
       "severity": "Reduced Service",
       "source_created": "0001-01-01T00:00:00"
     },
-    "elizabeth:text:ee6d9ddb52b28b7a": {
-      "category": "train fault",
-      "first_seen": "2026-11-01T19:07:12Z",
-      "issue_key": "elizabeth:text:ee6d9ddb52b28b7a",
-      "line_id": "elizabeth",
-      "line_name": "Elizabeth line",
-      "reason": "Severe delays between Paddington and Heathrow / Reading and MINOR DELAYS between Paddington and Whitechapel while we fix a an earlier faulty train at Paddington. GOOD SERVICE on the rest of the line.",
-      "severity": "Minor Delays",
-      "source_created": "0001-01-01T00:00:00"
-    },
-    "metropolitan:text:72fe47ae8a122ad7": {
+    "metropolitan:text:83dac563140918e6": {
       "category": "other",
-      "first_seen": "2026-11-01T18:32:19Z",
-      "issue_key": "metropolitan:text:72fe47ae8a122ad7",
+      "first_seen": "2026-11-01T19:33:49Z",
+      "issue_key": "metropolitan:text:83dac563140918e6",
       "line_id": "metropolitan",
       "line_name": "Metropolitan",
-      "reason": "Metropolitan Line: Minor delays between Harrow-on-the-Hill and Watford due to train cancellations. GOOD SERVICE on the rest of line.",
+      "reason": "Metropolitan Line: Minor delays between Harrow-on-the-Hill and Watford, and between Moor Park and Chesham due to train cancellations. The next southbound train from Chesham will be at 19:56. GOOD SERVICE on the rest of line.",
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
@@ -132,6 +132,30 @@
     }
   },
   "history": [
+    {
+      "category": "train fault",
+      "duration_seconds": 1597,
+      "first_seen": "2026-11-01T19:07:12Z",
+      "issue_key": "elizabeth:text:ee6d9ddb52b28b7a",
+      "line_id": "elizabeth",
+      "line_name": "Elizabeth line",
+      "reason": "Severe delays between Paddington and Heathrow / Reading and MINOR DELAYS between Paddington and Whitechapel while we fix a an earlier faulty train at Paddington. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-11-01T19:33:49Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "other",
+      "duration_seconds": 3690,
+      "first_seen": "2026-11-01T18:32:19Z",
+      "issue_key": "metropolitan:text:72fe47ae8a122ad7",
+      "line_id": "metropolitan",
+      "line_name": "Metropolitan",
+      "reason": "Metropolitan Line: Minor delays between Harrow-on-the-Hill and Watford due to train cancellations. GOOD SERVICE on the rest of line.",
+      "resolved_at": "2026-11-01T19:33:49Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
     {
       "category": "train fault",
       "duration_seconds": 2093,
@@ -32137,6 +32161,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-11-01T19:07:12Z",
+  "updated_at": "2026-11-01T19:33:49Z",
   "version": 1
 }
