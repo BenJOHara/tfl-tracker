@@ -1,13 +1,13 @@
 {
   "active": {
-    "bakerloo:text:908cc869a67c70b3": {
+    "bakerloo:text:9fd19cb4405363e4": {
       "category": "points failure",
-      "first_seen": "2026-11-01T15:01:25Z",
-      "issue_key": "bakerloo:text:908cc869a67c70b3",
+      "first_seen": "2026-11-01T22:21:32Z",
+      "issue_key": "bakerloo:text:9fd19cb4405363e4",
       "line_id": "bakerloo",
       "line_name": "Bakerloo",
-      "reason": "Bakerloo Line: Severe delays due to a points failure at Elephant & Castle. If you are travelling beyond Queen's Park, take the first train and change there. Tickets being accepted on London Buses, Lioness line, London Northwestern and Thameslink services.",
-      "severity": "Severe Delays",
+      "reason": "Bakerloo Line: No service between Queen's Park and Harrow & Wealdstone and SEVERE DELAYS on the rest of the line due to a points failure at Elephant & Castle. Tickets being accepted on London Buses, Lioness line, London Northwestern and Thameslink services.",
+      "severity": "Part Suspended",
       "source_created": "0001-01-01T00:00:00"
     },
     "central:text:23c62521d4237097": {
@@ -40,16 +40,6 @@
       "severity": "Part Closure",
       "source_created": "0001-01-01T00:00:00"
     },
-    "elizabeth:text:8199b4fc1443189d": {
-      "category": "train fault",
-      "first_seen": "2026-11-01T19:33:49Z",
-      "issue_key": "elizabeth:text:8199b4fc1443189d",
-      "line_id": "elizabeth",
-      "line_name": "Elizabeth line",
-      "reason": "Minor delays between Paddington and Heathrow Terminals / Reading due to an earlier faulty train at Paddington. GOOD SERVICE on the rest of the line.",
-      "severity": "Minor Delays",
-      "source_created": "0001-01-01T00:00:00"
-    },
     "elizabeth:text:d3cedecbde5c9e59": {
       "category": "other",
       "first_seen": "2026-11-01T06:25:48Z",
@@ -60,13 +50,13 @@
       "severity": "Reduced Service",
       "source_created": "0001-01-01T00:00:00"
     },
-    "metropolitan:text:83dac563140918e6": {
+    "metropolitan:text:05e92bf2ab4910eb": {
       "category": "other",
-      "first_seen": "2026-11-01T19:33:49Z",
-      "issue_key": "metropolitan:text:83dac563140918e6",
+      "first_seen": "2026-11-01T22:21:32Z",
+      "issue_key": "metropolitan:text:05e92bf2ab4910eb",
       "line_id": "metropolitan",
       "line_name": "Metropolitan",
-      "reason": "Metropolitan Line: Minor delays between Harrow-on-the-Hill and Watford, and between Moor Park and Chesham due to train cancellations. The next southbound train from Chesham will be at 19:56. GOOD SERVICE on the rest of line.",
+      "reason": "Metropolitan Line: Minor delays between Harrow-on-the- Hill and Uxbridge and between Moor Park and Amersham due to train cancellations. The next southbound train from Amersham will be at 22:48. GOOD SERVICE on the rest of the line.",
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
@@ -132,6 +122,42 @@
     }
   },
   "history": [
+    {
+      "category": "points failure",
+      "duration_seconds": 26407,
+      "first_seen": "2026-11-01T15:01:25Z",
+      "issue_key": "bakerloo:text:908cc869a67c70b3",
+      "line_id": "bakerloo",
+      "line_name": "Bakerloo",
+      "reason": "Bakerloo Line: Severe delays due to a points failure at Elephant & Castle. If you are travelling beyond Queen's Park, take the first train and change there. Tickets being accepted on London Buses, Lioness line, London Northwestern and Thameslink services.",
+      "resolved_at": "2026-11-01T22:21:32Z",
+      "severity": "Severe Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "train fault",
+      "duration_seconds": 10063,
+      "first_seen": "2026-11-01T19:33:49Z",
+      "issue_key": "elizabeth:text:8199b4fc1443189d",
+      "line_id": "elizabeth",
+      "line_name": "Elizabeth line",
+      "reason": "Minor delays between Paddington and Heathrow Terminals / Reading due to an earlier faulty train at Paddington. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-11-01T22:21:32Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "other",
+      "duration_seconds": 10063,
+      "first_seen": "2026-11-01T19:33:49Z",
+      "issue_key": "metropolitan:text:83dac563140918e6",
+      "line_id": "metropolitan",
+      "line_name": "Metropolitan",
+      "reason": "Metropolitan Line: Minor delays between Harrow-on-the-Hill and Watford, and between Moor Park and Chesham due to train cancellations. The next southbound train from Chesham will be at 19:56. GOOD SERVICE on the rest of line.",
+      "resolved_at": "2026-11-01T22:21:32Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
     {
       "category": "train fault",
       "duration_seconds": 1597,
@@ -32161,6 +32187,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-11-01T19:33:49Z",
+  "updated_at": "2026-11-01T22:21:32Z",
   "version": 1
 }
