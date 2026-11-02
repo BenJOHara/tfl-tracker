@@ -1,83 +1,153 @@
 {
   "active": {
-    "bakerloo:text:9fd19cb4405363e4": {
-      "category": "points failure",
-      "first_seen": "2026-11-01T22:21:32Z",
-      "issue_key": "bakerloo:text:9fd19cb4405363e4",
+    "bakerloo:text:975c88cf69561d0c": {
+      "category": "other",
+      "first_seen": "2026-11-02T01:35:31Z",
+      "issue_key": "bakerloo:text:975c88cf69561d0c",
       "line_id": "bakerloo",
       "line_name": "Bakerloo",
-      "reason": "Bakerloo Line: No service between Queen's Park and Harrow & Wealdstone and SEVERE DELAYS on the rest of the line due to a points failure at Elephant & Castle. Tickets being accepted on London Buses, Lioness line, London Northwestern and Thameslink services.",
-      "severity": "Part Suspended",
+      "reason": "Bakerloo Line: Service will resume later this morning.",
+      "severity": "Service Closed",
       "source_created": "0001-01-01T00:00:00"
     },
-    "central:text:23c62521d4237097": {
+    "central:text:8dadc0a1b9047d57": {
       "category": "other",
-      "first_seen": "2026-11-01T18:32:19Z",
-      "issue_key": "central:text:23c62521d4237097",
+      "first_seen": "2026-11-02T01:35:31Z",
+      "issue_key": "central:text:8dadc0a1b9047d57",
       "line_id": "central",
       "line_name": "Central",
-      "reason": "Central Line: Minor delays between North Acton and Ealing Broadway/West Ruislip and between Leytonstone and Epping/Hainault via Newbury Park due to train cancellations. GOOD SERVICE on the rest of the line.",
-      "severity": "Minor Delays",
+      "reason": "Central Line: Service will resume later this morning.",
+      "severity": "Service Closed",
       "source_created": "0001-01-01T00:00:00"
     },
-    "district:text:0763e2733d0deaed": {
+    "circle:text:a1099579f6415e8f": {
       "category": "other",
-      "first_seen": "2026-11-01T18:32:19Z",
-      "issue_key": "district:text:0763e2733d0deaed",
+      "first_seen": "2026-11-02T01:35:31Z",
+      "issue_key": "circle:text:a1099579f6415e8f",
+      "line_id": "circle",
+      "line_name": "Circle",
+      "reason": "Circle Line: Service will resume later this morning.",
+      "severity": "Service Closed",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "district:text:468f4f04f34d8411": {
+      "category": "other",
+      "first_seen": "2026-11-02T01:35:31Z",
+      "issue_key": "district:text:468f4f04f34d8411",
       "line_id": "district",
       "line_name": "District",
-      "reason": "District Line: No service between Kensington (Olympia) and Earl's Court and MINOR DELAYS on the rest the line due to train cancellations. Tickets being accepted on London Buses.",
-      "severity": "Part Suspended",
+      "reason": "District Line: Service will resume later this morning.",
+      "severity": "Service Closed",
       "source_created": "0001-01-01T00:00:00"
     },
-    "dlr:text:69e644ae38c517b7": {
+    "dlr:text:fb244db083a3f0ff": {
       "category": "other",
-      "first_seen": "2026-11-01T06:25:48Z",
-      "issue_key": "dlr:text:69e644ae38c517b7",
+      "first_seen": "2026-11-02T01:35:31Z",
+      "issue_key": "dlr:text:fb244db083a3f0ff",
       "line_id": "dlr",
       "line_name": "DLR",
-      "reason": "DOCKLANDS LIGHT RAILWAY: Sunday 1 November, no service between Shadwell and Tower Gateway.",
-      "severity": "Part Closure",
+      "reason": "Docklands Light Railway: Service will resume later this morning.",
+      "severity": "Service Closed",
       "source_created": "0001-01-01T00:00:00"
     },
-    "elizabeth:text:d3cedecbde5c9e59": {
+    "elizabeth:text:85644759b2256fee": {
       "category": "other",
-      "first_seen": "2026-11-01T06:25:48Z",
-      "issue_key": "elizabeth:text:d3cedecbde5c9e59",
+      "first_seen": "2026-11-02T01:35:31Z",
+      "issue_key": "elizabeth:text:85644759b2256fee",
       "line_id": "elizabeth",
       "line_name": "Elizabeth line",
-      "reason": "ELIZABETH LINE: Sunday 1 November, a reduced service operates between Paddington and Heathrow Terminal 4 / Maidenhead. Two trains an hour serve Heathrow Terminal 4, West Drayton, Langley, Slough, Burnham and Maidenhead. Four trains an hour serve Heathrow Terminals 2 and 3. Six trains an hour serve Ealing Broadway, Southall and Hayes & Harlington. Acton Main Line, Hanwell and West Ealing stations are CLOSED.",
-      "severity": "Reduced Service",
+      "reason": "Service will resume later this morning.",
+      "severity": "Service Closed",
       "source_created": "0001-01-01T00:00:00"
     },
-    "metropolitan:text:05e92bf2ab4910eb": {
+    "hammersmith-city:text:b560078b35a5fd17": {
       "category": "other",
-      "first_seen": "2026-11-01T22:21:32Z",
-      "issue_key": "metropolitan:text:05e92bf2ab4910eb",
+      "first_seen": "2026-11-02T01:35:31Z",
+      "issue_key": "hammersmith-city:text:b560078b35a5fd17",
+      "line_id": "hammersmith-city",
+      "line_name": "Hammersmith & City",
+      "reason": "Hammersmith and City Line: Service will resume later this morning.",
+      "severity": "Service Closed",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "jubilee:text:41cf503738f881df": {
+      "category": "other",
+      "first_seen": "2026-11-02T01:35:31Z",
+      "issue_key": "jubilee:text:41cf503738f881df",
+      "line_id": "jubilee",
+      "line_name": "Jubilee",
+      "reason": "Jubilee Line: Service will resume later this morning.",
+      "severity": "Service Closed",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "liberty:text:19134079f5c98ab7": {
+      "category": "other",
+      "first_seen": "2026-11-02T01:35:31Z",
+      "issue_key": "liberty:text:19134079f5c98ab7",
+      "line_id": "liberty",
+      "line_name": "Liberty",
+      "reason": "Liberty Line: Service will resume later this morning.",
+      "severity": "Service Closed",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "lioness:text:edb0d527df87ed16": {
+      "category": "other",
+      "first_seen": "2026-11-02T01:35:31Z",
+      "issue_key": "lioness:text:edb0d527df87ed16",
+      "line_id": "lioness",
+      "line_name": "Lioness",
+      "reason": "Lioness Line: Service will resume later this morning.",
+      "severity": "Service Closed",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "metropolitan:text:4b366f757f8f5a28": {
+      "category": "other",
+      "first_seen": "2026-11-02T01:35:31Z",
+      "issue_key": "metropolitan:text:4b366f757f8f5a28",
       "line_id": "metropolitan",
       "line_name": "Metropolitan",
-      "reason": "Metropolitan Line: Minor delays between Harrow-on-the- Hill and Uxbridge and between Moor Park and Amersham due to train cancellations. The next southbound train from Amersham will be at 22:48. GOOD SERVICE on the rest of the line.",
-      "severity": "Minor Delays",
+      "reason": "Metropolitan Line: Service will resume later this morning.",
+      "severity": "Service Closed",
       "source_created": "0001-01-01T00:00:00"
     },
-    "mildmay:text:2e9dece20ed0d074": {
+    "mildmay:text:43f3ca710bb3792b": {
       "category": "other",
-      "first_seen": "2026-11-01T06:25:48Z",
-      "issue_key": "mildmay:text:2e9dece20ed0d074",
+      "first_seen": "2026-11-02T01:35:31Z",
+      "issue_key": "mildmay:text:43f3ca710bb3792b",
       "line_id": "mildmay",
       "line_name": "Mildmay",
-      "reason": "MILDMAY LINE: Sunday 1 November, no service between Camden Road and Richmond / Clapham Junction. A special service operates between Willesden Junction (Low Level) and Stratford, calling at Kensal Green, Queen's Park, Kilburn High Road, South Hampstead, Camden Road and all stations to Stratford. No trains will run between Richmond / Willesden Junction and Camden Road via Gospel Oak; Customers should use District line trains between Richmond and Gunnersbury, and local buses between Willesden Junction and Clapham Junction as SOUTHERN services will not operate between Watford Junction and Clapham Junction. Rail replacement buses will run as follows: Service R: Camden Town (for Northern line) - Camden Road - Kentish Town West - Gospel Oak (bus stops in Agincourt Road / Southampton Road) - Hampstead Heath - Finchley Road (walk to/from Finchley Road & Frognal) - West Hampstead - Brondesbury (bus stops in Kilburn High Road) - Queen's Park (use local buses to/from Brondesbury Park) - Kensal Rise - Willesden Junction - Acton Central, Eastbound The Vale / Westbound Acton High Street - South Acton, Acton Lane - Gunnersbury.",
-      "severity": "Part Closure",
+      "reason": "Mildmay Line: Service will resume later this morning.",
+      "severity": "Service Closed",
       "source_created": "0001-01-01T00:00:00"
     },
-    "piccadilly:text:00dae87d38df3bb5": {
+    "northern:text:82bd4c50fdf4647c": {
       "category": "other",
-      "first_seen": "2026-10-31T01:47:09Z",
-      "issue_key": "piccadilly:text:00dae87d38df3bb5",
+      "first_seen": "2026-11-02T01:35:31Z",
+      "issue_key": "northern:text:82bd4c50fdf4647c",
+      "line_id": "northern",
+      "line_name": "Northern",
+      "reason": "Northern Line: Service will resume later this morning.",
+      "severity": "Service Closed",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "piccadilly:text:93605ef69b23c043": {
+      "category": "other",
+      "first_seen": "2026-11-02T01:35:31Z",
+      "issue_key": "piccadilly:text:93605ef69b23c043",
       "line_id": "piccadilly",
       "line_name": "Piccadilly",
-      "reason": "PICCADILLY LINE: Saturday 31 October, from 0100, and all day Sunday 1 November, including Friday and Saturday Night Tube, no service on the entire line. Use ELIZABETH LINE services between Central London and Heathrow, and METROPOLITAN LINE services between Rayners Lane and Uxbridge. Replacement bus services operate.",
-      "severity": "Planned Closure",
+      "reason": "Piccadilly Line: Service will resume later this morning.",
+      "severity": "Service Closed",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "suffragette:text:4f3737e52c9492e7": {
+      "category": "other",
+      "first_seen": "2026-11-02T01:35:31Z",
+      "issue_key": "suffragette:text:4f3737e52c9492e7",
+      "line_id": "suffragette",
+      "line_name": "Suffragette",
+      "reason": "Suffragette Line: Service will resume later this morning. However, there will be no service between South Tottenham and Barking Riverside, until the end of service on Tuesday 10 November, due to an operational incident.",
+      "severity": "Service Closed",
       "source_created": "0001-01-01T00:00:00"
     },
     "suffragette:text:8ef9fd6d61cf1006": {
@@ -90,38 +160,190 @@
       "severity": "Part Closure",
       "source_created": "0001-01-01T00:00:00"
     },
-    "tram:text:e96964e5082c0fca": {
+    "tram:text:c55c4dc7edb86ce4": {
       "category": "planned engineering",
+      "first_seen": "2026-11-02T01:35:31Z",
+      "issue_key": "tram:text:c55c4dc7edb86ce4",
+      "line_id": "tram",
+      "line_name": "Tram",
+      "reason": "London Tramlink: Service will resume later this morning. There will be no service between East Croydon and Beckenham Junction / Elmers End / New Addington due to planned engineering work.",
+      "severity": "Service Closed",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "victoria:text:a0235cf21943c30f": {
+      "category": "other",
+      "first_seen": "2026-11-02T01:35:31Z",
+      "issue_key": "victoria:text:a0235cf21943c30f",
+      "line_id": "victoria",
+      "line_name": "Victoria",
+      "reason": "Victoria Line: Service will resume later this morning.",
+      "severity": "Service Closed",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "waterloo-city:text:1bbcac27f282d0db": {
+      "category": "other",
+      "first_seen": "2026-11-02T01:35:31Z",
+      "issue_key": "waterloo-city:text:1bbcac27f282d0db",
+      "line_id": "waterloo-city",
+      "line_name": "Waterloo & City",
+      "reason": "Waterloo and City Line: Service will resume at 06:00 on Monday.",
+      "severity": "Service Closed",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "weaver:text:f2dc8c00c6757e13": {
+      "category": "other",
+      "first_seen": "2026-11-02T01:35:31Z",
+      "issue_key": "weaver:text:f2dc8c00c6757e13",
+      "line_id": "weaver",
+      "line_name": "Weaver",
+      "reason": "Weaver Line: Service will resume later this morning.",
+      "severity": "Service Closed",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "windrush:text:eb329ced32606fab": {
+      "category": "other",
+      "first_seen": "2026-11-02T01:35:31Z",
+      "issue_key": "windrush:text:eb329ced32606fab",
+      "line_id": "windrush",
+      "line_name": "Windrush",
+      "reason": "Windrush Line: Service will resume later this morning.",
+      "severity": "Service Closed",
+      "source_created": "0001-01-01T00:00:00"
+    }
+  },
+  "history": [
+    {
+      "category": "points failure",
+      "duration_seconds": 11639,
+      "first_seen": "2026-11-01T22:21:32Z",
+      "issue_key": "bakerloo:text:9fd19cb4405363e4",
+      "line_id": "bakerloo",
+      "line_name": "Bakerloo",
+      "reason": "Bakerloo Line: No service between Queen's Park and Harrow & Wealdstone and SEVERE DELAYS on the rest of the line due to a points failure at Elephant & Castle. Tickets being accepted on London Buses, Lioness line, London Northwestern and Thameslink services.",
+      "resolved_at": "2026-11-02T01:35:31Z",
+      "severity": "Part Suspended",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "other",
+      "duration_seconds": 25392,
+      "first_seen": "2026-11-01T18:32:19Z",
+      "issue_key": "central:text:23c62521d4237097",
+      "line_id": "central",
+      "line_name": "Central",
+      "reason": "Central Line: Minor delays between North Acton and Ealing Broadway/West Ruislip and between Leytonstone and Epping/Hainault via Newbury Park due to train cancellations. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-11-02T01:35:31Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "other",
+      "duration_seconds": 25392,
+      "first_seen": "2026-11-01T18:32:19Z",
+      "issue_key": "district:text:0763e2733d0deaed",
+      "line_id": "district",
+      "line_name": "District",
+      "reason": "District Line: No service between Kensington (Olympia) and Earl's Court and MINOR DELAYS on the rest the line due to train cancellations. Tickets being accepted on London Buses.",
+      "resolved_at": "2026-11-02T01:35:31Z",
+      "severity": "Part Suspended",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "other",
+      "duration_seconds": 68983,
+      "first_seen": "2026-11-01T06:25:48Z",
+      "issue_key": "dlr:text:69e644ae38c517b7",
+      "line_id": "dlr",
+      "line_name": "DLR",
+      "reason": "DOCKLANDS LIGHT RAILWAY: Sunday 1 November, no service between Shadwell and Tower Gateway.",
+      "resolved_at": "2026-11-02T01:35:31Z",
+      "severity": "Part Closure",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "other",
+      "duration_seconds": 68983,
+      "first_seen": "2026-11-01T06:25:48Z",
+      "issue_key": "elizabeth:text:d3cedecbde5c9e59",
+      "line_id": "elizabeth",
+      "line_name": "Elizabeth line",
+      "reason": "ELIZABETH LINE: Sunday 1 November, a reduced service operates between Paddington and Heathrow Terminal 4 / Maidenhead. Two trains an hour serve Heathrow Terminal 4, West Drayton, Langley, Slough, Burnham and Maidenhead. Four trains an hour serve Heathrow Terminals 2 and 3. Six trains an hour serve Ealing Broadway, Southall and Hayes & Harlington. Acton Main Line, Hanwell and West Ealing stations are CLOSED.",
+      "resolved_at": "2026-11-02T01:35:31Z",
+      "severity": "Reduced Service",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "other",
+      "duration_seconds": 11639,
+      "first_seen": "2026-11-01T22:21:32Z",
+      "issue_key": "metropolitan:text:05e92bf2ab4910eb",
+      "line_id": "metropolitan",
+      "line_name": "Metropolitan",
+      "reason": "Metropolitan Line: Minor delays between Harrow-on-the- Hill and Uxbridge and between Moor Park and Amersham due to train cancellations. The next southbound train from Amersham will be at 22:48. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-11-02T01:35:31Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "other",
+      "duration_seconds": 68983,
+      "first_seen": "2026-11-01T06:25:48Z",
+      "issue_key": "mildmay:text:2e9dece20ed0d074",
+      "line_id": "mildmay",
+      "line_name": "Mildmay",
+      "reason": "MILDMAY LINE: Sunday 1 November, no service between Camden Road and Richmond / Clapham Junction. A special service operates between Willesden Junction (Low Level) and Stratford, calling at Kensal Green, Queen's Park, Kilburn High Road, South Hampstead, Camden Road and all stations to Stratford. No trains will run between Richmond / Willesden Junction and Camden Road via Gospel Oak; Customers should use District line trains between Richmond and Gunnersbury, and local buses between Willesden Junction and Clapham Junction as SOUTHERN services will not operate between Watford Junction and Clapham Junction. Rail replacement buses will run as follows: Service R: Camden Town (for Northern line) - Camden Road - Kentish Town West - Gospel Oak (bus stops in Agincourt Road / Southampton Road) - Hampstead Heath - Finchley Road (walk to/from Finchley Road & Frognal) - West Hampstead - Brondesbury (bus stops in Kilburn High Road) - Queen's Park (use local buses to/from Brondesbury Park) - Kensal Rise - Willesden Junction - Acton Central, Eastbound The Vale / Westbound Acton High Street - South Acton, Acton Lane - Gunnersbury.",
+      "resolved_at": "2026-11-02T01:35:31Z",
+      "severity": "Part Closure",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "other",
+      "duration_seconds": 172102,
+      "first_seen": "2026-10-31T01:47:09Z",
+      "issue_key": "piccadilly:text:00dae87d38df3bb5",
+      "line_id": "piccadilly",
+      "line_name": "Piccadilly",
+      "reason": "PICCADILLY LINE: Saturday 31 October, from 0100, and all day Sunday 1 November, including Friday and Saturday Night Tube, no service on the entire line. Use ELIZABETH LINE services between Central London and Heathrow, and METROPOLITAN LINE services between Rayners Lane and Uxbridge. Replacement bus services operate.",
+      "resolved_at": "2026-11-02T01:35:31Z",
+      "severity": "Planned Closure",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "planned engineering",
+      "duration_seconds": 68983,
       "first_seen": "2026-11-01T06:25:48Z",
       "issue_key": "tram:text:e96964e5082c0fca",
       "line_id": "tram",
       "line_name": "Tram",
       "reason": "LONDON TRAMS: Saturday 24 October to Thursday 5 November, no service between East Croydon and Beckenham Junction / Elmers End / New Addington due to planned engineering work. SOUTHERN services continue to serve Birkbeck, except on Sundays. Replacement bus services operate",
+      "resolved_at": "2026-11-02T01:35:31Z",
       "severity": "Part Closure",
       "source_created": "0001-01-01T00:00:00"
     },
-    "waterloo-city:text:02da0890c7cbf303": {
+    {
       "category": "other",
+      "duration_seconds": 68983,
       "first_seen": "2026-11-01T06:25:48Z",
       "issue_key": "waterloo-city:text:02da0890c7cbf303",
       "line_id": "waterloo-city",
       "line_name": "Waterloo & City",
       "reason": "Waterloo & City line: service operates 06:00 until 00:30, Monday to Friday only. There is no service on Saturdays, Sundays and on bank/public holidays.",
+      "resolved_at": "2026-11-02T01:35:31Z",
       "severity": "Planned Closure",
       "source_created": "0001-01-01T00:00:00"
     },
-    "windrush:text:e5c3a33b82c3d401": {
+    {
       "category": "other",
+      "duration_seconds": 151283,
       "first_seen": "2026-10-31T07:34:08Z",
       "issue_key": "windrush:text:e5c3a33b82c3d401",
       "line_id": "windrush",
       "line_name": "Windrush",
       "reason": "WINDRUSH LINE: Saturday 31 October and Sunday 1 November, no service between New Cross Gate and West Croydon / Crystal Palace. In addition, no SOUTHERN service between London Bridge and Crystal Palace / East Croydon via Forest Hill, and THAMESLINK services via East Croydon do not call at London Bridge or Norwood Junction. Rail replacement buses will run as follows: New Cross Gate - Brockley - Honor Oak Park - Forest Hill - Sydenham - Crystal Palace.",
+      "resolved_at": "2026-11-02T01:35:31Z",
       "severity": "Part Closure",
       "source_created": "0001-01-01T00:00:00"
-    }
-  },
-  "history": [
+    },
     {
       "category": "points failure",
       "duration_seconds": 26407,
@@ -32187,6 +32409,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-11-01T22:21:32Z",
+  "updated_at": "2026-11-02T01:35:31Z",
   "version": 1
 }
