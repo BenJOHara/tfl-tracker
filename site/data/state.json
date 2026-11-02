@@ -1,65 +1,5 @@
 {
   "active": {
-    "central:text:6d0af7c9d44f714a": {
-      "category": "other",
-      "first_seen": "2026-11-02T09:30:48Z",
-      "issue_key": "central:text:6d0af7c9d44f714a",
-      "line_id": "central",
-      "line_name": "Central",
-      "reason": "Central Line: Minor delays due to train cancellations.",
-      "severity": "Minor Delays",
-      "source_created": "0001-01-01T00:00:00"
-    },
-    "district:text:7e509f9fb244c2c9": {
-      "category": "other",
-      "first_seen": "2026-11-02T09:30:48Z",
-      "issue_key": "district:text:7e509f9fb244c2c9",
-      "line_id": "district",
-      "line_name": "District",
-      "reason": "District Line: Minor delays eastbound only due to train cancellations. GOOD SERVICE on the rest of the line.",
-      "severity": "Minor Delays",
-      "source_created": "0001-01-01T00:00:00"
-    },
-    "elizabeth:text:e1b56764137af9d1": {
-      "category": "other",
-      "first_seen": "2026-11-02T09:30:48Z",
-      "issue_key": "elizabeth:text:e1b56764137af9d1",
-      "line_id": "elizabeth",
-      "line_name": "Elizabeth line",
-      "reason": "Minor delays between Hayes & Harlington and Heathrow Terminal 4 while police respond to a incident. GOOD SERVICE on the rest of the line.",
-      "severity": "Minor Delays",
-      "source_created": "0001-01-01T00:00:00"
-    },
-    "hammersmith-city:text:004129bf5e441754": {
-      "category": "other",
-      "first_seen": "2026-11-02T08:13:03Z",
-      "issue_key": "hammersmith-city:text:004129bf5e441754",
-      "line_id": "hammersmith-city",
-      "line_name": "Hammersmith & City",
-      "reason": "Hammersmith and City Line: Minor delays due to train cancellations.",
-      "severity": "Minor Delays",
-      "source_created": "0001-01-01T00:00:00"
-    },
-    "metropolitan:text:a61606d287ab2422": {
-      "category": "person on track",
-      "first_seen": "2026-11-02T09:54:21Z",
-      "issue_key": "metropolitan:text:a61606d287ab2422",
-      "line_id": "metropolitan",
-      "line_name": "Metropolitan",
-      "reason": "Metropolitan Line: No service between Harrow-on-the-Hill and Uxbridge while we deal with a trespasser on the track at Ruislip. Tickets will be accepted on London Buses. GOOD SERVICE on the rest of the line.",
-      "severity": "Part Suspended",
-      "source_created": "0001-01-01T00:00:00"
-    },
-    "piccadilly:text:c4d6e37c478d2242": {
-      "category": "person on track",
-      "first_seen": "2026-11-02T09:54:21Z",
-      "issue_key": "piccadilly:text:c4d6e37c478d2242",
-      "line_id": "piccadilly",
-      "line_name": "Piccadilly",
-      "reason": "Piccadilly Line: No service between Rayners Lane and Uxbridge due to a trespasser on the track at Ruislip. Tickets will be accepted on London Buses. GOOD SERVICE on the rest of the line.",
-      "severity": "Part Suspended",
-      "source_created": "0001-01-01T00:00:00"
-    },
     "suffragette:text:8ef9fd6d61cf1006": {
       "category": "other",
       "first_seen": "2026-11-01T13:39:27Z",
@@ -79,9 +19,91 @@
       "reason": "LONDON TRAMS: Saturday 24 October to Thursday 5 November, no service between East Croydon and Beckenham Junction / Elmers End / New Addington due to planned engineering work. SOUTHERN services continue to serve Birkbeck, except on Sundays. Replacement bus services operate",
       "severity": "Part Closure",
       "source_created": "0001-01-01T00:00:00"
+    },
+    "victoria:text:4d22e708867bba16": {
+      "category": "train fault",
+      "first_seen": "2026-11-02T18:31:49Z",
+      "issue_key": "victoria:text:4d22e708867bba16",
+      "line_id": "victoria",
+      "line_name": "Victoria",
+      "reason": "Victoria Line: Minor delays due to an earlier faulty train at Highbury & Islington.",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
     }
   },
   "history": [
+    {
+      "category": "other",
+      "duration_seconds": 32461,
+      "first_seen": "2026-11-02T09:30:48Z",
+      "issue_key": "central:text:6d0af7c9d44f714a",
+      "line_id": "central",
+      "line_name": "Central",
+      "reason": "Central Line: Minor delays due to train cancellations.",
+      "resolved_at": "2026-11-02T18:31:49Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "other",
+      "duration_seconds": 32461,
+      "first_seen": "2026-11-02T09:30:48Z",
+      "issue_key": "district:text:7e509f9fb244c2c9",
+      "line_id": "district",
+      "line_name": "District",
+      "reason": "District Line: Minor delays eastbound only due to train cancellations. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-11-02T18:31:49Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "other",
+      "duration_seconds": 32461,
+      "first_seen": "2026-11-02T09:30:48Z",
+      "issue_key": "elizabeth:text:e1b56764137af9d1",
+      "line_id": "elizabeth",
+      "line_name": "Elizabeth line",
+      "reason": "Minor delays between Hayes & Harlington and Heathrow Terminal 4 while police respond to a incident. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-11-02T18:31:49Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "other",
+      "duration_seconds": 37126,
+      "first_seen": "2026-11-02T08:13:03Z",
+      "issue_key": "hammersmith-city:text:004129bf5e441754",
+      "line_id": "hammersmith-city",
+      "line_name": "Hammersmith & City",
+      "reason": "Hammersmith and City Line: Minor delays due to train cancellations.",
+      "resolved_at": "2026-11-02T18:31:49Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "person on track",
+      "duration_seconds": 31048,
+      "first_seen": "2026-11-02T09:54:21Z",
+      "issue_key": "metropolitan:text:a61606d287ab2422",
+      "line_id": "metropolitan",
+      "line_name": "Metropolitan",
+      "reason": "Metropolitan Line: No service between Harrow-on-the-Hill and Uxbridge while we deal with a trespasser on the track at Ruislip. Tickets will be accepted on London Buses. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-11-02T18:31:49Z",
+      "severity": "Part Suspended",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "person on track",
+      "duration_seconds": 31048,
+      "first_seen": "2026-11-02T09:54:21Z",
+      "issue_key": "piccadilly:text:c4d6e37c478d2242",
+      "line_id": "piccadilly",
+      "line_name": "Piccadilly",
+      "reason": "Piccadilly Line: No service between Rayners Lane and Uxbridge due to a trespasser on the track at Ruislip. Tickets will be accepted on London Buses. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-11-02T18:31:49Z",
+      "severity": "Part Suspended",
+      "source_created": "0001-01-01T00:00:00"
+    },
     {
       "category": "other",
       "duration_seconds": 1413,
@@ -32567,6 +32589,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-11-02T09:54:21Z",
+  "updated_at": "2026-11-02T18:31:49Z",
   "version": 1
 }
