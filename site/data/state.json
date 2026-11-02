@@ -19,19 +19,21 @@
       "reason": "LONDON TRAMS: Saturday 24 October to Thursday 5 November, no service between East Croydon and Beckenham Junction / Elmers End / New Addington due to planned engineering work. SOUTHERN services continue to serve Birkbeck, except on Sundays. Replacement bus services operate",
       "severity": "Part Closure",
       "source_created": "0001-01-01T00:00:00"
-    },
-    "victoria:text:4d22e708867bba16": {
+    }
+  },
+  "history": [
+    {
       "category": "train fault",
+      "duration_seconds": 4289,
       "first_seen": "2026-11-02T18:31:49Z",
       "issue_key": "victoria:text:4d22e708867bba16",
       "line_id": "victoria",
       "line_name": "Victoria",
       "reason": "Victoria Line: Minor delays due to an earlier faulty train at Highbury & Islington.",
+      "resolved_at": "2026-11-02T19:43:18Z",
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
-    }
-  },
-  "history": [
+    },
     {
       "category": "other",
       "duration_seconds": 32461,
@@ -32589,6 +32591,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-11-02T18:31:49Z",
+  "updated_at": "2026-11-02T19:43:18Z",
   "version": 1
 }
