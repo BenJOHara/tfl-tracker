@@ -1,32 +1,22 @@
 {
   "active": {
-    "central:text:0f260d828b6f32c3": {
-      "category": "signal failure",
-      "first_seen": "2026-11-03T09:59:11Z",
-      "issue_key": "central:text:0f260d828b6f32c3",
-      "line_id": "central",
-      "line_name": "Central",
-      "reason": "Central Line: No service between North Acton and West Ruislip and Severe delays between North Acton and Ealing Broadway and between Leytonstone and Epping / Hainault via Newbury Park while we fix a signal failures at Hanger Lane and Loughton. GOOD SERVICE on the rest of the line.",
+    "dlr:text:4af453cf28ea39e4": {
+      "category": "train fault",
+      "first_seen": "2026-11-03T16:07:14Z",
+      "issue_key": "dlr:text:4af453cf28ea39e4",
+      "line_id": "dlr",
+      "line_name": "DLR",
+      "reason": "Docklands Light Railway: Severe delays between Bank and Canary Wharf, and between Tower Gateway and Poplar while we fix a faulty train at Westferry. GOOD SERVICE on other DLR routes.",
       "severity": "Severe Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "district:text:9895a04450518727": {
-      "category": "other",
-      "first_seen": "2026-11-03T09:59:11Z",
-      "issue_key": "district:text:9895a04450518727",
-      "line_id": "district",
-      "line_name": "District",
-      "reason": "District Line: Minor delays between Earl's Court and Ealing Broadway / Richmond / Wimbledon due to train cancellations. GOOD SERVICE on the rest of the line.",
-      "severity": "Minor Delays",
-      "source_created": "0001-01-01T00:00:00"
-    },
-    "elizabeth:text:6dd6b3df83cec9d0": {
+    "elizabeth:text:4fdef738c9fbedee": {
       "category": "track fault",
-      "first_seen": "2026-11-03T09:59:11Z",
-      "issue_key": "elizabeth:text:6dd6b3df83cec9d0",
+      "first_seen": "2026-11-03T16:07:14Z",
+      "issue_key": "elizabeth:text:4fdef738c9fbedee",
       "line_id": "elizabeth",
       "line_name": "Elizabeth line",
-      "reason": "Severe delays between Paddington and Heathrow Terminals / Reading and MINOR DELAYS between Abbey Wood and Whitechapel while we fix a track fault at Hayes and Harlington. GOOD SERVICE on the rest of the line.",
+      "reason": "Severe delays between Paddington and Heathrow Terminal 4 / Reading while we fix a track fault at Hayes and Harlington. GOOD SERVICE on the rest of the line.",
       "severity": "Severe Delays",
       "source_created": "0001-01-01T00:00:00"
     },
@@ -52,6 +42,42 @@
     }
   },
   "history": [
+    {
+      "category": "signal failure",
+      "duration_seconds": 22083,
+      "first_seen": "2026-11-03T09:59:11Z",
+      "issue_key": "central:text:0f260d828b6f32c3",
+      "line_id": "central",
+      "line_name": "Central",
+      "reason": "Central Line: No service between North Acton and West Ruislip and Severe delays between North Acton and Ealing Broadway and between Leytonstone and Epping / Hainault via Newbury Park while we fix a signal failures at Hanger Lane and Loughton. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-11-03T16:07:14Z",
+      "severity": "Severe Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "other",
+      "duration_seconds": 22083,
+      "first_seen": "2026-11-03T09:59:11Z",
+      "issue_key": "district:text:9895a04450518727",
+      "line_id": "district",
+      "line_name": "District",
+      "reason": "District Line: Minor delays between Earl's Court and Ealing Broadway / Richmond / Wimbledon due to train cancellations. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-11-03T16:07:14Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "track fault",
+      "duration_seconds": 22083,
+      "first_seen": "2026-11-03T09:59:11Z",
+      "issue_key": "elizabeth:text:6dd6b3df83cec9d0",
+      "line_id": "elizabeth",
+      "line_name": "Elizabeth line",
+      "reason": "Severe delays between Paddington and Heathrow Terminals / Reading and MINOR DELAYS between Abbey Wood and Whitechapel while we fix a track fault at Hayes and Harlington. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-11-03T16:07:14Z",
+      "severity": "Severe Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
     {
       "category": "signal failure",
       "duration_seconds": 3207,
@@ -32957,6 +32983,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-11-03T09:59:11Z",
+  "updated_at": "2026-11-03T16:07:14Z",
   "version": 1
 }
