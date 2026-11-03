@@ -1,22 +1,42 @@
 {
   "active": {
-    "central:text:1c996533ef9bf4dd": {
+    "central:text:4d7aed871e266b66": {
       "category": "train fault",
-      "first_seen": "2026-11-03T17:03:43Z",
-      "issue_key": "central:text:1c996533ef9bf4dd",
+      "first_seen": "2026-11-03T17:44:58Z",
+      "issue_key": "central:text:4d7aed871e266b66",
       "line_id": "central",
       "line_name": "Central",
-      "reason": "Central Line: Severe delays between Leytonstone and Epping / Hainault via Newbury Park and MINOR DELAYS on the rest of the line delays due to an earlier faulty train. Tickets are being accepted on London Buses, Greater Anglia and the Elizabeth Line.",
-      "severity": "Minor Delays",
+      "reason": "Central Line: Severe delays while we fix a faulty train at Bond Street. Tickets are being accepted on London Buses, Greater Anglia and the Elizabeth Line.",
+      "severity": "Severe Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "dlr:text:309df122cf3d643c": {
+    "circle:text:47f20021de690391": {
       "category": "train fault",
-      "first_seen": "2026-11-03T17:03:43Z",
-      "issue_key": "dlr:text:309df122cf3d643c",
+      "first_seen": "2026-11-03T17:44:58Z",
+      "issue_key": "circle:text:47f20021de690391",
+      "line_id": "circle",
+      "line_name": "Circle",
+      "reason": "Circle Line: No service anticlockwise only while we fix a faulty train at South Kensington. GOOD SERVICE on the rest of the line. Tickets are being accepted on London Buses.",
+      "severity": "Part Suspended",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "district:text:93139698e627db90": {
+      "category": "train fault",
+      "first_seen": "2026-11-03T17:44:58Z",
+      "issue_key": "district:text:93139698e627db90",
+      "line_id": "district",
+      "line_name": "District",
+      "reason": "District Line: Severe delays between Turnham Green and Tower Hill eastbound only while we fix a faulty train at South Kensington. GOOD SERVICE on the rest of the line. Tickets are being accepted on London Buses.",
+      "severity": "Severe Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "dlr:text:127f0cc9eba69bcd": {
+      "category": "train fault",
+      "first_seen": "2026-11-03T17:44:58Z",
+      "issue_key": "dlr:text:127f0cc9eba69bcd",
       "line_id": "dlr",
       "line_name": "DLR",
-      "reason": "Docklands Light Railway: Minor delays between Bank and Woolwich Arsenal due to an earlier faulty train at Westferry. MINOR DELAYS between Canary Wharf and Lewisham while we fix a faulty train at Deptford Bridge. GOOD SERVICE on other DLR routes.",
+      "reason": "Docklands Light Railway: Minor delays between Bank and Woolwich Arsenal due to an earlier faulty train at Westferry. GOOD SERVICE on other DLR routes.",
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
@@ -52,6 +72,30 @@
     }
   },
   "history": [
+    {
+      "category": "train fault",
+      "duration_seconds": 2475,
+      "first_seen": "2026-11-03T17:03:43Z",
+      "issue_key": "central:text:1c996533ef9bf4dd",
+      "line_id": "central",
+      "line_name": "Central",
+      "reason": "Central Line: Severe delays between Leytonstone and Epping / Hainault via Newbury Park and MINOR DELAYS on the rest of the line delays due to an earlier faulty train. Tickets are being accepted on London Buses, Greater Anglia and the Elizabeth Line.",
+      "resolved_at": "2026-11-03T17:44:58Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "train fault",
+      "duration_seconds": 2475,
+      "first_seen": "2026-11-03T17:03:43Z",
+      "issue_key": "dlr:text:309df122cf3d643c",
+      "line_id": "dlr",
+      "line_name": "DLR",
+      "reason": "Docklands Light Railway: Minor delays between Bank and Woolwich Arsenal due to an earlier faulty train at Westferry. MINOR DELAYS between Canary Wharf and Lewisham while we fix a faulty train at Deptford Bridge. GOOD SERVICE on other DLR routes.",
+      "resolved_at": "2026-11-03T17:44:58Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
     {
       "category": "train fault",
       "duration_seconds": 3389,
@@ -33017,6 +33061,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-11-03T17:03:43Z",
+  "updated_at": "2026-11-03T17:44:58Z",
   "version": 1
 }
