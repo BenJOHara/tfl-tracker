@@ -1,22 +1,32 @@
 {
   "active": {
-    "dlr:text:4af453cf28ea39e4": {
+    "central:text:1c996533ef9bf4dd": {
       "category": "train fault",
-      "first_seen": "2026-11-03T16:07:14Z",
-      "issue_key": "dlr:text:4af453cf28ea39e4",
-      "line_id": "dlr",
-      "line_name": "DLR",
-      "reason": "Docklands Light Railway: Severe delays between Bank and Canary Wharf, and between Tower Gateway and Poplar while we fix a faulty train at Westferry. GOOD SERVICE on other DLR routes.",
-      "severity": "Severe Delays",
+      "first_seen": "2026-11-03T17:03:43Z",
+      "issue_key": "central:text:1c996533ef9bf4dd",
+      "line_id": "central",
+      "line_name": "Central",
+      "reason": "Central Line: Severe delays between Leytonstone and Epping / Hainault via Newbury Park and MINOR DELAYS on the rest of the line delays due to an earlier faulty train. Tickets are being accepted on London Buses, Greater Anglia and the Elizabeth Line.",
+      "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "elizabeth:text:4fdef738c9fbedee": {
+    "dlr:text:309df122cf3d643c": {
+      "category": "train fault",
+      "first_seen": "2026-11-03T17:03:43Z",
+      "issue_key": "dlr:text:309df122cf3d643c",
+      "line_id": "dlr",
+      "line_name": "DLR",
+      "reason": "Docklands Light Railway: Minor delays between Bank and Woolwich Arsenal due to an earlier faulty train at Westferry. MINOR DELAYS between Canary Wharf and Lewisham while we fix a faulty train at Deptford Bridge. GOOD SERVICE on other DLR routes.",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "elizabeth:text:2799c30b01cd11c4": {
       "category": "track fault",
-      "first_seen": "2026-11-03T16:07:14Z",
-      "issue_key": "elizabeth:text:4fdef738c9fbedee",
+      "first_seen": "2026-11-03T17:03:43Z",
+      "issue_key": "elizabeth:text:2799c30b01cd11c4",
       "line_id": "elizabeth",
       "line_name": "Elizabeth line",
-      "reason": "Severe delays between Paddington and Heathrow Terminal 4 / Reading while we fix a track fault at Hayes and Harlington. GOOD SERVICE on the rest of the line.",
+      "reason": "Severe delays between Paddington and Heathrow Terminal 4 / Reading while we fix a track fault at Hayes and Harlington. Tickets are being accepted by London Underground, London Buses, Great Western Railway and South Western Railway via any reasonable route. GOOD SERVICE on the rest of the line.",
       "severity": "Severe Delays",
       "source_created": "0001-01-01T00:00:00"
     },
@@ -42,6 +52,30 @@
     }
   },
   "history": [
+    {
+      "category": "train fault",
+      "duration_seconds": 3389,
+      "first_seen": "2026-11-03T16:07:14Z",
+      "issue_key": "dlr:text:4af453cf28ea39e4",
+      "line_id": "dlr",
+      "line_name": "DLR",
+      "reason": "Docklands Light Railway: Severe delays between Bank and Canary Wharf, and between Tower Gateway and Poplar while we fix a faulty train at Westferry. GOOD SERVICE on other DLR routes.",
+      "resolved_at": "2026-11-03T17:03:43Z",
+      "severity": "Severe Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "track fault",
+      "duration_seconds": 3389,
+      "first_seen": "2026-11-03T16:07:14Z",
+      "issue_key": "elizabeth:text:4fdef738c9fbedee",
+      "line_id": "elizabeth",
+      "line_name": "Elizabeth line",
+      "reason": "Severe delays between Paddington and Heathrow Terminal 4 / Reading while we fix a track fault at Hayes and Harlington. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-11-03T17:03:43Z",
+      "severity": "Severe Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
     {
       "category": "signal failure",
       "duration_seconds": 22083,
@@ -32983,6 +33017,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-11-03T16:07:14Z",
+  "updated_at": "2026-11-03T17:03:43Z",
   "version": 1
 }
