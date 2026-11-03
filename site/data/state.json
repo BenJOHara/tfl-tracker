@@ -1,15 +1,5 @@
 {
   "active": {
-    "central:text:a91c7291a645d36e": {
-      "category": "train fault",
-      "first_seen": "2026-11-03T21:41:48Z",
-      "issue_key": "central:text:a91c7291a645d36e",
-      "line_id": "central",
-      "line_name": "Central",
-      "reason": "Central Line: Minor delays due to an earlier faulty train at Bond Street.",
-      "severity": "Minor Delays",
-      "source_created": "0001-01-01T00:00:00"
-    },
     "elizabeth:text:2799c30b01cd11c4": {
       "category": "track fault",
       "first_seen": "2026-11-03T17:03:43Z",
@@ -20,14 +10,24 @@
       "severity": "Severe Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "metropolitan:text:e770622a42826d25": {
+    "metropolitan:text:58ea7efce47d9bc8": {
       "category": "person on track",
-      "first_seen": "2026-11-03T21:41:48Z",
-      "issue_key": "metropolitan:text:e770622a42826d25",
+      "first_seen": "2026-11-03T22:17:54Z",
+      "issue_key": "metropolitan:text:58ea7efce47d9bc8",
       "line_id": "metropolitan",
       "line_name": "Metropolitan",
-      "reason": "Metropolitan Line: Minor delays between Harrow-on-the-Hill to Aldgate due to an earlier trespasser on the track. GOOD SERVICE on the rest of the line.",
+      "reason": "Metropolitan Line: Severe delays between Moor Park and Watford and MINOR DELAYS between Harrow-on-the-Hill and Aldgate due to an earlier trespasser on the track. Tickets will be accepted on London Buses. GOOD SERVICE on the rest of the line.",
       "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "mildmay:text:3972a6d11161f691": {
+      "category": "other",
+      "first_seen": "2026-11-03T22:17:54Z",
+      "issue_key": "mildmay:text:3972a6d11161f691",
+      "line_id": "mildmay",
+      "line_name": "Mildmay",
+      "reason": "MILDMAY LINE: Monday 2, Tuesday 3, Wednesday 4 and Thursday 5 November, the 2203 and 2234 trains from Clapham Junction to Stratford operate between Clapham Junction and Willesden Junction only.",
+      "severity": "Reduced Service",
       "source_created": "0001-01-01T00:00:00"
     },
     "suffragette:text:8ef9fd6d61cf1006": {
@@ -59,19 +59,45 @@
       "reason": "Victoria Line: Severe delays due to an earlier faulty train at Warren Street. Tickets are being accepted on London Buses, Greater Anglia, Great Northern, Themeslink the Weaver line, Southeastern and South Western Railway,",
       "severity": "Severe Delays",
       "source_created": "0001-01-01T00:00:00"
+    }
+  },
+  "history": [
+    {
+      "category": "train fault",
+      "duration_seconds": 2166,
+      "first_seen": "2026-11-03T21:41:48Z",
+      "issue_key": "central:text:a91c7291a645d36e",
+      "line_id": "central",
+      "line_name": "Central",
+      "reason": "Central Line: Minor delays due to an earlier faulty train at Bond Street.",
+      "resolved_at": "2026-11-03T22:17:54Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
     },
-    "waterloo-city:text:1b77bade0ef127d0": {
+    {
+      "category": "person on track",
+      "duration_seconds": 2166,
+      "first_seen": "2026-11-03T21:41:48Z",
+      "issue_key": "metropolitan:text:e770622a42826d25",
+      "line_id": "metropolitan",
+      "line_name": "Metropolitan",
+      "reason": "Metropolitan Line: Minor delays between Harrow-on-the-Hill to Aldgate due to an earlier trespasser on the track. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-11-03T22:17:54Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
       "category": "fire alert",
+      "duration_seconds": 2166,
       "first_seen": "2026-11-03T21:41:48Z",
       "issue_key": "waterloo-city:text:1b77bade0ef127d0",
       "line_id": "waterloo-city",
       "line_name": "Waterloo & City",
       "reason": "Waterloo and City Line: No service due to a fire alert. Tickets are being accepted on London Buses via reasonable routes.",
+      "resolved_at": "2026-11-03T22:17:54Z",
       "severity": "Suspended",
       "source_created": "0001-01-01T00:00:00"
-    }
-  },
-  "history": [
+    },
     {
       "category": "train fault",
       "duration_seconds": 14210,
@@ -33109,6 +33135,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-11-03T21:41:48Z",
+  "updated_at": "2026-11-03T22:17:54Z",
   "version": 1
 }
