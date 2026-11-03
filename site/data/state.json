@@ -1,23 +1,23 @@
 {
   "active": {
-    "central:text:00771551fcaf3122": {
+    "central:text:3bcc562d68ce715e": {
       "category": "signal failure",
-      "first_seen": "2026-11-03T07:59:46Z",
-      "issue_key": "central:text:00771551fcaf3122",
+      "first_seen": "2026-11-03T09:05:44Z",
+      "issue_key": "central:text:3bcc562d68ce715e",
       "line_id": "central",
       "line_name": "Central",
-      "reason": "Central Line: Minor delays between North Acton and West Ruislip while we fix a signal failure at Hanger Lane. GOOD SERVICE on the rest of the line.",
+      "reason": "Central Line: Severe delays between Hainault and Woodford via Grange Hill while we fix a signal failures at Hanger Lane and Loughton. MINOR DELAYS on the rest of the line.",
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "district:text:9895a04450518727": {
+    "district:text:204a2f5467042138": {
       "category": "other",
-      "first_seen": "2026-11-03T07:59:46Z",
-      "issue_key": "district:text:9895a04450518727",
+      "first_seen": "2026-11-03T09:05:44Z",
+      "issue_key": "district:text:204a2f5467042138",
       "line_id": "district",
       "line_name": "District",
-      "reason": "District Line: Minor delays between Earl's Court and Ealing Broadway / Richmond / Wimbledon due to train cancellations. GOOD SERVICE on the rest of the line.",
-      "severity": "Minor Delays",
+      "reason": "District Line: Severe delays between Tower Hill and Barking eastbound only and MINOR DELAYS between Earl's Court and Ealing Broadway / Richmond / Wimbledon due to train cancellations. GOOD SERVICE on the rest of the line.",
+      "severity": "Severe Delays",
       "source_created": "0001-01-01T00:00:00"
     },
     "elizabeth:text:2ca4cdac94f54b71": {
@@ -62,6 +62,30 @@
     }
   },
   "history": [
+    {
+      "category": "signal failure",
+      "duration_seconds": 3958,
+      "first_seen": "2026-11-03T07:59:46Z",
+      "issue_key": "central:text:00771551fcaf3122",
+      "line_id": "central",
+      "line_name": "Central",
+      "reason": "Central Line: Minor delays between North Acton and West Ruislip while we fix a signal failure at Hanger Lane. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-11-03T09:05:44Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "other",
+      "duration_seconds": 3958,
+      "first_seen": "2026-11-03T07:59:46Z",
+      "issue_key": "district:text:9895a04450518727",
+      "line_id": "district",
+      "line_name": "District",
+      "reason": "District Line: Minor delays between Earl's Court and Ealing Broadway / Richmond / Wimbledon due to train cancellations. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-11-03T09:05:44Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
     {
       "category": "other",
       "duration_seconds": 22278,
@@ -32895,6 +32919,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-11-03T07:59:46Z",
+  "updated_at": "2026-11-03T09:05:44Z",
   "version": 1
 }
