@@ -1,43 +1,33 @@
 {
   "active": {
-    "central:text:23c62521d4237097": {
+    "central:text:a0f01253b3326311": {
       "category": "other",
-      "first_seen": "2026-11-04T17:48:27Z",
-      "issue_key": "central:text:23c62521d4237097",
+      "first_seen": "2026-11-04T21:58:22Z",
+      "issue_key": "central:text:a0f01253b3326311",
       "line_id": "central",
       "line_name": "Central",
-      "reason": "Central Line: Minor delays between North Acton and Ealing Broadway/West Ruislip and between Leytonstone and Epping/Hainault via Newbury Park due to train cancellations. GOOD SERVICE on the rest of the line.",
+      "reason": "Central Line: Severe delays between Leytonstone and Epping/Hainault via Newbury Park and SEVERE DELAYS between White City and Ealing Broadway/West Ruislip due to train cancellations. Tickets being accepted on London Buses. MINOR DELAYS on the rest of the line.",
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "district:text:aad91497cba276db": {
+    "district:text:9c09d477e2a85811": {
       "category": "other",
-      "first_seen": "2026-11-04T16:12:17Z",
-      "issue_key": "district:text:aad91497cba276db",
+      "first_seen": "2026-11-04T21:58:22Z",
+      "issue_key": "district:text:9c09d477e2a85811",
       "line_id": "district",
       "line_name": "District",
-      "reason": "District Line: Minor delays between Earl's Court and Wimbledon due to train cancellations. GOOD SERVICE on the rest of the line.",
+      "reason": "District Line: Minor delays due to train cancellations.",
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "metropolitan:text:18d22bbfc1d32182": {
-      "category": "signal failure",
-      "first_seen": "2026-11-04T17:48:27Z",
-      "issue_key": "metropolitan:text:18d22bbfc1d32182",
-      "line_id": "metropolitan",
-      "line_name": "Metropolitan",
-      "reason": "Metropolitan Line: Severe delays between Harrow-on-the-Hill and Uxbridge while we fix a signal failure at Ruislip. MINOR DELAYS between Moor Park and Watford due to train cancellations. Tickets will be accepted on London Buses. GOOD SERVICE on the rest of the line.",
+    "mildmay:text:86d222085970a8ea": {
+      "category": "other",
+      "first_seen": "2026-11-04T21:58:22Z",
+      "issue_key": "mildmay:text:86d222085970a8ea",
+      "line_id": "mildmay",
+      "line_name": "Mildmay",
+      "reason": "Mildmay Line: Severe delays due to a operational incident at Caledonian Road & Barnsbury.",
       "severity": "Severe Delays",
-      "source_created": "0001-01-01T00:00:00"
-    },
-    "piccadilly:text:06b1021875a4c4bc": {
-      "category": "signal failure",
-      "first_seen": "2026-11-04T17:48:27Z",
-      "issue_key": "piccadilly:text:06b1021875a4c4bc",
-      "line_id": "piccadilly",
-      "line_name": "Piccadilly",
-      "reason": "Piccadilly Line: No service between South Harrow and Uxbridge while we fix a signal failure at Ruislip. Tickets being accepted on London Buses. GOOD SERVICE on the rest of the line.",
-      "severity": "Part Suspended",
       "source_created": "0001-01-01T00:00:00"
     },
     "suffragette:text:8ef9fd6d61cf1006": {
@@ -60,18 +50,78 @@
       "severity": "Part Closure",
       "source_created": "0001-01-01T00:00:00"
     },
-    "victoria:text:02e0850cdf11ef25": {
+    "windrush:text:a089a83567c70e85": {
       "category": "other",
+      "first_seen": "2026-11-04T21:58:22Z",
+      "issue_key": "windrush:text:a089a83567c70e85",
+      "line_id": "windrush",
+      "line_name": "Windrush",
+      "reason": "Windrush Line: No service between Clapham Junction and Wandsworth Road while we remove a tree from the track. GOOD SERVICE on the rest of the line.",
+      "severity": "Part Suspended",
+      "source_created": "0001-01-01T00:00:00"
+    }
+  },
+  "history": [
+    {
+      "category": "other",
+      "duration_seconds": 14995,
+      "first_seen": "2026-11-04T17:48:27Z",
+      "issue_key": "central:text:23c62521d4237097",
+      "line_id": "central",
+      "line_name": "Central",
+      "reason": "Central Line: Minor delays between North Acton and Ealing Broadway/West Ruislip and between Leytonstone and Epping/Hainault via Newbury Park due to train cancellations. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-11-04T21:58:22Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "other",
+      "duration_seconds": 20765,
+      "first_seen": "2026-11-04T16:12:17Z",
+      "issue_key": "district:text:aad91497cba276db",
+      "line_id": "district",
+      "line_name": "District",
+      "reason": "District Line: Minor delays between Earl's Court and Wimbledon due to train cancellations. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-11-04T21:58:22Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "signal failure",
+      "duration_seconds": 14995,
+      "first_seen": "2026-11-04T17:48:27Z",
+      "issue_key": "metropolitan:text:18d22bbfc1d32182",
+      "line_id": "metropolitan",
+      "line_name": "Metropolitan",
+      "reason": "Metropolitan Line: Severe delays between Harrow-on-the-Hill and Uxbridge while we fix a signal failure at Ruislip. MINOR DELAYS between Moor Park and Watford due to train cancellations. Tickets will be accepted on London Buses. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-11-04T21:58:22Z",
+      "severity": "Severe Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "signal failure",
+      "duration_seconds": 14995,
+      "first_seen": "2026-11-04T17:48:27Z",
+      "issue_key": "piccadilly:text:06b1021875a4c4bc",
+      "line_id": "piccadilly",
+      "line_name": "Piccadilly",
+      "reason": "Piccadilly Line: No service between South Harrow and Uxbridge while we fix a signal failure at Ruislip. Tickets being accepted on London Buses. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-11-04T21:58:22Z",
+      "severity": "Part Suspended",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "other",
+      "duration_seconds": 14995,
       "first_seen": "2026-11-04T17:48:27Z",
       "issue_key": "victoria:text:02e0850cdf11ef25",
       "line_id": "victoria",
       "line_name": "Victoria",
       "reason": "Victoria Line: Minor delays due to train cancellations.",
+      "resolved_at": "2026-11-04T21:58:22Z",
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
-    }
-  },
-  "history": [
+    },
     {
       "category": "signal failure",
       "duration_seconds": 5770,
@@ -33601,6 +33651,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-11-04T17:48:27Z",
+  "updated_at": "2026-11-04T21:58:22Z",
   "version": 1
 }
