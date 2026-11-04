@@ -20,26 +20,6 @@
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "mildmay:text:3972a6d11161f691": {
-      "category": "other",
-      "first_seen": "2026-11-04T23:17:40Z",
-      "issue_key": "mildmay:text:3972a6d11161f691",
-      "line_id": "mildmay",
-      "line_name": "Mildmay",
-      "reason": "MILDMAY LINE: Monday 2, Tuesday 3, Wednesday 4 and Thursday 5 November, the 2203 and 2234 trains from Clapham Junction to Stratford operate between Clapham Junction and Willesden Junction only.",
-      "severity": "Reduced Service",
-      "source_created": "0001-01-01T00:00:00"
-    },
-    "piccadilly:text:7b5c9d8edf77e27f": {
-      "category": "passenger incident",
-      "first_seen": "2026-11-04T23:17:40Z",
-      "issue_key": "piccadilly:text:7b5c9d8edf77e27f",
-      "line_id": "piccadilly",
-      "line_name": "Piccadilly",
-      "reason": "Piccadilly Line: Severe delays between Acton town and Heathrow Terminals due to a customer incident at Hatton Cross. GOOD SERVICE on the rest of the line. Tickets will be accepted on London Buses.",
-      "severity": "Severe Delays",
-      "source_created": "0001-01-01T00:00:00"
-    },
     "suffragette:text:8ef9fd6d61cf1006": {
       "category": "other",
       "first_seen": "2026-11-01T13:39:27Z",
@@ -62,6 +42,30 @@
     }
   },
   "history": [
+    {
+      "category": "other",
+      "duration_seconds": 1033,
+      "first_seen": "2026-11-04T23:17:40Z",
+      "issue_key": "mildmay:text:3972a6d11161f691",
+      "line_id": "mildmay",
+      "line_name": "Mildmay",
+      "reason": "MILDMAY LINE: Monday 2, Tuesday 3, Wednesday 4 and Thursday 5 November, the 2203 and 2234 trains from Clapham Junction to Stratford operate between Clapham Junction and Willesden Junction only.",
+      "resolved_at": "2026-11-04T23:34:53Z",
+      "severity": "Reduced Service",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "passenger incident",
+      "duration_seconds": 1033,
+      "first_seen": "2026-11-04T23:17:40Z",
+      "issue_key": "piccadilly:text:7b5c9d8edf77e27f",
+      "line_id": "piccadilly",
+      "line_name": "Piccadilly",
+      "reason": "Piccadilly Line: Severe delays between Acton town and Heathrow Terminals due to a customer incident at Hatton Cross. GOOD SERVICE on the rest of the line. Tickets will be accepted on London Buses.",
+      "resolved_at": "2026-11-04T23:34:53Z",
+      "severity": "Severe Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
     {
       "category": "other",
       "duration_seconds": 4758,
@@ -33675,6 +33679,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-11-04T23:17:40Z",
+  "updated_at": "2026-11-04T23:34:53Z",
   "version": 1
 }
