@@ -1,43 +1,33 @@
 {
   "active": {
-    "district:text:271801409e8aaf2c": {
+    "bakerloo:text:e6473821f2b327a9": {
+      "category": "signal failure",
+      "first_seen": "2026-11-04T16:12:17Z",
+      "issue_key": "bakerloo:text:e6473821f2b327a9",
+      "line_id": "bakerloo",
+      "line_name": "Bakerloo",
+      "reason": "Bakerloo Line: Minor delays due to an earlier signal failure at Stonebridge Park.",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "central:text:425fa16fb8fe8151": {
+      "category": "passenger incident",
+      "first_seen": "2026-11-04T16:12:17Z",
+      "issue_key": "central:text:425fa16fb8fe8151",
+      "line_id": "central",
+      "line_name": "Central",
+      "reason": "Central Line: Minor delays between North Acton and Ealing Broadway/West Ruislip and between Leytonstone and Epping/Hainault via Newbury Park due to an earlier customer incident at Stratford. GOOD SERVICE on the rest of the line.",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "district:text:aad91497cba276db": {
       "category": "other",
-      "first_seen": "2026-11-04T09:57:42Z",
-      "issue_key": "district:text:271801409e8aaf2c",
+      "first_seen": "2026-11-04T16:12:17Z",
+      "issue_key": "district:text:aad91497cba276db",
       "line_id": "district",
       "line_name": "District",
-      "reason": "District Line: Severe delays between Earl's Court and Wimbledon and between Barking and Upminster. MINOR DELAYS on the rest of the line due to train cancellations. Tickets will be accepted on London Buses and South Western Railway services via any reasonable route.",
+      "reason": "District Line: Minor delays between Earl's Court and Wimbledon due to train cancellations. GOOD SERVICE on the rest of the line.",
       "severity": "Minor Delays",
-      "source_created": "0001-01-01T00:00:00"
-    },
-    "jubilee:text:9888b37b92b31ad9": {
-      "category": "train fault",
-      "first_seen": "2026-11-04T09:57:42Z",
-      "issue_key": "jubilee:text:9888b37b92b31ad9",
-      "line_id": "jubilee",
-      "line_name": "Jubilee",
-      "reason": "Jubilee Line: Minor delays due to an earlier faulty train at Canary Wharf.",
-      "severity": "Minor Delays",
-      "source_created": "0001-01-01T00:00:00"
-    },
-    "metropolitan:text:b5eb33b97f430292": {
-      "category": "train fault",
-      "first_seen": "2026-11-04T09:57:42Z",
-      "issue_key": "metropolitan:text:b5eb33b97f430292",
-      "line_id": "metropolitan",
-      "line_name": "Metropolitan",
-      "reason": "Metropolitan Line: Minor delays between Harrow-on-the-Hill and Aldgate due to an earlier faulty train at Baker Street. GOOD SERVICE on the rest of the line.",
-      "severity": "Minor Delays",
-      "source_created": "0001-01-01T00:00:00"
-    },
-    "piccadilly:text:7f91878ba298b35b": {
-      "category": "signal failure",
-      "first_seen": "2026-11-04T09:57:42Z",
-      "issue_key": "piccadilly:text:7f91878ba298b35b",
-      "line_id": "piccadilly",
-      "line_name": "Piccadilly",
-      "reason": "Piccadilly Line: Severe delays due to an earlier signal failure at South Kensington. Tickets are being accepted on London Buses, Weaver line, Great Northern, South Western Railway, Weaver line and Elizabeth Line services via any reasonable route.",
-      "severity": "Severe Delays",
       "source_created": "0001-01-01T00:00:00"
     },
     "suffragette:text:8ef9fd6d61cf1006": {
@@ -62,6 +52,54 @@
     }
   },
   "history": [
+    {
+      "category": "other",
+      "duration_seconds": 22475,
+      "first_seen": "2026-11-04T09:57:42Z",
+      "issue_key": "district:text:271801409e8aaf2c",
+      "line_id": "district",
+      "line_name": "District",
+      "reason": "District Line: Severe delays between Earl's Court and Wimbledon and between Barking and Upminster. MINOR DELAYS on the rest of the line due to train cancellations. Tickets will be accepted on London Buses and South Western Railway services via any reasonable route.",
+      "resolved_at": "2026-11-04T16:12:17Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "train fault",
+      "duration_seconds": 22475,
+      "first_seen": "2026-11-04T09:57:42Z",
+      "issue_key": "jubilee:text:9888b37b92b31ad9",
+      "line_id": "jubilee",
+      "line_name": "Jubilee",
+      "reason": "Jubilee Line: Minor delays due to an earlier faulty train at Canary Wharf.",
+      "resolved_at": "2026-11-04T16:12:17Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "train fault",
+      "duration_seconds": 22475,
+      "first_seen": "2026-11-04T09:57:42Z",
+      "issue_key": "metropolitan:text:b5eb33b97f430292",
+      "line_id": "metropolitan",
+      "line_name": "Metropolitan",
+      "reason": "Metropolitan Line: Minor delays between Harrow-on-the-Hill and Aldgate due to an earlier faulty train at Baker Street. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-11-04T16:12:17Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "signal failure",
+      "duration_seconds": 22475,
+      "first_seen": "2026-11-04T09:57:42Z",
+      "issue_key": "piccadilly:text:7f91878ba298b35b",
+      "line_id": "piccadilly",
+      "line_name": "Piccadilly",
+      "reason": "Piccadilly Line: Severe delays due to an earlier signal failure at South Kensington. Tickets are being accepted on London Buses, Weaver line, Great Northern, South Western Railway, Weaver line and Elizabeth Line services via any reasonable route.",
+      "resolved_at": "2026-11-04T16:12:17Z",
+      "severity": "Severe Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
     {
       "category": "other",
       "duration_seconds": 7151,
@@ -33519,6 +33557,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-11-04T09:57:42Z",
+  "updated_at": "2026-11-04T16:12:17Z",
   "version": 1
 }
