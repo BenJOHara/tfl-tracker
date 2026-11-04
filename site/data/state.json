@@ -1,43 +1,43 @@
 {
   "active": {
-    "central:text:23c62521d4237097": {
+    "district:text:271801409e8aaf2c": {
       "category": "other",
-      "first_seen": "2026-11-04T07:58:31Z",
-      "issue_key": "central:text:23c62521d4237097",
-      "line_id": "central",
-      "line_name": "Central",
-      "reason": "Central Line: Minor delays between North Acton and Ealing Broadway/ West Ruislip and between Leytonstone and Epping / Hainault via Newbury Park due to train cancellations. GOOD SERVICE on the rest of the line.",
-      "severity": "Minor Delays",
-      "source_created": "0001-01-01T00:00:00"
-    },
-    "district:text:f3e2927ac3e4fba2": {
-      "category": "other",
-      "first_seen": "2026-11-04T07:58:31Z",
-      "issue_key": "district:text:f3e2927ac3e4fba2",
+      "first_seen": "2026-11-04T09:57:42Z",
+      "issue_key": "district:text:271801409e8aaf2c",
       "line_id": "district",
       "line_name": "District",
-      "reason": "District Line: Severe delays between Barking and Upminster and between Earl's Court and Wimbledon and MINOR DELAYS on the rest of the line due to train cancellations and while we deal with a signalling problem. Tickets will be accepted on London Buses, Mildmay Line, DLR, Elizabeth Line and C2C services via any reasonable route.",
+      "reason": "District Line: Severe delays between Earl's Court and Wimbledon and between Barking and Upminster. MINOR DELAYS on the rest of the line due to train cancellations. Tickets will be accepted on London Buses and South Western Railway services via any reasonable route.",
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "elizabeth:text:00ba726ea5b1d7fb": {
-      "category": "track fault",
-      "first_seen": "2026-11-04T07:58:31Z",
-      "issue_key": "elizabeth:text:00ba726ea5b1d7fb",
-      "line_id": "elizabeth",
-      "line_name": "Elizabeth line",
-      "reason": "Severe delays between Paddington and Reading/Heathrow Terminals while we fix a track fault at Ealing Broadway. GOOD SERVICE on the rest of the line. Tickets are being accepted on London Underground, London Buses, Great Western Railway and South Western Railway.",
-      "severity": "Severe Delays",
+    "jubilee:text:9888b37b92b31ad9": {
+      "category": "train fault",
+      "first_seen": "2026-11-04T09:57:42Z",
+      "issue_key": "jubilee:text:9888b37b92b31ad9",
+      "line_id": "jubilee",
+      "line_name": "Jubilee",
+      "reason": "Jubilee Line: Minor delays due to an earlier faulty train at Canary Wharf.",
+      "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "metropolitan:text:480b004ad2e0f4db": {
+    "metropolitan:text:b5eb33b97f430292": {
       "category": "train fault",
-      "first_seen": "2026-11-04T07:58:31Z",
-      "issue_key": "metropolitan:text:480b004ad2e0f4db",
+      "first_seen": "2026-11-04T09:57:42Z",
+      "issue_key": "metropolitan:text:b5eb33b97f430292",
       "line_id": "metropolitan",
       "line_name": "Metropolitan",
-      "reason": "Metropolitan Line: Minor delays between Harrow-on-the-Hill and Aldgate due to an earlier faulty train in the Willesden Green area. GOOD SERVICE on the rest of the line.",
+      "reason": "Metropolitan Line: Minor delays between Harrow-on-the-Hill and Aldgate due to an earlier faulty train at Baker Street. GOOD SERVICE on the rest of the line.",
       "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "piccadilly:text:7f91878ba298b35b": {
+      "category": "signal failure",
+      "first_seen": "2026-11-04T09:57:42Z",
+      "issue_key": "piccadilly:text:7f91878ba298b35b",
+      "line_id": "piccadilly",
+      "line_name": "Piccadilly",
+      "reason": "Piccadilly Line: Severe delays due to an earlier signal failure at South Kensington. Tickets are being accepted on London Buses, Weaver line, Great Northern, South Western Railway, Weaver line and Elizabeth Line services via any reasonable route.",
+      "severity": "Severe Delays",
       "source_created": "0001-01-01T00:00:00"
     },
     "suffragette:text:8ef9fd6d61cf1006": {
@@ -59,19 +59,69 @@
       "reason": "LONDON TRAMS: Saturday 24 October to Thursday 5 November, no service between East Croydon and Beckenham Junction / Elmers End / New Addington due to planned engineering work. SOUTHERN services continue to serve Birkbeck, except on Sundays. Replacement bus services operate",
       "severity": "Part Closure",
       "source_created": "0001-01-01T00:00:00"
-    },
-    "victoria:text:02e0850cdf11ef25": {
+    }
+  },
+  "history": [
+    {
       "category": "other",
+      "duration_seconds": 7151,
+      "first_seen": "2026-11-04T07:58:31Z",
+      "issue_key": "central:text:23c62521d4237097",
+      "line_id": "central",
+      "line_name": "Central",
+      "reason": "Central Line: Minor delays between North Acton and Ealing Broadway/ West Ruislip and between Leytonstone and Epping / Hainault via Newbury Park due to train cancellations. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-11-04T09:57:42Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "other",
+      "duration_seconds": 7151,
+      "first_seen": "2026-11-04T07:58:31Z",
+      "issue_key": "district:text:f3e2927ac3e4fba2",
+      "line_id": "district",
+      "line_name": "District",
+      "reason": "District Line: Severe delays between Barking and Upminster and between Earl's Court and Wimbledon and MINOR DELAYS on the rest of the line due to train cancellations and while we deal with a signalling problem. Tickets will be accepted on London Buses, Mildmay Line, DLR, Elizabeth Line and C2C services via any reasonable route.",
+      "resolved_at": "2026-11-04T09:57:42Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "track fault",
+      "duration_seconds": 7151,
+      "first_seen": "2026-11-04T07:58:31Z",
+      "issue_key": "elizabeth:text:00ba726ea5b1d7fb",
+      "line_id": "elizabeth",
+      "line_name": "Elizabeth line",
+      "reason": "Severe delays between Paddington and Reading/Heathrow Terminals while we fix a track fault at Ealing Broadway. GOOD SERVICE on the rest of the line. Tickets are being accepted on London Underground, London Buses, Great Western Railway and South Western Railway.",
+      "resolved_at": "2026-11-04T09:57:42Z",
+      "severity": "Severe Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "train fault",
+      "duration_seconds": 7151,
+      "first_seen": "2026-11-04T07:58:31Z",
+      "issue_key": "metropolitan:text:480b004ad2e0f4db",
+      "line_id": "metropolitan",
+      "line_name": "Metropolitan",
+      "reason": "Metropolitan Line: Minor delays between Harrow-on-the-Hill and Aldgate due to an earlier faulty train in the Willesden Green area. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-11-04T09:57:42Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "other",
+      "duration_seconds": 7151,
       "first_seen": "2026-11-04T07:58:31Z",
       "issue_key": "victoria:text:02e0850cdf11ef25",
       "line_id": "victoria",
       "line_name": "Victoria",
       "reason": "Victoria Line: Minor delays due to train cancellations.",
+      "resolved_at": "2026-11-04T09:57:42Z",
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
-    }
-  },
-  "history": [
+    },
     {
       "category": "other",
       "duration_seconds": 22767,
@@ -33469,6 +33519,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-11-04T07:58:31Z",
+  "updated_at": "2026-11-04T09:57:42Z",
   "version": 1
 }
