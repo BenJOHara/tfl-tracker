@@ -1,12 +1,12 @@
 {
   "active": {
-    "central:text:81475f85d54b4858": {
+    "central:text:58e7cc25b2afe0d6": {
       "category": "signal failure",
-      "first_seen": "2026-11-05T09:38:32Z",
-      "issue_key": "central:text:81475f85d54b4858",
+      "first_seen": "2026-11-05T11:31:39Z",
+      "issue_key": "central:text:58e7cc25b2afe0d6",
       "line_id": "central",
       "line_name": "Central",
-      "reason": "Central Line: Minor delays between Leytonstone and White city westbound only while we fix a signal failure at Oxford Circus. GOOD SERVICE on the rest of the line.",
+      "reason": "Central Line: Minor delays due to an earlier signal failure at Oxford Circus.",
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
@@ -17,26 +17,6 @@
       "line_id": "district",
       "line_name": "District",
       "reason": "District Line: Minor delays due to train cancellations.",
-      "severity": "Minor Delays",
-      "source_created": "0001-01-01T00:00:00"
-    },
-    "metropolitan:text:9656cef4031a8175": {
-      "category": "train fault",
-      "first_seen": "2026-11-05T09:38:32Z",
-      "issue_key": "metropolitan:text:9656cef4031a8175",
-      "line_id": "metropolitan",
-      "line_name": "Metropolitan",
-      "reason": "Metropolitan Line: Minor delays between Wembley Park and Aldgate due to an earlier faulty train at Finchley Road. GOOD SERVICE on the rest of the line.",
-      "severity": "Minor Delays",
-      "source_created": "0001-01-01T00:00:00"
-    },
-    "northern:text:da3958690bd6e994": {
-      "category": "points failure",
-      "first_seen": "2026-11-05T09:38:32Z",
-      "issue_key": "northern:text:da3958690bd6e994",
-      "line_id": "northern",
-      "line_name": "Northern",
-      "reason": "Northern Line: Minor delays between Camden Town and Battersea Power Station via Charing Cross southbound only due to a points failure at Kennington. GOOD SERVICE on the rest of the line.",
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
@@ -59,19 +39,57 @@
       "reason": "LONDON TRAMS: Saturday 24 October to Thursday 5 November, no service between East Croydon and Beckenham Junction / Elmers End / New Addington due to planned engineering work. SOUTHERN services continue to serve Birkbeck, except on Sundays. Replacement bus services operate",
       "severity": "Part Closure",
       "source_created": "0001-01-01T00:00:00"
+    }
+  },
+  "history": [
+    {
+      "category": "signal failure",
+      "duration_seconds": 6787,
+      "first_seen": "2026-11-05T09:38:32Z",
+      "issue_key": "central:text:81475f85d54b4858",
+      "line_id": "central",
+      "line_name": "Central",
+      "reason": "Central Line: Minor delays between Leytonstone and White city westbound only while we fix a signal failure at Oxford Circus. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-11-05T11:31:39Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
     },
-    "victoria:text:02e0850cdf11ef25": {
+    {
+      "category": "train fault",
+      "duration_seconds": 6787,
+      "first_seen": "2026-11-05T09:38:32Z",
+      "issue_key": "metropolitan:text:9656cef4031a8175",
+      "line_id": "metropolitan",
+      "line_name": "Metropolitan",
+      "reason": "Metropolitan Line: Minor delays between Wembley Park and Aldgate due to an earlier faulty train at Finchley Road. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-11-05T11:31:39Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "points failure",
+      "duration_seconds": 6787,
+      "first_seen": "2026-11-05T09:38:32Z",
+      "issue_key": "northern:text:da3958690bd6e994",
+      "line_id": "northern",
+      "line_name": "Northern",
+      "reason": "Northern Line: Minor delays between Camden Town and Battersea Power Station via Charing Cross southbound only due to a points failure at Kennington. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-11-05T11:31:39Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
       "category": "other",
+      "duration_seconds": 6787,
       "first_seen": "2026-11-05T09:38:32Z",
       "issue_key": "victoria:text:02e0850cdf11ef25",
       "line_id": "victoria",
       "line_name": "Victoria",
       "reason": "Victoria Line: Minor delays due to train cancellations.",
+      "resolved_at": "2026-11-05T11:31:39Z",
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
-    }
-  },
-  "history": [
+    },
     {
       "category": "other",
       "duration_seconds": 26390,
@@ -33973,6 +33991,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-11-05T09:38:32Z",
+  "updated_at": "2026-11-05T11:31:39Z",
   "version": 1
 }
