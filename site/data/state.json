@@ -1,23 +1,33 @@
 {
   "active": {
-    "central:text:6d0af7c9d44f714a": {
+    "central:text:23c62521d4237097": {
       "category": "other",
-      "first_seen": "2026-11-05T22:48:35Z",
-      "issue_key": "central:text:6d0af7c9d44f714a",
+      "first_seen": "2026-11-05T23:56:50Z",
+      "issue_key": "central:text:23c62521d4237097",
       "line_id": "central",
       "line_name": "Central",
-      "reason": "Central Line: Minor delays due to train cancellations.",
+      "reason": "Central Line: Minor delays between North Acton and Ealing Broadway / West Ruislip and between, Leytonstone and Epping / Hainault via Newbury Park due to train cancellations. GOOD SERVICE on the rest of the line.",
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "mildmay:text:3972a6d11161f691": {
+    "lioness:text:3d7d7164d232b3f4": {
       "category": "other",
-      "first_seen": "2026-11-05T22:48:35Z",
-      "issue_key": "mildmay:text:3972a6d11161f691",
+      "first_seen": "2026-11-05T23:56:50Z",
+      "issue_key": "lioness:text:3d7d7164d232b3f4",
+      "line_id": "lioness",
+      "line_name": "Lioness",
+      "reason": "LIONESS LINE: Monday 2, Tuesday 3, Wednesday 4 and Thursday 5 November, the 2345 train from Euston to Watford Junction will terminate at Willesden Junction at 2359",
+      "severity": "Reduced Service",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "mildmay:text:3c83c657a4783d5b": {
+      "category": "other",
+      "first_seen": "2026-11-05T23:56:50Z",
+      "issue_key": "mildmay:text:3c83c657a4783d5b",
       "line_id": "mildmay",
       "line_name": "Mildmay",
-      "reason": "MILDMAY LINE: Monday 2, Tuesday 3, Wednesday 4 and Thursday 5 November, the 2203 and 2234 trains from Clapham Junction to Stratford operate between Clapham Junction and Willesden Junction only.",
-      "severity": "Reduced Service",
+      "reason": "MILDMAY LINE: Monday 2, Tuesday 3, Wednesday 4 and Thursday 5 November, after 2345 each evening, no westbound service from Camden Road to Willesden Junction. The 2359 and 0015 services from Stratford will terminate at Camden Road. Use London Overground services from Euston to Willesden Junction, Northern line from Camden Town, or local bus routes 1 24 46 88 and 214 from Camden Road / Camden Town.",
+      "severity": "Part Closure",
       "source_created": "0001-01-01T00:00:00"
     },
     "suffragette:text:8ef9fd6d61cf1006": {
@@ -42,6 +52,30 @@
     }
   },
   "history": [
+    {
+      "category": "other",
+      "duration_seconds": 4095,
+      "first_seen": "2026-11-05T22:48:35Z",
+      "issue_key": "central:text:6d0af7c9d44f714a",
+      "line_id": "central",
+      "line_name": "Central",
+      "reason": "Central Line: Minor delays due to train cancellations.",
+      "resolved_at": "2026-11-05T23:56:50Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "other",
+      "duration_seconds": 4095,
+      "first_seen": "2026-11-05T22:48:35Z",
+      "issue_key": "mildmay:text:3972a6d11161f691",
+      "line_id": "mildmay",
+      "line_name": "Mildmay",
+      "reason": "MILDMAY LINE: Monday 2, Tuesday 3, Wednesday 4 and Thursday 5 November, the 2203 and 2234 trains from Clapham Junction to Stratford operate between Clapham Junction and Willesden Junction only.",
+      "resolved_at": "2026-11-05T23:56:50Z",
+      "severity": "Reduced Service",
+      "source_created": "0001-01-01T00:00:00"
+    },
     {
       "category": "signal failure",
       "duration_seconds": 13994,
@@ -34063,6 +34097,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-11-05T22:48:35Z",
+  "updated_at": "2026-11-05T23:56:50Z",
   "version": 1
 }
