@@ -1,43 +1,23 @@
 {
   "active": {
-    "bakerloo:text:6cdbc0b1d2f90a8a": {
-      "category": "signal failure",
-      "first_seen": "2026-11-05T18:55:21Z",
-      "issue_key": "bakerloo:text:6cdbc0b1d2f90a8a",
-      "line_id": "bakerloo",
-      "line_name": "Bakerloo",
-      "reason": "Bakerloo Line: Minor delays while we fix a signal failure at Edgware Road.",
-      "severity": "Minor Delays",
-      "source_created": "0001-01-01T00:00:00"
-    },
-    "central:text:c7df58df7eddae7d": {
+    "central:text:6d0af7c9d44f714a": {
       "category": "other",
-      "first_seen": "2026-11-05T18:55:21Z",
-      "issue_key": "central:text:c7df58df7eddae7d",
+      "first_seen": "2026-11-05T22:48:35Z",
+      "issue_key": "central:text:6d0af7c9d44f714a",
       "line_id": "central",
       "line_name": "Central",
-      "reason": "Central Line: Severe delays between North Acton and West Ruislip and Minor delays on the rest of the line due to train cancellations.",
+      "reason": "Central Line: Minor delays due to train cancellations.",
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "district:text:9c09d477e2a85811": {
+    "mildmay:text:3972a6d11161f691": {
       "category": "other",
-      "first_seen": "2026-11-05T09:38:32Z",
-      "issue_key": "district:text:9c09d477e2a85811",
-      "line_id": "district",
-      "line_name": "District",
-      "reason": "District Line: Minor delays due to train cancellations.",
-      "severity": "Minor Delays",
-      "source_created": "0001-01-01T00:00:00"
-    },
-    "northern:text:db247cf573844ba3": {
-      "category": "points failure",
-      "first_seen": "2026-11-05T17:37:10Z",
-      "issue_key": "northern:text:db247cf573844ba3",
-      "line_id": "northern",
-      "line_name": "Northern",
-      "reason": "Northern Line: Minor delays between Camden Town and Kennington via Charing Cross, southbound only, while we fix a points failure at Kennington. GOOD SERVICE on the rest of the line.",
-      "severity": "Minor Delays",
+      "first_seen": "2026-11-05T22:48:35Z",
+      "issue_key": "mildmay:text:3972a6d11161f691",
+      "line_id": "mildmay",
+      "line_name": "Mildmay",
+      "reason": "MILDMAY LINE: Monday 2, Tuesday 3, Wednesday 4 and Thursday 5 November, the 2203 and 2234 trains from Clapham Junction to Stratford operate between Clapham Junction and Willesden Junction only.",
+      "severity": "Reduced Service",
       "source_created": "0001-01-01T00:00:00"
     },
     "suffragette:text:8ef9fd6d61cf1006": {
@@ -62,6 +42,54 @@
     }
   },
   "history": [
+    {
+      "category": "signal failure",
+      "duration_seconds": 13994,
+      "first_seen": "2026-11-05T18:55:21Z",
+      "issue_key": "bakerloo:text:6cdbc0b1d2f90a8a",
+      "line_id": "bakerloo",
+      "line_name": "Bakerloo",
+      "reason": "Bakerloo Line: Minor delays while we fix a signal failure at Edgware Road.",
+      "resolved_at": "2026-11-05T22:48:35Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "other",
+      "duration_seconds": 13994,
+      "first_seen": "2026-11-05T18:55:21Z",
+      "issue_key": "central:text:c7df58df7eddae7d",
+      "line_id": "central",
+      "line_name": "Central",
+      "reason": "Central Line: Severe delays between North Acton and West Ruislip and Minor delays on the rest of the line due to train cancellations.",
+      "resolved_at": "2026-11-05T22:48:35Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "other",
+      "duration_seconds": 47403,
+      "first_seen": "2026-11-05T09:38:32Z",
+      "issue_key": "district:text:9c09d477e2a85811",
+      "line_id": "district",
+      "line_name": "District",
+      "reason": "District Line: Minor delays due to train cancellations.",
+      "resolved_at": "2026-11-05T22:48:35Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "points failure",
+      "duration_seconds": 18685,
+      "first_seen": "2026-11-05T17:37:10Z",
+      "issue_key": "northern:text:db247cf573844ba3",
+      "line_id": "northern",
+      "line_name": "Northern",
+      "reason": "Northern Line: Minor delays between Camden Town and Kennington via Charing Cross, southbound only, while we fix a points failure at Kennington. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-11-05T22:48:35Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
     {
       "category": "other",
       "duration_seconds": 4691,
@@ -34035,6 +34063,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-11-05T18:55:21Z",
+  "updated_at": "2026-11-05T22:48:35Z",
   "version": 1
 }
