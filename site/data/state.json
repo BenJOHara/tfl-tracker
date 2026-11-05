@@ -1,12 +1,22 @@
 {
   "active": {
-    "central:text:6d0af7c9d44f714a": {
+    "bakerloo:text:6cdbc0b1d2f90a8a": {
+      "category": "signal failure",
+      "first_seen": "2026-11-05T18:55:21Z",
+      "issue_key": "bakerloo:text:6cdbc0b1d2f90a8a",
+      "line_id": "bakerloo",
+      "line_name": "Bakerloo",
+      "reason": "Bakerloo Line: Minor delays while we fix a signal failure at Edgware Road.",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "central:text:c7df58df7eddae7d": {
       "category": "other",
-      "first_seen": "2026-11-05T17:37:10Z",
-      "issue_key": "central:text:6d0af7c9d44f714a",
+      "first_seen": "2026-11-05T18:55:21Z",
+      "issue_key": "central:text:c7df58df7eddae7d",
       "line_id": "central",
       "line_name": "Central",
-      "reason": "Central Line: Minor delays due to train cancellations.",
+      "reason": "Central Line: Severe delays between North Acton and West Ruislip and Minor delays on the rest of the line due to train cancellations.",
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
@@ -52,6 +62,18 @@
     }
   },
   "history": [
+    {
+      "category": "other",
+      "duration_seconds": 4691,
+      "first_seen": "2026-11-05T17:37:10Z",
+      "issue_key": "central:text:6d0af7c9d44f714a",
+      "line_id": "central",
+      "line_name": "Central",
+      "reason": "Central Line: Minor delays due to train cancellations.",
+      "resolved_at": "2026-11-05T18:55:21Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
     {
       "category": "signal failure",
       "duration_seconds": 21931,
@@ -34013,6 +34035,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-11-05T17:37:10Z",
+  "updated_at": "2026-11-05T18:55:21Z",
   "version": 1
 }
