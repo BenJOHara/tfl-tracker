@@ -1,12 +1,12 @@
 {
   "active": {
-    "central:text:58e7cc25b2afe0d6": {
-      "category": "signal failure",
-      "first_seen": "2026-11-05T11:31:39Z",
-      "issue_key": "central:text:58e7cc25b2afe0d6",
+    "central:text:6d0af7c9d44f714a": {
+      "category": "other",
+      "first_seen": "2026-11-05T17:37:10Z",
+      "issue_key": "central:text:6d0af7c9d44f714a",
       "line_id": "central",
       "line_name": "Central",
-      "reason": "Central Line: Minor delays due to an earlier signal failure at Oxford Circus.",
+      "reason": "Central Line: Minor delays due to train cancellations.",
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
@@ -17,6 +17,16 @@
       "line_id": "district",
       "line_name": "District",
       "reason": "District Line: Minor delays due to train cancellations.",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "northern:text:db247cf573844ba3": {
+      "category": "points failure",
+      "first_seen": "2026-11-05T17:37:10Z",
+      "issue_key": "northern:text:db247cf573844ba3",
+      "line_id": "northern",
+      "line_name": "Northern",
+      "reason": "Northern Line: Minor delays between Camden Town and Kennington via Charing Cross, southbound only, while we fix a points failure at Kennington. GOOD SERVICE on the rest of the line.",
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
@@ -42,6 +52,18 @@
     }
   },
   "history": [
+    {
+      "category": "signal failure",
+      "duration_seconds": 21931,
+      "first_seen": "2026-11-05T11:31:39Z",
+      "issue_key": "central:text:58e7cc25b2afe0d6",
+      "line_id": "central",
+      "line_name": "Central",
+      "reason": "Central Line: Minor delays due to an earlier signal failure at Oxford Circus.",
+      "resolved_at": "2026-11-05T17:37:10Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
     {
       "category": "signal failure",
       "duration_seconds": 6787,
@@ -33991,6 +34013,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-11-05T11:31:39Z",
+  "updated_at": "2026-11-05T17:37:10Z",
   "version": 1
 }
