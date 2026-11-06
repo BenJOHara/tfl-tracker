@@ -10,6 +10,16 @@
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
+    "northern:text:6d5f796c2615987b": {
+      "category": "other",
+      "first_seen": "2026-11-06T09:58:09Z",
+      "issue_key": "northern:text:6d5f796c2615987b",
+      "line_id": "northern",
+      "line_name": "Northern",
+      "reason": "Northern Line: No service between Camden Town and High Barnet / Mill Hill East northbound only, SEVERE DELAYS between Camden Town and High Barnet / Mill Hill East southbound only and between Camden Town and Battersea Power Station and MINOR DELAYS on the rest of the line while we carry out a track inspection at Kentish Town. Tickets are being accepted on London Buses, Thameslink and Great Northern.",
+      "severity": "Part Suspended",
+      "source_created": "0001-01-01T00:00:00"
+    },
     "suffragette:text:8ef9fd6d61cf1006": {
       "category": "other",
       "first_seen": "2026-11-01T13:39:27Z",
@@ -20,18 +30,30 @@
       "severity": "Part Closure",
       "source_created": "0001-01-01T00:00:00"
     },
-    "suffragette:text:e44d5b65e49c3842": {
+    "victoria:text:02e0850cdf11ef25": {
       "category": "other",
+      "first_seen": "2026-11-06T09:58:09Z",
+      "issue_key": "victoria:text:02e0850cdf11ef25",
+      "line_id": "victoria",
+      "line_name": "Victoria",
+      "reason": "Victoria Line: Minor delays due to train cancellations.",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    }
+  },
+  "history": [
+    {
+      "category": "other",
+      "duration_seconds": 10691,
       "first_seen": "2026-11-06T06:59:58Z",
       "issue_key": "suffragette:text:e44d5b65e49c3842",
       "line_id": "suffragette",
       "line_name": "Suffragette",
       "reason": "SUFFRAGETTE LINE: Tuesday 3, Wednesday 4, Thursday 5 and Friday 6 November, the 0548 train from Barking Riverside to Gospel Oak and the 0624 train from Gospel Oak to Barking Riverside will not run",
+      "resolved_at": "2026-11-06T09:58:09Z",
       "severity": "Reduced Service",
       "source_created": "0001-01-01T00:00:00"
-    }
-  },
-  "history": [
+    },
     {
       "category": "other",
       "duration_seconds": 5511,
@@ -34389,6 +34411,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-11-06T06:59:58Z",
+  "updated_at": "2026-11-06T09:58:09Z",
   "version": 1
 }
