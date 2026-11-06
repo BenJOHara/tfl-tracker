@@ -1,23 +1,23 @@
 {
   "active": {
-    "district:text:9c09d477e2a85811": {
+    "northern:text:c704b2577fad9ed2": {
       "category": "other",
-      "first_seen": "2026-11-06T06:59:58Z",
-      "issue_key": "district:text:9c09d477e2a85811",
-      "line_id": "district",
-      "line_name": "District",
-      "reason": "District Line: Minor delays due to train cancellations.",
+      "first_seen": "2026-11-06T13:08:56Z",
+      "issue_key": "northern:text:c704b2577fad9ed2",
+      "line_id": "northern",
+      "line_name": "Northern",
+      "reason": "Northern Line: Minor delays due to an earlier track inspection at Kentish Town.",
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "northern:text:6d5f796c2615987b": {
+    "piccadilly:text:1d338d9091069c32": {
       "category": "other",
-      "first_seen": "2026-11-06T09:58:09Z",
-      "issue_key": "northern:text:6d5f796c2615987b",
-      "line_id": "northern",
-      "line_name": "Northern",
-      "reason": "Northern Line: No service between Camden Town and High Barnet / Mill Hill East northbound only, SEVERE DELAYS between Camden Town and High Barnet / Mill Hill East southbound only and between Camden Town and Battersea Power Station and MINOR DELAYS on the rest of the line while we carry out a track inspection at Kentish Town. Tickets are being accepted on London Buses, Thameslink and Great Northern.",
-      "severity": "Part Suspended",
+      "first_seen": "2026-11-06T13:08:56Z",
+      "issue_key": "piccadilly:text:1d338d9091069c32",
+      "line_id": "piccadilly",
+      "line_name": "Piccadilly",
+      "reason": "Piccadilly Line: Minor delays between Rayners Lane and Uxbridge due to an earlier gas leak at Uxbridge. GOOD SERVICE on the rest of the line.",
+      "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
     "suffragette:text:8ef9fd6d61cf1006": {
@@ -29,19 +29,45 @@
       "reason": "Suffragette Line: No service between South Tottenham and Barking Riverside, until the end of service on Tuesday 10 November, due to a operational incident. A reduced service is operating on the rest of the line. Trains will operate every thirty minutes in either direction departing Gospel Oak at xx:09 and xx:39 and departing South Tottenham at xx:13 and xx:43. London Underground and London Buses are accepting tickets via any reasonable routes.",
       "severity": "Part Closure",
       "source_created": "0001-01-01T00:00:00"
-    },
-    "victoria:text:02e0850cdf11ef25": {
+    }
+  },
+  "history": [
+    {
       "category": "other",
+      "duration_seconds": 22138,
+      "first_seen": "2026-11-06T06:59:58Z",
+      "issue_key": "district:text:9c09d477e2a85811",
+      "line_id": "district",
+      "line_name": "District",
+      "reason": "District Line: Minor delays due to train cancellations.",
+      "resolved_at": "2026-11-06T13:08:56Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "other",
+      "duration_seconds": 11447,
+      "first_seen": "2026-11-06T09:58:09Z",
+      "issue_key": "northern:text:6d5f796c2615987b",
+      "line_id": "northern",
+      "line_name": "Northern",
+      "reason": "Northern Line: No service between Camden Town and High Barnet / Mill Hill East northbound only, SEVERE DELAYS between Camden Town and High Barnet / Mill Hill East southbound only and between Camden Town and Battersea Power Station and MINOR DELAYS on the rest of the line while we carry out a track inspection at Kentish Town. Tickets are being accepted on London Buses, Thameslink and Great Northern.",
+      "resolved_at": "2026-11-06T13:08:56Z",
+      "severity": "Part Suspended",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "other",
+      "duration_seconds": 11447,
       "first_seen": "2026-11-06T09:58:09Z",
       "issue_key": "victoria:text:02e0850cdf11ef25",
       "line_id": "victoria",
       "line_name": "Victoria",
       "reason": "Victoria Line: Minor delays due to train cancellations.",
+      "resolved_at": "2026-11-06T13:08:56Z",
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
-    }
-  },
-  "history": [
+    },
     {
       "category": "other",
       "duration_seconds": 10691,
@@ -34411,6 +34437,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-11-06T09:58:09Z",
+  "updated_at": "2026-11-06T13:08:56Z",
   "version": 1
 }
