@@ -6,38 +6,28 @@
       "issue_key": "bakerloo:text:fb761a7726d7ef20",
       "line_id": "bakerloo",
       "line_name": "Bakerloo",
-      "reason": "Bakerloo Line: No service between Queen's Park and Harrow & Wealdstone due to infrastructure damage at Harlesden. Tickets will be accepted on London Buses, Lioness line and London Northwestern services. SEVERE DELAYS on the rest of the line.",
+      "reason": "Bakerloo Line: No service between Queen's Park and Harrow & Wealdstone due to infrastructure damage at Harlesden. Tickets will be accepted on London Buses, Lioness line and London Northwestern services. MINOR DELAYS on the rest of the line.",
       "severity": "Part Suspended",
       "source_created": "0001-01-01T00:00:00"
     },
-    "central:text:928118c71595d4da": {
+    "central:text:6d0af7c9d44f714a": {
       "category": "other",
-      "first_seen": "2026-11-06T19:57:07Z",
-      "issue_key": "central:text:928118c71595d4da",
+      "first_seen": "2026-11-06T20:49:59Z",
+      "issue_key": "central:text:6d0af7c9d44f714a",
       "line_id": "central",
       "line_name": "Central",
-      "reason": "Central Line: Severe delays between North Acton and West Ruislip and SEVERE DELAYS between Leytonstone and Epping due to train cancellations. MINOR DELAYS on the rest of the line. London Buses are accepting tickets via any reasonable route.",
+      "reason": "Central Line: Minor delays due to train cancellations.",
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "hammersmith-city:text:004129bf5e441754": {
+    "lioness:text:2306d14c99e560a8": {
       "category": "other",
-      "first_seen": "2026-11-06T17:25:31Z",
-      "issue_key": "hammersmith-city:text:004129bf5e441754",
-      "line_id": "hammersmith-city",
-      "line_name": "Hammersmith & City",
-      "reason": "Hammersmith and City Line: Minor delays due to train cancellations.",
-      "severity": "Minor Delays",
-      "source_created": "0001-01-01T00:00:00"
-    },
-    "lioness:text:bc375f47ed3ac121": {
-      "category": "other",
-      "first_seen": "2026-11-06T19:57:07Z",
-      "issue_key": "lioness:text:bc375f47ed3ac121",
+      "first_seen": "2026-11-06T20:49:59Z",
+      "issue_key": "lioness:text:2306d14c99e560a8",
       "line_id": "lioness",
       "line_name": "Lioness",
-      "reason": "Lioness Line: No service due to infrastructure damage at Harlesden.",
-      "severity": "Suspended",
+      "reason": "Lioness Line: No service between Harrow & Wealdstone and Willesden Junction due to infrastructure damage at Harlesden MINOR DELAYS on the rest of the line.",
+      "severity": "Part Suspended",
       "source_created": "0001-01-01T00:00:00"
     },
     "suffragette:text:8ef9fd6d61cf1006": {
@@ -62,6 +52,42 @@
     }
   },
   "history": [
+    {
+      "category": "other",
+      "duration_seconds": 3172,
+      "first_seen": "2026-11-06T19:57:07Z",
+      "issue_key": "central:text:928118c71595d4da",
+      "line_id": "central",
+      "line_name": "Central",
+      "reason": "Central Line: Severe delays between North Acton and West Ruislip and SEVERE DELAYS between Leytonstone and Epping due to train cancellations. MINOR DELAYS on the rest of the line. London Buses are accepting tickets via any reasonable route.",
+      "resolved_at": "2026-11-06T20:49:59Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "other",
+      "duration_seconds": 12268,
+      "first_seen": "2026-11-06T17:25:31Z",
+      "issue_key": "hammersmith-city:text:004129bf5e441754",
+      "line_id": "hammersmith-city",
+      "line_name": "Hammersmith & City",
+      "reason": "Hammersmith and City Line: Minor delays due to train cancellations.",
+      "resolved_at": "2026-11-06T20:49:59Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "other",
+      "duration_seconds": 3172,
+      "first_seen": "2026-11-06T19:57:07Z",
+      "issue_key": "lioness:text:bc375f47ed3ac121",
+      "line_id": "lioness",
+      "line_name": "Lioness",
+      "reason": "Lioness Line: No service due to infrastructure damage at Harlesden.",
+      "resolved_at": "2026-11-06T20:49:59Z",
+      "severity": "Suspended",
+      "source_created": "0001-01-01T00:00:00"
+    },
     {
       "category": "other",
       "duration_seconds": 17994,
@@ -34539,6 +34565,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-11-06T19:57:07Z",
+  "updated_at": "2026-11-06T20:49:59Z",
   "version": 1
 }
