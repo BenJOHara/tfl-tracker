@@ -1,22 +1,32 @@
 {
   "active": {
-    "northern:text:c704b2577fad9ed2": {
+    "central:text:2671929b56956017": {
       "category": "other",
-      "first_seen": "2026-11-06T13:08:56Z",
-      "issue_key": "northern:text:c704b2577fad9ed2",
-      "line_id": "northern",
-      "line_name": "Northern",
-      "reason": "Northern Line: Minor delays due to an earlier track inspection at Kentish Town.",
+      "first_seen": "2026-11-06T14:57:13Z",
+      "issue_key": "central:text:2671929b56956017",
+      "line_id": "central",
+      "line_name": "Central",
+      "reason": "Central Line: Minor delays between White City and Ealing Broadway/West Ruislip and between Leytonstone and Epping/Hainault via Newbury Park due to train cancellations. GOOD SERVICE on the rest of the line.",
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "piccadilly:text:1d338d9091069c32": {
-      "category": "other",
-      "first_seen": "2026-11-06T13:08:56Z",
-      "issue_key": "piccadilly:text:1d338d9091069c32",
-      "line_id": "piccadilly",
-      "line_name": "Piccadilly",
-      "reason": "Piccadilly Line: Minor delays between Rayners Lane and Uxbridge due to an earlier gas leak at Uxbridge. GOOD SERVICE on the rest of the line.",
+    "district:text:6f57340c149f4523": {
+      "category": "signal failure",
+      "first_seen": "2026-11-06T14:57:13Z",
+      "issue_key": "district:text:6f57340c149f4523",
+      "line_id": "district",
+      "line_name": "District",
+      "reason": "District Line: Minor delays between Wimbledon and Edgware Road while we fix a signal failure at Southfields. GOOD SERVICE on the rest of the line.",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "mildmay:text:fb854408bf41512d": {
+      "category": "train fault",
+      "first_seen": "2026-11-06T14:57:13Z",
+      "issue_key": "mildmay:text:fb854408bf41512d",
+      "line_id": "mildmay",
+      "line_name": "Mildmay",
+      "reason": "Mildmay Line: Minor delays between Clapham Junction and Willesden Junction while we fix a faulty train at Clapham Junction. GOOD SERVICE on the rest oft the line.",
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
@@ -32,6 +42,30 @@
     }
   },
   "history": [
+    {
+      "category": "other",
+      "duration_seconds": 6497,
+      "first_seen": "2026-11-06T13:08:56Z",
+      "issue_key": "northern:text:c704b2577fad9ed2",
+      "line_id": "northern",
+      "line_name": "Northern",
+      "reason": "Northern Line: Minor delays due to an earlier track inspection at Kentish Town.",
+      "resolved_at": "2026-11-06T14:57:13Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "other",
+      "duration_seconds": 6497,
+      "first_seen": "2026-11-06T13:08:56Z",
+      "issue_key": "piccadilly:text:1d338d9091069c32",
+      "line_id": "piccadilly",
+      "line_name": "Piccadilly",
+      "reason": "Piccadilly Line: Minor delays between Rayners Lane and Uxbridge due to an earlier gas leak at Uxbridge. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-11-06T14:57:13Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
     {
       "category": "other",
       "duration_seconds": 22138,
@@ -34437,6 +34471,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-11-06T13:08:56Z",
+  "updated_at": "2026-11-06T14:57:13Z",
   "version": 1
 }
