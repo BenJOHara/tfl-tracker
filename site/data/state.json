@@ -1,23 +1,13 @@
 {
   "active": {
-    "lioness:text:577f9ea5cbf98d33": {
+    "district:text:9c09d477e2a85811": {
       "category": "other",
-      "first_seen": "2026-11-06T05:28:07Z",
-      "issue_key": "lioness:text:577f9ea5cbf98d33",
-      "line_id": "lioness",
-      "line_name": "Lioness",
-      "reason": "LIONESS LINE: Tuesday 3, Wednesday 4, Thursday 5 and Friday 6 November, the 0529 train from Watford Junction to Euston will start from Willesden Junction at 0604",
-      "severity": "Reduced Service",
-      "source_created": "0001-01-01T00:00:00"
-    },
-    "mildmay:text:908ae24df832d0a1": {
-      "category": "other",
-      "first_seen": "2026-11-06T05:28:07Z",
-      "issue_key": "mildmay:text:908ae24df832d0a1",
-      "line_id": "mildmay",
-      "line_name": "Mildmay",
-      "reason": "MILDMAY LINE: Tuesday 3, Wednesday 4, Thursday 5 and Friday 6 November, until 0615 each morning, no southbound service from Willesden Junction to Shepherds Bush. The 0552 first train from Willesden Junction to Clapham Junction starts from Shepherd's Bush at 0600 and the 0608 second train from Willesden Junction to Clapham Junction does not run. Use the next service at 0623 or local bus routes 220 or 228. The 0611 train from Stratford to Willesden Junction will start at Shepherds Bush at 0701 and the 0651 from Stratford to Richmond will start from Acton Central at 0743.",
-      "severity": "Part Closure",
+      "first_seen": "2026-11-06T06:59:58Z",
+      "issue_key": "district:text:9c09d477e2a85811",
+      "line_id": "district",
+      "line_name": "District",
+      "reason": "District Line: Minor delays due to train cancellations.",
+      "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
     "suffragette:text:8ef9fd6d61cf1006": {
@@ -30,18 +20,54 @@
       "severity": "Part Closure",
       "source_created": "0001-01-01T00:00:00"
     },
-    "waterloo-city:text:0faebd0ea99ebd1b": {
+    "suffragette:text:e44d5b65e49c3842": {
       "category": "other",
+      "first_seen": "2026-11-06T06:59:58Z",
+      "issue_key": "suffragette:text:e44d5b65e49c3842",
+      "line_id": "suffragette",
+      "line_name": "Suffragette",
+      "reason": "SUFFRAGETTE LINE: Tuesday 3, Wednesday 4, Thursday 5 and Friday 6 November, the 0548 train from Barking Riverside to Gospel Oak and the 0624 train from Gospel Oak to Barking Riverside will not run",
+      "severity": "Reduced Service",
+      "source_created": "0001-01-01T00:00:00"
+    }
+  },
+  "history": [
+    {
+      "category": "other",
+      "duration_seconds": 5511,
+      "first_seen": "2026-11-06T05:28:07Z",
+      "issue_key": "lioness:text:577f9ea5cbf98d33",
+      "line_id": "lioness",
+      "line_name": "Lioness",
+      "reason": "LIONESS LINE: Tuesday 3, Wednesday 4, Thursday 5 and Friday 6 November, the 0529 train from Watford Junction to Euston will start from Willesden Junction at 0604",
+      "resolved_at": "2026-11-06T06:59:58Z",
+      "severity": "Reduced Service",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "other",
+      "duration_seconds": 5511,
+      "first_seen": "2026-11-06T05:28:07Z",
+      "issue_key": "mildmay:text:908ae24df832d0a1",
+      "line_id": "mildmay",
+      "line_name": "Mildmay",
+      "reason": "MILDMAY LINE: Tuesday 3, Wednesday 4, Thursday 5 and Friday 6 November, until 0615 each morning, no southbound service from Willesden Junction to Shepherds Bush. The 0552 first train from Willesden Junction to Clapham Junction starts from Shepherd's Bush at 0600 and the 0608 second train from Willesden Junction to Clapham Junction does not run. Use the next service at 0623 or local bus routes 220 or 228. The 0611 train from Stratford to Willesden Junction will start at Shepherds Bush at 0701 and the 0651 from Stratford to Richmond will start from Acton Central at 0743.",
+      "resolved_at": "2026-11-06T06:59:58Z",
+      "severity": "Part Closure",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "other",
+      "duration_seconds": 14793,
       "first_seen": "2026-11-06T02:53:25Z",
       "issue_key": "waterloo-city:text:0faebd0ea99ebd1b",
       "line_id": "waterloo-city",
       "line_name": "Waterloo & City",
       "reason": "Waterloo and City Line: Service will resume at 06:00.",
+      "resolved_at": "2026-11-06T06:59:58Z",
       "severity": "Service Closed",
       "source_created": "0001-01-01T00:00:00"
-    }
-  },
-  "history": [
+    },
     {
       "category": "other",
       "duration_seconds": 9282,
@@ -34363,6 +34389,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-11-06T05:28:07Z",
+  "updated_at": "2026-11-06T06:59:58Z",
   "version": 1
 }
