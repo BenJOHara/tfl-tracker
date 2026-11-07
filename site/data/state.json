@@ -1,23 +1,33 @@
 {
   "active": {
-    "bakerloo:text:fa65ae5801fe101d": {
+    "bakerloo:text:526d371abc39818f": {
       "category": "other",
-      "first_seen": "2026-11-07T08:40:32Z",
-      "issue_key": "bakerloo:text:fa65ae5801fe101d",
+      "first_seen": "2026-11-07T11:44:40Z",
+      "issue_key": "bakerloo:text:526d371abc39818f",
       "line_id": "bakerloo",
       "line_name": "Bakerloo",
-      "reason": "Bakerloo Line: Severe delays between Harrow & Wealdstone and Queen's Park due to infrastructure damage at Harlesden. GOOD SERVICE on the rest of the line. Tickets are being accepted on London Buses, London Overground and North Western Railway.",
+      "reason": "Bakerloo Line: Severe delays between Harrow & Wealdstone and Queen's Park due to infrastructure damage at Harlesden. MINOR DELAYS on the rest of the line. Tickets are being accepted on London Buses, London Overground and North Western Railway.",
       "severity": "Severe Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "district:text:9b6e9456414311f5": {
-      "category": "other",
-      "first_seen": "2026-11-07T08:40:32Z",
-      "issue_key": "district:text:9b6e9456414311f5",
+    "circle:text:c2160e509f3193a5": {
+      "category": "train fault",
+      "first_seen": "2026-11-07T11:44:40Z",
+      "issue_key": "circle:text:c2160e509f3193a5",
+      "line_id": "circle",
+      "line_name": "Circle",
+      "reason": "Circle Line: Severe delays due to an earlier faulty train at Tower Hill. Tickets are being accepted on London Buses.",
+      "severity": "Severe Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "district:text:8a93bc1218dc542a": {
+      "category": "train fault",
+      "first_seen": "2026-11-07T11:44:40Z",
+      "issue_key": "district:text:8a93bc1218dc542a",
       "line_id": "district",
       "line_name": "District",
-      "reason": "District Line: Minor delays between Earl's Court and Tower Hill due to train cancellations. GOOD SERVICE on the rest of the line.",
-      "severity": "Minor Delays",
+      "reason": "District Line: Severe delays between Tower Hill and Upminster and MINOR DELAYS between Tower Hill and Earl's Court due to an earlier faulty train at Tower Hill. Tickets are being accepted on London Buses and C2C. GOOD SERVICE on the rest of the line.",
+      "severity": "Severe Delays",
       "source_created": "0001-01-01T00:00:00"
     },
     "lioness:text:cf3b968cfe1bba77": {
@@ -30,13 +40,13 @@
       "severity": "Reduced Service",
       "source_created": "0001-01-01T00:00:00"
     },
-    "metropolitan:text:f016339ccff253d5": {
-      "category": "person on track",
-      "first_seen": "2026-11-07T08:40:32Z",
-      "issue_key": "metropolitan:text:f016339ccff253d5",
+    "metropolitan:text:8a8d10122c55fcee": {
+      "category": "other",
+      "first_seen": "2026-11-07T11:44:40Z",
+      "issue_key": "metropolitan:text:8a8d10122c55fcee",
       "line_id": "metropolitan",
       "line_name": "Metropolitan",
-      "reason": "Metropolitan Line: Severe delays between Chalfont & Latimer and Amersham and MINOR DELAYS between Moor Park and Chesham due to earlier trespassers on the track at Rickmansworth. MINOR DELAYS between Harrow-on-the-Hill and Baker Street due to train cancellations. GOOD SERVICE on the rest of the line. The next southbound departure from Amersham will be at 09:18. Tickets are being accepted on Chiltern Railways.",
+      "reason": "Metropolitan Line: Severe delays between Harrow-on-the-Hill and Uxbridge due to train cancellations. GOOD SERVICE on the rest of the line. Tickets are being accepted on London Buses.",
       "severity": "Severe Delays",
       "source_created": "0001-01-01T00:00:00"
     },
@@ -72,6 +82,42 @@
     }
   },
   "history": [
+    {
+      "category": "other",
+      "duration_seconds": 11048,
+      "first_seen": "2026-11-07T08:40:32Z",
+      "issue_key": "bakerloo:text:fa65ae5801fe101d",
+      "line_id": "bakerloo",
+      "line_name": "Bakerloo",
+      "reason": "Bakerloo Line: Severe delays between Harrow & Wealdstone and Queen's Park due to infrastructure damage at Harlesden. GOOD SERVICE on the rest of the line. Tickets are being accepted on London Buses, London Overground and North Western Railway.",
+      "resolved_at": "2026-11-07T11:44:40Z",
+      "severity": "Severe Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "other",
+      "duration_seconds": 11048,
+      "first_seen": "2026-11-07T08:40:32Z",
+      "issue_key": "district:text:9b6e9456414311f5",
+      "line_id": "district",
+      "line_name": "District",
+      "reason": "District Line: Minor delays between Earl's Court and Tower Hill due to train cancellations. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-11-07T11:44:40Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "person on track",
+      "duration_seconds": 11048,
+      "first_seen": "2026-11-07T08:40:32Z",
+      "issue_key": "metropolitan:text:f016339ccff253d5",
+      "line_id": "metropolitan",
+      "line_name": "Metropolitan",
+      "reason": "Metropolitan Line: Severe delays between Chalfont & Latimer and Amersham and MINOR DELAYS between Moor Park and Chesham due to earlier trespassers on the track at Rickmansworth. MINOR DELAYS between Harrow-on-the-Hill and Baker Street due to train cancellations. GOOD SERVICE on the rest of the line. The next southbound departure from Amersham will be at 09:18. Tickets are being accepted on Chiltern Railways.",
+      "resolved_at": "2026-11-07T11:44:40Z",
+      "severity": "Severe Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
     {
       "category": "other",
       "duration_seconds": 23951,
@@ -34813,6 +34859,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-11-07T08:40:32Z",
+  "updated_at": "2026-11-07T11:44:40Z",
   "version": 1
 }
