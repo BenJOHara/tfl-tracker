@@ -1,12 +1,12 @@
 {
   "active": {
-    "bakerloo:text:72ca244e41df65b8": {
+    "bakerloo:text:f4e3c7368edcc29f": {
       "category": "points failure",
-      "first_seen": "2026-11-07T18:15:34Z",
-      "issue_key": "bakerloo:text:72ca244e41df65b8",
+      "first_seen": "2026-11-07T19:22:01Z",
+      "issue_key": "bakerloo:text:f4e3c7368edcc29f",
       "line_id": "bakerloo",
       "line_name": "Bakerloo",
-      "reason": "Bakerloo Line: No service between Lambeth North and Elephant & Castle while we fix a points failure at Elephant & Castle. Tickets will be accepted on London Buses and Thameslink. MINOR DELAYS on the rest of the line due to infrastructure damage at Harlesden.",
+      "reason": "Bakerloo Line: No service between Lambeth North and Elephant & Castle and SEVERE DELAYS on the rest of the line due to a points failure at Elephant & Castle. Tickets will be accepted on London Buses, Thameslink and London Northwestern Railway.",
       "severity": "Part Suspended",
       "source_created": "0001-01-01T00:00:00"
     },
@@ -28,6 +28,16 @@
       "line_name": "District",
       "reason": "District Line: Minor delays between Ealing Broadway and Upminster and between Earl's Court and Kensington (Olympia) due to train cancellations. GOOD SERVICE on the rest of the line.",
       "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "hammersmith-city:text:004129bf5e441754": {
+      "category": "other",
+      "first_seen": "2026-11-07T19:22:01Z",
+      "issue_key": "hammersmith-city:text:004129bf5e441754",
+      "line_id": "hammersmith-city",
+      "line_name": "Hammersmith & City",
+      "reason": "Hammersmith and City Line: Severe delays due to train cancellations.",
+      "severity": "Severe Delays",
       "source_created": "0001-01-01T00:00:00"
     },
     "lioness:text:cf3b968cfe1bba77": {
@@ -79,9 +89,31 @@
       "reason": "Waterloo & City line: service operates 06:00 until 00:30, Monday to Friday only. There is no service on Saturdays, Sundays and on bank/public holidays.",
       "severity": "Planned Closure",
       "source_created": "0001-01-01T00:00:00"
+    },
+    "weaver:text:79a49a57be17d0fc": {
+      "category": "other",
+      "first_seen": "2026-11-07T19:22:01Z",
+      "issue_key": "weaver:text:79a49a57be17d0fc",
+      "line_id": "weaver",
+      "line_name": "Weaver",
+      "reason": "Weaver Line: Minor delays while we while we fix a fault with the overhead power lines at Hackney Downs.",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
     }
   },
   "history": [
+    {
+      "category": "points failure",
+      "duration_seconds": 3987,
+      "first_seen": "2026-11-07T18:15:34Z",
+      "issue_key": "bakerloo:text:72ca244e41df65b8",
+      "line_id": "bakerloo",
+      "line_name": "Bakerloo",
+      "reason": "Bakerloo Line: No service between Lambeth North and Elephant & Castle while we fix a points failure at Elephant & Castle. Tickets will be accepted on London Buses and Thameslink. MINOR DELAYS on the rest of the line due to infrastructure damage at Harlesden.",
+      "resolved_at": "2026-11-07T19:22:01Z",
+      "severity": "Part Suspended",
+      "source_created": "0001-01-01T00:00:00"
+    },
     {
       "category": "other",
       "duration_seconds": 11304,
@@ -34991,6 +35023,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-11-07T18:15:34Z",
+  "updated_at": "2026-11-07T19:22:01Z",
   "version": 1
 }
