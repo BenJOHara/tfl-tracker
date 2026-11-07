@@ -1,32 +1,12 @@
 {
   "active": {
-    "bakerloo:text:597f20c2b625aa4f": {
+    "bakerloo:text:0f4c8135cbb0a137": {
       "category": "other",
-      "first_seen": "2026-11-07T13:29:40Z",
-      "issue_key": "bakerloo:text:597f20c2b625aa4f",
+      "first_seen": "2026-11-07T15:07:10Z",
+      "issue_key": "bakerloo:text:0f4c8135cbb0a137",
       "line_id": "bakerloo",
       "line_name": "Bakerloo",
-      "reason": "Bakerloo Line: Severe delays between Harrow & Wealdstone and Queen's Park due to infrastructure damage at Harlesden. Tickets are being accepted on London Buses, London Overground and North Western Railway. MINOR DELAYS on the rest of the line.",
-      "severity": "Minor Delays",
-      "source_created": "0001-01-01T00:00:00"
-    },
-    "central:text:2ddfe85aa45ada75": {
-      "category": "other",
-      "first_seen": "2026-11-07T13:29:40Z",
-      "issue_key": "central:text:2ddfe85aa45ada75",
-      "line_id": "central",
-      "line_name": "Central",
-      "reason": "Central Line: Minor delays between Theydon Bois and Debden while we conduct a track inspection. GOOD SERVICE on the rest of the line.",
-      "severity": "Minor Delays",
-      "source_created": "0001-01-01T00:00:00"
-    },
-    "circle:text:50fa25de84a251e1": {
-      "category": "train fault",
-      "first_seen": "2026-11-07T13:29:40Z",
-      "issue_key": "circle:text:50fa25de84a251e1",
-      "line_id": "circle",
-      "line_name": "Circle",
-      "reason": "Circle Line: Minor delays due to an earlier faulty train at Tower Hill.",
+      "reason": "Bakerloo Line: Minor delays due to infrastructure damage at Harlesden.",
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
@@ -50,16 +30,6 @@
       "severity": "Reduced Service",
       "source_created": "0001-01-01T00:00:00"
     },
-    "metropolitan:text:2df4e90708614385": {
-      "category": "other",
-      "first_seen": "2026-11-07T13:29:40Z",
-      "issue_key": "metropolitan:text:2df4e90708614385",
-      "line_id": "metropolitan",
-      "line_name": "Metropolitan",
-      "reason": "Metropolitan Line: Minor delays between Moor Park and Watford due to train cancellations. GOOD SERVICE on the rest of the line.",
-      "severity": "Minor Delays",
-      "source_created": "0001-01-01T00:00:00"
-    },
     "mildmay:text:6bf6aaa0f776d791": {
       "category": "other",
       "first_seen": "2026-11-07T05:13:21Z",
@@ -70,16 +40,6 @@
       "severity": "Part Closure",
       "source_created": "0001-01-01T00:00:00"
     },
-    "northern:text:14dc9be219ae26b1": {
-      "category": "fire alert",
-      "first_seen": "2026-11-07T13:29:40Z",
-      "issue_key": "northern:text:14dc9be219ae26b1",
-      "line_id": "northern",
-      "line_name": "Northern",
-      "reason": "Northern Line: Severe delays between Camden Town and Battersea Power Station via Charing Cross while we respond to a fire alert at Embankment. Tickets are being accepted on London Buses. GOOD SERVICE on the rest of the line.",
-      "severity": "Severe Delays",
-      "source_created": "0001-01-01T00:00:00"
-    },
     "suffragette:text:8ef9fd6d61cf1006": {
       "category": "other",
       "first_seen": "2026-11-01T13:39:27Z",
@@ -88,6 +48,16 @@
       "line_name": "Suffragette",
       "reason": "Suffragette Line: No service between South Tottenham and Barking Riverside, until the end of service on Tuesday 10 November, due to a operational incident. A reduced service is operating on the rest of the line. Trains will operate every thirty minutes in either direction departing Gospel Oak at xx:09 and xx:39 and departing South Tottenham at xx:13 and xx:43. London Underground and London Buses are accepting tickets via any reasonable routes.",
       "severity": "Part Closure",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "victoria:text:02e0850cdf11ef25": {
+      "category": "other",
+      "first_seen": "2026-11-07T15:07:10Z",
+      "issue_key": "victoria:text:02e0850cdf11ef25",
+      "line_id": "victoria",
+      "line_name": "Victoria",
+      "reason": "Victoria Line: Minor delays due to train cancellations.",
+      "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
     "waterloo-city:text:02da0890c7cbf303": {
@@ -102,6 +72,66 @@
     }
   },
   "history": [
+    {
+      "category": "other",
+      "duration_seconds": 5850,
+      "first_seen": "2026-11-07T13:29:40Z",
+      "issue_key": "bakerloo:text:597f20c2b625aa4f",
+      "line_id": "bakerloo",
+      "line_name": "Bakerloo",
+      "reason": "Bakerloo Line: Severe delays between Harrow & Wealdstone and Queen's Park due to infrastructure damage at Harlesden. Tickets are being accepted on London Buses, London Overground and North Western Railway. MINOR DELAYS on the rest of the line.",
+      "resolved_at": "2026-11-07T15:07:10Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "other",
+      "duration_seconds": 5850,
+      "first_seen": "2026-11-07T13:29:40Z",
+      "issue_key": "central:text:2ddfe85aa45ada75",
+      "line_id": "central",
+      "line_name": "Central",
+      "reason": "Central Line: Minor delays between Theydon Bois and Debden while we conduct a track inspection. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-11-07T15:07:10Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "train fault",
+      "duration_seconds": 5850,
+      "first_seen": "2026-11-07T13:29:40Z",
+      "issue_key": "circle:text:50fa25de84a251e1",
+      "line_id": "circle",
+      "line_name": "Circle",
+      "reason": "Circle Line: Minor delays due to an earlier faulty train at Tower Hill.",
+      "resolved_at": "2026-11-07T15:07:10Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "other",
+      "duration_seconds": 5850,
+      "first_seen": "2026-11-07T13:29:40Z",
+      "issue_key": "metropolitan:text:2df4e90708614385",
+      "line_id": "metropolitan",
+      "line_name": "Metropolitan",
+      "reason": "Metropolitan Line: Minor delays between Moor Park and Watford due to train cancellations. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-11-07T15:07:10Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "fire alert",
+      "duration_seconds": 5850,
+      "first_seen": "2026-11-07T13:29:40Z",
+      "issue_key": "northern:text:14dc9be219ae26b1",
+      "line_id": "northern",
+      "line_name": "Northern",
+      "reason": "Northern Line: Severe delays between Camden Town and Battersea Power Station via Charing Cross while we respond to a fire alert at Embankment. Tickets are being accepted on London Buses. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-11-07T15:07:10Z",
+      "severity": "Severe Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
     {
       "category": "other",
       "duration_seconds": 6300,
@@ -34927,6 +34957,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-11-07T13:29:40Z",
+  "updated_at": "2026-11-07T15:07:10Z",
   "version": 1
 }
