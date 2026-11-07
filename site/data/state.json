@@ -1,23 +1,113 @@
 {
   "active": {
-    "bakerloo:text:fb761a7726d7ef20": {
+    "bakerloo:text:975c88cf69561d0c": {
       "category": "other",
-      "first_seen": "2026-11-06T19:57:07Z",
-      "issue_key": "bakerloo:text:fb761a7726d7ef20",
+      "first_seen": "2026-11-07T02:01:21Z",
+      "issue_key": "bakerloo:text:975c88cf69561d0c",
       "line_id": "bakerloo",
       "line_name": "Bakerloo",
-      "reason": "Bakerloo Line: No service between Queen's Park and Harrow & Wealdstone due to infrastructure damage at Harlesden. Tickets will be accepted on London Buses, Lioness line and London Northwestern services. MINOR DELAYS on the rest of the line.",
-      "severity": "Part Suspended",
+      "reason": "Bakerloo Line: Service will resume later this morning.",
+      "severity": "Service Closed",
       "source_created": "0001-01-01T00:00:00"
     },
-    "lioness:text:2306d14c99e560a8": {
+    "circle:text:a1099579f6415e8f": {
       "category": "other",
-      "first_seen": "2026-11-06T20:49:59Z",
-      "issue_key": "lioness:text:2306d14c99e560a8",
+      "first_seen": "2026-11-07T02:01:21Z",
+      "issue_key": "circle:text:a1099579f6415e8f",
+      "line_id": "circle",
+      "line_name": "Circle",
+      "reason": "Circle Line: Service will resume later this morning.",
+      "severity": "Service Closed",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "district:text:468f4f04f34d8411": {
+      "category": "other",
+      "first_seen": "2026-11-07T02:01:21Z",
+      "issue_key": "district:text:468f4f04f34d8411",
+      "line_id": "district",
+      "line_name": "District",
+      "reason": "District Line: Service will resume later this morning.",
+      "severity": "Service Closed",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "dlr:text:fb244db083a3f0ff": {
+      "category": "other",
+      "first_seen": "2026-11-07T02:01:21Z",
+      "issue_key": "dlr:text:fb244db083a3f0ff",
+      "line_id": "dlr",
+      "line_name": "DLR",
+      "reason": "Docklands Light Railway: Service will resume later this morning.",
+      "severity": "Service Closed",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "elizabeth:text:85644759b2256fee": {
+      "category": "other",
+      "first_seen": "2026-11-07T02:01:21Z",
+      "issue_key": "elizabeth:text:85644759b2256fee",
+      "line_id": "elizabeth",
+      "line_name": "Elizabeth line",
+      "reason": "Service will resume later this morning.",
+      "severity": "Service Closed",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "hammersmith-city:text:b560078b35a5fd17": {
+      "category": "other",
+      "first_seen": "2026-11-07T02:01:21Z",
+      "issue_key": "hammersmith-city:text:b560078b35a5fd17",
+      "line_id": "hammersmith-city",
+      "line_name": "Hammersmith & City",
+      "reason": "Hammersmith and City Line: Service will resume later this morning.",
+      "severity": "Service Closed",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "liberty:text:19134079f5c98ab7": {
+      "category": "other",
+      "first_seen": "2026-11-07T02:01:21Z",
+      "issue_key": "liberty:text:19134079f5c98ab7",
+      "line_id": "liberty",
+      "line_name": "Liberty",
+      "reason": "Liberty Line: Service will resume later this morning.",
+      "severity": "Service Closed",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "lioness:text:edb0d527df87ed16": {
+      "category": "other",
+      "first_seen": "2026-11-07T02:01:21Z",
+      "issue_key": "lioness:text:edb0d527df87ed16",
       "line_id": "lioness",
       "line_name": "Lioness",
-      "reason": "Lioness Line: No service between Harrow & Wealdstone and Willesden Junction due to infrastructure damage at Harlesden MINOR DELAYS on the rest of the line.",
-      "severity": "Part Suspended",
+      "reason": "Lioness Line: Service will resume later this morning.",
+      "severity": "Service Closed",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "metropolitan:text:4b366f757f8f5a28": {
+      "category": "other",
+      "first_seen": "2026-11-07T02:01:21Z",
+      "issue_key": "metropolitan:text:4b366f757f8f5a28",
+      "line_id": "metropolitan",
+      "line_name": "Metropolitan",
+      "reason": "Metropolitan Line: Service will resume later this morning.",
+      "severity": "Service Closed",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "mildmay:text:5c9a73e8f02e0fd8": {
+      "category": "planned engineering",
+      "first_seen": "2026-11-07T02:01:21Z",
+      "issue_key": "mildmay:text:5c9a73e8f02e0fd8",
+      "line_id": "mildmay",
+      "line_name": "Mildmay",
+      "reason": "Mildmay Line: Service will resume later this morning. However, there will be no service between Willesden Junction and Clapham Junction due to planned engineering work.",
+      "severity": "Service Closed",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "suffragette:text:4f3737e52c9492e7": {
+      "category": "other",
+      "first_seen": "2026-11-07T02:01:21Z",
+      "issue_key": "suffragette:text:4f3737e52c9492e7",
+      "line_id": "suffragette",
+      "line_name": "Suffragette",
+      "reason": "Suffragette Line: Service will resume later this morning. However, there will be no service between South Tottenham and Barking Riverside, until the end of service on Tuesday 10 November, due to an operational incident.",
+      "severity": "Service Closed",
       "source_created": "0001-01-01T00:00:00"
     },
     "suffragette:text:8ef9fd6d61cf1006": {
@@ -30,28 +120,86 @@
       "severity": "Part Closure",
       "source_created": "0001-01-01T00:00:00"
     },
-    "victoria:text:02e0850cdf11ef25": {
+    "tram:text:ab9d7a64f14b787b": {
       "category": "other",
+      "first_seen": "2026-11-07T02:01:21Z",
+      "issue_key": "tram:text:ab9d7a64f14b787b",
+      "line_id": "tram",
+      "line_name": "Tram",
+      "reason": "London Tramlink: Service will resume later this morning.",
+      "severity": "Service Closed",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "waterloo-city:text:1bbcac27f282d0db": {
+      "category": "other",
+      "first_seen": "2026-11-07T02:01:21Z",
+      "issue_key": "waterloo-city:text:1bbcac27f282d0db",
+      "line_id": "waterloo-city",
+      "line_name": "Waterloo & City",
+      "reason": "Waterloo and City Line: Service will resume at 06:00 on Monday.",
+      "severity": "Service Closed",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "weaver:text:f2dc8c00c6757e13": {
+      "category": "other",
+      "first_seen": "2026-11-07T02:01:21Z",
+      "issue_key": "weaver:text:f2dc8c00c6757e13",
+      "line_id": "weaver",
+      "line_name": "Weaver",
+      "reason": "Weaver Line: Service will resume later this morning.",
+      "severity": "Service Closed",
+      "source_created": "0001-01-01T00:00:00"
+    }
+  },
+  "history": [
+    {
+      "category": "other",
+      "duration_seconds": 21854,
+      "first_seen": "2026-11-06T19:57:07Z",
+      "issue_key": "bakerloo:text:fb761a7726d7ef20",
+      "line_id": "bakerloo",
+      "line_name": "Bakerloo",
+      "reason": "Bakerloo Line: No service between Queen's Park and Harrow & Wealdstone due to infrastructure damage at Harlesden. Tickets will be accepted on London Buses, Lioness line and London Northwestern services. MINOR DELAYS on the rest of the line.",
+      "resolved_at": "2026-11-07T02:01:21Z",
+      "severity": "Part Suspended",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "other",
+      "duration_seconds": 18682,
+      "first_seen": "2026-11-06T20:49:59Z",
+      "issue_key": "lioness:text:2306d14c99e560a8",
+      "line_id": "lioness",
+      "line_name": "Lioness",
+      "reason": "Lioness Line: No service between Harrow & Wealdstone and Willesden Junction due to infrastructure damage at Harlesden MINOR DELAYS on the rest of the line.",
+      "resolved_at": "2026-11-07T02:01:21Z",
+      "severity": "Part Suspended",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "other",
+      "duration_seconds": 30950,
       "first_seen": "2026-11-06T17:25:31Z",
       "issue_key": "victoria:text:02e0850cdf11ef25",
       "line_id": "victoria",
       "line_name": "Victoria",
       "reason": "Victoria Line: Minor delays due to train cancellations.",
+      "resolved_at": "2026-11-07T02:01:21Z",
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "windrush:text:82ef4bdb73b7d5eb": {
+    {
       "category": "other",
+      "duration_seconds": 7403,
       "first_seen": "2026-11-06T23:57:58Z",
       "issue_key": "windrush:text:82ef4bdb73b7d5eb",
       "line_id": "windrush",
       "line_name": "Windrush",
       "reason": "WINDRUSH LINE: Friday 6 November, after 2330, no service between New Cross Gate and West Croydon / Crystal Palace. Rail replacement buses will run as follows: The bus for Crystal Palace will depart London Bridge at 2358 calling at New Cross Gate, Brockley, Honor Oak Park, Forest Hill, Sydenham, Crystal Palace, Gipsy Hill, West Norwood, Tulse Hill and Streatham Hill. The bus for East Croydon will depart London Bridge at 0035 calling at New Cross Gate, Brockley, Honor Oak Park, Forest Hill, Sydenham, Norwood Junction and East Croydon. One return bus from Crystal Palace departs at 2359, calling at all stations to London Bridge via New Cross Gate. Alternatively, use local buses or trams via any reasonable route. The 2232 and 2247 trains from Highbury & Islington to West Croydon will both divert to Crystal Palace. The 2338 train from Dalston Junction to New Cross Gate will not run",
+      "resolved_at": "2026-11-07T02:01:21Z",
       "severity": "Part Closure",
       "source_created": "0001-01-01T00:00:00"
-    }
-  },
-  "history": [
+    },
     {
       "category": "other",
       "duration_seconds": 13045,
@@ -34577,6 +34725,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-11-07T00:27:24Z",
+  "updated_at": "2026-11-07T02:01:21Z",
   "version": 1
 }
