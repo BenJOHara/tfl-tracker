@@ -10,6 +10,16 @@
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
+    "central:text:6d0af7c9d44f714a": {
+      "category": "other",
+      "first_seen": "2026-11-07T16:59:48Z",
+      "issue_key": "central:text:6d0af7c9d44f714a",
+      "line_id": "central",
+      "line_name": "Central",
+      "reason": "Central Line: Minor delays due to train cancellations.",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
     "district:text:d6966289e2d3c573": {
       "category": "other",
       "first_seen": "2026-11-07T13:29:40Z",
@@ -34957,6 +34967,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-11-07T15:07:10Z",
+  "updated_at": "2026-11-07T16:59:48Z",
   "version": 1
 }
