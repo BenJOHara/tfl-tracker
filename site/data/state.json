@@ -30,16 +30,6 @@
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "lioness:text:cf3b968cfe1bba77": {
-      "category": "other",
-      "first_seen": "2026-11-07T06:31:29Z",
-      "issue_key": "lioness:text:cf3b968cfe1bba77",
-      "line_id": "lioness",
-      "line_name": "Lioness",
-      "reason": "LIONESS LINE: Saturday 7 and Sunday 8 November, a reduced service will run between Kilburn High Road and Euston. On Saturday, between 0630 and 2030, trains departing Watford Junction at 30 minutes past each hour will terminate at Kilburn High Road. From 0715 until 2115, trains departing Euston at 15 minutes past each hour will start from Kilburn High Road. On Sunday, between 1130 and 2030, trains departing Watford Junction at 30 minutes past each hour will terminate at Kilburn High Road. From 1215 until 2115, trains departing Euston at 15 minutes past each hour will start from Kilburn High Road",
-      "severity": "Reduced Service",
-      "source_created": "0001-01-01T00:00:00"
-    },
     "mildmay:text:6bf6aaa0f776d791": {
       "category": "other",
       "first_seen": "2026-11-07T05:13:21Z",
@@ -82,6 +72,18 @@
     }
   },
   "history": [
+    {
+      "category": "other",
+      "duration_seconds": 55720,
+      "first_seen": "2026-11-07T06:31:29Z",
+      "issue_key": "lioness:text:cf3b968cfe1bba77",
+      "line_id": "lioness",
+      "line_name": "Lioness",
+      "reason": "LIONESS LINE: Saturday 7 and Sunday 8 November, a reduced service will run between Kilburn High Road and Euston. On Saturday, between 0630 and 2030, trains departing Watford Junction at 30 minutes past each hour will terminate at Kilburn High Road. From 0715 until 2115, trains departing Euston at 15 minutes past each hour will start from Kilburn High Road. On Sunday, between 1130 and 2030, trains departing Watford Junction at 30 minutes past each hour will terminate at Kilburn High Road. From 1215 until 2115, trains departing Euston at 15 minutes past each hour will start from Kilburn High Road",
+      "resolved_at": "2026-11-07T22:00:09Z",
+      "severity": "Reduced Service",
+      "source_created": "0001-01-01T00:00:00"
+    },
     {
       "category": "points failure",
       "duration_seconds": 5071,
@@ -35039,6 +35041,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-11-07T20:46:32Z",
+  "updated_at": "2026-11-07T22:00:09Z",
   "version": 1
 }
