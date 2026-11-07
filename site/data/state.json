@@ -1,5 +1,25 @@
 {
   "active": {
+    "bakerloo:text:fa65ae5801fe101d": {
+      "category": "other",
+      "first_seen": "2026-11-07T08:40:32Z",
+      "issue_key": "bakerloo:text:fa65ae5801fe101d",
+      "line_id": "bakerloo",
+      "line_name": "Bakerloo",
+      "reason": "Bakerloo Line: Severe delays between Harrow & Wealdstone and Queen's Park due to infrastructure damage at Harlesden. GOOD SERVICE on the rest of the line. Tickets are being accepted on London Buses, London Overground and North Western Railway.",
+      "severity": "Severe Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "district:text:9b6e9456414311f5": {
+      "category": "other",
+      "first_seen": "2026-11-07T08:40:32Z",
+      "issue_key": "district:text:9b6e9456414311f5",
+      "line_id": "district",
+      "line_name": "District",
+      "reason": "District Line: Minor delays between Earl's Court and Tower Hill due to train cancellations. GOOD SERVICE on the rest of the line.",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
     "lioness:text:cf3b968cfe1bba77": {
       "category": "other",
       "first_seen": "2026-11-07T06:31:29Z",
@@ -8,6 +28,16 @@
       "line_name": "Lioness",
       "reason": "LIONESS LINE: Saturday 7 and Sunday 8 November, a reduced service will run between Kilburn High Road and Euston. On Saturday, between 0630 and 2030, trains departing Watford Junction at 30 minutes past each hour will terminate at Kilburn High Road. From 0715 until 2115, trains departing Euston at 15 minutes past each hour will start from Kilburn High Road. On Sunday, between 1130 and 2030, trains departing Watford Junction at 30 minutes past each hour will terminate at Kilburn High Road. From 1215 until 2115, trains departing Euston at 15 minutes past each hour will start from Kilburn High Road",
       "severity": "Reduced Service",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "metropolitan:text:f016339ccff253d5": {
+      "category": "person on track",
+      "first_seen": "2026-11-07T08:40:32Z",
+      "issue_key": "metropolitan:text:f016339ccff253d5",
+      "line_id": "metropolitan",
+      "line_name": "Metropolitan",
+      "reason": "Metropolitan Line: Severe delays between Chalfont & Latimer and Amersham and MINOR DELAYS between Moor Park and Chesham due to earlier trespassers on the track at Rickmansworth. MINOR DELAYS between Harrow-on-the-Hill and Baker Street due to train cancellations. GOOD SERVICE on the rest of the line. The next southbound departure from Amersham will be at 09:18. Tickets are being accepted on Chiltern Railways.",
+      "severity": "Severe Delays",
       "source_created": "0001-01-01T00:00:00"
     },
     "mildmay:text:6bf6aaa0f776d791": {
@@ -39,19 +69,21 @@
       "reason": "Waterloo & City line: service operates 06:00 until 00:30, Monday to Friday only. There is no service on Saturdays, Sundays and on bank/public holidays.",
       "severity": "Planned Closure",
       "source_created": "0001-01-01T00:00:00"
-    },
-    "waterloo-city:text:1bbcac27f282d0db": {
+    }
+  },
+  "history": [
+    {
       "category": "other",
+      "duration_seconds": 23951,
       "first_seen": "2026-11-07T02:01:21Z",
       "issue_key": "waterloo-city:text:1bbcac27f282d0db",
       "line_id": "waterloo-city",
       "line_name": "Waterloo & City",
       "reason": "Waterloo and City Line: Service will resume at 06:00 on Monday.",
+      "resolved_at": "2026-11-07T08:40:32Z",
       "severity": "Service Closed",
       "source_created": "0001-01-01T00:00:00"
-    }
-  },
-  "history": [
+    },
     {
       "category": "other",
       "duration_seconds": 11520,
@@ -34781,6 +34813,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-11-07T06:31:29Z",
+  "updated_at": "2026-11-07T08:40:32Z",
   "version": 1
 }
