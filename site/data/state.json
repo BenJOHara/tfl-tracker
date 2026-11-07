@@ -1,13 +1,13 @@
 {
   "active": {
-    "bakerloo:text:0f4c8135cbb0a137": {
-      "category": "other",
-      "first_seen": "2026-11-07T15:07:10Z",
-      "issue_key": "bakerloo:text:0f4c8135cbb0a137",
+    "bakerloo:text:72ca244e41df65b8": {
+      "category": "points failure",
+      "first_seen": "2026-11-07T18:15:34Z",
+      "issue_key": "bakerloo:text:72ca244e41df65b8",
       "line_id": "bakerloo",
       "line_name": "Bakerloo",
-      "reason": "Bakerloo Line: Minor delays due to infrastructure damage at Harlesden.",
-      "severity": "Minor Delays",
+      "reason": "Bakerloo Line: No service between Lambeth North and Elephant & Castle while we fix a points failure at Elephant & Castle. Tickets will be accepted on London Buses and Thameslink. MINOR DELAYS on the rest of the line due to infrastructure damage at Harlesden.",
+      "severity": "Part Suspended",
       "source_created": "0001-01-01T00:00:00"
     },
     "central:text:6d0af7c9d44f714a": {
@@ -20,13 +20,13 @@
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "district:text:d6966289e2d3c573": {
+    "district:text:bcd692b45b3cee38": {
       "category": "other",
-      "first_seen": "2026-11-07T13:29:40Z",
-      "issue_key": "district:text:d6966289e2d3c573",
+      "first_seen": "2026-11-07T18:15:34Z",
+      "issue_key": "district:text:bcd692b45b3cee38",
       "line_id": "district",
       "line_name": "District",
-      "reason": "District Line: Minor delays between Tower Hill and Upminster due to train cancellations. GOOD SERVICE on the rest of the line.",
+      "reason": "District Line: Minor delays between Ealing Broadway and Upminster and between Earl's Court and Kensington (Olympia) due to train cancellations. GOOD SERVICE on the rest of the line.",
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
@@ -82,6 +82,30 @@
     }
   },
   "history": [
+    {
+      "category": "other",
+      "duration_seconds": 11304,
+      "first_seen": "2026-11-07T15:07:10Z",
+      "issue_key": "bakerloo:text:0f4c8135cbb0a137",
+      "line_id": "bakerloo",
+      "line_name": "Bakerloo",
+      "reason": "Bakerloo Line: Minor delays due to infrastructure damage at Harlesden.",
+      "resolved_at": "2026-11-07T18:15:34Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "other",
+      "duration_seconds": 17154,
+      "first_seen": "2026-11-07T13:29:40Z",
+      "issue_key": "district:text:d6966289e2d3c573",
+      "line_id": "district",
+      "line_name": "District",
+      "reason": "District Line: Minor delays between Tower Hill and Upminster due to train cancellations. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-11-07T18:15:34Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
     {
       "category": "other",
       "duration_seconds": 5850,
@@ -34967,6 +34991,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-11-07T16:59:48Z",
+  "updated_at": "2026-11-07T18:15:34Z",
   "version": 1
 }
