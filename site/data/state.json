@@ -1,33 +1,43 @@
 {
   "active": {
-    "bakerloo:text:526d371abc39818f": {
+    "bakerloo:text:597f20c2b625aa4f": {
       "category": "other",
-      "first_seen": "2026-11-07T11:44:40Z",
-      "issue_key": "bakerloo:text:526d371abc39818f",
+      "first_seen": "2026-11-07T13:29:40Z",
+      "issue_key": "bakerloo:text:597f20c2b625aa4f",
       "line_id": "bakerloo",
       "line_name": "Bakerloo",
-      "reason": "Bakerloo Line: Severe delays between Harrow & Wealdstone and Queen's Park due to infrastructure damage at Harlesden. MINOR DELAYS on the rest of the line. Tickets are being accepted on London Buses, London Overground and North Western Railway.",
-      "severity": "Severe Delays",
+      "reason": "Bakerloo Line: Severe delays between Harrow & Wealdstone and Queen's Park due to infrastructure damage at Harlesden. Tickets are being accepted on London Buses, London Overground and North Western Railway. MINOR DELAYS on the rest of the line.",
+      "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "circle:text:c2160e509f3193a5": {
+    "central:text:2ddfe85aa45ada75": {
+      "category": "other",
+      "first_seen": "2026-11-07T13:29:40Z",
+      "issue_key": "central:text:2ddfe85aa45ada75",
+      "line_id": "central",
+      "line_name": "Central",
+      "reason": "Central Line: Minor delays between Theydon Bois and Debden while we conduct a track inspection. GOOD SERVICE on the rest of the line.",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "circle:text:50fa25de84a251e1": {
       "category": "train fault",
-      "first_seen": "2026-11-07T11:44:40Z",
-      "issue_key": "circle:text:c2160e509f3193a5",
+      "first_seen": "2026-11-07T13:29:40Z",
+      "issue_key": "circle:text:50fa25de84a251e1",
       "line_id": "circle",
       "line_name": "Circle",
-      "reason": "Circle Line: Severe delays due to an earlier faulty train at Tower Hill. Tickets are being accepted on London Buses.",
-      "severity": "Severe Delays",
+      "reason": "Circle Line: Minor delays due to an earlier faulty train at Tower Hill.",
+      "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "district:text:8a93bc1218dc542a": {
-      "category": "train fault",
-      "first_seen": "2026-11-07T11:44:40Z",
-      "issue_key": "district:text:8a93bc1218dc542a",
+    "district:text:d6966289e2d3c573": {
+      "category": "other",
+      "first_seen": "2026-11-07T13:29:40Z",
+      "issue_key": "district:text:d6966289e2d3c573",
       "line_id": "district",
       "line_name": "District",
-      "reason": "District Line: Severe delays between Tower Hill and Upminster and MINOR DELAYS between Tower Hill and Earl's Court due to an earlier faulty train at Tower Hill. Tickets are being accepted on London Buses and C2C. GOOD SERVICE on the rest of the line.",
-      "severity": "Severe Delays",
+      "reason": "District Line: Minor delays between Tower Hill and Upminster due to train cancellations. GOOD SERVICE on the rest of the line.",
+      "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
     "lioness:text:cf3b968cfe1bba77": {
@@ -40,14 +50,14 @@
       "severity": "Reduced Service",
       "source_created": "0001-01-01T00:00:00"
     },
-    "metropolitan:text:8a8d10122c55fcee": {
+    "metropolitan:text:2df4e90708614385": {
       "category": "other",
-      "first_seen": "2026-11-07T11:44:40Z",
-      "issue_key": "metropolitan:text:8a8d10122c55fcee",
+      "first_seen": "2026-11-07T13:29:40Z",
+      "issue_key": "metropolitan:text:2df4e90708614385",
       "line_id": "metropolitan",
       "line_name": "Metropolitan",
-      "reason": "Metropolitan Line: Severe delays between Harrow-on-the-Hill and Uxbridge due to train cancellations. GOOD SERVICE on the rest of the line. Tickets are being accepted on London Buses.",
-      "severity": "Severe Delays",
+      "reason": "Metropolitan Line: Minor delays between Moor Park and Watford due to train cancellations. GOOD SERVICE on the rest of the line.",
+      "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
     "mildmay:text:6bf6aaa0f776d791": {
@@ -58,6 +68,16 @@
       "line_name": "Mildmay",
       "reason": "MILDMAY LINE: Saturday 7 and Sunday 8 November, no service between Willesden Junction and Clapham Junction. There will also be no SOUTHERN services between Watford Junction and Clapham Junction at these times. Please use local London Buses connections.",
       "severity": "Part Closure",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "northern:text:14dc9be219ae26b1": {
+      "category": "fire alert",
+      "first_seen": "2026-11-07T13:29:40Z",
+      "issue_key": "northern:text:14dc9be219ae26b1",
+      "line_id": "northern",
+      "line_name": "Northern",
+      "reason": "Northern Line: Severe delays between Camden Town and Battersea Power Station via Charing Cross while we respond to a fire alert at Embankment. Tickets are being accepted on London Buses. GOOD SERVICE on the rest of the line.",
+      "severity": "Severe Delays",
       "source_created": "0001-01-01T00:00:00"
     },
     "suffragette:text:8ef9fd6d61cf1006": {
@@ -82,6 +102,54 @@
     }
   },
   "history": [
+    {
+      "category": "other",
+      "duration_seconds": 6300,
+      "first_seen": "2026-11-07T11:44:40Z",
+      "issue_key": "bakerloo:text:526d371abc39818f",
+      "line_id": "bakerloo",
+      "line_name": "Bakerloo",
+      "reason": "Bakerloo Line: Severe delays between Harrow & Wealdstone and Queen's Park due to infrastructure damage at Harlesden. MINOR DELAYS on the rest of the line. Tickets are being accepted on London Buses, London Overground and North Western Railway.",
+      "resolved_at": "2026-11-07T13:29:40Z",
+      "severity": "Severe Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "train fault",
+      "duration_seconds": 6300,
+      "first_seen": "2026-11-07T11:44:40Z",
+      "issue_key": "circle:text:c2160e509f3193a5",
+      "line_id": "circle",
+      "line_name": "Circle",
+      "reason": "Circle Line: Severe delays due to an earlier faulty train at Tower Hill. Tickets are being accepted on London Buses.",
+      "resolved_at": "2026-11-07T13:29:40Z",
+      "severity": "Severe Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "train fault",
+      "duration_seconds": 6300,
+      "first_seen": "2026-11-07T11:44:40Z",
+      "issue_key": "district:text:8a93bc1218dc542a",
+      "line_id": "district",
+      "line_name": "District",
+      "reason": "District Line: Severe delays between Tower Hill and Upminster and MINOR DELAYS between Tower Hill and Earl's Court due to an earlier faulty train at Tower Hill. Tickets are being accepted on London Buses and C2C. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-11-07T13:29:40Z",
+      "severity": "Severe Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "other",
+      "duration_seconds": 6300,
+      "first_seen": "2026-11-07T11:44:40Z",
+      "issue_key": "metropolitan:text:8a8d10122c55fcee",
+      "line_id": "metropolitan",
+      "line_name": "Metropolitan",
+      "reason": "Metropolitan Line: Severe delays between Harrow-on-the-Hill and Uxbridge due to train cancellations. GOOD SERVICE on the rest of the line. Tickets are being accepted on London Buses.",
+      "resolved_at": "2026-11-07T13:29:40Z",
+      "severity": "Severe Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
     {
       "category": "other",
       "duration_seconds": 11048,
@@ -34859,6 +34927,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-11-07T11:44:40Z",
+  "updated_at": "2026-11-07T13:29:40Z",
   "version": 1
 }
