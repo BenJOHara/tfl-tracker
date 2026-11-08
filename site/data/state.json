@@ -10,26 +10,6 @@
       "severity": "Severe Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "central:text:6d0af7c9d44f714a": {
-      "category": "other",
-      "first_seen": "2026-11-08T12:52:13Z",
-      "issue_key": "central:text:6d0af7c9d44f714a",
-      "line_id": "central",
-      "line_name": "Central",
-      "reason": "Central Line: Minor delays due to train cancellations.",
-      "severity": "Minor Delays",
-      "source_created": "0001-01-01T00:00:00"
-    },
-    "circle:text:544d6c200e2d0921": {
-      "category": "passenger incident",
-      "first_seen": "2026-11-08T18:13:38Z",
-      "issue_key": "circle:text:544d6c200e2d0921",
-      "line_id": "circle",
-      "line_name": "Circle",
-      "reason": "Circle Line: Minor delays due to an earlier customer incident at High Street Kensington.",
-      "severity": "Minor Delays",
-      "source_created": "0001-01-01T00:00:00"
-    },
     "district:text:9c09d477e2a85811": {
       "category": "other",
       "first_seen": "2026-11-08T18:13:38Z",
@@ -37,6 +17,16 @@
       "line_id": "district",
       "line_name": "District",
       "reason": "District Line: Minor delays due to train cancellations.",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "hammersmith-city:text:004129bf5e441754": {
+      "category": "other",
+      "first_seen": "2026-11-08T19:33:23Z",
+      "issue_key": "hammersmith-city:text:004129bf5e441754",
+      "line_id": "hammersmith-city",
+      "line_name": "Hammersmith & City",
+      "reason": "Hammersmith and City Line: Minor delays due to train cancellations.",
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
@@ -92,6 +82,30 @@
     }
   },
   "history": [
+    {
+      "category": "other",
+      "duration_seconds": 24070,
+      "first_seen": "2026-11-08T12:52:13Z",
+      "issue_key": "central:text:6d0af7c9d44f714a",
+      "line_id": "central",
+      "line_name": "Central",
+      "reason": "Central Line: Minor delays due to train cancellations.",
+      "resolved_at": "2026-11-08T19:33:23Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "passenger incident",
+      "duration_seconds": 4785,
+      "first_seen": "2026-11-08T18:13:38Z",
+      "issue_key": "circle:text:544d6c200e2d0921",
+      "line_id": "circle",
+      "line_name": "Circle",
+      "reason": "Circle Line: Minor delays due to an earlier customer incident at High Street Kensington.",
+      "resolved_at": "2026-11-08T19:33:23Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
     {
       "category": "other",
       "duration_seconds": 13451,
@@ -35385,6 +35399,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-11-08T18:13:38Z",
+  "updated_at": "2026-11-08T19:33:23Z",
   "version": 1
 }
