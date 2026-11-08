@@ -20,13 +20,33 @@
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "district:text:1e195412ca1979c7": {
+    "circle:text:544d6c200e2d0921": {
+      "category": "passenger incident",
+      "first_seen": "2026-11-08T18:13:38Z",
+      "issue_key": "circle:text:544d6c200e2d0921",
+      "line_id": "circle",
+      "line_name": "Circle",
+      "reason": "Circle Line: Minor delays due to an earlier customer incident at High Street Kensington.",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "district:text:9c09d477e2a85811": {
       "category": "other",
-      "first_seen": "2026-11-08T14:29:27Z",
-      "issue_key": "district:text:1e195412ca1979c7",
+      "first_seen": "2026-11-08T18:13:38Z",
+      "issue_key": "district:text:9c09d477e2a85811",
       "line_id": "district",
       "line_name": "District",
-      "reason": "District Line: Minor delays between Earl's Court and Ealing Broadway due to train cancellations. GOOD SERVICE on the rest of the line.",
+      "reason": "District Line: Minor delays due to train cancellations.",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "jubilee:text:57925a2ef9e26722": {
+      "category": "other",
+      "first_seen": "2026-11-08T18:13:38Z",
+      "issue_key": "jubilee:text:57925a2ef9e26722",
+      "line_id": "jubilee",
+      "line_name": "Jubilee",
+      "reason": "Jubilee Line: Minor delays due to train cancellations.",
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
@@ -72,6 +92,18 @@
     }
   },
   "history": [
+    {
+      "category": "other",
+      "duration_seconds": 13451,
+      "first_seen": "2026-11-08T14:29:27Z",
+      "issue_key": "district:text:1e195412ca1979c7",
+      "line_id": "district",
+      "line_name": "District",
+      "reason": "District Line: Minor delays between Earl's Court and Ealing Broadway due to train cancellations. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-11-08T18:13:38Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
     {
       "category": "other",
       "duration_seconds": 2033,
@@ -35353,6 +35385,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-11-08T15:03:20Z",
+  "updated_at": "2026-11-08T18:13:38Z",
   "version": 1
 }
