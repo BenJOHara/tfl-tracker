@@ -30,6 +30,16 @@
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
+    "metropolitan:text:dfb07703364716a0": {
+      "category": "other",
+      "first_seen": "2026-11-08T00:00:16Z",
+      "issue_key": "metropolitan:text:dfb07703364716a0",
+      "line_id": "metropolitan",
+      "line_name": "Metropolitan",
+      "reason": "Metropolitan Line: Minor delays between Moor Park and Amersham due to train cancellations. The next departure from Amersham will be at 00:19. GOOD SERVICE on the rest of the line.",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
     "mildmay:text:6bf6aaa0f776d791": {
       "category": "other",
       "first_seen": "2026-11-07T05:13:21Z",
@@ -50,16 +60,6 @@
       "severity": "Part Closure",
       "source_created": "0001-01-01T00:00:00"
     },
-    "victoria:text:02e0850cdf11ef25": {
-      "category": "other",
-      "first_seen": "2026-11-07T15:07:10Z",
-      "issue_key": "victoria:text:02e0850cdf11ef25",
-      "line_id": "victoria",
-      "line_name": "Victoria",
-      "reason": "Victoria Line: Minor delays due to train cancellations.",
-      "severity": "Minor Delays",
-      "source_created": "0001-01-01T00:00:00"
-    },
     "waterloo-city:text:02da0890c7cbf303": {
       "category": "other",
       "first_seen": "2026-11-07T05:13:21Z",
@@ -72,6 +72,18 @@
     }
   },
   "history": [
+    {
+      "category": "other",
+      "duration_seconds": 31986,
+      "first_seen": "2026-11-07T15:07:10Z",
+      "issue_key": "victoria:text:02e0850cdf11ef25",
+      "line_id": "victoria",
+      "line_name": "Victoria",
+      "reason": "Victoria Line: Minor delays due to train cancellations.",
+      "resolved_at": "2026-11-08T00:00:16Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
     {
       "category": "other",
       "duration_seconds": 55720,
@@ -35041,6 +35053,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-11-07T22:00:09Z",
+  "updated_at": "2026-11-08T00:00:16Z",
   "version": 1
 }
