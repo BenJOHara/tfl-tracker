@@ -30,16 +30,6 @@
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "lioness:text:f00bc28d5f8913eb": {
-      "category": "other",
-      "first_seen": "2026-11-08T14:29:27Z",
-      "issue_key": "lioness:text:f00bc28d5f8913eb",
-      "line_id": "lioness",
-      "line_name": "Lioness",
-      "reason": "Lioness Line: Severe delays due to earlier infrastructure damage at Harlesden. Tickets are being accepted on London Underground.",
-      "severity": "Severe Delays",
-      "source_created": "0001-01-01T00:00:00"
-    },
     "mildmay:text:6bf6aaa0f776d791": {
       "category": "other",
       "first_seen": "2026-11-07T05:13:21Z",
@@ -82,6 +72,18 @@
     }
   },
   "history": [
+    {
+      "category": "other",
+      "duration_seconds": 2033,
+      "first_seen": "2026-11-08T14:29:27Z",
+      "issue_key": "lioness:text:f00bc28d5f8913eb",
+      "line_id": "lioness",
+      "line_name": "Lioness",
+      "reason": "Lioness Line: Severe delays due to earlier infrastructure damage at Harlesden. Tickets are being accepted on London Underground.",
+      "resolved_at": "2026-11-08T15:03:20Z",
+      "severity": "Severe Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
     {
       "category": "points failure",
       "duration_seconds": 25047,
@@ -35351,6 +35353,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-11-08T14:29:27Z",
+  "updated_at": "2026-11-08T15:03:20Z",
   "version": 1
 }
