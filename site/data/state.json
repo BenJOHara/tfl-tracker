@@ -50,6 +50,16 @@
       "severity": "Severe Delays",
       "source_created": "0001-01-01T00:00:00"
     },
+    "metropolitan:text:cba79bf166f4a73d": {
+      "category": "other",
+      "first_seen": "2026-11-08T22:49:28Z",
+      "issue_key": "metropolitan:text:cba79bf166f4a73d",
+      "line_id": "metropolitan",
+      "line_name": "Metropolitan",
+      "reason": "Metropolitan Line: Minor delays between Moor Park and Chesham due to train cancellations. The next southbound train will be at 23:26. GOOD SERVICE on the rest of the line.",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
     "mildmay:text:6bf6aaa0f776d791": {
       "category": "other",
       "first_seen": "2026-11-07T05:13:21Z",
@@ -35455,6 +35465,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-11-08T22:09:07Z",
+  "updated_at": "2026-11-08T22:49:28Z",
   "version": 1
 }
