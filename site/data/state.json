@@ -10,13 +10,13 @@
       "severity": "Part Suspended",
       "source_created": "0001-01-01T00:00:00"
     },
-    "elizabeth:text:740c663d1a642706": {
-      "category": "planned engineering",
-      "first_seen": "2026-11-08T07:32:00Z",
-      "issue_key": "elizabeth:text:740c663d1a642706",
-      "line_id": "elizabeth",
-      "line_name": "Elizabeth line",
-      "reason": "Minor delays between Liverpool Street and Gidea Park following a late finish of engineering work. GOOD SERVICE on the rest of the line.",
+    "central:text:6d0af7c9d44f714a": {
+      "category": "other",
+      "first_seen": "2026-11-08T12:52:13Z",
+      "issue_key": "central:text:6d0af7c9d44f714a",
+      "line_id": "central",
+      "line_name": "Central",
+      "reason": "Central Line: Minor delays due to train cancellations.",
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
@@ -50,16 +50,6 @@
       "severity": "Part Closure",
       "source_created": "0001-01-01T00:00:00"
     },
-    "victoria:text:75a7c329f8b6ede7": {
-      "category": "passenger incident",
-      "first_seen": "2026-11-08T08:05:28Z",
-      "issue_key": "victoria:text:75a7c329f8b6ede7",
-      "line_id": "victoria",
-      "line_name": "Victoria",
-      "reason": "Victoria Line: Severe delays due to an earlier customer incident at King's Cross St Pancras. Tickets are being accepted on London Buses.",
-      "severity": "Severe Delays",
-      "source_created": "0001-01-01T00:00:00"
-    },
     "waterloo-city:text:02da0890c7cbf303": {
       "category": "other",
       "first_seen": "2026-11-08T05:48:55Z",
@@ -82,6 +72,30 @@
     }
   },
   "history": [
+    {
+      "category": "planned engineering",
+      "duration_seconds": 19213,
+      "first_seen": "2026-11-08T07:32:00Z",
+      "issue_key": "elizabeth:text:740c663d1a642706",
+      "line_id": "elizabeth",
+      "line_name": "Elizabeth line",
+      "reason": "Minor delays between Liverpool Street and Gidea Park following a late finish of engineering work. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-11-08T12:52:13Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "passenger incident",
+      "duration_seconds": 17205,
+      "first_seen": "2026-11-08T08:05:28Z",
+      "issue_key": "victoria:text:75a7c329f8b6ede7",
+      "line_id": "victoria",
+      "line_name": "Victoria",
+      "reason": "Victoria Line: Severe delays due to an earlier customer incident at King's Cross St Pancras. Tickets are being accepted on London Buses.",
+      "resolved_at": "2026-11-08T12:52:13Z",
+      "severity": "Severe Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
     {
       "category": "other",
       "duration_seconds": 6185,
@@ -35303,6 +35317,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-11-08T08:05:28Z",
+  "updated_at": "2026-11-08T12:52:13Z",
   "version": 1
 }
