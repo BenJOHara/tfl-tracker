@@ -10,34 +10,44 @@
       "severity": "Severe Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "district:text:9c09d477e2a85811": {
+    "central:text:6d0af7c9d44f714a": {
       "category": "other",
-      "first_seen": "2026-11-08T18:13:38Z",
-      "issue_key": "district:text:9c09d477e2a85811",
+      "first_seen": "2026-11-08T22:09:07Z",
+      "issue_key": "central:text:6d0af7c9d44f714a",
+      "line_id": "central",
+      "line_name": "Central",
+      "reason": "Central Line: Minor delays due to train cancellations.",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "circle:text:bf9bb7504db7ea4d": {
+      "category": "other",
+      "first_seen": "2026-11-08T22:09:07Z",
+      "issue_key": "circle:text:bf9bb7504db7ea4d",
+      "line_id": "circle",
+      "line_name": "Circle",
+      "reason": "Circle Line: Minor delays due to train cancellations.",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "district:text:e18299c09aaa6985": {
+      "category": "other",
+      "first_seen": "2026-11-08T22:09:07Z",
+      "issue_key": "district:text:e18299c09aaa6985",
       "line_id": "district",
       "line_name": "District",
-      "reason": "District Line: Minor delays due to train cancellations.",
+      "reason": "District Line: Severe delays between Earl's Court and Ealing Broadway and MINOR DELAYS on the rest of the line due to train cancellations. Tickets will be accepted on London Buses.",
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "hammersmith-city:text:004129bf5e441754": {
+    "hammersmith-city:text:f5fd5bcb9e6734c2": {
       "category": "other",
-      "first_seen": "2026-11-08T19:33:23Z",
-      "issue_key": "hammersmith-city:text:004129bf5e441754",
+      "first_seen": "2026-11-08T22:09:07Z",
+      "issue_key": "hammersmith-city:text:f5fd5bcb9e6734c2",
       "line_id": "hammersmith-city",
       "line_name": "Hammersmith & City",
-      "reason": "Hammersmith and City Line: Minor delays due to train cancellations.",
-      "severity": "Minor Delays",
-      "source_created": "0001-01-01T00:00:00"
-    },
-    "jubilee:text:57925a2ef9e26722": {
-      "category": "other",
-      "first_seen": "2026-11-08T18:13:38Z",
-      "issue_key": "jubilee:text:57925a2ef9e26722",
-      "line_id": "jubilee",
-      "line_name": "Jubilee",
-      "reason": "Jubilee Line: Minor delays due to train cancellations.",
-      "severity": "Minor Delays",
+      "reason": "Hammersmith and City Line: Severe delays due to train cancellations. Customers wishing to travel to Barking should change at Plaistow for a District line train. Tickets will also be accepted on London Buses, DLR, Elizabeth line and c2c services.",
+      "severity": "Severe Delays",
       "source_created": "0001-01-01T00:00:00"
     },
     "mildmay:text:6bf6aaa0f776d791": {
@@ -58,6 +68,16 @@
       "line_name": "Suffragette",
       "reason": "Suffragette Line: No service between South Tottenham and Barking Riverside, until the end of service on Tuesday 10 November, due to a operational incident. A reduced service is operating on the rest of the line. Trains will operate every thirty minutes in either direction departing Gospel Oak at xx:09 and xx:39 and departing South Tottenham at xx:13 and xx:43. London Underground and London Buses are accepting tickets via any reasonable routes.",
       "severity": "Part Closure",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "victoria:text:02e0850cdf11ef25": {
+      "category": "other",
+      "first_seen": "2026-11-08T22:09:07Z",
+      "issue_key": "victoria:text:02e0850cdf11ef25",
+      "line_id": "victoria",
+      "line_name": "Victoria",
+      "reason": "Victoria Line: Minor delays due to train cancellations.",
+      "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
     "waterloo-city:text:02da0890c7cbf303": {
@@ -82,6 +102,42 @@
     }
   },
   "history": [
+    {
+      "category": "other",
+      "duration_seconds": 14129,
+      "first_seen": "2026-11-08T18:13:38Z",
+      "issue_key": "district:text:9c09d477e2a85811",
+      "line_id": "district",
+      "line_name": "District",
+      "reason": "District Line: Minor delays due to train cancellations.",
+      "resolved_at": "2026-11-08T22:09:07Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "other",
+      "duration_seconds": 9344,
+      "first_seen": "2026-11-08T19:33:23Z",
+      "issue_key": "hammersmith-city:text:004129bf5e441754",
+      "line_id": "hammersmith-city",
+      "line_name": "Hammersmith & City",
+      "reason": "Hammersmith and City Line: Minor delays due to train cancellations.",
+      "resolved_at": "2026-11-08T22:09:07Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "other",
+      "duration_seconds": 14129,
+      "first_seen": "2026-11-08T18:13:38Z",
+      "issue_key": "jubilee:text:57925a2ef9e26722",
+      "line_id": "jubilee",
+      "line_name": "Jubilee",
+      "reason": "Jubilee Line: Minor delays due to train cancellations.",
+      "resolved_at": "2026-11-08T22:09:07Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
     {
       "category": "other",
       "duration_seconds": 24070,
@@ -35399,6 +35455,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-11-08T19:33:23Z",
+  "updated_at": "2026-11-08T22:09:07Z",
   "version": 1
 }
