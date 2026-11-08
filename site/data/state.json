@@ -1,103 +1,33 @@
 {
   "active": {
-    "bakerloo:text:2521ee078c33635f": {
-      "category": "planned engineering",
-      "first_seen": "2026-11-08T01:19:46Z",
-      "issue_key": "bakerloo:text:2521ee078c33635f",
+    "bakerloo:text:5e4bebbe4bda7d13": {
+      "category": "other",
+      "first_seen": "2026-11-08T05:48:55Z",
+      "issue_key": "bakerloo:text:5e4bebbe4bda7d13",
       "line_id": "bakerloo",
       "line_name": "Bakerloo",
-      "reason": "Bakerloo Line: Service will resume later this morning. There will be no service between Queen's Park and Harrow & Wealdstone due to planned engineering work.",
-      "severity": "Service Closed",
+      "reason": "BAKERLOO LINE: Sunday 8 November, until approx. 13:00, no service between Queens Park and Harrow & Wealdstone. There will also be no LIONESS LINE service between Willesden Junction and Watford Junction.",
+      "severity": "Part Closure",
       "source_created": "0001-01-01T00:00:00"
     },
-    "circle:text:a1099579f6415e8f": {
+    "bakerloo:text:cd1c7cb0be079ff3": {
       "category": "other",
-      "first_seen": "2026-11-08T01:54:17Z",
-      "issue_key": "circle:text:a1099579f6415e8f",
-      "line_id": "circle",
-      "line_name": "Circle",
-      "reason": "Circle Line: Service will resume later this morning.",
-      "severity": "Service Closed",
+      "first_seen": "2026-11-08T05:48:55Z",
+      "issue_key": "bakerloo:text:cd1c7cb0be079ff3",
+      "line_id": "bakerloo",
+      "line_name": "Bakerloo",
+      "reason": "Bakerloo Line: No service between Queen's Park and Harrow & Wealdstone while we fix infrastructure damage at Harlesden. Tickets are being accepted on London Buses. GOOD SERVICE on the rest of the line.",
+      "severity": "Part Suspended",
       "source_created": "0001-01-01T00:00:00"
     },
-    "district:text:468f4f04f34d8411": {
+    "lioness:text:d268bff385439ae6": {
       "category": "other",
-      "first_seen": "2026-11-08T01:54:17Z",
-      "issue_key": "district:text:468f4f04f34d8411",
-      "line_id": "district",
-      "line_name": "District",
-      "reason": "District Line: Service will resume later this morning.",
-      "severity": "Service Closed",
-      "source_created": "0001-01-01T00:00:00"
-    },
-    "dlr:text:fb244db083a3f0ff": {
-      "category": "other",
-      "first_seen": "2026-11-08T01:54:17Z",
-      "issue_key": "dlr:text:fb244db083a3f0ff",
-      "line_id": "dlr",
-      "line_name": "DLR",
-      "reason": "Docklands Light Railway: Service will resume later this morning.",
-      "severity": "Service Closed",
-      "source_created": "0001-01-01T00:00:00"
-    },
-    "elizabeth:text:85644759b2256fee": {
-      "category": "other",
-      "first_seen": "2026-11-08T01:54:17Z",
-      "issue_key": "elizabeth:text:85644759b2256fee",
-      "line_id": "elizabeth",
-      "line_name": "Elizabeth line",
-      "reason": "Service will resume later this morning.",
-      "severity": "Service Closed",
-      "source_created": "0001-01-01T00:00:00"
-    },
-    "hammersmith-city:text:b560078b35a5fd17": {
-      "category": "other",
-      "first_seen": "2026-11-08T01:54:17Z",
-      "issue_key": "hammersmith-city:text:b560078b35a5fd17",
-      "line_id": "hammersmith-city",
-      "line_name": "Hammersmith & City",
-      "reason": "Hammersmith and City Line: Service will resume later this morning.",
-      "severity": "Service Closed",
-      "source_created": "0001-01-01T00:00:00"
-    },
-    "liberty:text:19134079f5c98ab7": {
-      "category": "other",
-      "first_seen": "2026-11-08T01:54:17Z",
-      "issue_key": "liberty:text:19134079f5c98ab7",
-      "line_id": "liberty",
-      "line_name": "Liberty",
-      "reason": "Liberty Line: Service will resume later this morning.",
-      "severity": "Service Closed",
-      "source_created": "0001-01-01T00:00:00"
-    },
-    "lioness:text:cef467b09e107836": {
-      "category": "planned engineering",
-      "first_seen": "2026-11-08T01:54:17Z",
-      "issue_key": "lioness:text:cef467b09e107836",
+      "first_seen": "2026-11-08T05:48:55Z",
+      "issue_key": "lioness:text:d268bff385439ae6",
       "line_id": "lioness",
       "line_name": "Lioness",
-      "reason": "Lioness Line: Service will resume later this morning. However, there will be no service between Watford Junction and Willesden Junction due to planned engineering work.",
-      "severity": "Service Closed",
-      "source_created": "0001-01-01T00:00:00"
-    },
-    "metropolitan:text:4b366f757f8f5a28": {
-      "category": "other",
-      "first_seen": "2026-11-08T01:54:17Z",
-      "issue_key": "metropolitan:text:4b366f757f8f5a28",
-      "line_id": "metropolitan",
-      "line_name": "Metropolitan",
-      "reason": "Metropolitan Line: Service will resume later this morning.",
-      "severity": "Service Closed",
-      "source_created": "0001-01-01T00:00:00"
-    },
-    "mildmay:text:5c9a73e8f02e0fd8": {
-      "category": "planned engineering",
-      "first_seen": "2026-11-08T01:54:17Z",
-      "issue_key": "mildmay:text:5c9a73e8f02e0fd8",
-      "line_id": "mildmay",
-      "line_name": "Mildmay",
-      "reason": "Mildmay Line: Service will resume later this morning. However, there will be no service between Willesden Junction and Clapham Junction due to planned engineering work.",
-      "severity": "Service Closed",
+      "reason": "LIONESS LINE: Sunday 8 November, until approx. 1300, no service between Willesden Junction and Watford Junction.",
+      "severity": "Part Closure",
       "source_created": "0001-01-01T00:00:00"
     },
     "mildmay:text:6bf6aaa0f776d791": {
@@ -110,16 +40,6 @@
       "severity": "Part Closure",
       "source_created": "0001-01-01T00:00:00"
     },
-    "suffragette:text:0167217c9f93fe18": {
-      "category": "other",
-      "first_seen": "2026-11-08T01:54:17Z",
-      "issue_key": "suffragette:text:0167217c9f93fe18",
-      "line_id": "suffragette",
-      "line_name": "Suffragette",
-      "reason": "Suffragette Line: Service will resume later this morning. However, there will be no service between South Tottenham and Barking Riverside, until the end of service on Tuesday 10 November, due to an operational incident. A reduced service is operating on the rest of the line. Trains will operate every thirty minutes in either direction, departing Gospel Oak at xx:09 and xx:39 and departing South Tottenham at xx:13 and xx:43. London Underground and London Buses are accepting tickets via any reasonable routes.",
-      "severity": "Service Closed",
-      "source_created": "0001-01-01T00:00:00"
-    },
     "suffragette:text:8ef9fd6d61cf1006": {
       "category": "other",
       "first_seen": "2026-11-01T13:39:27Z",
@@ -130,24 +50,14 @@
       "severity": "Part Closure",
       "source_created": "0001-01-01T00:00:00"
     },
-    "tram:text:ab9d7a64f14b787b": {
+    "waterloo-city:text:02da0890c7cbf303": {
       "category": "other",
-      "first_seen": "2026-11-08T01:54:17Z",
-      "issue_key": "tram:text:ab9d7a64f14b787b",
-      "line_id": "tram",
-      "line_name": "Tram",
-      "reason": "London Tramlink: Service will resume later this morning.",
-      "severity": "Service Closed",
-      "source_created": "0001-01-01T00:00:00"
-    },
-    "weaver:text:f2dc8c00c6757e13": {
-      "category": "other",
-      "first_seen": "2026-11-08T01:54:17Z",
-      "issue_key": "weaver:text:f2dc8c00c6757e13",
-      "line_id": "weaver",
-      "line_name": "Weaver",
-      "reason": "Weaver Line: Service will resume later this morning.",
-      "severity": "Service Closed",
+      "first_seen": "2026-11-08T05:48:55Z",
+      "issue_key": "waterloo-city:text:02da0890c7cbf303",
+      "line_id": "waterloo-city",
+      "line_name": "Waterloo & City",
+      "reason": "Waterloo & City line: service operates 06:00 until 00:30, Monday to Friday only. There is no service on Saturdays, Sundays and on bank/public holidays.",
+      "severity": "Planned Closure",
       "source_created": "0001-01-01T00:00:00"
     },
     "windrush:text:d87582011b856e0c": {
@@ -162,6 +72,162 @@
     }
   },
   "history": [
+    {
+      "category": "planned engineering",
+      "duration_seconds": 16149,
+      "first_seen": "2026-11-08T01:19:46Z",
+      "issue_key": "bakerloo:text:2521ee078c33635f",
+      "line_id": "bakerloo",
+      "line_name": "Bakerloo",
+      "reason": "Bakerloo Line: Service will resume later this morning. There will be no service between Queen's Park and Harrow & Wealdstone due to planned engineering work.",
+      "resolved_at": "2026-11-08T05:48:55Z",
+      "severity": "Service Closed",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "other",
+      "duration_seconds": 14078,
+      "first_seen": "2026-11-08T01:54:17Z",
+      "issue_key": "circle:text:a1099579f6415e8f",
+      "line_id": "circle",
+      "line_name": "Circle",
+      "reason": "Circle Line: Service will resume later this morning.",
+      "resolved_at": "2026-11-08T05:48:55Z",
+      "severity": "Service Closed",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "other",
+      "duration_seconds": 14078,
+      "first_seen": "2026-11-08T01:54:17Z",
+      "issue_key": "district:text:468f4f04f34d8411",
+      "line_id": "district",
+      "line_name": "District",
+      "reason": "District Line: Service will resume later this morning.",
+      "resolved_at": "2026-11-08T05:48:55Z",
+      "severity": "Service Closed",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "other",
+      "duration_seconds": 14078,
+      "first_seen": "2026-11-08T01:54:17Z",
+      "issue_key": "dlr:text:fb244db083a3f0ff",
+      "line_id": "dlr",
+      "line_name": "DLR",
+      "reason": "Docklands Light Railway: Service will resume later this morning.",
+      "resolved_at": "2026-11-08T05:48:55Z",
+      "severity": "Service Closed",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "other",
+      "duration_seconds": 14078,
+      "first_seen": "2026-11-08T01:54:17Z",
+      "issue_key": "elizabeth:text:85644759b2256fee",
+      "line_id": "elizabeth",
+      "line_name": "Elizabeth line",
+      "reason": "Service will resume later this morning.",
+      "resolved_at": "2026-11-08T05:48:55Z",
+      "severity": "Service Closed",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "other",
+      "duration_seconds": 14078,
+      "first_seen": "2026-11-08T01:54:17Z",
+      "issue_key": "hammersmith-city:text:b560078b35a5fd17",
+      "line_id": "hammersmith-city",
+      "line_name": "Hammersmith & City",
+      "reason": "Hammersmith and City Line: Service will resume later this morning.",
+      "resolved_at": "2026-11-08T05:48:55Z",
+      "severity": "Service Closed",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "other",
+      "duration_seconds": 14078,
+      "first_seen": "2026-11-08T01:54:17Z",
+      "issue_key": "liberty:text:19134079f5c98ab7",
+      "line_id": "liberty",
+      "line_name": "Liberty",
+      "reason": "Liberty Line: Service will resume later this morning.",
+      "resolved_at": "2026-11-08T05:48:55Z",
+      "severity": "Service Closed",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "planned engineering",
+      "duration_seconds": 14078,
+      "first_seen": "2026-11-08T01:54:17Z",
+      "issue_key": "lioness:text:cef467b09e107836",
+      "line_id": "lioness",
+      "line_name": "Lioness",
+      "reason": "Lioness Line: Service will resume later this morning. However, there will be no service between Watford Junction and Willesden Junction due to planned engineering work.",
+      "resolved_at": "2026-11-08T05:48:55Z",
+      "severity": "Service Closed",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "other",
+      "duration_seconds": 14078,
+      "first_seen": "2026-11-08T01:54:17Z",
+      "issue_key": "metropolitan:text:4b366f757f8f5a28",
+      "line_id": "metropolitan",
+      "line_name": "Metropolitan",
+      "reason": "Metropolitan Line: Service will resume later this morning.",
+      "resolved_at": "2026-11-08T05:48:55Z",
+      "severity": "Service Closed",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "planned engineering",
+      "duration_seconds": 14078,
+      "first_seen": "2026-11-08T01:54:17Z",
+      "issue_key": "mildmay:text:5c9a73e8f02e0fd8",
+      "line_id": "mildmay",
+      "line_name": "Mildmay",
+      "reason": "Mildmay Line: Service will resume later this morning. However, there will be no service between Willesden Junction and Clapham Junction due to planned engineering work.",
+      "resolved_at": "2026-11-08T05:48:55Z",
+      "severity": "Service Closed",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "other",
+      "duration_seconds": 14078,
+      "first_seen": "2026-11-08T01:54:17Z",
+      "issue_key": "suffragette:text:0167217c9f93fe18",
+      "line_id": "suffragette",
+      "line_name": "Suffragette",
+      "reason": "Suffragette Line: Service will resume later this morning. However, there will be no service between South Tottenham and Barking Riverside, until the end of service on Tuesday 10 November, due to an operational incident. A reduced service is operating on the rest of the line. Trains will operate every thirty minutes in either direction, departing Gospel Oak at xx:09 and xx:39 and departing South Tottenham at xx:13 and xx:43. London Underground and London Buses are accepting tickets via any reasonable routes.",
+      "resolved_at": "2026-11-08T05:48:55Z",
+      "severity": "Service Closed",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "other",
+      "duration_seconds": 14078,
+      "first_seen": "2026-11-08T01:54:17Z",
+      "issue_key": "tram:text:ab9d7a64f14b787b",
+      "line_id": "tram",
+      "line_name": "Tram",
+      "reason": "London Tramlink: Service will resume later this morning.",
+      "resolved_at": "2026-11-08T05:48:55Z",
+      "severity": "Service Closed",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "other",
+      "duration_seconds": 14078,
+      "first_seen": "2026-11-08T01:54:17Z",
+      "issue_key": "weaver:text:f2dc8c00c6757e13",
+      "line_id": "weaver",
+      "line_name": "Weaver",
+      "reason": "Weaver Line: Service will resume later this morning.",
+      "resolved_at": "2026-11-08T05:48:55Z",
+      "severity": "Service Closed",
+      "source_created": "0001-01-01T00:00:00"
+    },
     {
       "category": "other",
       "duration_seconds": 27523,
@@ -35203,6 +35269,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-11-08T01:54:17Z",
+  "updated_at": "2026-11-08T05:48:55Z",
   "version": 1
 }
