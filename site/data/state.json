@@ -1,15 +1,5 @@
 {
   "active": {
-    "bakerloo:text:441236c7b38e407e": {
-      "category": "other",
-      "first_seen": "2026-11-09T08:41:29Z",
-      "issue_key": "bakerloo:text:441236c7b38e407e",
-      "line_id": "bakerloo",
-      "line_name": "Bakerloo",
-      "reason": "Bakerloo Line: Minor delays due to train cancellations.",
-      "severity": "Minor Delays",
-      "source_created": "0001-01-01T00:00:00"
-    },
     "central:text:a3825a5750048d40": {
       "category": "other",
       "first_seen": "2026-11-09T08:41:29Z",
@@ -30,33 +20,33 @@
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "metropolitan:text:39cb690582736623": {
+    "elizabeth:text:aa44c3604c9136e6": {
       "category": "other",
-      "first_seen": "2026-11-09T08:41:29Z",
-      "issue_key": "metropolitan:text:39cb690582736623",
+      "first_seen": "2026-11-09T09:43:22Z",
+      "issue_key": "elizabeth:text:aa44c3604c9136e6",
+      "line_id": "elizabeth",
+      "line_name": "Elizabeth line",
+      "reason": "Minor delays between Ilford and Shenfield while we fix a signal system failure in the Gidea Park area. GOOD SERVICE on the rest of line.",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "metropolitan:text:451ce3aa38d80b39": {
+      "category": "other",
+      "first_seen": "2026-11-09T09:43:22Z",
+      "issue_key": "metropolitan:text:451ce3aa38d80b39",
       "line_id": "metropolitan",
       "line_name": "Metropolitan",
-      "reason": "Metropolitan Line: Part Suspended while emergency services deal with a casualty on the track. Good service on the rest of the line.",
+      "reason": "Metropolitan Line: No service between Baker Street and Uxbridge/Watford/Chesham/Amersham while emergency services deal with a casualty on the track. SEVERE DELAYS on the rest of the line. Tickets will be accepted on London Buses, Lioness Line, London Northwestern Railway, Thameslink.",
       "severity": "Part Suspended",
       "source_created": "0001-01-01T00:00:00"
     },
-    "mildmay:text:42e725cecea6bcb2": {
-      "category": "signal failure",
-      "first_seen": "2026-11-09T08:41:29Z",
-      "issue_key": "mildmay:text:42e725cecea6bcb2",
-      "line_id": "mildmay",
-      "line_name": "Mildmay",
-      "reason": "Mildmay Line: Severe delays between Willesden Junction and Clapham Junction due to an earlier signal failure in the Shepherd's Bush area. GOOD SERVICE on the rest of the line.",
-      "severity": "Severe Delays",
-      "source_created": "0001-01-01T00:00:00"
-    },
-    "northern:text:be4338503e46f597": {
+    "northern:text:6a7ed0f85cdacfe9": {
       "category": "planned engineering",
-      "first_seen": "2026-11-09T08:41:29Z",
-      "issue_key": "northern:text:be4338503e46f597",
+      "first_seen": "2026-11-09T09:43:22Z",
+      "issue_key": "northern:text:6a7ed0f85cdacfe9",
       "line_id": "northern",
       "line_name": "Northern",
-      "reason": "Northern Line: Severe delays between Edgware and Camden Town, and MINOR DELAYS on the rest of the line following a late finish of engineering work at Camden Town. Tickets are being accepted on London Buses.",
+      "reason": "Northern Line: Minor delays due to a late finish of engineering work at Camden Town.",
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
@@ -79,9 +69,67 @@
       "reason": "Victoria Line: Minor delays due to train cancellations.",
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
+    },
+    "waterloo-city:text:762b2cf749faa543": {
+      "category": "other",
+      "first_seen": "2026-11-09T09:43:22Z",
+      "issue_key": "waterloo-city:text:762b2cf749faa543",
+      "line_id": "waterloo-city",
+      "line_name": "Waterloo & City",
+      "reason": "Waterloo and City Line: Severe delays due to train cancellations.",
+      "severity": "Severe Delays",
+      "source_created": "0001-01-01T00:00:00"
     }
   },
   "history": [
+    {
+      "category": "other",
+      "duration_seconds": 3713,
+      "first_seen": "2026-11-09T08:41:29Z",
+      "issue_key": "bakerloo:text:441236c7b38e407e",
+      "line_id": "bakerloo",
+      "line_name": "Bakerloo",
+      "reason": "Bakerloo Line: Minor delays due to train cancellations.",
+      "resolved_at": "2026-11-09T09:43:22Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "other",
+      "duration_seconds": 3713,
+      "first_seen": "2026-11-09T08:41:29Z",
+      "issue_key": "metropolitan:text:39cb690582736623",
+      "line_id": "metropolitan",
+      "line_name": "Metropolitan",
+      "reason": "Metropolitan Line: Part Suspended while emergency services deal with a casualty on the track. Good service on the rest of the line.",
+      "resolved_at": "2026-11-09T09:43:22Z",
+      "severity": "Part Suspended",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "signal failure",
+      "duration_seconds": 3713,
+      "first_seen": "2026-11-09T08:41:29Z",
+      "issue_key": "mildmay:text:42e725cecea6bcb2",
+      "line_id": "mildmay",
+      "line_name": "Mildmay",
+      "reason": "Mildmay Line: Severe delays between Willesden Junction and Clapham Junction due to an earlier signal failure in the Shepherd's Bush area. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-11-09T09:43:22Z",
+      "severity": "Severe Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "planned engineering",
+      "duration_seconds": 3713,
+      "first_seen": "2026-11-09T08:41:29Z",
+      "issue_key": "northern:text:be4338503e46f597",
+      "line_id": "northern",
+      "line_name": "Northern",
+      "reason": "Northern Line: Severe delays between Edgware and Camden Town, and MINOR DELAYS on the rest of the line following a late finish of engineering work at Camden Town. Tickets are being accepted on London Buses.",
+      "resolved_at": "2026-11-09T09:43:22Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
     {
       "category": "other",
       "duration_seconds": 25054,
@@ -35795,6 +35843,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-11-09T08:41:29Z",
+  "updated_at": "2026-11-09T09:43:22Z",
   "version": 1
 }
