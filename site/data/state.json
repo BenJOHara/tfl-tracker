@@ -1,53 +1,53 @@
 {
   "active": {
-    "central:text:a3825a5750048d40": {
+    "central:text:21b10dcf8720fd67": {
       "category": "other",
-      "first_seen": "2026-11-09T08:41:29Z",
-      "issue_key": "central:text:a3825a5750048d40",
+      "first_seen": "2026-11-09T19:10:54Z",
+      "issue_key": "central:text:21b10dcf8720fd67",
       "line_id": "central",
       "line_name": "Central",
-      "reason": "Central Line: Minor delays between North Acton and West Ruislip westbound only due to an earlier fire near the track at Hanger Lane. GOOD SERVICE on the rest of the line.",
+      "reason": "Central Line: Severe delays between North Acton and Ealing Broadway / West Ruislip and between Leytonstone and Epping / Hainault via Newbury Park due to train cancellations. MINOR DELAYS on the rest of the line. Ticket are being accepted on London Buses, Elizabeth line, Chiltern Railway and Great Western Railway.",
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "district:text:9c09d477e2a85811": {
+    "district:text:56edf85ffa02e1bf": {
       "category": "other",
-      "first_seen": "2026-11-09T08:41:29Z",
-      "issue_key": "district:text:9c09d477e2a85811",
+      "first_seen": "2026-11-09T19:10:54Z",
+      "issue_key": "district:text:56edf85ffa02e1bf",
       "line_id": "district",
       "line_name": "District",
-      "reason": "District Line: Minor delays due to train cancellations.",
+      "reason": "District Line: Severe delays between Upminster and Barking due to train cancellations. MINOR DELAYS on the rest of the line. Tickets are being accepted on London Buses and C2C.",
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "elizabeth:text:aa44c3604c9136e6": {
-      "category": "other",
-      "first_seen": "2026-11-09T09:43:22Z",
-      "issue_key": "elizabeth:text:aa44c3604c9136e6",
-      "line_id": "elizabeth",
-      "line_name": "Elizabeth line",
-      "reason": "Minor delays between Ilford and Shenfield while we fix a signal system failure in the Gidea Park area. GOOD SERVICE on the rest of line.",
+    "jubilee:text:9888b37b92b31ad9": {
+      "category": "train fault",
+      "first_seen": "2026-11-09T19:10:54Z",
+      "issue_key": "jubilee:text:9888b37b92b31ad9",
+      "line_id": "jubilee",
+      "line_name": "Jubilee",
+      "reason": "Jubilee Line: Minor delays due to an earlier faulty train at Canary Wharf.",
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "metropolitan:text:5d533f96ff333645": {
-      "category": "passenger incident",
-      "first_seen": "2026-11-09T10:15:20Z",
-      "issue_key": "metropolitan:text:5d533f96ff333645",
-      "line_id": "metropolitan",
-      "line_name": "Metropolitan",
-      "reason": "Metropolitan Line: Severe delays due to an earlier customer incident. Tickets will be accepted on London Buses, Lioness Line, London Northwestern Railway, Thameslink.",
+    "mildmay:text:db69a94d5c867731": {
+      "category": "person on track",
+      "first_seen": "2026-11-09T19:10:54Z",
+      "issue_key": "mildmay:text:db69a94d5c867731",
+      "line_id": "mildmay",
+      "line_name": "Mildmay",
+      "reason": "Mildmay Line: Severe delays between Willesden Junction and Richmond due to a trespasser on the track at Gunnersbury earlier. London Underground are accepting tickets via any reasonable route. GOOD SERVICE on the rest of the line.",
       "severity": "Severe Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "northern:text:6a7ed0f85cdacfe9": {
-      "category": "planned engineering",
-      "first_seen": "2026-11-09T09:43:22Z",
-      "issue_key": "northern:text:6a7ed0f85cdacfe9",
+    "northern:text:6cf2174219a1eeb1": {
+      "category": "signal failure",
+      "first_seen": "2026-11-09T19:10:54Z",
+      "issue_key": "northern:text:6cf2174219a1eeb1",
       "line_id": "northern",
       "line_name": "Northern",
-      "reason": "Northern Line: Minor delays due to a late finish of engineering work at Camden Town.",
-      "severity": "Minor Delays",
+      "reason": "Northern Line: Severe delays between Camden Town and Battersea Power Station via Charing Cross while we fix a signal failure at Waterloo. Tickets are being accepted on London Buses and Southeastern Railway. GOOD SERVICE on the rest of the line.",
+      "severity": "Severe Delays",
       "source_created": "0001-01-01T00:00:00"
     },
     "suffragette:text:8ef9fd6d61cf1006": {
@@ -59,19 +59,81 @@
       "reason": "Suffragette Line: No service between South Tottenham and Barking Riverside, until the end of service on Tuesday 10 November, due to a operational incident. A reduced service is operating on the rest of the line. Trains will operate every thirty minutes in either direction departing Gospel Oak at xx:09 and xx:39 and departing South Tottenham at xx:13 and xx:43. London Underground and London Buses are accepting tickets via any reasonable routes.",
       "severity": "Part Closure",
       "source_created": "0001-01-01T00:00:00"
-    },
-    "waterloo-city:text:762b2cf749faa543": {
+    }
+  },
+  "history": [
+    {
       "category": "other",
+      "duration_seconds": 37765,
+      "first_seen": "2026-11-09T08:41:29Z",
+      "issue_key": "central:text:a3825a5750048d40",
+      "line_id": "central",
+      "line_name": "Central",
+      "reason": "Central Line: Minor delays between North Acton and West Ruislip westbound only due to an earlier fire near the track at Hanger Lane. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-11-09T19:10:54Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "other",
+      "duration_seconds": 37765,
+      "first_seen": "2026-11-09T08:41:29Z",
+      "issue_key": "district:text:9c09d477e2a85811",
+      "line_id": "district",
+      "line_name": "District",
+      "reason": "District Line: Minor delays due to train cancellations.",
+      "resolved_at": "2026-11-09T19:10:54Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "other",
+      "duration_seconds": 34052,
+      "first_seen": "2026-11-09T09:43:22Z",
+      "issue_key": "elizabeth:text:aa44c3604c9136e6",
+      "line_id": "elizabeth",
+      "line_name": "Elizabeth line",
+      "reason": "Minor delays between Ilford and Shenfield while we fix a signal system failure in the Gidea Park area. GOOD SERVICE on the rest of line.",
+      "resolved_at": "2026-11-09T19:10:54Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "passenger incident",
+      "duration_seconds": 32134,
+      "first_seen": "2026-11-09T10:15:20Z",
+      "issue_key": "metropolitan:text:5d533f96ff333645",
+      "line_id": "metropolitan",
+      "line_name": "Metropolitan",
+      "reason": "Metropolitan Line: Severe delays due to an earlier customer incident. Tickets will be accepted on London Buses, Lioness Line, London Northwestern Railway, Thameslink.",
+      "resolved_at": "2026-11-09T19:10:54Z",
+      "severity": "Severe Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "planned engineering",
+      "duration_seconds": 34052,
+      "first_seen": "2026-11-09T09:43:22Z",
+      "issue_key": "northern:text:6a7ed0f85cdacfe9",
+      "line_id": "northern",
+      "line_name": "Northern",
+      "reason": "Northern Line: Minor delays due to a late finish of engineering work at Camden Town.",
+      "resolved_at": "2026-11-09T19:10:54Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "other",
+      "duration_seconds": 34052,
       "first_seen": "2026-11-09T09:43:22Z",
       "issue_key": "waterloo-city:text:762b2cf749faa543",
       "line_id": "waterloo-city",
       "line_name": "Waterloo & City",
       "reason": "Waterloo and City Line: Minor delays due to train cancellations",
+      "resolved_at": "2026-11-09T19:10:54Z",
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
-    }
-  },
-  "history": [
+    },
     {
       "category": "other",
       "duration_seconds": 1918,
@@ -35857,6 +35919,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-11-09T10:15:20Z",
+  "updated_at": "2026-11-09T19:10:54Z",
   "version": 1
 }
