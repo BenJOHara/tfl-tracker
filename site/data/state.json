@@ -30,14 +30,14 @@
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "metropolitan:text:451ce3aa38d80b39": {
-      "category": "other",
-      "first_seen": "2026-11-09T09:43:22Z",
-      "issue_key": "metropolitan:text:451ce3aa38d80b39",
+    "metropolitan:text:5d533f96ff333645": {
+      "category": "passenger incident",
+      "first_seen": "2026-11-09T10:15:20Z",
+      "issue_key": "metropolitan:text:5d533f96ff333645",
       "line_id": "metropolitan",
       "line_name": "Metropolitan",
-      "reason": "Metropolitan Line: No service between Baker Street and Uxbridge/Watford/Chesham/Amersham while emergency services deal with a casualty on the track. SEVERE DELAYS on the rest of the line. Tickets will be accepted on London Buses, Lioness Line, London Northwestern Railway, Thameslink.",
-      "severity": "Part Suspended",
+      "reason": "Metropolitan Line: Severe delays due to an earlier customer incident. Tickets will be accepted on London Buses, Lioness Line, London Northwestern Railway, Thameslink.",
+      "severity": "Severe Delays",
       "source_created": "0001-01-01T00:00:00"
     },
     "northern:text:6a7ed0f85cdacfe9": {
@@ -60,28 +60,42 @@
       "severity": "Part Closure",
       "source_created": "0001-01-01T00:00:00"
     },
-    "victoria:text:02e0850cdf11ef25": {
-      "category": "other",
-      "first_seen": "2026-11-09T08:41:29Z",
-      "issue_key": "victoria:text:02e0850cdf11ef25",
-      "line_id": "victoria",
-      "line_name": "Victoria",
-      "reason": "Victoria Line: Minor delays due to train cancellations.",
-      "severity": "Minor Delays",
-      "source_created": "0001-01-01T00:00:00"
-    },
     "waterloo-city:text:762b2cf749faa543": {
       "category": "other",
       "first_seen": "2026-11-09T09:43:22Z",
       "issue_key": "waterloo-city:text:762b2cf749faa543",
       "line_id": "waterloo-city",
       "line_name": "Waterloo & City",
-      "reason": "Waterloo and City Line: Severe delays due to train cancellations.",
-      "severity": "Severe Delays",
+      "reason": "Waterloo and City Line: Minor delays due to train cancellations",
+      "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     }
   },
   "history": [
+    {
+      "category": "other",
+      "duration_seconds": 1918,
+      "first_seen": "2026-11-09T09:43:22Z",
+      "issue_key": "metropolitan:text:451ce3aa38d80b39",
+      "line_id": "metropolitan",
+      "line_name": "Metropolitan",
+      "reason": "Metropolitan Line: No service between Baker Street and Uxbridge/Watford/Chesham/Amersham while emergency services deal with a casualty on the track. SEVERE DELAYS on the rest of the line. Tickets will be accepted on London Buses, Lioness Line, London Northwestern Railway, Thameslink.",
+      "resolved_at": "2026-11-09T10:15:20Z",
+      "severity": "Part Suspended",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "other",
+      "duration_seconds": 5631,
+      "first_seen": "2026-11-09T08:41:29Z",
+      "issue_key": "victoria:text:02e0850cdf11ef25",
+      "line_id": "victoria",
+      "line_name": "Victoria",
+      "reason": "Victoria Line: Minor delays due to train cancellations.",
+      "resolved_at": "2026-11-09T10:15:20Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
     {
       "category": "other",
       "duration_seconds": 3713,
@@ -35843,6 +35857,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-11-09T09:43:22Z",
+  "updated_at": "2026-11-09T10:15:20Z",
   "version": 1
 }
