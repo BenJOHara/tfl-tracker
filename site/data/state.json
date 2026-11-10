@@ -10,13 +10,23 @@
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "district:text:34fd278ca48b248b": {
+    "district:text:6db40b6e5000a797": {
       "category": "signal failure",
-      "first_seen": "2026-11-10T17:30:37Z",
-      "issue_key": "district:text:34fd278ca48b248b",
+      "first_seen": "2026-11-10T18:11:29Z",
+      "issue_key": "district:text:6db40b6e5000a797",
       "line_id": "district",
       "line_name": "District",
-      "reason": "District Line: Severe delays between Turnham Green and Richmond due to a signal failure at Shepherd's Bush. Tickets are being accepted on London Buses, Mildmay line and South Western Railway services. MINOR DELAYS between Tower Hill and Upminster due to train cancellations. GOOD SERVICE on the rest of the line.",
+      "reason": "District Line: Severe delays between Earl's Court and Richmond / Ealing Broadway due to a signal failure at Shepherd's Bush. MINOR DELAYS on the rest of the line due to train cancellations. Tickets are being accepted on London Buses, Mildmay line, C2C and South Western Railway services.",
+      "severity": "Severe Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "jubilee:text:57925a2ef9e26722": {
+      "category": "other",
+      "first_seen": "2026-11-10T18:11:29Z",
+      "issue_key": "jubilee:text:57925a2ef9e26722",
+      "line_id": "jubilee",
+      "line_name": "Jubilee",
+      "reason": "Jubilee Line: Minor delays due to train cancellations.",
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
@@ -30,6 +40,16 @@
       "severity": "Part Suspended",
       "source_created": "0001-01-01T00:00:00"
     },
+    "northern:text:cce1f44d2d49f0ee": {
+      "category": "points failure",
+      "first_seen": "2026-11-10T18:11:29Z",
+      "issue_key": "northern:text:cce1f44d2d49f0ee",
+      "line_id": "northern",
+      "line_name": "Northern",
+      "reason": "Northern Line: Minor delays between Kennington and Camden Town via Charing Cross northbound only, while we fix a points failure at Kennington. GOOD SERVICE on the rest of the line.",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
     "suffragette:text:8ef9fd6d61cf1006": {
       "category": "other",
       "first_seen": "2026-11-01T13:39:27Z",
@@ -40,18 +60,42 @@
       "severity": "Part Closure",
       "source_created": "0001-01-01T00:00:00"
     },
-    "victoria:text:a89d6dcf8842bee2": {
+    "victoria:text:94ce7608634ebcba": {
       "category": "track fault",
+      "first_seen": "2026-11-10T18:11:29Z",
+      "issue_key": "victoria:text:94ce7608634ebcba",
+      "line_id": "victoria",
+      "line_name": "Victoria",
+      "reason": "Victoria Line: Severe delays while we fix a track fault at Brixton. Tickets are being accepted on London Buses, London Overground, Great Northern Railway, Thameslink, Greater Anglia, South Western Railway and Southeastern Railway services.",
+      "severity": "Severe Delays",
+      "source_created": "0001-01-01T00:00:00"
+    }
+  },
+  "history": [
+    {
+      "category": "signal failure",
+      "duration_seconds": 2452,
+      "first_seen": "2026-11-10T17:30:37Z",
+      "issue_key": "district:text:34fd278ca48b248b",
+      "line_id": "district",
+      "line_name": "District",
+      "reason": "District Line: Severe delays between Turnham Green and Richmond due to a signal failure at Shepherd's Bush. Tickets are being accepted on London Buses, Mildmay line and South Western Railway services. MINOR DELAYS between Tower Hill and Upminster due to train cancellations. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-11-10T18:11:29Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "track fault",
+      "duration_seconds": 2452,
       "first_seen": "2026-11-10T17:30:37Z",
       "issue_key": "victoria:text:a89d6dcf8842bee2",
       "line_id": "victoria",
       "line_name": "Victoria",
       "reason": "Victoria Line: Minor delays while we fix a track fault at Brixton.",
+      "resolved_at": "2026-11-10T18:11:29Z",
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
-    }
-  },
-  "history": [
+    },
     {
       "category": "signal failure",
       "duration_seconds": 23377,
@@ -36329,6 +36373,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-11-10T17:30:37Z",
+  "updated_at": "2026-11-10T18:11:29Z",
   "version": 1
 }
