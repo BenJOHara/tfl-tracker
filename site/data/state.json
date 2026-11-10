@@ -1,13 +1,23 @@
 {
   "active": {
-    "central:text:23c62521d4237097": {
-      "category": "other",
-      "first_seen": "2026-11-10T09:50:28Z",
-      "issue_key": "central:text:23c62521d4237097",
-      "line_id": "central",
-      "line_name": "Central",
-      "reason": "Central Line: Minor delays between North Acton and Ealing Broadway / West Ruislip and between Leytonstone and Epping / Hainault via Newbury Park due to train cancellations. GOOD SERVICE on the rest of the line.",
+    "district:text:11d40f615cb86154": {
+      "category": "signal failure",
+      "first_seen": "2026-11-10T11:01:00Z",
+      "issue_key": "district:text:11d40f615cb86154",
+      "line_id": "district",
+      "line_name": "District",
+      "reason": "District Line: Minor delays between Turnham Green and Richmond while we fix a signal failure at Shepherd's Bush. GOOD SERVICE on the rest of the line.",
       "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "mildmay:text:06b7c2f3d4274ad8": {
+      "category": "signal failure",
+      "first_seen": "2026-11-10T11:01:00Z",
+      "issue_key": "mildmay:text:06b7c2f3d4274ad8",
+      "line_id": "mildmay",
+      "line_name": "Mildmay",
+      "reason": "Mildmay Line: Severe delays between Willesden Junction and Clapham Junction while we fix a signal failure at Shepherd's Bush. GOOD SERVICE on the rest of the line. Tickets are being accepted on London Underground and London Buses via any reasonable route.",
+      "severity": "Severe Delays",
       "source_created": "0001-01-01T00:00:00"
     },
     "suffragette:text:8ef9fd6d61cf1006": {
@@ -22,6 +32,18 @@
     }
   },
   "history": [
+    {
+      "category": "other",
+      "duration_seconds": 4232,
+      "first_seen": "2026-11-10T09:50:28Z",
+      "issue_key": "central:text:23c62521d4237097",
+      "line_id": "central",
+      "line_name": "Central",
+      "reason": "Central Line: Minor delays between North Acton and Ealing Broadway / West Ruislip and between Leytonstone and Epping / Hainault via Newbury Park due to train cancellations. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-11-10T11:01:00Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
     {
       "category": "other",
       "duration_seconds": 2372,
@@ -36263,6 +36285,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-11-10T10:30:00Z",
+  "updated_at": "2026-11-10T11:01:00Z",
   "version": 1
 }
