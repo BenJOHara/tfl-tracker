@@ -1,23 +1,33 @@
 {
   "active": {
-    "district:text:11d40f615cb86154": {
-      "category": "signal failure",
-      "first_seen": "2026-11-10T11:01:00Z",
-      "issue_key": "district:text:11d40f615cb86154",
-      "line_id": "district",
-      "line_name": "District",
-      "reason": "District Line: Minor delays between Turnham Green and Richmond while we fix a signal failure at Shepherd's Bush. GOOD SERVICE on the rest of the line.",
+    "central:text:6d0af7c9d44f714a": {
+      "category": "other",
+      "first_seen": "2026-11-10T17:30:37Z",
+      "issue_key": "central:text:6d0af7c9d44f714a",
+      "line_id": "central",
+      "line_name": "Central",
+      "reason": "Central Line: Minor delays due to train cancellations.",
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "mildmay:text:06b7c2f3d4274ad8": {
+    "district:text:34fd278ca48b248b": {
       "category": "signal failure",
-      "first_seen": "2026-11-10T11:01:00Z",
-      "issue_key": "mildmay:text:06b7c2f3d4274ad8",
+      "first_seen": "2026-11-10T17:30:37Z",
+      "issue_key": "district:text:34fd278ca48b248b",
+      "line_id": "district",
+      "line_name": "District",
+      "reason": "District Line: Severe delays between Turnham Green and Richmond due to a signal failure at Shepherd's Bush. Tickets are being accepted on London Buses, Mildmay line and South Western Railway services. MINOR DELAYS between Tower Hill and Upminster due to train cancellations. GOOD SERVICE on the rest of the line.",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "mildmay:text:0a9e41ec6772da22": {
+      "category": "signal failure",
+      "first_seen": "2026-11-10T17:30:37Z",
+      "issue_key": "mildmay:text:0a9e41ec6772da22",
       "line_id": "mildmay",
       "line_name": "Mildmay",
-      "reason": "Mildmay Line: Severe delays between Willesden Junction and Clapham Junction while we fix a signal failure at Shepherd's Bush. GOOD SERVICE on the rest of the line. Tickets are being accepted on London Underground and London Buses via any reasonable route.",
-      "severity": "Severe Delays",
+      "reason": "Mildmay Line: No service between Willesden Junction and Shepherd's Bush while we fix a signal failure at Shepherd's Bush. Tickets are being accepted on London Underground and London Buses via any reasonable route. MINOR DELAYS on the rest of the line.",
+      "severity": "Part Suspended",
       "source_created": "0001-01-01T00:00:00"
     },
     "suffragette:text:8ef9fd6d61cf1006": {
@@ -29,9 +39,43 @@
       "reason": "Suffragette Line: No service between South Tottenham and Barking Riverside, until the end of service on Tuesday 10 November, due to a operational incident. A reduced service is operating on the rest of the line. Trains will operate every thirty minutes in either direction departing Gospel Oak at xx:09 and xx:39 and departing South Tottenham at xx:13 and xx:43. London Underground and London Buses are accepting tickets via any reasonable routes.",
       "severity": "Part Closure",
       "source_created": "0001-01-01T00:00:00"
+    },
+    "victoria:text:a89d6dcf8842bee2": {
+      "category": "track fault",
+      "first_seen": "2026-11-10T17:30:37Z",
+      "issue_key": "victoria:text:a89d6dcf8842bee2",
+      "line_id": "victoria",
+      "line_name": "Victoria",
+      "reason": "Victoria Line: Minor delays while we fix a track fault at Brixton.",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
     }
   },
   "history": [
+    {
+      "category": "signal failure",
+      "duration_seconds": 23377,
+      "first_seen": "2026-11-10T11:01:00Z",
+      "issue_key": "district:text:11d40f615cb86154",
+      "line_id": "district",
+      "line_name": "District",
+      "reason": "District Line: Minor delays between Turnham Green and Richmond while we fix a signal failure at Shepherd's Bush. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-11-10T17:30:37Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "signal failure",
+      "duration_seconds": 23377,
+      "first_seen": "2026-11-10T11:01:00Z",
+      "issue_key": "mildmay:text:06b7c2f3d4274ad8",
+      "line_id": "mildmay",
+      "line_name": "Mildmay",
+      "reason": "Mildmay Line: Severe delays between Willesden Junction and Clapham Junction while we fix a signal failure at Shepherd's Bush. GOOD SERVICE on the rest of the line. Tickets are being accepted on London Underground and London Buses via any reasonable route.",
+      "resolved_at": "2026-11-10T17:30:37Z",
+      "severity": "Severe Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
     {
       "category": "other",
       "duration_seconds": 4232,
@@ -36285,6 +36329,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-11-10T11:01:00Z",
+  "updated_at": "2026-11-10T17:30:37Z",
   "version": 1
 }
