@@ -1,15 +1,5 @@
 {
   "active": {
-    "district:text:dc94eb5efa58f8b0": {
-      "category": "signal failure",
-      "first_seen": "2026-11-11T23:36:51Z",
-      "issue_key": "district:text:dc94eb5efa58f8b0",
-      "line_id": "district",
-      "line_name": "District",
-      "reason": "District Line: Severe delays while we fix a signal failure at Stamford Brook and due to train cancellations. Tickets are being accepted London Buses, Mildmay line, Elizabeth line and South Western Railway via any reasonable route.",
-      "severity": "Severe Delays",
-      "source_created": "0001-01-01T00:00:00"
-    },
     "waterloo-city:text:0faebd0ea99ebd1b": {
       "category": "other",
       "first_seen": "2026-11-12T00:34:31Z",
@@ -19,29 +9,45 @@
       "reason": "Waterloo and City Line: Service will resume at 06:00.",
       "severity": "Service Closed",
       "source_created": "0001-01-01T00:00:00"
+    }
+  },
+  "history": [
+    {
+      "category": "signal failure",
+      "duration_seconds": 16850,
+      "first_seen": "2026-11-11T23:36:51Z",
+      "issue_key": "district:text:dc94eb5efa58f8b0",
+      "line_id": "district",
+      "line_name": "District",
+      "reason": "District Line: Severe delays while we fix a signal failure at Stamford Brook and due to train cancellations. Tickets are being accepted London Buses, Mildmay line, Elizabeth line and South Western Railway via any reasonable route.",
+      "resolved_at": "2026-11-12T04:17:41Z",
+      "severity": "Severe Delays",
+      "source_created": "0001-01-01T00:00:00"
     },
-    "weaver:text:82ba6a4656d31c32": {
+    {
       "category": "other",
+      "duration_seconds": 16850,
       "first_seen": "2026-11-11T23:36:51Z",
       "issue_key": "weaver:text:82ba6a4656d31c32",
       "line_id": "weaver",
       "line_name": "Weaver",
       "reason": "WEAVER LINE: Monday 9, Tuesday 10, Wednesday 11 and Thursday 12 November, after 2245 each evening, no service between Hackney Downs and Chingford. Last through trains operate at 2231 from Liverpool Street and at 2253 from Chingford. Replacement bus service L3 operates between Hackney Downs and Chingford via Clapton, St James Street, Walthamstow Central, Wood Street and Highams Park. The last three northbound buses operate from Liverpool Street at 0014 0044 and 0114 and also call at Bethnal Green, Cambridge Heath and London Fields (Mare Street)",
+      "resolved_at": "2026-11-12T04:17:41Z",
       "severity": "Part Closure",
       "source_created": "0001-01-01T00:00:00"
     },
-    "windrush:text:b8c0f4947aa6b520": {
+    {
       "category": "points failure",
+      "duration_seconds": 16850,
       "first_seen": "2026-11-11T23:36:51Z",
       "issue_key": "windrush:text:b8c0f4947aa6b520",
       "line_id": "windrush",
       "line_name": "Windrush",
       "reason": "Windrush Line: Severe Delays between Sydenham and West Croydon due to an earlier points failure at West Croydon. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-11-12T04:17:41Z",
       "severity": "Severe Delays",
       "source_created": "0001-01-01T00:00:00"
-    }
-  },
-  "history": [
+    },
     {
       "category": "train fault",
       "duration_seconds": 3460,
@@ -36931,6 +36937,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-11-12T00:34:31Z",
+  "updated_at": "2026-11-12T04:17:41Z",
   "version": 1
 }
