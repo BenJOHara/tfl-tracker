@@ -1,27 +1,51 @@
 {
   "active": {
-    "central:text:0598b6a4314229ec": {
+    "central:text:6d0af7c9d44f714a": {
       "category": "other",
-      "first_seen": "2026-11-12T13:05:30Z",
-      "issue_key": "central:text:0598b6a4314229ec",
+      "first_seen": "2026-11-12T16:13:04Z",
+      "issue_key": "central:text:6d0af7c9d44f714a",
       "line_id": "central",
       "line_name": "Central",
-      "reason": "Central Line: Minor delays between Leytonstone and Epping while we fix a faulty track at South Woodford. GOOD SERVICE on the rest of line.",
+      "reason": "Central Line: Minor delays due to train cancellations.",
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "northern:text:685dc80f49bff81b": {
-      "category": "other",
-      "first_seen": "2026-11-12T13:05:30Z",
-      "issue_key": "northern:text:685dc80f49bff81b",
+    "northern:text:d803c6b82eda2222": {
+      "category": "points failure",
+      "first_seen": "2026-11-12T16:13:04Z",
+      "issue_key": "northern:text:d803c6b82eda2222",
       "line_id": "northern",
       "line_name": "Northern",
-      "reason": "Northern Line: No service between Camden Town and Edgware while emergency services deal with a casualty on the track. Tickets being accepted by London Buses. SEVERE DELAYS on the rest of the line.",
+      "reason": "Northern Line: No service between Camden Town and Battersea Power Station while we fix a points failure at Mornington Crescent. SEVERE DELAYS on the rest of the line. Tickets being accepted by London Buses, London Trams, Southeastern, Thameslink and South Western Railway services via any reasonable route.",
       "severity": "Part Suspended",
       "source_created": "0001-01-01T00:00:00"
     }
   },
   "history": [
+    {
+      "category": "other",
+      "duration_seconds": 11254,
+      "first_seen": "2026-11-12T13:05:30Z",
+      "issue_key": "central:text:0598b6a4314229ec",
+      "line_id": "central",
+      "line_name": "Central",
+      "reason": "Central Line: Minor delays between Leytonstone and Epping while we fix a faulty track at South Woodford. GOOD SERVICE on the rest of line.",
+      "resolved_at": "2026-11-12T16:13:04Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "other",
+      "duration_seconds": 11254,
+      "first_seen": "2026-11-12T13:05:30Z",
+      "issue_key": "northern:text:685dc80f49bff81b",
+      "line_id": "northern",
+      "line_name": "Northern",
+      "reason": "Northern Line: No service between Camden Town and Edgware while emergency services deal with a casualty on the track. Tickets being accepted by London Buses. SEVERE DELAYS on the rest of the line.",
+      "resolved_at": "2026-11-12T16:13:04Z",
+      "severity": "Part Suspended",
+      "source_created": "0001-01-01T00:00:00"
+    },
     {
       "category": "other",
       "duration_seconds": 19502,
@@ -37043,6 +37067,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-11-12T13:05:30Z",
+  "updated_at": "2026-11-12T16:13:04Z",
   "version": 1
 }
