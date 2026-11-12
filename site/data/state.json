@@ -59,6 +59,16 @@
       "reason": "Victoria Line: Minor delays due to train cancellations.",
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
+    },
+    "windrush:text:c4ea3cbe50898c15": {
+      "category": "other",
+      "first_seen": "2026-11-12T07:50:51Z",
+      "issue_key": "windrush:text:c4ea3cbe50898c15",
+      "line_id": "windrush",
+      "line_name": "Windrush",
+      "reason": "Windrush Line: Minor delays between Sydenham and West Croydon due to train cancellations. GOOD SERVICE on the rest of the line.",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
     }
   },
   "history": [
@@ -36999,6 +37009,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-11-12T07:40:28Z",
+  "updated_at": "2026-11-12T07:50:51Z",
   "version": 1
 }
