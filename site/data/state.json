@@ -1,5 +1,35 @@
 {
   "active": {
+    "bakerloo:text:a56450b4368f122b": {
+      "category": "signal failure",
+      "first_seen": "2026-11-12T22:18:11Z",
+      "issue_key": "bakerloo:text:a56450b4368f122b",
+      "line_id": "bakerloo",
+      "line_name": "Bakerloo",
+      "reason": "Bakerloo Line: Minor delays between Queen's park and Harrow & Wealdstone due to an earlier signal fault at South Kenton. GOOD SERVICE on the rest of the line.",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "district:text:0cc63a9a778e875c": {
+      "category": "train fault",
+      "first_seen": "2026-11-12T22:18:11Z",
+      "issue_key": "district:text:0cc63a9a778e875c",
+      "line_id": "district",
+      "line_name": "District",
+      "reason": "District Line: Severe delays between Earl's Court and Ealing Broadway/Richmond and MINOR DELAYS between Earl's Court and Wimbledon due to an earlier faulty train at Whitechapel. Tickets will be accepted on London Buses. GOOD SERVICE on the rest of the line.",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "elizabeth:text:62f70953e6dda10f": {
+      "category": "person on track",
+      "first_seen": "2026-11-12T22:18:11Z",
+      "issue_key": "elizabeth:text:62f70953e6dda10f",
+      "line_id": "elizabeth",
+      "line_name": "Elizabeth line",
+      "reason": "Severe delays between Paddington and Heathrow Terminals/ Reading while due to an earlier trespasser on the track at Hayes & Harlington. London Underground are accepting valid tickets via any reasonable route. GOOD SERVICE on the rest of the line.",
+      "severity": "Severe Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
     "jubilee:text:57925a2ef9e26722": {
       "category": "other",
       "first_seen": "2026-11-12T20:48:57Z",
@@ -10,14 +40,24 @@
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "mildmay:text:1ece3d11030d91a2": {
+    "metropolitan:text:3ba8771fd32f07bb": {
+      "category": "other",
+      "first_seen": "2026-11-12T22:18:11Z",
+      "issue_key": "metropolitan:text:3ba8771fd32f07bb",
+      "line_id": "metropolitan",
+      "line_name": "Metropolitan",
+      "reason": "Metropolitan Line: Minor delays between Harrow-on-the-Hill and Uxbridge due to train cancellations. GOOD SERVICE on the rest of the line.",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "mildmay:text:d9b906b4f7756cce": {
       "category": "signal failure",
-      "first_seen": "2026-11-12T20:48:57Z",
-      "issue_key": "mildmay:text:1ece3d11030d91a2",
+      "first_seen": "2026-11-12T22:18:11Z",
+      "issue_key": "mildmay:text:d9b906b4f7756cce",
       "line_id": "mildmay",
       "line_name": "Mildmay",
-      "reason": "Mildmay Line: Severe delays while we fix a signal failure in the Stratford area.",
-      "severity": "Severe Delays",
+      "reason": "Mildmay Line: No service between Highbury & Islington and Stratford, and SEVERE DELAYS on the rest of the line while we fix a signal failure in the Stratford area. London Underground are accepting valid tickets via any reasonable route.",
+      "severity": "Part Suspended",
       "source_created": "0001-01-01T00:00:00"
     },
     "northern:text:f8560677da244f81": {
@@ -32,6 +72,18 @@
     }
   },
   "history": [
+    {
+      "category": "signal failure",
+      "duration_seconds": 5354,
+      "first_seen": "2026-11-12T20:48:57Z",
+      "issue_key": "mildmay:text:1ece3d11030d91a2",
+      "line_id": "mildmay",
+      "line_name": "Mildmay",
+      "reason": "Mildmay Line: Severe delays while we fix a signal failure in the Stratford area.",
+      "resolved_at": "2026-11-12T22:18:11Z",
+      "severity": "Severe Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
     {
       "category": "other",
       "duration_seconds": 16553,
@@ -37101,6 +37153,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-11-12T20:48:57Z",
+  "updated_at": "2026-11-12T22:18:11Z",
   "version": 1
 }
