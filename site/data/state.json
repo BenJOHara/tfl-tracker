@@ -1,27 +1,61 @@
 {
   "active": {
-    "central:text:6d0af7c9d44f714a": {
+    "jubilee:text:57925a2ef9e26722": {
       "category": "other",
+      "first_seen": "2026-11-12T20:48:57Z",
+      "issue_key": "jubilee:text:57925a2ef9e26722",
+      "line_id": "jubilee",
+      "line_name": "Jubilee",
+      "reason": "Jubilee Line: Minor delays due to train cancellations.",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "mildmay:text:1ece3d11030d91a2": {
+      "category": "signal failure",
+      "first_seen": "2026-11-12T20:48:57Z",
+      "issue_key": "mildmay:text:1ece3d11030d91a2",
+      "line_id": "mildmay",
+      "line_name": "Mildmay",
+      "reason": "Mildmay Line: Severe delays while we fix a signal failure in the Stratford area.",
+      "severity": "Severe Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "northern:text:f8560677da244f81": {
+      "category": "points failure",
+      "first_seen": "2026-11-12T20:48:57Z",
+      "issue_key": "northern:text:f8560677da244f81",
+      "line_id": "northern",
+      "line_name": "Northern",
+      "reason": "Northern Line: Severe delays due to an earlier points failure at Mornington Crescent. Tickets are being accepted by London Buses, London Trams, Southeastern, Thameslink and South Western Railway services via any reasonable route.",
+      "severity": "Severe Delays",
+      "source_created": "0001-01-01T00:00:00"
+    }
+  },
+  "history": [
+    {
+      "category": "other",
+      "duration_seconds": 16553,
       "first_seen": "2026-11-12T16:13:04Z",
       "issue_key": "central:text:6d0af7c9d44f714a",
       "line_id": "central",
       "line_name": "Central",
       "reason": "Central Line: Minor delays due to train cancellations.",
+      "resolved_at": "2026-11-12T20:48:57Z",
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "northern:text:d803c6b82eda2222": {
+    {
       "category": "points failure",
+      "duration_seconds": 16553,
       "first_seen": "2026-11-12T16:13:04Z",
       "issue_key": "northern:text:d803c6b82eda2222",
       "line_id": "northern",
       "line_name": "Northern",
       "reason": "Northern Line: No service between Camden Town and Battersea Power Station while we fix a points failure at Mornington Crescent. SEVERE DELAYS on the rest of the line. Tickets being accepted by London Buses, London Trams, Southeastern, Thameslink and South Western Railway services via any reasonable route.",
+      "resolved_at": "2026-11-12T20:48:57Z",
       "severity": "Part Suspended",
       "source_created": "0001-01-01T00:00:00"
-    }
-  },
-  "history": [
+    },
     {
       "category": "other",
       "duration_seconds": 11254,
@@ -37067,6 +37101,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-11-12T16:13:04Z",
+  "updated_at": "2026-11-12T20:48:57Z",
   "version": 1
 }
