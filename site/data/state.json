@@ -1,77 +1,111 @@
 {
   "active": {
-    "central:text:6d0af7c9d44f714a": {
+    "central:text:0598b6a4314229ec": {
       "category": "other",
+      "first_seen": "2026-11-12T13:05:30Z",
+      "issue_key": "central:text:0598b6a4314229ec",
+      "line_id": "central",
+      "line_name": "Central",
+      "reason": "Central Line: Minor delays between Leytonstone and Epping while we fix a faulty track at South Woodford. GOOD SERVICE on the rest of line.",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "northern:text:685dc80f49bff81b": {
+      "category": "other",
+      "first_seen": "2026-11-12T13:05:30Z",
+      "issue_key": "northern:text:685dc80f49bff81b",
+      "line_id": "northern",
+      "line_name": "Northern",
+      "reason": "Northern Line: No service between Camden Town and Edgware while emergency services deal with a casualty on the track. Tickets being accepted by London Buses. SEVERE DELAYS on the rest of the line.",
+      "severity": "Part Suspended",
+      "source_created": "0001-01-01T00:00:00"
+    }
+  },
+  "history": [
+    {
+      "category": "other",
+      "duration_seconds": 19502,
       "first_seen": "2026-11-12T07:40:28Z",
       "issue_key": "central:text:6d0af7c9d44f714a",
       "line_id": "central",
       "line_name": "Central",
       "reason": "Central Line: Minor delays due to train cancellations.",
+      "resolved_at": "2026-11-12T13:05:30Z",
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "district:text:9c09d477e2a85811": {
+    {
       "category": "other",
+      "duration_seconds": 19502,
       "first_seen": "2026-11-12T07:40:28Z",
       "issue_key": "district:text:9c09d477e2a85811",
       "line_id": "district",
       "line_name": "District",
       "reason": "District Line: Minor delays due to train cancellations.",
+      "resolved_at": "2026-11-12T13:05:30Z",
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "jubilee:text:57925a2ef9e26722": {
+    {
       "category": "other",
+      "duration_seconds": 19502,
       "first_seen": "2026-11-12T07:40:28Z",
       "issue_key": "jubilee:text:57925a2ef9e26722",
       "line_id": "jubilee",
       "line_name": "Jubilee",
       "reason": "Jubilee Line: Minor delays due to train cancellations.",
+      "resolved_at": "2026-11-12T13:05:30Z",
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "metropolitan:text:9ef1df55bc17b002": {
+    {
       "category": "signal failure",
+      "duration_seconds": 19502,
       "first_seen": "2026-11-12T07:40:28Z",
       "issue_key": "metropolitan:text:9ef1df55bc17b002",
       "line_id": "metropolitan",
       "line_name": "Metropolitan",
       "reason": "Metropolitan Line: Severe delays between Harrow-on-the-Hill and Uxbridge due to an earlier signal failure at Harrow-on-the-Hill. Tickets will be accepted on London Buses. MINOR DELAYS on the rest of the line.",
+      "resolved_at": "2026-11-12T13:05:30Z",
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "northern:text:e288e4749836f26f": {
+    {
       "category": "points failure",
+      "duration_seconds": 19502,
       "first_seen": "2026-11-12T07:40:28Z",
       "issue_key": "northern:text:e288e4749836f26f",
       "line_id": "northern",
       "line_name": "Northern",
       "reason": "Northern Line: Minor delays between Camden Town and Kennington via Charing Cross while we fix a points failure at Kennington. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-11-12T13:05:30Z",
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "victoria:text:02e0850cdf11ef25": {
+    {
       "category": "other",
+      "duration_seconds": 19502,
       "first_seen": "2026-11-12T07:40:28Z",
       "issue_key": "victoria:text:02e0850cdf11ef25",
       "line_id": "victoria",
       "line_name": "Victoria",
       "reason": "Victoria Line: Minor delays due to train cancellations.",
+      "resolved_at": "2026-11-12T13:05:30Z",
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "windrush:text:c4ea3cbe50898c15": {
+    {
       "category": "other",
+      "duration_seconds": 18879,
       "first_seen": "2026-11-12T07:50:51Z",
       "issue_key": "windrush:text:c4ea3cbe50898c15",
       "line_id": "windrush",
       "line_name": "Windrush",
       "reason": "Windrush Line: Minor delays between Sydenham and West Croydon due to train cancellations. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-11-12T13:05:30Z",
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
-    }
-  },
-  "history": [
+    },
     {
       "category": "other",
       "duration_seconds": 25557,
@@ -37009,6 +37043,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-11-12T07:50:51Z",
+  "updated_at": "2026-11-12T13:05:30Z",
   "version": 1
 }
