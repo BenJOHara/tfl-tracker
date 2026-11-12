@@ -10,14 +10,14 @@
       "severity": "Severe Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "elizabeth:text:fe917afac90c7196": {
-      "category": "train fault",
-      "first_seen": "2026-11-11T23:36:51Z",
-      "issue_key": "elizabeth:text:fe917afac90c7196",
-      "line_id": "elizabeth",
-      "line_name": "Elizabeth line",
-      "reason": "Minor Delays between Abbey Wood and Paddington due to an earlier faulty train at Farringdon. GOOD SERVICE on the rest of the line",
-      "severity": "Minor Delays",
+    "waterloo-city:text:0faebd0ea99ebd1b": {
+      "category": "other",
+      "first_seen": "2026-11-12T00:34:31Z",
+      "issue_key": "waterloo-city:text:0faebd0ea99ebd1b",
+      "line_id": "waterloo-city",
+      "line_name": "Waterloo & City",
+      "reason": "Waterloo and City Line: Service will resume at 06:00.",
+      "severity": "Service Closed",
       "source_created": "0001-01-01T00:00:00"
     },
     "weaver:text:82ba6a4656d31c32": {
@@ -42,6 +42,18 @@
     }
   },
   "history": [
+    {
+      "category": "train fault",
+      "duration_seconds": 3460,
+      "first_seen": "2026-11-11T23:36:51Z",
+      "issue_key": "elizabeth:text:fe917afac90c7196",
+      "line_id": "elizabeth",
+      "line_name": "Elizabeth line",
+      "reason": "Minor Delays between Abbey Wood and Paddington due to an earlier faulty train at Farringdon. GOOD SERVICE on the rest of the line",
+      "resolved_at": "2026-11-12T00:34:31Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
     {
       "category": "other",
       "duration_seconds": 22502,
@@ -36919,6 +36931,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-11-11T23:36:51Z",
+  "updated_at": "2026-11-12T00:34:31Z",
   "version": 1
 }
