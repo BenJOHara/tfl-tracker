@@ -1,33 +1,83 @@
 {
   "active": {
-    "central:text:fe3c3d60ce40f520": {
+    "central:text:6d0af7c9d44f714a": {
       "category": "other",
-      "first_seen": "2026-11-13T17:39:12Z",
-      "issue_key": "central:text:fe3c3d60ce40f520",
+      "first_seen": "2026-11-13T22:14:02Z",
+      "issue_key": "central:text:6d0af7c9d44f714a",
       "line_id": "central",
       "line_name": "Central",
-      "reason": "Central Line: Severe delays between White City and Ealing Broadway / West Ruislip and between Leytonstone and Epping / Hainault via Newbury Park due to train cancellations. MINOR DELAYS on the rest of the line. Tickets are being accepted on London Buses, Chiltern Railways, Liberty Line and Greater Anglia services.",
+      "reason": "Central Line: Minor delays due to train cancellations.",
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "elizabeth:text:d77f0442c7073ecc": {
+    "district:text:c235b786ab0aafd3": {
+      "category": "train fault",
+      "first_seen": "2026-11-13T22:14:02Z",
+      "issue_key": "district:text:c235b786ab0aafd3",
+      "line_id": "district",
+      "line_name": "District",
+      "reason": "District Line: No service between Turnham Green and Richmond while we fix a faulty train at Kew Gardens. MINOR DELAYS on the rest of the line due to train cancellations. Tickets are being accepted on London Bused and South Western Railway.",
+      "severity": "Part Suspended",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "elizabeth:text:d9c0d47f48e7bbb7": {
       "category": "signal failure",
-      "first_seen": "2026-11-13T18:14:26Z",
-      "issue_key": "elizabeth:text:d77f0442c7073ecc",
+      "first_seen": "2026-11-13T22:14:02Z",
+      "issue_key": "elizabeth:text:d9c0d47f48e7bbb7",
       "line_id": "elizabeth",
       "line_name": "Elizabeth line",
-      "reason": "Severe delays between Abbey Wood and Heathrow Terminals / Reading and MINOR DELAYS between Whitechapel and Shenfield while we fix a signal failure in the Paddington area.",
+      "reason": "No service between Hayes & Harlington and Reading and SEVERE DELAYS on the rest of the line while we deal with a trespasser on the track at Langley and while we fix a signal failure in the Paddington area. Tickets are being accepted on London Underground, Buses, GWR, SWR, Chiltern, DLR, Southeastern, Thameslink, Greater Anglia, C2C and Liberty Line via reasonable routes.",
+      "severity": "Part Suspended",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "metropolitan:text:cba79bf166f4a73d": {
+      "category": "other",
+      "first_seen": "2026-11-13T22:14:02Z",
+      "issue_key": "metropolitan:text:cba79bf166f4a73d",
+      "line_id": "metropolitan",
+      "line_name": "Metropolitan",
+      "reason": "Metropolitan Line: Minor delays between Moor Park and Chesham due to train cancellations. The next southbound train will be at 22:56. GOOD SERVICE on the rest of the line.",
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "mildmay:text:046bc93ca2750d05": {
-      "category": "signal failure",
-      "first_seen": "2026-11-13T17:39:12Z",
-      "issue_key": "mildmay:text:046bc93ca2750d05",
+    "mildmay:text:178cbd3a5d85ad28": {
+      "category": "other",
+      "first_seen": "2026-11-13T22:14:02Z",
+      "issue_key": "mildmay:text:178cbd3a5d85ad28",
       "line_id": "mildmay",
       "line_name": "Mildmay",
-      "reason": "Mildmay Line: No service between Clapham Junction and Shepherd's Bush. SEVERE DELAYS between Willesden Junction and Shepherd's Bush while we fix a signal failure in the Clapham Junction area. London Underground accepting tickets via any reasonable routes. MINOR DELAYS on the rest the line.",
-      "severity": "Part Suspended",
+      "reason": "MILDMAY LINE: Friday 13 November, the 2159 train from Stratford to Richmond will terminate at Camden Road at 2219. The 2318 train from Richmond to Willesden Junction will not run",
+      "severity": "Reduced Service",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "mildmay:text:6165118516808bd9": {
+      "category": "train fault",
+      "first_seen": "2026-11-13T22:14:02Z",
+      "issue_key": "mildmay:text:6165118516808bd9",
+      "line_id": "mildmay",
+      "line_name": "Mildmay",
+      "reason": "Mildmay Line: Severe delays between South Acton and Richmond while we fix a faulty train at Richmond and MINOR DELAYS on the rest the line. London Underground accepting tickets via any reasonable routes.",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "northern:text:8b5559f5a29bd02f": {
+      "category": "fire alert",
+      "first_seen": "2026-11-13T22:14:02Z",
+      "issue_key": "northern:text:8b5559f5a29bd02f",
+      "line_id": "northern",
+      "line_name": "Northern",
+      "reason": "Northern Line: Severe delays due to an earlier fire alert at Stockwell. Tickets will be accepted on London Buses, Trams, Southeastern, Thameslink and South Western Railway services via any reasonable route.",
+      "severity": "Severe Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "piccadilly:text:e95ae339318a60d6": {
+      "category": "other",
+      "first_seen": "2026-11-13T22:14:02Z",
+      "issue_key": "piccadilly:text:e95ae339318a60d6",
+      "line_id": "piccadilly",
+      "line_name": "Piccadilly",
+      "reason": "Piccadilly Line: Severe delays between Acton Town and Uxbridge and MINOR DELAYS on the rest of the line due to the unavailability of depot staff. Tickets are being accepted on London Buses.",
+      "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
     "suffragette:text:daedaa290440ecf3": {
@@ -38,26 +88,6 @@
       "line_name": "Suffragette",
       "reason": "Suffragette Line: No service between Barking and Barking Riverside while we fix a points failure at Barking. GOOD SERVICE on the rest of the line.",
       "severity": "Part Suspended",
-      "source_created": "0001-01-01T00:00:00"
-    },
-    "tram:text:029aacecb1a77283": {
-      "category": "other",
-      "first_seen": "2026-11-13T17:39:12Z",
-      "issue_key": "tram:text:029aacecb1a77283",
-      "line_id": "tram",
-      "line_name": "Tram",
-      "reason": "London Tramlink: Minor delays between Reeves Corner and Elmers End due to a road traffic collision at West Croydon. GOOD SERVICE on the rest of the line.",
-      "severity": "Minor Delays",
-      "source_created": "0001-01-01T00:00:00"
-    },
-    "weaver:text:b56b65e550eee7a7": {
-      "category": "other",
-      "first_seen": "2026-11-13T18:14:26Z",
-      "issue_key": "weaver:text:b56b65e550eee7a7",
-      "line_id": "weaver",
-      "line_name": "Weaver",
-      "reason": "Weaver Line: Minor delays while we fix an electrical fault.",
-      "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
     "windrush:text:5b8c29c9cb460f94": {
@@ -72,6 +102,66 @@
     }
   },
   "history": [
+    {
+      "category": "other",
+      "duration_seconds": 16490,
+      "first_seen": "2026-11-13T17:39:12Z",
+      "issue_key": "central:text:fe3c3d60ce40f520",
+      "line_id": "central",
+      "line_name": "Central",
+      "reason": "Central Line: Severe delays between White City and Ealing Broadway / West Ruislip and between Leytonstone and Epping / Hainault via Newbury Park due to train cancellations. MINOR DELAYS on the rest of the line. Tickets are being accepted on London Buses, Chiltern Railways, Liberty Line and Greater Anglia services.",
+      "resolved_at": "2026-11-13T22:14:02Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "signal failure",
+      "duration_seconds": 14376,
+      "first_seen": "2026-11-13T18:14:26Z",
+      "issue_key": "elizabeth:text:d77f0442c7073ecc",
+      "line_id": "elizabeth",
+      "line_name": "Elizabeth line",
+      "reason": "Severe delays between Abbey Wood and Heathrow Terminals / Reading and MINOR DELAYS between Whitechapel and Shenfield while we fix a signal failure in the Paddington area.",
+      "resolved_at": "2026-11-13T22:14:02Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "signal failure",
+      "duration_seconds": 16490,
+      "first_seen": "2026-11-13T17:39:12Z",
+      "issue_key": "mildmay:text:046bc93ca2750d05",
+      "line_id": "mildmay",
+      "line_name": "Mildmay",
+      "reason": "Mildmay Line: No service between Clapham Junction and Shepherd's Bush. SEVERE DELAYS between Willesden Junction and Shepherd's Bush while we fix a signal failure in the Clapham Junction area. London Underground accepting tickets via any reasonable routes. MINOR DELAYS on the rest the line.",
+      "resolved_at": "2026-11-13T22:14:02Z",
+      "severity": "Part Suspended",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "other",
+      "duration_seconds": 16490,
+      "first_seen": "2026-11-13T17:39:12Z",
+      "issue_key": "tram:text:029aacecb1a77283",
+      "line_id": "tram",
+      "line_name": "Tram",
+      "reason": "London Tramlink: Minor delays between Reeves Corner and Elmers End due to a road traffic collision at West Croydon. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-11-13T22:14:02Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "other",
+      "duration_seconds": 14376,
+      "first_seen": "2026-11-13T18:14:26Z",
+      "issue_key": "weaver:text:b56b65e550eee7a7",
+      "line_id": "weaver",
+      "line_name": "Weaver",
+      "reason": "Weaver Line: Minor delays while we fix an electrical fault.",
+      "resolved_at": "2026-11-13T22:14:02Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
     {
       "category": "signal failure",
       "duration_seconds": 2114,
@@ -37645,6 +37735,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-11-13T18:14:26Z",
+  "updated_at": "2026-11-13T22:14:02Z",
   "version": 1
 }
