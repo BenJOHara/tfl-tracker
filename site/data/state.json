@@ -1,5 +1,15 @@
 {
   "active": {
+    "bakerloo:text:d2a267dbb640e83b": {
+      "category": "other",
+      "first_seen": "2026-11-13T23:41:52Z",
+      "issue_key": "bakerloo:text:d2a267dbb640e83b",
+      "line_id": "bakerloo",
+      "line_name": "Bakerloo",
+      "reason": "Bakerloo Line: No Service while we respond to a security alert. Tickets accepted on London Buses, London Overground, London NorthWestern railway and Thameslink Services via any reasonable route.",
+      "severity": "Suspended",
+      "source_created": "0001-01-01T00:00:00"
+    },
     "central:text:6d0af7c9d44f714a": {
       "category": "other",
       "first_seen": "2026-11-13T22:14:02Z",
@@ -20,13 +30,13 @@
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "elizabeth:text:b20136cfc94395a8": {
+    "elizabeth:text:97992414b0a8f6d7": {
       "category": "person on track",
-      "first_seen": "2026-11-13T22:50:36Z",
-      "issue_key": "elizabeth:text:b20136cfc94395a8",
+      "first_seen": "2026-11-13T23:41:52Z",
+      "issue_key": "elizabeth:text:97992414b0a8f6d7",
       "line_id": "elizabeth",
       "line_name": "Elizabeth line",
-      "reason": "Severe delays between Paddington and Heathrow Terminals/Reading, and MINOR DELAYS the rest of the line due to an earlier trespasser on the track at Langley. Tickets are being accepted on London Underground, Buses, GWR, SWR, Chiltern, DLR, Southeastern, Thameslink, Greater Anglia, C2C and Liberty Line via reasonable routes.",
+      "reason": "Minor delays between Paddington and Heathrow Terminals/Reading due to an earlier trespasser on the track at Langley. GOOD SERVICE on the rest of the line.",
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
@@ -40,13 +50,13 @@
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "metropolitan:text:cba79bf166f4a73d": {
+    "metropolitan:text:db32c20b5f87bbc1": {
       "category": "other",
-      "first_seen": "2026-11-13T22:14:02Z",
-      "issue_key": "metropolitan:text:cba79bf166f4a73d",
+      "first_seen": "2026-11-13T23:41:52Z",
+      "issue_key": "metropolitan:text:db32c20b5f87bbc1",
       "line_id": "metropolitan",
       "line_name": "Metropolitan",
-      "reason": "Metropolitan Line: Minor delays between Moor Park and Chesham due to train cancellations. The next southbound train will be at 22:56. GOOD SERVICE on the rest of the line.",
+      "reason": "Metropolitan Line: Minor delays between Moor Park and Chesham the next southbound train will be at 23:56 and MINOR DELAYS between Harrow-on-the-Hill and Uxbridge due to train cancellations. GOOD SERVICE on the rest of the line.",
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
@@ -60,24 +70,24 @@
       "severity": "Reduced Service",
       "source_created": "0001-01-01T00:00:00"
     },
-    "mildmay:text:6165118516808bd9": {
+    "mildmay:text:b41af102a808a988": {
       "category": "train fault",
-      "first_seen": "2026-11-13T22:14:02Z",
-      "issue_key": "mildmay:text:6165118516808bd9",
+      "first_seen": "2026-11-13T23:41:52Z",
+      "issue_key": "mildmay:text:b41af102a808a988",
       "line_id": "mildmay",
       "line_name": "Mildmay",
-      "reason": "Mildmay Line: Severe delays between South Acton and Richmond while we fix a faulty train at Richmond and MINOR DELAYS on the rest the line. London Underground accepting tickets via any reasonable routes.",
+      "reason": "Mildmay Line: Minor delays due to an earlier faulty train at Richmond.",
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "northern:text:8b5559f5a29bd02f": {
+    "northern:text:c9f5d43b4f532a40": {
       "category": "fire alert",
-      "first_seen": "2026-11-13T22:14:02Z",
-      "issue_key": "northern:text:8b5559f5a29bd02f",
+      "first_seen": "2026-11-13T23:41:52Z",
+      "issue_key": "northern:text:c9f5d43b4f532a40",
       "line_id": "northern",
       "line_name": "Northern",
-      "reason": "Northern Line: Severe delays due to an earlier fire alert at Stockwell. Tickets will be accepted on London Buses, Trams, Southeastern, Thameslink and South Western Railway services via any reasonable route.",
-      "severity": "Severe Delays",
+      "reason": "Northern Line: Minor delays due to an earlier fire alert at Stockwell.",
+      "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
     "piccadilly:text:e95ae339318a60d6": {
@@ -100,18 +110,88 @@
       "severity": "Part Suspended",
       "source_created": "0001-01-01T00:00:00"
     },
-    "windrush:text:5b8c29c9cb460f94": {
+    "victoria:text:e413e31d2663a727": {
+      "category": "other",
+      "first_seen": "2026-11-13T23:41:52Z",
+      "issue_key": "victoria:text:e413e31d2663a727",
+      "line_id": "victoria",
+      "line_name": "Victoria",
+      "reason": "Victoria Line: No service between Brixton and Warren Street while we respond to a security alert. GOOD SERVICE on the rest of the line.",
+      "severity": "Part Suspended",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "windrush:text:5bffdf96e9214991": {
       "category": "points failure",
+      "first_seen": "2026-11-13T23:41:52Z",
+      "issue_key": "windrush:text:5bffdf96e9214991",
+      "line_id": "windrush",
+      "line_name": "Windrush",
+      "reason": "Windrush Line: No service between Surrey Quays and New Cross while we fix a points failure at Surrey Quays. SEVERE DELAYS on the rest of the line. London Underground and London Buses are accepting valid tickets via any reasonable route.",
+      "severity": "Part Suspended",
+      "source_created": "0001-01-01T00:00:00"
+    }
+  },
+  "history": [
+    {
+      "category": "person on track",
+      "duration_seconds": 3076,
+      "first_seen": "2026-11-13T22:50:36Z",
+      "issue_key": "elizabeth:text:b20136cfc94395a8",
+      "line_id": "elizabeth",
+      "line_name": "Elizabeth line",
+      "reason": "Severe delays between Paddington and Heathrow Terminals/Reading, and MINOR DELAYS the rest of the line due to an earlier trespasser on the track at Langley. Tickets are being accepted on London Underground, Buses, GWR, SWR, Chiltern, DLR, Southeastern, Thameslink, Greater Anglia, C2C and Liberty Line via reasonable routes.",
+      "resolved_at": "2026-11-13T23:41:52Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "other",
+      "duration_seconds": 5270,
+      "first_seen": "2026-11-13T22:14:02Z",
+      "issue_key": "metropolitan:text:cba79bf166f4a73d",
+      "line_id": "metropolitan",
+      "line_name": "Metropolitan",
+      "reason": "Metropolitan Line: Minor delays between Moor Park and Chesham due to train cancellations. The next southbound train will be at 22:56. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-11-13T23:41:52Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "train fault",
+      "duration_seconds": 5270,
+      "first_seen": "2026-11-13T22:14:02Z",
+      "issue_key": "mildmay:text:6165118516808bd9",
+      "line_id": "mildmay",
+      "line_name": "Mildmay",
+      "reason": "Mildmay Line: Severe delays between South Acton and Richmond while we fix a faulty train at Richmond and MINOR DELAYS on the rest the line. London Underground accepting tickets via any reasonable routes.",
+      "resolved_at": "2026-11-13T23:41:52Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "fire alert",
+      "duration_seconds": 5270,
+      "first_seen": "2026-11-13T22:14:02Z",
+      "issue_key": "northern:text:8b5559f5a29bd02f",
+      "line_id": "northern",
+      "line_name": "Northern",
+      "reason": "Northern Line: Severe delays due to an earlier fire alert at Stockwell. Tickets will be accepted on London Buses, Trams, Southeastern, Thameslink and South Western Railway services via any reasonable route.",
+      "resolved_at": "2026-11-13T23:41:52Z",
+      "severity": "Severe Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "points failure",
+      "duration_seconds": 53734,
       "first_seen": "2026-11-13T08:46:18Z",
       "issue_key": "windrush:text:5b8c29c9cb460f94",
       "line_id": "windrush",
       "line_name": "Windrush",
       "reason": "Windrush Line: No service while we fix a points failure at Surrey Quays. London Underground and London Buses are accepting valid tickets via any reasonable route.",
+      "resolved_at": "2026-11-13T23:41:52Z",
       "severity": "Suspended",
       "source_created": "0001-01-01T00:00:00"
-    }
-  },
-  "history": [
+    },
     {
       "category": "train fault",
       "duration_seconds": 2194,
@@ -37769,6 +37849,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-11-13T22:50:36Z",
+  "updated_at": "2026-11-13T23:41:52Z",
   "version": 1
 }
