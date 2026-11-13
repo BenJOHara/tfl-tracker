@@ -20,23 +20,23 @@
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "jubilee:text:e2314c829d035547": {
+    "jubilee:text:d253e36b8b6c0e43": {
       "category": "points failure",
-      "first_seen": "2026-11-13T09:58:34Z",
-      "issue_key": "jubilee:text:e2314c829d035547",
+      "first_seen": "2026-11-13T10:50:33Z",
+      "issue_key": "jubilee:text:d253e36b8b6c0e43",
       "line_id": "jubilee",
       "line_name": "Jubilee",
-      "reason": "Jubilee Line: Severe delays due to an earlier points failure at Wembley Park. London Buses are accepting valid tickets via any reasonable route.",
-      "severity": "Severe Delays",
+      "reason": "Jubilee Line: Minor delays due to an earlier points failure at Wembley Park.",
+      "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "northern:text:e288e4749836f26f": {
+    "northern:text:871f000ee1418fc6": {
       "category": "points failure",
-      "first_seen": "2026-11-13T08:46:18Z",
-      "issue_key": "northern:text:e288e4749836f26f",
+      "first_seen": "2026-11-13T10:50:33Z",
+      "issue_key": "northern:text:871f000ee1418fc6",
       "line_id": "northern",
       "line_name": "Northern",
-      "reason": "Northern Line: Minor delays between Camden Town and Kennington via Charing Cross while we fix a points failure at Kennington. GOOD SERVICE on the rest of the line.",
+      "reason": "Northern Line: Minor delays between Kennington and Morden due to an earlier points failure at Morden. GOOD SERVICE on the rest of the line.",
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
@@ -62,6 +62,30 @@
     }
   },
   "history": [
+    {
+      "category": "points failure",
+      "duration_seconds": 3119,
+      "first_seen": "2026-11-13T09:58:34Z",
+      "issue_key": "jubilee:text:e2314c829d035547",
+      "line_id": "jubilee",
+      "line_name": "Jubilee",
+      "reason": "Jubilee Line: Severe delays due to an earlier points failure at Wembley Park. London Buses are accepting valid tickets via any reasonable route.",
+      "resolved_at": "2026-11-13T10:50:33Z",
+      "severity": "Severe Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "points failure",
+      "duration_seconds": 7455,
+      "first_seen": "2026-11-13T08:46:18Z",
+      "issue_key": "northern:text:e288e4749836f26f",
+      "line_id": "northern",
+      "line_name": "Northern",
+      "reason": "Northern Line: Minor delays between Camden Town and Kennington via Charing Cross while we fix a points failure at Kennington. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-11-13T10:50:33Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
     {
       "category": "other",
       "duration_seconds": 4336,
@@ -37527,6 +37551,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-11-13T09:58:34Z",
+  "updated_at": "2026-11-13T10:50:33Z",
   "version": 1
 }
