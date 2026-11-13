@@ -10,34 +10,14 @@
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "district:text:9c09d477e2a85811": {
-      "category": "other",
-      "first_seen": "2026-11-13T09:58:34Z",
-      "issue_key": "district:text:9c09d477e2a85811",
-      "line_id": "district",
-      "line_name": "District",
-      "reason": "District Line: Minor delays due to train cancellations.",
-      "severity": "Minor Delays",
-      "source_created": "0001-01-01T00:00:00"
-    },
-    "jubilee:text:d253e36b8b6c0e43": {
-      "category": "points failure",
-      "first_seen": "2026-11-13T10:50:33Z",
-      "issue_key": "jubilee:text:d253e36b8b6c0e43",
-      "line_id": "jubilee",
-      "line_name": "Jubilee",
-      "reason": "Jubilee Line: Minor delays due to an earlier points failure at Wembley Park.",
-      "severity": "Minor Delays",
-      "source_created": "0001-01-01T00:00:00"
-    },
-    "northern:text:871f000ee1418fc6": {
-      "category": "points failure",
-      "first_seen": "2026-11-13T10:50:33Z",
-      "issue_key": "northern:text:871f000ee1418fc6",
-      "line_id": "northern",
-      "line_name": "Northern",
-      "reason": "Northern Line: Minor delays between Kennington and Morden due to an earlier points failure at Morden. GOOD SERVICE on the rest of the line.",
-      "severity": "Minor Delays",
+    "mildmay:text:2099f65e8b04eefe": {
+      "category": "signal failure",
+      "first_seen": "2026-11-13T16:46:37Z",
+      "issue_key": "mildmay:text:2099f65e8b04eefe",
+      "line_id": "mildmay",
+      "line_name": "Mildmay",
+      "reason": "Mildmay Line: No service between Clapham Junction and Shepherd's Bush and SEVERE DELAYS between Willesden Junction and Shepherd's Bush while we fix a signal failure in the Clapham Junction area. London Underground accepting tickets via any reasonable routes. GOOD SERVICE on the rest the line.",
+      "severity": "Part Suspended",
       "source_created": "0001-01-01T00:00:00"
     },
     "suffragette:text:daedaa290440ecf3": {
@@ -47,6 +27,16 @@
       "line_id": "suffragette",
       "line_name": "Suffragette",
       "reason": "Suffragette Line: No service between Barking and Barking Riverside while we fix a points failure at Barking. GOOD SERVICE on the rest of the line.",
+      "severity": "Part Suspended",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "tram:text:724391abaca7d3b0": {
+      "category": "other",
+      "first_seen": "2026-11-13T16:46:37Z",
+      "issue_key": "tram:text:724391abaca7d3b0",
+      "line_id": "tram",
+      "line_name": "Tram",
+      "reason": "London Tramlink: No service between Reeves Corner and Elmers End du to a road traffic collision at West Croydon. GOOD SERVICE on the rest of the line.",
       "severity": "Part Suspended",
       "source_created": "0001-01-01T00:00:00"
     },
@@ -62,6 +52,42 @@
     }
   },
   "history": [
+    {
+      "category": "other",
+      "duration_seconds": 24483,
+      "first_seen": "2026-11-13T09:58:34Z",
+      "issue_key": "district:text:9c09d477e2a85811",
+      "line_id": "district",
+      "line_name": "District",
+      "reason": "District Line: Minor delays due to train cancellations.",
+      "resolved_at": "2026-11-13T16:46:37Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "points failure",
+      "duration_seconds": 21364,
+      "first_seen": "2026-11-13T10:50:33Z",
+      "issue_key": "jubilee:text:d253e36b8b6c0e43",
+      "line_id": "jubilee",
+      "line_name": "Jubilee",
+      "reason": "Jubilee Line: Minor delays due to an earlier points failure at Wembley Park.",
+      "resolved_at": "2026-11-13T16:46:37Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "points failure",
+      "duration_seconds": 21364,
+      "first_seen": "2026-11-13T10:50:33Z",
+      "issue_key": "northern:text:871f000ee1418fc6",
+      "line_id": "northern",
+      "line_name": "Northern",
+      "reason": "Northern Line: Minor delays between Kennington and Morden due to an earlier points failure at Morden. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-11-13T16:46:37Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
     {
       "category": "points failure",
       "duration_seconds": 3119,
@@ -37551,6 +37577,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-11-13T10:50:33Z",
+  "updated_at": "2026-11-13T16:46:37Z",
   "version": 1
 }
