@@ -1,22 +1,32 @@
 {
   "active": {
-    "central:text:6d0af7c9d44f714a": {
+    "central:text:fe3c3d60ce40f520": {
       "category": "other",
-      "first_seen": "2026-11-13T08:46:18Z",
-      "issue_key": "central:text:6d0af7c9d44f714a",
+      "first_seen": "2026-11-13T17:39:12Z",
+      "issue_key": "central:text:fe3c3d60ce40f520",
       "line_id": "central",
       "line_name": "Central",
-      "reason": "Central Line: Minor delays due to train cancellations.",
+      "reason": "Central Line: Severe delays between White City and Ealing Broadway / West Ruislip and between Leytonstone and Epping / Hainault via Newbury Park due to train cancellations. MINOR DELAYS on the rest of the line. Tickets are being accepted on London Buses, Chiltern Railways, Liberty Line and Greater Anglia services.",
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "mildmay:text:2099f65e8b04eefe": {
+    "elizabeth:text:e6415e3fdf9f563d": {
       "category": "signal failure",
-      "first_seen": "2026-11-13T16:46:37Z",
-      "issue_key": "mildmay:text:2099f65e8b04eefe",
+      "first_seen": "2026-11-13T17:39:12Z",
+      "issue_key": "elizabeth:text:e6415e3fdf9f563d",
+      "line_id": "elizabeth",
+      "line_name": "Elizabeth line",
+      "reason": "Severe delays between Paddington and Heathrow Terminals / Reading and MINOR DELAYS between Abbey Wood and Paddington due to an earlier signal failure in the Paddington area. GOOD SERVICE on the rest of the line.",
+      "severity": "Severe Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "mildmay:text:046bc93ca2750d05": {
+      "category": "signal failure",
+      "first_seen": "2026-11-13T17:39:12Z",
+      "issue_key": "mildmay:text:046bc93ca2750d05",
       "line_id": "mildmay",
       "line_name": "Mildmay",
-      "reason": "Mildmay Line: No service between Clapham Junction and Shepherd's Bush and SEVERE DELAYS between Willesden Junction and Shepherd's Bush while we fix a signal failure in the Clapham Junction area. London Underground accepting tickets via any reasonable routes. GOOD SERVICE on the rest the line.",
+      "reason": "Mildmay Line: No service between Clapham Junction and Shepherd's Bush. SEVERE DELAYS between Willesden Junction and Shepherd's Bush while we fix a signal failure in the Clapham Junction area. London Underground accepting tickets via any reasonable routes. MINOR DELAYS on the rest the line.",
       "severity": "Part Suspended",
       "source_created": "0001-01-01T00:00:00"
     },
@@ -30,14 +40,14 @@
       "severity": "Part Suspended",
       "source_created": "0001-01-01T00:00:00"
     },
-    "tram:text:724391abaca7d3b0": {
+    "tram:text:029aacecb1a77283": {
       "category": "other",
-      "first_seen": "2026-11-13T16:46:37Z",
-      "issue_key": "tram:text:724391abaca7d3b0",
+      "first_seen": "2026-11-13T17:39:12Z",
+      "issue_key": "tram:text:029aacecb1a77283",
       "line_id": "tram",
       "line_name": "Tram",
-      "reason": "London Tramlink: No service between Reeves Corner and Elmers End du to a road traffic collision at West Croydon. GOOD SERVICE on the rest of the line.",
-      "severity": "Part Suspended",
+      "reason": "London Tramlink: Minor delays between Reeves Corner and Elmers End due to a road traffic collision at West Croydon. GOOD SERVICE on the rest of the line.",
+      "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
     "windrush:text:5b8c29c9cb460f94": {
@@ -52,6 +62,42 @@
     }
   },
   "history": [
+    {
+      "category": "other",
+      "duration_seconds": 31974,
+      "first_seen": "2026-11-13T08:46:18Z",
+      "issue_key": "central:text:6d0af7c9d44f714a",
+      "line_id": "central",
+      "line_name": "Central",
+      "reason": "Central Line: Minor delays due to train cancellations.",
+      "resolved_at": "2026-11-13T17:39:12Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "signal failure",
+      "duration_seconds": 3155,
+      "first_seen": "2026-11-13T16:46:37Z",
+      "issue_key": "mildmay:text:2099f65e8b04eefe",
+      "line_id": "mildmay",
+      "line_name": "Mildmay",
+      "reason": "Mildmay Line: No service between Clapham Junction and Shepherd's Bush and SEVERE DELAYS between Willesden Junction and Shepherd's Bush while we fix a signal failure in the Clapham Junction area. London Underground accepting tickets via any reasonable routes. GOOD SERVICE on the rest the line.",
+      "resolved_at": "2026-11-13T17:39:12Z",
+      "severity": "Part Suspended",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "other",
+      "duration_seconds": 3155,
+      "first_seen": "2026-11-13T16:46:37Z",
+      "issue_key": "tram:text:724391abaca7d3b0",
+      "line_id": "tram",
+      "line_name": "Tram",
+      "reason": "London Tramlink: No service between Reeves Corner and Elmers End du to a road traffic collision at West Croydon. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-11-13T17:39:12Z",
+      "severity": "Part Suspended",
+      "source_created": "0001-01-01T00:00:00"
+    },
     {
       "category": "other",
       "duration_seconds": 24483,
@@ -37577,6 +37623,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-11-13T16:46:37Z",
+  "updated_at": "2026-11-13T17:39:12Z",
   "version": 1
 }
