@@ -10,14 +10,14 @@
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "elizabeth:text:e6415e3fdf9f563d": {
+    "elizabeth:text:d77f0442c7073ecc": {
       "category": "signal failure",
-      "first_seen": "2026-11-13T17:39:12Z",
-      "issue_key": "elizabeth:text:e6415e3fdf9f563d",
+      "first_seen": "2026-11-13T18:14:26Z",
+      "issue_key": "elizabeth:text:d77f0442c7073ecc",
       "line_id": "elizabeth",
       "line_name": "Elizabeth line",
-      "reason": "Severe delays between Paddington and Heathrow Terminals / Reading and MINOR DELAYS between Abbey Wood and Paddington due to an earlier signal failure in the Paddington area. GOOD SERVICE on the rest of the line.",
-      "severity": "Severe Delays",
+      "reason": "Severe delays between Abbey Wood and Heathrow Terminals / Reading and MINOR DELAYS between Whitechapel and Shenfield while we fix a signal failure in the Paddington area.",
+      "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
     "mildmay:text:046bc93ca2750d05": {
@@ -50,6 +50,16 @@
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
+    "weaver:text:b56b65e550eee7a7": {
+      "category": "other",
+      "first_seen": "2026-11-13T18:14:26Z",
+      "issue_key": "weaver:text:b56b65e550eee7a7",
+      "line_id": "weaver",
+      "line_name": "Weaver",
+      "reason": "Weaver Line: Minor delays while we fix an electrical fault.",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
     "windrush:text:5b8c29c9cb460f94": {
       "category": "points failure",
       "first_seen": "2026-11-13T08:46:18Z",
@@ -62,6 +72,18 @@
     }
   },
   "history": [
+    {
+      "category": "signal failure",
+      "duration_seconds": 2114,
+      "first_seen": "2026-11-13T17:39:12Z",
+      "issue_key": "elizabeth:text:e6415e3fdf9f563d",
+      "line_id": "elizabeth",
+      "line_name": "Elizabeth line",
+      "reason": "Severe delays between Paddington and Heathrow Terminals / Reading and MINOR DELAYS between Abbey Wood and Paddington due to an earlier signal failure in the Paddington area. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-11-13T18:14:26Z",
+      "severity": "Severe Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
     {
       "category": "other",
       "duration_seconds": 31974,
@@ -37623,6 +37645,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-11-13T17:39:12Z",
+  "updated_at": "2026-11-13T18:14:26Z",
   "version": 1
 }
