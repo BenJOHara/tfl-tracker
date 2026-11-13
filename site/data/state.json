@@ -10,44 +10,24 @@
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "district:text:1a1575526ea3cc3c": {
+    "district:text:9c09d477e2a85811": {
       "category": "other",
-      "first_seen": "2026-11-13T08:46:18Z",
-      "issue_key": "district:text:1a1575526ea3cc3c",
+      "first_seen": "2026-11-13T09:58:34Z",
+      "issue_key": "district:text:9c09d477e2a85811",
       "line_id": "district",
       "line_name": "District",
-      "reason": "District Line: Severe delays between Tower Hill and Earl's Court westbound only due to train cancellations. London Buses, Mildmay line, DLR, Elizabeth line, C2C and South Western Railway are accepting valid tickets via any reasonable route. MINOR DELAYS on the rest of the line.",
+      "reason": "District Line: Minor delays due to train cancellations.",
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "elizabeth:text:c3efc9d56b4786a4": {
+    "jubilee:text:e2314c829d035547": {
       "category": "points failure",
-      "first_seen": "2026-11-13T08:46:18Z",
-      "issue_key": "elizabeth:text:c3efc9d56b4786a4",
-      "line_id": "elizabeth",
-      "line_name": "Elizabeth line",
-      "reason": "Minor delays between Hayes & Harlington and Reading while we fix a points failure at Slough. GOOD SERVICE on the rest of the line.",
-      "severity": "Minor Delays",
-      "source_created": "0001-01-01T00:00:00"
-    },
-    "jubilee:text:873b059ecb5ddee4": {
-      "category": "points failure",
-      "first_seen": "2026-11-13T08:46:18Z",
-      "issue_key": "jubilee:text:873b059ecb5ddee4",
+      "first_seen": "2026-11-13T09:58:34Z",
+      "issue_key": "jubilee:text:e2314c829d035547",
       "line_id": "jubilee",
       "line_name": "Jubilee",
-      "reason": "Jubilee Line: Severe delays between Stanmore and Willesden Green and MINOR DELAYS on the rest of the line due to an earlier points failure at Wembley Park. London Buses are accepting valid tickets via any reasonable route.",
-      "severity": "Minor Delays",
-      "source_created": "0001-01-01T00:00:00"
-    },
-    "metropolitan:text:b58054824875dd32": {
-      "category": "points failure",
-      "first_seen": "2026-11-13T08:46:18Z",
-      "issue_key": "metropolitan:text:b58054824875dd32",
-      "line_id": "metropolitan",
-      "line_name": "Metropolitan",
-      "reason": "Metropolitan Line: Minor delays between Baker Street and Harrow-on-the-Hill while we fix a points failure at Baker Street. GOOD SERVICE on the rest of the line.",
-      "severity": "Minor Delays",
+      "reason": "Jubilee Line: Severe delays due to an earlier points failure at Wembley Park. London Buses are accepting valid tickets via any reasonable route.",
+      "severity": "Severe Delays",
       "source_created": "0001-01-01T00:00:00"
     },
     "northern:text:e288e4749836f26f": {
@@ -82,6 +62,54 @@
     }
   },
   "history": [
+    {
+      "category": "other",
+      "duration_seconds": 4336,
+      "first_seen": "2026-11-13T08:46:18Z",
+      "issue_key": "district:text:1a1575526ea3cc3c",
+      "line_id": "district",
+      "line_name": "District",
+      "reason": "District Line: Severe delays between Tower Hill and Earl's Court westbound only due to train cancellations. London Buses, Mildmay line, DLR, Elizabeth line, C2C and South Western Railway are accepting valid tickets via any reasonable route. MINOR DELAYS on the rest of the line.",
+      "resolved_at": "2026-11-13T09:58:34Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "points failure",
+      "duration_seconds": 4336,
+      "first_seen": "2026-11-13T08:46:18Z",
+      "issue_key": "elizabeth:text:c3efc9d56b4786a4",
+      "line_id": "elizabeth",
+      "line_name": "Elizabeth line",
+      "reason": "Minor delays between Hayes & Harlington and Reading while we fix a points failure at Slough. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-11-13T09:58:34Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "points failure",
+      "duration_seconds": 4336,
+      "first_seen": "2026-11-13T08:46:18Z",
+      "issue_key": "jubilee:text:873b059ecb5ddee4",
+      "line_id": "jubilee",
+      "line_name": "Jubilee",
+      "reason": "Jubilee Line: Severe delays between Stanmore and Willesden Green and MINOR DELAYS on the rest of the line due to an earlier points failure at Wembley Park. London Buses are accepting valid tickets via any reasonable route.",
+      "resolved_at": "2026-11-13T09:58:34Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "points failure",
+      "duration_seconds": 4336,
+      "first_seen": "2026-11-13T08:46:18Z",
+      "issue_key": "metropolitan:text:b58054824875dd32",
+      "line_id": "metropolitan",
+      "line_name": "Metropolitan",
+      "reason": "Metropolitan Line: Minor delays between Baker Street and Harrow-on-the-Hill while we fix a points failure at Baker Street. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-11-13T09:58:34Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
     {
       "category": "other",
       "duration_seconds": 25489,
@@ -37499,6 +37527,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-11-13T08:46:18Z",
+  "updated_at": "2026-11-13T09:58:34Z",
   "version": 1
 }
