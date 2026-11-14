@@ -20,16 +20,6 @@
       "severity": "Severe Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "elizabeth:text:4be2b7e7701246ec": {
-      "category": "points failure",
-      "first_seen": "2026-11-14T09:15:39Z",
-      "issue_key": "elizabeth:text:4be2b7e7701246ec",
-      "line_id": "elizabeth",
-      "line_name": "Elizabeth line",
-      "reason": "Minor delays between Paddington and Heathrow Terminals/Reading due to a points failure at Southall. GOOD SERVICE on the rest of the line.",
-      "severity": "Minor Delays",
-      "source_created": "0001-01-01T00:00:00"
-    },
     "jubilee:text:4a0c167bb96ec764": {
       "category": "points failure",
       "first_seen": "2026-11-14T09:15:39Z",
@@ -112,6 +102,18 @@
     }
   },
   "history": [
+    {
+      "category": "points failure",
+      "duration_seconds": 961,
+      "first_seen": "2026-11-14T09:15:39Z",
+      "issue_key": "elizabeth:text:4be2b7e7701246ec",
+      "line_id": "elizabeth",
+      "line_name": "Elizabeth line",
+      "reason": "Minor delays between Paddington and Heathrow Terminals/Reading due to a points failure at Southall. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-11-14T09:31:40Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
     {
       "category": "other",
       "duration_seconds": 24496,
@@ -38153,6 +38155,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-11-14T09:15:39Z",
+  "updated_at": "2026-11-14T09:31:40Z",
   "version": 1
 }
