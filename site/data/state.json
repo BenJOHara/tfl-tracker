@@ -10,14 +10,24 @@
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "district:text:45bde815118d3b6a": {
+    "district:text:83b80b745939c007": {
       "category": "other",
-      "first_seen": "2026-11-14T09:15:39Z",
-      "issue_key": "district:text:45bde815118d3b6a",
+      "first_seen": "2026-11-14T10:59:12Z",
+      "issue_key": "district:text:83b80b745939c007",
       "line_id": "district",
       "line_name": "District",
-      "reason": "District Line: Severe delays between Earl's Court and Kensington (Olympia) and MINOR DELAYS between Earl's Court and Ealing Broadway / Richmond / Wimbledon due to train cancellations. Tickets are being accepted on London Buses. GOOD SERVICE on the rest of the line.",
-      "severity": "Severe Delays",
+      "reason": "District Line: Severe delays between Earl's Court and Kensington (Olympia). MINOR DELAYS between Earl's Court and Wimbledon due to train cancellations. Tickets are being accepted on London Buses. GOOD SERVICE on the rest of the line.",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "dlr:text:111dd17047079b87": {
+      "category": "other",
+      "first_seen": "2026-11-14T10:59:12Z",
+      "issue_key": "dlr:text:111dd17047079b87",
+      "line_id": "dlr",
+      "line_name": "DLR",
+      "reason": "Docklands Light Railway: Minor delays between Tower Gateway and Beckton while we fix an electrical fault. GOOD SERVICE on the rest of the line.",
+      "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
     "jubilee:text:4a0c167bb96ec764": {
@@ -60,24 +70,14 @@
       "severity": "Part Closure",
       "source_created": "0001-01-01T00:00:00"
     },
-    "piccadilly:text:a0d0243924df5b70": {
+    "suffragette:text:c74b9a8b0df28ccd": {
       "category": "other",
-      "first_seen": "2026-11-14T09:15:39Z",
-      "issue_key": "piccadilly:text:a0d0243924df5b70",
-      "line_id": "piccadilly",
-      "line_name": "Piccadilly",
-      "reason": "Piccadilly Line: Minor delays due to an earlier animal on the track.",
-      "severity": "Minor Delays",
-      "source_created": "0001-01-01T00:00:00"
-    },
-    "suffragette:text:53f846dcda88b09e": {
-      "category": "points failure",
-      "first_seen": "2026-11-14T09:15:39Z",
-      "issue_key": "suffragette:text:53f846dcda88b09e",
+      "first_seen": "2026-11-14T10:59:12Z",
+      "issue_key": "suffragette:text:c74b9a8b0df28ccd",
       "line_id": "suffragette",
       "line_name": "Suffragette",
-      "reason": "Suffragette Line: No service between Barking and Barking Riverside for the rest of the day due to a points failure at Barking. GOOD SERVICE on the rest of the line.",
-      "severity": "Part Suspended",
+      "reason": "Suffragette Line: No service on the entire line while we fix a fault with the overhead power lines. London Underground are accepting tickets via any reasonable route.",
+      "severity": "Suspended",
       "source_created": "0001-01-01T00:00:00"
     },
     "waterloo-city:text:02da0890c7cbf303": {
@@ -102,6 +102,42 @@
     }
   },
   "history": [
+    {
+      "category": "other",
+      "duration_seconds": 6213,
+      "first_seen": "2026-11-14T09:15:39Z",
+      "issue_key": "district:text:45bde815118d3b6a",
+      "line_id": "district",
+      "line_name": "District",
+      "reason": "District Line: Severe delays between Earl's Court and Kensington (Olympia) and MINOR DELAYS between Earl's Court and Ealing Broadway / Richmond / Wimbledon due to train cancellations. Tickets are being accepted on London Buses. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-11-14T10:59:12Z",
+      "severity": "Severe Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "other",
+      "duration_seconds": 6213,
+      "first_seen": "2026-11-14T09:15:39Z",
+      "issue_key": "piccadilly:text:a0d0243924df5b70",
+      "line_id": "piccadilly",
+      "line_name": "Piccadilly",
+      "reason": "Piccadilly Line: Minor delays due to an earlier animal on the track.",
+      "resolved_at": "2026-11-14T10:59:12Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "points failure",
+      "duration_seconds": 6213,
+      "first_seen": "2026-11-14T09:15:39Z",
+      "issue_key": "suffragette:text:53f846dcda88b09e",
+      "line_id": "suffragette",
+      "line_name": "Suffragette",
+      "reason": "Suffragette Line: No service between Barking and Barking Riverside for the rest of the day due to a points failure at Barking. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-11-14T10:59:12Z",
+      "severity": "Part Suspended",
+      "source_created": "0001-01-01T00:00:00"
+    },
     {
       "category": "points failure",
       "duration_seconds": 961,
@@ -38155,6 +38191,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-11-14T09:31:40Z",
+  "updated_at": "2026-11-14T10:59:12Z",
   "version": 1
 }
