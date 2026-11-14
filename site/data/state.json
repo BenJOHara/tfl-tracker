@@ -10,34 +10,44 @@
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "district:text:9c09d477e2a85811": {
-      "category": "other",
-      "first_seen": "2026-11-14T20:27:56Z",
-      "issue_key": "district:text:9c09d477e2a85811",
+    "circle:text:32868707f9a6cb89": {
+      "category": "person on track",
+      "first_seen": "2026-11-14T21:23:06Z",
+      "issue_key": "circle:text:32868707f9a6cb89",
+      "line_id": "circle",
+      "line_name": "Circle",
+      "reason": "Circle Line: No service while we deal with a trespasser on the track at Paddington.Tickets are being accepted on London Buses.",
+      "severity": "Suspended",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "district:text:b4744d5434085ff6": {
+      "category": "person on track",
+      "first_seen": "2026-11-14T21:23:06Z",
+      "issue_key": "district:text:b4744d5434085ff6",
       "line_id": "district",
       "line_name": "District",
-      "reason": "District Line: Minor delays due to train cancellations.",
+      "reason": "District Line: Severe delays between High Street Kensington and Edgware Road due to an earlier trespasser on the track. MINOR DELAYS on the rest of the line due to train cancellations. Tickets are being accepted on London Buses",
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "jubilee:text:57925a2ef9e26722": {
-      "category": "other",
-      "first_seen": "2026-11-14T20:27:56Z",
-      "issue_key": "jubilee:text:57925a2ef9e26722",
-      "line_id": "jubilee",
-      "line_name": "Jubilee",
-      "reason": "Jubilee Line: Minor delays due to train cancellations.",
-      "severity": "Minor Delays",
+    "hammersmith-city:text:89d91f8b3f0c1a24": {
+      "category": "person on track",
+      "first_seen": "2026-11-14T21:23:06Z",
+      "issue_key": "hammersmith-city:text:89d91f8b3f0c1a24",
+      "line_id": "hammersmith-city",
+      "line_name": "Hammersmith & City",
+      "reason": "Hammersmith and City Line: No service while we deal with a trespasser on the track at Paddington. Tickets are being accepted on London Buses.",
+      "severity": "Suspended",
       "source_created": "0001-01-01T00:00:00"
     },
-    "metropolitan:text:305dd461877c7bb7": {
-      "category": "other",
-      "first_seen": "2026-11-14T20:27:56Z",
-      "issue_key": "metropolitan:text:305dd461877c7bb7",
+    "metropolitan:text:fc3944e99536bcd5": {
+      "category": "person on track",
+      "first_seen": "2026-11-14T21:23:06Z",
+      "issue_key": "metropolitan:text:fc3944e99536bcd5",
       "line_id": "metropolitan",
       "line_name": "Metropolitan",
-      "reason": "Metropolitan Line: Minor delays due to train cancellations.",
-      "severity": "Minor Delays",
+      "reason": "Metropolitan Line: No service between Baker Street and Aldgate while we deal with a trespasser on the track at Paddington and MINOR DELAYS on the rest of the line due to train cancellations. Tickets are being accepted on London Buses.",
+      "severity": "Part Suspended",
       "source_created": "0001-01-01T00:00:00"
     },
     "northern:text:a4ae0c53bae982a5": {
@@ -57,6 +67,16 @@
       "line_id": "suffragette",
       "line_name": "Suffragette",
       "reason": "Suffragette Line: No service between Barking Riverside and Barking for the rest of the day due to a points failure at Barking. GOOD SEVICE on the rest of the line.",
+      "severity": "Part Suspended",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "victoria:text:fb8957091ad8aa40": {
+      "category": "other",
+      "first_seen": "2026-11-14T21:23:06Z",
+      "issue_key": "victoria:text:fb8957091ad8aa40",
+      "line_id": "victoria",
+      "line_name": "Victoria",
+      "reason": "Victoria Line: No service between Seven Sisters and Kings Cross and SEVERE DELAYS on the rest of the line while we deal with an animal on the track.",
       "severity": "Part Suspended",
       "source_created": "0001-01-01T00:00:00"
     },
@@ -92,6 +112,42 @@
     }
   },
   "history": [
+    {
+      "category": "other",
+      "duration_seconds": 3310,
+      "first_seen": "2026-11-14T20:27:56Z",
+      "issue_key": "district:text:9c09d477e2a85811",
+      "line_id": "district",
+      "line_name": "District",
+      "reason": "District Line: Minor delays due to train cancellations.",
+      "resolved_at": "2026-11-14T21:23:06Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "other",
+      "duration_seconds": 3310,
+      "first_seen": "2026-11-14T20:27:56Z",
+      "issue_key": "jubilee:text:57925a2ef9e26722",
+      "line_id": "jubilee",
+      "line_name": "Jubilee",
+      "reason": "Jubilee Line: Minor delays due to train cancellations.",
+      "resolved_at": "2026-11-14T21:23:06Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "other",
+      "duration_seconds": 3310,
+      "first_seen": "2026-11-14T20:27:56Z",
+      "issue_key": "metropolitan:text:305dd461877c7bb7",
+      "line_id": "metropolitan",
+      "line_name": "Metropolitan",
+      "reason": "Metropolitan Line: Minor delays due to train cancellations.",
+      "resolved_at": "2026-11-14T21:23:06Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
     {
       "category": "other",
       "duration_seconds": 12514,
@@ -38373,6 +38429,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-11-14T20:27:56Z",
+  "updated_at": "2026-11-14T21:23:06Z",
   "version": 1
 }
