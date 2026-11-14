@@ -10,13 +10,13 @@
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "district:text:e033625446c3009c": {
+    "district:text:da952204ece7b675": {
       "category": "other",
-      "first_seen": "2026-11-14T15:51:52Z",
-      "issue_key": "district:text:e033625446c3009c",
+      "first_seen": "2026-11-14T16:03:48Z",
+      "issue_key": "district:text:da952204ece7b675",
       "line_id": "district",
       "line_name": "District",
-      "reason": "District Line: No service between Earl's Court and Kensington (Olympia), MINOR DELAYS between Earl's Court and Wimbledon and between Turnham Green and Richmond due to train cancellations. Tickets are being accepted on London Buses. GOOD SERVICE on the rest of the line.",
+      "reason": "District Line: No service between Earl's Court and Kensington (Olympia) due to train cancellations. Tickets are being accepted on London Buses. GOOD SERVICE on the rest of the line.",
       "severity": "Part Suspended",
       "source_created": "0001-01-01T00:00:00"
     },
@@ -80,18 +80,42 @@
       "severity": "Service Closed",
       "source_created": "0001-01-01T00:00:00"
     },
-    "weaver:text:1d4b2ee80d8aaa7c": {
+    "weaver:text:0443c0d68a9250f6": {
       "category": "points failure",
-      "first_seen": "2026-11-14T15:51:52Z",
-      "issue_key": "weaver:text:1d4b2ee80d8aaa7c",
+      "first_seen": "2026-11-14T16:03:48Z",
+      "issue_key": "weaver:text:0443c0d68a9250f6",
       "line_id": "weaver",
       "line_name": "Weaver",
-      "reason": "Weaver Line: No service between Seven Sisters and Enfield Town/Cheshunt while we fix a points failure in the Edmonton Green area. MINOR DELAYS on the rest of the line.",
+      "reason": "Weaver Line: No service between Cheshunt and Edmonton Green due to an earlier points failure in the Edmonton Green area. MINOR DELAYS between Enfield Town and Liverpool Street. GOOD SERVICE on the rest of the line.",
       "severity": "Part Suspended",
       "source_created": "0001-01-01T00:00:00"
     }
   },
   "history": [
+    {
+      "category": "other",
+      "duration_seconds": 716,
+      "first_seen": "2026-11-14T15:51:52Z",
+      "issue_key": "district:text:e033625446c3009c",
+      "line_id": "district",
+      "line_name": "District",
+      "reason": "District Line: No service between Earl's Court and Kensington (Olympia), MINOR DELAYS between Earl's Court and Wimbledon and between Turnham Green and Richmond due to train cancellations. Tickets are being accepted on London Buses. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-11-14T16:03:48Z",
+      "severity": "Part Suspended",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "points failure",
+      "duration_seconds": 716,
+      "first_seen": "2026-11-14T15:51:52Z",
+      "issue_key": "weaver:text:1d4b2ee80d8aaa7c",
+      "line_id": "weaver",
+      "line_name": "Weaver",
+      "reason": "Weaver Line: No service between Seven Sisters and Enfield Town/Cheshunt while we fix a points failure in the Edmonton Green area. MINOR DELAYS on the rest of the line.",
+      "resolved_at": "2026-11-14T16:03:48Z",
+      "severity": "Part Suspended",
+      "source_created": "0001-01-01T00:00:00"
+    },
     {
       "category": "other",
       "duration_seconds": 23773,
@@ -38265,6 +38289,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-11-14T15:51:52Z",
+  "updated_at": "2026-11-14T16:03:48Z",
   "version": 1
 }
