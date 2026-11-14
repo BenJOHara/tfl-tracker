@@ -1,62 +1,42 @@
 {
   "active": {
-    "central:text:6d0af7c9d44f714a": {
+    "central:text:2671929b56956017": {
       "category": "other",
-      "first_seen": "2026-11-14T09:15:39Z",
-      "issue_key": "central:text:6d0af7c9d44f714a",
+      "first_seen": "2026-11-14T15:51:52Z",
+      "issue_key": "central:text:2671929b56956017",
       "line_id": "central",
       "line_name": "Central",
-      "reason": "Central Line: Minor delays due to train cancellations.",
+      "reason": "Central Line: Minor delays between White City and Ealing Broadway/West Ruislip and between Leytonstone and Epping/Hainault via Newbury Park due to train cancellations. GOOD SERVICE on the rest of the line.",
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "district:text:83b80b745939c007": {
+    "district:text:e033625446c3009c": {
       "category": "other",
-      "first_seen": "2026-11-14T10:59:12Z",
-      "issue_key": "district:text:83b80b745939c007",
+      "first_seen": "2026-11-14T15:51:52Z",
+      "issue_key": "district:text:e033625446c3009c",
       "line_id": "district",
       "line_name": "District",
-      "reason": "District Line: Severe delays between Earl's Court and Kensington (Olympia). MINOR DELAYS between Earl's Court and Wimbledon due to train cancellations. Tickets are being accepted on London Buses. GOOD SERVICE on the rest of the line.",
-      "severity": "Minor Delays",
+      "reason": "District Line: No service between Earl's Court and Kensington (Olympia), MINOR DELAYS between Earl's Court and Wimbledon and between Turnham Green and Richmond due to train cancellations. Tickets are being accepted on London Buses. GOOD SERVICE on the rest of the line.",
+      "severity": "Part Suspended",
       "source_created": "0001-01-01T00:00:00"
     },
-    "dlr:text:111dd17047079b87": {
-      "category": "other",
-      "first_seen": "2026-11-14T10:59:12Z",
-      "issue_key": "dlr:text:111dd17047079b87",
-      "line_id": "dlr",
-      "line_name": "DLR",
-      "reason": "Docklands Light Railway: Minor delays between Tower Gateway and Beckton while we fix an electrical fault. GOOD SERVICE on the rest of the line.",
-      "severity": "Minor Delays",
-      "source_created": "0001-01-01T00:00:00"
-    },
-    "jubilee:text:4a0c167bb96ec764": {
+    "jubilee:text:d253e36b8b6c0e43": {
       "category": "points failure",
-      "first_seen": "2026-11-14T09:15:39Z",
-      "issue_key": "jubilee:text:4a0c167bb96ec764",
+      "first_seen": "2026-11-14T15:51:52Z",
+      "issue_key": "jubilee:text:d253e36b8b6c0e43",
       "line_id": "jubilee",
       "line_name": "Jubilee",
-      "reason": "Jubilee Line: Severe delays due to an earlier points failure at Wembley Park. Tickets are being accepted on London Buses, Mildmay line, DLR, Elizabeth line, C2C, Southeastern and Thameslink.",
-      "severity": "Severe Delays",
-      "source_created": "0001-01-01T00:00:00"
-    },
-    "metropolitan:text:305dd461877c7bb7": {
-      "category": "other",
-      "first_seen": "2026-11-14T09:15:39Z",
-      "issue_key": "metropolitan:text:305dd461877c7bb7",
-      "line_id": "metropolitan",
-      "line_name": "Metropolitan",
-      "reason": "Metropolitan Line: Minor delays due to train cancellations.",
+      "reason": "Jubilee Line: Minor delays due to an earlier points failure at Wembley Park.",
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "mildmay:text:2705e884a377dc95": {
-      "category": "points failure",
-      "first_seen": "2026-11-14T09:15:39Z",
-      "issue_key": "mildmay:text:2705e884a377dc95",
-      "line_id": "mildmay",
-      "line_name": "Mildmay",
-      "reason": "Mildmay Line: Minor delays between Willesden Junction and Clapham Junction due to an earlier points failure at Kensington (Olympia). GOOD SERVICE on the rest of the line.",
+    "metropolitan:text:33ae6534fc92602d": {
+      "category": "other",
+      "first_seen": "2026-11-14T15:51:52Z",
+      "issue_key": "metropolitan:text:33ae6534fc92602d",
+      "line_id": "metropolitan",
+      "line_name": "Metropolitan",
+      "reason": "Metropolitan Line: Severe delays between Moor Park and Watford and MINOR DELAYS on the rest of the line due to train cancellations. London Buses are accepting tickets via any reasonable route.",
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
@@ -70,14 +50,14 @@
       "severity": "Part Closure",
       "source_created": "0001-01-01T00:00:00"
     },
-    "suffragette:text:c74b9a8b0df28ccd": {
-      "category": "other",
-      "first_seen": "2026-11-14T10:59:12Z",
-      "issue_key": "suffragette:text:c74b9a8b0df28ccd",
+    "suffragette:text:fb54d83f74949d6c": {
+      "category": "points failure",
+      "first_seen": "2026-11-14T15:51:52Z",
+      "issue_key": "suffragette:text:fb54d83f74949d6c",
       "line_id": "suffragette",
       "line_name": "Suffragette",
-      "reason": "Suffragette Line: No service on the entire line while we fix a fault with the overhead power lines. London Underground are accepting tickets via any reasonable route.",
-      "severity": "Suspended",
+      "reason": "Suffragette Line: No service between Barking Riverside and Barking for the rest of the day due to a points failure at Barking. GOOD SEVICE on the rest of the line.",
+      "severity": "Part Suspended",
       "source_created": "0001-01-01T00:00:00"
     },
     "waterloo-city:text:02da0890c7cbf303": {
@@ -99,9 +79,103 @@
       "reason": "Waterloo and City Line: Service will resume at 06:00 on Monday.",
       "severity": "Service Closed",
       "source_created": "0001-01-01T00:00:00"
+    },
+    "weaver:text:1d4b2ee80d8aaa7c": {
+      "category": "points failure",
+      "first_seen": "2026-11-14T15:51:52Z",
+      "issue_key": "weaver:text:1d4b2ee80d8aaa7c",
+      "line_id": "weaver",
+      "line_name": "Weaver",
+      "reason": "Weaver Line: No service between Seven Sisters and Enfield Town/Cheshunt while we fix a points failure in the Edmonton Green area. MINOR DELAYS on the rest of the line.",
+      "severity": "Part Suspended",
+      "source_created": "0001-01-01T00:00:00"
     }
   },
   "history": [
+    {
+      "category": "other",
+      "duration_seconds": 23773,
+      "first_seen": "2026-11-14T09:15:39Z",
+      "issue_key": "central:text:6d0af7c9d44f714a",
+      "line_id": "central",
+      "line_name": "Central",
+      "reason": "Central Line: Minor delays due to train cancellations.",
+      "resolved_at": "2026-11-14T15:51:52Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "other",
+      "duration_seconds": 17560,
+      "first_seen": "2026-11-14T10:59:12Z",
+      "issue_key": "district:text:83b80b745939c007",
+      "line_id": "district",
+      "line_name": "District",
+      "reason": "District Line: Severe delays between Earl's Court and Kensington (Olympia). MINOR DELAYS between Earl's Court and Wimbledon due to train cancellations. Tickets are being accepted on London Buses. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-11-14T15:51:52Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "other",
+      "duration_seconds": 17560,
+      "first_seen": "2026-11-14T10:59:12Z",
+      "issue_key": "dlr:text:111dd17047079b87",
+      "line_id": "dlr",
+      "line_name": "DLR",
+      "reason": "Docklands Light Railway: Minor delays between Tower Gateway and Beckton while we fix an electrical fault. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-11-14T15:51:52Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "points failure",
+      "duration_seconds": 23773,
+      "first_seen": "2026-11-14T09:15:39Z",
+      "issue_key": "jubilee:text:4a0c167bb96ec764",
+      "line_id": "jubilee",
+      "line_name": "Jubilee",
+      "reason": "Jubilee Line: Severe delays due to an earlier points failure at Wembley Park. Tickets are being accepted on London Buses, Mildmay line, DLR, Elizabeth line, C2C, Southeastern and Thameslink.",
+      "resolved_at": "2026-11-14T15:51:52Z",
+      "severity": "Severe Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "other",
+      "duration_seconds": 23773,
+      "first_seen": "2026-11-14T09:15:39Z",
+      "issue_key": "metropolitan:text:305dd461877c7bb7",
+      "line_id": "metropolitan",
+      "line_name": "Metropolitan",
+      "reason": "Metropolitan Line: Minor delays due to train cancellations.",
+      "resolved_at": "2026-11-14T15:51:52Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "points failure",
+      "duration_seconds": 23773,
+      "first_seen": "2026-11-14T09:15:39Z",
+      "issue_key": "mildmay:text:2705e884a377dc95",
+      "line_id": "mildmay",
+      "line_name": "Mildmay",
+      "reason": "Mildmay Line: Minor delays between Willesden Junction and Clapham Junction due to an earlier points failure at Kensington (Olympia). GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-11-14T15:51:52Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "other",
+      "duration_seconds": 17560,
+      "first_seen": "2026-11-14T10:59:12Z",
+      "issue_key": "suffragette:text:c74b9a8b0df28ccd",
+      "line_id": "suffragette",
+      "line_name": "Suffragette",
+      "reason": "Suffragette Line: No service on the entire line while we fix a fault with the overhead power lines. London Underground are accepting tickets via any reasonable route.",
+      "resolved_at": "2026-11-14T15:51:52Z",
+      "severity": "Suspended",
+      "source_created": "0001-01-01T00:00:00"
+    },
     {
       "category": "other",
       "duration_seconds": 6213,
@@ -38191,6 +38265,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-11-14T10:59:12Z",
+  "updated_at": "2026-11-14T15:51:52Z",
   "version": 1
 }
