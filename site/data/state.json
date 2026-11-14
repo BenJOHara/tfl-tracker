@@ -1,5 +1,15 @@
 {
   "active": {
+    "bakerloo:text:441236c7b38e407e": {
+      "category": "other",
+      "first_seen": "2026-11-14T16:59:22Z",
+      "issue_key": "bakerloo:text:441236c7b38e407e",
+      "line_id": "bakerloo",
+      "line_name": "Bakerloo",
+      "reason": "Bakerloo Line: Minor delays due to train cancellations.",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
     "central:text:2671929b56956017": {
       "category": "other",
       "first_seen": "2026-11-14T15:51:52Z",
@@ -10,14 +20,14 @@
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "district:text:da952204ece7b675": {
+    "district:text:c4ac8ffe61e9ef76": {
       "category": "other",
-      "first_seen": "2026-11-14T16:03:48Z",
-      "issue_key": "district:text:da952204ece7b675",
+      "first_seen": "2026-11-14T16:59:22Z",
+      "issue_key": "district:text:c4ac8ffe61e9ef76",
       "line_id": "district",
       "line_name": "District",
-      "reason": "District Line: No service between Earl's Court and Kensington (Olympia) due to train cancellations. Tickets are being accepted on London Buses. GOOD SERVICE on the rest of the line.",
-      "severity": "Part Suspended",
+      "reason": "District Line: Severe delays between Earl's Court and Kensington (Olympia) and between Barking and Upminster eastbound only, MINOR DELAYS between Earl's Court and Ealing Broadway / Richmond due to train cancellations. Tickets are being accepted on London Buses. GOOD SERVICE on the rest of the line.",
+      "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
     "jubilee:text:d253e36b8b6c0e43": {
@@ -92,6 +102,18 @@
     }
   },
   "history": [
+    {
+      "category": "other",
+      "duration_seconds": 3334,
+      "first_seen": "2026-11-14T16:03:48Z",
+      "issue_key": "district:text:da952204ece7b675",
+      "line_id": "district",
+      "line_name": "District",
+      "reason": "District Line: No service between Earl's Court and Kensington (Olympia) due to train cancellations. Tickets are being accepted on London Buses. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-11-14T16:59:22Z",
+      "severity": "Part Suspended",
+      "source_created": "0001-01-01T00:00:00"
+    },
     {
       "category": "other",
       "duration_seconds": 716,
@@ -38289,6 +38311,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-11-14T16:03:48Z",
+  "updated_at": "2026-11-14T16:59:22Z",
   "version": 1
 }
