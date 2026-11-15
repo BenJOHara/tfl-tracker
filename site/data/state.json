@@ -1,12 +1,12 @@
 {
   "active": {
-    "bakerloo:text:be5b9465046a7e1d": {
+    "bakerloo:text:e24e7ae00158addf": {
       "category": "signal failure",
-      "first_seen": "2026-11-15T14:15:08Z",
-      "issue_key": "bakerloo:text:be5b9465046a7e1d",
+      "first_seen": "2026-11-15T15:36:17Z",
+      "issue_key": "bakerloo:text:e24e7ae00158addf",
       "line_id": "bakerloo",
       "line_name": "Bakerloo",
-      "reason": "Bakerloo Line: No service between Stonebridge Park and Harrow & Wealdstone while we fix a signal failure at Kenton. Please use the Lioness line to complete your journey. Tickets are also being accepted on London Buses. GOOD SERVICE on the rest of the line.",
+      "reason": "Bakerloo Line: No service between Stonebridge Park and Harrow & Wealdstone while we fix a signal failure at Kenton. Tickets are also being accepted on London Buses. GOOD SERVICE on the rest of the line.",
       "severity": "Part Suspended",
       "source_created": "0001-01-01T00:00:00"
     },
@@ -50,13 +50,13 @@
       "severity": "Part Closure",
       "source_created": "0001-01-01T00:00:00"
     },
-    "jubilee:text:7a5684c6093e09ff": {
+    "jubilee:text:3dfe54963bbf445d": {
       "category": "train fault",
-      "first_seen": "2026-11-15T14:15:08Z",
-      "issue_key": "jubilee:text:7a5684c6093e09ff",
+      "first_seen": "2026-11-15T15:36:17Z",
+      "issue_key": "jubilee:text:3dfe54963bbf445d",
       "line_id": "jubilee",
       "line_name": "Jubilee",
-      "reason": "Jubilee Line: Severe delays between North Greenwich and Stratford due to an earlier faulty train at Southwark. Tickets are being accepted on London Buses and DLR services. MINOR DELAYS on the rest of the line.",
+      "reason": "Jubilee Line: Minor delays between Wembley Park and Stanmore due to an earlier faulty train at Southwark. GOOD SERVICE on the rest of the line.",
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
@@ -66,17 +66,17 @@
       "issue_key": "lioness:text:ae3e801fc18a2623",
       "line_id": "lioness",
       "line_name": "Lioness",
-      "reason": "Lioness Line: Minor delays while we fix a signal failure at Kenton.",
-      "severity": "Minor Delays",
+      "reason": "Lioness Line: Severe delays while we fix a signal failure at Kenton.",
+      "severity": "Severe Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "metropolitan:text:e39d5d4020fe81d3": {
+    "metropolitan:text:16de8d2973ddc162": {
       "category": "other",
-      "first_seen": "2026-11-15T14:15:08Z",
-      "issue_key": "metropolitan:text:e39d5d4020fe81d3",
+      "first_seen": "2026-11-15T15:36:17Z",
+      "issue_key": "metropolitan:text:16de8d2973ddc162",
       "line_id": "metropolitan",
       "line_name": "Metropolitan",
-      "reason": "Metropolitan Line: Minor delays between Harrow-on-the-Hill and Uxbridge / Watford / Chesham / Amersham due to train cancellations. The next southbound departure from Chesham will be at 14:26. GOOD SERVICE on the rest of the line.",
+      "reason": "Metropolitan Line: Minor delays between Harrow-on-the-Hill and Uxbridge / Watford / Chesham / Amersham due to train cancellations. GOOD SERVICE on the rest of the line.",
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
@@ -100,24 +100,14 @@
       "severity": "Part Closure",
       "source_created": "0001-01-01T00:00:00"
     },
-    "suffragette:text:4eef519ed029101d": {
-      "category": "other",
-      "first_seen": "2026-11-15T14:15:08Z",
-      "issue_key": "suffragette:text:4eef519ed029101d",
+    "suffragette:text:5d7e60041208cb59": {
+      "category": "planned engineering",
+      "first_seen": "2026-11-15T15:36:17Z",
+      "issue_key": "suffragette:text:5d7e60041208cb59",
       "line_id": "suffragette",
       "line_name": "Suffragette",
-      "reason": "SUFFRAGETTE LINE: Sunday 15 November, between 1315 and 1445, a reduced service will operate between Gospel Oak and Woodgrange Park.",
-      "severity": "Reduced Service",
-      "source_created": "0001-01-01T00:00:00"
-    },
-    "suffragette:text:dd321b82487c6816": {
-      "category": "other",
-      "first_seen": "2026-11-15T14:15:08Z",
-      "issue_key": "suffragette:text:dd321b82487c6816",
-      "line_id": "suffragette",
-      "line_name": "Suffragette",
-      "reason": "SUFFRAGETTE LINE: Sunday 15 November, between 1315 and 1445, no service between Woodgrange Park and Barking Riverside. Use local London Buses services between Barking and Barking Riverside. Replacement bus service T operates between Woodgrange Park and Barking via East Ham (for District and Hammersmith & City lines).",
-      "severity": "Part Closure",
+      "reason": "Suffragette Line: No service between Barking Riverside and Woodgrange Park due to a late finish of engineering works. SEVERE DELAYS on the rest of the line.",
+      "severity": "Part Suspended",
       "source_created": "0001-01-01T00:00:00"
     },
     "waterloo-city:text:02da0890c7cbf303": {
@@ -142,6 +132,66 @@
     }
   },
   "history": [
+    {
+      "category": "signal failure",
+      "duration_seconds": 4869,
+      "first_seen": "2026-11-15T14:15:08Z",
+      "issue_key": "bakerloo:text:be5b9465046a7e1d",
+      "line_id": "bakerloo",
+      "line_name": "Bakerloo",
+      "reason": "Bakerloo Line: No service between Stonebridge Park and Harrow & Wealdstone while we fix a signal failure at Kenton. Please use the Lioness line to complete your journey. Tickets are also being accepted on London Buses. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-11-15T15:36:17Z",
+      "severity": "Part Suspended",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "train fault",
+      "duration_seconds": 4869,
+      "first_seen": "2026-11-15T14:15:08Z",
+      "issue_key": "jubilee:text:7a5684c6093e09ff",
+      "line_id": "jubilee",
+      "line_name": "Jubilee",
+      "reason": "Jubilee Line: Severe delays between North Greenwich and Stratford due to an earlier faulty train at Southwark. Tickets are being accepted on London Buses and DLR services. MINOR DELAYS on the rest of the line.",
+      "resolved_at": "2026-11-15T15:36:17Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "other",
+      "duration_seconds": 4869,
+      "first_seen": "2026-11-15T14:15:08Z",
+      "issue_key": "metropolitan:text:e39d5d4020fe81d3",
+      "line_id": "metropolitan",
+      "line_name": "Metropolitan",
+      "reason": "Metropolitan Line: Minor delays between Harrow-on-the-Hill and Uxbridge / Watford / Chesham / Amersham due to train cancellations. The next southbound departure from Chesham will be at 14:26. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-11-15T15:36:17Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "other",
+      "duration_seconds": 4869,
+      "first_seen": "2026-11-15T14:15:08Z",
+      "issue_key": "suffragette:text:4eef519ed029101d",
+      "line_id": "suffragette",
+      "line_name": "Suffragette",
+      "reason": "SUFFRAGETTE LINE: Sunday 15 November, between 1315 and 1445, a reduced service will operate between Gospel Oak and Woodgrange Park.",
+      "resolved_at": "2026-11-15T15:36:17Z",
+      "severity": "Reduced Service",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "other",
+      "duration_seconds": 4869,
+      "first_seen": "2026-11-15T14:15:08Z",
+      "issue_key": "suffragette:text:dd321b82487c6816",
+      "line_id": "suffragette",
+      "line_name": "Suffragette",
+      "reason": "SUFFRAGETTE LINE: Sunday 15 November, between 1315 and 1445, no service between Woodgrange Park and Barking Riverside. Use local London Buses services between Barking and Barking Riverside. Replacement bus service T operates between Woodgrange Park and Barking via East Ham (for District and Hammersmith & City lines).",
+      "resolved_at": "2026-11-15T15:36:17Z",
+      "severity": "Part Closure",
+      "source_created": "0001-01-01T00:00:00"
+    },
     {
       "category": "other",
       "duration_seconds": 27786,
@@ -38735,6 +38785,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-11-15T14:15:08Z",
+  "updated_at": "2026-11-15T15:36:17Z",
   "version": 1
 }
