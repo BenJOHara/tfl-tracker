@@ -1,13 +1,13 @@
 {
   "active": {
-    "bakerloo:text:be5b9465046a7e1d": {
+    "bakerloo:text:75e23a1a4553d33b": {
       "category": "signal failure",
-      "first_seen": "2026-11-15T19:48:40Z",
-      "issue_key": "bakerloo:text:be5b9465046a7e1d",
+      "first_seen": "2026-11-15T23:33:58Z",
+      "issue_key": "bakerloo:text:75e23a1a4553d33b",
       "line_id": "bakerloo",
       "line_name": "Bakerloo",
-      "reason": "Bakerloo Line: No service between Stonebridge Park and Harrow & Wealdstone while we fix a signal failure at Kenton. Please use the Lioness line to complete your journey. Tickets are also being accepted on London Buses. GOOD SERVICE on the rest of the line.",
-      "severity": "Part Suspended",
+      "reason": "Bakerloo Line: Minor delays between Stonebridge Park and Harrow & Wealdstone due to an earlier signal failure at Kenton. GOOD SERVICE on the rest of the line.",
+      "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
     "central:text:4ffb4fbbf6dbe932": {
@@ -60,14 +60,14 @@
       "severity": "Part Closure",
       "source_created": "0001-01-01T00:00:00"
     },
-    "victoria:text:4413146480473f6e": {
+    "victoria:text:8f7754d7b5aa5b4d": {
       "category": "points failure",
-      "first_seen": "2026-11-15T20:33:11Z",
-      "issue_key": "victoria:text:4413146480473f6e",
+      "first_seen": "2026-11-15T23:33:58Z",
+      "issue_key": "victoria:text:8f7754d7b5aa5b4d",
       "line_id": "victoria",
       "line_name": "Victoria",
-      "reason": "Victoria Line: No service between Victoria and Brixton while we fix a points failure at Brixton. SEVERE DELAYS on the rest of the line due to an earlier fire alert at Seven Sisters. Tickets are being accepted on London Buses, Suffragette line, Weaver line, Greater Anglia, Southeastern and South Western Railway services.",
-      "severity": "Part Suspended",
+      "reason": "Victoria Line: Severe delays due to an earlier fire alert at Seven Sisters and an earlier points failure at Brixton. Tickets are being accepted on London Buses, Suffragette line, Weaver line, Greater Anglia, Southeastern and South Western Railway services.",
+      "severity": "Severe Delays",
       "source_created": "0001-01-01T00:00:00"
     },
     "waterloo-city:text:02da0890c7cbf303": {
@@ -92,6 +92,30 @@
     }
   },
   "history": [
+    {
+      "category": "signal failure",
+      "duration_seconds": 13518,
+      "first_seen": "2026-11-15T19:48:40Z",
+      "issue_key": "bakerloo:text:be5b9465046a7e1d",
+      "line_id": "bakerloo",
+      "line_name": "Bakerloo",
+      "reason": "Bakerloo Line: No service between Stonebridge Park and Harrow & Wealdstone while we fix a signal failure at Kenton. Please use the Lioness line to complete your journey. Tickets are also being accepted on London Buses. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-11-15T23:33:58Z",
+      "severity": "Part Suspended",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "points failure",
+      "duration_seconds": 10847,
+      "first_seen": "2026-11-15T20:33:11Z",
+      "issue_key": "victoria:text:4413146480473f6e",
+      "line_id": "victoria",
+      "line_name": "Victoria",
+      "reason": "Victoria Line: No service between Victoria and Brixton while we fix a points failure at Brixton. SEVERE DELAYS on the rest of the line due to an earlier fire alert at Seven Sisters. Tickets are being accepted on London Buses, Suffragette line, Weaver line, Greater Anglia, Southeastern and South Western Railway services.",
+      "resolved_at": "2026-11-15T23:33:58Z",
+      "severity": "Part Suspended",
+      "source_created": "0001-01-01T00:00:00"
+    },
     {
       "category": "fire alert",
       "duration_seconds": 2671,
@@ -38841,6 +38865,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-11-15T20:33:11Z",
+  "updated_at": "2026-11-15T23:33:58Z",
   "version": 1
 }
