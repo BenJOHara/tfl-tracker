@@ -10,44 +10,34 @@
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "circle:text:32868707f9a6cb89": {
-      "category": "person on track",
-      "first_seen": "2026-11-14T21:23:06Z",
-      "issue_key": "circle:text:32868707f9a6cb89",
-      "line_id": "circle",
-      "line_name": "Circle",
-      "reason": "Circle Line: No service while we deal with a trespasser on the track at Paddington.Tickets are being accepted on London Buses.",
-      "severity": "Suspended",
-      "source_created": "0001-01-01T00:00:00"
-    },
-    "district:text:b4744d5434085ff6": {
-      "category": "person on track",
-      "first_seen": "2026-11-14T21:23:06Z",
-      "issue_key": "district:text:b4744d5434085ff6",
+    "district:text:9c09d477e2a85811": {
+      "category": "other",
+      "first_seen": "2026-11-15T00:06:08Z",
+      "issue_key": "district:text:9c09d477e2a85811",
       "line_id": "district",
       "line_name": "District",
-      "reason": "District Line: Severe delays between High Street Kensington and Edgware Road due to an earlier trespasser on the track. MINOR DELAYS on the rest of the line due to train cancellations. Tickets are being accepted on London Buses",
+      "reason": "District Line: Minor delays due to train cancellations.",
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "hammersmith-city:text:89d91f8b3f0c1a24": {
+    "hammersmith-city:text:d1db42da86c65ba3": {
       "category": "person on track",
-      "first_seen": "2026-11-14T21:23:06Z",
-      "issue_key": "hammersmith-city:text:89d91f8b3f0c1a24",
+      "first_seen": "2026-11-15T00:06:08Z",
+      "issue_key": "hammersmith-city:text:d1db42da86c65ba3",
       "line_id": "hammersmith-city",
       "line_name": "Hammersmith & City",
-      "reason": "Hammersmith and City Line: No service while we deal with a trespasser on the track at Paddington. Tickets are being accepted on London Buses.",
-      "severity": "Suspended",
+      "reason": "Hammersmith and City Line: Minor delays due to an earlier trespasser on the track at Paddington.",
+      "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "metropolitan:text:fc3944e99536bcd5": {
-      "category": "person on track",
-      "first_seen": "2026-11-14T21:23:06Z",
-      "issue_key": "metropolitan:text:fc3944e99536bcd5",
+    "metropolitan:text:305dd461877c7bb7": {
+      "category": "other",
+      "first_seen": "2026-11-15T00:06:08Z",
+      "issue_key": "metropolitan:text:305dd461877c7bb7",
       "line_id": "metropolitan",
       "line_name": "Metropolitan",
-      "reason": "Metropolitan Line: No service between Baker Street and Aldgate while we deal with a trespasser on the track at Paddington and MINOR DELAYS on the rest of the line due to train cancellations. Tickets are being accepted on London Buses.",
-      "severity": "Part Suspended",
+      "reason": "Metropolitan Line: Minor delays due to train cancellations.",
+      "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
     "northern:text:a4ae0c53bae982a5": {
@@ -70,14 +60,14 @@
       "severity": "Part Suspended",
       "source_created": "0001-01-01T00:00:00"
     },
-    "victoria:text:fb8957091ad8aa40": {
+    "victoria:text:245a7094b81c2f1e": {
       "category": "other",
-      "first_seen": "2026-11-14T21:23:06Z",
-      "issue_key": "victoria:text:fb8957091ad8aa40",
+      "first_seen": "2026-11-15T00:06:08Z",
+      "issue_key": "victoria:text:245a7094b81c2f1e",
       "line_id": "victoria",
       "line_name": "Victoria",
-      "reason": "Victoria Line: No service between Seven Sisters and Kings Cross and SEVERE DELAYS on the rest of the line while we deal with an animal on the track.",
-      "severity": "Part Suspended",
+      "reason": "Victoria Line: Severe delays due to an earlier animal on the track. Tickets are being accepted on London Buses, London Overground, Great Northern, Thameslink, Greater Anglia, South Western Railway, and Southeastern service.",
+      "severity": "Severe Delays",
       "source_created": "0001-01-01T00:00:00"
     },
     "waterloo-city:text:02da0890c7cbf303": {
@@ -99,19 +89,81 @@
       "reason": "Waterloo and City Line: Service will resume at 06:00 on Monday.",
       "severity": "Service Closed",
       "source_created": "0001-01-01T00:00:00"
+    }
+  },
+  "history": [
+    {
+      "category": "person on track",
+      "duration_seconds": 9782,
+      "first_seen": "2026-11-14T21:23:06Z",
+      "issue_key": "circle:text:32868707f9a6cb89",
+      "line_id": "circle",
+      "line_name": "Circle",
+      "reason": "Circle Line: No service while we deal with a trespasser on the track at Paddington.Tickets are being accepted on London Buses.",
+      "resolved_at": "2026-11-15T00:06:08Z",
+      "severity": "Suspended",
+      "source_created": "0001-01-01T00:00:00"
     },
-    "windrush:text:a1b58a96b0b02912": {
+    {
+      "category": "person on track",
+      "duration_seconds": 9782,
+      "first_seen": "2026-11-14T21:23:06Z",
+      "issue_key": "district:text:b4744d5434085ff6",
+      "line_id": "district",
+      "line_name": "District",
+      "reason": "District Line: Severe delays between High Street Kensington and Edgware Road due to an earlier trespasser on the track. MINOR DELAYS on the rest of the line due to train cancellations. Tickets are being accepted on London Buses",
+      "resolved_at": "2026-11-15T00:06:08Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "person on track",
+      "duration_seconds": 9782,
+      "first_seen": "2026-11-14T21:23:06Z",
+      "issue_key": "hammersmith-city:text:89d91f8b3f0c1a24",
+      "line_id": "hammersmith-city",
+      "line_name": "Hammersmith & City",
+      "reason": "Hammersmith and City Line: No service while we deal with a trespasser on the track at Paddington. Tickets are being accepted on London Buses.",
+      "resolved_at": "2026-11-15T00:06:08Z",
+      "severity": "Suspended",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "person on track",
+      "duration_seconds": 9782,
+      "first_seen": "2026-11-14T21:23:06Z",
+      "issue_key": "metropolitan:text:fc3944e99536bcd5",
+      "line_id": "metropolitan",
+      "line_name": "Metropolitan",
+      "reason": "Metropolitan Line: No service between Baker Street and Aldgate while we deal with a trespasser on the track at Paddington and MINOR DELAYS on the rest of the line due to train cancellations. Tickets are being accepted on London Buses.",
+      "resolved_at": "2026-11-15T00:06:08Z",
+      "severity": "Part Suspended",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "other",
+      "duration_seconds": 9782,
+      "first_seen": "2026-11-14T21:23:06Z",
+      "issue_key": "victoria:text:fb8957091ad8aa40",
+      "line_id": "victoria",
+      "line_name": "Victoria",
+      "reason": "Victoria Line: No service between Seven Sisters and Kings Cross and SEVERE DELAYS on the rest of the line while we deal with an animal on the track.",
+      "resolved_at": "2026-11-15T00:06:08Z",
+      "severity": "Part Suspended",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
       "category": "passenger incident",
+      "duration_seconds": 13092,
       "first_seen": "2026-11-14T20:27:56Z",
       "issue_key": "windrush:text:a1b58a96b0b02912",
       "line_id": "windrush",
       "line_name": "Windrush",
       "reason": "Windrush Line: Minor delays due to an earlier customer incident at Haggerston.",
+      "resolved_at": "2026-11-15T00:06:08Z",
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
-    }
-  },
-  "history": [
+    },
     {
       "category": "other",
       "duration_seconds": 3310,
@@ -38429,6 +38481,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-11-14T21:23:06Z",
+  "updated_at": "2026-11-15T00:06:08Z",
   "version": 1
 }
