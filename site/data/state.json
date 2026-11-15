@@ -1,12 +1,12 @@
 {
   "active": {
-    "bakerloo:text:e24e7ae00158addf": {
+    "bakerloo:text:be5b9465046a7e1d": {
       "category": "signal failure",
-      "first_seen": "2026-11-15T15:36:17Z",
-      "issue_key": "bakerloo:text:e24e7ae00158addf",
+      "first_seen": "2026-11-15T19:48:40Z",
+      "issue_key": "bakerloo:text:be5b9465046a7e1d",
       "line_id": "bakerloo",
       "line_name": "Bakerloo",
-      "reason": "Bakerloo Line: No service between Stonebridge Park and Harrow & Wealdstone while we fix a signal failure at Kenton. Tickets are also being accepted on London Buses. GOOD SERVICE on the rest of the line.",
+      "reason": "Bakerloo Line: No service between Stonebridge Park and Harrow & Wealdstone while we fix a signal failure at Kenton. Please use the Lioness line to complete your journey. Tickets are also being accepted on London Buses. GOOD SERVICE on the rest of the line.",
       "severity": "Part Suspended",
       "source_created": "0001-01-01T00:00:00"
     },
@@ -20,16 +20,6 @@
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "district:text:da952204ece7b675": {
-      "category": "other",
-      "first_seen": "2026-11-15T14:15:08Z",
-      "issue_key": "district:text:da952204ece7b675",
-      "line_id": "district",
-      "line_name": "District",
-      "reason": "District Line: No service between Earl's Court and Kensington (Olympia) due to train cancellations. Tickets are being accepted on London Buses. GOOD SERVICE on the rest of the line.",
-      "severity": "Part Suspended",
-      "source_created": "0001-01-01T00:00:00"
-    },
     "dlr:text:69e644ae38c517b7": {
       "category": "other",
       "first_seen": "2026-11-15T06:32:02Z",
@@ -40,43 +30,13 @@
       "severity": "Part Closure",
       "source_created": "0001-01-01T00:00:00"
     },
-    "hammersmith-city:text:771b5dc52fdf631b": {
+    "metropolitan:text:3ba8771fd32f07bb": {
       "category": "other",
-      "first_seen": "2026-11-15T14:15:08Z",
-      "issue_key": "hammersmith-city:text:771b5dc52fdf631b",
-      "line_id": "hammersmith-city",
-      "line_name": "Hammersmith & City",
-      "reason": "HAMMERSMITH & CITY LINE: Sunday 15 November, between 1000 and 1800, no service between Plaistow and Barking. Please use DISTRICT LINE services.",
-      "severity": "Part Closure",
-      "source_created": "0001-01-01T00:00:00"
-    },
-    "jubilee:text:3dfe54963bbf445d": {
-      "category": "train fault",
-      "first_seen": "2026-11-15T15:36:17Z",
-      "issue_key": "jubilee:text:3dfe54963bbf445d",
-      "line_id": "jubilee",
-      "line_name": "Jubilee",
-      "reason": "Jubilee Line: Minor delays between Wembley Park and Stanmore due to an earlier faulty train at Southwark. GOOD SERVICE on the rest of the line.",
-      "severity": "Minor Delays",
-      "source_created": "0001-01-01T00:00:00"
-    },
-    "lioness:text:ae3e801fc18a2623": {
-      "category": "signal failure",
-      "first_seen": "2026-11-15T14:15:08Z",
-      "issue_key": "lioness:text:ae3e801fc18a2623",
-      "line_id": "lioness",
-      "line_name": "Lioness",
-      "reason": "Lioness Line: Severe delays while we fix a signal failure at Kenton.",
-      "severity": "Severe Delays",
-      "source_created": "0001-01-01T00:00:00"
-    },
-    "metropolitan:text:16de8d2973ddc162": {
-      "category": "other",
-      "first_seen": "2026-11-15T15:36:17Z",
-      "issue_key": "metropolitan:text:16de8d2973ddc162",
+      "first_seen": "2026-11-15T19:48:40Z",
+      "issue_key": "metropolitan:text:3ba8771fd32f07bb",
       "line_id": "metropolitan",
       "line_name": "Metropolitan",
-      "reason": "Metropolitan Line: Minor delays between Harrow-on-the-Hill and Uxbridge / Watford / Chesham / Amersham due to train cancellations. GOOD SERVICE on the rest of the line.",
+      "reason": "Metropolitan Line: Minor delays between Harrow-on-the-Hill and Uxbridge due to train cancellations. GOOD SERVICE on the rest of the line.",
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
@@ -100,14 +60,14 @@
       "severity": "Part Closure",
       "source_created": "0001-01-01T00:00:00"
     },
-    "suffragette:text:5d7e60041208cb59": {
-      "category": "planned engineering",
-      "first_seen": "2026-11-15T15:36:17Z",
-      "issue_key": "suffragette:text:5d7e60041208cb59",
-      "line_id": "suffragette",
-      "line_name": "Suffragette",
-      "reason": "Suffragette Line: No service between Barking Riverside and Woodgrange Park due to a late finish of engineering works. SEVERE DELAYS on the rest of the line.",
-      "severity": "Part Suspended",
+    "victoria:text:0db320ed26fa1823": {
+      "category": "fire alert",
+      "first_seen": "2026-11-15T19:48:40Z",
+      "issue_key": "victoria:text:0db320ed26fa1823",
+      "line_id": "victoria",
+      "line_name": "Victoria",
+      "reason": "Victoria Line: Severe delays due to an earlier fire alert at Seven Sisters. Tickets are being accepted on London Buses, Suffragette line, Weaver line, Greater Anglia, Southeastern and South Western Railway services.",
+      "severity": "Severe Delays",
       "source_created": "0001-01-01T00:00:00"
     },
     "waterloo-city:text:02da0890c7cbf303": {
@@ -132,6 +92,90 @@
     }
   },
   "history": [
+    {
+      "category": "signal failure",
+      "duration_seconds": 15143,
+      "first_seen": "2026-11-15T15:36:17Z",
+      "issue_key": "bakerloo:text:e24e7ae00158addf",
+      "line_id": "bakerloo",
+      "line_name": "Bakerloo",
+      "reason": "Bakerloo Line: No service between Stonebridge Park and Harrow & Wealdstone while we fix a signal failure at Kenton. Tickets are also being accepted on London Buses. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-11-15T19:48:40Z",
+      "severity": "Part Suspended",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "other",
+      "duration_seconds": 20012,
+      "first_seen": "2026-11-15T14:15:08Z",
+      "issue_key": "district:text:da952204ece7b675",
+      "line_id": "district",
+      "line_name": "District",
+      "reason": "District Line: No service between Earl's Court and Kensington (Olympia) due to train cancellations. Tickets are being accepted on London Buses. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-11-15T19:48:40Z",
+      "severity": "Part Suspended",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "other",
+      "duration_seconds": 20012,
+      "first_seen": "2026-11-15T14:15:08Z",
+      "issue_key": "hammersmith-city:text:771b5dc52fdf631b",
+      "line_id": "hammersmith-city",
+      "line_name": "Hammersmith & City",
+      "reason": "HAMMERSMITH & CITY LINE: Sunday 15 November, between 1000 and 1800, no service between Plaistow and Barking. Please use DISTRICT LINE services.",
+      "resolved_at": "2026-11-15T19:48:40Z",
+      "severity": "Part Closure",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "train fault",
+      "duration_seconds": 15143,
+      "first_seen": "2026-11-15T15:36:17Z",
+      "issue_key": "jubilee:text:3dfe54963bbf445d",
+      "line_id": "jubilee",
+      "line_name": "Jubilee",
+      "reason": "Jubilee Line: Minor delays between Wembley Park and Stanmore due to an earlier faulty train at Southwark. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-11-15T19:48:40Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "signal failure",
+      "duration_seconds": 20012,
+      "first_seen": "2026-11-15T14:15:08Z",
+      "issue_key": "lioness:text:ae3e801fc18a2623",
+      "line_id": "lioness",
+      "line_name": "Lioness",
+      "reason": "Lioness Line: Severe delays while we fix a signal failure at Kenton.",
+      "resolved_at": "2026-11-15T19:48:40Z",
+      "severity": "Severe Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "other",
+      "duration_seconds": 15143,
+      "first_seen": "2026-11-15T15:36:17Z",
+      "issue_key": "metropolitan:text:16de8d2973ddc162",
+      "line_id": "metropolitan",
+      "line_name": "Metropolitan",
+      "reason": "Metropolitan Line: Minor delays between Harrow-on-the-Hill and Uxbridge / Watford / Chesham / Amersham due to train cancellations. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-11-15T19:48:40Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "planned engineering",
+      "duration_seconds": 15143,
+      "first_seen": "2026-11-15T15:36:17Z",
+      "issue_key": "suffragette:text:5d7e60041208cb59",
+      "line_id": "suffragette",
+      "line_name": "Suffragette",
+      "reason": "Suffragette Line: No service between Barking Riverside and Woodgrange Park due to a late finish of engineering works. SEVERE DELAYS on the rest of the line.",
+      "resolved_at": "2026-11-15T19:48:40Z",
+      "severity": "Part Suspended",
+      "source_created": "0001-01-01T00:00:00"
+    },
     {
       "category": "signal failure",
       "duration_seconds": 4869,
@@ -38785,6 +38829,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-11-15T15:36:17Z",
+  "updated_at": "2026-11-15T19:48:40Z",
   "version": 1
 }
