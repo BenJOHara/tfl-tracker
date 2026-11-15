@@ -1,93 +1,63 @@
 {
   "active": {
-    "bakerloo:text:975c88cf69561d0c": {
+    "dlr:text:69e644ae38c517b7": {
       "category": "other",
-      "first_seen": "2026-11-15T01:15:57Z",
-      "issue_key": "bakerloo:text:975c88cf69561d0c",
-      "line_id": "bakerloo",
-      "line_name": "Bakerloo",
-      "reason": "Bakerloo Line: Service will resume later this morning.",
-      "severity": "Service Closed",
-      "source_created": "0001-01-01T00:00:00"
-    },
-    "central:text:6d0af7c9d44f714a": {
-      "category": "other",
-      "first_seen": "2026-11-14T20:27:56Z",
-      "issue_key": "central:text:6d0af7c9d44f714a",
-      "line_id": "central",
-      "line_name": "Central",
-      "reason": "Central Line: Minor delays due to train cancellations.",
-      "severity": "Minor Delays",
-      "source_created": "0001-01-01T00:00:00"
-    },
-    "circle:text:a1099579f6415e8f": {
-      "category": "other",
-      "first_seen": "2026-11-15T01:15:57Z",
-      "issue_key": "circle:text:a1099579f6415e8f",
-      "line_id": "circle",
-      "line_name": "Circle",
-      "reason": "Circle Line: Service will resume later this morning.",
-      "severity": "Service Closed",
-      "source_created": "0001-01-01T00:00:00"
-    },
-    "district:text:468f4f04f34d8411": {
-      "category": "other",
-      "first_seen": "2026-11-15T01:15:57Z",
-      "issue_key": "district:text:468f4f04f34d8411",
-      "line_id": "district",
-      "line_name": "District",
-      "reason": "District Line: Service will resume later this morning.",
-      "severity": "Service Closed",
-      "source_created": "0001-01-01T00:00:00"
-    },
-    "hammersmith-city:text:b560078b35a5fd17": {
-      "category": "other",
-      "first_seen": "2026-11-15T01:15:57Z",
-      "issue_key": "hammersmith-city:text:b560078b35a5fd17",
-      "line_id": "hammersmith-city",
-      "line_name": "Hammersmith & City",
-      "reason": "Hammersmith and City Line: Service will resume later this morning.",
-      "severity": "Service Closed",
-      "source_created": "0001-01-01T00:00:00"
-    },
-    "metropolitan:text:305dd461877c7bb7": {
-      "category": "other",
-      "first_seen": "2026-11-15T00:06:08Z",
-      "issue_key": "metropolitan:text:305dd461877c7bb7",
-      "line_id": "metropolitan",
-      "line_name": "Metropolitan",
-      "reason": "Metropolitan Line: Minor delays due to train cancellations.",
-      "severity": "Minor Delays",
-      "source_created": "0001-01-01T00:00:00"
-    },
-    "northern:text:a4ae0c53bae982a5": {
-      "category": "other",
-      "first_seen": "2026-11-14T02:27:23Z",
-      "issue_key": "northern:text:a4ae0c53bae982a5",
-      "line_id": "northern",
-      "line_name": "Northern",
-      "reason": "NORTHERN LINE: From 0130 Saturday 14 until 0130 Sunday 15 November, no service between Euston (Bank Branch) / Charing Cross and Morden / Battersea Power Station. There will be no Friday Night Tube service between Charing Cross and Morden. Replacement bus services operate during day hours only, for Night journeys please use Night Bus services",
+      "first_seen": "2026-11-15T06:32:02Z",
+      "issue_key": "dlr:text:69e644ae38c517b7",
+      "line_id": "dlr",
+      "line_name": "DLR",
+      "reason": "DOCKLANDS LIGHT RAILWAY: Sunday 15 November, no service between Shadwell and Tower Gateway.",
       "severity": "Part Closure",
       "source_created": "0001-01-01T00:00:00"
     },
-    "suffragette:text:fb54d83f74949d6c": {
-      "category": "points failure",
-      "first_seen": "2026-11-14T15:51:52Z",
-      "issue_key": "suffragette:text:fb54d83f74949d6c",
-      "line_id": "suffragette",
-      "line_name": "Suffragette",
-      "reason": "Suffragette Line: No service between Barking Riverside and Barking for the rest of the day due to a points failure at Barking. GOOD SEVICE on the rest of the line.",
-      "severity": "Part Suspended",
+    "elizabeth:text:6cef159ebb2f60bb": {
+      "category": "other",
+      "first_seen": "2026-11-15T06:32:02Z",
+      "issue_key": "elizabeth:text:6cef159ebb2f60bb",
+      "line_id": "elizabeth",
+      "line_name": "Elizabeth line",
+      "reason": "ELIZABETH LINE: Sunday 15 November, until 0800, no service between West Drayton and Slough. Replacement bus service W1 operates between Hayes & Harlington and Slough via West Drayton and Langley (not serving Iver).",
+      "severity": "Part Closure",
       "source_created": "0001-01-01T00:00:00"
     },
-    "victoria:text:245a7094b81c2f1e": {
+    "elizabeth:text:fba21d4c9218bfd2": {
       "category": "other",
-      "first_seen": "2026-11-15T00:06:08Z",
-      "issue_key": "victoria:text:245a7094b81c2f1e",
-      "line_id": "victoria",
-      "line_name": "Victoria",
-      "reason": "Victoria Line: Severe delays due to an earlier animal on the track. Tickets are being accepted on London Buses, London Overground, Great Northern, Thameslink, Greater Anglia, South Western Railway, and Southeastern service.",
-      "severity": "Severe Delays",
+      "first_seen": "2026-11-15T06:32:02Z",
+      "issue_key": "elizabeth:text:fba21d4c9218bfd2",
+      "line_id": "elizabeth",
+      "line_name": "Elizabeth line",
+      "reason": "ELIZABETH LINE: Sunday 15 November, until 1015, no service between Paddington and Abbey Wood / Stratford. Trains operate between Paddington National Rail station and Heathrow Terminal 4, Heathrow Terminal 5, West Drayton (until 0800) and Reading (after 0800), and between Liverpool Street National Rail station and Shenfield, not serving Whitechapel.",
+      "severity": "Part Closure",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "mildmay:text:ca284970aa2bab7b": {
+      "category": "other",
+      "first_seen": "2026-11-15T06:32:02Z",
+      "issue_key": "mildmay:text:ca284970aa2bab7b",
+      "line_id": "mildmay",
+      "line_name": "Mildmay",
+      "reason": "MILDMAY LINE: Sunday 15 November, no service between Willesden Junction and Clapham Junction. There will also be no SOUTHERN services between Watford Junction and Clapham Junction at these times. Please use local London Buses connections.",
+      "severity": "Part Closure",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "northern:text:b2d1914460b79d24": {
+      "category": "other",
+      "first_seen": "2026-11-15T06:32:02Z",
+      "issue_key": "northern:text:b2d1914460b79d24",
+      "line_id": "northern",
+      "line_name": "Northern",
+      "reason": "NORTHERN LINE: From 0530 Sunday 15 November, no service between Euston (Bank Branch) / Charing Cross and Morden / Battersea Power Station. Replacement bus services operate.",
+      "severity": "Part Closure",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "suffragette:text:82d0db39db7ed0a6": {
+      "category": "other",
+      "first_seen": "2026-11-15T06:32:02Z",
+      "issue_key": "suffragette:text:82d0db39db7ed0a6",
+      "line_id": "suffragette",
+      "line_name": "Suffragette",
+      "reason": "SUFFRAGETTE LINE: Sunday 15 November, until 1315, no service between Gospel Oak and Barking Riverside. Use VICTORIA LINE connections between Seven Sisters (for South Tottenham), Blackhorse Road and Walthamstow Central, and local London Buses services between Barking and Barking Riverside. Replacement buses operate.",
+      "severity": "Planned Closure",
       "source_created": "0001-01-01T00:00:00"
     },
     "waterloo-city:text:02da0890c7cbf303": {
@@ -109,9 +79,127 @@
       "reason": "Waterloo and City Line: Service will resume at 06:00 on Monday.",
       "severity": "Service Closed",
       "source_created": "0001-01-01T00:00:00"
+    },
+    "windrush:text:4fad961d900476cb": {
+      "category": "other",
+      "first_seen": "2026-11-15T06:32:02Z",
+      "issue_key": "windrush:text:4fad961d900476cb",
+      "line_id": "windrush",
+      "line_name": "Windrush",
+      "reason": "WINDRUSH LINE: Sunday 15 November, no service between New Cross Gate and West Croydon / Crystal Palace. Rail replacement buses will run as follows: New Cross Gate - Brockley - Honor Oak Park - Forest Hill - Sydenham - Crystal Palace. Tickets will be accepted on Southern Railway services between Crystal Palace and East Croydon via Norwood Junction. Alternatively, customers may use local buses or trams via any reasonable route.",
+      "severity": "Part Closure",
+      "source_created": "0001-01-01T00:00:00"
     }
   },
   "history": [
+    {
+      "category": "other",
+      "duration_seconds": 18965,
+      "first_seen": "2026-11-15T01:15:57Z",
+      "issue_key": "bakerloo:text:975c88cf69561d0c",
+      "line_id": "bakerloo",
+      "line_name": "Bakerloo",
+      "reason": "Bakerloo Line: Service will resume later this morning.",
+      "resolved_at": "2026-11-15T06:32:02Z",
+      "severity": "Service Closed",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "other",
+      "duration_seconds": 36246,
+      "first_seen": "2026-11-14T20:27:56Z",
+      "issue_key": "central:text:6d0af7c9d44f714a",
+      "line_id": "central",
+      "line_name": "Central",
+      "reason": "Central Line: Minor delays due to train cancellations.",
+      "resolved_at": "2026-11-15T06:32:02Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "other",
+      "duration_seconds": 18965,
+      "first_seen": "2026-11-15T01:15:57Z",
+      "issue_key": "circle:text:a1099579f6415e8f",
+      "line_id": "circle",
+      "line_name": "Circle",
+      "reason": "Circle Line: Service will resume later this morning.",
+      "resolved_at": "2026-11-15T06:32:02Z",
+      "severity": "Service Closed",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "other",
+      "duration_seconds": 18965,
+      "first_seen": "2026-11-15T01:15:57Z",
+      "issue_key": "district:text:468f4f04f34d8411",
+      "line_id": "district",
+      "line_name": "District",
+      "reason": "District Line: Service will resume later this morning.",
+      "resolved_at": "2026-11-15T06:32:02Z",
+      "severity": "Service Closed",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "other",
+      "duration_seconds": 18965,
+      "first_seen": "2026-11-15T01:15:57Z",
+      "issue_key": "hammersmith-city:text:b560078b35a5fd17",
+      "line_id": "hammersmith-city",
+      "line_name": "Hammersmith & City",
+      "reason": "Hammersmith and City Line: Service will resume later this morning.",
+      "resolved_at": "2026-11-15T06:32:02Z",
+      "severity": "Service Closed",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "other",
+      "duration_seconds": 23154,
+      "first_seen": "2026-11-15T00:06:08Z",
+      "issue_key": "metropolitan:text:305dd461877c7bb7",
+      "line_id": "metropolitan",
+      "line_name": "Metropolitan",
+      "reason": "Metropolitan Line: Minor delays due to train cancellations.",
+      "resolved_at": "2026-11-15T06:32:02Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "other",
+      "duration_seconds": 101079,
+      "first_seen": "2026-11-14T02:27:23Z",
+      "issue_key": "northern:text:a4ae0c53bae982a5",
+      "line_id": "northern",
+      "line_name": "Northern",
+      "reason": "NORTHERN LINE: From 0130 Saturday 14 until 0130 Sunday 15 November, no service between Euston (Bank Branch) / Charing Cross and Morden / Battersea Power Station. There will be no Friday Night Tube service between Charing Cross and Morden. Replacement bus services operate during day hours only, for Night journeys please use Night Bus services",
+      "resolved_at": "2026-11-15T06:32:02Z",
+      "severity": "Part Closure",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "points failure",
+      "duration_seconds": 52810,
+      "first_seen": "2026-11-14T15:51:52Z",
+      "issue_key": "suffragette:text:fb54d83f74949d6c",
+      "line_id": "suffragette",
+      "line_name": "Suffragette",
+      "reason": "Suffragette Line: No service between Barking Riverside and Barking for the rest of the day due to a points failure at Barking. GOOD SEVICE on the rest of the line.",
+      "resolved_at": "2026-11-15T06:32:02Z",
+      "severity": "Part Suspended",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "other",
+      "duration_seconds": 23154,
+      "first_seen": "2026-11-15T00:06:08Z",
+      "issue_key": "victoria:text:245a7094b81c2f1e",
+      "line_id": "victoria",
+      "line_name": "Victoria",
+      "reason": "Victoria Line: Severe delays due to an earlier animal on the track. Tickets are being accepted on London Buses, London Overground, Great Northern, Thameslink, Greater Anglia, South Western Railway, and Southeastern service.",
+      "resolved_at": "2026-11-15T06:32:02Z",
+      "severity": "Severe Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
     {
       "category": "person on track",
       "duration_seconds": 3679,
@@ -38537,6 +38625,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-11-15T01:15:57Z",
+  "updated_at": "2026-11-15T06:32:02Z",
   "version": 1
 }
