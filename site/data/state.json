@@ -10,6 +10,16 @@
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
+    "circle:text:17919eecc0a81b9f": {
+      "category": "person on track",
+      "first_seen": "2026-11-15T00:14:38Z",
+      "issue_key": "circle:text:17919eecc0a81b9f",
+      "line_id": "circle",
+      "line_name": "Circle",
+      "reason": "Circle Line: Minor delays due to an earlier trespasser on the track at Paddington.",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
     "district:text:9c09d477e2a85811": {
       "category": "other",
       "first_seen": "2026-11-15T00:06:08Z",
@@ -38481,6 +38491,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-11-15T00:06:08Z",
+  "updated_at": "2026-11-15T00:14:38Z",
   "version": 1
 }
