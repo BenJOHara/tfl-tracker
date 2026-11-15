@@ -1,5 +1,35 @@
 {
   "active": {
+    "bakerloo:text:be5b9465046a7e1d": {
+      "category": "signal failure",
+      "first_seen": "2026-11-15T14:15:08Z",
+      "issue_key": "bakerloo:text:be5b9465046a7e1d",
+      "line_id": "bakerloo",
+      "line_name": "Bakerloo",
+      "reason": "Bakerloo Line: No service between Stonebridge Park and Harrow & Wealdstone while we fix a signal failure at Kenton. Please use the Lioness line to complete your journey. Tickets are also being accepted on London Buses. GOOD SERVICE on the rest of the line.",
+      "severity": "Part Suspended",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "central:text:4ffb4fbbf6dbe932": {
+      "category": "other",
+      "first_seen": "2026-11-15T14:15:08Z",
+      "issue_key": "central:text:4ffb4fbbf6dbe932",
+      "line_id": "central",
+      "line_name": "Central",
+      "reason": "Central Line: Minor delays due train cancellations.",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "district:text:da952204ece7b675": {
+      "category": "other",
+      "first_seen": "2026-11-15T14:15:08Z",
+      "issue_key": "district:text:da952204ece7b675",
+      "line_id": "district",
+      "line_name": "District",
+      "reason": "District Line: No service between Earl's Court and Kensington (Olympia) due to train cancellations. Tickets are being accepted on London Buses. GOOD SERVICE on the rest of the line.",
+      "severity": "Part Suspended",
+      "source_created": "0001-01-01T00:00:00"
+    },
     "dlr:text:69e644ae38c517b7": {
       "category": "other",
       "first_seen": "2026-11-15T06:32:02Z",
@@ -10,33 +40,43 @@
       "severity": "Part Closure",
       "source_created": "0001-01-01T00:00:00"
     },
-    "elizabeth:text:6cef159ebb2f60bb": {
+    "hammersmith-city:text:771b5dc52fdf631b": {
       "category": "other",
-      "first_seen": "2026-11-15T06:32:02Z",
-      "issue_key": "elizabeth:text:6cef159ebb2f60bb",
-      "line_id": "elizabeth",
-      "line_name": "Elizabeth line",
-      "reason": "ELIZABETH LINE: Sunday 15 November, until 0800, no service between West Drayton and Slough. Replacement bus service W1 operates between Hayes & Harlington and Slough via West Drayton and Langley (not serving Iver).",
+      "first_seen": "2026-11-15T14:15:08Z",
+      "issue_key": "hammersmith-city:text:771b5dc52fdf631b",
+      "line_id": "hammersmith-city",
+      "line_name": "Hammersmith & City",
+      "reason": "HAMMERSMITH & CITY LINE: Sunday 15 November, between 1000 and 1800, no service between Plaistow and Barking. Please use DISTRICT LINE services.",
       "severity": "Part Closure",
       "source_created": "0001-01-01T00:00:00"
     },
-    "elizabeth:text:fba21d4c9218bfd2": {
-      "category": "other",
-      "first_seen": "2026-11-15T06:32:02Z",
-      "issue_key": "elizabeth:text:fba21d4c9218bfd2",
-      "line_id": "elizabeth",
-      "line_name": "Elizabeth line",
-      "reason": "ELIZABETH LINE: Sunday 15 November, until 1015, no service between Paddington and Abbey Wood / Stratford. Trains operate between Paddington National Rail station and Heathrow Terminal 4, Heathrow Terminal 5, West Drayton (until 0800) and Reading (after 0800), and between Liverpool Street National Rail station and Shenfield, not serving Whitechapel.",
-      "severity": "Part Closure",
+    "jubilee:text:7a5684c6093e09ff": {
+      "category": "train fault",
+      "first_seen": "2026-11-15T14:15:08Z",
+      "issue_key": "jubilee:text:7a5684c6093e09ff",
+      "line_id": "jubilee",
+      "line_name": "Jubilee",
+      "reason": "Jubilee Line: Severe delays between North Greenwich and Stratford due to an earlier faulty train at Southwark. Tickets are being accepted on London Buses and DLR services. MINOR DELAYS on the rest of the line.",
+      "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "metropolitan:text:a9919e5f34f5cfe6": {
+    "lioness:text:ae3e801fc18a2623": {
+      "category": "signal failure",
+      "first_seen": "2026-11-15T14:15:08Z",
+      "issue_key": "lioness:text:ae3e801fc18a2623",
+      "line_id": "lioness",
+      "line_name": "Lioness",
+      "reason": "Lioness Line: Minor delays while we fix a signal failure at Kenton.",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "metropolitan:text:e39d5d4020fe81d3": {
       "category": "other",
-      "first_seen": "2026-11-15T07:56:27Z",
-      "issue_key": "metropolitan:text:a9919e5f34f5cfe6",
+      "first_seen": "2026-11-15T14:15:08Z",
+      "issue_key": "metropolitan:text:e39d5d4020fe81d3",
       "line_id": "metropolitan",
       "line_name": "Metropolitan",
-      "reason": "Metropolitan Line: Minor delays between Moor Park and Chesham / Watford due to train cancellations. The next southbound departure from Chesham will be at 07:56. GOOD SERVICE on the rest of the line.",
+      "reason": "Metropolitan Line: Minor delays between Harrow-on-the-Hill and Uxbridge / Watford / Chesham / Amersham due to train cancellations. The next southbound departure from Chesham will be at 14:26. GOOD SERVICE on the rest of the line.",
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
@@ -60,14 +100,24 @@
       "severity": "Part Closure",
       "source_created": "0001-01-01T00:00:00"
     },
-    "suffragette:text:82d0db39db7ed0a6": {
+    "suffragette:text:4eef519ed029101d": {
       "category": "other",
-      "first_seen": "2026-11-15T06:32:02Z",
-      "issue_key": "suffragette:text:82d0db39db7ed0a6",
+      "first_seen": "2026-11-15T14:15:08Z",
+      "issue_key": "suffragette:text:4eef519ed029101d",
       "line_id": "suffragette",
       "line_name": "Suffragette",
-      "reason": "SUFFRAGETTE LINE: Sunday 15 November, until 1315, no service between Gospel Oak and Barking Riverside. Use VICTORIA LINE connections between Seven Sisters (for South Tottenham), Blackhorse Road and Walthamstow Central, and local London Buses services between Barking and Barking Riverside. Replacement buses operate.",
-      "severity": "Planned Closure",
+      "reason": "SUFFRAGETTE LINE: Sunday 15 November, between 1315 and 1445, a reduced service will operate between Gospel Oak and Woodgrange Park.",
+      "severity": "Reduced Service",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "suffragette:text:dd321b82487c6816": {
+      "category": "other",
+      "first_seen": "2026-11-15T14:15:08Z",
+      "issue_key": "suffragette:text:dd321b82487c6816",
+      "line_id": "suffragette",
+      "line_name": "Suffragette",
+      "reason": "SUFFRAGETTE LINE: Sunday 15 November, between 1315 and 1445, no service between Woodgrange Park and Barking Riverside. Use local London Buses services between Barking and Barking Riverside. Replacement bus service T operates between Woodgrange Park and Barking via East Ham (for District and Hammersmith & City lines).",
+      "severity": "Part Closure",
       "source_created": "0001-01-01T00:00:00"
     },
     "waterloo-city:text:02da0890c7cbf303": {
@@ -78,16 +128,6 @@
       "line_name": "Waterloo & City",
       "reason": "Waterloo & City line: service operates 06:00 until 00:30, Monday to Friday only. There is no service on Saturdays, Sundays and on bank/public holidays.",
       "severity": "Planned Closure",
-      "source_created": "0001-01-01T00:00:00"
-    },
-    "waterloo-city:text:1bbcac27f282d0db": {
-      "category": "other",
-      "first_seen": "2026-11-14T02:27:23Z",
-      "issue_key": "waterloo-city:text:1bbcac27f282d0db",
-      "line_id": "waterloo-city",
-      "line_name": "Waterloo & City",
-      "reason": "Waterloo and City Line: Service will resume at 06:00 on Monday.",
-      "severity": "Service Closed",
       "source_created": "0001-01-01T00:00:00"
     },
     "windrush:text:4fad961d900476cb": {
@@ -102,6 +142,66 @@
     }
   },
   "history": [
+    {
+      "category": "other",
+      "duration_seconds": 27786,
+      "first_seen": "2026-11-15T06:32:02Z",
+      "issue_key": "elizabeth:text:6cef159ebb2f60bb",
+      "line_id": "elizabeth",
+      "line_name": "Elizabeth line",
+      "reason": "ELIZABETH LINE: Sunday 15 November, until 0800, no service between West Drayton and Slough. Replacement bus service W1 operates between Hayes & Harlington and Slough via West Drayton and Langley (not serving Iver).",
+      "resolved_at": "2026-11-15T14:15:08Z",
+      "severity": "Part Closure",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "other",
+      "duration_seconds": 27786,
+      "first_seen": "2026-11-15T06:32:02Z",
+      "issue_key": "elizabeth:text:fba21d4c9218bfd2",
+      "line_id": "elizabeth",
+      "line_name": "Elizabeth line",
+      "reason": "ELIZABETH LINE: Sunday 15 November, until 1015, no service between Paddington and Abbey Wood / Stratford. Trains operate between Paddington National Rail station and Heathrow Terminal 4, Heathrow Terminal 5, West Drayton (until 0800) and Reading (after 0800), and between Liverpool Street National Rail station and Shenfield, not serving Whitechapel.",
+      "resolved_at": "2026-11-15T14:15:08Z",
+      "severity": "Part Closure",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "other",
+      "duration_seconds": 22721,
+      "first_seen": "2026-11-15T07:56:27Z",
+      "issue_key": "metropolitan:text:a9919e5f34f5cfe6",
+      "line_id": "metropolitan",
+      "line_name": "Metropolitan",
+      "reason": "Metropolitan Line: Minor delays between Moor Park and Chesham / Watford due to train cancellations. The next southbound departure from Chesham will be at 07:56. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-11-15T14:15:08Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "other",
+      "duration_seconds": 27786,
+      "first_seen": "2026-11-15T06:32:02Z",
+      "issue_key": "suffragette:text:82d0db39db7ed0a6",
+      "line_id": "suffragette",
+      "line_name": "Suffragette",
+      "reason": "SUFFRAGETTE LINE: Sunday 15 November, until 1315, no service between Gospel Oak and Barking Riverside. Use VICTORIA LINE connections between Seven Sisters (for South Tottenham), Blackhorse Road and Walthamstow Central, and local London Buses services between Barking and Barking Riverside. Replacement buses operate.",
+      "resolved_at": "2026-11-15T14:15:08Z",
+      "severity": "Planned Closure",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "other",
+      "duration_seconds": 128865,
+      "first_seen": "2026-11-14T02:27:23Z",
+      "issue_key": "waterloo-city:text:1bbcac27f282d0db",
+      "line_id": "waterloo-city",
+      "line_name": "Waterloo & City",
+      "reason": "Waterloo and City Line: Service will resume at 06:00 on Monday.",
+      "resolved_at": "2026-11-15T14:15:08Z",
+      "severity": "Service Closed",
+      "source_created": "0001-01-01T00:00:00"
+    },
     {
       "category": "other",
       "duration_seconds": 18965,
@@ -38635,6 +38735,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-11-15T07:56:27Z",
+  "updated_at": "2026-11-15T14:15:08Z",
   "version": 1
 }
