@@ -60,14 +60,14 @@
       "severity": "Part Closure",
       "source_created": "0001-01-01T00:00:00"
     },
-    "victoria:text:0db320ed26fa1823": {
-      "category": "fire alert",
-      "first_seen": "2026-11-15T19:48:40Z",
-      "issue_key": "victoria:text:0db320ed26fa1823",
+    "victoria:text:4413146480473f6e": {
+      "category": "points failure",
+      "first_seen": "2026-11-15T20:33:11Z",
+      "issue_key": "victoria:text:4413146480473f6e",
       "line_id": "victoria",
       "line_name": "Victoria",
-      "reason": "Victoria Line: Severe delays due to an earlier fire alert at Seven Sisters. Tickets are being accepted on London Buses, Suffragette line, Weaver line, Greater Anglia, Southeastern and South Western Railway services.",
-      "severity": "Severe Delays",
+      "reason": "Victoria Line: No service between Victoria and Brixton while we fix a points failure at Brixton. SEVERE DELAYS on the rest of the line due to an earlier fire alert at Seven Sisters. Tickets are being accepted on London Buses, Suffragette line, Weaver line, Greater Anglia, Southeastern and South Western Railway services.",
+      "severity": "Part Suspended",
       "source_created": "0001-01-01T00:00:00"
     },
     "waterloo-city:text:02da0890c7cbf303": {
@@ -92,6 +92,18 @@
     }
   },
   "history": [
+    {
+      "category": "fire alert",
+      "duration_seconds": 2671,
+      "first_seen": "2026-11-15T19:48:40Z",
+      "issue_key": "victoria:text:0db320ed26fa1823",
+      "line_id": "victoria",
+      "line_name": "Victoria",
+      "reason": "Victoria Line: Severe delays due to an earlier fire alert at Seven Sisters. Tickets are being accepted on London Buses, Suffragette line, Weaver line, Greater Anglia, Southeastern and South Western Railway services.",
+      "resolved_at": "2026-11-15T20:33:11Z",
+      "severity": "Severe Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
     {
       "category": "signal failure",
       "duration_seconds": 15143,
@@ -38829,6 +38841,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-11-15T19:48:40Z",
+  "updated_at": "2026-11-15T20:33:11Z",
   "version": 1
 }
