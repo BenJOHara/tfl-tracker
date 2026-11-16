@@ -1,27 +1,41 @@
 {
   "active": {
-    "bakerloo:text:811e81626988d0c8": {
-      "category": "signal failure",
-      "first_seen": "2026-11-16T16:38:31Z",
-      "issue_key": "bakerloo:text:811e81626988d0c8",
-      "line_id": "bakerloo",
-      "line_name": "Bakerloo",
-      "reason": "Bakerloo Line: Minor delays due to an earlier signal failure at Marylebone.",
-      "severity": "Minor Delays",
-      "source_created": "0001-01-01T00:00:00"
-    },
-    "central:text:2671929b56956017": {
+    "central:text:6d0af7c9d44f714a": {
       "category": "other",
-      "first_seen": "2026-11-16T11:00:20Z",
-      "issue_key": "central:text:2671929b56956017",
+      "first_seen": "2026-11-16T20:56:51Z",
+      "issue_key": "central:text:6d0af7c9d44f714a",
       "line_id": "central",
       "line_name": "Central",
-      "reason": "Central Line: Minor delays between White City and Ealing Broadway/West Ruislip and between Leytonstone and Epping/Hainault via Newbury Park due to train cancellations. GOOD SERVICE on the rest of the line.",
+      "reason": "Central Line: Minor delays due to train cancellations.",
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     }
   },
   "history": [
+    {
+      "category": "signal failure",
+      "duration_seconds": 15500,
+      "first_seen": "2026-11-16T16:38:31Z",
+      "issue_key": "bakerloo:text:811e81626988d0c8",
+      "line_id": "bakerloo",
+      "line_name": "Bakerloo",
+      "reason": "Bakerloo Line: Minor delays due to an earlier signal failure at Marylebone.",
+      "resolved_at": "2026-11-16T20:56:51Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "other",
+      "duration_seconds": 35791,
+      "first_seen": "2026-11-16T11:00:20Z",
+      "issue_key": "central:text:2671929b56956017",
+      "line_id": "central",
+      "line_name": "Central",
+      "reason": "Central Line: Minor delays between White City and Ealing Broadway/West Ruislip and between Leytonstone and Epping/Hainault via Newbury Park due to train cancellations. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-11-16T20:56:51Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
     {
       "category": "signal failure",
       "duration_seconds": 10751,
@@ -39191,6 +39205,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-11-16T16:38:31Z",
+  "updated_at": "2026-11-16T20:56:51Z",
   "version": 1
 }
