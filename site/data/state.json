@@ -1,17 +1,39 @@
 {
   "active": {
-    "waterloo-city:text:f1aea1ab3097cdd1": {
+    "hammersmith-city:text:004129bf5e441754": {
       "category": "other",
+      "first_seen": "2026-11-16T06:51:44Z",
+      "issue_key": "hammersmith-city:text:004129bf5e441754",
+      "line_id": "hammersmith-city",
+      "line_name": "Hammersmith & City",
+      "reason": "Hammersmith and City Line: Minor delays due to train cancellations.",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "northern:text:f2867a3574358e42": {
+      "category": "fire alert",
+      "first_seen": "2026-11-16T06:51:44Z",
+      "issue_key": "northern:text:f2867a3574358e42",
+      "line_id": "northern",
+      "line_name": "Northern",
+      "reason": "Northern Line: Minor delays between Camden Town and Battersea Power Station (via Charing Cross) due to an earlier fire alert at Kennington. GOOD SERVICE on the rest of the line.",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    }
+  },
+  "history": [
+    {
+      "category": "other",
+      "duration_seconds": 13794,
       "first_seen": "2026-11-16T03:01:50Z",
       "issue_key": "waterloo-city:text:f1aea1ab3097cdd1",
       "line_id": "waterloo-city",
       "line_name": "Waterloo & City",
       "reason": "Waterloo and City Line: Service will resume later this morning.",
+      "resolved_at": "2026-11-16T06:51:44Z",
       "severity": "Service Closed",
       "source_created": "0001-01-01T00:00:00"
-    }
-  },
-  "history": [
+    },
     {
       "category": "other",
       "duration_seconds": 7566,
@@ -39121,6 +39143,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-11-16T05:07:56Z",
+  "updated_at": "2026-11-16T06:51:44Z",
   "version": 1
 }
