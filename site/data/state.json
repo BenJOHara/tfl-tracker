@@ -1,13 +1,13 @@
 {
   "active": {
-    "bakerloo:text:4b9593a220b8292d": {
+    "bakerloo:text:811e81626988d0c8": {
       "category": "signal failure",
-      "first_seen": "2026-11-16T13:39:20Z",
-      "issue_key": "bakerloo:text:4b9593a220b8292d",
+      "first_seen": "2026-11-16T16:38:31Z",
+      "issue_key": "bakerloo:text:811e81626988d0c8",
       "line_id": "bakerloo",
       "line_name": "Bakerloo",
-      "reason": "Bakerloo Line: Severe delays while we fix a signal failure at Marylebone. Tickets are being accepted on London Buses, Lioness Line, London Northwestern Railway and Thameslink services via reasonable routes.",
-      "severity": "Severe Delays",
+      "reason": "Bakerloo Line: Minor delays due to an earlier signal failure at Marylebone.",
+      "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
     "central:text:2671929b56956017": {
@@ -22,6 +22,18 @@
     }
   },
   "history": [
+    {
+      "category": "signal failure",
+      "duration_seconds": 10751,
+      "first_seen": "2026-11-16T13:39:20Z",
+      "issue_key": "bakerloo:text:4b9593a220b8292d",
+      "line_id": "bakerloo",
+      "line_name": "Bakerloo",
+      "reason": "Bakerloo Line: Severe delays while we fix a signal failure at Marylebone. Tickets are being accepted on London Buses, Lioness Line, London Northwestern Railway and Thameslink services via reasonable routes.",
+      "resolved_at": "2026-11-16T16:38:31Z",
+      "severity": "Severe Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
     {
       "category": "other",
       "duration_seconds": 9540,
@@ -39179,6 +39191,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-11-16T13:39:20Z",
+  "updated_at": "2026-11-16T16:38:31Z",
   "version": 1
 }
