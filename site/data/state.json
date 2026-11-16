@@ -1,27 +1,51 @@
 {
   "active": {
-    "hammersmith-city:text:004129bf5e441754": {
+    "central:text:2671929b56956017": {
       "category": "other",
-      "first_seen": "2026-11-16T06:51:44Z",
-      "issue_key": "hammersmith-city:text:004129bf5e441754",
-      "line_id": "hammersmith-city",
-      "line_name": "Hammersmith & City",
-      "reason": "Hammersmith and City Line: Minor delays due to train cancellations.",
+      "first_seen": "2026-11-16T11:00:20Z",
+      "issue_key": "central:text:2671929b56956017",
+      "line_id": "central",
+      "line_name": "Central",
+      "reason": "Central Line: Minor delays between White City and Ealing Broadway/West Ruislip and between Leytonstone and Epping/Hainault via Newbury Park due to train cancellations. GOOD SERVICE on the rest of the line.",
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "northern:text:f2867a3574358e42": {
-      "category": "fire alert",
-      "first_seen": "2026-11-16T06:51:44Z",
-      "issue_key": "northern:text:f2867a3574358e42",
+    "northern:text:82cfeccb1c4abfec": {
+      "category": "other",
+      "first_seen": "2026-11-16T11:00:20Z",
+      "issue_key": "northern:text:82cfeccb1c4abfec",
       "line_id": "northern",
       "line_name": "Northern",
-      "reason": "Northern Line: Minor delays between Camden Town and Battersea Power Station (via Charing Cross) due to an earlier fire alert at Kennington. GOOD SERVICE on the rest of the line.",
+      "reason": "Northern Line: Minor delays due to train cancellations.",
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     }
   },
   "history": [
+    {
+      "category": "other",
+      "duration_seconds": 14916,
+      "first_seen": "2026-11-16T06:51:44Z",
+      "issue_key": "hammersmith-city:text:004129bf5e441754",
+      "line_id": "hammersmith-city",
+      "line_name": "Hammersmith & City",
+      "reason": "Hammersmith and City Line: Minor delays due to train cancellations.",
+      "resolved_at": "2026-11-16T11:00:20Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "fire alert",
+      "duration_seconds": 14916,
+      "first_seen": "2026-11-16T06:51:44Z",
+      "issue_key": "northern:text:f2867a3574358e42",
+      "line_id": "northern",
+      "line_name": "Northern",
+      "reason": "Northern Line: Minor delays between Camden Town and Battersea Power Station (via Charing Cross) due to an earlier fire alert at Kennington. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-11-16T11:00:20Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
     {
       "category": "other",
       "duration_seconds": 13794,
@@ -39143,6 +39167,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-11-16T06:51:44Z",
+  "updated_at": "2026-11-16T11:00:20Z",
   "version": 1
 }
