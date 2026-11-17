@@ -10,28 +10,42 @@
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "district:text:5b4048a3f906264e": {
-      "category": "train fault",
-      "first_seen": "2026-11-17T12:05:49Z",
-      "issue_key": "district:text:5b4048a3f906264e",
-      "line_id": "district",
-      "line_name": "District",
-      "reason": "District Line: Minor delays due to an earlier person ill on a train and an earlier faulty train at Sloane Square.",
-      "severity": "Minor Delays",
-      "source_created": "0001-01-01T00:00:00"
-    },
-    "northern:text:e288e4749836f26f": {
-      "category": "points failure",
-      "first_seen": "2026-11-17T08:25:41Z",
-      "issue_key": "northern:text:e288e4749836f26f",
-      "line_id": "northern",
-      "line_name": "Northern",
-      "reason": "Northern Line: Minor delays between Camden Town and Kennington via Charing Cross while we fix a points failure at Kennington. GOOD SERVICE on the rest of the line.",
+    "piccadilly:text:9f772d10cd445fc3": {
+      "category": "signal failure",
+      "first_seen": "2026-11-17T14:15:34Z",
+      "issue_key": "piccadilly:text:9f772d10cd445fc3",
+      "line_id": "piccadilly",
+      "line_name": "Piccadilly",
+      "reason": "Piccadilly Line: Minor delays between Acton Town and Heathrow Terminals due to an earlier signal failure at Manor House. GOOD SERVICE on the rest of the line.",
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     }
   },
   "history": [
+    {
+      "category": "train fault",
+      "duration_seconds": 7785,
+      "first_seen": "2026-11-17T12:05:49Z",
+      "issue_key": "district:text:5b4048a3f906264e",
+      "line_id": "district",
+      "line_name": "District",
+      "reason": "District Line: Minor delays due to an earlier person ill on a train and an earlier faulty train at Sloane Square.",
+      "resolved_at": "2026-11-17T14:15:34Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "points failure",
+      "duration_seconds": 20993,
+      "first_seen": "2026-11-17T08:25:41Z",
+      "issue_key": "northern:text:e288e4749836f26f",
+      "line_id": "northern",
+      "line_name": "Northern",
+      "reason": "Northern Line: Minor delays between Camden Town and Kennington via Charing Cross while we fix a points failure at Kennington. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-11-17T14:15:34Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
     {
       "category": "other",
       "duration_seconds": 13208,
@@ -39549,6 +39563,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-11-17T12:05:49Z",
+  "updated_at": "2026-11-17T14:15:34Z",
   "version": 1
 }
