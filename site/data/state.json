@@ -1,17 +1,69 @@
 {
   "active": {
-    "waterloo-city:text:0faebd0ea99ebd1b": {
+    "district:text:9c09d477e2a85811": {
       "category": "other",
+      "first_seen": "2026-11-17T08:25:41Z",
+      "issue_key": "district:text:9c09d477e2a85811",
+      "line_id": "district",
+      "line_name": "District",
+      "reason": "District Line: Minor delays due to train cancellations.",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "elizabeth:text:46cddb63f9ddb067": {
+      "category": "train fault",
+      "first_seen": "2026-11-17T08:25:41Z",
+      "issue_key": "elizabeth:text:46cddb63f9ddb067",
+      "line_id": "elizabeth",
+      "line_name": "Elizabeth line",
+      "reason": "Minor delays between Whitechapel and Shenfield due to an earlier faulty train at Paddington. GOOD SERVICE on the rest of the line.",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "jubilee:text:691d9a5f84c62233": {
+      "category": "train fault",
+      "first_seen": "2026-11-17T08:25:41Z",
+      "issue_key": "jubilee:text:691d9a5f84c62233",
+      "line_id": "jubilee",
+      "line_name": "Jubilee",
+      "reason": "Jubilee Line: Severe delays Southbound / Eastbound only due to an earlier faulty train at Waterloo. GOOD SERVICE on the rest of the line. Tickets are being accepted on London Buses.",
+      "severity": "Severe Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "northern:text:e288e4749836f26f": {
+      "category": "points failure",
+      "first_seen": "2026-11-17T08:25:41Z",
+      "issue_key": "northern:text:e288e4749836f26f",
+      "line_id": "northern",
+      "line_name": "Northern",
+      "reason": "Northern Line: Minor delays between Camden Town and Kennington via Charing Cross while we fix a points failure at Kennington. GOOD SERVICE on the rest of the line.",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "piccadilly:text:0824dab1134ecece": {
+      "category": "train fault",
+      "first_seen": "2026-11-17T08:25:41Z",
+      "issue_key": "piccadilly:text:0824dab1134ecece",
+      "line_id": "piccadilly",
+      "line_name": "Piccadilly",
+      "reason": "Piccadilly Line: Minor delays between Acton Town and Heathrow Terminals / Uxbridge due to earlier faulty trains at South Kensington and Arnos Grove. GOOD SERVICE on the rest of the line.",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    }
+  },
+  "history": [
+    {
+      "category": "other",
+      "duration_seconds": 18350,
       "first_seen": "2026-11-17T03:19:51Z",
       "issue_key": "waterloo-city:text:0faebd0ea99ebd1b",
       "line_id": "waterloo-city",
       "line_name": "Waterloo & City",
       "reason": "Waterloo and City Line: Service will resume at 06:00.",
+      "resolved_at": "2026-11-17T08:25:41Z",
       "severity": "Service Closed",
       "source_created": "0001-01-01T00:00:00"
-    }
-  },
-  "history": [
+    },
     {
       "category": "other",
       "duration_seconds": 6089,
@@ -39469,6 +39521,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-11-17T05:01:20Z",
+  "updated_at": "2026-11-17T08:25:41Z",
   "version": 1
 }
