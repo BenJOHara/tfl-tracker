@@ -1,37 +1,42 @@
 {
-  "active": {
-    "central:text:6d0af7c9d44f714a": {
+  "active": {},
+  "history": [
+    {
       "category": "other",
+      "duration_seconds": 16589,
       "first_seen": "2026-11-17T17:50:40Z",
       "issue_key": "central:text:6d0af7c9d44f714a",
       "line_id": "central",
       "line_name": "Central",
       "reason": "Central Line: Minor delays due to train cancellations.",
+      "resolved_at": "2026-11-17T22:27:09Z",
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "elizabeth:text:bc0bfcbe4b4d8cf2": {
+    {
       "category": "track fault",
+      "duration_seconds": 5956,
       "first_seen": "2026-11-17T20:47:53Z",
       "issue_key": "elizabeth:text:bc0bfcbe4b4d8cf2",
       "line_id": "elizabeth",
       "line_name": "Elizabeth line",
       "reason": "Minor delays between Whitechapel and Shenfield due to an earlier track fault between Forest Gate and Manor Park. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-11-17T22:27:09Z",
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "mildmay:text:a98f07cc740a06f1": {
+    {
       "category": "passenger incident",
+      "duration_seconds": 5956,
       "first_seen": "2026-11-17T20:47:53Z",
       "issue_key": "mildmay:text:a98f07cc740a06f1",
       "line_id": "mildmay",
       "line_name": "Mildmay",
       "reason": "Mildmay Line: Severe delays between Willesden Junction and Clapham Junction due to an earlier customer incident. London Underground are accepting tickets via any reasonable route. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-11-17T22:27:09Z",
       "severity": "Severe Delays",
       "source_created": "0001-01-01T00:00:00"
-    }
-  },
-  "history": [
+    },
     {
       "category": "other",
       "duration_seconds": 10633,
@@ -39657,6 +39662,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-11-17T20:47:53Z",
+  "updated_at": "2026-11-17T22:27:09Z",
   "version": 1
 }
