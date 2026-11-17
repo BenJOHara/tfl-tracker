@@ -10,58 +10,88 @@
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "district:text:eb063bb2fad293d9": {
+    "elizabeth:text:bc0bfcbe4b4d8cf2": {
+      "category": "track fault",
+      "first_seen": "2026-11-17T20:47:53Z",
+      "issue_key": "elizabeth:text:bc0bfcbe4b4d8cf2",
+      "line_id": "elizabeth",
+      "line_name": "Elizabeth line",
+      "reason": "Minor delays between Whitechapel and Shenfield due to an earlier track fault between Forest Gate and Manor Park. GOOD SERVICE on the rest of the line.",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "mildmay:text:a98f07cc740a06f1": {
+      "category": "passenger incident",
+      "first_seen": "2026-11-17T20:47:53Z",
+      "issue_key": "mildmay:text:a98f07cc740a06f1",
+      "line_id": "mildmay",
+      "line_name": "Mildmay",
+      "reason": "Mildmay Line: Severe delays between Willesden Junction and Clapham Junction due to an earlier customer incident. London Underground are accepting tickets via any reasonable route. GOOD SERVICE on the rest of the line.",
+      "severity": "Severe Delays",
+      "source_created": "0001-01-01T00:00:00"
+    }
+  },
+  "history": [
+    {
       "category": "other",
+      "duration_seconds": 10633,
       "first_seen": "2026-11-17T17:50:40Z",
       "issue_key": "district:text:eb063bb2fad293d9",
       "line_id": "district",
       "line_name": "District",
       "reason": "District Line: Minor delays between Turnham Green and Richmond due to train cancellations. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-11-17T20:47:53Z",
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "elizabeth:text:032ca951620e6533": {
+    {
       "category": "track fault",
+      "duration_seconds": 10633,
       "first_seen": "2026-11-17T17:50:40Z",
       "issue_key": "elizabeth:text:032ca951620e6533",
       "line_id": "elizabeth",
       "line_name": "Elizabeth line",
       "reason": "Minor delays between Whitechapel and Shenfield while we fix a track fault between Forest Gate and Manor Park. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-11-17T20:47:53Z",
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "mildmay:text:67b75be0c98f1d61": {
+    {
       "category": "other",
+      "duration_seconds": 10633,
       "first_seen": "2026-11-17T17:50:40Z",
       "issue_key": "mildmay:text:67b75be0c98f1d61",
       "line_id": "mildmay",
       "line_name": "Mildmay",
       "reason": "Mildmay Line: No service between Willesden Junction and Clapham Junction while emergency services deal with a casualty on the tracks. London Underground are accepting tickets via any reasonable route. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-11-17T20:47:53Z",
       "severity": "Part Suspended",
       "source_created": "0001-01-01T00:00:00"
     },
-    "northern:text:a0d246f9791e9150": {
+    {
       "category": "points failure",
+      "duration_seconds": 10633,
       "first_seen": "2026-11-17T17:50:40Z",
       "issue_key": "northern:text:a0d246f9791e9150",
       "line_id": "northern",
       "line_name": "Northern",
       "reason": "Northern Line: Minor delays between Camden Town and Battersea Power Station southbound only via Charing Cross while we fix a points failure at Kennington. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-11-17T20:47:53Z",
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "victoria:text:02e0850cdf11ef25": {
+    {
       "category": "other",
+      "duration_seconds": 10633,
       "first_seen": "2026-11-17T17:50:40Z",
       "issue_key": "victoria:text:02e0850cdf11ef25",
       "line_id": "victoria",
       "line_name": "Victoria",
       "reason": "Victoria Line: Minor delays due to train cancellations.",
+      "resolved_at": "2026-11-17T20:47:53Z",
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
-    }
-  },
-  "history": [
+    },
     {
       "category": "other",
       "duration_seconds": 20691,
@@ -39627,6 +39657,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-11-17T17:50:40Z",
+  "updated_at": "2026-11-17T20:47:53Z",
   "version": 1
 }
