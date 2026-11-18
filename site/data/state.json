@@ -20,6 +20,16 @@
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
+    "district:text:ba1fb8822c2cf256": {
+      "category": "other",
+      "first_seen": "2026-11-18T12:19:21Z",
+      "issue_key": "district:text:ba1fb8822c2cf256",
+      "line_id": "district",
+      "line_name": "District",
+      "reason": "District Line: Minor delays between Turnham Green and Ealing Broadway due to train cancellations. GOOD SERVICE on the rest of the line.",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
     "hammersmith-city:text:ca5677489a8ad3d7": {
       "category": "other",
       "first_seen": "2026-11-18T10:40:09Z",
@@ -30,28 +40,42 @@
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "metropolitan:text:34ebbd98a7c35a35": {
+    "metropolitan:text:d2879685e28de6cf": {
       "category": "other",
-      "first_seen": "2026-11-18T10:40:09Z",
-      "issue_key": "metropolitan:text:34ebbd98a7c35a35",
+      "first_seen": "2026-11-18T12:19:21Z",
+      "issue_key": "metropolitan:text:d2879685e28de6cf",
       "line_id": "metropolitan",
       "line_name": "Metropolitan",
-      "reason": "Metropolitan Line: Severe delays between Harrow-on-the-Hill and Uxbridge while we deal with a signalling problem. Tickets are being accepted on London Buses. GOOD SERVICE on the rest of the line.",
-      "severity": "Severe Delays",
-      "source_created": "0001-01-01T00:00:00"
-    },
-    "victoria:text:02e0850cdf11ef25": {
-      "category": "other",
-      "first_seen": "2026-11-18T10:40:09Z",
-      "issue_key": "victoria:text:02e0850cdf11ef25",
-      "line_id": "victoria",
-      "line_name": "Victoria",
-      "reason": "Victoria Line: Minor delays due to train cancellations.",
+      "reason": "Metropolitan Line: Minor delays between Harrow-on-the-Hill and Uxbridge due to an earlier signalling problem. GOOD SERVICE on the rest of the line.",
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     }
   },
   "history": [
+    {
+      "category": "other",
+      "duration_seconds": 5952,
+      "first_seen": "2026-11-18T10:40:09Z",
+      "issue_key": "metropolitan:text:34ebbd98a7c35a35",
+      "line_id": "metropolitan",
+      "line_name": "Metropolitan",
+      "reason": "Metropolitan Line: Severe delays between Harrow-on-the-Hill and Uxbridge while we deal with a signalling problem. Tickets are being accepted on London Buses. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-11-18T12:19:21Z",
+      "severity": "Severe Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "other",
+      "duration_seconds": 5952,
+      "first_seen": "2026-11-18T10:40:09Z",
+      "issue_key": "victoria:text:02e0850cdf11ef25",
+      "line_id": "victoria",
+      "line_name": "Victoria",
+      "reason": "Victoria Line: Minor delays due to train cancellations.",
+      "resolved_at": "2026-11-18T12:19:21Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
     {
       "category": "other",
       "duration_seconds": 10639,
@@ -39989,6 +40013,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-11-18T10:40:09Z",
+  "updated_at": "2026-11-18T12:19:21Z",
   "version": 1
 }
