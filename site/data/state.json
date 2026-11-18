@@ -1,5 +1,15 @@
 {
   "active": {
+    "bakerloo:text:441236c7b38e407e": {
+      "category": "other",
+      "first_seen": "2026-11-18T20:47:46Z",
+      "issue_key": "bakerloo:text:441236c7b38e407e",
+      "line_id": "bakerloo",
+      "line_name": "Bakerloo",
+      "reason": "Bakerloo Line: Minor delays due to train cancellations.",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
     "central:text:6d0af7c9d44f714a": {
       "category": "other",
       "first_seen": "2026-11-18T16:44:15Z",
@@ -10,28 +20,52 @@
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "district:text:54775e1507f557dd": {
+    "circle:text:769f47594308c2e4": {
+      "category": "train fault",
+      "first_seen": "2026-11-18T20:47:46Z",
+      "issue_key": "circle:text:769f47594308c2e4",
+      "line_id": "circle",
+      "line_name": "Circle",
+      "reason": "Circle Line: Minor delays clockwise only while we fix a faulty train at Cannon Street. GOOD SERVICE on the rest of the line.",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "district:text:15c41b3af4259ff6": {
+      "category": "train fault",
+      "first_seen": "2026-11-18T20:47:46Z",
+      "issue_key": "district:text:15c41b3af4259ff6",
+      "line_id": "district",
+      "line_name": "District",
+      "reason": "District Line: Severe delays between Tower Hill and Earl's Court while we fix a faulty train at Cannon Street. GOOD SERVICE on the rest of the line. Tickets are being accepted on London Buses.",
+      "severity": "Severe Delays",
+      "source_created": "0001-01-01T00:00:00"
+    }
+  },
+  "history": [
+    {
       "category": "other",
+      "duration_seconds": 6384,
       "first_seen": "2026-11-18T19:01:22Z",
       "issue_key": "district:text:54775e1507f557dd",
       "line_id": "district",
       "line_name": "District",
       "reason": "District Line: Minor delays between Tower Hill and Earl's Court due to train cancellations. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-11-18T20:47:46Z",
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "victoria:text:02e0850cdf11ef25": {
+    {
       "category": "other",
+      "duration_seconds": 14611,
       "first_seen": "2026-11-18T16:44:15Z",
       "issue_key": "victoria:text:02e0850cdf11ef25",
       "line_id": "victoria",
       "line_name": "Victoria",
       "reason": "Victoria Line: Minor delays due to train cancellations.",
+      "resolved_at": "2026-11-18T20:47:46Z",
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
-    }
-  },
-  "history": [
+    },
     {
       "category": "train fault",
       "duration_seconds": 8227,
@@ -40065,6 +40099,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-11-18T19:01:22Z",
+  "updated_at": "2026-11-18T20:47:46Z",
   "version": 1
 }
