@@ -1,15 +1,5 @@
 {
   "active": {
-    "bakerloo:text:590d664e8f62e5fc": {
-      "category": "train fault",
-      "first_seen": "2026-11-18T16:44:15Z",
-      "issue_key": "bakerloo:text:590d664e8f62e5fc",
-      "line_id": "bakerloo",
-      "line_name": "Bakerloo",
-      "reason": "Bakerloo Line: Minor delays between Stonebridge Park and Harrow & Wealdstone due to an earlier faulty train at Elephant & Castle. GOOD SERVICE on the rest of the line.",
-      "severity": "Minor Delays",
-      "source_created": "0001-01-01T00:00:00"
-    },
     "central:text:6d0af7c9d44f714a": {
       "category": "other",
       "first_seen": "2026-11-18T16:44:15Z",
@@ -17,6 +7,16 @@
       "line_id": "central",
       "line_name": "Central",
       "reason": "Central Line: Minor delays due to train cancellations.",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "district:text:54775e1507f557dd": {
+      "category": "other",
+      "first_seen": "2026-11-18T19:01:22Z",
+      "issue_key": "district:text:54775e1507f557dd",
+      "line_id": "district",
+      "line_name": "District",
+      "reason": "District Line: Minor delays between Tower Hill and Earl's Court due to train cancellations. GOOD SERVICE on the rest of the line.",
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
@@ -32,6 +32,18 @@
     }
   },
   "history": [
+    {
+      "category": "train fault",
+      "duration_seconds": 8227,
+      "first_seen": "2026-11-18T16:44:15Z",
+      "issue_key": "bakerloo:text:590d664e8f62e5fc",
+      "line_id": "bakerloo",
+      "line_name": "Bakerloo",
+      "reason": "Bakerloo Line: Minor delays between Stonebridge Park and Harrow & Wealdstone due to an earlier faulty train at Elephant & Castle. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-11-18T19:01:22Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
     {
       "category": "other",
       "duration_seconds": 21846,
@@ -40053,6 +40065,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-11-18T16:44:15Z",
+  "updated_at": "2026-11-18T19:01:22Z",
   "version": 1
 }
