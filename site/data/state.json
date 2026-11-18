@@ -1,57 +1,97 @@
 {
   "active": {
-    "central:text:99654cfca7533556": {
+    "bakerloo:text:590d664e8f62e5fc": {
+      "category": "train fault",
+      "first_seen": "2026-11-18T16:44:15Z",
+      "issue_key": "bakerloo:text:590d664e8f62e5fc",
+      "line_id": "bakerloo",
+      "line_name": "Bakerloo",
+      "reason": "Bakerloo Line: Minor delays between Stonebridge Park and Harrow & Wealdstone due to an earlier faulty train at Elephant & Castle. GOOD SERVICE on the rest of the line.",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "central:text:6d0af7c9d44f714a": {
       "category": "other",
-      "first_seen": "2026-11-18T10:40:09Z",
-      "issue_key": "central:text:99654cfca7533556",
+      "first_seen": "2026-11-18T16:44:15Z",
+      "issue_key": "central:text:6d0af7c9d44f714a",
       "line_id": "central",
       "line_name": "Central",
-      "reason": "Central Line: Minor delays between North Acton and Ealing Broadway / West Ruislip, and between Leytonstone and Hainault via Newbury Park / Epping due to train cancellations. GOOD SERVICE on the rest of the line.",
+      "reason": "Central Line: Minor delays due to train cancellations.",
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "circle:text:654c8f568d1ef8f0": {
+    "victoria:text:02e0850cdf11ef25": {
       "category": "other",
-      "first_seen": "2026-11-18T10:40:09Z",
-      "issue_key": "circle:text:654c8f568d1ef8f0",
-      "line_id": "circle",
-      "line_name": "Circle",
-      "reason": "Circle Line: Minor delays due to an earlier animal on the track.",
-      "severity": "Minor Delays",
-      "source_created": "0001-01-01T00:00:00"
-    },
-    "district:text:ba1fb8822c2cf256": {
-      "category": "other",
-      "first_seen": "2026-11-18T12:19:21Z",
-      "issue_key": "district:text:ba1fb8822c2cf256",
-      "line_id": "district",
-      "line_name": "District",
-      "reason": "District Line: Minor delays between Turnham Green and Ealing Broadway due to train cancellations. GOOD SERVICE on the rest of the line.",
-      "severity": "Minor Delays",
-      "source_created": "0001-01-01T00:00:00"
-    },
-    "hammersmith-city:text:ca5677489a8ad3d7": {
-      "category": "other",
-      "first_seen": "2026-11-18T10:40:09Z",
-      "issue_key": "hammersmith-city:text:ca5677489a8ad3d7",
-      "line_id": "hammersmith-city",
-      "line_name": "Hammersmith & City",
-      "reason": "Hammersmith and City Line: Minor delays due to an earlier animal on the track.",
-      "severity": "Minor Delays",
-      "source_created": "0001-01-01T00:00:00"
-    },
-    "metropolitan:text:d2879685e28de6cf": {
-      "category": "other",
-      "first_seen": "2026-11-18T12:19:21Z",
-      "issue_key": "metropolitan:text:d2879685e28de6cf",
-      "line_id": "metropolitan",
-      "line_name": "Metropolitan",
-      "reason": "Metropolitan Line: Minor delays between Harrow-on-the-Hill and Uxbridge due to an earlier signalling problem. GOOD SERVICE on the rest of the line.",
+      "first_seen": "2026-11-18T16:44:15Z",
+      "issue_key": "victoria:text:02e0850cdf11ef25",
+      "line_id": "victoria",
+      "line_name": "Victoria",
+      "reason": "Victoria Line: Minor delays due to train cancellations.",
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     }
   },
   "history": [
+    {
+      "category": "other",
+      "duration_seconds": 21846,
+      "first_seen": "2026-11-18T10:40:09Z",
+      "issue_key": "central:text:99654cfca7533556",
+      "line_id": "central",
+      "line_name": "Central",
+      "reason": "Central Line: Minor delays between North Acton and Ealing Broadway / West Ruislip, and between Leytonstone and Hainault via Newbury Park / Epping due to train cancellations. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-11-18T16:44:15Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "other",
+      "duration_seconds": 21846,
+      "first_seen": "2026-11-18T10:40:09Z",
+      "issue_key": "circle:text:654c8f568d1ef8f0",
+      "line_id": "circle",
+      "line_name": "Circle",
+      "reason": "Circle Line: Minor delays due to an earlier animal on the track.",
+      "resolved_at": "2026-11-18T16:44:15Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "other",
+      "duration_seconds": 15894,
+      "first_seen": "2026-11-18T12:19:21Z",
+      "issue_key": "district:text:ba1fb8822c2cf256",
+      "line_id": "district",
+      "line_name": "District",
+      "reason": "District Line: Minor delays between Turnham Green and Ealing Broadway due to train cancellations. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-11-18T16:44:15Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "other",
+      "duration_seconds": 21846,
+      "first_seen": "2026-11-18T10:40:09Z",
+      "issue_key": "hammersmith-city:text:ca5677489a8ad3d7",
+      "line_id": "hammersmith-city",
+      "line_name": "Hammersmith & City",
+      "reason": "Hammersmith and City Line: Minor delays due to an earlier animal on the track.",
+      "resolved_at": "2026-11-18T16:44:15Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "other",
+      "duration_seconds": 15894,
+      "first_seen": "2026-11-18T12:19:21Z",
+      "issue_key": "metropolitan:text:d2879685e28de6cf",
+      "line_id": "metropolitan",
+      "line_name": "Metropolitan",
+      "reason": "Metropolitan Line: Minor delays between Harrow-on-the-Hill and Uxbridge due to an earlier signalling problem. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-11-18T16:44:15Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
     {
       "category": "other",
       "duration_seconds": 5952,
@@ -40013,6 +40053,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-11-18T12:19:21Z",
+  "updated_at": "2026-11-18T16:44:15Z",
   "version": 1
 }
