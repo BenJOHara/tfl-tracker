@@ -10,28 +10,42 @@
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "jubilee:text:0076cc77a0ea9574": {
+    "jubilee:text:57925a2ef9e26722": {
       "category": "other",
-      "first_seen": "2026-11-19T10:37:25Z",
-      "issue_key": "jubilee:text:0076cc77a0ea9574",
+      "first_seen": "2026-11-19T13:30:47Z",
+      "issue_key": "jubilee:text:57925a2ef9e26722",
       "line_id": "jubilee",
       "line_name": "Jubilee",
-      "reason": "Jubilee Line: Severe delays due to train cancellations. Tickets are being accepted on, London Buses, Mildmay Line, DLR, Elizabeth Line, C2C, Southeastern and Thameslink services.",
-      "severity": "Severe Delays",
-      "source_created": "0001-01-01T00:00:00"
-    },
-    "victoria:text:02e0850cdf11ef25": {
-      "category": "other",
-      "first_seen": "2026-11-19T08:40:56Z",
-      "issue_key": "victoria:text:02e0850cdf11ef25",
-      "line_id": "victoria",
-      "line_name": "Victoria",
-      "reason": "Victoria Line: Minor delays due to train cancellations.",
+      "reason": "Jubilee Line: Minor delays due to train cancellations.",
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     }
   },
   "history": [
+    {
+      "category": "other",
+      "duration_seconds": 10402,
+      "first_seen": "2026-11-19T10:37:25Z",
+      "issue_key": "jubilee:text:0076cc77a0ea9574",
+      "line_id": "jubilee",
+      "line_name": "Jubilee",
+      "reason": "Jubilee Line: Severe delays due to train cancellations. Tickets are being accepted on, London Buses, Mildmay Line, DLR, Elizabeth Line, C2C, Southeastern and Thameslink services.",
+      "resolved_at": "2026-11-19T13:30:47Z",
+      "severity": "Severe Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "other",
+      "duration_seconds": 17391,
+      "first_seen": "2026-11-19T08:40:56Z",
+      "issue_key": "victoria:text:02e0850cdf11ef25",
+      "line_id": "victoria",
+      "line_name": "Victoria",
+      "reason": "Victoria Line: Minor delays due to train cancellations.",
+      "resolved_at": "2026-11-19T13:30:47Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
     {
       "category": "other",
       "duration_seconds": 6989,
@@ -40461,6 +40475,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-11-19T10:37:25Z",
+  "updated_at": "2026-11-19T13:30:47Z",
   "version": 1
 }
