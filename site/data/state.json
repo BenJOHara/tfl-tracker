@@ -10,6 +10,16 @@
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
+    "district:text:9c09d477e2a85811": {
+      "category": "other",
+      "first_seen": "2026-11-19T17:37:11Z",
+      "issue_key": "district:text:9c09d477e2a85811",
+      "line_id": "district",
+      "line_name": "District",
+      "reason": "District Line: Minor delays due to train cancellations.",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
     "jubilee:text:57925a2ef9e26722": {
       "category": "other",
       "first_seen": "2026-11-19T13:30:47Z",
@@ -40475,6 +40485,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-11-19T13:30:47Z",
+  "updated_at": "2026-11-19T17:37:11Z",
   "version": 1
 }
