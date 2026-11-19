@@ -10,48 +10,76 @@
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "central:text:6d0af7c9d44f714a": {
+    "metropolitan:text:2a457db7e37a37c7": {
       "category": "other",
+      "first_seen": "2026-11-19T01:05:54Z",
+      "issue_key": "metropolitan:text:2a457db7e37a37c7",
+      "line_id": "metropolitan",
+      "line_name": "Metropolitan",
+      "reason": "Metropolitan Line: Minor delays between Rickmansworth and Amersham / Chesham due to train cancellations. The next southbound train from Amersham will be at 00:50 and from Chesham at 00:52. GOOD SERVICE on the rest of the line.",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "waterloo-city:text:0faebd0ea99ebd1b": {
+      "category": "other",
+      "first_seen": "2026-11-19T01:05:54Z",
+      "issue_key": "waterloo-city:text:0faebd0ea99ebd1b",
+      "line_id": "waterloo-city",
+      "line_name": "Waterloo & City",
+      "reason": "Waterloo and City Line: Service will resume at 06:00.",
+      "severity": "Service Closed",
+      "source_created": "0001-01-01T00:00:00"
+    }
+  },
+  "history": [
+    {
+      "category": "other",
+      "duration_seconds": 30099,
       "first_seen": "2026-11-18T16:44:15Z",
       "issue_key": "central:text:6d0af7c9d44f714a",
       "line_id": "central",
       "line_name": "Central",
       "reason": "Central Line: Minor delays due to train cancellations.",
+      "resolved_at": "2026-11-19T01:05:54Z",
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "district:text:0379365bf0f5844e": {
+    {
       "category": "other",
+      "duration_seconds": 6957,
       "first_seen": "2026-11-18T23:09:57Z",
       "issue_key": "district:text:0379365bf0f5844e",
       "line_id": "district",
       "line_name": "District",
       "reason": "District Line: Minor delays between Barking and Upminster due to train cancellations. GOOD SERVICE on the rest the line.",
+      "resolved_at": "2026-11-19T01:05:54Z",
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "elizabeth:text:7921cda1350ac6bb": {
+    {
       "category": "other",
+      "duration_seconds": 6957,
       "first_seen": "2026-11-18T23:09:57Z",
       "issue_key": "elizabeth:text:7921cda1350ac6bb",
       "line_id": "elizabeth",
       "line_name": "Elizabeth line",
       "reason": "ELIZABETH LINE: Monday 16, Tuesday 17, Wednesday 18 and Thursday 19 November, the 2217 Abbey Wood to Reading train will terminate at Maidenhead. Customers travelling to Twyford and Reading should change at Maidenhead to the 2338 GWR service to Twyford and Reading. At Maidenhead, connecting westbound GWR trains to Twyford and Reading use Platform 1. For step-free interchange from platform 3 to platform 1, please use the lift to the main entrance, and then continue at street level under the railway bridge and up Shoppenhangers Road to the car park. Please ask staff to open the gate to platform 1, and allow extra time for your journey. The 2317 Reading to Paddington train is revised to start at Maidenhead at 2333, a later GWR service operates at 2350 from Reading to Paddington calling at Twyford, Reading and Slough",
+      "resolved_at": "2026-11-19T01:05:54Z",
       "severity": "Reduced Service",
       "source_created": "0001-01-01T00:00:00"
     },
-    "mildmay:text:9babaef270d5c903": {
+    {
       "category": "other",
+      "duration_seconds": 6957,
       "first_seen": "2026-11-18T23:09:57Z",
       "issue_key": "mildmay:text:9babaef270d5c903",
       "line_id": "mildmay",
       "line_name": "Mildmay",
       "reason": "MILDMAY LINE: Monday 16, Tuesday 17, Wednesday 18 and Thursday 19 November, the 2229 train from Stratford to Richmond will terminate at Camden Road at 2249",
+      "resolved_at": "2026-11-19T01:05:54Z",
       "severity": "Reduced Service",
       "source_created": "0001-01-01T00:00:00"
-    }
-  },
-  "history": [
+    },
     {
       "category": "train fault",
       "duration_seconds": 8531,
@@ -40133,6 +40161,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-11-18T23:09:57Z",
+  "updated_at": "2026-11-19T01:05:54Z",
   "version": 1
 }
