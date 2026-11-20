@@ -10,16 +10,6 @@
       "severity": "Severe Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "central:text:6d0af7c9d44f714a": {
-      "category": "other",
-      "first_seen": "2026-11-20T17:18:21Z",
-      "issue_key": "central:text:6d0af7c9d44f714a",
-      "line_id": "central",
-      "line_name": "Central",
-      "reason": "Central Line: Minor delays due to train cancellations.",
-      "severity": "Minor Delays",
-      "source_created": "0001-01-01T00:00:00"
-    },
     "district:text:2ecafbf086650a2f": {
       "category": "other",
       "first_seen": "2026-11-20T17:18:21Z",
@@ -40,6 +30,16 @@
       "severity": "Part Closure",
       "source_created": "0001-01-01T00:00:00"
     },
+    "mildmay:text:0514f8331d94c1a2": {
+      "category": "train fault",
+      "first_seen": "2026-11-20T18:48:46Z",
+      "issue_key": "mildmay:text:0514f8331d94c1a2",
+      "line_id": "mildmay",
+      "line_name": "Mildmay",
+      "reason": "Mildmay Line: Severe delays due to a faulty train at Stratford. London Underground are accepting tickets via any reasonable route.",
+      "severity": "Severe Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
     "piccadilly:text:e6cfdb31bf869482": {
       "category": "other",
       "first_seen": "2026-11-20T17:18:21Z",
@@ -49,9 +49,31 @@
       "reason": "TUBE STRIKE: Piccadilly line service control staff are planning to take strike action from Friday 20 until Saturday evening 21 November. There will be no service from midday on Friday until Saturday evening, including Night Tube on Friday night. Normal Night Tube service is expected to operate on Saturday night. Due to shared infrastructure around the Ealing Common District line depot, there will be no DISTRICT LINE service between Turnham Green and Ealing Broadway from midday on Friday until Saturday evening. Replacement buses will operate during Friday Night Tube hours and Saturday daytime only. Please use ELIZABETH LINE services for travel between Central London and Heathrow, and between terminals, and METROPOLITAN LINE services between Rayners Lane and Uxbridge.",
       "severity": "Planned Closure",
       "source_created": "0001-01-01T00:00:00"
+    },
+    "victoria:text:cb95ed5331c1f568": {
+      "category": "points failure",
+      "first_seen": "2026-11-20T18:48:46Z",
+      "issue_key": "victoria:text:cb95ed5331c1f568",
+      "line_id": "victoria",
+      "line_name": "Victoria",
+      "reason": "Victoria Line: Minor delays due to an earlier points failure at Brixton.",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
     }
   },
   "history": [
+    {
+      "category": "other",
+      "duration_seconds": 5425,
+      "first_seen": "2026-11-20T17:18:21Z",
+      "issue_key": "central:text:6d0af7c9d44f714a",
+      "line_id": "central",
+      "line_name": "Central",
+      "reason": "Central Line: Minor delays due to train cancellations.",
+      "resolved_at": "2026-11-20T18:48:46Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
     {
       "category": "track fault",
       "duration_seconds": 14568,
@@ -41009,6 +41031,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-11-20T17:18:21Z",
+  "updated_at": "2026-11-20T18:48:46Z",
   "version": 1
 }
