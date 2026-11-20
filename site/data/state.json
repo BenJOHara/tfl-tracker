@@ -1,23 +1,23 @@
 {
   "active": {
-    "bakerloo:text:7c1f30f9e589ede6": {
+    "bakerloo:text:3f1adb89d2561359": {
       "category": "track fault",
-      "first_seen": "2026-11-20T08:38:58Z",
-      "issue_key": "bakerloo:text:7c1f30f9e589ede6",
+      "first_seen": "2026-11-20T10:36:41Z",
+      "issue_key": "bakerloo:text:3f1adb89d2561359",
       "line_id": "bakerloo",
       "line_name": "Bakerloo",
-      "reason": "Bakerloo Line: Severe delays due to a track fault at Willesden Junction. London Buses and Thameslink are accepting valid tickets via any reasonable route.",
-      "severity": "Severe Delays",
+      "reason": "Bakerloo Line: No service between Queen's Park and Harrow & Wealdstone, and SEVERE DELAYS on the rest of the line due to a track fault at Willesden Junction. London Buses and Thameslink are accepting valid tickets via any reasonable route.",
+      "severity": "Part Suspended",
       "source_created": "0001-01-01T00:00:00"
     },
-    "central:text:6d0af7c9d44f714a": {
+    "central:text:fee4b851c16ca747": {
       "category": "other",
-      "first_seen": "2026-11-20T08:38:58Z",
-      "issue_key": "central:text:6d0af7c9d44f714a",
+      "first_seen": "2026-11-20T10:36:41Z",
+      "issue_key": "central:text:fee4b851c16ca747",
       "line_id": "central",
       "line_name": "Central",
-      "reason": "Central Line: Minor delays due to train cancellations.",
-      "severity": "Minor Delays",
+      "reason": "Central Line: Severe delays due to an earlier fire near the track at Leytonstone. London Buses, Liberty line, Chiltern Railways, Great Western Railway, Greater Anglia and Elizabeth line are accepting valid tickets via any reasonable route.",
+      "severity": "Severe Delays",
       "source_created": "0001-01-01T00:00:00"
     },
     "district:text:9c09d477e2a85811": {
@@ -30,33 +30,13 @@
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "hammersmith-city:text:a9b8f6dbc6f45998": {
-      "category": "train fault",
-      "first_seen": "2026-11-20T08:38:58Z",
-      "issue_key": "hammersmith-city:text:a9b8f6dbc6f45998",
-      "line_id": "hammersmith-city",
-      "line_name": "Hammersmith & City",
-      "reason": "Hammersmith and City Line: Minor delays due to an earlier faulty train at Euston Square.",
-      "severity": "Minor Delays",
-      "source_created": "0001-01-01T00:00:00"
-    },
-    "lioness:text:14640a07cc2cc5f8": {
+    "lioness:text:bc9fecc55fcba118": {
       "category": "track fault",
-      "first_seen": "2026-11-20T08:38:58Z",
-      "issue_key": "lioness:text:14640a07cc2cc5f8",
+      "first_seen": "2026-11-20T10:36:41Z",
+      "issue_key": "lioness:text:bc9fecc55fcba118",
       "line_id": "lioness",
       "line_name": "Lioness",
-      "reason": "Lioness Line: No service between Kilburn High Road and Euston, and SEVERE DELAYS on the rest of the line due to a track fault at Willesden Junction. London Buses are accepting valid tickets via any reasonable route.",
-      "severity": "Part Suspended",
-      "source_created": "0001-01-01T00:00:00"
-    },
-    "metropolitan:text:9e68f4d5cc632ed6": {
-      "category": "train fault",
-      "first_seen": "2026-11-20T08:38:58Z",
-      "issue_key": "metropolitan:text:9e68f4d5cc632ed6",
-      "line_id": "metropolitan",
-      "line_name": "Metropolitan",
-      "reason": "Metropolitan Line: Minor delays between Harrow-on-the-Hill and Aldgate due to an earlier faulty train at Euston Square. GOOD SERVICE on the rest of the line.",
+      "reason": "Lioness Line: Minor delays due to a track fault at Willesden Junction.",
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
@@ -92,6 +72,66 @@
     }
   },
   "history": [
+    {
+      "category": "track fault",
+      "duration_seconds": 7063,
+      "first_seen": "2026-11-20T08:38:58Z",
+      "issue_key": "bakerloo:text:7c1f30f9e589ede6",
+      "line_id": "bakerloo",
+      "line_name": "Bakerloo",
+      "reason": "Bakerloo Line: Severe delays due to a track fault at Willesden Junction. London Buses and Thameslink are accepting valid tickets via any reasonable route.",
+      "resolved_at": "2026-11-20T10:36:41Z",
+      "severity": "Severe Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "other",
+      "duration_seconds": 7063,
+      "first_seen": "2026-11-20T08:38:58Z",
+      "issue_key": "central:text:6d0af7c9d44f714a",
+      "line_id": "central",
+      "line_name": "Central",
+      "reason": "Central Line: Minor delays due to train cancellations.",
+      "resolved_at": "2026-11-20T10:36:41Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "train fault",
+      "duration_seconds": 7063,
+      "first_seen": "2026-11-20T08:38:58Z",
+      "issue_key": "hammersmith-city:text:a9b8f6dbc6f45998",
+      "line_id": "hammersmith-city",
+      "line_name": "Hammersmith & City",
+      "reason": "Hammersmith and City Line: Minor delays due to an earlier faulty train at Euston Square.",
+      "resolved_at": "2026-11-20T10:36:41Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "track fault",
+      "duration_seconds": 7063,
+      "first_seen": "2026-11-20T08:38:58Z",
+      "issue_key": "lioness:text:14640a07cc2cc5f8",
+      "line_id": "lioness",
+      "line_name": "Lioness",
+      "reason": "Lioness Line: No service between Kilburn High Road and Euston, and SEVERE DELAYS on the rest of the line due to a track fault at Willesden Junction. London Buses are accepting valid tickets via any reasonable route.",
+      "resolved_at": "2026-11-20T10:36:41Z",
+      "severity": "Part Suspended",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "train fault",
+      "duration_seconds": 7063,
+      "first_seen": "2026-11-20T08:38:58Z",
+      "issue_key": "metropolitan:text:9e68f4d5cc632ed6",
+      "line_id": "metropolitan",
+      "line_name": "Metropolitan",
+      "reason": "Metropolitan Line: Minor delays between Harrow-on-the-Hill and Aldgate due to an earlier faulty train at Euston Square. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-11-20T10:36:41Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
     {
       "category": "other",
       "duration_seconds": 26578,
@@ -40845,6 +40885,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-11-20T08:38:58Z",
+  "updated_at": "2026-11-20T10:36:41Z",
   "version": 1
 }
