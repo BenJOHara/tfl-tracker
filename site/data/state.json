@@ -1,13 +1,13 @@
 {
   "active": {
-    "bakerloo:text:3d8e7b6e3b98a431": {
+    "bakerloo:text:7222ba1620fec544": {
       "category": "track fault",
-      "first_seen": "2026-11-20T17:18:21Z",
-      "issue_key": "bakerloo:text:3d8e7b6e3b98a431",
+      "first_seen": "2026-11-20T21:18:07Z",
+      "issue_key": "bakerloo:text:7222ba1620fec544",
       "line_id": "bakerloo",
       "line_name": "Bakerloo",
-      "reason": "Bakerloo Line: Severe delays due to a track fault at Willesden Junction. London Buses, London Overground, London Northwestern Railway and Thameslink are accepting tickets via any reasonable route.",
-      "severity": "Severe Delays",
+      "reason": "Bakerloo Line: Minor delays due to a track fault at Willesden Junction.",
+      "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
     "district:text:2ecafbf086650a2f": {
@@ -30,14 +30,24 @@
       "severity": "Part Closure",
       "source_created": "0001-01-01T00:00:00"
     },
-    "mildmay:text:0514f8331d94c1a2": {
+    "mildmay:text:edcafe031692ad2b": {
       "category": "train fault",
-      "first_seen": "2026-11-20T18:48:46Z",
-      "issue_key": "mildmay:text:0514f8331d94c1a2",
+      "first_seen": "2026-11-20T21:18:07Z",
+      "issue_key": "mildmay:text:edcafe031692ad2b",
       "line_id": "mildmay",
       "line_name": "Mildmay",
-      "reason": "Mildmay Line: Severe delays due to a faulty train at Stratford. London Underground are accepting tickets via any reasonable route.",
-      "severity": "Severe Delays",
+      "reason": "Mildmay Line: Minor delays due to a faulty train at Stratford.",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "northern:text:56f0b85e3b1290ba": {
+      "category": "other",
+      "first_seen": "2026-11-20T21:18:07Z",
+      "issue_key": "northern:text:56f0b85e3b1290ba",
+      "line_id": "northern",
+      "line_name": "Northern",
+      "reason": "Northern Line: Severe delays between Camden Town and Battersea Power Station via Charing Cross southbound only due to train cancellations. MINOR DELAYS on the rest of the line. London Buses are accepting ticket via any reasonable route.",
+      "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
     "piccadilly:text:e6cfdb31bf869482": {
@@ -62,6 +72,30 @@
     }
   },
   "history": [
+    {
+      "category": "track fault",
+      "duration_seconds": 14386,
+      "first_seen": "2026-11-20T17:18:21Z",
+      "issue_key": "bakerloo:text:3d8e7b6e3b98a431",
+      "line_id": "bakerloo",
+      "line_name": "Bakerloo",
+      "reason": "Bakerloo Line: Severe delays due to a track fault at Willesden Junction. London Buses, London Overground, London Northwestern Railway and Thameslink are accepting tickets via any reasonable route.",
+      "resolved_at": "2026-11-20T21:18:07Z",
+      "severity": "Severe Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "train fault",
+      "duration_seconds": 8961,
+      "first_seen": "2026-11-20T18:48:46Z",
+      "issue_key": "mildmay:text:0514f8331d94c1a2",
+      "line_id": "mildmay",
+      "line_name": "Mildmay",
+      "reason": "Mildmay Line: Severe delays due to a faulty train at Stratford. London Underground are accepting tickets via any reasonable route.",
+      "resolved_at": "2026-11-20T21:18:07Z",
+      "severity": "Severe Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
     {
       "category": "other",
       "duration_seconds": 5425,
@@ -41031,6 +41065,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-11-20T18:48:46Z",
+  "updated_at": "2026-11-20T21:18:07Z",
   "version": 1
 }
