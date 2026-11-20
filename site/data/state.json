@@ -1,17 +1,109 @@
 {
   "active": {
-    "waterloo-city:text:0faebd0ea99ebd1b": {
+    "bakerloo:text:7c1f30f9e589ede6": {
+      "category": "track fault",
+      "first_seen": "2026-11-20T08:38:58Z",
+      "issue_key": "bakerloo:text:7c1f30f9e589ede6",
+      "line_id": "bakerloo",
+      "line_name": "Bakerloo",
+      "reason": "Bakerloo Line: Severe delays due to a track fault at Willesden Junction. London Buses and Thameslink are accepting valid tickets via any reasonable route.",
+      "severity": "Severe Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "central:text:6d0af7c9d44f714a": {
       "category": "other",
+      "first_seen": "2026-11-20T08:38:58Z",
+      "issue_key": "central:text:6d0af7c9d44f714a",
+      "line_id": "central",
+      "line_name": "Central",
+      "reason": "Central Line: Minor delays due to train cancellations.",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "district:text:9c09d477e2a85811": {
+      "category": "other",
+      "first_seen": "2026-11-20T08:38:58Z",
+      "issue_key": "district:text:9c09d477e2a85811",
+      "line_id": "district",
+      "line_name": "District",
+      "reason": "District Line: Minor delays due to train cancellations.",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "hammersmith-city:text:a9b8f6dbc6f45998": {
+      "category": "train fault",
+      "first_seen": "2026-11-20T08:38:58Z",
+      "issue_key": "hammersmith-city:text:a9b8f6dbc6f45998",
+      "line_id": "hammersmith-city",
+      "line_name": "Hammersmith & City",
+      "reason": "Hammersmith and City Line: Minor delays due to an earlier faulty train at Euston Square.",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "lioness:text:14640a07cc2cc5f8": {
+      "category": "track fault",
+      "first_seen": "2026-11-20T08:38:58Z",
+      "issue_key": "lioness:text:14640a07cc2cc5f8",
+      "line_id": "lioness",
+      "line_name": "Lioness",
+      "reason": "Lioness Line: No service between Kilburn High Road and Euston, and SEVERE DELAYS on the rest of the line due to a track fault at Willesden Junction. London Buses are accepting valid tickets via any reasonable route.",
+      "severity": "Part Suspended",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "metropolitan:text:9e68f4d5cc632ed6": {
+      "category": "train fault",
+      "first_seen": "2026-11-20T08:38:58Z",
+      "issue_key": "metropolitan:text:9e68f4d5cc632ed6",
+      "line_id": "metropolitan",
+      "line_name": "Metropolitan",
+      "reason": "Metropolitan Line: Minor delays between Harrow-on-the-Hill and Aldgate due to an earlier faulty train at Euston Square. GOOD SERVICE on the rest of the line.",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "northern:text:e288e4749836f26f": {
+      "category": "points failure",
+      "first_seen": "2026-11-20T08:38:58Z",
+      "issue_key": "northern:text:e288e4749836f26f",
+      "line_id": "northern",
+      "line_name": "Northern",
+      "reason": "Northern Line: Minor delays between Camden Town and Kennington via Charing Cross while we fix a points failure at Kennington. GOOD SERVICE on the rest of the line.",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "piccadilly:text:f0383556cd90e54a": {
+      "category": "other",
+      "first_seen": "2026-11-20T08:38:58Z",
+      "issue_key": "piccadilly:text:f0383556cd90e54a",
+      "line_id": "piccadilly",
+      "line_name": "Piccadilly",
+      "reason": "Piccadilly Line: Minor delays due to strike action.",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "victoria:text:02e0850cdf11ef25": {
+      "category": "other",
+      "first_seen": "2026-11-20T08:38:58Z",
+      "issue_key": "victoria:text:02e0850cdf11ef25",
+      "line_id": "victoria",
+      "line_name": "Victoria",
+      "reason": "Victoria Line: Minor delays due to train cancellations.",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    }
+  },
+  "history": [
+    {
+      "category": "other",
+      "duration_seconds": 26578,
       "first_seen": "2026-11-20T01:16:00Z",
       "issue_key": "waterloo-city:text:0faebd0ea99ebd1b",
       "line_id": "waterloo-city",
       "line_name": "Waterloo & City",
       "reason": "Waterloo and City Line: Service will resume at 06:00.",
+      "resolved_at": "2026-11-20T08:38:58Z",
       "severity": "Service Closed",
       "source_created": "0001-01-01T00:00:00"
-    }
-  },
-  "history": [
+    },
     {
       "category": "other",
       "duration_seconds": 6183,
@@ -40753,6 +40845,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-11-20T04:23:57Z",
+  "updated_at": "2026-11-20T08:38:58Z",
   "version": 1
 }
