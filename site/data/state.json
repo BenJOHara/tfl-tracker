@@ -79,19 +79,21 @@
       "reason": "Waterloo & City line: service operates 06:00 until 00:30, Monday to Friday only. There is no service on Saturdays, Sundays and on bank/public holidays.",
       "severity": "Planned Closure",
       "source_created": "0001-01-01T00:00:00"
-    },
-    "waterloo-city:text:1bbcac27f282d0db": {
+    }
+  },
+  "history": [
+    {
       "category": "other",
+      "duration_seconds": 35620,
       "first_seen": "2026-11-21T02:31:36Z",
       "issue_key": "waterloo-city:text:1bbcac27f282d0db",
       "line_id": "waterloo-city",
       "line_name": "Waterloo & City",
       "reason": "Waterloo and City Line: Service will resume at 06:00 on Monday.",
+      "resolved_at": "2026-11-21T12:25:16Z",
       "severity": "Service Closed",
       "source_created": "0001-01-01T00:00:00"
-    }
-  },
-  "history": [
+    },
     {
       "category": "other",
       "duration_seconds": 9553,
@@ -41457,6 +41459,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-11-21T10:09:02Z",
+  "updated_at": "2026-11-21T12:25:16Z",
   "version": 1
 }
