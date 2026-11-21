@@ -20,24 +20,14 @@
       "severity": "Severe Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "district:text:48e60a96b5337bbd": {
+    "district:text:9d054197a0c0cafc": {
       "category": "other",
-      "first_seen": "2026-11-21T19:38:48Z",
-      "issue_key": "district:text:48e60a96b5337bbd",
+      "first_seen": "2026-11-21T21:06:20Z",
+      "issue_key": "district:text:9d054197a0c0cafc",
       "line_id": "district",
       "line_name": "District",
-      "reason": "District Line: No service between Kensington (Olympia) and Earl's Court due to train cancellations. NO SERVICE between Earl's Court and Richmond / Ealing Broadway due to strike action. Tickets will be accepted on London Buses, Mildmay line, DLR, Elizabeth line, C2C and South Western services. SEVERE DELAYS on the rest of the line.",
+      "reason": "District Line: No service between Kensington (Olympia) and Earl's Court due to train cancellations. SEVERE DELAYS on the rest of the line due to strike action. Tickets will be accepted on London Buses, Mildmay line, DLR, Elizabeth line, C2C and South Western services.",
       "severity": "Part Suspended",
-      "source_created": "0001-01-01T00:00:00"
-    },
-    "district:text:ca1f5d7a1b599bf4": {
-      "category": "other",
-      "first_seen": "2026-11-20T13:15:33Z",
-      "issue_key": "district:text:ca1f5d7a1b599bf4",
-      "line_id": "district",
-      "line_name": "District",
-      "reason": "TUBE STRIKE: Piccadilly line service control staff are taking strike action from Friday 20 until Saturday evening, 21 November. Due to shared infrastructure around the Ealing Common District line depot, there will be no DISTRICT LINE service between Turnham Green and Ealing Broadway from midday on Friday until Saturday evening, with a reduced service on the rest of the line. No Piccadilly line service is expected during the strike. Replacement bus services operate during Friday Night Tube and Saturday daytime hours only. Please use MILDMAY LINE services between Gunnersbury, Kew Gardens and Richmond, where available.",
-      "severity": "Part Closure",
       "source_created": "0001-01-01T00:00:00"
     },
     "dlr:text:fab31d71d7bb9f14": {
@@ -48,26 +38,6 @@
       "line_name": "DLR",
       "reason": "DOCKLANDS LIGHT RAILWAY: Saturday 21 and Sunday 22 November, no service between Canning Town and Stratford International. Please use JUBILEE LINE and local London Buses services.",
       "severity": "Part Closure",
-      "source_created": "0001-01-01T00:00:00"
-    },
-    "elizabeth:text:26c592867c96037d": {
-      "category": "other",
-      "first_seen": "2026-11-21T19:38:48Z",
-      "issue_key": "elizabeth:text:26c592867c96037d",
-      "line_id": "elizabeth",
-      "line_name": "Elizabeth line",
-      "reason": "No service between Maidenhead and Reading due to an earlier person ill on a train at Whitechapel. SEVERE DELAYS between Paddington and Heathrow Airport/Maidenhead. London Underground are accepting valid tickets via any reasonable route. MINOR DELAYS on the rest of the line.",
-      "severity": "Part Suspended",
-      "source_created": "0001-01-01T00:00:00"
-    },
-    "jubilee:text:de9d79299950c651": {
-      "category": "train fault",
-      "first_seen": "2026-11-21T19:38:48Z",
-      "issue_key": "jubilee:text:de9d79299950c651",
-      "line_id": "jubilee",
-      "line_name": "Jubilee",
-      "reason": "Jubilee Line: Minor delays due to an earlier faulty train at North Greenwich.",
-      "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
     "lioness:text:3e1c682bdfc1d1f1": {
@@ -90,23 +60,33 @@
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "piccadilly:text:e6cfdb31bf869482": {
+    "mildmay:text:7db298bf8cc5e508": {
       "category": "other",
-      "first_seen": "2026-11-20T17:18:21Z",
-      "issue_key": "piccadilly:text:e6cfdb31bf869482",
-      "line_id": "piccadilly",
-      "line_name": "Piccadilly",
-      "reason": "TUBE STRIKE: Piccadilly line service control staff are planning to take strike action from Friday 20 until Saturday evening 21 November. There will be no service from midday on Friday until Saturday evening, including Night Tube on Friday night. Normal Night Tube service is expected to operate on Saturday night. Due to shared infrastructure around the Ealing Common District line depot, there will be no DISTRICT LINE service between Turnham Green and Ealing Broadway from midday on Friday until Saturday evening. Replacement buses will operate during Friday Night Tube hours and Saturday daytime only. Please use ELIZABETH LINE services for travel between Central London and Heathrow, and between terminals, and METROPOLITAN LINE services between Rayners Lane and Uxbridge.",
-      "severity": "Planned Closure",
+      "first_seen": "2026-11-21T21:06:20Z",
+      "issue_key": "mildmay:text:7db298bf8cc5e508",
+      "line_id": "mildmay",
+      "line_name": "Mildmay",
+      "reason": "MILDMAY LINE: Saturday 21 November, the 2014 and 2244 trains from Stratford to Richmond will not run. The 2131 train from Richmond to Stratford will not run. The 2259 train from Stratford to Richmond will terminate at Willesden Junction at 2342",
+      "severity": "Reduced Service",
       "source_created": "0001-01-01T00:00:00"
     },
-    "victoria:text:1e3ff96ad87d24c6": {
+    "piccadilly:text:d115861171873cf9": {
+      "category": "other",
+      "first_seen": "2026-11-21T21:06:20Z",
+      "issue_key": "piccadilly:text:d115861171873cf9",
+      "line_id": "piccadilly",
+      "line_name": "Piccadilly",
+      "reason": "Piccadilly Line: No service between Rayners Lane and Uxbridge and SEVERE DELAYS on the rest of the line due to strike action. London Buses, Elizabeth line, Great Northern, Weaver line and South Western Railway are accepting valid tickets via any reasonable route.",
+      "severity": "Severe Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "victoria:text:b000e9f1b422152a": {
       "category": "points failure",
-      "first_seen": "2026-11-21T19:38:48Z",
-      "issue_key": "victoria:text:1e3ff96ad87d24c6",
+      "first_seen": "2026-11-21T21:06:20Z",
+      "issue_key": "victoria:text:b000e9f1b422152a",
       "line_id": "victoria",
       "line_name": "Victoria",
-      "reason": "Victoria Line: Severe delays due to a points failure at Walthamstow Central.",
+      "reason": "Victoria Line: Severe delays due to an earlier points failure at Walthamstow Central. Tickets being accepted on London Buses.",
       "severity": "Severe Delays",
       "source_created": "0001-01-01T00:00:00"
     },
@@ -122,6 +102,78 @@
     }
   },
   "history": [
+    {
+      "category": "other",
+      "duration_seconds": 5252,
+      "first_seen": "2026-11-21T19:38:48Z",
+      "issue_key": "district:text:48e60a96b5337bbd",
+      "line_id": "district",
+      "line_name": "District",
+      "reason": "District Line: No service between Kensington (Olympia) and Earl's Court due to train cancellations. NO SERVICE between Earl's Court and Richmond / Ealing Broadway due to strike action. Tickets will be accepted on London Buses, Mildmay line, DLR, Elizabeth line, C2C and South Western services. SEVERE DELAYS on the rest of the line.",
+      "resolved_at": "2026-11-21T21:06:20Z",
+      "severity": "Part Suspended",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "other",
+      "duration_seconds": 114647,
+      "first_seen": "2026-11-20T13:15:33Z",
+      "issue_key": "district:text:ca1f5d7a1b599bf4",
+      "line_id": "district",
+      "line_name": "District",
+      "reason": "TUBE STRIKE: Piccadilly line service control staff are taking strike action from Friday 20 until Saturday evening, 21 November. Due to shared infrastructure around the Ealing Common District line depot, there will be no DISTRICT LINE service between Turnham Green and Ealing Broadway from midday on Friday until Saturday evening, with a reduced service on the rest of the line. No Piccadilly line service is expected during the strike. Replacement bus services operate during Friday Night Tube and Saturday daytime hours only. Please use MILDMAY LINE services between Gunnersbury, Kew Gardens and Richmond, where available.",
+      "resolved_at": "2026-11-21T21:06:20Z",
+      "severity": "Part Closure",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "other",
+      "duration_seconds": 5252,
+      "first_seen": "2026-11-21T19:38:48Z",
+      "issue_key": "elizabeth:text:26c592867c96037d",
+      "line_id": "elizabeth",
+      "line_name": "Elizabeth line",
+      "reason": "No service between Maidenhead and Reading due to an earlier person ill on a train at Whitechapel. SEVERE DELAYS between Paddington and Heathrow Airport/Maidenhead. London Underground are accepting valid tickets via any reasonable route. MINOR DELAYS on the rest of the line.",
+      "resolved_at": "2026-11-21T21:06:20Z",
+      "severity": "Part Suspended",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "train fault",
+      "duration_seconds": 5252,
+      "first_seen": "2026-11-21T19:38:48Z",
+      "issue_key": "jubilee:text:de9d79299950c651",
+      "line_id": "jubilee",
+      "line_name": "Jubilee",
+      "reason": "Jubilee Line: Minor delays due to an earlier faulty train at North Greenwich.",
+      "resolved_at": "2026-11-21T21:06:20Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "other",
+      "duration_seconds": 100079,
+      "first_seen": "2026-11-20T17:18:21Z",
+      "issue_key": "piccadilly:text:e6cfdb31bf869482",
+      "line_id": "piccadilly",
+      "line_name": "Piccadilly",
+      "reason": "TUBE STRIKE: Piccadilly line service control staff are planning to take strike action from Friday 20 until Saturday evening 21 November. There will be no service from midday on Friday until Saturday evening, including Night Tube on Friday night. Normal Night Tube service is expected to operate on Saturday night. Due to shared infrastructure around the Ealing Common District line depot, there will be no DISTRICT LINE service between Turnham Green and Ealing Broadway from midday on Friday until Saturday evening. Replacement buses will operate during Friday Night Tube hours and Saturday daytime only. Please use ELIZABETH LINE services for travel between Central London and Heathrow, and between terminals, and METROPOLITAN LINE services between Rayners Lane and Uxbridge.",
+      "resolved_at": "2026-11-21T21:06:20Z",
+      "severity": "Planned Closure",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "points failure",
+      "duration_seconds": 5252,
+      "first_seen": "2026-11-21T19:38:48Z",
+      "issue_key": "victoria:text:1e3ff96ad87d24c6",
+      "line_id": "victoria",
+      "line_name": "Victoria",
+      "reason": "Victoria Line: Severe delays due to a points failure at Walthamstow Central.",
+      "resolved_at": "2026-11-21T21:06:20Z",
+      "severity": "Severe Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
     {
       "category": "other",
       "duration_seconds": 8028,
@@ -41583,6 +41635,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-11-21T19:38:48Z",
+  "updated_at": "2026-11-21T21:06:20Z",
   "version": 1
 }
