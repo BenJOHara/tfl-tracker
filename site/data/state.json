@@ -10,23 +10,23 @@
       "severity": "Part Closure",
       "source_created": "0001-01-01T00:00:00"
     },
-    "central:text:6d0af7c9d44f714a": {
+    "central:text:4be5cc7a32400eff": {
       "category": "other",
-      "first_seen": "2026-11-21T17:25:00Z",
-      "issue_key": "central:text:6d0af7c9d44f714a",
+      "first_seen": "2026-11-21T19:38:48Z",
+      "issue_key": "central:text:4be5cc7a32400eff",
       "line_id": "central",
       "line_name": "Central",
-      "reason": "Central Line: Minor delays due to train cancellations.",
-      "severity": "Minor Delays",
+      "reason": "Central Line: Severe delays due to train cancellations. London Buses, Elizabeth line, Liberty line, Chiltern Railways and Greater Anglia are accepting valid tickets via any reasonable route.",
+      "severity": "Severe Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "district:text:ab608399ebe78867": {
+    "district:text:48e60a96b5337bbd": {
       "category": "other",
-      "first_seen": "2026-11-21T10:09:02Z",
-      "issue_key": "district:text:ab608399ebe78867",
+      "first_seen": "2026-11-21T19:38:48Z",
+      "issue_key": "district:text:48e60a96b5337bbd",
       "line_id": "district",
       "line_name": "District",
-      "reason": "District Line: No service between Kensington (Olympia) and Earl's Court due to train cancellations. NO SERVICE between Turnham Green and Ealing Broadway due to strike action. Tickets will be accepted on London Buses, Mildmay line, DLR, Elizabeth line, C2C and South Western services. SEVERE DELAYS on the rest of the line.",
+      "reason": "District Line: No service between Kensington (Olympia) and Earl's Court due to train cancellations. NO SERVICE between Earl's Court and Richmond / Ealing Broadway due to strike action. Tickets will be accepted on London Buses, Mildmay line, DLR, Elizabeth line, C2C and South Western services. SEVERE DELAYS on the rest of the line.",
       "severity": "Part Suspended",
       "source_created": "0001-01-01T00:00:00"
     },
@@ -50,24 +50,24 @@
       "severity": "Part Closure",
       "source_created": "0001-01-01T00:00:00"
     },
-    "elizabeth:text:638d8b9d4b0f409d": {
+    "elizabeth:text:26c592867c96037d": {
       "category": "other",
-      "first_seen": "2026-11-21T17:25:00Z",
-      "issue_key": "elizabeth:text:638d8b9d4b0f409d",
+      "first_seen": "2026-11-21T19:38:48Z",
+      "issue_key": "elizabeth:text:26c592867c96037d",
       "line_id": "elizabeth",
       "line_name": "Elizabeth line",
-      "reason": "No service between Abbey Wood and Paddington and NO SERVICE between Whitechapel and Stratford due to an earlier person ill on a train at Whitechapel. SEVERE DELAYS on the rest of the line. London Underground are accepting valid tickets via any reasonable route.",
+      "reason": "No service between Maidenhead and Reading due to an earlier person ill on a train at Whitechapel. SEVERE DELAYS between Paddington and Heathrow Airport/Maidenhead. London Underground are accepting valid tickets via any reasonable route. MINOR DELAYS on the rest of the line.",
       "severity": "Part Suspended",
       "source_created": "0001-01-01T00:00:00"
     },
-    "jubilee:text:f186b2997a3ed2c7": {
+    "jubilee:text:de9d79299950c651": {
       "category": "train fault",
-      "first_seen": "2026-11-21T17:25:00Z",
-      "issue_key": "jubilee:text:f186b2997a3ed2c7",
+      "first_seen": "2026-11-21T19:38:48Z",
+      "issue_key": "jubilee:text:de9d79299950c651",
       "line_id": "jubilee",
       "line_name": "Jubilee",
-      "reason": "Jubilee Line: Severe delays while we fix a faulty train at North Greenwich.",
-      "severity": "Severe Delays",
+      "reason": "Jubilee Line: Minor delays due to an earlier faulty train at North Greenwich.",
+      "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
     "lioness:text:3e1c682bdfc1d1f1": {
@@ -100,14 +100,14 @@
       "severity": "Planned Closure",
       "source_created": "0001-01-01T00:00:00"
     },
-    "victoria:text:d20f23548904dc50": {
-      "category": "train fault",
-      "first_seen": "2026-11-21T17:25:00Z",
-      "issue_key": "victoria:text:d20f23548904dc50",
+    "victoria:text:1e3ff96ad87d24c6": {
+      "category": "points failure",
+      "first_seen": "2026-11-21T19:38:48Z",
+      "issue_key": "victoria:text:1e3ff96ad87d24c6",
       "line_id": "victoria",
       "line_name": "Victoria",
-      "reason": "Victoria Line: Minor delay due to an earlier faulty train at Victoria.",
-      "severity": "Minor Delays",
+      "reason": "Victoria Line: Severe delays due to a points failure at Walthamstow Central.",
+      "severity": "Severe Delays",
       "source_created": "0001-01-01T00:00:00"
     },
     "waterloo-city:text:02da0890c7cbf303": {
@@ -122,6 +122,66 @@
     }
   },
   "history": [
+    {
+      "category": "other",
+      "duration_seconds": 8028,
+      "first_seen": "2026-11-21T17:25:00Z",
+      "issue_key": "central:text:6d0af7c9d44f714a",
+      "line_id": "central",
+      "line_name": "Central",
+      "reason": "Central Line: Minor delays due to train cancellations.",
+      "resolved_at": "2026-11-21T19:38:48Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "other",
+      "duration_seconds": 34186,
+      "first_seen": "2026-11-21T10:09:02Z",
+      "issue_key": "district:text:ab608399ebe78867",
+      "line_id": "district",
+      "line_name": "District",
+      "reason": "District Line: No service between Kensington (Olympia) and Earl's Court due to train cancellations. NO SERVICE between Turnham Green and Ealing Broadway due to strike action. Tickets will be accepted on London Buses, Mildmay line, DLR, Elizabeth line, C2C and South Western services. SEVERE DELAYS on the rest of the line.",
+      "resolved_at": "2026-11-21T19:38:48Z",
+      "severity": "Part Suspended",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "other",
+      "duration_seconds": 8028,
+      "first_seen": "2026-11-21T17:25:00Z",
+      "issue_key": "elizabeth:text:638d8b9d4b0f409d",
+      "line_id": "elizabeth",
+      "line_name": "Elizabeth line",
+      "reason": "No service between Abbey Wood and Paddington and NO SERVICE between Whitechapel and Stratford due to an earlier person ill on a train at Whitechapel. SEVERE DELAYS on the rest of the line. London Underground are accepting valid tickets via any reasonable route.",
+      "resolved_at": "2026-11-21T19:38:48Z",
+      "severity": "Part Suspended",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "train fault",
+      "duration_seconds": 8028,
+      "first_seen": "2026-11-21T17:25:00Z",
+      "issue_key": "jubilee:text:f186b2997a3ed2c7",
+      "line_id": "jubilee",
+      "line_name": "Jubilee",
+      "reason": "Jubilee Line: Severe delays while we fix a faulty train at North Greenwich.",
+      "resolved_at": "2026-11-21T19:38:48Z",
+      "severity": "Severe Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "train fault",
+      "duration_seconds": 8028,
+      "first_seen": "2026-11-21T17:25:00Z",
+      "issue_key": "victoria:text:d20f23548904dc50",
+      "line_id": "victoria",
+      "line_name": "Victoria",
+      "reason": "Victoria Line: Minor delay due to an earlier faulty train at Victoria.",
+      "resolved_at": "2026-11-21T19:38:48Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
     {
       "category": "train fault",
       "duration_seconds": 6625,
@@ -41523,6 +41583,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-11-21T17:25:00Z",
+  "updated_at": "2026-11-21T19:38:48Z",
   "version": 1
 }
