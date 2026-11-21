@@ -40,16 +40,6 @@
       "severity": "Part Closure",
       "source_created": "0001-01-01T00:00:00"
     },
-    "hammersmith-city:text:f83c22b4e32debeb": {
-      "category": "other",
-      "first_seen": "2026-11-21T07:29:49Z",
-      "issue_key": "hammersmith-city:text:f83c22b4e32debeb",
-      "line_id": "hammersmith-city",
-      "line_name": "Hammersmith & City",
-      "reason": "Hammersmith and City Line: Severe delays due to train cancellations. Tickets will be accepted on C2C, and local bus services.",
-      "severity": "Severe Delays",
-      "source_created": "0001-01-01T00:00:00"
-    },
     "lioness:text:3e1c682bdfc1d1f1": {
       "category": "other",
       "first_seen": "2026-11-21T07:29:49Z",
@@ -70,6 +60,16 @@
       "severity": "Planned Closure",
       "source_created": "0001-01-01T00:00:00"
     },
+    "victoria:text:bcce9077b14f5776": {
+      "category": "train fault",
+      "first_seen": "2026-11-21T15:34:35Z",
+      "issue_key": "victoria:text:bcce9077b14f5776",
+      "line_id": "victoria",
+      "line_name": "Victoria",
+      "reason": "Victoria Line: Minor delays while we fix a faulty train at Victoria.",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
     "waterloo-city:text:02da0890c7cbf303": {
       "category": "other",
       "first_seen": "2026-11-21T07:29:49Z",
@@ -82,6 +82,18 @@
     }
   },
   "history": [
+    {
+      "category": "other",
+      "duration_seconds": 29086,
+      "first_seen": "2026-11-21T07:29:49Z",
+      "issue_key": "hammersmith-city:text:f83c22b4e32debeb",
+      "line_id": "hammersmith-city",
+      "line_name": "Hammersmith & City",
+      "reason": "Hammersmith and City Line: Severe delays due to train cancellations. Tickets will be accepted on C2C, and local bus services.",
+      "resolved_at": "2026-11-21T15:34:35Z",
+      "severity": "Severe Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
     {
       "category": "other",
       "duration_seconds": 35620,
@@ -41459,6 +41471,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-11-21T12:25:16Z",
+  "updated_at": "2026-11-21T15:34:35Z",
   "version": 1
 }
