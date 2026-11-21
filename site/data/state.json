@@ -10,14 +10,14 @@
       "severity": "Part Closure",
       "source_created": "0001-01-01T00:00:00"
     },
-    "central:text:4be5cc7a32400eff": {
+    "central:text:6d0af7c9d44f714a": {
       "category": "other",
-      "first_seen": "2026-11-21T19:38:48Z",
-      "issue_key": "central:text:4be5cc7a32400eff",
+      "first_seen": "2026-11-21T23:55:47Z",
+      "issue_key": "central:text:6d0af7c9d44f714a",
       "line_id": "central",
       "line_name": "Central",
-      "reason": "Central Line: Severe delays due to train cancellations. London Buses, Elizabeth line, Liberty line, Chiltern Railways and Greater Anglia are accepting valid tickets via any reasonable route.",
-      "severity": "Severe Delays",
+      "reason": "Central Line: Minor delays due to train cancellations.",
+      "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
     "circle:text:bf9bb7504db7ea4d": {
@@ -70,6 +70,16 @@
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
+    "mildmay:text:7aa857e2039fd815": {
+      "category": "passenger incident",
+      "first_seen": "2026-11-21T23:55:47Z",
+      "issue_key": "mildmay:text:7aa857e2039fd815",
+      "line_id": "mildmay",
+      "line_name": "Mildmay",
+      "reason": "Mildmay Line: No service between Willesden Junction and Clapham Junction due to a customer incident. GOOD SERVICE on the rest of the line.",
+      "severity": "Part Suspended",
+      "source_created": "0001-01-01T00:00:00"
+    },
     "mildmay:text:7db298bf8cc5e508": {
       "category": "other",
       "first_seen": "2026-11-21T21:06:20Z",
@@ -80,14 +90,14 @@
       "severity": "Reduced Service",
       "source_created": "0001-01-01T00:00:00"
     },
-    "piccadilly:text:d115861171873cf9": {
+    "piccadilly:text:3aaa373341c18d2e": {
       "category": "other",
-      "first_seen": "2026-11-21T21:06:20Z",
-      "issue_key": "piccadilly:text:d115861171873cf9",
+      "first_seen": "2026-11-21T23:55:47Z",
+      "issue_key": "piccadilly:text:3aaa373341c18d2e",
       "line_id": "piccadilly",
       "line_name": "Piccadilly",
-      "reason": "Piccadilly Line: No service between Rayners Lane and Uxbridge and SEVERE DELAYS on the rest of the line due to strike action. London Buses, Elizabeth line, Great Northern, Weaver line and South Western Railway are accepting valid tickets via any reasonable route.",
-      "severity": "Severe Delays",
+      "reason": "Piccadilly Line: No service between Rayners Lane and Uxbridge and MINOR DELAYS on the rest of the line due to strike action.",
+      "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
     "victoria:text:3df6e591692a802d": {
@@ -112,6 +122,30 @@
     }
   },
   "history": [
+    {
+      "category": "other",
+      "duration_seconds": 15419,
+      "first_seen": "2026-11-21T19:38:48Z",
+      "issue_key": "central:text:4be5cc7a32400eff",
+      "line_id": "central",
+      "line_name": "Central",
+      "reason": "Central Line: Severe delays due to train cancellations. London Buses, Elizabeth line, Liberty line, Chiltern Railways and Greater Anglia are accepting valid tickets via any reasonable route.",
+      "resolved_at": "2026-11-21T23:55:47Z",
+      "severity": "Severe Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "other",
+      "duration_seconds": 10167,
+      "first_seen": "2026-11-21T21:06:20Z",
+      "issue_key": "piccadilly:text:d115861171873cf9",
+      "line_id": "piccadilly",
+      "line_name": "Piccadilly",
+      "reason": "Piccadilly Line: No service between Rayners Lane and Uxbridge and SEVERE DELAYS on the rest of the line due to strike action. London Buses, Elizabeth line, Great Northern, Weaver line and South Western Railway are accepting valid tickets via any reasonable route.",
+      "resolved_at": "2026-11-21T23:55:47Z",
+      "severity": "Severe Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
     {
       "category": "points failure",
       "duration_seconds": 4093,
@@ -41657,6 +41691,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-11-21T22:14:33Z",
+  "updated_at": "2026-11-21T23:55:47Z",
   "version": 1
 }
