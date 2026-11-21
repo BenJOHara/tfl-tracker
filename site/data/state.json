@@ -20,6 +20,16 @@
       "severity": "Severe Delays",
       "source_created": "0001-01-01T00:00:00"
     },
+    "circle:text:bf9bb7504db7ea4d": {
+      "category": "other",
+      "first_seen": "2026-11-21T22:14:33Z",
+      "issue_key": "circle:text:bf9bb7504db7ea4d",
+      "line_id": "circle",
+      "line_name": "Circle",
+      "reason": "Circle Line: Minor delays due to train cancellations.",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
     "district:text:9d054197a0c0cafc": {
       "category": "other",
       "first_seen": "2026-11-21T21:06:20Z",
@@ -80,14 +90,14 @@
       "severity": "Severe Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "victoria:text:b000e9f1b422152a": {
+    "victoria:text:3df6e591692a802d": {
       "category": "points failure",
-      "first_seen": "2026-11-21T21:06:20Z",
-      "issue_key": "victoria:text:b000e9f1b422152a",
+      "first_seen": "2026-11-21T22:14:33Z",
+      "issue_key": "victoria:text:3df6e591692a802d",
       "line_id": "victoria",
       "line_name": "Victoria",
-      "reason": "Victoria Line: Severe delays due to an earlier points failure at Walthamstow Central. Tickets being accepted on London Buses.",
-      "severity": "Severe Delays",
+      "reason": "Victoria Line: Minor delays due to an earlier points failure at Walthamstow Central.",
+      "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
     "waterloo-city:text:02da0890c7cbf303": {
@@ -102,6 +112,18 @@
     }
   },
   "history": [
+    {
+      "category": "points failure",
+      "duration_seconds": 4093,
+      "first_seen": "2026-11-21T21:06:20Z",
+      "issue_key": "victoria:text:b000e9f1b422152a",
+      "line_id": "victoria",
+      "line_name": "Victoria",
+      "reason": "Victoria Line: Severe delays due to an earlier points failure at Walthamstow Central. Tickets being accepted on London Buses.",
+      "resolved_at": "2026-11-21T22:14:33Z",
+      "severity": "Severe Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
     {
       "category": "other",
       "duration_seconds": 5252,
@@ -41635,6 +41657,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-11-21T21:06:20Z",
+  "updated_at": "2026-11-21T22:14:33Z",
   "version": 1
 }
