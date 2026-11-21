@@ -1,33 +1,43 @@
 {
   "active": {
-    "bakerloo:text:7222ba1620fec544": {
-      "category": "track fault",
-      "first_seen": "2026-11-20T21:18:07Z",
-      "issue_key": "bakerloo:text:7222ba1620fec544",
+    "bakerloo:text:2521ee078c33635f": {
+      "category": "planned engineering",
+      "first_seen": "2026-11-21T02:31:36Z",
+      "issue_key": "bakerloo:text:2521ee078c33635f",
       "line_id": "bakerloo",
       "line_name": "Bakerloo",
-      "reason": "Bakerloo Line: Minor delays due to a track fault at Willesden Junction.",
-      "severity": "Minor Delays",
+      "reason": "Bakerloo Line: Service will resume later this morning. There will be no service between Queen's Park and Harrow & Wealdstone due to planned engineering work.",
+      "severity": "Service Closed",
       "source_created": "0001-01-01T00:00:00"
     },
-    "circle:text:91c22567b0b7c6c0": {
-      "category": "person on track",
-      "first_seen": "2026-11-21T00:21:35Z",
-      "issue_key": "circle:text:91c22567b0b7c6c0",
+    "central:text:5df31be97fa07c3d": {
+      "category": "points failure",
+      "first_seen": "2026-11-21T02:31:36Z",
+      "issue_key": "central:text:5df31be97fa07c3d",
+      "line_id": "central",
+      "line_name": "Central",
+      "reason": "Central Line: No service between Marble Arch and Ealing Broadway while we fix a points failure at North Acton. Tickets being accepted by London Buses. GOOD SERVICE on the rest of the line.",
+      "severity": "Part Suspended",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "circle:text:a1099579f6415e8f": {
+      "category": "other",
+      "first_seen": "2026-11-21T02:31:36Z",
+      "issue_key": "circle:text:a1099579f6415e8f",
       "line_id": "circle",
       "line_name": "Circle",
-      "reason": "Circle Line: Severe delays due to an earlier trespasser on the track.",
-      "severity": "Severe Delays",
+      "reason": "Circle Line: Service will resume later this morning.",
+      "severity": "Service Closed",
       "source_created": "0001-01-01T00:00:00"
     },
-    "district:text:2ecafbf086650a2f": {
+    "district:text:468f4f04f34d8411": {
       "category": "other",
-      "first_seen": "2026-11-20T17:18:21Z",
-      "issue_key": "district:text:2ecafbf086650a2f",
+      "first_seen": "2026-11-21T02:31:36Z",
+      "issue_key": "district:text:468f4f04f34d8411",
       "line_id": "district",
       "line_name": "District",
-      "reason": "District Line: No service between Turnham Green and Ealing Broadway due to strike action. SEVERE DELAYS on the rest of the line due to train cancellations. London Buses, DLR, Mildmay line, South Western Railway, Elizabeth line, C2C and South Western Railway are accepting valid tickets via any reasonable route.",
-      "severity": "Severe Delays",
+      "reason": "District Line: Service will resume later this morning.",
+      "severity": "Service Closed",
       "source_created": "0001-01-01T00:00:00"
     },
     "district:text:ca1f5d7a1b599bf4": {
@@ -40,44 +50,94 @@
       "severity": "Part Closure",
       "source_created": "0001-01-01T00:00:00"
     },
-    "elizabeth:text:c39747e16c4ffc0c": {
+    "dlr:text:0b3c427c82438e93": {
+      "category": "planned engineering",
+      "first_seen": "2026-11-21T02:31:36Z",
+      "issue_key": "dlr:text:0b3c427c82438e93",
+      "line_id": "dlr",
+      "line_name": "DLR",
+      "reason": "Docklands Light Railway: Service will resume later this morning. There will be no service between Stratford International and Canning Town due to planned engineering work.",
+      "severity": "Service Closed",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "elizabeth:text:85644759b2256fee": {
       "category": "other",
-      "first_seen": "2026-11-21T00:21:35Z",
-      "issue_key": "elizabeth:text:c39747e16c4ffc0c",
+      "first_seen": "2026-11-21T02:31:36Z",
+      "issue_key": "elizabeth:text:85644759b2256fee",
       "line_id": "elizabeth",
       "line_name": "Elizabeth line",
-      "reason": "Minor delays between Whitechapel and Shenfield while we help person ill on a train at Shenfield. GOOD SERVICE on the rest of the line.",
-      "severity": "Minor Delays",
+      "reason": "Service will resume later this morning.",
+      "severity": "Service Closed",
       "source_created": "0001-01-01T00:00:00"
     },
-    "hammersmith-city:text:01ac11ac8aacf7a8": {
-      "category": "person on track",
-      "first_seen": "2026-11-21T00:21:35Z",
-      "issue_key": "hammersmith-city:text:01ac11ac8aacf7a8",
+    "hammersmith-city:text:b560078b35a5fd17": {
+      "category": "other",
+      "first_seen": "2026-11-21T02:31:36Z",
+      "issue_key": "hammersmith-city:text:b560078b35a5fd17",
       "line_id": "hammersmith-city",
       "line_name": "Hammersmith & City",
-      "reason": "Hammersmith and City Line: Severe delays due to an earlier trespasser on the track.",
-      "severity": "Severe Delays",
+      "reason": "Hammersmith and City Line: Service will resume later this morning.",
+      "severity": "Service Closed",
       "source_created": "0001-01-01T00:00:00"
     },
-    "metropolitan:text:66d7b4f64b30ce8d": {
-      "category": "person on track",
-      "first_seen": "2026-11-21T00:21:35Z",
-      "issue_key": "metropolitan:text:66d7b4f64b30ce8d",
+    "liberty:text:19134079f5c98ab7": {
+      "category": "other",
+      "first_seen": "2026-11-21T02:31:36Z",
+      "issue_key": "liberty:text:19134079f5c98ab7",
+      "line_id": "liberty",
+      "line_name": "Liberty",
+      "reason": "Liberty Line: Service will resume later this morning.",
+      "severity": "Service Closed",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "lioness:text:d700a64faf4c4952": {
+      "category": "planned engineering",
+      "first_seen": "2026-11-21T02:31:36Z",
+      "issue_key": "lioness:text:d700a64faf4c4952",
+      "line_id": "lioness",
+      "line_name": "Lioness",
+      "reason": "Lioness Line: Service will resume Monday morning. There will be no service between Euston and Watford Junction due to planned engineering work.",
+      "severity": "Service Closed",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "metropolitan:text:4b366f757f8f5a28": {
+      "category": "other",
+      "first_seen": "2026-11-21T02:31:36Z",
+      "issue_key": "metropolitan:text:4b366f757f8f5a28",
       "line_id": "metropolitan",
       "line_name": "Metropolitan",
-      "reason": "Metropolitan Line: Severe delays between Harrow-on-the-Hill to to Aldgate due to an earlier trespasser on the track. GOOD SERVICE on the rest of the line.",
-      "severity": "Severe Delays",
+      "reason": "Metropolitan Line: Service will resume later this morning.",
+      "severity": "Service Closed",
       "source_created": "0001-01-01T00:00:00"
     },
-    "northern:text:7f457106531d2b43": {
+    "mildmay:text:43f3ca710bb3792b": {
+      "category": "other",
+      "first_seen": "2026-11-21T02:31:36Z",
+      "issue_key": "mildmay:text:43f3ca710bb3792b",
+      "line_id": "mildmay",
+      "line_name": "Mildmay",
+      "reason": "Mildmay Line: Service will resume later this morning.",
+      "severity": "Service Closed",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "northern:text:14dccbb8bb60bd79": {
       "category": "points failure",
-      "first_seen": "2026-11-20T23:15:42Z",
-      "issue_key": "northern:text:7f457106531d2b43",
+      "first_seen": "2026-11-21T02:31:36Z",
+      "issue_key": "northern:text:14dccbb8bb60bd79",
       "line_id": "northern",
       "line_name": "Northern",
-      "reason": "Northern Line: Minor delays due to a points failure at Kennington.",
-      "severity": "Minor Delays",
+      "reason": "Northern Line: No service between Stockwell and Kennington due to a points failure at Kennington. MINOR DELAYS on the rest of the line.",
+      "severity": "Part Suspended",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "northern:text:c2c6c99d7c0ad5fe": {
+      "category": "other",
+      "first_seen": "2026-11-21T02:31:36Z",
+      "issue_key": "northern:text:c2c6c99d7c0ad5fe",
+      "line_id": "northern",
+      "line_name": "Northern",
+      "reason": "NORTHERN LINE: On the early mornings of Saturday 21 and Sunday 22 November, no Night Tube service between Kennington and Stockwell. Please use Night Bus Route N155 between Kennington, Oval and Stockwell. For travel between Central London and stations between Stockwell and Morden, use Victoria line connections via Stockwell.",
+      "severity": "Part Closure",
       "source_created": "0001-01-01T00:00:00"
     },
     "piccadilly:text:e6cfdb31bf869482": {
@@ -89,9 +149,133 @@
       "reason": "TUBE STRIKE: Piccadilly line service control staff are planning to take strike action from Friday 20 until Saturday evening 21 November. There will be no service from midday on Friday until Saturday evening, including Night Tube on Friday night. Normal Night Tube service is expected to operate on Saturday night. Due to shared infrastructure around the Ealing Common District line depot, there will be no DISTRICT LINE service between Turnham Green and Ealing Broadway from midday on Friday until Saturday evening. Replacement buses will operate during Friday Night Tube hours and Saturday daytime only. Please use ELIZABETH LINE services for travel between Central London and Heathrow, and between terminals, and METROPOLITAN LINE services between Rayners Lane and Uxbridge.",
       "severity": "Planned Closure",
       "source_created": "0001-01-01T00:00:00"
+    },
+    "suffragette:text:774000467a2b26d3": {
+      "category": "other",
+      "first_seen": "2026-11-21T02:31:36Z",
+      "issue_key": "suffragette:text:774000467a2b26d3",
+      "line_id": "suffragette",
+      "line_name": "Suffragette",
+      "reason": "Suffragette Line: Service will resume later this morning.",
+      "severity": "Service Closed",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "tram:text:ab9d7a64f14b787b": {
+      "category": "other",
+      "first_seen": "2026-11-21T02:31:36Z",
+      "issue_key": "tram:text:ab9d7a64f14b787b",
+      "line_id": "tram",
+      "line_name": "Tram",
+      "reason": "London Tramlink: Service will resume later this morning.",
+      "severity": "Service Closed",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "waterloo-city:text:1bbcac27f282d0db": {
+      "category": "other",
+      "first_seen": "2026-11-21T02:31:36Z",
+      "issue_key": "waterloo-city:text:1bbcac27f282d0db",
+      "line_id": "waterloo-city",
+      "line_name": "Waterloo & City",
+      "reason": "Waterloo and City Line: Service will resume at 06:00 on Monday.",
+      "severity": "Service Closed",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "weaver:text:f2dc8c00c6757e13": {
+      "category": "other",
+      "first_seen": "2026-11-21T02:31:36Z",
+      "issue_key": "weaver:text:f2dc8c00c6757e13",
+      "line_id": "weaver",
+      "line_name": "Weaver",
+      "reason": "Weaver Line: Service will resume later this morning.",
+      "severity": "Service Closed",
+      "source_created": "0001-01-01T00:00:00"
     }
   },
   "history": [
+    {
+      "category": "track fault",
+      "duration_seconds": 18809,
+      "first_seen": "2026-11-20T21:18:07Z",
+      "issue_key": "bakerloo:text:7222ba1620fec544",
+      "line_id": "bakerloo",
+      "line_name": "Bakerloo",
+      "reason": "Bakerloo Line: Minor delays due to a track fault at Willesden Junction.",
+      "resolved_at": "2026-11-21T02:31:36Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "person on track",
+      "duration_seconds": 7801,
+      "first_seen": "2026-11-21T00:21:35Z",
+      "issue_key": "circle:text:91c22567b0b7c6c0",
+      "line_id": "circle",
+      "line_name": "Circle",
+      "reason": "Circle Line: Severe delays due to an earlier trespasser on the track.",
+      "resolved_at": "2026-11-21T02:31:36Z",
+      "severity": "Severe Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "other",
+      "duration_seconds": 33195,
+      "first_seen": "2026-11-20T17:18:21Z",
+      "issue_key": "district:text:2ecafbf086650a2f",
+      "line_id": "district",
+      "line_name": "District",
+      "reason": "District Line: No service between Turnham Green and Ealing Broadway due to strike action. SEVERE DELAYS on the rest of the line due to train cancellations. London Buses, DLR, Mildmay line, South Western Railway, Elizabeth line, C2C and South Western Railway are accepting valid tickets via any reasonable route.",
+      "resolved_at": "2026-11-21T02:31:36Z",
+      "severity": "Severe Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "other",
+      "duration_seconds": 7801,
+      "first_seen": "2026-11-21T00:21:35Z",
+      "issue_key": "elizabeth:text:c39747e16c4ffc0c",
+      "line_id": "elizabeth",
+      "line_name": "Elizabeth line",
+      "reason": "Minor delays between Whitechapel and Shenfield while we help person ill on a train at Shenfield. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-11-21T02:31:36Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "person on track",
+      "duration_seconds": 7801,
+      "first_seen": "2026-11-21T00:21:35Z",
+      "issue_key": "hammersmith-city:text:01ac11ac8aacf7a8",
+      "line_id": "hammersmith-city",
+      "line_name": "Hammersmith & City",
+      "reason": "Hammersmith and City Line: Severe delays due to an earlier trespasser on the track.",
+      "resolved_at": "2026-11-21T02:31:36Z",
+      "severity": "Severe Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "person on track",
+      "duration_seconds": 7801,
+      "first_seen": "2026-11-21T00:21:35Z",
+      "issue_key": "metropolitan:text:66d7b4f64b30ce8d",
+      "line_id": "metropolitan",
+      "line_name": "Metropolitan",
+      "reason": "Metropolitan Line: Severe delays between Harrow-on-the-Hill to to Aldgate due to an earlier trespasser on the track. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-11-21T02:31:36Z",
+      "severity": "Severe Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "points failure",
+      "duration_seconds": 11754,
+      "first_seen": "2026-11-20T23:15:42Z",
+      "issue_key": "northern:text:7f457106531d2b43",
+      "line_id": "northern",
+      "line_name": "Northern",
+      "reason": "Northern Line: Minor delays due to a points failure at Kennington.",
+      "resolved_at": "2026-11-21T02:31:36Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
     {
       "category": "other",
       "duration_seconds": 3953,
@@ -41133,6 +41317,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-11-21T00:21:35Z",
+  "updated_at": "2026-11-21T02:31:36Z",
   "version": 1
 }
