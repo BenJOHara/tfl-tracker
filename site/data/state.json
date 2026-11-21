@@ -10,13 +10,13 @@
       "severity": "Service Closed",
       "source_created": "0001-01-01T00:00:00"
     },
-    "central:text:5df31be97fa07c3d": {
+    "central:text:5df09999770190ee": {
       "category": "points failure",
-      "first_seen": "2026-11-21T02:31:36Z",
-      "issue_key": "central:text:5df31be97fa07c3d",
+      "first_seen": "2026-11-21T04:00:01Z",
+      "issue_key": "central:text:5df09999770190ee",
       "line_id": "central",
       "line_name": "Central",
-      "reason": "Central Line: No service between Marble Arch and Ealing Broadway while we fix a points failure at North Acton. Tickets being accepted by London Buses. GOOD SERVICE on the rest of the line.",
+      "reason": "Central Line: No service between Marble Arch and Ealing Broadway while we fix a points failure at North Acton. SEVERE DELAYS between Leytonstone and Loughton/Hainault via Newbury Park. Tickets are being accepted on London Buses. GOOD SERVICE on the rest of the line.",
       "severity": "Part Suspended",
       "source_created": "0001-01-01T00:00:00"
     },
@@ -192,6 +192,18 @@
     }
   },
   "history": [
+    {
+      "category": "points failure",
+      "duration_seconds": 5305,
+      "first_seen": "2026-11-21T02:31:36Z",
+      "issue_key": "central:text:5df31be97fa07c3d",
+      "line_id": "central",
+      "line_name": "Central",
+      "reason": "Central Line: No service between Marble Arch and Ealing Broadway while we fix a points failure at North Acton. Tickets being accepted by London Buses. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-11-21T04:00:01Z",
+      "severity": "Part Suspended",
+      "source_created": "0001-01-01T00:00:00"
+    },
     {
       "category": "track fault",
       "duration_seconds": 18809,
@@ -41317,6 +41329,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-11-21T02:31:36Z",
+  "updated_at": "2026-11-21T04:00:01Z",
   "version": 1
 }
