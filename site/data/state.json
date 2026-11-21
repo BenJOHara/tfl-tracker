@@ -10,6 +10,16 @@
       "severity": "Part Closure",
       "source_created": "0001-01-01T00:00:00"
     },
+    "central:text:6d0af7c9d44f714a": {
+      "category": "other",
+      "first_seen": "2026-11-21T17:25:00Z",
+      "issue_key": "central:text:6d0af7c9d44f714a",
+      "line_id": "central",
+      "line_name": "Central",
+      "reason": "Central Line: Minor delays due to train cancellations.",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
     "district:text:ab608399ebe78867": {
       "category": "other",
       "first_seen": "2026-11-21T10:09:02Z",
@@ -40,6 +50,26 @@
       "severity": "Part Closure",
       "source_created": "0001-01-01T00:00:00"
     },
+    "elizabeth:text:638d8b9d4b0f409d": {
+      "category": "other",
+      "first_seen": "2026-11-21T17:25:00Z",
+      "issue_key": "elizabeth:text:638d8b9d4b0f409d",
+      "line_id": "elizabeth",
+      "line_name": "Elizabeth line",
+      "reason": "No service between Abbey Wood and Paddington and NO SERVICE between Whitechapel and Stratford due to an earlier person ill on a train at Whitechapel. SEVERE DELAYS on the rest of the line. London Underground are accepting valid tickets via any reasonable route.",
+      "severity": "Part Suspended",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "jubilee:text:f186b2997a3ed2c7": {
+      "category": "train fault",
+      "first_seen": "2026-11-21T17:25:00Z",
+      "issue_key": "jubilee:text:f186b2997a3ed2c7",
+      "line_id": "jubilee",
+      "line_name": "Jubilee",
+      "reason": "Jubilee Line: Severe delays while we fix a faulty train at North Greenwich.",
+      "severity": "Severe Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
     "lioness:text:3e1c682bdfc1d1f1": {
       "category": "other",
       "first_seen": "2026-11-21T07:29:49Z",
@@ -48,6 +78,16 @@
       "line_name": "Lioness",
       "reason": "LIONESS LINE: Saturday 21 and Sunday 22 November, no service between Euston and Watford Junction. There will also be no BAKERLOO LINE service between Queens Park and Harrow & Wealdstone. Special bus service 720 operates (please note service 718 will NOT operate). LONDON NORTH WESTERN RAILWAY trains continue to serve Euston, Harrow & Wealdstone, Bushey and Watford Junction. SOUTHERN trains serve Wembley Central, Harrow & Wealdstone and Watford Junction until 1900 Saturday only, not on Sunday.",
       "severity": "Planned Closure",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "metropolitan:text:305dd461877c7bb7": {
+      "category": "other",
+      "first_seen": "2026-11-21T17:25:00Z",
+      "issue_key": "metropolitan:text:305dd461877c7bb7",
+      "line_id": "metropolitan",
+      "line_name": "Metropolitan",
+      "reason": "Metropolitan Line: Minor delays due to train cancellations.",
+      "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
     "piccadilly:text:e6cfdb31bf869482": {
@@ -60,13 +100,13 @@
       "severity": "Planned Closure",
       "source_created": "0001-01-01T00:00:00"
     },
-    "victoria:text:bcce9077b14f5776": {
+    "victoria:text:d20f23548904dc50": {
       "category": "train fault",
-      "first_seen": "2026-11-21T15:34:35Z",
-      "issue_key": "victoria:text:bcce9077b14f5776",
+      "first_seen": "2026-11-21T17:25:00Z",
+      "issue_key": "victoria:text:d20f23548904dc50",
       "line_id": "victoria",
       "line_name": "Victoria",
-      "reason": "Victoria Line: Minor delays while we fix a faulty train at Victoria.",
+      "reason": "Victoria Line: Minor delay due to an earlier faulty train at Victoria.",
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
@@ -82,6 +122,18 @@
     }
   },
   "history": [
+    {
+      "category": "train fault",
+      "duration_seconds": 6625,
+      "first_seen": "2026-11-21T15:34:35Z",
+      "issue_key": "victoria:text:bcce9077b14f5776",
+      "line_id": "victoria",
+      "line_name": "Victoria",
+      "reason": "Victoria Line: Minor delays while we fix a faulty train at Victoria.",
+      "resolved_at": "2026-11-21T17:25:00Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
     {
       "category": "other",
       "duration_seconds": 29086,
@@ -41471,6 +41523,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-11-21T15:34:35Z",
+  "updated_at": "2026-11-21T17:25:00Z",
   "version": 1
 }
