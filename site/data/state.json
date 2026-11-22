@@ -30,16 +30,6 @@
       "severity": "Reduced Service",
       "source_created": "0001-01-01T00:00:00"
     },
-    "elizabeth:text:560d87b379b6d551": {
-      "category": "planned engineering",
-      "first_seen": "2026-11-22T08:11:57Z",
-      "issue_key": "elizabeth:text:560d87b379b6d551",
-      "line_id": "elizabeth",
-      "line_name": "Elizabeth line",
-      "reason": "Minor delays between Paddington and Heathrow Terminals following a late finish of engineering work. GOOD SERVICE on the rest of the line.",
-      "severity": "Minor Delays",
-      "source_created": "0001-01-01T00:00:00"
-    },
     "lioness:text:3e1c682bdfc1d1f1": {
       "category": "other",
       "first_seen": "2026-11-21T07:29:49Z",
@@ -50,13 +40,13 @@
       "severity": "Planned Closure",
       "source_created": "0001-01-01T00:00:00"
     },
-    "metropolitan:text:305dd461877c7bb7": {
+    "metropolitan:text:69f3b344e5382cef": {
       "category": "other",
-      "first_seen": "2026-11-22T09:56:02Z",
-      "issue_key": "metropolitan:text:305dd461877c7bb7",
+      "first_seen": "2026-11-22T13:31:58Z",
+      "issue_key": "metropolitan:text:69f3b344e5382cef",
       "line_id": "metropolitan",
       "line_name": "Metropolitan",
-      "reason": "Metropolitan Line: Minor delays due to train cancellations.",
+      "reason": "Metropolitan Line: Minor delays between Harrow-on-the-Hill and Watford/Uxbridge due to train cancellations. GOOD SERVICE on the rest of the line.",
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
@@ -80,6 +70,16 @@
       "severity": "Reduced Service",
       "source_created": "0001-01-01T00:00:00"
     },
+    "northern:text:d3ca74a8a4de5aef": {
+      "category": "points failure",
+      "first_seen": "2026-11-22T13:31:58Z",
+      "issue_key": "northern:text:d3ca74a8a4de5aef",
+      "line_id": "northern",
+      "line_name": "Northern",
+      "reason": "Northern Line: Severe delays between Edgware and Camden Town and MINOR DELAYS on the rest of the line due to a points failure at Camden Town. London Buses and Southeastern are accepting valid tickets via any reasonable route.",
+      "severity": "Severe Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
     "waterloo-city:text:02da0890c7cbf303": {
       "category": "other",
       "first_seen": "2026-11-22T05:28:42Z",
@@ -89,19 +89,45 @@
       "reason": "Waterloo & City line: service operates 06:00 until 00:30, Monday to Friday only. There is no service on Saturdays, Sundays and on bank/public holidays.",
       "severity": "Planned Closure",
       "source_created": "0001-01-01T00:00:00"
+    }
+  },
+  "history": [
+    {
+      "category": "planned engineering",
+      "duration_seconds": 19201,
+      "first_seen": "2026-11-22T08:11:57Z",
+      "issue_key": "elizabeth:text:560d87b379b6d551",
+      "line_id": "elizabeth",
+      "line_name": "Elizabeth line",
+      "reason": "Minor delays between Paddington and Heathrow Terminals following a late finish of engineering work. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-11-22T13:31:58Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
     },
-    "weaver:text:bd1f95ff9c740c0e": {
+    {
       "category": "other",
+      "duration_seconds": 12956,
+      "first_seen": "2026-11-22T09:56:02Z",
+      "issue_key": "metropolitan:text:305dd461877c7bb7",
+      "line_id": "metropolitan",
+      "line_name": "Metropolitan",
+      "reason": "Metropolitan Line: Minor delays due to train cancellations.",
+      "resolved_at": "2026-11-22T13:31:58Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "other",
+      "duration_seconds": 28996,
       "first_seen": "2026-11-22T05:28:42Z",
       "issue_key": "weaver:text:bd1f95ff9c740c0e",
       "line_id": "weaver",
       "line_name": "Weaver",
       "reason": "WEAVER LINE: Sunday 22 November, until 1015, no service between Liverpool Street and Cheshunt / Chingford / Enfield Town. Use local London Buses and London Underground connections between Central London and Hackney Downs / Seven Sisters. Replacement buses operate.",
+      "resolved_at": "2026-11-22T13:31:58Z",
       "severity": "Part Closure",
       "source_created": "0001-01-01T00:00:00"
-    }
-  },
-  "history": [
+    },
     {
       "category": "other",
       "duration_seconds": 6245,
@@ -42019,6 +42045,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-11-22T09:56:02Z",
+  "updated_at": "2026-11-22T13:31:58Z",
   "version": 1
 }
