@@ -10,6 +10,16 @@
       "severity": "Part Closure",
       "source_created": "0001-01-01T00:00:00"
     },
+    "district:text:46fb733aa615d251": {
+      "category": "other",
+      "first_seen": "2026-11-22T16:26:15Z",
+      "issue_key": "district:text:46fb733aa615d251",
+      "line_id": "district",
+      "line_name": "District",
+      "reason": "District Line: Minor delays between Earl's Court and Kensington (Olympia) due to train cancellations. GOOD SERVICE on the rest of the line.",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
     "dlr:text:fab31d71d7bb9f14": {
       "category": "other",
       "first_seen": "2026-11-21T07:29:49Z",
@@ -40,13 +50,13 @@
       "severity": "Planned Closure",
       "source_created": "0001-01-01T00:00:00"
     },
-    "metropolitan:text:69f3b344e5382cef": {
+    "metropolitan:text:3ba8771fd32f07bb": {
       "category": "other",
-      "first_seen": "2026-11-22T13:31:58Z",
-      "issue_key": "metropolitan:text:69f3b344e5382cef",
+      "first_seen": "2026-11-22T16:26:15Z",
+      "issue_key": "metropolitan:text:3ba8771fd32f07bb",
       "line_id": "metropolitan",
       "line_name": "Metropolitan",
-      "reason": "Metropolitan Line: Minor delays between Harrow-on-the-Hill and Watford/Uxbridge due to train cancellations. GOOD SERVICE on the rest of the line.",
+      "reason": "Metropolitan Line: Minor delays between Harrow-on-the-Hill and Uxbridge due to train cancellations. GOOD SERVICE on the rest of the line.",
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
@@ -70,14 +80,14 @@
       "severity": "Reduced Service",
       "source_created": "0001-01-01T00:00:00"
     },
-    "northern:text:d3ca74a8a4de5aef": {
+    "northern:text:3ce34d5602c66b1f": {
       "category": "points failure",
-      "first_seen": "2026-11-22T13:31:58Z",
-      "issue_key": "northern:text:d3ca74a8a4de5aef",
+      "first_seen": "2026-11-22T16:26:15Z",
+      "issue_key": "northern:text:3ce34d5602c66b1f",
       "line_id": "northern",
       "line_name": "Northern",
-      "reason": "Northern Line: Severe delays between Edgware and Camden Town and MINOR DELAYS on the rest of the line due to a points failure at Camden Town. London Buses and Southeastern are accepting valid tickets via any reasonable route.",
-      "severity": "Severe Delays",
+      "reason": "Northern Line: Minor delays due to an earlier points failure at Camden Town.",
+      "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
     "waterloo-city:text:02da0890c7cbf303": {
@@ -92,6 +102,30 @@
     }
   },
   "history": [
+    {
+      "category": "other",
+      "duration_seconds": 10457,
+      "first_seen": "2026-11-22T13:31:58Z",
+      "issue_key": "metropolitan:text:69f3b344e5382cef",
+      "line_id": "metropolitan",
+      "line_name": "Metropolitan",
+      "reason": "Metropolitan Line: Minor delays between Harrow-on-the-Hill and Watford/Uxbridge due to train cancellations. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-11-22T16:26:15Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "points failure",
+      "duration_seconds": 10457,
+      "first_seen": "2026-11-22T13:31:58Z",
+      "issue_key": "northern:text:d3ca74a8a4de5aef",
+      "line_id": "northern",
+      "line_name": "Northern",
+      "reason": "Northern Line: Severe delays between Edgware and Camden Town and MINOR DELAYS on the rest of the line due to a points failure at Camden Town. London Buses and Southeastern are accepting valid tickets via any reasonable route.",
+      "resolved_at": "2026-11-22T16:26:15Z",
+      "severity": "Severe Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
     {
       "category": "planned engineering",
       "duration_seconds": 19201,
@@ -42045,6 +42079,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-11-22T13:31:58Z",
+  "updated_at": "2026-11-22T16:26:15Z",
   "version": 1
 }
