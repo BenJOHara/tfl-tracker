@@ -1,5 +1,15 @@
 {
   "active": {
+    "bakerloo:text:2521ee078c33635f": {
+      "category": "planned engineering",
+      "first_seen": "2026-11-22T02:21:26Z",
+      "issue_key": "bakerloo:text:2521ee078c33635f",
+      "line_id": "bakerloo",
+      "line_name": "Bakerloo",
+      "reason": "Bakerloo Line: Service will resume later this morning. There will be no service between Queen's Park and Harrow & Wealdstone due to planned engineering work.",
+      "severity": "Service Closed",
+      "source_created": "0001-01-01T00:00:00"
+    },
     "bakerloo:text:f4ae92957eda3101": {
       "category": "other",
       "first_seen": "2026-11-21T07:29:49Z",
@@ -10,24 +20,34 @@
       "severity": "Part Closure",
       "source_created": "0001-01-01T00:00:00"
     },
-    "circle:text:bf9bb7504db7ea4d": {
+    "circle:text:a1099579f6415e8f": {
       "category": "other",
-      "first_seen": "2026-11-21T22:14:33Z",
-      "issue_key": "circle:text:bf9bb7504db7ea4d",
+      "first_seen": "2026-11-22T02:21:26Z",
+      "issue_key": "circle:text:a1099579f6415e8f",
       "line_id": "circle",
       "line_name": "Circle",
-      "reason": "Circle Line: Minor delays due to train cancellations.",
-      "severity": "Minor Delays",
+      "reason": "Circle Line: Service will resume later this morning.",
+      "severity": "Service Closed",
       "source_created": "0001-01-01T00:00:00"
     },
-    "district:text:9d054197a0c0cafc": {
+    "district:text:468f4f04f34d8411": {
       "category": "other",
-      "first_seen": "2026-11-21T21:06:20Z",
-      "issue_key": "district:text:9d054197a0c0cafc",
+      "first_seen": "2026-11-22T02:21:26Z",
+      "issue_key": "district:text:468f4f04f34d8411",
       "line_id": "district",
       "line_name": "District",
-      "reason": "District Line: No service between Kensington (Olympia) and Earl's Court due to train cancellations. SEVERE DELAYS on the rest of the line due to strike action. Tickets will be accepted on London Buses, Mildmay line, DLR, Elizabeth line, C2C and South Western services.",
-      "severity": "Part Suspended",
+      "reason": "District Line: Service will resume later this morning.",
+      "severity": "Service Closed",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "dlr:text:0b3c427c82438e93": {
+      "category": "planned engineering",
+      "first_seen": "2026-11-22T02:21:26Z",
+      "issue_key": "dlr:text:0b3c427c82438e93",
+      "line_id": "dlr",
+      "line_name": "DLR",
+      "reason": "Docklands Light Railway: Service will resume later this morning. There will be no service between Stratford International and Canning Town due to planned engineering work.",
+      "severity": "Service Closed",
       "source_created": "0001-01-01T00:00:00"
     },
     "dlr:text:fab31d71d7bb9f14": {
@@ -40,6 +60,46 @@
       "severity": "Part Closure",
       "source_created": "0001-01-01T00:00:00"
     },
+    "elizabeth:text:38b0b7c856bd31e9": {
+      "category": "planned engineering",
+      "first_seen": "2026-11-22T02:21:26Z",
+      "issue_key": "elizabeth:text:38b0b7c856bd31e9",
+      "line_id": "elizabeth",
+      "line_name": "Elizabeth line",
+      "reason": "Service will resume later this morning. There will be no service between Paddington and Ealing Broadway until 07:45 due to planned engineering work.",
+      "severity": "Service Closed",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "hammersmith-city:text:b560078b35a5fd17": {
+      "category": "other",
+      "first_seen": "2026-11-22T02:21:26Z",
+      "issue_key": "hammersmith-city:text:b560078b35a5fd17",
+      "line_id": "hammersmith-city",
+      "line_name": "Hammersmith & City",
+      "reason": "Hammersmith and City Line: Service will resume later this morning.",
+      "severity": "Service Closed",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "liberty:text:19134079f5c98ab7": {
+      "category": "other",
+      "first_seen": "2026-11-22T02:21:26Z",
+      "issue_key": "liberty:text:19134079f5c98ab7",
+      "line_id": "liberty",
+      "line_name": "Liberty",
+      "reason": "Liberty Line: Service will resume later this morning.",
+      "severity": "Service Closed",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "lioness:text:2adf42c44948caf9": {
+      "category": "planned engineering",
+      "first_seen": "2026-11-22T02:21:26Z",
+      "issue_key": "lioness:text:2adf42c44948caf9",
+      "line_id": "lioness",
+      "line_name": "Lioness",
+      "reason": "Lioness Line: No service until Monday morning due to planned engineering work.",
+      "severity": "Service Closed",
+      "source_created": "0001-01-01T00:00:00"
+    },
     "lioness:text:3e1c682bdfc1d1f1": {
       "category": "other",
       "first_seen": "2026-11-21T07:29:49Z",
@@ -50,23 +110,33 @@
       "severity": "Planned Closure",
       "source_created": "0001-01-01T00:00:00"
     },
-    "metropolitan:text:305dd461877c7bb7": {
+    "metropolitan:text:4b366f757f8f5a28": {
       "category": "other",
-      "first_seen": "2026-11-21T17:25:00Z",
-      "issue_key": "metropolitan:text:305dd461877c7bb7",
+      "first_seen": "2026-11-22T02:21:26Z",
+      "issue_key": "metropolitan:text:4b366f757f8f5a28",
       "line_id": "metropolitan",
       "line_name": "Metropolitan",
-      "reason": "Metropolitan Line: Minor delays due to train cancellations.",
-      "severity": "Minor Delays",
+      "reason": "Metropolitan Line: Service will resume later this morning.",
+      "severity": "Service Closed",
       "source_created": "0001-01-01T00:00:00"
     },
-    "mildmay:text:7aa857e2039fd815": {
-      "category": "passenger incident",
-      "first_seen": "2026-11-21T23:55:47Z",
-      "issue_key": "mildmay:text:7aa857e2039fd815",
+    "mildmay:text:a3bc61781ffd4b86": {
+      "category": "planned engineering",
+      "first_seen": "2026-11-22T02:21:26Z",
+      "issue_key": "mildmay:text:a3bc61781ffd4b86",
       "line_id": "mildmay",
       "line_name": "Mildmay",
-      "reason": "Mildmay Line: No service between Willesden Junction and Clapham Junction due to a customer incident. GOOD SERVICE on the rest of the line.",
+      "reason": "Mildmay Line: Service will resume later this morning. There will be no service between Willesden Junction and Richmond due to planned engineering work.",
+      "severity": "Service Closed",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "northern:text:b0a115f7b28bfb8b": {
+      "category": "points failure",
+      "first_seen": "2026-11-22T02:21:26Z",
+      "issue_key": "northern:text:b0a115f7b28bfb8b",
+      "line_id": "northern",
+      "line_name": "Northern",
+      "reason": "Northern Line: No service between Kennington and Stockwell due to a points failure at Kennington. Tickets being accepted on London Buses. MINOR DELAYS between Camden Town and High Barnet southbound only. GOOD SERVICE on the rest of the line.",
       "severity": "Part Suspended",
       "source_created": "0001-01-01T00:00:00"
     },
@@ -90,28 +160,120 @@
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "victoria:text:3df6e591692a802d": {
+    "suffragette:text:774000467a2b26d3": {
+      "category": "other",
+      "first_seen": "2026-11-22T02:21:26Z",
+      "issue_key": "suffragette:text:774000467a2b26d3",
+      "line_id": "suffragette",
+      "line_name": "Suffragette",
+      "reason": "Suffragette Line: Service will resume later this morning.",
+      "severity": "Service Closed",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "tram:text:ab9d7a64f14b787b": {
+      "category": "other",
+      "first_seen": "2026-11-22T02:21:26Z",
+      "issue_key": "tram:text:ab9d7a64f14b787b",
+      "line_id": "tram",
+      "line_name": "Tram",
+      "reason": "London Tramlink: Service will resume later this morning.",
+      "severity": "Service Closed",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "waterloo-city:text:1bbcac27f282d0db": {
+      "category": "other",
+      "first_seen": "2026-11-22T02:21:26Z",
+      "issue_key": "waterloo-city:text:1bbcac27f282d0db",
+      "line_id": "waterloo-city",
+      "line_name": "Waterloo & City",
+      "reason": "Waterloo and City Line: Service will resume at 06:00 on Monday.",
+      "severity": "Service Closed",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "weaver:text:62b295ba35901349": {
+      "category": "planned engineering",
+      "first_seen": "2026-11-22T02:21:26Z",
+      "issue_key": "weaver:text:62b295ba35901349",
+      "line_id": "weaver",
+      "line_name": "Weaver",
+      "reason": "Weaver Line: Service will resume later this morning. There will be no service until 10:15 due to planned engineering work.",
+      "severity": "Service Closed",
+      "source_created": "0001-01-01T00:00:00"
+    }
+  },
+  "history": [
+    {
+      "category": "other",
+      "duration_seconds": 14813,
+      "first_seen": "2026-11-21T22:14:33Z",
+      "issue_key": "circle:text:bf9bb7504db7ea4d",
+      "line_id": "circle",
+      "line_name": "Circle",
+      "reason": "Circle Line: Minor delays due to train cancellations.",
+      "resolved_at": "2026-11-22T02:21:26Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "other",
+      "duration_seconds": 18906,
+      "first_seen": "2026-11-21T21:06:20Z",
+      "issue_key": "district:text:9d054197a0c0cafc",
+      "line_id": "district",
+      "line_name": "District",
+      "reason": "District Line: No service between Kensington (Olympia) and Earl's Court due to train cancellations. SEVERE DELAYS on the rest of the line due to strike action. Tickets will be accepted on London Buses, Mildmay line, DLR, Elizabeth line, C2C and South Western services.",
+      "resolved_at": "2026-11-22T02:21:26Z",
+      "severity": "Part Suspended",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "other",
+      "duration_seconds": 32186,
+      "first_seen": "2026-11-21T17:25:00Z",
+      "issue_key": "metropolitan:text:305dd461877c7bb7",
+      "line_id": "metropolitan",
+      "line_name": "Metropolitan",
+      "reason": "Metropolitan Line: Minor delays due to train cancellations.",
+      "resolved_at": "2026-11-22T02:21:26Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "passenger incident",
+      "duration_seconds": 8739,
+      "first_seen": "2026-11-21T23:55:47Z",
+      "issue_key": "mildmay:text:7aa857e2039fd815",
+      "line_id": "mildmay",
+      "line_name": "Mildmay",
+      "reason": "Mildmay Line: No service between Willesden Junction and Clapham Junction due to a customer incident. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-11-22T02:21:26Z",
+      "severity": "Part Suspended",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
       "category": "points failure",
+      "duration_seconds": 14813,
       "first_seen": "2026-11-21T22:14:33Z",
       "issue_key": "victoria:text:3df6e591692a802d",
       "line_id": "victoria",
       "line_name": "Victoria",
       "reason": "Victoria Line: Minor delays due to an earlier points failure at Walthamstow Central.",
+      "resolved_at": "2026-11-22T02:21:26Z",
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "waterloo-city:text:02da0890c7cbf303": {
+    {
       "category": "other",
+      "duration_seconds": 67897,
       "first_seen": "2026-11-21T07:29:49Z",
       "issue_key": "waterloo-city:text:02da0890c7cbf303",
       "line_id": "waterloo-city",
       "line_name": "Waterloo & City",
       "reason": "Waterloo & City line: service operates 06:00 until 00:30, Monday to Friday only. There is no service on Saturdays, Sundays and on bank/public holidays.",
+      "resolved_at": "2026-11-22T02:21:26Z",
       "severity": "Planned Closure",
       "source_created": "0001-01-01T00:00:00"
-    }
-  },
-  "history": [
+    },
     {
       "category": "other",
       "duration_seconds": 4642,
@@ -41705,6 +41867,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-11-22T01:13:09Z",
+  "updated_at": "2026-11-22T02:21:26Z",
   "version": 1
 }
