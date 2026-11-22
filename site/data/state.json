@@ -50,6 +50,26 @@
       "severity": "Planned Closure",
       "source_created": "0001-01-01T00:00:00"
     },
+    "metropolitan:text:2df4e90708614385": {
+      "category": "other",
+      "first_seen": "2026-11-22T22:45:02Z",
+      "issue_key": "metropolitan:text:2df4e90708614385",
+      "line_id": "metropolitan",
+      "line_name": "Metropolitan",
+      "reason": "Metropolitan Line: Minor delays between Moor Park and Watford due to train cancellations. GOOD SERVICE on the rest of the line.",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "mildmay:text:02a7b2ba5f78efc3": {
+      "category": "other",
+      "first_seen": "2026-11-22T22:45:02Z",
+      "issue_key": "mildmay:text:02a7b2ba5f78efc3",
+      "line_id": "mildmay",
+      "line_name": "Mildmay",
+      "reason": "MILDMAY LINE: Sunday 22 November, from 2215, no service between Camden Road and Stratford. WINDRUSH LINE services continue to serve Highbury & Islington and Canonbury. Replacement bus service S operates between Camden Road and Stratford via Holloway Road (for Piccadilly line), Highbury & Islington (for Caledonian Road & Barnsbury), Canonbury (St Pauls Road), Dalston Junction (for Dalston Kingsland), Hackney Central, Homerton and Hackney Wick. Some westbound journeys continue beyond Camden Road if required, serving all stations to Richmond, except Brondesbury Park, but call at Queens Park instead.",
+      "severity": "Part Closure",
+      "source_created": "0001-01-01T00:00:00"
+    },
     "mildmay:text:522233767b0a52b4": {
       "category": "other",
       "first_seen": "2026-11-22T05:28:42Z",
@@ -58,16 +78,6 @@
       "line_name": "Mildmay",
       "reason": "MILDMAY LINE: Sunday 22 November, no service between Willesden Junction and Richmond. Use DISTRICT LINE services between Gunnersbury and Richmond. Replacement bus service R operates between Willesden Junction and Gunnersbury via Acton Central (The Vale) and South Acton (Acton Lane).",
       "severity": "Part Closure",
-      "source_created": "0001-01-01T00:00:00"
-    },
-    "mildmay:text:ac2dc3398438cfcd": {
-      "category": "other",
-      "first_seen": "2026-11-22T05:28:42Z",
-      "issue_key": "mildmay:text:ac2dc3398438cfcd",
-      "line_id": "mildmay",
-      "line_name": "Mildmay",
-      "reason": "MILDMAY LINE: Sunday 22 November, until 2215, a reduced service operates between Camden Road and Willesden Junction.",
-      "severity": "Reduced Service",
       "source_created": "0001-01-01T00:00:00"
     },
     "waterloo-city:text:02da0890c7cbf303": {
@@ -82,6 +92,18 @@
     }
   },
   "history": [
+    {
+      "category": "other",
+      "duration_seconds": 62180,
+      "first_seen": "2026-11-22T05:28:42Z",
+      "issue_key": "mildmay:text:ac2dc3398438cfcd",
+      "line_id": "mildmay",
+      "line_name": "Mildmay",
+      "reason": "MILDMAY LINE: Sunday 22 November, until 2215, a reduced service operates between Camden Road and Willesden Junction.",
+      "resolved_at": "2026-11-22T22:45:02Z",
+      "severity": "Reduced Service",
+      "source_created": "0001-01-01T00:00:00"
+    },
     {
       "category": "other",
       "duration_seconds": 19949,
@@ -42095,6 +42117,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-11-22T21:58:44Z",
+  "updated_at": "2026-11-22T22:45:02Z",
   "version": 1
 }
