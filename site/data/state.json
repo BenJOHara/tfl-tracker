@@ -20,14 +20,24 @@
       "severity": "Part Closure",
       "source_created": "0001-01-01T00:00:00"
     },
-    "elizabeth:text:4d5d22072ea32fd0": {
+    "elizabeth:text:47bb18e281774890": {
       "category": "other",
-      "first_seen": "2026-11-22T05:28:42Z",
-      "issue_key": "elizabeth:text:4d5d22072ea32fd0",
+      "first_seen": "2026-11-22T08:11:57Z",
+      "issue_key": "elizabeth:text:47bb18e281774890",
       "line_id": "elizabeth",
       "line_name": "Elizabeth line",
-      "reason": "ELIZABETH LINE: Sunday 22 November, until 0740, no service between Paddington and Ealing Broadway.",
-      "severity": "Part Closure",
+      "reason": "ELIZABETH LINE: Sunday 22 November, from 0740, a reduced service operates between Paddington and Heathrow Terminal 4 / Maidenhead. Two trains an hour serve West Drayton, Langley, Slough, Burnham and Maidenhead. Four trains an hour serve Heathrow Terminals 2 and 3. Eight trains an hour serve Ealing Broadway, Southall and Hayes & Harlington.",
+      "severity": "Reduced Service",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "elizabeth:text:560d87b379b6d551": {
+      "category": "planned engineering",
+      "first_seen": "2026-11-22T08:11:57Z",
+      "issue_key": "elizabeth:text:560d87b379b6d551",
+      "line_id": "elizabeth",
+      "line_name": "Elizabeth line",
+      "reason": "Minor delays between Paddington and Heathrow Terminals following a late finish of engineering work. GOOD SERVICE on the rest of the line.",
+      "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
     "lioness:text:3e1c682bdfc1d1f1": {
@@ -38,6 +48,16 @@
       "line_name": "Lioness",
       "reason": "LIONESS LINE: Saturday 21 and Sunday 22 November, no service between Euston and Watford Junction. There will also be no BAKERLOO LINE service between Queens Park and Harrow & Wealdstone. Special bus service 720 operates (please note service 718 will NOT operate). LONDON NORTH WESTERN RAILWAY trains continue to serve Euston, Harrow & Wealdstone, Bushey and Watford Junction. SOUTHERN trains serve Wembley Central, Harrow & Wealdstone and Watford Junction until 1900 Saturday only, not on Sunday.",
       "severity": "Planned Closure",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "metropolitan:text:2df4e90708614385": {
+      "category": "other",
+      "first_seen": "2026-11-22T08:11:57Z",
+      "issue_key": "metropolitan:text:2df4e90708614385",
+      "line_id": "metropolitan",
+      "line_name": "Metropolitan",
+      "reason": "Metropolitan Line: Minor delays between Moor Park and Watford due to train cancellations. GOOD SERVICE on the rest of the line.",
+      "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
     "mildmay:text:522233767b0a52b4": {
@@ -60,24 +80,14 @@
       "severity": "Reduced Service",
       "source_created": "0001-01-01T00:00:00"
     },
-    "northern:text:5f40498c81673d40": {
+    "northern:text:e543b8bb66e0049c": {
       "category": "points failure",
-      "first_seen": "2026-11-22T05:28:42Z",
-      "issue_key": "northern:text:5f40498c81673d40",
+      "first_seen": "2026-11-22T08:11:57Z",
+      "issue_key": "northern:text:e543b8bb66e0049c",
       "line_id": "northern",
       "line_name": "Northern",
-      "reason": "Northern Line: No service between Kennington and Stockwell and MINOR DELAYS between High Barnet and Camden Town due to a points failure at Kennington. Tickets being accepted on London Buses. GOOD SERVICE on the rest of the line.",
-      "severity": "Part Suspended",
-      "source_created": "0001-01-01T00:00:00"
-    },
-    "northern:text:c2c6c99d7c0ad5fe": {
-      "category": "other",
-      "first_seen": "2026-11-22T01:13:09Z",
-      "issue_key": "northern:text:c2c6c99d7c0ad5fe",
-      "line_id": "northern",
-      "line_name": "Northern",
-      "reason": "NORTHERN LINE: On the early mornings of Saturday 21 and Sunday 22 November, no Night Tube service between Kennington and Stockwell. Please use Night Bus Route N155 between Kennington, Oval and Stockwell. For travel between Central London and stations between Stockwell and Morden, use Victoria line connections via Stockwell.",
-      "severity": "Part Closure",
+      "reason": "Northern Line: Severe delays due to a points failure at Kennington. Tickets being accepted on London Buses, London Trams, Southeastern Railway and Thameslink.",
+      "severity": "Severe Delays",
       "source_created": "0001-01-01T00:00:00"
     },
     "waterloo-city:text:02da0890c7cbf303": {
@@ -102,6 +112,42 @@
     }
   },
   "history": [
+    {
+      "category": "other",
+      "duration_seconds": 9795,
+      "first_seen": "2026-11-22T05:28:42Z",
+      "issue_key": "elizabeth:text:4d5d22072ea32fd0",
+      "line_id": "elizabeth",
+      "line_name": "Elizabeth line",
+      "reason": "ELIZABETH LINE: Sunday 22 November, until 0740, no service between Paddington and Ealing Broadway.",
+      "resolved_at": "2026-11-22T08:11:57Z",
+      "severity": "Part Closure",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "points failure",
+      "duration_seconds": 9795,
+      "first_seen": "2026-11-22T05:28:42Z",
+      "issue_key": "northern:text:5f40498c81673d40",
+      "line_id": "northern",
+      "line_name": "Northern",
+      "reason": "Northern Line: No service between Kennington and Stockwell and MINOR DELAYS between High Barnet and Camden Town due to a points failure at Kennington. Tickets being accepted on London Buses. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-11-22T08:11:57Z",
+      "severity": "Part Suspended",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "other",
+      "duration_seconds": 25128,
+      "first_seen": "2026-11-22T01:13:09Z",
+      "issue_key": "northern:text:c2c6c99d7c0ad5fe",
+      "line_id": "northern",
+      "line_name": "Northern",
+      "reason": "NORTHERN LINE: On the early mornings of Saturday 21 and Sunday 22 November, no Night Tube service between Kennington and Stockwell. Please use Night Bus Route N155 between Kennington, Oval and Stockwell. For travel between Central London and stations between Stockwell and Morden, use Victoria line connections via Stockwell.",
+      "resolved_at": "2026-11-22T08:11:57Z",
+      "severity": "Part Closure",
+      "source_created": "0001-01-01T00:00:00"
+    },
     {
       "category": "planned engineering",
       "duration_seconds": 11236,
@@ -41959,6 +42005,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-11-22T05:28:42Z",
+  "updated_at": "2026-11-22T08:11:57Z",
   "version": 1
 }
