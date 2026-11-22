@@ -10,16 +10,6 @@
       "severity": "Part Closure",
       "source_created": "0001-01-01T00:00:00"
     },
-    "central:text:6d0af7c9d44f714a": {
-      "category": "other",
-      "first_seen": "2026-11-21T23:55:47Z",
-      "issue_key": "central:text:6d0af7c9d44f714a",
-      "line_id": "central",
-      "line_name": "Central",
-      "reason": "Central Line: Minor delays due to train cancellations.",
-      "severity": "Minor Delays",
-      "source_created": "0001-01-01T00:00:00"
-    },
     "circle:text:bf9bb7504db7ea4d": {
       "category": "other",
       "first_seen": "2026-11-21T22:14:33Z",
@@ -80,14 +70,14 @@
       "severity": "Part Suspended",
       "source_created": "0001-01-01T00:00:00"
     },
-    "mildmay:text:7db298bf8cc5e508": {
+    "northern:text:c2c6c99d7c0ad5fe": {
       "category": "other",
-      "first_seen": "2026-11-21T21:06:20Z",
-      "issue_key": "mildmay:text:7db298bf8cc5e508",
-      "line_id": "mildmay",
-      "line_name": "Mildmay",
-      "reason": "MILDMAY LINE: Saturday 21 November, the 2014 and 2244 trains from Stratford to Richmond will not run. The 2131 train from Richmond to Stratford will not run. The 2259 train from Stratford to Richmond will terminate at Willesden Junction at 2342",
-      "severity": "Reduced Service",
+      "first_seen": "2026-11-22T01:13:09Z",
+      "issue_key": "northern:text:c2c6c99d7c0ad5fe",
+      "line_id": "northern",
+      "line_name": "Northern",
+      "reason": "NORTHERN LINE: On the early mornings of Saturday 21 and Sunday 22 November, no Night Tube service between Kennington and Stockwell. Please use Night Bus Route N155 between Kennington, Oval and Stockwell. For travel between Central London and stations between Stockwell and Morden, use Victoria line connections via Stockwell.",
+      "severity": "Part Closure",
       "source_created": "0001-01-01T00:00:00"
     },
     "piccadilly:text:3aaa373341c18d2e": {
@@ -122,6 +112,30 @@
     }
   },
   "history": [
+    {
+      "category": "other",
+      "duration_seconds": 4642,
+      "first_seen": "2026-11-21T23:55:47Z",
+      "issue_key": "central:text:6d0af7c9d44f714a",
+      "line_id": "central",
+      "line_name": "Central",
+      "reason": "Central Line: Minor delays due to train cancellations.",
+      "resolved_at": "2026-11-22T01:13:09Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "other",
+      "duration_seconds": 14809,
+      "first_seen": "2026-11-21T21:06:20Z",
+      "issue_key": "mildmay:text:7db298bf8cc5e508",
+      "line_id": "mildmay",
+      "line_name": "Mildmay",
+      "reason": "MILDMAY LINE: Saturday 21 November, the 2014 and 2244 trains from Stratford to Richmond will not run. The 2131 train from Richmond to Stratford will not run. The 2259 train from Stratford to Richmond will terminate at Willesden Junction at 2342",
+      "resolved_at": "2026-11-22T01:13:09Z",
+      "severity": "Reduced Service",
+      "source_created": "0001-01-01T00:00:00"
+    },
     {
       "category": "other",
       "duration_seconds": 15419,
@@ -41691,6 +41705,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-11-21T23:55:47Z",
+  "updated_at": "2026-11-22T01:13:09Z",
   "version": 1
 }
