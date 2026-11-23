@@ -10,48 +10,66 @@
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "district:text:9b6082ab72ca9e93": {
-      "category": "passenger incident",
-      "first_seen": "2026-11-23T21:25:42Z",
-      "issue_key": "district:text:9b6082ab72ca9e93",
-      "line_id": "district",
-      "line_name": "District",
-      "reason": "District Line: Minor delays between Wimbledon and Earls Court due to a customer incident at Parsons Green. GOOD SERVICE on the rest of the line.",
-      "severity": "Minor Delays",
-      "source_created": "0001-01-01T00:00:00"
-    },
-    "elizabeth:text:e67e29460a2ed6b8": {
-      "category": "other",
-      "first_seen": "2026-11-23T21:25:42Z",
-      "issue_key": "elizabeth:text:e67e29460a2ed6b8",
-      "line_id": "elizabeth",
-      "line_name": "Elizabeth line",
-      "reason": "Minor delays between Paddington and Heathrow Terminals/Reading due to an earlier safety inspection of the track at Ealing Broadway. GOOD SERVICE on the rest of the line.",
-      "severity": "Minor Delays",
-      "source_created": "0001-01-01T00:00:00"
-    },
-    "metropolitan:text:a3d04cd760ea6a94": {
-      "category": "other",
-      "first_seen": "2026-11-23T21:25:42Z",
-      "issue_key": "metropolitan:text:a3d04cd760ea6a94",
-      "line_id": "metropolitan",
-      "line_name": "Metropolitan",
-      "reason": "Metropolitan Line: Minor delays between Moor Park and Chesham due to train cancellations. After the 21:01 departure from Chesham, the next southbound train will be at 21:56. GOOD SERVICE on the rest of the line.",
-      "severity": "Minor Delays",
-      "source_created": "0001-01-01T00:00:00"
-    },
-    "northern:text:aa75183971e91fe8": {
+    "northern:text:e288e4749836f26f": {
       "category": "points failure",
-      "first_seen": "2026-11-23T21:25:42Z",
-      "issue_key": "northern:text:aa75183971e91fe8",
+      "first_seen": "2026-11-23T22:44:37Z",
+      "issue_key": "northern:text:e288e4749836f26f",
       "line_id": "northern",
       "line_name": "Northern",
-      "reason": "Northern Line: Minor delays between Camden Town and Kennington via Charing Cross due to train cancellations and a points failure at Kennington. GOOD SERVICE on the rest of the line.",
+      "reason": "Northern Line: Minor delays between Camden Town and Kennington via Charing Cross while we fix a points failure at Kennington. GOOD SERVICE on the rest of the line.",
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     }
   },
   "history": [
+    {
+      "category": "passenger incident",
+      "duration_seconds": 4735,
+      "first_seen": "2026-11-23T21:25:42Z",
+      "issue_key": "district:text:9b6082ab72ca9e93",
+      "line_id": "district",
+      "line_name": "District",
+      "reason": "District Line: Minor delays between Wimbledon and Earls Court due to a customer incident at Parsons Green. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-11-23T22:44:37Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "other",
+      "duration_seconds": 4735,
+      "first_seen": "2026-11-23T21:25:42Z",
+      "issue_key": "elizabeth:text:e67e29460a2ed6b8",
+      "line_id": "elizabeth",
+      "line_name": "Elizabeth line",
+      "reason": "Minor delays between Paddington and Heathrow Terminals/Reading due to an earlier safety inspection of the track at Ealing Broadway. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-11-23T22:44:37Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "other",
+      "duration_seconds": 4735,
+      "first_seen": "2026-11-23T21:25:42Z",
+      "issue_key": "metropolitan:text:a3d04cd760ea6a94",
+      "line_id": "metropolitan",
+      "line_name": "Metropolitan",
+      "reason": "Metropolitan Line: Minor delays between Moor Park and Chesham due to train cancellations. After the 21:01 departure from Chesham, the next southbound train will be at 21:56. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-11-23T22:44:37Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "points failure",
+      "duration_seconds": 4735,
+      "first_seen": "2026-11-23T21:25:42Z",
+      "issue_key": "northern:text:aa75183971e91fe8",
+      "line_id": "northern",
+      "line_name": "Northern",
+      "reason": "Northern Line: Minor delays between Camden Town and Kennington via Charing Cross due to train cancellations and a points failure at Kennington. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-11-23T22:44:37Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
     {
       "category": "other",
       "duration_seconds": 29470,
@@ -42521,6 +42539,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-11-23T21:25:42Z",
+  "updated_at": "2026-11-23T22:44:37Z",
   "version": 1
 }
