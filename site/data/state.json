@@ -10,16 +10,6 @@
       "severity": "Service Closed",
       "source_created": "0001-01-01T00:00:00"
     },
-    "bakerloo:text:f4ae92957eda3101": {
-      "category": "other",
-      "first_seen": "2026-11-21T07:29:49Z",
-      "issue_key": "bakerloo:text:f4ae92957eda3101",
-      "line_id": "bakerloo",
-      "line_name": "Bakerloo",
-      "reason": "BAKERLOO LINE: Saturday 21 and Sunday 22 November, no service between Queens Park and Harrow & Wealdstone. Please note that special bus service 718 will NOT operate. There will also be no LIONESS LINE service between Euston and Watford Junction. LONDON NORTH WESTERN RAILWAY trains continue to stop at Harrow & Wealdstone. SOUTHERN trains stop at Wembley Central and Harrow & Wealdstone until 1900 Saturday only, not on Sunday.",
-      "severity": "Part Closure",
-      "source_created": "0001-01-01T00:00:00"
-    },
     "central:text:8dadc0a1b9047d57": {
       "category": "other",
       "first_seen": "2026-11-23T01:03:18Z",
@@ -50,16 +40,6 @@
       "severity": "Service Closed",
       "source_created": "0001-01-01T00:00:00"
     },
-    "dlr:text:fab31d71d7bb9f14": {
-      "category": "other",
-      "first_seen": "2026-11-21T07:29:49Z",
-      "issue_key": "dlr:text:fab31d71d7bb9f14",
-      "line_id": "dlr",
-      "line_name": "DLR",
-      "reason": "DOCKLANDS LIGHT RAILWAY: Saturday 21 and Sunday 22 November, no service between Canning Town and Stratford International. Please use JUBILEE LINE and local London Buses services.",
-      "severity": "Part Closure",
-      "source_created": "0001-01-01T00:00:00"
-    },
     "dlr:text:fb244db083a3f0ff": {
       "category": "other",
       "first_seen": "2026-11-23T01:03:18Z",
@@ -68,16 +48,6 @@
       "line_name": "DLR",
       "reason": "Docklands Light Railway: Service will resume later this morning.",
       "severity": "Service Closed",
-      "source_created": "0001-01-01T00:00:00"
-    },
-    "elizabeth:text:47bb18e281774890": {
-      "category": "other",
-      "first_seen": "2026-11-22T08:11:57Z",
-      "issue_key": "elizabeth:text:47bb18e281774890",
-      "line_id": "elizabeth",
-      "line_name": "Elizabeth line",
-      "reason": "ELIZABETH LINE: Sunday 22 November, from 0740, a reduced service operates between Paddington and Heathrow Terminal 4 / Maidenhead. Two trains an hour serve West Drayton, Langley, Slough, Burnham and Maidenhead. Four trains an hour serve Heathrow Terminals 2 and 3. Eight trains an hour serve Ealing Broadway, Southall and Hayes & Harlington.",
-      "severity": "Reduced Service",
       "source_created": "0001-01-01T00:00:00"
     },
     "elizabeth:text:85644759b2256fee": {
@@ -120,16 +90,6 @@
       "severity": "Service Closed",
       "source_created": "0001-01-01T00:00:00"
     },
-    "lioness:text:3e1c682bdfc1d1f1": {
-      "category": "other",
-      "first_seen": "2026-11-21T07:29:49Z",
-      "issue_key": "lioness:text:3e1c682bdfc1d1f1",
-      "line_id": "lioness",
-      "line_name": "Lioness",
-      "reason": "LIONESS LINE: Saturday 21 and Sunday 22 November, no service between Euston and Watford Junction. There will also be no BAKERLOO LINE service between Queens Park and Harrow & Wealdstone. Special bus service 720 operates (please note service 718 will NOT operate). LONDON NORTH WESTERN RAILWAY trains continue to serve Euston, Harrow & Wealdstone, Bushey and Watford Junction. SOUTHERN trains serve Wembley Central, Harrow & Wealdstone and Watford Junction until 1900 Saturday only, not on Sunday.",
-      "severity": "Planned Closure",
-      "source_created": "0001-01-01T00:00:00"
-    },
     "lioness:text:edb0d527df87ed16": {
       "category": "other",
       "first_seen": "2026-11-23T01:03:18Z",
@@ -150,16 +110,6 @@
       "severity": "Service Closed",
       "source_created": "0001-01-01T00:00:00"
     },
-    "mildmay:text:02a7b2ba5f78efc3": {
-      "category": "other",
-      "first_seen": "2026-11-22T22:45:02Z",
-      "issue_key": "mildmay:text:02a7b2ba5f78efc3",
-      "line_id": "mildmay",
-      "line_name": "Mildmay",
-      "reason": "MILDMAY LINE: Sunday 22 November, from 2215, no service between Camden Road and Stratford. WINDRUSH LINE services continue to serve Highbury & Islington and Canonbury. Replacement bus service S operates between Camden Road and Stratford via Holloway Road (for Piccadilly line), Highbury & Islington (for Caledonian Road & Barnsbury), Canonbury (St Pauls Road), Dalston Junction (for Dalston Kingsland), Hackney Central, Homerton and Hackney Wick. Some westbound journeys continue beyond Camden Road if required, serving all stations to Richmond, except Brondesbury Park, but call at Queens Park instead.",
-      "severity": "Part Closure",
-      "source_created": "0001-01-01T00:00:00"
-    },
     "mildmay:text:43f3ca710bb3792b": {
       "category": "other",
       "first_seen": "2026-11-23T01:03:18Z",
@@ -168,16 +118,6 @@
       "line_name": "Mildmay",
       "reason": "Mildmay Line: Service will resume later this morning.",
       "severity": "Service Closed",
-      "source_created": "0001-01-01T00:00:00"
-    },
-    "mildmay:text:522233767b0a52b4": {
-      "category": "other",
-      "first_seen": "2026-11-22T05:28:42Z",
-      "issue_key": "mildmay:text:522233767b0a52b4",
-      "line_id": "mildmay",
-      "line_name": "Mildmay",
-      "reason": "MILDMAY LINE: Sunday 22 November, no service between Willesden Junction and Richmond. Use DISTRICT LINE services between Gunnersbury and Richmond. Replacement bus service R operates between Willesden Junction and Gunnersbury via Acton Central (The Vale) and South Acton (Acton Lane).",
-      "severity": "Part Closure",
       "source_created": "0001-01-01T00:00:00"
     },
     "northern:text:82bd4c50fdf4647c": {
@@ -262,6 +202,78 @@
     }
   },
   "history": [
+    {
+      "category": "other",
+      "duration_seconds": 155134,
+      "first_seen": "2026-11-21T07:29:49Z",
+      "issue_key": "bakerloo:text:f4ae92957eda3101",
+      "line_id": "bakerloo",
+      "line_name": "Bakerloo",
+      "reason": "BAKERLOO LINE: Saturday 21 and Sunday 22 November, no service between Queens Park and Harrow & Wealdstone. Please note that special bus service 718 will NOT operate. There will also be no LIONESS LINE service between Euston and Watford Junction. LONDON NORTH WESTERN RAILWAY trains continue to stop at Harrow & Wealdstone. SOUTHERN trains stop at Wembley Central and Harrow & Wealdstone until 1900 Saturday only, not on Sunday.",
+      "resolved_at": "2026-11-23T02:35:23Z",
+      "severity": "Part Closure",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "other",
+      "duration_seconds": 155134,
+      "first_seen": "2026-11-21T07:29:49Z",
+      "issue_key": "dlr:text:fab31d71d7bb9f14",
+      "line_id": "dlr",
+      "line_name": "DLR",
+      "reason": "DOCKLANDS LIGHT RAILWAY: Saturday 21 and Sunday 22 November, no service between Canning Town and Stratford International. Please use JUBILEE LINE and local London Buses services.",
+      "resolved_at": "2026-11-23T02:35:23Z",
+      "severity": "Part Closure",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "other",
+      "duration_seconds": 66206,
+      "first_seen": "2026-11-22T08:11:57Z",
+      "issue_key": "elizabeth:text:47bb18e281774890",
+      "line_id": "elizabeth",
+      "line_name": "Elizabeth line",
+      "reason": "ELIZABETH LINE: Sunday 22 November, from 0740, a reduced service operates between Paddington and Heathrow Terminal 4 / Maidenhead. Two trains an hour serve West Drayton, Langley, Slough, Burnham and Maidenhead. Four trains an hour serve Heathrow Terminals 2 and 3. Eight trains an hour serve Ealing Broadway, Southall and Hayes & Harlington.",
+      "resolved_at": "2026-11-23T02:35:23Z",
+      "severity": "Reduced Service",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "other",
+      "duration_seconds": 155134,
+      "first_seen": "2026-11-21T07:29:49Z",
+      "issue_key": "lioness:text:3e1c682bdfc1d1f1",
+      "line_id": "lioness",
+      "line_name": "Lioness",
+      "reason": "LIONESS LINE: Saturday 21 and Sunday 22 November, no service between Euston and Watford Junction. There will also be no BAKERLOO LINE service between Queens Park and Harrow & Wealdstone. Special bus service 720 operates (please note service 718 will NOT operate). LONDON NORTH WESTERN RAILWAY trains continue to serve Euston, Harrow & Wealdstone, Bushey and Watford Junction. SOUTHERN trains serve Wembley Central, Harrow & Wealdstone and Watford Junction until 1900 Saturday only, not on Sunday.",
+      "resolved_at": "2026-11-23T02:35:23Z",
+      "severity": "Planned Closure",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "other",
+      "duration_seconds": 13821,
+      "first_seen": "2026-11-22T22:45:02Z",
+      "issue_key": "mildmay:text:02a7b2ba5f78efc3",
+      "line_id": "mildmay",
+      "line_name": "Mildmay",
+      "reason": "MILDMAY LINE: Sunday 22 November, from 2215, no service between Camden Road and Stratford. WINDRUSH LINE services continue to serve Highbury & Islington and Canonbury. Replacement bus service S operates between Camden Road and Stratford via Holloway Road (for Piccadilly line), Highbury & Islington (for Caledonian Road & Barnsbury), Canonbury (St Pauls Road), Dalston Junction (for Dalston Kingsland), Hackney Central, Homerton and Hackney Wick. Some westbound journeys continue beyond Camden Road if required, serving all stations to Richmond, except Brondesbury Park, but call at Queens Park instead.",
+      "resolved_at": "2026-11-23T02:35:23Z",
+      "severity": "Part Closure",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "other",
+      "duration_seconds": 76001,
+      "first_seen": "2026-11-22T05:28:42Z",
+      "issue_key": "mildmay:text:522233767b0a52b4",
+      "line_id": "mildmay",
+      "line_name": "Mildmay",
+      "reason": "MILDMAY LINE: Sunday 22 November, no service between Willesden Junction and Richmond. Use DISTRICT LINE services between Gunnersbury and Richmond. Replacement bus service R operates between Willesden Junction and Gunnersbury via Acton Central (The Vale) and South Acton (Acton Lane).",
+      "resolved_at": "2026-11-23T02:35:23Z",
+      "severity": "Part Closure",
+      "source_created": "0001-01-01T00:00:00"
+    },
     {
       "category": "other",
       "duration_seconds": 31023,
@@ -42323,6 +42335,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-11-23T01:03:18Z",
+  "updated_at": "2026-11-23T02:35:23Z",
   "version": 1
 }
