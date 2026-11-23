@@ -1,27 +1,61 @@
 {
   "active": {
-    "district:text:9c09d477e2a85811": {
+    "metropolitan:text:ea864fa788214a25": {
       "category": "other",
+      "first_seen": "2026-11-23T13:14:32Z",
+      "issue_key": "metropolitan:text:ea864fa788214a25",
+      "line_id": "metropolitan",
+      "line_name": "Metropolitan",
+      "reason": "Metropolitan Line: Minor delays between Moor Park and Chesham due to train cancellations. The next southbound train from Chesham will be at 13:26. GOOD SERVICE on the rest of the line.",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "mildmay:text:d92ca897c4b923cb": {
+      "category": "points failure",
+      "first_seen": "2026-11-23T13:14:32Z",
+      "issue_key": "mildmay:text:d92ca897c4b923cb",
+      "line_id": "mildmay",
+      "line_name": "Mildmay",
+      "reason": "Mildmay Line: Minor delays while we fix a points failure at Shepherd's Bush.",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "suffragette:text:9cd9917f59237d1f": {
+      "category": "points failure",
+      "first_seen": "2026-11-23T13:14:32Z",
+      "issue_key": "suffragette:text:9cd9917f59237d1f",
+      "line_id": "suffragette",
+      "line_name": "Suffragette",
+      "reason": "Suffragette Line: No service between Gospel Oak and Upper Holloway and MINOR DELAYS on the rest of the line while we fix a points failure at Gospel Oak. London Underground are accepting tickets via any reasonable route.",
+      "severity": "Part Suspended",
+      "source_created": "0001-01-01T00:00:00"
+    }
+  },
+  "history": [
+    {
+      "category": "other",
+      "duration_seconds": 14926,
       "first_seen": "2026-11-23T09:05:46Z",
       "issue_key": "district:text:9c09d477e2a85811",
       "line_id": "district",
       "line_name": "District",
       "reason": "District Line: Minor delays due to train cancellations.",
+      "resolved_at": "2026-11-23T13:14:32Z",
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "metropolitan:text:c0c6771ae6db047b": {
+    {
       "category": "points failure",
+      "duration_seconds": 7170,
       "first_seen": "2026-11-23T11:15:02Z",
       "issue_key": "metropolitan:text:c0c6771ae6db047b",
       "line_id": "metropolitan",
       "line_name": "Metropolitan",
       "reason": "Metropolitan Line: Severe delays between Harrow-on-the-Hill and Amersham / Chesham and Watford and MINOR DELAYS on the rest of the line due to an earlier points failure at Moor Park. Tickets are being accepted on London Buses, Lioness line and London Northwestern Railway.",
+      "resolved_at": "2026-11-23T13:14:32Z",
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
-    }
-  },
-  "history": [
+    },
     {
       "category": "person on track",
       "duration_seconds": 7756,
@@ -42431,6 +42465,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-11-23T11:15:02Z",
+  "updated_at": "2026-11-23T13:14:32Z",
   "version": 1
 }
