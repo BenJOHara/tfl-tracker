@@ -1,13 +1,13 @@
 {
   "active": {
-    "district:text:a94c667a3c4287da": {
+    "district:text:aad91497cba276db": {
       "category": "other",
-      "first_seen": "2026-11-24T05:26:30Z",
-      "issue_key": "district:text:a94c667a3c4287da",
+      "first_seen": "2026-11-24T06:30:25Z",
+      "issue_key": "district:text:aad91497cba276db",
       "line_id": "district",
       "line_name": "District",
-      "reason": "District Line: No service between Turnham Green and Ealing Broadway Westbound only and between Ealing Broadway and Acton Town Eastbound only while we deal with a signalling problem. GOOD SERVICE on the rest of the line. Tickets are being accepted on London Buses.",
-      "severity": "Part Suspended",
+      "reason": "District Line: Minor delays between Earl's Court and Wimbledon due to train cancellations. GOOD SERVICE on the rest of the line.",
+      "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
     "northern:text:e288e4749836f26f": {
@@ -19,19 +19,33 @@
       "reason": "Northern Line: Minor delays between Camden Town and Kennington via Charing Cross while we fix a points failure at Kennington. GOOD SERVICE on the rest of the line.",
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
-    },
-    "waterloo-city:text:0faebd0ea99ebd1b": {
+    }
+  },
+  "history": [
+    {
       "category": "other",
+      "duration_seconds": 3835,
+      "first_seen": "2026-11-24T05:26:30Z",
+      "issue_key": "district:text:a94c667a3c4287da",
+      "line_id": "district",
+      "line_name": "District",
+      "reason": "District Line: No service between Turnham Green and Ealing Broadway Westbound only and between Ealing Broadway and Acton Town Eastbound only while we deal with a signalling problem. GOOD SERVICE on the rest of the line. Tickets are being accepted on London Buses.",
+      "resolved_at": "2026-11-24T06:30:25Z",
+      "severity": "Part Suspended",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "other",
+      "duration_seconds": 19738,
       "first_seen": "2026-11-24T01:01:27Z",
       "issue_key": "waterloo-city:text:0faebd0ea99ebd1b",
       "line_id": "waterloo-city",
       "line_name": "Waterloo & City",
       "reason": "Waterloo and City Line: Service will resume at 06:00.",
+      "resolved_at": "2026-11-24T06:30:25Z",
       "severity": "Service Closed",
       "source_created": "0001-01-01T00:00:00"
-    }
-  },
-  "history": [
+    },
     {
       "category": "other",
       "duration_seconds": 28848,
@@ -42609,6 +42623,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-11-24T05:26:30Z",
+  "updated_at": "2026-11-24T06:30:25Z",
   "version": 1
 }
