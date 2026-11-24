@@ -1,12 +1,22 @@
 {
   "active": {
-    "central:text:591065c40f037bbe": {
+    "bakerloo:text:4d17525df69e48ba": {
+      "category": "signal failure",
+      "first_seen": "2026-11-24T20:53:35Z",
+      "issue_key": "bakerloo:text:4d17525df69e48ba",
+      "line_id": "bakerloo",
+      "line_name": "Bakerloo",
+      "reason": "Bakerloo Line: Minor delays between Queen's Park and Harrow & Wealdstone while we fix a signal failure at Kensal Green. GOOD SERVICE on the rest of the line.",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "central:text:6d0af7c9d44f714a": {
       "category": "other",
-      "first_seen": "2026-11-24T18:14:01Z",
-      "issue_key": "central:text:591065c40f037bbe",
+      "first_seen": "2026-11-24T20:53:35Z",
+      "issue_key": "central:text:6d0af7c9d44f714a",
       "line_id": "central",
       "line_name": "Central",
-      "reason": "Central Line: Severe delays between North Acton and Ealing Broadway/West Ruislip and between Leytonstone and Epping/Hainault via Newbury Park due to train cancellations. Tickets are being accepted on London Buses, Liberty Line, Elizabeth Line, Chiltern Railway, Great Western Railway and Greater Anglia services via any reasonable route. MINOR DELAYS on the rest of the line.",
+      "reason": "Central Line: Minor delays due to train cancellations.",
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
@@ -22,6 +32,18 @@
     }
   },
   "history": [
+    {
+      "category": "other",
+      "duration_seconds": 9574,
+      "first_seen": "2026-11-24T18:14:01Z",
+      "issue_key": "central:text:591065c40f037bbe",
+      "line_id": "central",
+      "line_name": "Central",
+      "reason": "Central Line: Severe delays between North Acton and Ealing Broadway/West Ruislip and between Leytonstone and Epping/Hainault via Newbury Park due to train cancellations. Tickets are being accepted on London Buses, Liberty Line, Elizabeth Line, Chiltern Railway, Great Western Railway and Greater Anglia services via any reasonable route. MINOR DELAYS on the rest of the line.",
+      "resolved_at": "2026-11-24T20:53:35Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
     {
       "category": "other",
       "duration_seconds": 7497,
@@ -42707,6 +42729,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-11-24T18:14:01Z",
+  "updated_at": "2026-11-24T20:53:35Z",
   "version": 1
 }
