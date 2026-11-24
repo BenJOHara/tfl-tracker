@@ -1,43 +1,13 @@
 {
   "active": {
-    "central:text:6d0af7c9d44f714a": {
+    "district:text:a94c667a3c4287da": {
       "category": "other",
-      "first_seen": "2026-11-23T21:25:42Z",
-      "issue_key": "central:text:6d0af7c9d44f714a",
-      "line_id": "central",
-      "line_name": "Central",
-      "reason": "Central Line: Minor delays due to train cancellations.",
-      "severity": "Minor Delays",
-      "source_created": "0001-01-01T00:00:00"
-    },
-    "circle:text:7605ecebc53de644": {
-      "category": "train fault",
-      "first_seen": "2026-11-24T01:01:27Z",
-      "issue_key": "circle:text:7605ecebc53de644",
-      "line_id": "circle",
-      "line_name": "Circle",
-      "reason": "Circle Line: Severe delays due to an earlier faulty train at King's Cross. Tickets are being accepted on London Buses.",
-      "severity": "Severe Delays",
-      "source_created": "0001-01-01T00:00:00"
-    },
-    "hammersmith-city:text:5c71754fd642c91d": {
-      "category": "train fault",
-      "first_seen": "2026-11-24T01:01:27Z",
-      "issue_key": "hammersmith-city:text:5c71754fd642c91d",
-      "line_id": "hammersmith-city",
-      "line_name": "Hammersmith & City",
-      "reason": "Hammersmith and City Line: Severe delays due to an earlier faulty train at King's Cross. Tickets are being accepted on London Buses.",
-      "severity": "Severe Delays",
-      "source_created": "0001-01-01T00:00:00"
-    },
-    "metropolitan:text:ae7d6e359c2ad8dc": {
-      "category": "train fault",
-      "first_seen": "2026-11-24T01:01:27Z",
-      "issue_key": "metropolitan:text:ae7d6e359c2ad8dc",
-      "line_id": "metropolitan",
-      "line_name": "Metropolitan",
-      "reason": "Metropolitan Line: Severe delays due to an earlier faulty train at King's Cross. Tickets are being accepted on London Buses.",
-      "severity": "Severe Delays",
+      "first_seen": "2026-11-24T05:26:30Z",
+      "issue_key": "district:text:a94c667a3c4287da",
+      "line_id": "district",
+      "line_name": "District",
+      "reason": "District Line: No service between Turnham Green and Ealing Broadway Westbound only and between Ealing Broadway and Acton Town Eastbound only while we deal with a signalling problem. GOOD SERVICE on the rest of the line. Tickets are being accepted on London Buses.",
+      "severity": "Part Suspended",
       "source_created": "0001-01-01T00:00:00"
     },
     "northern:text:e288e4749836f26f": {
@@ -59,19 +29,69 @@
       "reason": "Waterloo and City Line: Service will resume at 06:00.",
       "severity": "Service Closed",
       "source_created": "0001-01-01T00:00:00"
-    },
-    "weaver:text:65f89b51bb09b630": {
+    }
+  },
+  "history": [
+    {
       "category": "other",
+      "duration_seconds": 28848,
+      "first_seen": "2026-11-23T21:25:42Z",
+      "issue_key": "central:text:6d0af7c9d44f714a",
+      "line_id": "central",
+      "line_name": "Central",
+      "reason": "Central Line: Minor delays due to train cancellations.",
+      "resolved_at": "2026-11-24T05:26:30Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "train fault",
+      "duration_seconds": 15903,
+      "first_seen": "2026-11-24T01:01:27Z",
+      "issue_key": "circle:text:7605ecebc53de644",
+      "line_id": "circle",
+      "line_name": "Circle",
+      "reason": "Circle Line: Severe delays due to an earlier faulty train at King's Cross. Tickets are being accepted on London Buses.",
+      "resolved_at": "2026-11-24T05:26:30Z",
+      "severity": "Severe Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "train fault",
+      "duration_seconds": 15903,
+      "first_seen": "2026-11-24T01:01:27Z",
+      "issue_key": "hammersmith-city:text:5c71754fd642c91d",
+      "line_id": "hammersmith-city",
+      "line_name": "Hammersmith & City",
+      "reason": "Hammersmith and City Line: Severe delays due to an earlier faulty train at King's Cross. Tickets are being accepted on London Buses.",
+      "resolved_at": "2026-11-24T05:26:30Z",
+      "severity": "Severe Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "train fault",
+      "duration_seconds": 15903,
+      "first_seen": "2026-11-24T01:01:27Z",
+      "issue_key": "metropolitan:text:ae7d6e359c2ad8dc",
+      "line_id": "metropolitan",
+      "line_name": "Metropolitan",
+      "reason": "Metropolitan Line: Severe delays due to an earlier faulty train at King's Cross. Tickets are being accepted on London Buses.",
+      "resolved_at": "2026-11-24T05:26:30Z",
+      "severity": "Severe Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "other",
+      "duration_seconds": 15903,
       "first_seen": "2026-11-24T01:01:27Z",
       "issue_key": "weaver:text:65f89b51bb09b630",
       "line_id": "weaver",
       "line_name": "Weaver",
       "reason": "WEAVER LINE: Monday 23, Tuesday 24, Wednesday 25 and Thursday 26 November, after 2245 each evening, no service between Hackney Downs and Cheshunt / Enfield Town. Use London Underground connections between Central London and Seven Sisters, and for Rectory Road and Stoke Newington, use Clapton station. Last trains operate at 2243 from Liverpool Street to Cheshunt (except on Wednesday when it is at 2213), 2250 from Enfield Town to Liverpool Street, 2258 from Liverpool Street to Enfield Town and 2259 from Cheshunt to Liverpool Street. Replacement buses operate.",
+      "resolved_at": "2026-11-24T05:26:30Z",
       "severity": "Part Closure",
       "source_created": "0001-01-01T00:00:00"
-    }
-  },
-  "history": [
+    },
     {
       "category": "passenger incident",
       "duration_seconds": 4735,
@@ -42589,6 +42609,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-11-24T01:01:27Z",
+  "updated_at": "2026-11-24T05:26:30Z",
   "version": 1
 }
