@@ -1,27 +1,51 @@
 {
   "active": {
-    "district:text:aad91497cba276db": {
-      "category": "other",
-      "first_seen": "2026-11-24T06:30:25Z",
-      "issue_key": "district:text:aad91497cba276db",
-      "line_id": "district",
-      "line_name": "District",
-      "reason": "District Line: Minor delays between Earl's Court and Wimbledon due to train cancellations. GOOD SERVICE on the rest of the line.",
+    "central:text:ad334ed48ae6f87f": {
+      "category": "train fault",
+      "first_seen": "2026-11-24T10:50:35Z",
+      "issue_key": "central:text:ad334ed48ae6f87f",
+      "line_id": "central",
+      "line_name": "Central",
+      "reason": "Central Line: Minor delays due to an earlier faulty train at Lancaster Gate and train cancellations.",
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "northern:text:e288e4749836f26f": {
+    "northern:text:c1499805342e5fdc": {
       "category": "points failure",
-      "first_seen": "2026-11-23T22:44:37Z",
-      "issue_key": "northern:text:e288e4749836f26f",
+      "first_seen": "2026-11-24T10:50:35Z",
+      "issue_key": "northern:text:c1499805342e5fdc",
       "line_id": "northern",
       "line_name": "Northern",
-      "reason": "Northern Line: Minor delays between Camden Town and Kennington via Charing Cross while we fix a points failure at Kennington. GOOD SERVICE on the rest of the line.",
+      "reason": "Northern Line: Minor delays while we fix a points failure at Kennington and train cancellations.",
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     }
   },
   "history": [
+    {
+      "category": "other",
+      "duration_seconds": 15610,
+      "first_seen": "2026-11-24T06:30:25Z",
+      "issue_key": "district:text:aad91497cba276db",
+      "line_id": "district",
+      "line_name": "District",
+      "reason": "District Line: Minor delays between Earl's Court and Wimbledon due to train cancellations. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-11-24T10:50:35Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "points failure",
+      "duration_seconds": 43558,
+      "first_seen": "2026-11-23T22:44:37Z",
+      "issue_key": "northern:text:e288e4749836f26f",
+      "line_id": "northern",
+      "line_name": "Northern",
+      "reason": "Northern Line: Minor delays between Camden Town and Kennington via Charing Cross while we fix a points failure at Kennington. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-11-24T10:50:35Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
     {
       "category": "other",
       "duration_seconds": 3835,
@@ -42623,6 +42647,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-11-24T06:30:25Z",
+  "updated_at": "2026-11-24T10:50:35Z",
   "version": 1
 }
