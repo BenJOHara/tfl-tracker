@@ -1,22 +1,12 @@
 {
   "active": {
-    "elizabeth:text:46cddb63f9ddb067": {
-      "category": "train fault",
-      "first_seen": "2026-11-25T20:42:28Z",
-      "issue_key": "elizabeth:text:46cddb63f9ddb067",
-      "line_id": "elizabeth",
-      "line_name": "Elizabeth line",
-      "reason": "Minor delays between Whitechapel and Shenfield due to an earlier faulty train at Paddington. GOOD SERVICE on the rest of the line.",
-      "severity": "Minor Delays",
-      "source_created": "0001-01-01T00:00:00"
-    },
-    "jubilee:text:53a7e7518eee18d2": {
-      "category": "weather",
-      "first_seen": "2026-11-25T20:42:28Z",
-      "issue_key": "jubilee:text:53a7e7518eee18d2",
+    "jubilee:text:de7e000bcf1f5068": {
+      "category": "points failure",
+      "first_seen": "2026-11-25T22:42:50Z",
+      "issue_key": "jubilee:text:de7e000bcf1f5068",
       "line_id": "jubilee",
       "line_name": "Jubilee",
-      "reason": "Jubilee Line: Minor delays due to flooding at Canning Town.",
+      "reason": "Jubilee Line: Minor delays between Willesden Green and Stanmore due to an earlier points failure at Wembley Park. GOOD SERVICE on the rest of the line.",
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
@@ -42,6 +32,30 @@
     }
   },
   "history": [
+    {
+      "category": "train fault",
+      "duration_seconds": 7222,
+      "first_seen": "2026-11-25T20:42:28Z",
+      "issue_key": "elizabeth:text:46cddb63f9ddb067",
+      "line_id": "elizabeth",
+      "line_name": "Elizabeth line",
+      "reason": "Minor delays between Whitechapel and Shenfield due to an earlier faulty train at Paddington. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-11-25T22:42:50Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "weather",
+      "duration_seconds": 7222,
+      "first_seen": "2026-11-25T20:42:28Z",
+      "issue_key": "jubilee:text:53a7e7518eee18d2",
+      "line_id": "jubilee",
+      "line_name": "Jubilee",
+      "reason": "Jubilee Line: Minor delays due to flooding at Canning Town.",
+      "resolved_at": "2026-11-25T22:42:50Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
     {
       "category": "other",
       "duration_seconds": 4970,
@@ -43219,6 +43233,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-11-25T20:42:28Z",
+  "updated_at": "2026-11-25T22:42:50Z",
   "version": 1
 }
