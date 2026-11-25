@@ -1,23 +1,23 @@
 {
   "active": {
-    "central:text:2671929b56956017": {
-      "category": "other",
-      "first_seen": "2026-11-25T19:19:38Z",
-      "issue_key": "central:text:2671929b56956017",
-      "line_id": "central",
-      "line_name": "Central",
-      "reason": "Central Line: Minor delays between White City and Ealing Broadway/West Ruislip and between Leytonstone and Epping/Hainault via Newbury park due to train cancellations. GOOD SERVICE on the rest of the line.",
+    "elizabeth:text:46cddb63f9ddb067": {
+      "category": "train fault",
+      "first_seen": "2026-11-25T20:42:28Z",
+      "issue_key": "elizabeth:text:46cddb63f9ddb067",
+      "line_id": "elizabeth",
+      "line_name": "Elizabeth line",
+      "reason": "Minor delays between Whitechapel and Shenfield due to an earlier faulty train at Paddington. GOOD SERVICE on the rest of the line.",
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "elizabeth:text:9067fbc46713fc06": {
-      "category": "train fault",
-      "first_seen": "2026-11-25T19:19:38Z",
-      "issue_key": "elizabeth:text:9067fbc46713fc06",
-      "line_id": "elizabeth",
-      "line_name": "Elizabeth line",
-      "reason": "Severe delays between Paddington and Abbey Wood/Shenfield due to an earlier faulty train at Paddington. London Underground, Southeastern, Thameslink, Greater Anglia, C2C and London Buses are accepting valid tickets via any reasonable route. MINOR DELAYS on the rest of the line.",
-      "severity": "Severe Delays",
+    "jubilee:text:53a7e7518eee18d2": {
+      "category": "weather",
+      "first_seen": "2026-11-25T20:42:28Z",
+      "issue_key": "jubilee:text:53a7e7518eee18d2",
+      "line_id": "jubilee",
+      "line_name": "Jubilee",
+      "reason": "Jubilee Line: Minor delays due to flooding at Canning Town.",
+      "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
     "northern:text:5e289eda3eee3422": {
@@ -29,9 +29,43 @@
       "reason": "Northern Line: Minor delays between Camden Town and Kennington via Charing Cross due to a points failure at Kennington. GOOD SERVICE on the rest of the line.",
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
+    },
+    "victoria:text:0897cf0a8ecfd45f": {
+      "category": "other",
+      "first_seen": "2026-11-25T20:42:28Z",
+      "issue_key": "victoria:text:0897cf0a8ecfd45f",
+      "line_id": "victoria",
+      "line_name": "Victoria",
+      "reason": "Victoria Line: Minor delays due to an earlier person ill on the train at Highbury & Islington.",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
     }
   },
   "history": [
+    {
+      "category": "other",
+      "duration_seconds": 4970,
+      "first_seen": "2026-11-25T19:19:38Z",
+      "issue_key": "central:text:2671929b56956017",
+      "line_id": "central",
+      "line_name": "Central",
+      "reason": "Central Line: Minor delays between White City and Ealing Broadway/West Ruislip and between Leytonstone and Epping/Hainault via Newbury park due to train cancellations. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-11-25T20:42:28Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "train fault",
+      "duration_seconds": 4970,
+      "first_seen": "2026-11-25T19:19:38Z",
+      "issue_key": "elizabeth:text:9067fbc46713fc06",
+      "line_id": "elizabeth",
+      "line_name": "Elizabeth line",
+      "reason": "Severe delays between Paddington and Abbey Wood/Shenfield due to an earlier faulty train at Paddington. London Underground, Southeastern, Thameslink, Greater Anglia, C2C and London Buses are accepting valid tickets via any reasonable route. MINOR DELAYS on the rest of the line.",
+      "resolved_at": "2026-11-25T20:42:28Z",
+      "severity": "Severe Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
     {
       "category": "other",
       "duration_seconds": 20511,
@@ -43185,6 +43219,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-11-25T19:19:38Z",
+  "updated_at": "2026-11-25T20:42:28Z",
   "version": 1
 }
