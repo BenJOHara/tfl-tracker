@@ -1,27 +1,91 @@
 {
   "active": {
-    "northern:text:82cfeccb1c4abfec": {
-      "category": "other",
-      "first_seen": "2026-11-25T09:14:04Z",
-      "issue_key": "northern:text:82cfeccb1c4abfec",
-      "line_id": "northern",
-      "line_name": "Northern",
-      "reason": "Northern Line: Minor delays due to train cancellations.",
-      "severity": "Minor Delays",
+    "circle:text:04e8e0ee14ee41bc": {
+      "category": "train fault",
+      "first_seen": "2026-11-25T11:42:40Z",
+      "issue_key": "circle:text:04e8e0ee14ee41bc",
+      "line_id": "circle",
+      "line_name": "Circle",
+      "reason": "Circle Line: Severe delays while we fix a faulty train at Farringdon. Tickets are being accepted on London Buses.",
+      "severity": "Severe Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "victoria:text:02e0850cdf11ef25": {
-      "category": "other",
-      "first_seen": "2026-11-25T09:14:04Z",
-      "issue_key": "victoria:text:02e0850cdf11ef25",
-      "line_id": "victoria",
-      "line_name": "Victoria",
-      "reason": "Victoria Line: Minor delays due to train cancellations.",
+    "district:text:902eb513fd8bd993": {
+      "category": "signal failure",
+      "first_seen": "2026-11-25T11:42:40Z",
+      "issue_key": "district:text:902eb513fd8bd993",
+      "line_id": "district",
+      "line_name": "District",
+      "reason": "District Line: No service between Turnham Green and Richmond while we fix a signal failure at Richmond. Tickets are being accepted on London Buses. GOOD SERVICE on the rest of the line.",
+      "severity": "Part Suspended",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "hammersmith-city:text:2618d7bfeb274844": {
+      "category": "train fault",
+      "first_seen": "2026-11-25T11:42:40Z",
+      "issue_key": "hammersmith-city:text:2618d7bfeb274844",
+      "line_id": "hammersmith-city",
+      "line_name": "Hammersmith & City",
+      "reason": "Hammersmith and City Line: Severe delays while we fix a faulty train at Farringdon. Tickets are being accepted on London Buses.",
+      "severity": "Severe Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "metropolitan:text:acccb1bf55fa43c5": {
+      "category": "train fault",
+      "first_seen": "2026-11-25T11:42:40Z",
+      "issue_key": "metropolitan:text:acccb1bf55fa43c5",
+      "line_id": "metropolitan",
+      "line_name": "Metropolitan",
+      "reason": "Metropolitan Line: Severe delays while we fix a faulty train at Farringdon. Tickets are being accepted on London Buses, Lioness Line, Chiltern Railways, Thameslink and London Northwestern railway.",
+      "severity": "Severe Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "mildmay:text:63f503cc4d25dca8": {
+      "category": "signal failure",
+      "first_seen": "2026-11-25T11:42:40Z",
+      "issue_key": "mildmay:text:63f503cc4d25dca8",
+      "line_id": "mildmay",
+      "line_name": "Mildmay",
+      "reason": "Mildmay Line: No service between Willesden Junction and Richmond while we fix a signal failure at Richmond. GOOD SERVICE on the rest of the line.",
+      "severity": "Part Suspended",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "northern:text:e288e4749836f26f": {
+      "category": "points failure",
+      "first_seen": "2026-11-25T11:42:40Z",
+      "issue_key": "northern:text:e288e4749836f26f",
+      "line_id": "northern",
+      "line_name": "Northern",
+      "reason": "Northern Line: Minor delays between Camden Town and Kennington via Charing Cross while we fix a points failure at Kennington. GOOD SERVICE on the rest of the line.",
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     }
   },
   "history": [
+    {
+      "category": "other",
+      "duration_seconds": 8916,
+      "first_seen": "2026-11-25T09:14:04Z",
+      "issue_key": "northern:text:82cfeccb1c4abfec",
+      "line_id": "northern",
+      "line_name": "Northern",
+      "reason": "Northern Line: Minor delays due to train cancellations.",
+      "resolved_at": "2026-11-25T11:42:40Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "other",
+      "duration_seconds": 8916,
+      "first_seen": "2026-11-25T09:14:04Z",
+      "issue_key": "victoria:text:02e0850cdf11ef25",
+      "line_id": "victoria",
+      "line_name": "Victoria",
+      "reason": "Victoria Line: Minor delays due to train cancellations.",
+      "resolved_at": "2026-11-25T11:42:40Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
     {
       "category": "other",
       "duration_seconds": 23854,
@@ -43007,6 +43071,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-11-25T09:14:04Z",
+  "updated_at": "2026-11-25T11:42:40Z",
   "version": 1
 }
