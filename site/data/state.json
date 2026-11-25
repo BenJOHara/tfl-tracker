@@ -1,67 +1,109 @@
 {
   "active": {
-    "circle:text:77c8b708e825490a": {
+    "central:text:2671929b56956017": {
       "category": "other",
-      "first_seen": "2026-11-25T13:37:47Z",
-      "issue_key": "circle:text:77c8b708e825490a",
-      "line_id": "circle",
-      "line_name": "Circle",
-      "reason": "Circle Line: Severe delays due to an earlier signal system failure in the King's Cross area. Tickets are being accepted on London Buses.",
+      "first_seen": "2026-11-25T19:19:38Z",
+      "issue_key": "central:text:2671929b56956017",
+      "line_id": "central",
+      "line_name": "Central",
+      "reason": "Central Line: Minor delays between White City and Ealing Broadway/West Ruislip and between Leytonstone and Epping/Hainault via Newbury park due to train cancellations. GOOD SERVICE on the rest of the line.",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "elizabeth:text:9067fbc46713fc06": {
+      "category": "train fault",
+      "first_seen": "2026-11-25T19:19:38Z",
+      "issue_key": "elizabeth:text:9067fbc46713fc06",
+      "line_id": "elizabeth",
+      "line_name": "Elizabeth line",
+      "reason": "Severe delays between Paddington and Abbey Wood/Shenfield due to an earlier faulty train at Paddington. London Underground, Southeastern, Thameslink, Greater Anglia, C2C and London Buses are accepting valid tickets via any reasonable route. MINOR DELAYS on the rest of the line.",
       "severity": "Severe Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "district:text:7c55e768cc8b8536": {
-      "category": "signal failure",
-      "first_seen": "2026-11-25T13:37:47Z",
-      "issue_key": "district:text:7c55e768cc8b8536",
-      "line_id": "district",
-      "line_name": "District",
-      "reason": "District Line: Severe delays between Turnham Green and Richmond due to an earlier signal failure at Richmond. Tickets are being accepted on London Buses and South Western Railway services. GOOD SERVICE on the rest of the line.",
-      "severity": "Severe Delays",
-      "source_created": "0001-01-01T00:00:00"
-    },
-    "hammersmith-city:text:58ab8b769185e7e9": {
-      "category": "other",
-      "first_seen": "2026-11-25T13:37:47Z",
-      "issue_key": "hammersmith-city:text:58ab8b769185e7e9",
-      "line_id": "hammersmith-city",
-      "line_name": "Hammersmith & City",
-      "reason": "Hammersmith and City Line: Severe delays due to an earlier signal system failure in the King's Cross area. Tickets are being accepted on London Buses, DLR, C2C and Elizabeth line services.",
-      "severity": "Severe Delays",
-      "source_created": "0001-01-01T00:00:00"
-    },
-    "metropolitan:text:fc831c5fd5938948": {
-      "category": "other",
-      "first_seen": "2026-11-25T13:37:47Z",
-      "issue_key": "metropolitan:text:fc831c5fd5938948",
-      "line_id": "metropolitan",
-      "line_name": "Metropolitan",
-      "reason": "Metropolitan Line: Severe delays due to an earlier signal system failure in the King's Cross area. Tickets are being accepted on London Buses, Lioness Line, Chiltern Railways, Thameslink and London Northwestern Railway.",
-      "severity": "Severe Delays",
-      "source_created": "0001-01-01T00:00:00"
-    },
-    "mildmay:text:865cab37a26621d8": {
-      "category": "signal failure",
-      "first_seen": "2026-11-25T13:37:47Z",
-      "issue_key": "mildmay:text:865cab37a26621d8",
-      "line_id": "mildmay",
-      "line_name": "Mildmay",
-      "reason": "Mildmay Line: No service between South Acton and Richmond while we fix a signal failure at Richmond. GOOD SERVICE on the rest of the line. Tickets are being accepted on London Underground.",
-      "severity": "Part Suspended",
-      "source_created": "0001-01-01T00:00:00"
-    },
-    "northern:text:3a8e8b33c018855a": {
+    "northern:text:5e289eda3eee3422": {
       "category": "points failure",
-      "first_seen": "2026-11-25T13:37:47Z",
-      "issue_key": "northern:text:3a8e8b33c018855a",
+      "first_seen": "2026-11-25T19:19:38Z",
+      "issue_key": "northern:text:5e289eda3eee3422",
       "line_id": "northern",
       "line_name": "Northern",
-      "reason": "Northern Line: Minor delays while we fix a points failure at Kennington and an earlier faulty train at Finchley Central.",
+      "reason": "Northern Line: Minor delays between Camden Town and Kennington via Charing Cross due to a points failure at Kennington. GOOD SERVICE on the rest of the line.",
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     }
   },
   "history": [
+    {
+      "category": "other",
+      "duration_seconds": 20511,
+      "first_seen": "2026-11-25T13:37:47Z",
+      "issue_key": "circle:text:77c8b708e825490a",
+      "line_id": "circle",
+      "line_name": "Circle",
+      "reason": "Circle Line: Severe delays due to an earlier signal system failure in the King's Cross area. Tickets are being accepted on London Buses.",
+      "resolved_at": "2026-11-25T19:19:38Z",
+      "severity": "Severe Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "signal failure",
+      "duration_seconds": 20511,
+      "first_seen": "2026-11-25T13:37:47Z",
+      "issue_key": "district:text:7c55e768cc8b8536",
+      "line_id": "district",
+      "line_name": "District",
+      "reason": "District Line: Severe delays between Turnham Green and Richmond due to an earlier signal failure at Richmond. Tickets are being accepted on London Buses and South Western Railway services. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-11-25T19:19:38Z",
+      "severity": "Severe Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "other",
+      "duration_seconds": 20511,
+      "first_seen": "2026-11-25T13:37:47Z",
+      "issue_key": "hammersmith-city:text:58ab8b769185e7e9",
+      "line_id": "hammersmith-city",
+      "line_name": "Hammersmith & City",
+      "reason": "Hammersmith and City Line: Severe delays due to an earlier signal system failure in the King's Cross area. Tickets are being accepted on London Buses, DLR, C2C and Elizabeth line services.",
+      "resolved_at": "2026-11-25T19:19:38Z",
+      "severity": "Severe Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "other",
+      "duration_seconds": 20511,
+      "first_seen": "2026-11-25T13:37:47Z",
+      "issue_key": "metropolitan:text:fc831c5fd5938948",
+      "line_id": "metropolitan",
+      "line_name": "Metropolitan",
+      "reason": "Metropolitan Line: Severe delays due to an earlier signal system failure in the King's Cross area. Tickets are being accepted on London Buses, Lioness Line, Chiltern Railways, Thameslink and London Northwestern Railway.",
+      "resolved_at": "2026-11-25T19:19:38Z",
+      "severity": "Severe Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "signal failure",
+      "duration_seconds": 20511,
+      "first_seen": "2026-11-25T13:37:47Z",
+      "issue_key": "mildmay:text:865cab37a26621d8",
+      "line_id": "mildmay",
+      "line_name": "Mildmay",
+      "reason": "Mildmay Line: No service between South Acton and Richmond while we fix a signal failure at Richmond. GOOD SERVICE on the rest of the line. Tickets are being accepted on London Underground.",
+      "resolved_at": "2026-11-25T19:19:38Z",
+      "severity": "Part Suspended",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "points failure",
+      "duration_seconds": 20511,
+      "first_seen": "2026-11-25T13:37:47Z",
+      "issue_key": "northern:text:3a8e8b33c018855a",
+      "line_id": "northern",
+      "line_name": "Northern",
+      "reason": "Northern Line: Minor delays while we fix a points failure at Kennington and an earlier faulty train at Finchley Central.",
+      "resolved_at": "2026-11-25T19:19:38Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
     {
       "category": "train fault",
       "duration_seconds": 6907,
@@ -43143,6 +43185,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-11-25T13:37:47Z",
+  "updated_at": "2026-11-25T19:19:38Z",
   "version": 1
 }
