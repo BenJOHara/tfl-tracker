@@ -1,37 +1,133 @@
 {
   "active": {
-    "circle:text:f7973f4e8048a11c": {
+    "bakerloo:text:f5c9c269224237ce": {
+      "category": "track fault",
+      "first_seen": "2026-11-26T11:18:37Z",
+      "issue_key": "bakerloo:text:f5c9c269224237ce",
+      "line_id": "bakerloo",
+      "line_name": "Bakerloo",
+      "reason": "Bakerloo Line: No service between Queen's Park and Harrow & Wealdstone due to a track fault at Kensal Green. Tickets are being accepted on London Buses and London Northwestern Railway. GOOD SERVICE on the rest of the line.",
+      "severity": "Part Suspended",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "central:text:6d0af7c9d44f714a": {
       "category": "other",
+      "first_seen": "2026-11-26T11:18:37Z",
+      "issue_key": "central:text:6d0af7c9d44f714a",
+      "line_id": "central",
+      "line_name": "Central",
+      "reason": "Central Line: Minor delays due to train cancellations.",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "circle:text:fe152a67cb1aca98": {
+      "category": "other",
+      "first_seen": "2026-11-26T11:18:37Z",
+      "issue_key": "circle:text:fe152a67cb1aca98",
+      "line_id": "circle",
+      "line_name": "Circle",
+      "reason": "Circle Line: No service due to strike action.",
+      "severity": "Suspended",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "district:text:f38c1697e28e2657": {
+      "category": "other",
+      "first_seen": "2026-11-26T11:18:37Z",
+      "issue_key": "district:text:f38c1697e28e2657",
+      "line_id": "district",
+      "line_name": "District",
+      "reason": "District Line: Minor delays due to strike action. Services are operating approximately every 10 minutes.",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "lioness:text:2fe3ee3e57e867c6": {
+      "category": "track fault",
+      "first_seen": "2026-11-26T11:18:37Z",
+      "issue_key": "lioness:text:2fe3ee3e57e867c6",
+      "line_id": "lioness",
+      "line_name": "Lioness",
+      "reason": "Lioness Line: No service between Willesden Junction and Euston while we fix a track fault at Kensal Green. London Underground are accepting tickets via any reasonable route. MINOR DELAYS on the rest of the line.",
+      "severity": "Part Suspended",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "metropolitan:text:61107737fc43e1c6": {
+      "category": "other",
+      "first_seen": "2026-11-26T11:18:37Z",
+      "issue_key": "metropolitan:text:61107737fc43e1c6",
+      "line_id": "metropolitan",
+      "line_name": "Metropolitan",
+      "reason": "Metropolitan Line: No service between Baker Street and Aldgate and SEVERE DELAYS on the rest of the line due to strike action. Tube services will finish early tonight so please complete your journey by 21:00.",
+      "severity": "Part Suspended",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "mildmay:text:d7b366ec8bc296ae": {
+      "category": "train fault",
+      "first_seen": "2026-11-26T11:18:37Z",
+      "issue_key": "mildmay:text:d7b366ec8bc296ae",
+      "line_id": "mildmay",
+      "line_name": "Mildmay",
+      "reason": "Mildmay Line: Severe delays while we fix a faulty train at Willesden Junction. Tickets are being accepted on London Underground.",
+      "severity": "Severe Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "northern:text:5e289eda3eee3422": {
+      "category": "points failure",
+      "first_seen": "2026-11-26T11:18:37Z",
+      "issue_key": "northern:text:5e289eda3eee3422",
+      "line_id": "northern",
+      "line_name": "Northern",
+      "reason": "Northern Line: Minor delays between Camden Town and Kennington via Charing Cross due to a points failure at Kennington. GOOD SERVICE on the rest of the line.",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "victoria:text:02e0850cdf11ef25": {
+      "category": "other",
+      "first_seen": "2026-11-26T11:18:37Z",
+      "issue_key": "victoria:text:02e0850cdf11ef25",
+      "line_id": "victoria",
+      "line_name": "Victoria",
+      "reason": "Victoria Line: Minor delays due to train cancellations.",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    }
+  },
+  "history": [
+    {
+      "category": "other",
+      "duration_seconds": 24441,
       "first_seen": "2026-11-26T04:31:16Z",
       "issue_key": "circle:text:f7973f4e8048a11c",
       "line_id": "circle",
       "line_name": "Circle",
       "reason": "CIRCLE LINE: Thursday 26, all day, and until 1200 Friday 27 November, no service due to strike action.",
+      "resolved_at": "2026-11-26T11:18:37Z",
       "severity": "Planned Closure",
       "source_created": "0001-01-01T00:00:00"
     },
-    "piccadilly:text:05affdf74e2bbaa7": {
+    {
       "category": "other",
+      "duration_seconds": 24441,
       "first_seen": "2026-11-26T04:31:16Z",
       "issue_key": "piccadilly:text:05affdf74e2bbaa7",
       "line_id": "piccadilly",
       "line_name": "Piccadilly",
       "reason": "PICCADILLY LINE: Thursday 26, all day, and until 1200 Friday 27 November, no service due to strike action.",
+      "resolved_at": "2026-11-26T11:18:37Z",
       "severity": "Planned Closure",
       "source_created": "0001-01-01T00:00:00"
     },
-    "waterloo-city:text:0faebd0ea99ebd1b": {
+    {
       "category": "other",
+      "duration_seconds": 32167,
       "first_seen": "2026-11-26T02:22:30Z",
       "issue_key": "waterloo-city:text:0faebd0ea99ebd1b",
       "line_id": "waterloo-city",
       "line_name": "Waterloo & City",
       "reason": "Waterloo and City Line: Service will resume at 06:00.",
+      "resolved_at": "2026-11-26T11:18:37Z",
       "severity": "Service Closed",
       "source_created": "0001-01-01T00:00:00"
-    }
-  },
-  "history": [
+    },
     {
       "category": "other",
       "duration_seconds": 7726,
@@ -43497,6 +43593,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-11-26T04:31:16Z",
+  "updated_at": "2026-11-26T11:18:37Z",
   "version": 1
 }
