@@ -10,14 +10,14 @@
       "severity": "Part Suspended",
       "source_created": "0001-01-01T00:00:00"
     },
-    "central:text:1932615cc66b6088": {
+    "central:text:4efd428cf572baff": {
       "category": "other",
-      "first_seen": "2026-11-26T12:52:27Z",
-      "issue_key": "central:text:1932615cc66b6088",
+      "first_seen": "2026-11-26T14:21:52Z",
+      "issue_key": "central:text:4efd428cf572baff",
       "line_id": "central",
       "line_name": "Central",
-      "reason": "Central Line: Severe delays due to strike action. Tube services will finish early tonight so please complete your journey by 21:00.",
-      "severity": "Severe Delays",
+      "reason": "Central Line: No service between White City and Liverpool Street and MINOR DELAYS on the rest of the line due to strike action. Service is operating between White City and Ealing Broadway / West Ruislip every 12 minutes and between Liverpool Street and Epping / Woodford via Hainault every 12 minutes. Tube services will finish early tonight so please complete your journey by 21:00.",
+      "severity": "Part Suspended",
       "source_created": "0001-01-01T00:00:00"
     },
     "circle:text:023d51bfc8b858ef": {
@@ -36,8 +36,8 @@
       "issue_key": "district:text:a3d1661e65d200bd",
       "line_id": "district",
       "line_name": "District",
-      "reason": "District Line: Severe delays due to strike action. Services are operating approximately every 10 minutes. Tube services will finish early tonight so please complete your journey by 21:00.",
-      "severity": "Severe Delays",
+      "reason": "District Line: Minor delays due to strike action. Services are operating approximately every 10 minutes. Tube services will finish early tonight so please complete your journey by 21:00.",
+      "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
     "hammersmith-city:text:08259d2eee2e15b6": {
@@ -50,14 +50,14 @@
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "lioness:text:2fe3ee3e57e867c6": {
+    "lioness:text:16132712f00b54bc": {
       "category": "track fault",
-      "first_seen": "2026-11-26T11:18:37Z",
-      "issue_key": "lioness:text:2fe3ee3e57e867c6",
+      "first_seen": "2026-11-26T14:21:52Z",
+      "issue_key": "lioness:text:16132712f00b54bc",
       "line_id": "lioness",
       "line_name": "Lioness",
-      "reason": "Lioness Line: No service between Willesden Junction and Euston while we fix a track fault at Kensal Green. London Underground are accepting tickets via any reasonable route. MINOR DELAYS on the rest of the line.",
-      "severity": "Part Suspended",
+      "reason": "Lioness Line: Severe delays due to an earlier track fault at Kensal Green. London Underground are accepting tickets via any reasonable route.",
+      "severity": "Severe Delays",
       "source_created": "0001-01-01T00:00:00"
     },
     "metropolitan:text:e86c176b319fe599": {
@@ -70,13 +70,13 @@
       "severity": "Part Suspended",
       "source_created": "0001-01-01T00:00:00"
     },
-    "mildmay:text:cfeedc42db677509": {
+    "mildmay:text:85e9a4580904c94e": {
       "category": "person on track",
-      "first_seen": "2026-11-26T12:52:27Z",
-      "issue_key": "mildmay:text:cfeedc42db677509",
+      "first_seen": "2026-11-26T14:21:52Z",
+      "issue_key": "mildmay:text:85e9a4580904c94e",
       "line_id": "mildmay",
       "line_name": "Mildmay",
-      "reason": "Mildmay Line: No service between Stratford and Richmond and between Willesden Junction and Shepherd's Bush while we deal with a trespasser on the track at Highbury & Islington. London Underground are accepting tickets via any reasonable route. MINOR DELAYS on the rest of the line.",
+      "reason": "Mildmay Line: No service between Stratford and Camden Road and between Willesden Junction and Shepherd's Bush due to an earlier trespasser on the track at Highbury & Islington. London Underground are accepting tickets via any reasonable route. MINOR DELAYS on the rest of the line.",
       "severity": "Part Suspended",
       "source_created": "0001-01-01T00:00:00"
     },
@@ -90,28 +90,98 @@
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "victoria:text:dca4b690de3fc7b2": {
+    "piccadilly:text:572707d1e6d0e7ce": {
       "category": "other",
-      "first_seen": "2026-11-26T12:52:27Z",
-      "issue_key": "victoria:text:dca4b690de3fc7b2",
-      "line_id": "victoria",
-      "line_name": "Victoria",
-      "reason": "Victoria Line: Minor delays due to train cancellations. Tube services will finish early tonight so please complete your journey by 21:00.",
+      "first_seen": "2026-11-26T14:21:52Z",
+      "issue_key": "piccadilly:text:572707d1e6d0e7ce",
+      "line_id": "piccadilly",
+      "line_name": "Piccadilly",
+      "reason": "Piccadilly Line: Minor delays due to strike action. Services are operating approximately every 12 minutes. Tube services will finish early tonight so please complete your journey by 21:00.",
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "windrush:text:e4fd30e873519596": {
+    "victoria:text:7de06d984a52d801": {
+      "category": "other",
+      "first_seen": "2026-11-26T14:21:52Z",
+      "issue_key": "victoria:text:7de06d984a52d801",
+      "line_id": "victoria",
+      "line_name": "Victoria",
+      "reason": "Victoria Line: Severe delays due to strike action. Services are operating approximately every 5 minutes. Tube services will finish early tonight so please complete your journey by 21:00.",
+      "severity": "Severe Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "windrush:text:691efd01f2d2d07d": {
       "category": "person on track",
-      "first_seen": "2026-11-26T12:52:27Z",
-      "issue_key": "windrush:text:e4fd30e873519596",
+      "first_seen": "2026-11-26T14:21:52Z",
+      "issue_key": "windrush:text:691efd01f2d2d07d",
       "line_id": "windrush",
       "line_name": "Windrush",
-      "reason": "Windrush Line: No service between Highbury & Islington and Dalston Junction and between Surrey Quays and New Cross while we deal with a trespasser on the track at Highbury & Islington. London Underground are accepting tickets via any reasonable route. GOOD SERVICE on the rest of the line.",
+      "reason": "Windrush Line: No service between Highbury & Islington and Dalston Junction, between Surrey Quays and New Cross and between Crystal Palace and West Croydon while we deal with a trespasser on the track at Highbury & Islington. SEVERE DELAYS on the rest of the line. London Underground are accepting tickets via any reasonable route.",
       "severity": "Part Suspended",
       "source_created": "0001-01-01T00:00:00"
     }
   },
   "history": [
+    {
+      "category": "other",
+      "duration_seconds": 5365,
+      "first_seen": "2026-11-26T12:52:27Z",
+      "issue_key": "central:text:1932615cc66b6088",
+      "line_id": "central",
+      "line_name": "Central",
+      "reason": "Central Line: Severe delays due to strike action. Tube services will finish early tonight so please complete your journey by 21:00.",
+      "resolved_at": "2026-11-26T14:21:52Z",
+      "severity": "Severe Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "track fault",
+      "duration_seconds": 10995,
+      "first_seen": "2026-11-26T11:18:37Z",
+      "issue_key": "lioness:text:2fe3ee3e57e867c6",
+      "line_id": "lioness",
+      "line_name": "Lioness",
+      "reason": "Lioness Line: No service between Willesden Junction and Euston while we fix a track fault at Kensal Green. London Underground are accepting tickets via any reasonable route. MINOR DELAYS on the rest of the line.",
+      "resolved_at": "2026-11-26T14:21:52Z",
+      "severity": "Part Suspended",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "person on track",
+      "duration_seconds": 5365,
+      "first_seen": "2026-11-26T12:52:27Z",
+      "issue_key": "mildmay:text:cfeedc42db677509",
+      "line_id": "mildmay",
+      "line_name": "Mildmay",
+      "reason": "Mildmay Line: No service between Stratford and Richmond and between Willesden Junction and Shepherd's Bush while we deal with a trespasser on the track at Highbury & Islington. London Underground are accepting tickets via any reasonable route. MINOR DELAYS on the rest of the line.",
+      "resolved_at": "2026-11-26T14:21:52Z",
+      "severity": "Part Suspended",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "other",
+      "duration_seconds": 5365,
+      "first_seen": "2026-11-26T12:52:27Z",
+      "issue_key": "victoria:text:dca4b690de3fc7b2",
+      "line_id": "victoria",
+      "line_name": "Victoria",
+      "reason": "Victoria Line: Minor delays due to train cancellations. Tube services will finish early tonight so please complete your journey by 21:00.",
+      "resolved_at": "2026-11-26T14:21:52Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "person on track",
+      "duration_seconds": 5365,
+      "first_seen": "2026-11-26T12:52:27Z",
+      "issue_key": "windrush:text:e4fd30e873519596",
+      "line_id": "windrush",
+      "line_name": "Windrush",
+      "reason": "Windrush Line: No service between Highbury & Islington and Dalston Junction and between Surrey Quays and New Cross while we deal with a trespasser on the track at Highbury & Islington. London Underground are accepting tickets via any reasonable route. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-11-26T14:21:52Z",
+      "severity": "Part Suspended",
+      "source_created": "0001-01-01T00:00:00"
+    },
     {
       "category": "other",
       "duration_seconds": 5630,
@@ -43697,6 +43767,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-11-26T12:52:27Z",
+  "updated_at": "2026-11-26T14:21:52Z",
   "version": 1
 }
