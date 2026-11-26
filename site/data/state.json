@@ -10,33 +10,43 @@
       "severity": "Part Suspended",
       "source_created": "0001-01-01T00:00:00"
     },
-    "central:text:6d0af7c9d44f714a": {
+    "central:text:1932615cc66b6088": {
       "category": "other",
-      "first_seen": "2026-11-26T11:18:37Z",
-      "issue_key": "central:text:6d0af7c9d44f714a",
+      "first_seen": "2026-11-26T12:52:27Z",
+      "issue_key": "central:text:1932615cc66b6088",
       "line_id": "central",
       "line_name": "Central",
-      "reason": "Central Line: Minor delays due to train cancellations.",
-      "severity": "Minor Delays",
+      "reason": "Central Line: Severe delays due to strike action. Tube services will finish early tonight so please complete your journey by 21:00.",
+      "severity": "Severe Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "circle:text:fe152a67cb1aca98": {
+    "circle:text:023d51bfc8b858ef": {
       "category": "other",
-      "first_seen": "2026-11-26T11:18:37Z",
-      "issue_key": "circle:text:fe152a67cb1aca98",
+      "first_seen": "2026-11-26T12:52:27Z",
+      "issue_key": "circle:text:023d51bfc8b858ef",
       "line_id": "circle",
       "line_name": "Circle",
-      "reason": "Circle Line: No service due to strike action.",
+      "reason": "Circle Line: No service on the entire line due to strike action. Tube services on other lines will finish early tonight so please complete your journey by 21:00.",
       "severity": "Suspended",
       "source_created": "0001-01-01T00:00:00"
     },
-    "district:text:f38c1697e28e2657": {
+    "district:text:a3d1661e65d200bd": {
       "category": "other",
-      "first_seen": "2026-11-26T11:18:37Z",
-      "issue_key": "district:text:f38c1697e28e2657",
+      "first_seen": "2026-11-26T12:52:27Z",
+      "issue_key": "district:text:a3d1661e65d200bd",
       "line_id": "district",
       "line_name": "District",
-      "reason": "District Line: Minor delays due to strike action. Services are operating approximately every 10 minutes.",
+      "reason": "District Line: Severe delays due to strike action. Services are operating approximately every 10 minutes. Tube services will finish early tonight so please complete your journey by 21:00.",
+      "severity": "Severe Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "hammersmith-city:text:08259d2eee2e15b6": {
+      "category": "other",
+      "first_seen": "2026-11-26T12:52:27Z",
+      "issue_key": "hammersmith-city:text:08259d2eee2e15b6",
+      "line_id": "hammersmith-city",
+      "line_name": "Hammersmith & City",
+      "reason": "Hammersmith and City Line: Minor delays due to strike action. Services are operating approximately every 12 minutes between Hammersmith and Aldgate and every 30 minutes between Edgware Road and Barking. Tube services will finish early tonight so please complete your journey by 21:00",
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
@@ -50,48 +60,142 @@
       "severity": "Part Suspended",
       "source_created": "0001-01-01T00:00:00"
     },
-    "metropolitan:text:61107737fc43e1c6": {
+    "metropolitan:text:e86c176b319fe599": {
       "category": "other",
+      "first_seen": "2026-11-26T12:52:27Z",
+      "issue_key": "metropolitan:text:e86c176b319fe599",
+      "line_id": "metropolitan",
+      "line_name": "Metropolitan",
+      "reason": "Metropolitan Line: No service between Baker Street and Aldgate and SEVERE DELAYS on the rest of the line due to strike action. Services are operating between Baker Street and Watford / Uxbridge every 15 minutes, between Baker Street and Amersham every 30 minutes and between Watford and Chesham every 30 minutes. Customers travelling to Chesham are advised to go to Watford and change. Tube services will finish early tonight so please complete your journey by 21:00.",
+      "severity": "Part Suspended",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "mildmay:text:cfeedc42db677509": {
+      "category": "person on track",
+      "first_seen": "2026-11-26T12:52:27Z",
+      "issue_key": "mildmay:text:cfeedc42db677509",
+      "line_id": "mildmay",
+      "line_name": "Mildmay",
+      "reason": "Mildmay Line: No service between Stratford and Richmond and between Willesden Junction and Shepherd's Bush while we deal with a trespasser on the track at Highbury & Islington. London Underground are accepting tickets via any reasonable route. MINOR DELAYS on the rest of the line.",
+      "severity": "Part Suspended",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "northern:text:3c10a93d48c343ac": {
+      "category": "other",
+      "first_seen": "2026-11-26T12:52:27Z",
+      "issue_key": "northern:text:3c10a93d48c343ac",
+      "line_id": "northern",
+      "line_name": "Northern",
+      "reason": "Northern Line: Minor delays due to strike action. Tube services will finish early tonight so please complete your journey by 21:00.",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "victoria:text:dca4b690de3fc7b2": {
+      "category": "other",
+      "first_seen": "2026-11-26T12:52:27Z",
+      "issue_key": "victoria:text:dca4b690de3fc7b2",
+      "line_id": "victoria",
+      "line_name": "Victoria",
+      "reason": "Victoria Line: Minor delays due to train cancellations. Tube services will finish early tonight so please complete your journey by 21:00.",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "windrush:text:e4fd30e873519596": {
+      "category": "person on track",
+      "first_seen": "2026-11-26T12:52:27Z",
+      "issue_key": "windrush:text:e4fd30e873519596",
+      "line_id": "windrush",
+      "line_name": "Windrush",
+      "reason": "Windrush Line: No service between Highbury & Islington and Dalston Junction and between Surrey Quays and New Cross while we deal with a trespasser on the track at Highbury & Islington. London Underground are accepting tickets via any reasonable route. GOOD SERVICE on the rest of the line.",
+      "severity": "Part Suspended",
+      "source_created": "0001-01-01T00:00:00"
+    }
+  },
+  "history": [
+    {
+      "category": "other",
+      "duration_seconds": 5630,
+      "first_seen": "2026-11-26T11:18:37Z",
+      "issue_key": "central:text:6d0af7c9d44f714a",
+      "line_id": "central",
+      "line_name": "Central",
+      "reason": "Central Line: Minor delays due to train cancellations.",
+      "resolved_at": "2026-11-26T12:52:27Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "other",
+      "duration_seconds": 5630,
+      "first_seen": "2026-11-26T11:18:37Z",
+      "issue_key": "circle:text:fe152a67cb1aca98",
+      "line_id": "circle",
+      "line_name": "Circle",
+      "reason": "Circle Line: No service due to strike action.",
+      "resolved_at": "2026-11-26T12:52:27Z",
+      "severity": "Suspended",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "other",
+      "duration_seconds": 5630,
+      "first_seen": "2026-11-26T11:18:37Z",
+      "issue_key": "district:text:f38c1697e28e2657",
+      "line_id": "district",
+      "line_name": "District",
+      "reason": "District Line: Minor delays due to strike action. Services are operating approximately every 10 minutes.",
+      "resolved_at": "2026-11-26T12:52:27Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "other",
+      "duration_seconds": 5630,
       "first_seen": "2026-11-26T11:18:37Z",
       "issue_key": "metropolitan:text:61107737fc43e1c6",
       "line_id": "metropolitan",
       "line_name": "Metropolitan",
       "reason": "Metropolitan Line: No service between Baker Street and Aldgate and SEVERE DELAYS on the rest of the line due to strike action. Tube services will finish early tonight so please complete your journey by 21:00.",
+      "resolved_at": "2026-11-26T12:52:27Z",
       "severity": "Part Suspended",
       "source_created": "0001-01-01T00:00:00"
     },
-    "mildmay:text:d7b366ec8bc296ae": {
+    {
       "category": "train fault",
+      "duration_seconds": 5630,
       "first_seen": "2026-11-26T11:18:37Z",
       "issue_key": "mildmay:text:d7b366ec8bc296ae",
       "line_id": "mildmay",
       "line_name": "Mildmay",
       "reason": "Mildmay Line: Severe delays while we fix a faulty train at Willesden Junction. Tickets are being accepted on London Underground.",
+      "resolved_at": "2026-11-26T12:52:27Z",
       "severity": "Severe Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "northern:text:5e289eda3eee3422": {
+    {
       "category": "points failure",
+      "duration_seconds": 5630,
       "first_seen": "2026-11-26T11:18:37Z",
       "issue_key": "northern:text:5e289eda3eee3422",
       "line_id": "northern",
       "line_name": "Northern",
       "reason": "Northern Line: Minor delays between Camden Town and Kennington via Charing Cross due to a points failure at Kennington. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-11-26T12:52:27Z",
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "victoria:text:02e0850cdf11ef25": {
+    {
       "category": "other",
+      "duration_seconds": 5630,
       "first_seen": "2026-11-26T11:18:37Z",
       "issue_key": "victoria:text:02e0850cdf11ef25",
       "line_id": "victoria",
       "line_name": "Victoria",
       "reason": "Victoria Line: Minor delays due to train cancellations.",
+      "resolved_at": "2026-11-26T12:52:27Z",
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
-    }
-  },
-  "history": [
+    },
     {
       "category": "other",
       "duration_seconds": 24441,
@@ -43593,6 +43697,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-11-26T11:18:37Z",
+  "updated_at": "2026-11-26T12:52:27Z",
   "version": 1
 }
