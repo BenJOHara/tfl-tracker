@@ -40,14 +40,14 @@
       "severity": "Suspended",
       "source_created": "0001-01-01T00:00:00"
     },
-    "hammersmith-city:text:c10898eaebc9d4c1": {
+    "hammersmith-city:text:7768caf6f47faa3c": {
       "category": "other",
-      "first_seen": "2026-11-27T03:05:12Z",
-      "issue_key": "hammersmith-city:text:c10898eaebc9d4c1",
+      "first_seen": "2026-11-27T04:56:40Z",
+      "issue_key": "hammersmith-city:text:7768caf6f47faa3c",
       "line_id": "hammersmith-city",
       "line_name": "Hammersmith & City",
-      "reason": "Hammersmith and City Line: Service is not expected to resume until after 07:00hrs due to strike action.",
-      "severity": "Suspended",
+      "reason": "Hammersmith and City Line: Services are operating between Hammersmith and Liverpool Street every 10 minutes due to strike action.",
+      "severity": "Part Suspended",
       "source_created": "0001-01-01T00:00:00"
     },
     "jubilee:text:4b7ae3213b12c1ad": {
@@ -112,6 +112,18 @@
     }
   },
   "history": [
+    {
+      "category": "other",
+      "duration_seconds": 6688,
+      "first_seen": "2026-11-27T03:05:12Z",
+      "issue_key": "hammersmith-city:text:c10898eaebc9d4c1",
+      "line_id": "hammersmith-city",
+      "line_name": "Hammersmith & City",
+      "reason": "Hammersmith and City Line: Service is not expected to resume until after 07:00hrs due to strike action.",
+      "resolved_at": "2026-11-27T04:56:40Z",
+      "severity": "Suspended",
+      "source_created": "0001-01-01T00:00:00"
+    },
     {
       "category": "other",
       "duration_seconds": 4443,
@@ -44213,6 +44225,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-11-27T04:19:15Z",
+  "updated_at": "2026-11-27T04:56:40Z",
   "version": 1
 }
