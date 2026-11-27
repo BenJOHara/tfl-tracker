@@ -1,117 +1,249 @@
 {
   "active": {
-    "bakerloo:text:ed01f6d37b886d48": {
+    "bakerloo:text:50412a5c8c442dc5": {
       "category": "other",
-      "first_seen": "2026-11-27T03:05:12Z",
-      "issue_key": "bakerloo:text:ed01f6d37b886d48",
+      "first_seen": "2026-11-27T12:20:24Z",
+      "issue_key": "bakerloo:text:50412a5c8c442dc5",
       "line_id": "bakerloo",
       "line_name": "Bakerloo",
-      "reason": "Bakerloo Line: Service is not expected to resume until after 07:00hrs due to strike action.",
-      "severity": "Suspended",
-      "source_created": "0001-01-01T00:00:00"
-    },
-    "central:text:b9b45754bc07741d": {
-      "category": "other",
-      "first_seen": "2026-11-27T03:05:12Z",
-      "issue_key": "central:text:b9b45754bc07741d",
-      "line_id": "central",
-      "line_name": "Central",
-      "reason": "Central Line: Service is not expected to resume until after 07:00hrs due to strike action.",
-      "severity": "Suspended",
-      "source_created": "0001-01-01T00:00:00"
-    },
-    "circle:text:1ca3304af4aaf196": {
-      "category": "other",
-      "first_seen": "2026-11-27T03:05:12Z",
-      "issue_key": "circle:text:1ca3304af4aaf196",
-      "line_id": "circle",
-      "line_name": "Circle",
-      "reason": "Circle Line: Service is not expected to resume until after 12:00hrs due to strike action.",
-      "severity": "Suspended",
-      "source_created": "0001-01-01T00:00:00"
-    },
-    "district:text:41cbede4f7056bc7": {
-      "category": "other",
-      "first_seen": "2026-11-27T03:05:12Z",
-      "issue_key": "district:text:41cbede4f7056bc7",
-      "line_id": "district",
-      "line_name": "District",
-      "reason": "District Line: Service is not expected to resume until after 07:00hrs due to strike action.",
-      "severity": "Suspended",
-      "source_created": "0001-01-01T00:00:00"
-    },
-    "hammersmith-city:text:7768caf6f47faa3c": {
-      "category": "other",
-      "first_seen": "2026-11-27T04:56:40Z",
-      "issue_key": "hammersmith-city:text:7768caf6f47faa3c",
-      "line_id": "hammersmith-city",
-      "line_name": "Hammersmith & City",
-      "reason": "Hammersmith and City Line: Services are operating between Hammersmith and Liverpool Street every 10 minutes due to strike action.",
+      "reason": "Bakerloo Line: No service between Queen's Park and Harrow & Wealdstone due to strike action. SEVERE DELAYS on the rest of the line. Services are operating every 10 minutes.",
       "severity": "Part Suspended",
       "source_created": "0001-01-01T00:00:00"
     },
-    "jubilee:text:4b7ae3213b12c1ad": {
+    "central:text:75af008decc233ca": {
       "category": "other",
-      "first_seen": "2026-11-27T03:05:12Z",
-      "issue_key": "jubilee:text:4b7ae3213b12c1ad",
+      "first_seen": "2026-11-27T12:20:24Z",
+      "issue_key": "central:text:75af008decc233ca",
+      "line_id": "central",
+      "line_name": "Central",
+      "reason": "Central Line: No service between White City and Liverpool Street due to strike action. SEVERE DELAYS on the rest of the line. Services are operating every 20 minutes.",
+      "severity": "Part Suspended",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "circle:text:b163998f9d750efd": {
+      "category": "other",
+      "first_seen": "2026-11-27T12:20:24Z",
+      "issue_key": "circle:text:b163998f9d750efd",
+      "line_id": "circle",
+      "line_name": "Circle",
+      "reason": "Circle Line: No service Aldgate and Edgware Road via Embankment due to strike action. SEVERE DELAYS on the rest of the line. Services are operating every 10 minutes.",
+      "severity": "Part Suspended",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "district:text:e4250fb47ac67b09": {
+      "category": "other",
+      "first_seen": "2026-11-27T12:20:24Z",
+      "issue_key": "district:text:e4250fb47ac67b09",
+      "line_id": "district",
+      "line_name": "District",
+      "reason": "District Line: Severe delays due to strike action. If you're travelling beyond Earl's Court, please take the first train and change there. Services are operating every 10 minutes.",
+      "severity": "Severe Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "hammersmith-city:text:5c9873446c80f607": {
+      "category": "other",
+      "first_seen": "2026-11-27T12:20:24Z",
+      "issue_key": "hammersmith-city:text:5c9873446c80f607",
+      "line_id": "hammersmith-city",
+      "line_name": "Hammersmith & City",
+      "reason": "Hammersmith and City Line: Severe delays due to strike action. Services are operating every 20 minutes.",
+      "severity": "Severe Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "jubilee:text:325341261b657a79": {
+      "category": "other",
+      "first_seen": "2026-11-27T12:20:24Z",
+      "issue_key": "jubilee:text:325341261b657a79",
       "line_id": "jubilee",
       "line_name": "Jubilee",
-      "reason": "Jubilee Line: Service is not expected to resume until after 07:00hrs due to strike action.",
-      "severity": "Suspended",
+      "reason": "Jubilee Line: Minor delays due to strike action.",
+      "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "metropolitan:text:bf45f666c383ff19": {
+    "metropolitan:text:e68ef0f09e864eb6": {
       "category": "other",
-      "first_seen": "2026-11-27T03:05:12Z",
-      "issue_key": "metropolitan:text:bf45f666c383ff19",
+      "first_seen": "2026-11-27T12:20:24Z",
+      "issue_key": "metropolitan:text:e68ef0f09e864eb6",
       "line_id": "metropolitan",
       "line_name": "Metropolitan",
-      "reason": "Metropolitan Line: Service is not expected to resume until after 07:00hrs due to strike action.",
-      "severity": "Suspended",
+      "reason": "Metropolitan Line: No service between Baker Street and Aldgate due to strike action. SEVERE DELAYS on the rest of the line. Services are operating between Baker Street and Uxbridge / Watford every 15 minutes, between Baker Street and Amersham every 30 minutes, and between Watford and Chesham every 30 minutes. Customers travelling to Chesham are advised to go to Watford and change.",
+      "severity": "Part Suspended",
       "source_created": "0001-01-01T00:00:00"
     },
-    "northern:text:21fe62a9f9b5548e": {
+    "northern:text:ff0a37860524538d": {
       "category": "other",
-      "first_seen": "2026-11-27T03:05:12Z",
-      "issue_key": "northern:text:21fe62a9f9b5548e",
+      "first_seen": "2026-11-27T12:20:24Z",
+      "issue_key": "northern:text:ff0a37860524538d",
       "line_id": "northern",
       "line_name": "Northern",
-      "reason": "Northern Line: Service is not expected to resume until after 07:00hrs due to strike action.",
-      "severity": "Suspended",
+      "reason": "Northern Line: Severe delays due to strike action.",
+      "severity": "Severe Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "piccadilly:text:d77d0eddce3cac70": {
+    "piccadilly:text:987ebadd7cf4da9e": {
       "category": "other",
-      "first_seen": "2026-11-27T03:05:12Z",
-      "issue_key": "piccadilly:text:d77d0eddce3cac70",
+      "first_seen": "2026-11-27T12:20:24Z",
+      "issue_key": "piccadilly:text:987ebadd7cf4da9e",
       "line_id": "piccadilly",
       "line_name": "Piccadilly",
-      "reason": "Piccadilly Line: Service is not expected to resume until after 12:00hrs due to strike action.",
-      "severity": "Suspended",
+      "reason": "Piccadilly Line: Severe delays between Arnos Grove and Cockfosters and between Acton Town and Heathrow Terminals 2&3 due to strike action. Services are operating every 25 minutes between Arnos Grove and Cockfosters and every 20 minutes between Acton Town and Heathrow Terminals 2&3. NO SERVICE on the rest of the line.",
+      "severity": "Part Suspended",
       "source_created": "0001-01-01T00:00:00"
     },
-    "victoria:text:6f146256356daa52": {
+    "victoria:text:c31c3b88c3893177": {
       "category": "other",
-      "first_seen": "2026-11-27T03:05:12Z",
-      "issue_key": "victoria:text:6f146256356daa52",
+      "first_seen": "2026-11-27T12:20:24Z",
+      "issue_key": "victoria:text:c31c3b88c3893177",
       "line_id": "victoria",
       "line_name": "Victoria",
-      "reason": "Victoria Line: Service is not expected to resume until after 07:00hrs due to strike action.",
-      "severity": "Suspended",
+      "reason": "Victoria Line: Minor delays due to strike action.",
+      "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "waterloo-city:text:998311062d216170": {
+    "waterloo-city:text:008b807db32be1b9": {
       "category": "other",
-      "first_seen": "2026-11-27T03:05:12Z",
-      "issue_key": "waterloo-city:text:998311062d216170",
+      "first_seen": "2026-11-27T12:20:24Z",
+      "issue_key": "waterloo-city:text:008b807db32be1b9",
       "line_id": "waterloo-city",
       "line_name": "Waterloo & City",
-      "reason": "Waterloo and City Line: Service is not expected to resume until after 07:00hrs due to strike action.",
+      "reason": "Waterloo and City Line: No service due to strike action.",
       "severity": "Suspended",
       "source_created": "0001-01-01T00:00:00"
     }
   },
   "history": [
+    {
+      "category": "other",
+      "duration_seconds": 33312,
+      "first_seen": "2026-11-27T03:05:12Z",
+      "issue_key": "bakerloo:text:ed01f6d37b886d48",
+      "line_id": "bakerloo",
+      "line_name": "Bakerloo",
+      "reason": "Bakerloo Line: Service is not expected to resume until after 07:00hrs due to strike action.",
+      "resolved_at": "2026-11-27T12:20:24Z",
+      "severity": "Suspended",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "other",
+      "duration_seconds": 33312,
+      "first_seen": "2026-11-27T03:05:12Z",
+      "issue_key": "central:text:b9b45754bc07741d",
+      "line_id": "central",
+      "line_name": "Central",
+      "reason": "Central Line: Service is not expected to resume until after 07:00hrs due to strike action.",
+      "resolved_at": "2026-11-27T12:20:24Z",
+      "severity": "Suspended",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "other",
+      "duration_seconds": 33312,
+      "first_seen": "2026-11-27T03:05:12Z",
+      "issue_key": "circle:text:1ca3304af4aaf196",
+      "line_id": "circle",
+      "line_name": "Circle",
+      "reason": "Circle Line: Service is not expected to resume until after 12:00hrs due to strike action.",
+      "resolved_at": "2026-11-27T12:20:24Z",
+      "severity": "Suspended",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "other",
+      "duration_seconds": 33312,
+      "first_seen": "2026-11-27T03:05:12Z",
+      "issue_key": "district:text:41cbede4f7056bc7",
+      "line_id": "district",
+      "line_name": "District",
+      "reason": "District Line: Service is not expected to resume until after 07:00hrs due to strike action.",
+      "resolved_at": "2026-11-27T12:20:24Z",
+      "severity": "Suspended",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "other",
+      "duration_seconds": 26624,
+      "first_seen": "2026-11-27T04:56:40Z",
+      "issue_key": "hammersmith-city:text:7768caf6f47faa3c",
+      "line_id": "hammersmith-city",
+      "line_name": "Hammersmith & City",
+      "reason": "Hammersmith and City Line: Services are operating between Hammersmith and Liverpool Street every 10 minutes due to strike action.",
+      "resolved_at": "2026-11-27T12:20:24Z",
+      "severity": "Part Suspended",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "other",
+      "duration_seconds": 33312,
+      "first_seen": "2026-11-27T03:05:12Z",
+      "issue_key": "jubilee:text:4b7ae3213b12c1ad",
+      "line_id": "jubilee",
+      "line_name": "Jubilee",
+      "reason": "Jubilee Line: Service is not expected to resume until after 07:00hrs due to strike action.",
+      "resolved_at": "2026-11-27T12:20:24Z",
+      "severity": "Suspended",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "other",
+      "duration_seconds": 33312,
+      "first_seen": "2026-11-27T03:05:12Z",
+      "issue_key": "metropolitan:text:bf45f666c383ff19",
+      "line_id": "metropolitan",
+      "line_name": "Metropolitan",
+      "reason": "Metropolitan Line: Service is not expected to resume until after 07:00hrs due to strike action.",
+      "resolved_at": "2026-11-27T12:20:24Z",
+      "severity": "Suspended",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "other",
+      "duration_seconds": 33312,
+      "first_seen": "2026-11-27T03:05:12Z",
+      "issue_key": "northern:text:21fe62a9f9b5548e",
+      "line_id": "northern",
+      "line_name": "Northern",
+      "reason": "Northern Line: Service is not expected to resume until after 07:00hrs due to strike action.",
+      "resolved_at": "2026-11-27T12:20:24Z",
+      "severity": "Suspended",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "other",
+      "duration_seconds": 33312,
+      "first_seen": "2026-11-27T03:05:12Z",
+      "issue_key": "piccadilly:text:d77d0eddce3cac70",
+      "line_id": "piccadilly",
+      "line_name": "Piccadilly",
+      "reason": "Piccadilly Line: Service is not expected to resume until after 12:00hrs due to strike action.",
+      "resolved_at": "2026-11-27T12:20:24Z",
+      "severity": "Suspended",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "other",
+      "duration_seconds": 33312,
+      "first_seen": "2026-11-27T03:05:12Z",
+      "issue_key": "victoria:text:6f146256356daa52",
+      "line_id": "victoria",
+      "line_name": "Victoria",
+      "reason": "Victoria Line: Service is not expected to resume until after 07:00hrs due to strike action.",
+      "resolved_at": "2026-11-27T12:20:24Z",
+      "severity": "Suspended",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "other",
+      "duration_seconds": 33312,
+      "first_seen": "2026-11-27T03:05:12Z",
+      "issue_key": "waterloo-city:text:998311062d216170",
+      "line_id": "waterloo-city",
+      "line_name": "Waterloo & City",
+      "reason": "Waterloo and City Line: Service is not expected to resume until after 07:00hrs due to strike action.",
+      "resolved_at": "2026-11-27T12:20:24Z",
+      "severity": "Suspended",
+      "source_created": "0001-01-01T00:00:00"
+    },
     {
       "category": "other",
       "duration_seconds": 6688,
@@ -44225,6 +44357,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-11-27T04:56:40Z",
+  "updated_at": "2026-11-27T12:20:24Z",
   "version": 1
 }
