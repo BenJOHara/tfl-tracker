@@ -1,137 +1,363 @@
 {
   "active": {
-    "bakerloo:text:6a80b2e8cb3bd3e0": {
+    "bakerloo:text:ed01f6d37b886d48": {
       "category": "other",
+      "first_seen": "2026-11-27T03:05:12Z",
+      "issue_key": "bakerloo:text:ed01f6d37b886d48",
+      "line_id": "bakerloo",
+      "line_name": "Bakerloo",
+      "reason": "Bakerloo Line: Service is not expected to resume until after 07:00hrs due to strike action.",
+      "severity": "Service Closed",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "central:text:b9b45754bc07741d": {
+      "category": "other",
+      "first_seen": "2026-11-27T03:05:12Z",
+      "issue_key": "central:text:b9b45754bc07741d",
+      "line_id": "central",
+      "line_name": "Central",
+      "reason": "Central Line: Service is not expected to resume until after 07:00hrs due to strike action.",
+      "severity": "Service Closed",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "circle:text:1ca3304af4aaf196": {
+      "category": "other",
+      "first_seen": "2026-11-27T03:05:12Z",
+      "issue_key": "circle:text:1ca3304af4aaf196",
+      "line_id": "circle",
+      "line_name": "Circle",
+      "reason": "Circle Line: Service is not expected to resume until after 12:00hrs due to strike action.",
+      "severity": "Service Closed",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "district:text:41cbede4f7056bc7": {
+      "category": "other",
+      "first_seen": "2026-11-27T03:05:12Z",
+      "issue_key": "district:text:41cbede4f7056bc7",
+      "line_id": "district",
+      "line_name": "District",
+      "reason": "District Line: Service is not expected to resume until after 07:00hrs due to strike action.",
+      "severity": "Service Closed",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "dlr:text:fb244db083a3f0ff": {
+      "category": "other",
+      "first_seen": "2026-11-27T03:05:12Z",
+      "issue_key": "dlr:text:fb244db083a3f0ff",
+      "line_id": "dlr",
+      "line_name": "DLR",
+      "reason": "Docklands Light Railway: Service will resume later this morning.",
+      "severity": "Service Closed",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "elizabeth:text:85644759b2256fee": {
+      "category": "other",
+      "first_seen": "2026-11-27T03:05:12Z",
+      "issue_key": "elizabeth:text:85644759b2256fee",
+      "line_id": "elizabeth",
+      "line_name": "Elizabeth line",
+      "reason": "Service will resume later this morning.",
+      "severity": "Service Closed",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "hammersmith-city:text:c10898eaebc9d4c1": {
+      "category": "other",
+      "first_seen": "2026-11-27T03:05:12Z",
+      "issue_key": "hammersmith-city:text:c10898eaebc9d4c1",
+      "line_id": "hammersmith-city",
+      "line_name": "Hammersmith & City",
+      "reason": "Hammersmith and City Line: Service is not expected to resume until after 07:00hrs due to strike action.",
+      "severity": "Service Closed",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "jubilee:text:4b7ae3213b12c1ad": {
+      "category": "other",
+      "first_seen": "2026-11-27T03:05:12Z",
+      "issue_key": "jubilee:text:4b7ae3213b12c1ad",
+      "line_id": "jubilee",
+      "line_name": "Jubilee",
+      "reason": "Jubilee Line: Service is not expected to resume until after 07:00hrs due to strike action.",
+      "severity": "Service Closed",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "liberty:text:19134079f5c98ab7": {
+      "category": "other",
+      "first_seen": "2026-11-27T03:05:12Z",
+      "issue_key": "liberty:text:19134079f5c98ab7",
+      "line_id": "liberty",
+      "line_name": "Liberty",
+      "reason": "Liberty Line: Service will resume later this morning.",
+      "severity": "Service Closed",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "lioness:text:edb0d527df87ed16": {
+      "category": "other",
+      "first_seen": "2026-11-27T03:05:12Z",
+      "issue_key": "lioness:text:edb0d527df87ed16",
+      "line_id": "lioness",
+      "line_name": "Lioness",
+      "reason": "Lioness Line: Service will resume later this morning.",
+      "severity": "Service Closed",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "metropolitan:text:bf45f666c383ff19": {
+      "category": "other",
+      "first_seen": "2026-11-27T03:05:12Z",
+      "issue_key": "metropolitan:text:bf45f666c383ff19",
+      "line_id": "metropolitan",
+      "line_name": "Metropolitan",
+      "reason": "Metropolitan Line: Service is not expected to resume until after 07:00hrs due to strike action.",
+      "severity": "Service Closed",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "mildmay:text:43f3ca710bb3792b": {
+      "category": "other",
+      "first_seen": "2026-11-27T03:05:12Z",
+      "issue_key": "mildmay:text:43f3ca710bb3792b",
+      "line_id": "mildmay",
+      "line_name": "Mildmay",
+      "reason": "Mildmay Line: Service will resume later this morning.",
+      "severity": "Service Closed",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "northern:text:21fe62a9f9b5548e": {
+      "category": "other",
+      "first_seen": "2026-11-27T03:05:12Z",
+      "issue_key": "northern:text:21fe62a9f9b5548e",
+      "line_id": "northern",
+      "line_name": "Northern",
+      "reason": "Northern Line: Service is not expected to resume until after 07:00hrs due to strike action.",
+      "severity": "Service Closed",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "piccadilly:text:d77d0eddce3cac70": {
+      "category": "other",
+      "first_seen": "2026-11-27T03:05:12Z",
+      "issue_key": "piccadilly:text:d77d0eddce3cac70",
+      "line_id": "piccadilly",
+      "line_name": "Piccadilly",
+      "reason": "Piccadilly Line: Service is not expected to resume until after 12:00hrs due to strike action.",
+      "severity": "Service Closed",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "suffragette:text:774000467a2b26d3": {
+      "category": "other",
+      "first_seen": "2026-11-27T03:05:12Z",
+      "issue_key": "suffragette:text:774000467a2b26d3",
+      "line_id": "suffragette",
+      "line_name": "Suffragette",
+      "reason": "Suffragette Line: Service will resume later this morning.",
+      "severity": "Service Closed",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "tram:text:ab9d7a64f14b787b": {
+      "category": "other",
+      "first_seen": "2026-11-27T03:05:12Z",
+      "issue_key": "tram:text:ab9d7a64f14b787b",
+      "line_id": "tram",
+      "line_name": "Tram",
+      "reason": "London Tramlink: Service will resume later this morning.",
+      "severity": "Service Closed",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "victoria:text:6f146256356daa52": {
+      "category": "other",
+      "first_seen": "2026-11-27T03:05:12Z",
+      "issue_key": "victoria:text:6f146256356daa52",
+      "line_id": "victoria",
+      "line_name": "Victoria",
+      "reason": "Victoria Line: Service is not expected to resume until after 07:00hrs due to strike action.",
+      "severity": "Service Closed",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "waterloo-city:text:998311062d216170": {
+      "category": "other",
+      "first_seen": "2026-11-27T03:05:12Z",
+      "issue_key": "waterloo-city:text:998311062d216170",
+      "line_id": "waterloo-city",
+      "line_name": "Waterloo & City",
+      "reason": "Waterloo and City Line: Service is not expected to resume until after 07:00hrs due to strike action.",
+      "severity": "Service Closed",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "weaver:text:f2dc8c00c6757e13": {
+      "category": "other",
+      "first_seen": "2026-11-27T03:05:12Z",
+      "issue_key": "weaver:text:f2dc8c00c6757e13",
+      "line_id": "weaver",
+      "line_name": "Weaver",
+      "reason": "Weaver Line: Service will resume later this morning.",
+      "severity": "Service Closed",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    "windrush:text:eb329ced32606fab": {
+      "category": "other",
+      "first_seen": "2026-11-27T03:05:12Z",
+      "issue_key": "windrush:text:eb329ced32606fab",
+      "line_id": "windrush",
+      "line_name": "Windrush",
+      "reason": "Windrush Line: Service will resume later this morning.",
+      "severity": "Service Closed",
+      "source_created": "0001-01-01T00:00:00"
+    }
+  },
+  "history": [
+    {
+      "category": "other",
+      "duration_seconds": 17391,
       "first_seen": "2026-11-26T22:15:21Z",
       "issue_key": "bakerloo:text:6a80b2e8cb3bd3e0",
       "line_id": "bakerloo",
       "line_name": "Bakerloo",
       "reason": "Bakerloo Line: No service between Queen's Park and Harrow & Wealdstone and NO SERVICE between Paddington and Elephant & Castle due to strike action. SEVERE DELAYS on the rest of the line.",
+      "resolved_at": "2026-11-27T03:05:12Z",
       "severity": "Part Suspended",
       "source_created": "0001-01-01T00:00:00"
     },
-    "central:text:d27a08c415939d4d": {
+    {
       "category": "other",
+      "duration_seconds": 17391,
       "first_seen": "2026-11-26T22:15:21Z",
       "issue_key": "central:text:d27a08c415939d4d",
       "line_id": "central",
       "line_name": "Central",
       "reason": "Central Line: No service between White City and Epping / Hainault via Newbury Park due to strike action. MINOR DELAYS on the rest of the line. Service is operating between White City and Ealing Broadway / West Ruislip every 12 minutes.",
+      "resolved_at": "2026-11-27T03:05:12Z",
       "severity": "Part Suspended",
       "source_created": "0001-01-01T00:00:00"
     },
-    "circle:text:a764cc301b32f5c1": {
+    {
       "category": "other",
+      "duration_seconds": 17391,
       "first_seen": "2026-11-26T22:15:21Z",
       "issue_key": "circle:text:a764cc301b32f5c1",
       "line_id": "circle",
       "line_name": "Circle",
       "reason": "Circle Line: No service on the entire line due to strike action.",
+      "resolved_at": "2026-11-27T03:05:12Z",
       "severity": "Suspended",
       "source_created": "0001-01-01T00:00:00"
     },
-    "district:text:ae030a621e6bb999": {
+    {
       "category": "other",
+      "duration_seconds": 17391,
       "first_seen": "2026-11-26T22:15:21Z",
       "issue_key": "district:text:ae030a621e6bb999",
       "line_id": "district",
       "line_name": "District",
       "reason": "District Line: No service between Turnham Green and Ealing Broadway due to strike action. SEVERE DELAYS on the rest of the line. If you're travelling beyond Earl's Court, please take the first train and change there. Services are operating approximately every 10 minutes.",
+      "resolved_at": "2026-11-27T03:05:12Z",
       "severity": "Part Suspended",
       "source_created": "0001-01-01T00:00:00"
     },
-    "hammersmith-city:text:ca550d3eeec05382": {
+    {
       "category": "other",
+      "duration_seconds": 17391,
       "first_seen": "2026-11-26T22:15:21Z",
       "issue_key": "hammersmith-city:text:ca550d3eeec05382",
       "line_id": "hammersmith-city",
       "line_name": "Hammersmith & City",
       "reason": "Hammersmith and City Line: Severe delays due to strike action. Services are operating approximately every 12 minutes between Hammersmith and Aldgate and every 30 minutes between Edgware Road and Barking",
+      "resolved_at": "2026-11-27T03:05:12Z",
       "severity": "Severe Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "jubilee:text:325341261b657a79": {
+    {
       "category": "other",
+      "duration_seconds": 24069,
       "first_seen": "2026-11-26T20:24:03Z",
       "issue_key": "jubilee:text:325341261b657a79",
       "line_id": "jubilee",
       "line_name": "Jubilee",
       "reason": "Jubilee Line: Minor delays due to strike action.",
+      "resolved_at": "2026-11-27T03:05:12Z",
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "metropolitan:text:e86c176b319fe599": {
+    {
       "category": "other",
+      "duration_seconds": 51165,
       "first_seen": "2026-11-26T12:52:27Z",
       "issue_key": "metropolitan:text:e86c176b319fe599",
       "line_id": "metropolitan",
       "line_name": "Metropolitan",
       "reason": "Metropolitan Line: No service between Baker Street and Aldgate and SEVERE DELAYS on the rest of the line due to strike action. Services are operating between Baker Street and Watford / Uxbridge every 15 minutes, between Baker Street and Amersham every 30 minutes and between Watford and Chesham every 30 minutes. Customers travelling to Chesham are advised to go to Watford and change.",
+      "resolved_at": "2026-11-27T03:05:12Z",
       "severity": "Part Suspended",
       "source_created": "0001-01-01T00:00:00"
     },
-    "northern:text:961b80a8d5e93876": {
+    {
       "category": "other",
+      "duration_seconds": 14384,
       "first_seen": "2026-11-26T23:05:28Z",
       "issue_key": "northern:text:961b80a8d5e93876",
       "line_id": "northern",
       "line_name": "Northern",
       "reason": "Northern Line: No service on the entire line due to strike action.",
+      "resolved_at": "2026-11-27T03:05:12Z",
       "severity": "Suspended",
       "source_created": "0001-01-01T00:00:00"
     },
-    "piccadilly:text:24e096ff6b24ddd7": {
+    {
       "category": "other",
+      "duration_seconds": 24069,
       "first_seen": "2026-11-26T20:24:03Z",
       "issue_key": "piccadilly:text:24e096ff6b24ddd7",
       "line_id": "piccadilly",
       "line_name": "Piccadilly",
       "reason": "Piccadilly Line: No service between Acton Town and Arnos Grove / Uxbridge and SEVERE DELAYS on the rest of the line due to strike action. Services are operating between Cockfosters and Arnos Grove approximately every 20 minutes and between Acton Town and Heathrow Terminals 2 & 3 approximately every 20 minutes.",
+      "resolved_at": "2026-11-27T03:05:12Z",
       "severity": "Part Suspended",
       "source_created": "0001-01-01T00:00:00"
     },
-    "victoria:text:d93e8cda5b0191fd": {
+    {
       "category": "passenger incident",
+      "duration_seconds": 17391,
       "first_seen": "2026-11-26T22:15:21Z",
       "issue_key": "victoria:text:d93e8cda5b0191fd",
       "line_id": "victoria",
       "line_name": "Victoria",
       "reason": "Victoria Line: Severe delays due to an earlier customer incident. Tickets are being accepted on London Buses via any reasonable route.",
+      "resolved_at": "2026-11-27T03:05:12Z",
       "severity": "Severe Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "waterloo-city:text:65265e5a2a6ad171": {
+    {
       "category": "other",
+      "duration_seconds": 24069,
       "first_seen": "2026-11-26T20:24:03Z",
       "issue_key": "waterloo-city:text:65265e5a2a6ad171",
       "line_id": "waterloo-city",
       "line_name": "Waterloo & City",
       "reason": "Waterloo and City Line: No service due to strike action. Tube services on other lines will finish early tonight so please complete your journey by 21:00.",
+      "resolved_at": "2026-11-27T03:05:12Z",
       "severity": "Suspended",
       "source_created": "0001-01-01T00:00:00"
     },
-    "weaver:text:65f89b51bb09b630": {
+    {
       "category": "other",
+      "duration_seconds": 14384,
       "first_seen": "2026-11-26T23:05:28Z",
       "issue_key": "weaver:text:65f89b51bb09b630",
       "line_id": "weaver",
       "line_name": "Weaver",
       "reason": "WEAVER LINE: Monday 23, Tuesday 24, Wednesday 25 and Thursday 26 November, after 2245 each evening, no service between Hackney Downs and Cheshunt / Enfield Town. Use London Underground connections between Central London and Seven Sisters, and for Rectory Road and Stoke Newington, use Clapton station. Last trains operate at 2243 from Liverpool Street to Cheshunt (except on Wednesday when it is at 2213), 2250 from Enfield Town to Liverpool Street, 2258 from Liverpool Street to Enfield Town and 2259 from Cheshunt to Liverpool Street. Replacement buses operate.",
+      "resolved_at": "2026-11-27T03:05:12Z",
       "severity": "Part Closure",
       "source_created": "0001-01-01T00:00:00"
     },
-    "windrush:text:a7e7542f68eeb380": {
+    {
       "category": "points failure",
+      "duration_seconds": 14384,
       "first_seen": "2026-11-26T23:05:28Z",
       "issue_key": "windrush:text:a7e7542f68eeb380",
       "line_id": "windrush",
       "line_name": "Windrush",
       "reason": "Windrush Line: No service between West Croydon and Sydenham while we fix a points failure at Sydenham. GOOD SERVICE on the rest of the line.",
+      "resolved_at": "2026-11-27T03:05:12Z",
       "severity": "Part Suspended",
       "source_created": "0001-01-01T00:00:00"
-    }
-  },
-  "history": [
+    },
     {
       "category": "points failure",
       "duration_seconds": 9685,
@@ -43969,6 +44195,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-11-26T23:05:28Z",
+  "updated_at": "2026-11-27T03:05:12Z",
   "version": 1
 }
