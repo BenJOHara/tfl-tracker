@@ -7,7 +7,7 @@
       "line_id": "bakerloo",
       "line_name": "Bakerloo",
       "reason": "Bakerloo Line: Service is not expected to resume until after 07:00hrs due to strike action.",
-      "severity": "Service Closed",
+      "severity": "Suspended",
       "source_created": "0001-01-01T00:00:00"
     },
     "central:text:b9b45754bc07741d": {
@@ -17,7 +17,7 @@
       "line_id": "central",
       "line_name": "Central",
       "reason": "Central Line: Service is not expected to resume until after 07:00hrs due to strike action.",
-      "severity": "Service Closed",
+      "severity": "Suspended",
       "source_created": "0001-01-01T00:00:00"
     },
     "circle:text:1ca3304af4aaf196": {
@@ -27,7 +27,7 @@
       "line_id": "circle",
       "line_name": "Circle",
       "reason": "Circle Line: Service is not expected to resume until after 12:00hrs due to strike action.",
-      "severity": "Service Closed",
+      "severity": "Suspended",
       "source_created": "0001-01-01T00:00:00"
     },
     "district:text:41cbede4f7056bc7": {
@@ -37,27 +37,7 @@
       "line_id": "district",
       "line_name": "District",
       "reason": "District Line: Service is not expected to resume until after 07:00hrs due to strike action.",
-      "severity": "Service Closed",
-      "source_created": "0001-01-01T00:00:00"
-    },
-    "dlr:text:fb244db083a3f0ff": {
-      "category": "other",
-      "first_seen": "2026-11-27T03:05:12Z",
-      "issue_key": "dlr:text:fb244db083a3f0ff",
-      "line_id": "dlr",
-      "line_name": "DLR",
-      "reason": "Docklands Light Railway: Service will resume later this morning.",
-      "severity": "Service Closed",
-      "source_created": "0001-01-01T00:00:00"
-    },
-    "elizabeth:text:85644759b2256fee": {
-      "category": "other",
-      "first_seen": "2026-11-27T03:05:12Z",
-      "issue_key": "elizabeth:text:85644759b2256fee",
-      "line_id": "elizabeth",
-      "line_name": "Elizabeth line",
-      "reason": "Service will resume later this morning.",
-      "severity": "Service Closed",
+      "severity": "Suspended",
       "source_created": "0001-01-01T00:00:00"
     },
     "hammersmith-city:text:c10898eaebc9d4c1": {
@@ -67,7 +47,7 @@
       "line_id": "hammersmith-city",
       "line_name": "Hammersmith & City",
       "reason": "Hammersmith and City Line: Service is not expected to resume until after 07:00hrs due to strike action.",
-      "severity": "Service Closed",
+      "severity": "Suspended",
       "source_created": "0001-01-01T00:00:00"
     },
     "jubilee:text:4b7ae3213b12c1ad": {
@@ -77,27 +57,7 @@
       "line_id": "jubilee",
       "line_name": "Jubilee",
       "reason": "Jubilee Line: Service is not expected to resume until after 07:00hrs due to strike action.",
-      "severity": "Service Closed",
-      "source_created": "0001-01-01T00:00:00"
-    },
-    "liberty:text:19134079f5c98ab7": {
-      "category": "other",
-      "first_seen": "2026-11-27T03:05:12Z",
-      "issue_key": "liberty:text:19134079f5c98ab7",
-      "line_id": "liberty",
-      "line_name": "Liberty",
-      "reason": "Liberty Line: Service will resume later this morning.",
-      "severity": "Service Closed",
-      "source_created": "0001-01-01T00:00:00"
-    },
-    "lioness:text:edb0d527df87ed16": {
-      "category": "other",
-      "first_seen": "2026-11-27T03:05:12Z",
-      "issue_key": "lioness:text:edb0d527df87ed16",
-      "line_id": "lioness",
-      "line_name": "Lioness",
-      "reason": "Lioness Line: Service will resume later this morning.",
-      "severity": "Service Closed",
+      "severity": "Suspended",
       "source_created": "0001-01-01T00:00:00"
     },
     "metropolitan:text:bf45f666c383ff19": {
@@ -107,17 +67,7 @@
       "line_id": "metropolitan",
       "line_name": "Metropolitan",
       "reason": "Metropolitan Line: Service is not expected to resume until after 07:00hrs due to strike action.",
-      "severity": "Service Closed",
-      "source_created": "0001-01-01T00:00:00"
-    },
-    "mildmay:text:43f3ca710bb3792b": {
-      "category": "other",
-      "first_seen": "2026-11-27T03:05:12Z",
-      "issue_key": "mildmay:text:43f3ca710bb3792b",
-      "line_id": "mildmay",
-      "line_name": "Mildmay",
-      "reason": "Mildmay Line: Service will resume later this morning.",
-      "severity": "Service Closed",
+      "severity": "Suspended",
       "source_created": "0001-01-01T00:00:00"
     },
     "northern:text:21fe62a9f9b5548e": {
@@ -127,7 +77,7 @@
       "line_id": "northern",
       "line_name": "Northern",
       "reason": "Northern Line: Service is not expected to resume until after 07:00hrs due to strike action.",
-      "severity": "Service Closed",
+      "severity": "Suspended",
       "source_created": "0001-01-01T00:00:00"
     },
     "piccadilly:text:d77d0eddce3cac70": {
@@ -137,27 +87,7 @@
       "line_id": "piccadilly",
       "line_name": "Piccadilly",
       "reason": "Piccadilly Line: Service is not expected to resume until after 12:00hrs due to strike action.",
-      "severity": "Service Closed",
-      "source_created": "0001-01-01T00:00:00"
-    },
-    "suffragette:text:774000467a2b26d3": {
-      "category": "other",
-      "first_seen": "2026-11-27T03:05:12Z",
-      "issue_key": "suffragette:text:774000467a2b26d3",
-      "line_id": "suffragette",
-      "line_name": "Suffragette",
-      "reason": "Suffragette Line: Service will resume later this morning.",
-      "severity": "Service Closed",
-      "source_created": "0001-01-01T00:00:00"
-    },
-    "tram:text:ab9d7a64f14b787b": {
-      "category": "other",
-      "first_seen": "2026-11-27T03:05:12Z",
-      "issue_key": "tram:text:ab9d7a64f14b787b",
-      "line_id": "tram",
-      "line_name": "Tram",
-      "reason": "London Tramlink: Service will resume later this morning.",
-      "severity": "Service Closed",
+      "severity": "Suspended",
       "source_created": "0001-01-01T00:00:00"
     },
     "victoria:text:6f146256356daa52": {
@@ -167,7 +97,7 @@
       "line_id": "victoria",
       "line_name": "Victoria",
       "reason": "Victoria Line: Service is not expected to resume until after 07:00hrs due to strike action.",
-      "severity": "Service Closed",
+      "severity": "Suspended",
       "source_created": "0001-01-01T00:00:00"
     },
     "waterloo-city:text:998311062d216170": {
@@ -177,31 +107,119 @@
       "line_id": "waterloo-city",
       "line_name": "Waterloo & City",
       "reason": "Waterloo and City Line: Service is not expected to resume until after 07:00hrs due to strike action.",
+      "severity": "Suspended",
+      "source_created": "0001-01-01T00:00:00"
+    }
+  },
+  "history": [
+    {
+      "category": "other",
+      "duration_seconds": 4443,
+      "first_seen": "2026-11-27T03:05:12Z",
+      "issue_key": "dlr:text:fb244db083a3f0ff",
+      "line_id": "dlr",
+      "line_name": "DLR",
+      "reason": "Docklands Light Railway: Service will resume later this morning.",
+      "resolved_at": "2026-11-27T04:19:15Z",
       "severity": "Service Closed",
       "source_created": "0001-01-01T00:00:00"
     },
-    "weaver:text:f2dc8c00c6757e13": {
+    {
       "category": "other",
+      "duration_seconds": 4443,
+      "first_seen": "2026-11-27T03:05:12Z",
+      "issue_key": "elizabeth:text:85644759b2256fee",
+      "line_id": "elizabeth",
+      "line_name": "Elizabeth line",
+      "reason": "Service will resume later this morning.",
+      "resolved_at": "2026-11-27T04:19:15Z",
+      "severity": "Service Closed",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "other",
+      "duration_seconds": 4443,
+      "first_seen": "2026-11-27T03:05:12Z",
+      "issue_key": "liberty:text:19134079f5c98ab7",
+      "line_id": "liberty",
+      "line_name": "Liberty",
+      "reason": "Liberty Line: Service will resume later this morning.",
+      "resolved_at": "2026-11-27T04:19:15Z",
+      "severity": "Service Closed",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "other",
+      "duration_seconds": 4443,
+      "first_seen": "2026-11-27T03:05:12Z",
+      "issue_key": "lioness:text:edb0d527df87ed16",
+      "line_id": "lioness",
+      "line_name": "Lioness",
+      "reason": "Lioness Line: Service will resume later this morning.",
+      "resolved_at": "2026-11-27T04:19:15Z",
+      "severity": "Service Closed",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "other",
+      "duration_seconds": 4443,
+      "first_seen": "2026-11-27T03:05:12Z",
+      "issue_key": "mildmay:text:43f3ca710bb3792b",
+      "line_id": "mildmay",
+      "line_name": "Mildmay",
+      "reason": "Mildmay Line: Service will resume later this morning.",
+      "resolved_at": "2026-11-27T04:19:15Z",
+      "severity": "Service Closed",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "other",
+      "duration_seconds": 4443,
+      "first_seen": "2026-11-27T03:05:12Z",
+      "issue_key": "suffragette:text:774000467a2b26d3",
+      "line_id": "suffragette",
+      "line_name": "Suffragette",
+      "reason": "Suffragette Line: Service will resume later this morning.",
+      "resolved_at": "2026-11-27T04:19:15Z",
+      "severity": "Service Closed",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "other",
+      "duration_seconds": 4443,
+      "first_seen": "2026-11-27T03:05:12Z",
+      "issue_key": "tram:text:ab9d7a64f14b787b",
+      "line_id": "tram",
+      "line_name": "Tram",
+      "reason": "London Tramlink: Service will resume later this morning.",
+      "resolved_at": "2026-11-27T04:19:15Z",
+      "severity": "Service Closed",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "other",
+      "duration_seconds": 4443,
       "first_seen": "2026-11-27T03:05:12Z",
       "issue_key": "weaver:text:f2dc8c00c6757e13",
       "line_id": "weaver",
       "line_name": "Weaver",
       "reason": "Weaver Line: Service will resume later this morning.",
+      "resolved_at": "2026-11-27T04:19:15Z",
       "severity": "Service Closed",
       "source_created": "0001-01-01T00:00:00"
     },
-    "windrush:text:eb329ced32606fab": {
+    {
       "category": "other",
+      "duration_seconds": 4443,
       "first_seen": "2026-11-27T03:05:12Z",
       "issue_key": "windrush:text:eb329ced32606fab",
       "line_id": "windrush",
       "line_name": "Windrush",
       "reason": "Windrush Line: Service will resume later this morning.",
+      "resolved_at": "2026-11-27T04:19:15Z",
       "severity": "Service Closed",
       "source_created": "0001-01-01T00:00:00"
-    }
-  },
-  "history": [
+    },
     {
       "category": "other",
       "duration_seconds": 17391,
@@ -44195,6 +44213,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-11-27T03:05:12Z",
+  "updated_at": "2026-11-27T04:19:15Z",
   "version": 1
 }
