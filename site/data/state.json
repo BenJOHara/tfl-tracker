@@ -1,33 +1,33 @@
 {
   "active": {
-    "bakerloo:text:50412a5c8c442dc5": {
+    "bakerloo:text:31bf4c1a3baf2cde": {
       "category": "other",
-      "first_seen": "2026-11-27T12:20:24Z",
-      "issue_key": "bakerloo:text:50412a5c8c442dc5",
+      "first_seen": "2026-11-27T14:32:22Z",
+      "issue_key": "bakerloo:text:31bf4c1a3baf2cde",
       "line_id": "bakerloo",
       "line_name": "Bakerloo",
-      "reason": "Bakerloo Line: No service between Queen's Park and Harrow & Wealdstone due to strike action. SEVERE DELAYS on the rest of the line. Services are operating every 10 minutes.",
-      "severity": "Part Suspended",
+      "reason": "Bakerloo Line: Severe delays due to strike action. Services are operating every 10 minutes.",
+      "severity": "Severe Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "central:text:75af008decc233ca": {
+    "central:text:20f4b36d678f2b3e": {
       "category": "other",
-      "first_seen": "2026-11-27T12:20:24Z",
-      "issue_key": "central:text:75af008decc233ca",
+      "first_seen": "2026-11-27T14:32:22Z",
+      "issue_key": "central:text:20f4b36d678f2b3e",
       "line_id": "central",
       "line_name": "Central",
-      "reason": "Central Line: No service between White City and Liverpool Street due to strike action. SEVERE DELAYS on the rest of the line. Services are operating every 20 minutes.",
+      "reason": "Central Line: No service between White City and Marble Arch due to strike action. SEVERE DELAYS on the rest of the line. Services are operating every 20 minutes.",
       "severity": "Part Suspended",
       "source_created": "0001-01-01T00:00:00"
     },
-    "circle:text:b163998f9d750efd": {
+    "circle:text:fe152a67cb1aca98": {
       "category": "other",
-      "first_seen": "2026-11-27T12:20:24Z",
-      "issue_key": "circle:text:b163998f9d750efd",
+      "first_seen": "2026-11-27T14:32:22Z",
+      "issue_key": "circle:text:fe152a67cb1aca98",
       "line_id": "circle",
       "line_name": "Circle",
-      "reason": "Circle Line: No service Aldgate and Edgware Road via Embankment due to strike action. SEVERE DELAYS on the rest of the line. Services are operating every 10 minutes.",
-      "severity": "Part Suspended",
+      "reason": "Circle Line: No service due to strike action",
+      "severity": "Suspended",
       "source_created": "0001-01-01T00:00:00"
     },
     "district:text:e4250fb47ac67b09": {
@@ -40,13 +40,13 @@
       "severity": "Severe Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "hammersmith-city:text:5c9873446c80f607": {
+    "hammersmith-city:text:5b1763ed7091ee13": {
       "category": "other",
-      "first_seen": "2026-11-27T12:20:24Z",
-      "issue_key": "hammersmith-city:text:5c9873446c80f607",
+      "first_seen": "2026-11-27T14:32:22Z",
+      "issue_key": "hammersmith-city:text:5b1763ed7091ee13",
       "line_id": "hammersmith-city",
       "line_name": "Hammersmith & City",
-      "reason": "Hammersmith and City Line: Severe delays due to strike action. Services are operating every 20 minutes.",
+      "reason": "Hammersmith and City Line: Severe delays due to strike action.",
       "severity": "Severe Delays",
       "source_created": "0001-01-01T00:00:00"
     },
@@ -60,14 +60,14 @@
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "metropolitan:text:5dfc6e7a2687975d": {
+    "metropolitan:text:433017097eee63d7": {
       "category": "other",
-      "first_seen": "2026-11-27T14:01:45Z",
-      "issue_key": "metropolitan:text:5dfc6e7a2687975d",
+      "first_seen": "2026-11-27T14:32:22Z",
+      "issue_key": "metropolitan:text:433017097eee63d7",
       "line_id": "metropolitan",
       "line_name": "Metropolitan",
-      "reason": "Metropolitan Line: No service between Baker Street and Aldgate and between Chalfont & Latimer and Chesham, and SEVERE DELAYS on the rest of the line due to strike action. Services are operating between Baker Street and Uxbridge / Watford every 15 minutes, between Baker Street and Amersham every 30 minutes .",
-      "severity": "Part Suspended",
+      "reason": "Metropolitan Line: Severe delays due to strike action.",
+      "severity": "Severe Delays",
       "source_created": "0001-01-01T00:00:00"
     },
     "northern:text:ff0a37860524538d": {
@@ -112,6 +112,66 @@
     }
   },
   "history": [
+    {
+      "category": "other",
+      "duration_seconds": 7918,
+      "first_seen": "2026-11-27T12:20:24Z",
+      "issue_key": "bakerloo:text:50412a5c8c442dc5",
+      "line_id": "bakerloo",
+      "line_name": "Bakerloo",
+      "reason": "Bakerloo Line: No service between Queen's Park and Harrow & Wealdstone due to strike action. SEVERE DELAYS on the rest of the line. Services are operating every 10 minutes.",
+      "resolved_at": "2026-11-27T14:32:22Z",
+      "severity": "Part Suspended",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "other",
+      "duration_seconds": 7918,
+      "first_seen": "2026-11-27T12:20:24Z",
+      "issue_key": "central:text:75af008decc233ca",
+      "line_id": "central",
+      "line_name": "Central",
+      "reason": "Central Line: No service between White City and Liverpool Street due to strike action. SEVERE DELAYS on the rest of the line. Services are operating every 20 minutes.",
+      "resolved_at": "2026-11-27T14:32:22Z",
+      "severity": "Part Suspended",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "other",
+      "duration_seconds": 7918,
+      "first_seen": "2026-11-27T12:20:24Z",
+      "issue_key": "circle:text:b163998f9d750efd",
+      "line_id": "circle",
+      "line_name": "Circle",
+      "reason": "Circle Line: No service Aldgate and Edgware Road via Embankment due to strike action. SEVERE DELAYS on the rest of the line. Services are operating every 10 minutes.",
+      "resolved_at": "2026-11-27T14:32:22Z",
+      "severity": "Part Suspended",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "other",
+      "duration_seconds": 7918,
+      "first_seen": "2026-11-27T12:20:24Z",
+      "issue_key": "hammersmith-city:text:5c9873446c80f607",
+      "line_id": "hammersmith-city",
+      "line_name": "Hammersmith & City",
+      "reason": "Hammersmith and City Line: Severe delays due to strike action. Services are operating every 20 minutes.",
+      "resolved_at": "2026-11-27T14:32:22Z",
+      "severity": "Severe Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "other",
+      "duration_seconds": 1837,
+      "first_seen": "2026-11-27T14:01:45Z",
+      "issue_key": "metropolitan:text:5dfc6e7a2687975d",
+      "line_id": "metropolitan",
+      "line_name": "Metropolitan",
+      "reason": "Metropolitan Line: No service between Baker Street and Aldgate and between Chalfont & Latimer and Chesham, and SEVERE DELAYS on the rest of the line due to strike action. Services are operating between Baker Street and Uxbridge / Watford every 15 minutes, between Baker Street and Amersham every 30 minutes .",
+      "resolved_at": "2026-11-27T14:32:22Z",
+      "severity": "Part Suspended",
+      "source_created": "0001-01-01T00:00:00"
+    },
     {
       "category": "other",
       "duration_seconds": 6081,
@@ -44381,6 +44441,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-11-27T14:01:45Z",
+  "updated_at": "2026-11-27T14:32:22Z",
   "version": 1
 }
