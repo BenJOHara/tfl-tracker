@@ -60,13 +60,13 @@
       "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "metropolitan:text:e68ef0f09e864eb6": {
+    "metropolitan:text:5dfc6e7a2687975d": {
       "category": "other",
-      "first_seen": "2026-11-27T12:20:24Z",
-      "issue_key": "metropolitan:text:e68ef0f09e864eb6",
+      "first_seen": "2026-11-27T14:01:45Z",
+      "issue_key": "metropolitan:text:5dfc6e7a2687975d",
       "line_id": "metropolitan",
       "line_name": "Metropolitan",
-      "reason": "Metropolitan Line: No service between Baker Street and Aldgate due to strike action. SEVERE DELAYS on the rest of the line. Services are operating between Baker Street and Uxbridge / Watford every 15 minutes, between Baker Street and Amersham every 30 minutes, and between Watford and Chesham every 30 minutes. Customers travelling to Chesham are advised to go to Watford and change.",
+      "reason": "Metropolitan Line: No service between Baker Street and Aldgate and between Chalfont & Latimer and Chesham, and SEVERE DELAYS on the rest of the line due to strike action. Services are operating between Baker Street and Uxbridge / Watford every 15 minutes, between Baker Street and Amersham every 30 minutes .",
       "severity": "Part Suspended",
       "source_created": "0001-01-01T00:00:00"
     },
@@ -80,13 +80,13 @@
       "severity": "Severe Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "piccadilly:text:987ebadd7cf4da9e": {
+    "piccadilly:text:c6d4e91c30e83e70": {
       "category": "other",
-      "first_seen": "2026-11-27T12:20:24Z",
-      "issue_key": "piccadilly:text:987ebadd7cf4da9e",
+      "first_seen": "2026-11-27T14:01:45Z",
+      "issue_key": "piccadilly:text:c6d4e91c30e83e70",
       "line_id": "piccadilly",
       "line_name": "Piccadilly",
-      "reason": "Piccadilly Line: Severe delays between Arnos Grove and Cockfosters and between Acton Town and Heathrow Terminals 2&3 due to strike action. Services are operating every 25 minutes between Arnos Grove and Cockfosters and every 20 minutes between Acton Town and Heathrow Terminals 2&3. NO SERVICE on the rest of the line.",
+      "reason": "Piccadilly Line: No service between Acton Town and Uxbridge, and SEVERE DELAYS on the rest of the line due to strike action.",
       "severity": "Part Suspended",
       "source_created": "0001-01-01T00:00:00"
     },
@@ -96,8 +96,8 @@
       "issue_key": "victoria:text:c31c3b88c3893177",
       "line_id": "victoria",
       "line_name": "Victoria",
-      "reason": "Victoria Line: Minor delays due to strike action.",
-      "severity": "Minor Delays",
+      "reason": "Victoria Line: Severe delays due to strike action.",
+      "severity": "Severe Delays",
       "source_created": "0001-01-01T00:00:00"
     },
     "waterloo-city:text:008b807db32be1b9": {
@@ -112,6 +112,30 @@
     }
   },
   "history": [
+    {
+      "category": "other",
+      "duration_seconds": 6081,
+      "first_seen": "2026-11-27T12:20:24Z",
+      "issue_key": "metropolitan:text:e68ef0f09e864eb6",
+      "line_id": "metropolitan",
+      "line_name": "Metropolitan",
+      "reason": "Metropolitan Line: No service between Baker Street and Aldgate due to strike action. SEVERE DELAYS on the rest of the line. Services are operating between Baker Street and Uxbridge / Watford every 15 minutes, between Baker Street and Amersham every 30 minutes, and between Watford and Chesham every 30 minutes. Customers travelling to Chesham are advised to go to Watford and change.",
+      "resolved_at": "2026-11-27T14:01:45Z",
+      "severity": "Part Suspended",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "other",
+      "duration_seconds": 6081,
+      "first_seen": "2026-11-27T12:20:24Z",
+      "issue_key": "piccadilly:text:987ebadd7cf4da9e",
+      "line_id": "piccadilly",
+      "line_name": "Piccadilly",
+      "reason": "Piccadilly Line: Severe delays between Arnos Grove and Cockfosters and between Acton Town and Heathrow Terminals 2&3 due to strike action. Services are operating every 25 minutes between Arnos Grove and Cockfosters and every 20 minutes between Acton Town and Heathrow Terminals 2&3. NO SERVICE on the rest of the line.",
+      "resolved_at": "2026-11-27T14:01:45Z",
+      "severity": "Part Suspended",
+      "source_created": "0001-01-01T00:00:00"
+    },
     {
       "category": "other",
       "duration_seconds": 33312,
@@ -44357,6 +44381,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-11-27T12:20:24Z",
+  "updated_at": "2026-11-27T14:01:45Z",
   "version": 1
 }
