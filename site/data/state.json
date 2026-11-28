@@ -1,143 +1,83 @@
 {
   "active": {
-    "bakerloo:text:975c88cf69561d0c": {
-      "category": "other",
-      "first_seen": "2026-11-28T03:32:09Z",
-      "issue_key": "bakerloo:text:975c88cf69561d0c",
-      "line_id": "bakerloo",
-      "line_name": "Bakerloo",
-      "reason": "Bakerloo Line: Service will resume later this morning.",
-      "severity": "Service Closed",
+    "central:text:d6ee4c1f914ea8c9": {
+      "category": "train fault",
+      "first_seen": "2026-11-28T12:24:29Z",
+      "issue_key": "central:text:d6ee4c1f914ea8c9",
+      "line_id": "central",
+      "line_name": "Central",
+      "reason": "Central Line: Severe delays between White City and Ealing Broadway/West Ruislip, and between Leytonstone and Epping/Hainault via Newbury Park due to an earlier faulty train at Queensway. GOOD SERVICE on the rest of the line. Tickets are being accepted on London Buses, Chiltern and Greater Anglia services.",
+      "severity": "Severe Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "circle:text:dab9a7ee6ed1361f": {
+    "circle:text:ebd7d68b9a206152": {
       "category": "planned engineering",
-      "first_seen": "2026-11-28T03:32:09Z",
-      "issue_key": "circle:text:dab9a7ee6ed1361f",
+      "first_seen": "2026-11-28T12:24:29Z",
+      "issue_key": "circle:text:ebd7d68b9a206152",
       "line_id": "circle",
       "line_name": "Circle",
-      "reason": "Circle Line: Service will resume later this morning. There will be no service between Hammersmith and Tower Hill and between, Edgware Road to High Street Kensington due to planned engineering work.",
-      "severity": "Service Closed",
+      "reason": "Circle Line : Saturday 28 and Sunday 29 November - No service between Hammersmith and Tower Hill, Edgware Road and High Street Kensington due to planned engineering work.",
+      "severity": "Part Closure",
       "source_created": "0001-01-01T00:00:00"
     },
-    "district:text:019ace5f914d6b1e": {
-      "category": "planned engineering",
-      "first_seen": "2026-11-28T03:32:09Z",
-      "issue_key": "district:text:019ace5f914d6b1e",
+    "district:text:6b09f7c95f2d4351": {
+      "category": "other",
+      "first_seen": "2026-11-28T12:24:29Z",
+      "issue_key": "district:text:6b09f7c95f2d4351",
       "line_id": "district",
       "line_name": "District",
-      "reason": "District Line: Service will resume later this morning. There will be no service between Edgware Road and High Street Kensington due to planned engineering work.",
-      "severity": "Service Closed",
+      "reason": "DISTRICT LINE: Saturday 28 and Sunday 29 November, no service between High Street Kensington and Edgware Road. There will also be no CIRCLE LINE service on this section.",
+      "severity": "Part Closure",
       "source_created": "0001-01-01T00:00:00"
     },
-    "dlr:text:fb244db083a3f0ff": {
+    "elizabeth:text:2a32573bd3a193e3": {
       "category": "other",
-      "first_seen": "2026-11-28T03:32:09Z",
-      "issue_key": "dlr:text:fb244db083a3f0ff",
-      "line_id": "dlr",
-      "line_name": "DLR",
-      "reason": "Docklands Light Railway: Service will resume later this morning.",
-      "severity": "Service Closed",
-      "source_created": "0001-01-01T00:00:00"
-    },
-    "elizabeth:text:225736ea6d44ab5c": {
-      "category": "planned engineering",
-      "first_seen": "2026-11-28T03:32:09Z",
-      "issue_key": "elizabeth:text:225736ea6d44ab5c",
+      "first_seen": "2026-11-28T12:24:29Z",
+      "issue_key": "elizabeth:text:2a32573bd3a193e3",
       "line_id": "elizabeth",
       "line_name": "Elizabeth line",
-      "reason": "Service will resume later this morning. There will be no service between Paddington and Maidenhead / Heathrow Terminals and between, Paddington and Abbey Wood / Shenfield due to planned engineering work.",
-      "severity": "Service Closed",
+      "reason": "ELIZABETH LINE: Saturday 28 and Sunday 29 November, no service between Maidenhead / Heathrow (all terminals) and Abbey Wood / Shenfield. Use PICCADILLY LINE services between Heathrow and Central London. LONDON PADDINGTON STATION will be closed on this day, with no HEATHROW EXPRESS services. GWR services will not run between Maidenhead / Greenford and Paddington, with limited long distance services to/from Euston. There will also be no GREATER ANGLIA services on these days between Shenfield / Southend Victoria / Southminster and Liverpool Street, use CENTRAL LINE connections between Ealing Broadway, West Acton (for Acton Main Line), Central London, Liverpool Street, Stratford and Newbury Park. Replacement bus services operate, not serving Iver, please use Langley instead.",
+      "severity": "Part Closure",
       "source_created": "0001-01-01T00:00:00"
     },
-    "hammersmith-city:text:a4ca65c06ab7d73d": {
-      "category": "planned engineering",
-      "first_seen": "2026-11-28T03:32:09Z",
-      "issue_key": "hammersmith-city:text:a4ca65c06ab7d73d",
+    "hammersmith-city:text:fcee5e8aa6ea598b": {
+      "category": "other",
+      "first_seen": "2026-11-28T12:24:29Z",
+      "issue_key": "hammersmith-city:text:fcee5e8aa6ea598b",
       "line_id": "hammersmith-city",
       "line_name": "Hammersmith & City",
-      "reason": "Hammersmith and City Line: Service will NOT resume in the morning. There will be no service on the entire line due to planned engineering work.",
-      "severity": "Service Closed",
+      "reason": "HAMMERSMITH & CITY LINE: Saturday 28 and Sunday 29 November, no service on the entire line. There will also be no CIRCLE LINE service between Hammersmith / High Street Kensington and Tower Hill (via Kings Cross St Pancras). Use DISTRICT LINE services between Aldgate East and Barking.",
+      "severity": "Planned Closure",
       "source_created": "0001-01-01T00:00:00"
     },
-    "liberty:text:869ff29889a125e4": {
-      "category": "planned engineering",
-      "first_seen": "2026-11-28T03:32:09Z",
-      "issue_key": "liberty:text:869ff29889a125e4",
+    "liberty:text:36eca4f7a3bf8716": {
+      "category": "other",
+      "first_seen": "2026-11-28T12:24:29Z",
+      "issue_key": "liberty:text:36eca4f7a3bf8716",
       "line_id": "liberty",
       "line_name": "Liberty",
-      "reason": "Liberty Line: Service will NOT resume in the morning. There will be no service on the entire line due to planned engineering work.",
-      "severity": "Service Closed",
+      "reason": "LIBERTY LINE: Saturday 28 and Sunday 29 November, no service between Romford and Upminster. Use local London Buses services 165 248 and 370 instead.",
+      "severity": "Planned Closure",
       "source_created": "0001-01-01T00:00:00"
     },
-    "lioness:text:edb0d527df87ed16": {
-      "category": "other",
-      "first_seen": "2026-11-28T03:32:09Z",
-      "issue_key": "lioness:text:edb0d527df87ed16",
+    "lioness:text:0ca06513cafecf6d": {
+      "category": "train fault",
+      "first_seen": "2026-11-28T12:24:29Z",
+      "issue_key": "lioness:text:0ca06513cafecf6d",
       "line_id": "lioness",
       "line_name": "Lioness",
-      "reason": "Lioness Line: Service will resume later this morning.",
-      "severity": "Service Closed",
+      "reason": "Lioness Line: Severe delays due to an earlier faulty train at Euston. London Underground are accepting tickets via any reasonable route.",
+      "severity": "Severe Delays",
       "source_created": "0001-01-01T00:00:00"
     },
-    "metropolitan:text:a7c31ae91ef234c3": {
-      "category": "planned engineering",
-      "first_seen": "2026-11-28T03:32:09Z",
-      "issue_key": "metropolitan:text:a7c31ae91ef234c3",
+    "metropolitan:text:e0b3e126b1860c8d": {
+      "category": "other",
+      "first_seen": "2026-11-28T12:24:29Z",
+      "issue_key": "metropolitan:text:e0b3e126b1860c8d",
       "line_id": "metropolitan",
       "line_name": "Metropolitan",
-      "reason": "Metropolitan Line: Service will resume later this morning. There will be no service between Baker Street and Aldgate due to planned engineering work.",
-      "severity": "Service Closed",
-      "source_created": "0001-01-01T00:00:00"
-    },
-    "mildmay:text:43f3ca710bb3792b": {
-      "category": "other",
-      "first_seen": "2026-11-28T03:32:09Z",
-      "issue_key": "mildmay:text:43f3ca710bb3792b",
-      "line_id": "mildmay",
-      "line_name": "Mildmay",
-      "reason": "Mildmay Line: Service will resume later this morning.",
-      "severity": "Service Closed",
-      "source_created": "0001-01-01T00:00:00"
-    },
-    "northern:text:34ce55a7be3a7e9c": {
-      "category": "points failure",
-      "first_seen": "2026-11-28T03:32:09Z",
-      "issue_key": "northern:text:34ce55a7be3a7e9c",
-      "line_id": "northern",
-      "line_name": "Northern",
-      "reason": "Northern Line: No service between Stockwell and Kennington due to a points failure at Kennington. GOOD SERVICE on the rest of the line. Tickets are being accepted on London Buses.",
-      "severity": "Part Suspended",
-      "source_created": "0001-01-01T00:00:00"
-    },
-    "piccadilly:text:a461350ac6457ae1": {
-      "category": "other",
-      "first_seen": "2026-11-28T03:32:09Z",
-      "issue_key": "piccadilly:text:a461350ac6457ae1",
-      "line_id": "piccadilly",
-      "line_name": "Piccadilly",
-      "reason": "Piccadilly Line: Minor delays while we fix a signal system failure.",
-      "severity": "Minor Delays",
-      "source_created": "0001-01-01T00:00:00"
-    },
-    "suffragette:text:774000467a2b26d3": {
-      "category": "other",
-      "first_seen": "2026-11-28T03:32:09Z",
-      "issue_key": "suffragette:text:774000467a2b26d3",
-      "line_id": "suffragette",
-      "line_name": "Suffragette",
-      "reason": "Suffragette Line: Service will resume later this morning.",
-      "severity": "Service Closed",
-      "source_created": "0001-01-01T00:00:00"
-    },
-    "tram:text:ab9d7a64f14b787b": {
-      "category": "other",
-      "first_seen": "2026-11-28T03:32:09Z",
-      "issue_key": "tram:text:ab9d7a64f14b787b",
-      "line_id": "tram",
-      "line_name": "Tram",
-      "reason": "London Tramlink: Service will resume later this morning.",
-      "severity": "Service Closed",
+      "reason": "METROPOLITAN LINE: Saturday 28 and Sunday 29 November, no service between Baker Street and Aldgate. There will also be no CIRCLE or HAMMERSMITH & CITY LINE services on this section.",
+      "severity": "Part Closure",
       "source_created": "0001-01-01T00:00:00"
     },
     "waterloo-city:text:02da0890c7cbf303": {
@@ -150,24 +90,14 @@
       "severity": "Planned Closure",
       "source_created": "0001-01-01T00:00:00"
     },
-    "waterloo-city:text:1bbcac27f282d0db": {
+    "windrush:text:5e8c6e977c9b3d38": {
       "category": "other",
-      "first_seen": "2026-11-28T03:32:09Z",
-      "issue_key": "waterloo-city:text:1bbcac27f282d0db",
-      "line_id": "waterloo-city",
-      "line_name": "Waterloo & City",
-      "reason": "Waterloo and City Line: Service will resume at 06:00 on Monday.",
-      "severity": "Service Closed",
-      "source_created": "0001-01-01T00:00:00"
-    },
-    "weaver:text:f2dc8c00c6757e13": {
-      "category": "other",
-      "first_seen": "2026-11-28T03:32:09Z",
-      "issue_key": "weaver:text:f2dc8c00c6757e13",
-      "line_id": "weaver",
-      "line_name": "Weaver",
-      "reason": "Weaver Line: Service will resume later this morning.",
-      "severity": "Service Closed",
+      "first_seen": "2026-11-28T12:24:29Z",
+      "issue_key": "windrush:text:5e8c6e977c9b3d38",
+      "line_id": "windrush",
+      "line_name": "Windrush",
+      "reason": "WINDRUSH LINE: Saturday 28 and Sunday 29 November, a reduced service operates between New Cross Gate and Crystal Palace / West Croydon.",
+      "severity": "Reduced Service",
       "source_created": "0001-01-01T00:00:00"
     },
     "windrush:text:8bc3415158a790b8": {
@@ -182,6 +112,198 @@
     }
   },
   "history": [
+    {
+      "category": "other",
+      "duration_seconds": 31940,
+      "first_seen": "2026-11-28T03:32:09Z",
+      "issue_key": "bakerloo:text:975c88cf69561d0c",
+      "line_id": "bakerloo",
+      "line_name": "Bakerloo",
+      "reason": "Bakerloo Line: Service will resume later this morning.",
+      "resolved_at": "2026-11-28T12:24:29Z",
+      "severity": "Service Closed",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "planned engineering",
+      "duration_seconds": 31940,
+      "first_seen": "2026-11-28T03:32:09Z",
+      "issue_key": "circle:text:dab9a7ee6ed1361f",
+      "line_id": "circle",
+      "line_name": "Circle",
+      "reason": "Circle Line: Service will resume later this morning. There will be no service between Hammersmith and Tower Hill and between, Edgware Road to High Street Kensington due to planned engineering work.",
+      "resolved_at": "2026-11-28T12:24:29Z",
+      "severity": "Service Closed",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "planned engineering",
+      "duration_seconds": 31940,
+      "first_seen": "2026-11-28T03:32:09Z",
+      "issue_key": "district:text:019ace5f914d6b1e",
+      "line_id": "district",
+      "line_name": "District",
+      "reason": "District Line: Service will resume later this morning. There will be no service between Edgware Road and High Street Kensington due to planned engineering work.",
+      "resolved_at": "2026-11-28T12:24:29Z",
+      "severity": "Service Closed",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "other",
+      "duration_seconds": 31940,
+      "first_seen": "2026-11-28T03:32:09Z",
+      "issue_key": "dlr:text:fb244db083a3f0ff",
+      "line_id": "dlr",
+      "line_name": "DLR",
+      "reason": "Docklands Light Railway: Service will resume later this morning.",
+      "resolved_at": "2026-11-28T12:24:29Z",
+      "severity": "Service Closed",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "planned engineering",
+      "duration_seconds": 31940,
+      "first_seen": "2026-11-28T03:32:09Z",
+      "issue_key": "elizabeth:text:225736ea6d44ab5c",
+      "line_id": "elizabeth",
+      "line_name": "Elizabeth line",
+      "reason": "Service will resume later this morning. There will be no service between Paddington and Maidenhead / Heathrow Terminals and between, Paddington and Abbey Wood / Shenfield due to planned engineering work.",
+      "resolved_at": "2026-11-28T12:24:29Z",
+      "severity": "Service Closed",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "planned engineering",
+      "duration_seconds": 31940,
+      "first_seen": "2026-11-28T03:32:09Z",
+      "issue_key": "hammersmith-city:text:a4ca65c06ab7d73d",
+      "line_id": "hammersmith-city",
+      "line_name": "Hammersmith & City",
+      "reason": "Hammersmith and City Line: Service will NOT resume in the morning. There will be no service on the entire line due to planned engineering work.",
+      "resolved_at": "2026-11-28T12:24:29Z",
+      "severity": "Service Closed",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "planned engineering",
+      "duration_seconds": 31940,
+      "first_seen": "2026-11-28T03:32:09Z",
+      "issue_key": "liberty:text:869ff29889a125e4",
+      "line_id": "liberty",
+      "line_name": "Liberty",
+      "reason": "Liberty Line: Service will NOT resume in the morning. There will be no service on the entire line due to planned engineering work.",
+      "resolved_at": "2026-11-28T12:24:29Z",
+      "severity": "Service Closed",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "other",
+      "duration_seconds": 31940,
+      "first_seen": "2026-11-28T03:32:09Z",
+      "issue_key": "lioness:text:edb0d527df87ed16",
+      "line_id": "lioness",
+      "line_name": "Lioness",
+      "reason": "Lioness Line: Service will resume later this morning.",
+      "resolved_at": "2026-11-28T12:24:29Z",
+      "severity": "Service Closed",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "planned engineering",
+      "duration_seconds": 31940,
+      "first_seen": "2026-11-28T03:32:09Z",
+      "issue_key": "metropolitan:text:a7c31ae91ef234c3",
+      "line_id": "metropolitan",
+      "line_name": "Metropolitan",
+      "reason": "Metropolitan Line: Service will resume later this morning. There will be no service between Baker Street and Aldgate due to planned engineering work.",
+      "resolved_at": "2026-11-28T12:24:29Z",
+      "severity": "Service Closed",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "other",
+      "duration_seconds": 31940,
+      "first_seen": "2026-11-28T03:32:09Z",
+      "issue_key": "mildmay:text:43f3ca710bb3792b",
+      "line_id": "mildmay",
+      "line_name": "Mildmay",
+      "reason": "Mildmay Line: Service will resume later this morning.",
+      "resolved_at": "2026-11-28T12:24:29Z",
+      "severity": "Service Closed",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "points failure",
+      "duration_seconds": 31940,
+      "first_seen": "2026-11-28T03:32:09Z",
+      "issue_key": "northern:text:34ce55a7be3a7e9c",
+      "line_id": "northern",
+      "line_name": "Northern",
+      "reason": "Northern Line: No service between Stockwell and Kennington due to a points failure at Kennington. GOOD SERVICE on the rest of the line. Tickets are being accepted on London Buses.",
+      "resolved_at": "2026-11-28T12:24:29Z",
+      "severity": "Part Suspended",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "other",
+      "duration_seconds": 31940,
+      "first_seen": "2026-11-28T03:32:09Z",
+      "issue_key": "piccadilly:text:a461350ac6457ae1",
+      "line_id": "piccadilly",
+      "line_name": "Piccadilly",
+      "reason": "Piccadilly Line: Minor delays while we fix a signal system failure.",
+      "resolved_at": "2026-11-28T12:24:29Z",
+      "severity": "Minor Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "other",
+      "duration_seconds": 31940,
+      "first_seen": "2026-11-28T03:32:09Z",
+      "issue_key": "suffragette:text:774000467a2b26d3",
+      "line_id": "suffragette",
+      "line_name": "Suffragette",
+      "reason": "Suffragette Line: Service will resume later this morning.",
+      "resolved_at": "2026-11-28T12:24:29Z",
+      "severity": "Service Closed",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "other",
+      "duration_seconds": 31940,
+      "first_seen": "2026-11-28T03:32:09Z",
+      "issue_key": "tram:text:ab9d7a64f14b787b",
+      "line_id": "tram",
+      "line_name": "Tram",
+      "reason": "London Tramlink: Service will resume later this morning.",
+      "resolved_at": "2026-11-28T12:24:29Z",
+      "severity": "Service Closed",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "other",
+      "duration_seconds": 31940,
+      "first_seen": "2026-11-28T03:32:09Z",
+      "issue_key": "waterloo-city:text:1bbcac27f282d0db",
+      "line_id": "waterloo-city",
+      "line_name": "Waterloo & City",
+      "reason": "Waterloo and City Line: Service will resume at 06:00 on Monday.",
+      "resolved_at": "2026-11-28T12:24:29Z",
+      "severity": "Service Closed",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "other",
+      "duration_seconds": 31940,
+      "first_seen": "2026-11-28T03:32:09Z",
+      "issue_key": "weaver:text:f2dc8c00c6757e13",
+      "line_id": "weaver",
+      "line_name": "Weaver",
+      "reason": "Weaver Line: Service will resume later this morning.",
+      "resolved_at": "2026-11-28T12:24:29Z",
+      "severity": "Service Closed",
+      "source_created": "0001-01-01T00:00:00"
+    },
     {
       "category": "other",
       "duration_seconds": 21582,
@@ -44739,6 +44861,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-11-28T04:19:46Z",
+  "updated_at": "2026-11-28T12:24:29Z",
   "version": 1
 }
