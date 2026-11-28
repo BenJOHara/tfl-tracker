@@ -1,13 +1,13 @@
 {
   "active": {
-    "central:text:d6ee4c1f914ea8c9": {
+    "central:text:b94029a3e90a54a0": {
       "category": "train fault",
-      "first_seen": "2026-11-28T12:24:29Z",
-      "issue_key": "central:text:d6ee4c1f914ea8c9",
+      "first_seen": "2026-11-28T13:16:42Z",
+      "issue_key": "central:text:b94029a3e90a54a0",
       "line_id": "central",
       "line_name": "Central",
-      "reason": "Central Line: Severe delays between White City and Ealing Broadway/West Ruislip, and between Leytonstone and Epping/Hainault via Newbury Park due to an earlier faulty train at Queensway. GOOD SERVICE on the rest of the line. Tickets are being accepted on London Buses, Chiltern and Greater Anglia services.",
-      "severity": "Severe Delays",
+      "reason": "Central Line: Minor delays between White City and Ealing Broadway/West Ruislip, and between Leytonstone and Epping/Hainault via Newbury Park due to an earlier faulty train at Queensway. GOOD SERVICE on the rest of the line.",
+      "severity": "Minor Delays",
       "source_created": "0001-01-01T00:00:00"
     },
     "circle:text:ebd7d68b9a206152": {
@@ -60,16 +60,6 @@
       "severity": "Planned Closure",
       "source_created": "0001-01-01T00:00:00"
     },
-    "lioness:text:0ca06513cafecf6d": {
-      "category": "train fault",
-      "first_seen": "2026-11-28T12:24:29Z",
-      "issue_key": "lioness:text:0ca06513cafecf6d",
-      "line_id": "lioness",
-      "line_name": "Lioness",
-      "reason": "Lioness Line: Severe delays due to an earlier faulty train at Euston. London Underground are accepting tickets via any reasonable route.",
-      "severity": "Severe Delays",
-      "source_created": "0001-01-01T00:00:00"
-    },
     "metropolitan:text:e0b3e126b1860c8d": {
       "category": "other",
       "first_seen": "2026-11-28T12:24:29Z",
@@ -112,6 +102,30 @@
     }
   },
   "history": [
+    {
+      "category": "train fault",
+      "duration_seconds": 3133,
+      "first_seen": "2026-11-28T12:24:29Z",
+      "issue_key": "central:text:d6ee4c1f914ea8c9",
+      "line_id": "central",
+      "line_name": "Central",
+      "reason": "Central Line: Severe delays between White City and Ealing Broadway/West Ruislip, and between Leytonstone and Epping/Hainault via Newbury Park due to an earlier faulty train at Queensway. GOOD SERVICE on the rest of the line. Tickets are being accepted on London Buses, Chiltern and Greater Anglia services.",
+      "resolved_at": "2026-11-28T13:16:42Z",
+      "severity": "Severe Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
+    {
+      "category": "train fault",
+      "duration_seconds": 3133,
+      "first_seen": "2026-11-28T12:24:29Z",
+      "issue_key": "lioness:text:0ca06513cafecf6d",
+      "line_id": "lioness",
+      "line_name": "Lioness",
+      "reason": "Lioness Line: Severe delays due to an earlier faulty train at Euston. London Underground are accepting tickets via any reasonable route.",
+      "resolved_at": "2026-11-28T13:16:42Z",
+      "severity": "Severe Delays",
+      "source_created": "0001-01-01T00:00:00"
+    },
     {
       "category": "other",
       "duration_seconds": 31940,
@@ -44861,6 +44875,6 @@
       "source_created": "0001-01-01T00:00:00"
     }
   ],
-  "updated_at": "2026-11-28T12:24:29Z",
+  "updated_at": "2026-11-28T13:16:42Z",
   "version": 1
 }
